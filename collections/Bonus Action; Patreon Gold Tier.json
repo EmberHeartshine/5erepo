@@ -836,49 +836,49 @@
 		{
 			"name": "Planeshifter's Infection",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Planeshifter's infection} is caused by a bacterium that thrives in the portals between planes of existence. When a creature travels through such an infected portal they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Dizziness and hallucinations of vibrant colored lights, sometimes accompanied by out-of-body experiences into other planes.",
+				"{@b Effects:} All attack rolls are made with disadvantage. When the creature rolls a natural 1 on an attack roll they are {@condition stunned} for 1 round as their vision abruptly shifts to a random plane of existence.",
+				"{@b Cure:} {@spell Lesser restoration} or taking a long rest is enough to restore a plane traveller's equilibrium."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Purple Scurvy",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Purple scurvy} is a heriditary disease seen in some {@creature goblin|mm|goblinoid} creatures, {@creature orc|mm|orcs), and {@creature kobold|mm|kobolds}. When an infected creature eats a citrus fruit they must make a Constitution saving throw (DC 20). On a failed save they experience the following:",
+				"{@b Symptoms:} A purple rash on the face and arms. Loud belching sometimes accompanied by vomiting.",
+				"{@b Effects:} Disadvantage on all Stealth, Deception, Persuasion, Intimidation and Performance checks.",
+				"{@b Cure:} The disease resolves on its own in {@dice 1d4} days but can instantly be cured by {@spell lesser restoration}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Queen's Skin",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Queen's skin} is a heriditary disease seen often in humanoid nobles and royal families. The disease occurs in approximately 2% of the nobility. Symptoms develop approximately {@dice 2d10} years after the humanoid reaches adulthood.",
+				"{@b Symptoms:} Pale and sensitive skin. Tiny beads of blood appear occasionally on the skin, with no wound or injury.",
+				"{@b Effects:} An afflicted creature has vulnerability to piercing and slashing damage.",
+				"{@b Cure:} {@i Queen's skin} can only be cured by {@spell greater restoration} or similarly-powerful healing magic."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Red Rose Virus",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Red rose virus} is caused by flowers (most often roses, but not necessarily) that grow in places that have been affected by necromantic energy or magic that draws from the plane of negative energy. When a creature comes into contact with these flowers they must make a Constitution saving throw (DC 18). On a failed save they experience the following:",
+				"{@b Symptoms:} The creature smells faintly of roses and their fingertips turn a dark burgundy red, as if covered in blood.",
+				"{@b Effects:} The afflicted creature suffers vulnerability to necrotic damage, and all healing spells the creature casts only heal for half the amount. Healing magic functions on the creature as usual.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Red Shock",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
+				"{@b Source:} Some {@creature stirge|mm|stirges} carry a nasty disease known as {@i red shock}. When a creature is hit by an infected stirge's blood drain attack they must make a Constitution saving throw (DC 12). The DC increases by 1 for each round the stirge is attached to the creature. On a failed save they experience the following:",
+				"{@b Symptoms:} The creature's eyes immediately turn red, foaming at the mouth and acting aggressively. They eventually become {@condition paralyzed}.",
+				"{@b Effects:} The creature enters a frenzied state for {@dice 1d6} rounds, attacking the nearest creature to it with reckless abandon. Each melee weapon attack roll they make has advantage, but all attacks against them also have advantage. After thethe frenzy wears off they become paralyzed and gain 1 point of {@condition exhaustion}.",
 				"{@b Cure:} "
 			],
 			"source": "bag"
@@ -886,20 +886,20 @@
 		{
 			"name": "Regenerative Combustion Disorder",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} A hereditary disease seen mostly in fiends, {@race genasi (fire)|eepc|fire genasi} and other creatures that have lived for a prolonged period of time in the elemental plane of fire. When an infected creature is healed more hitpoints than their maximum health by a spell, they must roll a Wisdom saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Smoke trickles out of the pores of the skin. Their eyes turn a bright orange as the healing spell takes effect. A blast wave then erupts from the creature, damaging everything around them.",
+				"{@b Effects:} A wave of sparks blows outward from the creature in a 15-foot radius. All creatures in this radius (except for the afflicted creature) must make a Dexterity saving throw (DC 15) or take {@dice 1d8} + an amount equal to overhealed hit points fire damage.",
+				"{@b Cure:} Most cases of {@i regenerative combustion disorder} that have been cured {@spell wish|phb|wished} it away. An Arcana check (DC 18) also reveals that casting {@spell greater restoration} while drinking a {@item potion of fire resistance} can treat this disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Roseheart",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Drinking spoiled wine may cause an anxiety condition known as {@i roseheart}. When a creature drinks tained wine they must make a Wisdom saving throw (DC 13). On a failed save they experience the following:",
+				"{@b Symptoms:} Increased heart rate, high blood pressure, and extreme, uncontrollable anxiety. Their face may take on a cherubesque rosy appearance.",
+				"{@b Effects:} Whenever a creature takes a short rest, roll {@dice 1d6}. The result determines the maximum number of hit dice they may spend to heal during that short rest.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level will cure the condition. A Nature check (DC 15) reveals that inhaling powdered rose leaves through the nose negates the effects of the disease for one short rest, but is extremely painful."
 			],
 			"source": "bag"
 		},
