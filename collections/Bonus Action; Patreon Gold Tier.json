@@ -22,410 +22,410 @@
 		{
 			"name": "Abyssal Warts",
 			"entries": [
-				"{@bold Source:} The disease is usually carried by demonic entities. When a humanoid comes into contact with the blood or saliva of an infected creature they have a chance of contracting the disease themselves. When this happens the creature rolls a Constitution saving throw (DC 15). On a failed save they will experience the following:",
-				"{@bold Symptoms:} In the first few hours, dark spots will appear on the upper arms. These spots turn into bulbous warts over the course of approximately a day. The creature suffers from a loss of bodily strength in general. When the creature has been suffering from this disease for more than 2 weeks, they experience a severe loss of vitality.",
-				"{@bold Effects:} Disadvantage on Strength and Constitution saving throws. After 2 weeks of infection the creature loses {@dice 1d10} of their hit point maximum. This repeats every two weeks until the disease is cured or the creature dies.",
-				"{@bold Cure:} {@spell Lesser restoration} or a cure of similar level or higher. A Medicine check (DC 12) reveals that burning the warts off with hot metal and resting for 2 days will also heal the disease's effects. After hit point loss occurs, only {@spell greater restoration} will restore them."
+				"{@b Source:} The disease is usually carried by demonic entities. When a humanoid comes into contact with the blood or saliva of an infected creature they have a chance of contracting the disease themselves. When this happens the creature rolls a Constitution saving throw (DC 15). On a failed save they will experience the following:",
+				"{@b Symptoms:} In the first few hours, dark spots will appear on the upper arms. These spots turn into bulbous warts over the course of approximately a day. The creature suffers from a loss of bodily strength in general. When the creature has been suffering from this disease for more than 2 weeks, they experience a severe loss of vitality.",
+				"{@b Effects:} Disadvantage on Strength and Constitution saving throws. After 2 weeks of infection the creature loses {@dice 1d10} of their hit point maximum. This repeats every two weeks until the disease is cured or the creature dies.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of similar level or higher. A Medicine check (DC 12) reveals that burning the warts off with hot metal and resting for 2 days will also heal the disease's effects. After hit point loss occurs, only {@spell greater restoration} will restore them."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Acute Petrifying Syndrome",
 			"entries": [
-				"{@bold Source:} A creature that has been petrified by any spell or creature whilst frightened might have remnants of the petrifying magic left in their body. When a creature has been cured of a condition causing petrification, roll {@dice 1d20}. On a 1 they contract this disease and experience the following:",
-				"{@bold Symptoms:} The creature seems normal in their day-to-day activities as the illness lies dormant. Some days they may experience some stiffness in their limbs, but nothing that seems too serious. When a creature becomes {@condition frightened} by anything, however, they will start to {@condition petrified|phb|petrify} instead.",
-				"{@bold Effects:} When a creature becomes rightened they start to petrify. At the end of their next turn, they will become fully petrified unless they are no longer frightened.",
-				"{@bold Cure:} The ailment can be cured by a {@spell remove curse} or {@spell greater restoration} spell. The petrification itself can be cured by any means which would normally restore a creature."
+				"{@b Source:} A creature that has been petrified by any spell or creature whilst frightened might have remnants of the petrifying magic left in their body. When a creature has been cured of a condition causing petrification, roll {@dice 1d20}. On a 1 they contract this disease and experience the following:",
+				"{@b Symptoms:} The creature seems normal in their day-to-day activities as the illness lies dormant. Some days they may experience some stiffness in their limbs, but nothing that seems too serious. When a creature becomes {@condition frightened} by anything, however, they will start to {@condition petrified|phb|petrify} instead.",
+				"{@b Effects:} When a creature becomes rightened they start to petrify. At the end of their next turn, they will become fully petrified unless they are no longer frightened.",
+				"{@b Cure:} The ailment can be cured by a {@spell remove curse} or {@spell greater restoration} spell. The petrification itself can be cured by any means which would normally restore a creature."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Affliction of Crystalline Growth",
 			"entries": [
-				"{@bold Source:} Often seen in {@race dwarf|phb|dwarves} and creatures that dwell in deep mines. It is believed that this crystalline parasite is contracted by inhaling gemstone dust. When a mine collapses and creatures breathe the dust in the air, there is a chance the parasite may infect them. On a failed Constitution saving throw (DC 10) they experience the following:",
-				"{@bold Symptoms:} The creature starts to grow colorless crystals in their body. When these reach a certain size they pierce the skin and/or internal organs, usually after a month if the disease is left untreated.",
-				"{@bold Effects:} Whenever the creature has to make a Dexterity saving throw or an Acrobatics check they automatically suffer {@dice 1d6} piercing damage as the crystals pierce their flesh. After each month that passes without a cure, the damage increases by an additional {@dice 1d6}.",
-				"{@bold Cure:} {@spell Lesser restoration}. A Medicine check (DC 12) reveals that any cure that would restore petrification also heals this disease. Dwarves and other creatures that live underground have advantage on this check."
+				"{@b Source:} Often seen in {@race dwarf|phb|dwarves} and creatures that dwell in deep mines. It is believed that this crystalline parasite is contracted by inhaling gemstone dust. When a mine collapses and creatures breathe the dust in the air, there is a chance the parasite may infect them. On a failed Constitution saving throw (DC 10) they experience the following:",
+				"{@b Symptoms:} The creature starts to grow colorless crystals in their body. When these reach a certain size they pierce the skin and/or internal organs, usually after a month if the disease is left untreated.",
+				"{@b Effects:} Whenever the creature has to make a Dexterity saving throw or an Acrobatics check they automatically suffer {@dice 1d6} piercing damage as the crystals pierce their flesh. After each month that passes without a cure, the damage increases by an additional {@dice 1d6}.",
+				"{@b Cure:} {@spell Lesser restoration}. A Medicine check (DC 12) reveals that any cure that would restore petrification also heals this disease. Dwarves and other creatures that live underground have advantage on this check."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Aggressive Fatigue Disorder",
 			"entries": [
-				"{@bold Source:} {@italic Aggressive fatigue disorder} may be a genetic disease that appears in the adult years of humanoids, but also sometimes appears for unknown reasons amongst warriors or soldiers of all races. It may be triggered when a creature neglects their rest. When a creature suffers more than 2 points of {@condition exhaustion} 4 times within one month must roll a Constitution saving throw (DC 18). On a failed save they will experience the following:",
-				"{@bold Symptoms:} Tired most of the time, but especially after any type of battle or fight.",
-				"{@bold Effects:} When combat ends the diseased receives one point of exhaustion, regardless of their physical participation. They only gain one point of exhaustion in this manner every hour",
-				"{@bold Cure:} Taking a prolonged rest by spending at least 7 consecutive days without fighting or physical exertion in any way. Magic such as {@spell greater restoration} may remove the exaustion, but will not cure this disease."
+				"{@b Source:} {@i Aggressive fatigue disorder} may be a genetic disease that appears in the adult years of humanoids, but also sometimes appears for unknown reasons amongst warriors or soldiers of all races. It may be triggered when a creature neglects their rest. When a creature suffers more than 2 points of {@condition exhaustion} 4 times within one month must roll a Constitution saving throw (DC 18). On a failed save they will experience the following:",
+				"{@b Symptoms:} Tired most of the time, but especially after any type of battle or fight.",
+				"{@b Effects:} When combat ends the diseased receives one point of exhaustion, regardless of their physical participation. They only gain one point of exhaustion in this manner every hour",
+				"{@b Cure:} Taking a prolonged rest by spending at least 7 consecutive days without fighting or physical exertion in any way. Magic such as {@spell greater restoration} may remove the exaustion, but will not cure this disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Arcane Blisters",
 			"entries": [
-				"{@bold Source:} A magic user that burns up all their magical energy every day for extended periods of time has a chance to suffer from {@italic arcane blisters.} It is also a common sight amongst pyromancers and other magic practitioners specializing in fire magic. When a creature rolls a 1 on the {@dice d20} for a spell attack roll on a spell that would deal fire damage more than once per day, they roll a Constitution saving throw (DC 18). On a failed save they experience the following:",
-				"{@bold Symptoms:} Any exposed skin of the creature sparkles in (sun)light and is tender to the touch.",
-				"{@bold Effects:} Whenever the creature casts a spell that would deal fire damage, they suffer {@dice 1d4} fire damage as well.",
-				"{@bold Cure:} An Intelligence (nature) or Intelligence (arcana) skill check (DC 15) allows a character to recall the ingredients for an ointment which soothes and heals the skin. The ointment is made by mixing any healing potion with lard and ash. The ointment has to be applied daily for 3 consecutive days to fully heal the disease. Any type of spell that would cure disease (such as {@spell lesser restoration} fails, and the caster must make their own Constitution saving throw to avoid catching the disease."
+				"{@b Source:} A magic user that burns up all their magical energy every day for extended periods of time has a chance to suffer from {@i arcane blisters.} It is also a common sight amongst pyromancers and other magic practitioners specializing in fire magic. When a creature rolls a 1 on the {@dice d20} for a spell attack roll on a spell that would deal fire damage more than once per day, they roll a Constitution saving throw (DC 18). On a failed save they experience the following:",
+				"{@b Symptoms:} Any exposed skin of the creature sparkles in (sun)light and is tender to the touch.",
+				"{@b Effects:} Whenever the creature casts a spell that would deal fire damage, they suffer {@dice 1d4} fire damage as well.",
+				"{@b Cure:} An Intelligence (nature) or Intelligence (arcana) skill check (DC 15) allows a character to recall the ingredients for an ointment which soothes and heals the skin. The ointment is made by mixing any healing potion with lard and ash. The ointment has to be applied daily for 3 consecutive days to fully heal the disease. Any type of spell that would cure disease (such as {@spell lesser restoration} fails, and the caster must make their own Constitution saving throw to avoid catching the disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Arcane Disconnection",
 			"entries": [
-				"{@bold Source:} {@italic Arcane disconnection} is caused by an airborne virus that settles in the brain of a creature. It is commonly found in antimagic zones and the tombs of {@creature lich|mm|liches}. When a creature comes into contact with the air the virus is in they must make an Intelligence saving throw against their own spell save DC. On failure, they contract this disease. If they are not a spellcaster they automatically succeed.",
-				"{@bold Symptoms:} The connection of the creature to their magic seems harder to reach, and their spells seem weaker.",
-				"{@bold Effects:} Whenever the creature would restore spell slots, they roll {@dice 1d8}. They do not recover any spell slots of that level or higher. For example: if they roll a 2 they only recover their 1st-level spell slots.",
-				"{@bold Cure:} Depending on the source of the creature's magic they may pray, commune with nature or travel to the plane where the source of their magic lies. Usually spending about 24 hours in such ways restores the creature's connection to their magic fully. {@spell Greater restoration} can also restore the creature's connection, but a spellcaster cannot cure themselves in this manner."
+				"{@b Source:} {@i Arcane disconnection} is caused by an airborne virus that settles in the brain of a creature. It is commonly found in antimagic zones and the tombs of {@creature lich|mm|liches}. When a creature comes into contact with the air the virus is in they must make an Intelligence saving throw against their own spell save DC. On failure, they contract this disease. If they are not a spellcaster they automatically succeed.",
+				"{@b Symptoms:} The connection of the creature to their magic seems harder to reach, and their spells seem weaker.",
+				"{@b Effects:} Whenever the creature would restore spell slots, they roll {@dice 1d8}. They do not recover any spell slots of that level or higher. For example: if they roll a 2 they only recover their 1st-level spell slots.",
+				"{@b Cure:} Depending on the source of the creature's magic they may pray, commune with nature or travel to the plane where the source of their magic lies. Usually spending about 24 hours in such ways restores the creature's connection to their magic fully. {@spell Greater restoration} can also restore the creature's connection, but a spellcaster cannot cure themselves in this manner."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Ash Cough",
 			"entries": [
-				"{@bold Source:} {@italic Ash cough} is a virus that is common amongst people living in unsanitary conditions. It is most common in slums and poor (districts of) cities. When a creature spends at least 1 month in such conditions they must make a Constitution saving throw (DC 5). The DC increases by 1 for each additional month they spend in these conditions. On a failed save they experience the following:",
-				"{@bold Symptoms:} The infected creature coughs often and their voice becomes slightly raspy. When they cough into their hand or handkerchief it often leaves a dark residue.",
-				"{@bold Effects:} Creatures suffering from ash cough cannot receive any benefits from a short rest and their hit point maximum is reduced by 1. Every day they remain sick their hit point maximum is reduced by an additional 1 hit point to a minimum of 1.",
-				"{@bold Cure:} {@spell Lesser restoration}. A Medicine check (DC 5) reveals that bathing twice per day, drinking plenty of clean water and resting for at least a week cures the disease as well."
+				"{@b Source:} {@i Ash cough} is a virus that is common amongst people living in unsanitary conditions. It is most common in slums and poor (districts of) cities. When a creature spends at least 1 month in such conditions they must make a Constitution saving throw (DC 5). The DC increases by 1 for each additional month they spend in these conditions. On a failed save they experience the following:",
+				"{@b Symptoms:} The infected creature coughs often and their voice becomes slightly raspy. When they cough into their hand or handkerchief it often leaves a dark residue.",
+				"{@b Effects:} Creatures suffering from ash cough cannot receive any benefits from a short rest and their hit point maximum is reduced by 1. Every day they remain sick their hit point maximum is reduced by an additional 1 hit point to a minimum of 1.",
+				"{@b Cure:} {@spell Lesser restoration}. A Medicine check (DC 5) reveals that bathing twice per day, drinking plenty of clean water and resting for at least a week cures the disease as well."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Astral Scarring",
 			"entries": [
-				"{@bold Source:} Creatures native to the material plane are vulnerable to scarring caused by certain types of weapons and creatures from the astral plane, as well as being wounded while on the astral plane. When a creature native to the material plane is hit with an attack by a creature from the astral plane (or is hit by any attack while on the astral plane), they must roll a Constitution saving throw (DC 10). If the creature is critically hit the DC increases to 15. On a failed save they will experience the following (symptoms do not show until the creature has healed back to their maximum hit points):",
-				"{@bold Symptoms:}  Lightning patterned scarring outward from the location of the wound, which spreads over the entire body.",
-				"{@bold Effects:} The creature becomes vulnerable to force, lightning and thunder damage.",
-				"{@bold Cure:}  Casting {@spell lesser restoration} or {@spell remove curse} once per day for 3 consecutive days dissolves the scars. The first casting cures force vulnerability, the second casting cures lightning vulnerability, and the final casting cures thunder vulnerability."
+				"{@b Source:} Creatures native to the material plane are vulnerable to scarring caused by certain types of weapons and creatures from the astral plane, as well as being wounded while on the astral plane. When a creature native to the material plane is hit with an attack by a creature from the astral plane (or is hit by any attack while on the astral plane), they must roll a Constitution saving throw (DC 10). If the creature is critically hit the DC increases to 15. On a failed save they will experience the following (symptoms do not show until the creature has healed back to their maximum hit points):",
+				"{@b Symptoms:}  Lightning patterned scarring outward from the location of the wound, which spreads over the entire body.",
+				"{@b Effects:} The creature becomes vulnerable to force, lightning and thunder damage.",
+				"{@b Cure:}  Casting {@spell lesser restoration} or {@spell remove curse} once per day for 3 consecutive days dissolves the scars. The first casting cures force vulnerability, the second casting cures lightning vulnerability, and the final casting cures thunder vulnerability."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Autumn Blight",
 			"entries": [
-				"{@bold Source:} This disease is usually carried by insects in woods and forests. The disease can also be contracted by trees, causing leaves to turn brown and wither regardless of season. Creatures might contract the {@italic autumn blight} by being bitten by an infected insect or spending more than 8 hours in proximity to an infected tree or in an infected forest. In either case they must make a Constitution saving throw (DC 15). For each subsequent insect bite or 2 hours spent, the saving throw is repeated and increases by 1 (up to a maximum DC of 20). On a failed save they will experience the following:",
-				"{@bold Symptoms:} Dark rings under the eyes, brittle hair and nails. Shortness of breath and lowered energy.",
-				"{@bold Effects:} Disadvantage on Athletics and Acrobatics checks. The creature's movement speed is reduced by 10 feet.} ",
-				"{@bold Cure:} A simple {@item potion of healing|phb} or {@spell lesser restoration}. Any spell or item that removes poison can also cure this illness."
+				"{@b Source:} This disease is usually carried by insects in woods and forests. The disease can also be contracted by trees, causing leaves to turn brown and wither regardless of season. Creatures might contract the {@i autumn blight} by being bitten by an infected insect or spending more than 8 hours in proximity to an infected tree or in an infected forest. In either case they must make a Constitution saving throw (DC 15). For each subsequent insect bite or 2 hours spent, the saving throw is repeated and increases by 1 (up to a maximum DC of 20). On a failed save they will experience the following:",
+				"{@b Symptoms:} Dark rings under the eyes, brittle hair and nails. Shortness of breath and lowered energy.",
+				"{@b Effects:} Disadvantage on Athletics and Acrobatics checks. The creature's movement speed is reduced by 10 feet.} ",
+				"{@b Cure:} A simple {@item potion of healing|phb} or {@spell lesser restoration}. Any spell or item that removes poison can also cure this illness."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Avian Delusion",
 			"entries": [
-				"{@bold Source:} It is believed that so-called {@italic avian delusions} are caused by a virus carried by diseased birds and birdlike creatures. Coming into close contact with one of these creatures and not bathing within 12 hours after contact is enough to catch the disease. When this happens, a creature rolls a Constitution saving throw (DC 20). On a failed save they will experience the following:",
-				"{@bold Symptoms:} Lowered concentration paired with hallucinations of birds flying outside the peripheral vision. Constricted pupils and an immense hunger for bread(crumbs) and seeds.",
-				"{@bold Effects:} The creature is unable to cast any spells that require concentration.",
-				"{@bold Cure:} {@spell Greater restoration}, {@spell remove curse} or a tonic of special herbs. The herbs needed can be recalled with a successful Nature check (DC 16) and can be found in forests near lakes and rivers."
+				"{@b Source:} It is believed that so-called {@i avian delusions} are caused by a virus carried by diseased birds and birdlike creatures. Coming into close contact with one of these creatures and not bathing within 12 hours after contact is enough to catch the disease. When this happens, a creature rolls a Constitution saving throw (DC 20). On a failed save they will experience the following:",
+				"{@b Symptoms:} Lowered concentration paired with hallucinations of birds flying outside the peripheral vision. Constricted pupils and an immense hunger for bread(crumbs) and seeds.",
+				"{@b Effects:} The creature is unable to cast any spells that require concentration.",
+				"{@b Cure:} {@spell Greater restoration}, {@spell remove curse} or a tonic of special herbs. The herbs needed can be recalled with a successful Nature check (DC 16) and can be found in forests near lakes and rivers."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Bloodrot",
 			"entries": [
-				"{@bold Source:} {@italic Bloodrot} is often found in creatures that dwell in humid caves or interact with {@creature myconid adult|mm|myconids} on a regular basis. The most common way to contract bloodrot is by coming into direct contact with stagnant water in mushroom-filled caves. If a creature comes into contact with such water they must make a Constitution saving throw (DC 15). If they have open wounds or swallow/breathe the water they make this saving throw with disadvantage. On a failed save they experience the following:",
-				"{@bold Symptoms:} A loss of vitality, pale gray skin and a generally slow demeanor.",
-				"{@bold Effects:}  The creature's hit point maximum is lowered by {@dice 2d8} to a minimum of 1. They also have disadvantage on Intimidation and Persuasion checks as their slugishness makes it hard for others to take them seriously.",
-				"{@bold Cure:} {@spell Greater restoration} will cure the disease and restore lost maximum hit points. A Nature check (DC 10) reveals that a mushroom soup can also be brewed to heal bloodrot, but will not restore the lost hit points. This soup is made from the mushrooms that grow in the caves where the disease can be contracted."
+				"{@b Source:} {@i Bloodrot} is often found in creatures that dwell in humid caves or interact with {@creature myconid adult|mm|myconids} on a regular basis. The most common way to contract bloodrot is by coming into direct contact with stagnant water in mushroom-filled caves. If a creature comes into contact with such water they must make a Constitution saving throw (DC 15). If they have open wounds or swallow/breathe the water they make this saving throw with disadvantage. On a failed save they experience the following:",
+				"{@b Symptoms:} A loss of vitality, pale gray skin and a generally slow demeanor.",
+				"{@b Effects:}  The creature's hit point maximum is lowered by {@dice 2d8} to a minimum of 1. They also have disadvantage on Intimidation and Persuasion checks as their slugishness makes it hard for others to take them seriously.",
+				"{@b Cure:} {@spell Greater restoration} will cure the disease and restore lost maximum hit points. A Nature check (DC 10) reveals that a mushroom soup can also be brewed to heal bloodrot, but will not restore the lost hit points. This soup is made from the mushrooms that grow in the caves where the disease can be contracted."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Boar Warts",
 			"entries": [
-				"{@bold Source:} {@italic Boar warts} are contracted from eating undercooked, infected pork meat. After consuming such meat a creature must roll a Constitution saving throw (DC 12). On a failed save they experience the following:",
-				"{@bold Symptoms:} Clustered warts with dark bristly hair spouting all over the body.",
-				"{@bold Effects:} Disadvantage on all Charisma-based skill checks.",
-				"{@bold Cure:} A Medicine check (DC 10) reveals that the warts can be surgically removed with a small blade. On a successful Dexterity check (DC 16) the warts are removed without any damage or scarring. On a failure the afflicted receives {@dice 1d6} slashing damage, and while the warts are removed they regrow fully in {@dice 1d4} days."
+				"{@b Source:} {@i Boar warts} are contracted from eating undercooked, infected pork meat. After consuming such meat a creature must roll a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Clustered warts with dark bristly hair spouting all over the body.",
+				"{@b Effects:} Disadvantage on all Charisma-based skill checks.",
+				"{@b Cure:} A Medicine check (DC 10) reveals that the warts can be surgically removed with a small blade. On a successful Dexterity check (DC 16) the warts are removed without any damage or scarring. On a failure the afflicted receives {@dice 1d6} slashing damage, and while the warts are removed they regrow fully in {@dice 1d4} days."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Brainslumber",
 			"entries": [
-				"{@bold Source:} {@italic Brainslumber} is a disease that most prominently occurs as a form of brain trauma in victims of severe psychic damage but may also naturally develop in some individuals with age (particularly {@race human|phb|humans} and {@race gnome|phb|gnomes}).",
-				"{@bold Symptoms:} Temporary mental fogginess. Potentially permanent memory loss.",
-				"{@bold Effects:} After finishing a long rest an afflicted creature's Intelligence score is reduced by {@dice 1d4}. Additionally, they must roll {@dice 1d20}. On a 1 they forget a name of an entity or place in the world of the DM's choosing.",
-				"{@bold Cure:} A magic practitioner can use {@spell modify memory} once per day for 3 subsequent days to restore the creature's ability to retain memories and halt the Intelligence loss. It is also believed that confronting the creature with reminders about their past can also jump-start recollection. Intelligence loss may only be restored using {@spell greater restoration}."
+				"{@b Source:} {@i Brainslumber} is a disease that most prominently occurs as a form of brain trauma in victims of severe psychic damage but may also naturally develop in some individuals with age (particularly {@race human|phb|humans} and {@race gnome|phb|gnomes}).",
+				"{@b Symptoms:} Temporary mental fogginess. Potentially permanent memory loss.",
+				"{@b Effects:} After finishing a long rest an afflicted creature's Intelligence score is reduced by {@dice 1d4}. Additionally, they must roll {@dice 1d20}. On a 1 they forget a name of an entity or place in the world of the DM's choosing.",
+				"{@b Cure:} A magic practitioner can use {@spell modify memory} once per day for 3 subsequent days to restore the creature's ability to retain memories and halt the Intelligence loss. It is also believed that confronting the creature with reminders about their past can also jump-start recollection. Intelligence loss may only be restored using {@spell greater restoration}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Brittle Bones",
 			"entries": [
-				"{@bold Source:} When a creature breaks its bones often, they may become more brittle over time. This is particularly common in individuals that do not let their fractures heal naturally but make use of healing magic to fix the same bone multiple times. {@italic Brittle bones} causes a lack of general strength and a vulnerability to blunt force trauma.",
-				"{@bold Symptoms:} Bones break more easily and physical activities take far more effort. Falling (even from short heights) can be extremely painful.",
-				"{@bold Effects:}  The creature is vulnerable to bludgeoning damage. When receiving damage from falling they receive {@dice 1d8} per 10 feet fallen (to a maximum of {@dice 20d8}) instead of the usual damage.",
-				"{@bold Cure:} Spells and traditional {@item potion of healing|dmg|potions of healing} cannot cure brittle bones, as magical healing is the cause. A curative elixir can be made using basilisk bone dust and a selection of herbs found growing near waterfalls in temperate climates. A successful Nature check (DC 15) reveals these ingredients. Alternatively, a calcium-rich diet for a prolonged period alongside extended rest usually alleviates brittle bones."
+				"{@b Source:} When a creature breaks its bones often, they may become more brittle over time. This is particularly common in individuals that do not let their fractures heal naturally but make use of healing magic to fix the same bone multiple times. {@i Brittle bones} causes a lack of general strength and a vulnerability to blunt force trauma.",
+				"{@b Symptoms:} Bones break more easily and physical activities take far more effort. Falling (even from short heights) can be extremely painful.",
+				"{@b Effects:}  The creature is vulnerable to bludgeoning damage. When receiving damage from falling they receive {@dice 1d8} per 10 feet fallen (to a maximum of {@dice 20d8}) instead of the usual damage.",
+				"{@b Cure:} Spells and traditional {@item potion of healing|dmg|potions of healing} cannot cure brittle bones, as magical healing is the cause. A curative elixir can be made using basilisk bone dust and a selection of herbs found growing near waterfalls in temperate climates. A successful Nature check (DC 15) reveals these ingredients. Alternatively, a calcium-rich diet for a prolonged period alongside extended rest usually alleviates brittle bones."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Butterfly Fever",
 			"entries": [
-				"{@bold Source:} Certain woodland flowers carry a pollen that can cause an allergic reaction for creatures, which sometimes results in {@italic butterfly fever}. Butterfly fever is very common for creatures visiting planes of existence with a strong wilderness or natural essence. If a creature encounters these types of pollen either in the air or by touching the flowers directly they must make a Constitution saving throw (DC 17). On a failed save they experience the following:",
-				"{@bold Symptoms:} High body temperature resulting in a lowered vitality. Low attention span and reduced alertness.",
-				"{@bold Effects:} An afflicted creature's Wisdom score is reduced by 3. Additionally, they make Perception checks and Constitution saving throws with disadvantage.",
-				"{@bold Cure:} {@spell Lesser restoration} is usually enough to cure butterfly fever. Once a creature has been healed of butterfly fever it is uncommon for them to contract it again within a year or so. (The DC to avoid reinfection within 1 year lowers to 12.)"
+				"{@b Source:} Certain woodland flowers carry a pollen that can cause an allergic reaction for creatures, which sometimes results in {@i butterfly fever}. Butterfly fever is very common for creatures visiting planes of existence with a strong wilderness or natural essence. If a creature encounters these types of pollen either in the air or by touching the flowers directly they must make a Constitution saving throw (DC 17). On a failed save they experience the following:",
+				"{@b Symptoms:} High body temperature resulting in a lowered vitality. Low attention span and reduced alertness.",
+				"{@b Effects:} An afflicted creature's Wisdom score is reduced by 3. Additionally, they make Perception checks and Constitution saving throws with disadvantage.",
+				"{@b Cure:} {@spell Lesser restoration} is usually enough to cure butterfly fever. Once a creature has been healed of butterfly fever it is uncommon for them to contract it again within a year or so. (The DC to avoid reinfection within 1 year lowers to 12.)"
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Buzzthroat",
 			"entries": [
-				"{@bold Source:} {@italic Buzzthroat} is a bacterial infection which is usually contracted through drinking infected alcohol. Some breweries have incorporated a less harmful strain of buzzthroat in their recipe and claim it to be part of the drinking experience. When a creature drinks a beverage tainted by buzzthroat they must succeed on a Constitution saving throw (DC 16) or experience the following:",
-				"{@bold Symptoms:} Speaking in an unpleasant raspy voice or losing the voice completely (50% chance of either). An uncomfortable vibrating sensation in the throat and vocal cords.",
-				"{@bold Effects:} The creature has disadvantage on Persuasion, Intimidation and Deception checks.",
-				"{@bold Cure:} {@spell Lesser restoration} instantly cures a buzzthroat infection. A long rest usually heals the creature as well."
+				"{@b Source:} {@i Buzzthroat} is a bacterial infection which is usually contracted through drinking infected alcohol. Some breweries have incorporated a less harmful strain of buzzthroat in their recipe and claim it to be part of the drinking experience. When a creature drinks a beverage tainted by buzzthroat they must succeed on a Constitution saving throw (DC 16) or experience the following:",
+				"{@b Symptoms:} Speaking in an unpleasant raspy voice or losing the voice completely (50% chance of either). An uncomfortable vibrating sensation in the throat and vocal cords.",
+				"{@b Effects:} The creature has disadvantage on Persuasion, Intimidation and Deception checks.",
+				"{@b Cure:} {@spell Lesser restoration} instantly cures a buzzthroat infection. A long rest usually heals the creature as well."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Canyon Legs",
 			"entries": [
-				"{@bold Source:} Most often seen in creatures who drink infected water from the elemental plane of earth. When a creature drinks this water they must succeed on a Constitution saving throw (DC 12) or experience the following:",
-				"{@bold Symptoms:} Legs feel extremely heavy and the skin on the legs painfully cracks in a similar pattern as seen on dry earth.",
-				"{@bold Effects:} The creature's movement speed is halved and they have disadvantage on Dexterity saving throws.",
-				"{@bold Cure:} {@spell Greater restoration} can instantly cure canyon legs. Soaking the legs in water from the elemental plane of water for at least 2 hours also cures the creature."
+				"{@b Source:} Most often seen in creatures who drink infected water from the elemental plane of earth. When a creature drinks this water they must succeed on a Constitution saving throw (DC 12) or experience the following:",
+				"{@b Symptoms:} Legs feel extremely heavy and the skin on the legs painfully cracks in a similar pattern as seen on dry earth.",
+				"{@b Effects:} The creature's movement speed is halved and they have disadvantage on Dexterity saving throws.",
+				"{@b Cure:} {@spell Greater restoration} can instantly cure canyon legs. Soaking the legs in water from the elemental plane of water for at least 2 hours also cures the creature."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Capacity Reversal Disorder",
 			"entries": [
-				"{@bold Source:} {@italic Capacity reversal disorder} (abbreviated as {@italic CRD}) is usually contracted by traveling between contradicting planes of existence within a short timespan. For example, traveling from the elemental plane of fire to the elemental plane of water or from one of the Seven Heavens to one of the Nine Hells.",
-				"{@bold Symptoms:} Extremely different from one individual to another. In general, the creature may experience nausea and not feeling like themself.",
-				"{@bold Effects:} The creature loses proficiency in one random skill determined by the DM. They then gain proficiency one random skill determined by the DM. Depending on the severity of the disease, this may happen again over time.",
-				"{@bold Cure:} A long rest has an 85% chance to cure CRD and restore the creature's original proficiencies. {@spell Lesser restoration} will cure the creature as well."
+				"{@b Source:} {@i Capacity reversal disorder} (abbreviated as {@i CRD}) is usually contracted by traveling between contradicting planes of existence within a short timespan. For example, traveling from the elemental plane of fire to the elemental plane of water or from one of the Seven Heavens to one of the Nine Hells.",
+				"{@b Symptoms:} Extremely different from one individual to another. In general, the creature may experience nausea and not feeling like themself.",
+				"{@b Effects:} The creature loses proficiency in one random skill determined by the DM. They then gain proficiency one random skill determined by the DM. Depending on the severity of the disease, this may happen again over time.",
+				"{@b Cure:} A long rest has an 85% chance to cure CRD and restore the creature's original proficiencies. {@spell Lesser restoration} will cure the creature as well."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Cave Nails",
 			"entries": [
-				"{@bold Source:}  Prolonged stay in subterranean environments may cause {@italic cave nails}. Some believe it is contracted through some type of fungus. When a creature comes into contact with this fungus or the earth it grows in they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
-				"{@bold Symptoms:} Finger- and toenails grow to become extremely tough and thick. Extreme cases have a texture similar to cracked stone.",
-				"{@bold Effects:} Disadvantage on Sleight of Hand checks and attack rolls with Finesse weapons.",
-				"{@bold Cure:} {@spell Lesser restoration}. A Medicine check (DC 8) reveals that filing the infected nails and applying a thin layer of lard for a week also cures the disease."
+				"{@b Source:}  Prolonged stay in subterranean environments may cause {@i cave nails}. Some believe it is contracted through some type of fungus. When a creature comes into contact with this fungus or the earth it grows in they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Finger- and toenails grow to become extremely tough and thick. Extreme cases have a texture similar to cracked stone.",
+				"{@b Effects:} Disadvantage on Sleight of Hand checks and attack rolls with Finesse weapons.",
+				"{@b Cure:} {@spell Lesser restoration}. A Medicine check (DC 8) reveals that filing the infected nails and applying a thin layer of lard for a week also cures the disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Cave Tremble",
 			"entries": [
-				"{@bold Source:} Sounds can echo throughout caves and caverns in weird ways. In some instances, this causes a form of paranoia known as {@italic cave tremble}. When a creature takes a short or long rest in such places, they must make a Wisdom saving throw (DC 14). On a failed save they experience the following:",
-				"{@bold Symptoms:}  Restlessness and paranoia causing an inability to sleep, as well as being easily frightened or startled.",
-				"{@bold Effects:} Whenever the creature takes a short or long rest, they roll a Wisdom saving throw (DC 10). On a failed save they gain no benefits from the rest. While affected by cave tremble the creature also has disadvantage on saving throws against becoming {@condition frightened}.",
-				"{@bold Cure:} {@spell Calm emotions} or {@spell lesser restoration}. A Medicine or Nature check (DC 10) reveals that spending 2 days aboveground also cures this disease."
+				"{@b Source:} Sounds can echo throughout caves and caverns in weird ways. In some instances, this causes a form of paranoia known as {@i cave tremble}. When a creature takes a short or long rest in such places, they must make a Wisdom saving throw (DC 14). On a failed save they experience the following:",
+				"{@b Symptoms:}  Restlessness and paranoia causing an inability to sleep, as well as being easily frightened or startled.",
+				"{@b Effects:} Whenever the creature takes a short or long rest, they roll a Wisdom saving throw (DC 10). On a failed save they gain no benefits from the rest. While affected by cave tremble the creature also has disadvantage on saving throws against becoming {@condition frightened}.",
+				"{@b Cure:} {@spell Calm emotions} or {@spell lesser restoration}. A Medicine or Nature check (DC 10) reveals that spending 2 days aboveground also cures this disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Chromatic Allergy",
 			"entries": [
-				"{@bold Source:} Breathing in the pollen of a specific type of flower {@italic (Chromatius chrysanthemum)} which blooms in a different color every year. As a defense mechanism, the pollen of these plants can trigger an allergic reaction to their color in the brain. When a creature breathes in this pollen they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
-				"{@bold Symptoms:} Afflicted creatures get a rash whenever they touch or wear something that matches the color of their allergy.",
-				"{@bold Effects:} While touching or wearing the color of their allergy, creatures have disadvantage on all attack rolls and ability checks.",
-				"{@bold Cure:} : A Nature check (DC 12) reveals that a simple cure can be brewed into a tea made of {@italic C. chrysanthemum} leaves. An immunity to chromatic allergy may be built up if the tea is sweetened with honey made from the plant."
+				"{@b Source:} Breathing in the pollen of a specific type of flower {@i (Chromatius chrysanthemum)} which blooms in a different color every year. As a defense mechanism, the pollen of these plants can trigger an allergic reaction to their color in the brain. When a creature breathes in this pollen they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Afflicted creatures get a rash whenever they touch or wear something that matches the color of their allergy.",
+				"{@b Effects:} While touching or wearing the color of their allergy, creatures have disadvantage on all attack rolls and ability checks.",
+				"{@b Cure:} : A Nature check (DC 12) reveals that a simple cure can be brewed into a tea made of {@i C. chrysanthemum} leaves. An immunity to chromatic allergy may be built up if the tea is sweetened with honey made from the plant."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Confused Liver",
 			"entries": [
-				"{@bold Source:} {@italic Confused liver} is a genetic disorder seen in some humanoids. A creature may not be aware that they have a confused liver until they attempt to drink a type of alcohol they have never had before. When this happens, the creature must roll a Constitution saving throw (DC 10). The DC increases by 1 each time they drink a new type of alcohol, and only resets when they fail. On a failed save they experience the following:",
-				"{@bold Symptoms:} Drinking anything causes severe nausea and blackouts.",
-				"{@bold Effects:}  For the next {@dice 2d4} hours, when the creature drinks anything (including non-alcoholic drinks and potions), they must make a Constitution saving throw (DC 12). On a failed save they vomit what they tried to drink and are {@condition stunned} for 30 seconds.",
-				"{@bold Cure:} {@spell lesser restoration|phb|Lesser} or {@spell greater restoration} are the only known cures besides abstinence."
+				"{@b Source:} {@i Confused liver} is a genetic disorder seen in some humanoids. A creature may not be aware that they have a confused liver until they attempt to drink a type of alcohol they have never had before. When this happens, the creature must roll a Constitution saving throw (DC 10). The DC increases by 1 each time they drink a new type of alcohol, and only resets when they fail. On a failed save they experience the following:",
+				"{@b Symptoms:} Drinking anything causes severe nausea and blackouts.",
+				"{@b Effects:}  For the next {@dice 2d4} hours, when the creature drinks anything (including non-alcoholic drinks and potions), they must make a Constitution saving throw (DC 12). On a failed save they vomit what they tried to drink and are {@condition stunned} for 30 seconds.",
+				"{@b Cure:} {@spell lesser restoration|phb|Lesser} or {@spell greater restoration} are the only known cures besides abstinence."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Copper Stress",
 			"entries": [
-				"{@bold Source:} {@italic Copper stress} is believed to be a hereditary disease of the skin. If a creature with copper stress comes into contact with anything made of copper, they must make a Constitution saving throw (DC 6). On a failed save they experience the following:",
-				"{@bold Symptoms:} Copper leaves green smears on the skin which causes a burning sensation. With prolonged or frequent contact a creature may contract a form of blood poisoning.",
-				"{@bold Effects:} The creature takes 1 poison damage immediately. If they remain in contact with copper for more than 1 minute they become {@condition poisoned}.",
-				"{@bold Cure:} A definitive, accessible cure for copper stress has not been found. A Medicine check (DC 7) reveals that it is best to avoid skin contact with copper (for example, {@item copper (cp)|phb|copper coins}) as much as possible to avoid further complications. The only creatures who have been cured {@spell wish|phb|wished} the disease away. {@spell Lesser restoration} or a short rest removes the poisoned condition."
+				"{@b Source:} {@i Copper stress} is believed to be a hereditary disease of the skin. If a creature with copper stress comes into contact with anything made of copper, they must make a Constitution saving throw (DC 6). On a failed save they experience the following:",
+				"{@b Symptoms:} Copper leaves green smears on the skin which causes a burning sensation. With prolonged or frequent contact a creature may contract a form of blood poisoning.",
+				"{@b Effects:} The creature takes 1 poison damage immediately. If they remain in contact with copper for more than 1 minute they become {@condition poisoned}.",
+				"{@b Cure:} A definitive, accessible cure for copper stress has not been found. A Medicine check (DC 7) reveals that it is best to avoid skin contact with copper (for example, {@item copper (cp)|phb|copper coins}) as much as possible to avoid further complications. The only creatures who have been cured {@spell wish|phb|wished} the disease away. {@spell Lesser restoration} or a short rest removes the poisoned condition."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Cranial Corrosion",
 			"entries": [
-				"{@bold Source:} Seen most often in the victims of brain-eating creatures, as they become infected from the creature. When a creature is subject to an attack by a host of the virus they must make a Constitution saving throw (DC 15). The saving throw is made with disadvantage if the attack is a critical hit. On a failed save they experience the following:",
-				"{@bold Symptoms:} Reduced cognitive abilities often paired with a blank stare and emotionless expression. These symptoms may become more severe over time.",
-				"{@bold Effects:} The creature immediately loses 1 point of Intelligence. If 10 days pass without receiving a cure, their Intelligence score is reduced by another point.",
-				"{@bold Cure:} {@spell Greater restoration} or a cure of a similar level can halt the progression of the disease, then a second restoration may be performed to cure the creature and regain their lost Intelligence score."
+				"{@b Source:} Seen most often in the victims of brain-eating creatures, as they become infected from the creature. When a creature is subject to an attack by a host of the virus they must make a Constitution saving throw (DC 15). The saving throw is made with disadvantage if the attack is a critical hit. On a failed save they experience the following:",
+				"{@b Symptoms:} Reduced cognitive abilities often paired with a blank stare and emotionless expression. These symptoms may become more severe over time.",
+				"{@b Effects:} The creature immediately loses 1 point of Intelligence. If 10 days pass without receiving a cure, their Intelligence score is reduced by another point.",
+				"{@b Cure:} {@spell Greater restoration} or a cure of a similar level can halt the progression of the disease, then a second restoration may be performed to cure the creature and regain their lost Intelligence score."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Dark Itch",
 			"entries": [
-				"{@bold Source:} Dark Itch is a bacterial disease carried by {@creature bat|mm|bats}, {@creature rat|mm|rats} and other cave-dwelling vermin. If a creature is bitten by a host of the disease must to make a Constitution saving throw (DC 10). On a failed save they experience the following:",
-				"{@bold Symptoms:} Dark purple bruising around the bite itself, and the body part that has been bitten becomes extremely itchy.",
-				"{@bold Effects:} Disadvantage on all concentration checks and a -3 penalty to all ranged weapon and spell attack rolls.",
-				"{@bold Cure:} {@spell Lesser restoration} or a cure of a similar level."
+				"{@b Source:} Dark Itch is a bacterial disease carried by {@creature bat|mm|bats}, {@creature rat|mm|rats} and other cave-dwelling vermin. If a creature is bitten by a host of the disease must to make a Constitution saving throw (DC 10). On a failed save they experience the following:",
+				"{@b Symptoms:} Dark purple bruising around the bite itself, and the body part that has been bitten becomes extremely itchy.",
+				"{@b Effects:} Disadvantage on all concentration checks and a -3 penalty to all ranged weapon and spell attack rolls.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Decarian Flu",
 			"entries": [
-				"{@bold Source:} {@italic Decarian flu} is a virus that sweeps through nations usually during fall and winter seasons. When a creature comes into contact with someone infected with Decarian flu they must make a Constitution saving throw (DC 14). On a failed save they will experience the following after a {@dice 1d4} day(s) incubation period:",
-				"{@bold Symptoms:} Reduced vitality and fitness. Soreness of the throat, eyes and sometimes a runny nose.",
-				"{@bold Effects:} The afflicted creature's Constitution score is reduced by 2 and disadvantage on Constitution checks and saving throws.",
-				"{@bold Cure:} {@spell Lesser restoration} has a 50% chance to instantly cure the flu; if the spell fails it may appear to have worked but will return in another {@dice 1d4} days. 3 days of rest is the most common and fool-proof cure for the Decarian flu."
+				"{@b Source:} {@i Decarian flu} is a virus that sweeps through nations usually during fall and winter seasons. When a creature comes into contact with someone infected with Decarian flu they must make a Constitution saving throw (DC 14). On a failed save they will experience the following after a {@dice 1d4} day(s) incubation period:",
+				"{@b Symptoms:} Reduced vitality and fitness. Soreness of the throat, eyes and sometimes a runny nose.",
+				"{@b Effects:} The afflicted creature's Constitution score is reduced by 2 and disadvantage on Constitution checks and saving throws.",
+				"{@b Cure:} {@spell Lesser restoration} has a 50% chance to instantly cure the flu; if the spell fails it may appear to have worked but will return in another {@dice 1d4} days. 3 days of rest is the most common and fool-proof cure for the Decarian flu."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Desert Pestilence",
 			"entries": [
-				"{@bold Source:} A highly infectious airborne disease most commonly seen in desert nomads, explorers of desert ruins and those who have been in direct contact with mummies. When a creature breathes in the air in an infected area or around an infected creature they make a Constitution saving throw (DC 18). On a failed save they experience the following:",
-				"{@bold Symptoms:} A thick and dry tongue and extremely dry skin. If left untreated the skin may crack open painfully.",
-				"{@bold Effects:} The afflicted creature's Constitution score is reduced by 2, and their hit point maximum is also reduced by {@dice 1d10} (to a minimum of 1).",
-				"{@bold Cure:} {@spell Greater restoration} or a cure of similar level. A History or Nature check (DC 15) reveals there are certain lotions known to have been buried with mummies that can cure {@italic desert pestilence} if applied daily for 3 subsequent days."
+				"{@b Source:} A highly infectious airborne disease most commonly seen in desert nomads, explorers of desert ruins and those who have been in direct contact with mummies. When a creature breathes in the air in an infected area or around an infected creature they make a Constitution saving throw (DC 18). On a failed save they experience the following:",
+				"{@b Symptoms:} A thick and dry tongue and extremely dry skin. If left untreated the skin may crack open painfully.",
+				"{@b Effects:} The afflicted creature's Constitution score is reduced by 2, and their hit point maximum is also reduced by {@dice 1d10} (to a minimum of 1).",
+				"{@b Cure:} {@spell Greater restoration} or a cure of similar level. A History or Nature check (DC 15) reveals there are certain lotions known to have been buried with mummies that can cure {@i desert pestilence} if applied daily for 3 subsequent days."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Desolation Panic",
 			"entries": [
-				"{@bold Source:} The source of {@italic desolation panic} is usually a poison that is found in certain desert creatures such as {@creature wyvern|mm|wyverns} and ({@creature giant scorpion|mm|giant}) {@creature scorpion|mm|scorpions}. When a creature is dealt poison damage by such a creature, they must roll a Constitution saving throw (DC 18). On a failed save they experience the following:",
-				"{@bold Symptoms:} Tunnelled vision, erratic movement and behavior in general. These symptoms come and go.",
-				"{@bold Effects:} A -5 penalty to all Perception and Charisma-based skills as well as a -4 penalty to Dexterity saving throws. The creature also has a 15% chance of becoming {@condition frightened} for {@dice 1d4} minute(s) upon failure.",
-				"{@bold Cure:} {@spell Lesser restoration}. A Nature check (DC 12) reveals that a tonic brewed from the poison that caused the disease can also cure desolation panic."
+				"{@b Source:} The source of {@i desolation panic} is usually a poison that is found in certain desert creatures such as {@creature wyvern|mm|wyverns} and ({@creature giant scorpion|mm|giant}) {@creature scorpion|mm|scorpions}. When a creature is dealt poison damage by such a creature, they must roll a Constitution saving throw (DC 18). On a failed save they experience the following:",
+				"{@b Symptoms:} Tunnelled vision, erratic movement and behavior in general. These symptoms come and go.",
+				"{@b Effects:} A -5 penalty to all Perception and Charisma-based skills as well as a -4 penalty to Dexterity saving throws. The creature also has a 15% chance of becoming {@condition frightened} for {@dice 1d4} minute(s) upon failure.",
+				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 12) reveals that a tonic brewed from the poison that caused the disease can also cure desolation panic."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Devil's Paranoia",
 			"entries": [
-				"{@bold Source:} {@italic Devil's paranoia} is often experienced by creatures that have visited the Hells or have been around devils for an extended period of time. There is a chance they contract the disease at any time, but particularly if they become {@condition frightened} or are knocked {@condition unconscious} by a devil.",
-				"{@bold Symptoms:} Extreme fear of fiends and experiencing paranoid feeling of being followed by them.",
-				"{@bold Effects:} When entering combat with a fiend, the afflicted instantly becomes frightened by it. They can overcome this fear by using an action to make a Wisdom saving throw (DC 18) at the start of each of their turns.",
-				"{@bold Cure:} Delivering the killing blow to 5 fiends may restore the confidence in a creature suffering from this disease. Being the target of {@spell calm emotions} once per day for 3 subsequent days also cures this ailment."
+				"{@b Source:} {@i Devil's paranoia} is often experienced by creatures that have visited the Hells or have been around devils for an extended period of time. There is a chance they contract the disease at any time, but particularly if they become {@condition frightened} or are knocked {@condition unconscious} by a devil.",
+				"{@b Symptoms:} Extreme fear of fiends and experiencing paranoid feeling of being followed by them.",
+				"{@b Effects:} When entering combat with a fiend, the afflicted instantly becomes frightened by it. They can overcome this fear by using an action to make a Wisdom saving throw (DC 18) at the start of each of their turns.",
+				"{@b Cure:} Delivering the killing blow to 5 fiends may restore the confidence in a creature suffering from this disease. Being the target of {@spell calm emotions} once per day for 3 subsequent days also cures this ailment."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Dormant Vampirism",
 			"entries": [
-				"{@bold Source:} {@italic Dormant vampirism} is usually a hereditary or genetic disease that can lay hidden for generations. A person with this disease might notice small oddities in their physicality compared to others but will not be hindered by them. A creature with dormant vampirism can more easily become a {@creature vampire}, even without contact with another vampire. The trigger for this event is different per creature, though there is concrete evidence that this transformation is triggered in all cases by the consumption of humanoid blood.",
-				"{@bold Symptoms:} Sunlight allergy or easily burned by sunlight. Slightly pale skin. An unexplainable strong urge to consume blood, particularly when severely wounded.",
-				"{@bold Effects:} Drinking blood for the first time heals the creature for {@dice 2d10 + 15} hit points and turns them into a vampire.",
-				"{@bold Cure:} Nothing short of powerful magic such as {@spell wish} or {@spell power word heal} can remove the disease from the afflicted."
+				"{@b Source:} {@i Dormant vampirism} is usually a hereditary or genetic disease that can lay hidden for generations. A person with this disease might notice small oddities in their physicality compared to others but will not be hindered by them. A creature with dormant vampirism can more easily become a {@creature vampire}, even without contact with another vampire. The trigger for this event is different per creature, though there is concrete evidence that this transformation is triggered in all cases by the consumption of humanoid blood.",
+				"{@b Symptoms:} Sunlight allergy or easily burned by sunlight. Slightly pale skin. An unexplainable strong urge to consume blood, particularly when severely wounded.",
+				"{@b Effects:} Drinking blood for the first time heals the creature for {@dice 2d10 + 15} hit points and turns them into a vampire.",
+				"{@b Cure:} Nothing short of powerful magic such as {@spell wish} or {@spell power word heal} can remove the disease from the afflicted."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Dragon's Pox",
 			"entries": [
-				"{@bold Source:} Handling the gold from a dragon's hoard can be a dangerous undertaking if the dragon itself was diseased. {@italic Dragon's pox} causes large boils on the body which burn when touched. When a creature comes into contact with an infected dragon or their hoard, they must roll a Constitution saving throw. The DC of this saving throw is equal to the Constitution score of the dragon -5.",
-				"{@bold Symptoms:} Large boils with the same coloration as the dragon it was contracted from. If they burst, they cause a shooting pain that cannot be relieved.",
-				"{@bold Effects:} When the creature is the target of a successful attack which deals piercing damage, there is a 50% chance the attack also pops a boil, causing {@dice 1d6} poison damage.",
-				"{@bold Cure:} Medicine check (DC 15) reveals the boils can be surgically removed with a sharp blade and a steady hand. The surgery can be performed by simultaneous successful Medicine (DC 12) and Dexterity (DC 13) checks. Alternatively, the boils can be healed by {@spell greater restoration} or similarly-powerful magic."
+				"{@b Source:} Handling the gold from a dragon's hoard can be a dangerous undertaking if the dragon itself was diseased. {@i Dragon's pox} causes large boils on the body which burn when touched. When a creature comes into contact with an infected dragon or their hoard, they must roll a Constitution saving throw. The DC of this saving throw is equal to the Constitution score of the dragon -5.",
+				"{@b Symptoms:} Large boils with the same coloration as the dragon it was contracted from. If they burst, they cause a shooting pain that cannot be relieved.",
+				"{@b Effects:} When the creature is the target of a successful attack which deals piercing damage, there is a 50% chance the attack also pops a boil, causing {@dice 1d6} poison damage.",
+				"{@b Cure:} Medicine check (DC 15) reveals the boils can be surgically removed with a sharp blade and a steady hand. The surgery can be performed by simultaneous successful Medicine (DC 12) and Dexterity (DC 13) checks. Alternatively, the boils can be healed by {@spell greater restoration} or similarly-powerful magic."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Dysvaric Inflammation",
 			"entries": [
-				"{@bold Source:} Certain woodland animals eat Dysvarian bonnets, a strain of mushroom which causes a harmless infection in animals. Eating the meat of such an animal or the mushroom itself can cause {@ialic Dysvaric inflammation}. When a creature eats a mushroom or meat of an infected animal they must roll a Constitution saving throw (DC 19). On a failed save they experience the following:",
-				"{@bold Symptoms:} Swollen fingers and tongue, causing difficulty holding items and speaking.",
-				"{@bold Effects:} Disadvantage on all Charisma-based ability and skill checks and a -5 penalty to all attack rolls.",
-				"{@bold Cure:} {@spell Lesser restoration}. A Nature check (DC 10) reveals that a tea made from vanilla ivy (a plant that often grows close to Dysvarian bonnets) cures the inflammation as well."
+				"{@b Source:} Certain woodland animals eat Dysvarian bonnets, a strain of mushroom which causes a harmless infection in animals. Eating the meat of such an animal or the mushroom itself can cause {@ialic Dysvaric inflammation}. When a creature eats a mushroom or meat of an infected animal they must roll a Constitution saving throw (DC 19). On a failed save they experience the following:",
+				"{@b Symptoms:} Swollen fingers and tongue, causing difficulty holding items and speaking.",
+				"{@b Effects:} Disadvantage on all Charisma-based ability and skill checks and a -5 penalty to all attack rolls.",
+				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 10) reveals that a tea made from vanilla ivy (a plant that often grows close to Dysvarian bonnets) cures the inflammation as well."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Elemental Inversion",
 			"entries": [
-				"{@bold Source:} Prolonged hypothermia may cause {@italic elemental inversion} in spellcasters. When a creature with magical abilities is exposed to the cold and suffers from at least 2 point of exhaustion, they must roll a Constitution saving throw (DC 15). On a failed save they experience the following:",
-				"{@bold Symptoms:} Blood changes color from red to a light blue, causing the veins under their skin to also turn a soft blue tint. Fire- and cold-based spells take on the opposite appearance and effect.",
-				"{@bold Effects:} All spells that would deal fire damage now deal cold damage instead. All spells that would deal cold damage now deal fire damage instead.",
-				"{@bold Cure:} {@spell Greater restoration} or {@spell remove curse} are the only known cures. Recovering from the hypothermia restores the original appearance of the spellcaster, but does not correct their magic."
+				"{@b Source:} Prolonged hypothermia may cause {@i elemental inversion} in spellcasters. When a creature with magical abilities is exposed to the cold and suffers from at least 2 point of exhaustion, they must roll a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Blood changes color from red to a light blue, causing the veins under their skin to also turn a soft blue tint. Fire- and cold-based spells take on the opposite appearance and effect.",
+				"{@b Effects:} All spells that would deal fire damage now deal cold damage instead. All spells that would deal cold damage now deal fire damage instead.",
+				"{@b Cure:} {@spell Greater restoration} or {@spell remove curse} are the only known cures. Recovering from the hypothermia restores the original appearance of the spellcaster, but does not correct their magic."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Emotional Blindness",
 			"entries": [
-				"{@bold Source:} A creature that is {@condition blinded} and dealt psychic damage may suffer from the effects of  {@italic emotional blindness} for some time afterward.",
-				"{@bold Symptoms:} Blank stare, reduced social capabilities. Difficulty engaging with others.",
-				"{@bold Effects:} Disadvantage on all Insight checks and a -3 penalty to Persuasion and Intimidation checks.",
-				"{@bold Cure:} The condition heals naturally after {@dice 1d6} days, and can be instantly cured using {@spell lesser restoration}."
+				"{@b Source:} A creature that is {@condition blinded} and dealt psychic damage may suffer from the effects of  {@i emotional blindness} for some time afterward.",
+				"{@b Symptoms:} Blank stare, reduced social capabilities. Difficulty engaging with others.",
+				"{@b Effects:} Disadvantage on all Insight checks and a -3 penalty to Persuasion and Intimidation checks.",
+				"{@b Cure:} The condition heals naturally after {@dice 1d6} days, and can be instantly cured using {@spell lesser restoration}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Epidermal Petrification",
 			"entries": [
-				"{@bold Source:} Touching the bodily fluids of {@creature basilisk|mm|basilisks} and other creatures with {@condition petrified|phb|petrifying} capabilities can cause a superficial petrification of the skin. When a creature comes into contact with such a fluid they must a Constitution saving throw (DC 16). On a failed save they experience the following:",
-				"{@bold Symptoms:} Grey and cracked skin and an slightly reduced mobility of limbs.",
-				"{@bold Effects:} The afflicted creature's Dexterity score is reduced by 2 and their movement speed is reduced by 5 feet.",
-				"{@bold Cure:} Any cure that would heal petrification. {@spell Lesser restoration} can also cure this lesser condition."
+				"{@b Source:} Touching the bodily fluids of {@creature basilisk|mm|basilisks} and other creatures with {@condition petrified|phb|petrifying} capabilities can cause a superficial petrification of the skin. When a creature comes into contact with such a fluid they must a Constitution saving throw (DC 16). On a failed save they experience the following:",
+				"{@b Symptoms:} Grey and cracked skin and an slightly reduced mobility of limbs.",
+				"{@b Effects:} The afflicted creature's Dexterity score is reduced by 2 and their movement speed is reduced by 5 feet.",
+				"{@b Cure:} Any cure that would heal petrification. {@spell Lesser restoration} can also cure this lesser condition."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Ermalian Flu",
 			"entries": [
-				"{@bold Source:} {@italic Ermalian flu} is often seen in infants, the elderly, and those with a lowered constitution in general. When a creature comes into contact with another creature that has the disease they must roll a Constitution saving throw (DC 8). On a failed save they experience the following:",
-				"{@bold Symptoms:} Fever, short moments of confusion and generally reduced vision.",
-				"{@bold Effects:} The infected creature's Constitution score is reduced by 1 and they suffer disadvanatge on all Perception checks.",
-				"{@bold Cure:} {@spell Lesser restoration} or 2 long rests without physical exertion between."
+				"{@b Source:} {@i Ermalian flu} is often seen in infants, the elderly, and those with a lowered constitution in general. When a creature comes into contact with another creature that has the disease they must roll a Constitution saving throw (DC 8). On a failed save they experience the following:",
+				"{@b Symptoms:} Fever, short moments of confusion and generally reduced vision.",
+				"{@b Effects:} The infected creature's Constitution score is reduced by 1 and they suffer disadvanatge on all Perception checks.",
+				"{@b Cure:} {@spell Lesser restoration} or 2 long rests without physical exertion between."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Explosive Sneezing",
 			"entries": [
-				"{@bold Source:} {@italic Explosive sneezing} is a very common disease in {@creature goblin|mm|goblinoid} communities. It is believed that the cause of explosive sneezing is breathing in the air inside deep mines, which results in the accumulation of certain minerals in the nostrils. When a creature takes a breath of the dusty air in such a mine, they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
-				"{@bold Symptoms:} Uncontrollable, incredibly loud sneezing.",
-				"{@bold Effects:} They spend the next {@dice 1d6} rounds sneezing. The sneezing is audible from up to 300 feet away. The sneezer is considered {@condition incapacitated}, they take {@dice 1d4 - 1} (minimum 1) thunder damage at the beginning of each turn they spend sneezing, and all creatures within 20 feet of the sneezer must roll a Constitution saving throw (DC 10) at the end of their turn or become {@condition deafened} until the end of their next turn.",
-				"{@bold Cure:} Explosive sneezing can be prevented by covering one's mouth and nose when venturing in a goblin mine. Due to the short-lived nature of the affliction, no one has found a way to stop an explosive sneezing fit, and everyone who experiences it is immune to another fit for 24 hours."
+				"{@b Source:} {@i Explosive sneezing} is a very common disease in {@creature goblin|mm|goblinoid} communities. It is believed that the cause of explosive sneezing is breathing in the air inside deep mines, which results in the accumulation of certain minerals in the nostrils. When a creature takes a breath of the dusty air in such a mine, they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Uncontrollable, incredibly loud sneezing.",
+				"{@b Effects:} They spend the next {@dice 1d6} rounds sneezing. The sneezing is audible from up to 300 feet away. The sneezer is considered {@condition incapacitated}, they take {@dice 1d4 - 1} (minimum 1) thunder damage at the beginning of each turn they spend sneezing, and all creatures within 20 feet of the sneezer must roll a Constitution saving throw (DC 10) at the end of their turn or become {@condition deafened} until the end of their next turn.",
+				"{@b Cure:} Explosive sneezing can be prevented by covering one's mouth and nose when venturing in a goblin mine. Due to the short-lived nature of the affliction, no one has found a way to stop an explosive sneezing fit, and everyone who experiences it is immune to another fit for 24 hours."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Fenrot",
 			"entries": [
-				"{@bold Source:} {@italic Fenrot} is a disease contracted most often by those who venture into swamps and bogs. The virus takes hold if a wounded creature enters an infected stagnant pond or pool of water, or receives a bite or other attack from an infected creature. When this happens they must roll a Constitution saving throw (DC 15). On a failed save they experience the following:",
-				"{@bold Symptoms:} Dark green spots on the skin (most prominently around wounds and injuries) appear within a matter of minutes after infection. The skin becomes extremely sensitive and tender.",
-				"{@bold Effects:} Vulnerability to all slashing and piercing damage.",
-				"{@bold Cure:} {@spell Lesser restoration} or similar magic is the only known treatment."
+				"{@b Source:} {@i Fenrot} is a disease contracted most often by those who venture into swamps and bogs. The virus takes hold if a wounded creature enters an infected stagnant pond or pool of water, or receives a bite or other attack from an infected creature. When this happens they must roll a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Dark green spots on the skin (most prominently around wounds and injuries) appear within a matter of minutes after infection. The skin becomes extremely sensitive and tender.",
+				"{@b Effects:} Vulnerability to all slashing and piercing damage.",
+				"{@b Cure:} {@spell Lesser restoration} or similar magic is the only known treatment."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Ficklefern Fever",
 			"entries": [
-				"{@bold Source:} The ficklefern grows in marshes and damp caves, glowing deep crimson in the darkness but otherwise appearing identical to common ferns. When a creature touches a ficklefern they must make a Constitution saving throw (DC 11). On a failed save they experience the following:",
-				"{@bold Symptoms:} Increased body temperature, excessive sweating and diminished physical fitness.",
-				"{@bold Effects:} The afflicted receives a -1 penalty to all Constitution checks and saving throws. Whenever the creature would gain a point of {#condition exhaustion} they gain 2 points instead",
-				"{@bold Cure:} {@spell Lesser restoration}. A Nature check (DC 12) reveals that brewing a tea made from ficklefern leaves also cures the disease and makes a creature immune to their effects for 6 hours."
+				"{@b Source:} The ficklefern grows in marshes and damp caves, glowing deep crimson in the darkness but otherwise appearing identical to common ferns. When a creature touches a ficklefern they must make a Constitution saving throw (DC 11). On a failed save they experience the following:",
+				"{@b Symptoms:} Increased body temperature, excessive sweating and diminished physical fitness.",
+				"{@b Effects:} The afflicted receives a -1 penalty to all Constitution checks and saving throws. Whenever the creature would gain a point of {#condition exhaustion} they gain 2 points instead",
+				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 12) reveals that brewing a tea made from ficklefern leaves also cures the disease and makes a creature immune to their effects for 6 hours."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Flameblight",
 			"entries": [
-				"{@bold Source:} {@italic Flameblight} is a disease which can manifest if burn victims with magical powers leave their wounds untreated. It is also very often seen when fire-based magic goes awry.",
-				"{@bold Symptoms:} The burned skin secretes a foul purple-tinted liquid which is highly flammable.",
-				"{@bold Effects:} The afflicted suffers vulnerability to fire damage. Additionally, whenever they are struck by fire, they must succed on a DC 12 Dexterity saving throw (to pat out the fire) or burst into flames.",
-				"{@bold Cure:} {@spell Lesser restoration} or sitting in an ice bath for at least three hours."
+				"{@b Source:} {@i Flameblight} is a disease which can manifest if burn victims with magical powers leave their wounds untreated. It is also very often seen when fire-based magic goes awry.",
+				"{@b Symptoms:} The burned skin secretes a foul purple-tinted liquid which is highly flammable.",
+				"{@b Effects:} The afflicted suffers vulnerability to fire damage. Additionally, whenever they are struck by fire, they must succed on a DC 12 Dexterity saving throw (to pat out the fire) or burst into flames.",
+				"{@b Cure:} {@spell Lesser restoration} or sitting in an ice bath for at least three hours."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Fluctuating Activity Disorder",
 			"entries": [
-				"{@bold Source:} {@italic Fluctuating activity disorder} is a disease that can usually be found in creatures that have been affected by the {@spell haste} spell while {@condition exhausted}. When {@italic haste} is cast on a creature with 2 or more levels of exhaustion, the target must make a Constitution saving throw (DC 15). The DC increases by 1 for each point of exhaustion above 2. On a failed save they experience the following:",
-				"{@bold Symptoms:} Different levels of energy each day, and sometimes even from one hour to the next.",
-				"{@bold Effects:} When the creature finishes a long rest, roll on the table below. Their movement speed is lowered, heightened or remains the same based on the result. This effect lasts until they roll again at the conclusion of their next long rest.",
-				"{@bold Cure:} {@spell Lesser restoration} or a cure of a similar level.",
+				"{@b Source:} {@i Fluctuating activity disorder} is a disease that can usually be found in creatures that have been affected by the {@spell haste} spell while {@condition exhausted}. When {@i haste} is cast on a creature with 2 or more levels of exhaustion, the target must make a Constitution saving throw (DC 15). The DC increases by 1 for each point of exhaustion above 2. On a failed save they experience the following:",
+				"{@b Symptoms:} Different levels of energy each day, and sometimes even from one hour to the next.",
+				"{@b Effects:} When the creature finishes a long rest, roll on the table below. Their movement speed is lowered, heightened or remains the same based on the result. This effect lasts until they roll again at the conclusion of their next long rest.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level.",
 				{
 					"type": "table",
 					"caption": "Fluctuating Activity Disorder Effects",
@@ -461,10 +461,10 @@
 		{
 			"name": "Four-Sense Disorder",
 			"entries": [
-				"{@bold Source:} When a creature has been {@condition paralyzed} or {@condition stunned} and receives psychic damage from a critical hit they may develop {@italic four sense disorder}. When a creature receives damage in this manner, they must roll a Wisdom saving throw (DC 15). On a failed save they experience the following:",
-				"{@bold Symptoms:} Temporary loss of one of the senses.",
-				"{@bold Effects:} When the creature finishes a long rest, roll on the table below. The afflicted loses one of the senses below, and gains any associated conditions (such as {@condition blinded|phb|blindness} or {@condition deafened|phb|deafness}). This effect lasts until they roll again at the conclusion of their next long rest.",
-				"{@bold Cure:} {@spell Greater restoration} or a cure of a similar level.",
+				"{@b Source:} When a creature has been {@condition paralyzed} or {@condition stunned} and receives psychic damage from a critical hit they may develop {@i four sense disorder}. When a creature receives damage in this manner, they must roll a Wisdom saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Temporary loss of one of the senses.",
+				"{@b Effects:} When the creature finishes a long rest, roll on the table below. The afflicted loses one of the senses below, and gains any associated conditions (such as {@condition blinded|phb|blindness} or {@condition deafened|phb|deafness}). This effect lasts until they roll again at the conclusion of their next long rest.",
+				"{@b Cure:} {@spell Greater restoration} or a cure of a similar level.",
 				{
 					"type": "table",
 					"caption": "Four-Sense Disorder Effects",
@@ -508,150 +508,150 @@
 		{
 			"name": "Frost Rash",
 			"entries": [
-				"{@bold Source:} {@italic Frost rash} is contracted from sleeping near a plant native to cold areas known as mintcrest while it is in bloom. While the pollen from this plant is known to have a soothing, cooling effect, when a creature spends a long rest near a blooming mintcrest plant they must roll a Constitution saving throw (DC 14). On a failed save they experience the following:",
-				"{@bold Symptoms:} Cold and white-flecked skin accompanied by coughing and a low core body temperature.",
-				"{@bold Effects:} An afflicted creature's Constitution score is reduced by 2 and  they suffer disadvantage on Acrobatics and Athletics checks.",
-				"{@bold Cure:} A warm bath can cure frost rash rather quickly. {@spell Lesser restoration} also cures this disease."
+				"{@b Source:} {@i Frost rash} is contracted from sleeping near a plant native to cold areas known as mintcrest while it is in bloom. While the pollen from this plant is known to have a soothing, cooling effect, when a creature spends a long rest near a blooming mintcrest plant they must roll a Constitution saving throw (DC 14). On a failed save they experience the following:",
+				"{@b Symptoms:} Cold and white-flecked skin accompanied by coughing and a low core body temperature.",
+				"{@b Effects:} An afflicted creature's Constitution score is reduced by 2 and  they suffer disadvantage on Acrobatics and Athletics checks.",
+				"{@b Cure:} A warm bath can cure frost rash rather quickly. {@spell Lesser restoration} also cures this disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Frunkis",
 			"entries": [
-				"{@bold Source:} {@italic Frunkis} is a disease found mostly in small humanoids like {@race gnome|phb|gnomes} and {@race halfling|phb|halflings}. Frunkis is caused by a bacteria living in the soil that makes its way to the surface to release their spores. Small folk breathe in this bacteria more easily since their nose and mouth are relatively close to the ground. When a creature breathes in air close to the infected ground they must make a Constitution saving throw (DC 16). on a failed save they experience the following:",
-				"{@bold Symptoms:} The afflicted's earlobes turn a unnatural greenish tint and they experience severe nausea and dizziness.",
-				"{@bold Effects:} Disadvantage on all Acrobatics checks and Constitution saving throws.",
-				"{@bold Cure:} {@spell Lesser restoration} or a cure of a similar level treats frunkis. A Medicine check (DC 15) reveals that drinking a healthy amount of clean water and eating only vegetables and fruits for at least 3 days also cures this disease."
+				"{@b Source:} {@i Frunkis} is a disease found mostly in small humanoids like {@race gnome|phb|gnomes} and {@race halfling|phb|halflings}. Frunkis is caused by a bacteria living in the soil that makes its way to the surface to release their spores. Small folk breathe in this bacteria more easily since their nose and mouth are relatively close to the ground. When a creature breathes in air close to the infected ground they must make a Constitution saving throw (DC 16). on a failed save they experience the following:",
+				"{@b Symptoms:} The afflicted's earlobes turn a unnatural greenish tint and they experience severe nausea and dizziness.",
+				"{@b Effects:} Disadvantage on all Acrobatics checks and Constitution saving throws.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level treats frunkis. A Medicine check (DC 15) reveals that drinking a healthy amount of clean water and eating only vegetables and fruits for at least 3 days also cures this disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Ghoulish Ocular Affliction",
 			"entries": [
-				"{@bold Source:} When venturing deep into crypts and other types of subterranian burial sites, one must be wary of being affected by {@italic ghoulish ocular affliction}. The disease is often caused when coming into direct contact with infected undead creatures. When a character comes into contact with such a creature they must make a Constitution saving throw (DC 16). On a failed save they experience the following:",
-				"{@bold Symptoms:} Reduced vision. Cloudy irises and pupils with darkening around the eyes.",
-				"{@bold Effects:} Loss of darkvision (if any) and can only see clearly in bright light up to 30 feet.",
-				"{@bold Cure:} {@spell Lesser restoration} removes this disease. A less conventinal treatment involves taking at least 1 point of radiant damage, which instantly cures the afflicted."
+				"{@b Source:} When venturing deep into crypts and other types of subterranian burial sites, one must be wary of being affected by {@i ghoulish ocular affliction}. The disease is often caused when coming into direct contact with infected undead creatures. When a character comes into contact with such a creature they must make a Constitution saving throw (DC 16). On a failed save they experience the following:",
+				"{@b Symptoms:} Reduced vision. Cloudy irises and pupils with darkening around the eyes.",
+				"{@b Effects:} Loss of darkvision (if any) and can only see clearly in bright light up to 30 feet.",
+				"{@b Cure:} {@spell Lesser restoration} removes this disease. A less conventinal treatment involves taking at least 1 point of radiant damage, which instantly cures the afflicted."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Goblin Fever",
 			"entries": [
-				"{@bold Source:} {@creature goblin|mm|Goblins} and other goblinoids are reservoirs for many diseases. Being bitten by a diseased goblinoid can cause {@italic goblin fever}. When a creature gets bitten they must roll a Constitution saving throw (DC 10). On a failed save they experience the following:",
-				"{@bold Symptoms:} High body temperature with yellow- or green-tinted spots on the neck and armpits. Sudden, intolerable body odor.",
-				"{@bold Effects:} The afflicted suffers a -3 penalty to all Constitution saving throws and disadvantage on all Persuasion checks against non-goblinoids. They may, however, have advantage on all Charisma-based skill checks against goblinoids as the disgusting smell is actually the result of pheremones.",
-				"{@bold Cure:} The disease resolves itself after 4 long rests, or 2 hot baths a day for 2 consecutive days."
+				"{@b Source:} {@creature goblin|mm|Goblins} and other goblinoids are reservoirs for many diseases. Being bitten by a diseased goblinoid can cause {@i goblin fever}. When a creature gets bitten they must roll a Constitution saving throw (DC 10). On a failed save they experience the following:",
+				"{@b Symptoms:} High body temperature with yellow- or green-tinted spots on the neck and armpits. Sudden, intolerable body odor.",
+				"{@b Effects:} The afflicted suffers a -3 penalty to all Constitution saving throws and disadvantage on all Persuasion checks against non-goblinoids. They may, however, have advantage on all Charisma-based skill checks against goblinoids as the disgusting smell is actually the result of pheremones.",
+				"{@b Cure:} The disease resolves itself after 4 long rests, or 2 hot baths a day for 2 consecutive days."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Grexialis",
 			"entries": [
-				"{@bold Source:} {@italic Grexialis} is a virus that is carried by a specific type of wasp that lives in various jungles across the world. When being stung by such a wasp, a creature must make a Constitution saving throw (DC 14). On a failed save they experience the following:",
-				"{@bold Symptoms:} Constant hallucinations of being attacked by giant wasps and severely reduced cognitive abilities.",
-				"{@bold Effects:} Disadvantage on all Wisdom- and Intelligence-based saving throws, skill checks, and ability checks. All Perception checks are made at disadvantage.",
-				"{@bold Cure:} {@spell Lesser restoration} or a cure of a similar level. While it does not cure the disease, Nature or Medicine check (DC 13) reveals a poultice composed of crushed wasps and algae may be spread over the forehead to alleviate the hallucinatory effects."
+				"{@b Source:} {@i Grexialis} is a virus that is carried by a specific type of wasp that lives in various jungles across the world. When being stung by such a wasp, a creature must make a Constitution saving throw (DC 14). On a failed save they experience the following:",
+				"{@b Symptoms:} Constant hallucinations of being attacked by giant wasps and severely reduced cognitive abilities.",
+				"{@b Effects:} Disadvantage on all Wisdom- and Intelligence-based saving throws, skill checks, and ability checks. All Perception checks are made at disadvantage.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. While it does not cure the disease, Nature or Medicine check (DC 13) reveals a poultice composed of crushed wasps and algae may be spread over the forehead to alleviate the hallucinatory effects."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Heaven's Brand",
 			"entries": [
-				"{@bold Source:} Being wounded by a radiant weapon or a celestial being being can leave a festering burn known as {@italic heaven's brand}. When a creature is critically hit by such a weapon or a creature they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
-				"{@bold Symptoms:} A searing pain in the location of the wound and a generally uncomfortable warm feeling throughout the body.",
-				"{@bold Effects:} The afflicted suffers 1 point of radiant damage whenever they take the attack action and gains resistance to necrotic damage.",
-				"{@bold Cure:} Healing at least 1 hit point through any magical means (spell, item or potion) removes the brand. Healing thrugh natural means, such as a short or long rest, does not cure the disease."
+				"{@b Source:} Being wounded by a radiant weapon or a celestial being being can leave a festering burn known as {@i heaven's brand}. When a creature is critically hit by such a weapon or a creature they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} A searing pain in the location of the wound and a generally uncomfortable warm feeling throughout the body.",
+				"{@b Effects:} The afflicted suffers 1 point of radiant damage whenever they take the attack action and gains resistance to necrotic damage.",
+				"{@b Cure:} Healing at least 1 hit point through any magical means (spell, item or potion) removes the brand. Healing thrugh natural means, such as a short or long rest, does not cure the disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Hell Collar",
 			"entries": [
-				"{@bold Source:} Being enslaved by fiendish beings can leave a nasty rash around the neck from being bound in chains. Each day a creature is wearing a restraint around their neck while in the Abyss or Hells they must make a Constitution saving throw (DC 14). Each dawn the DC increases by 1. On a failed save they experience the following:",
-				"{@bold Symptoms:} Blackened scabs around the neck that occasionaly bleed unprompted and a painful, raspy voice.",
-				"{@bold Effects:} Disadvantage on Strength saving throws, Athletics checks and all Charisma-based ability and skill checks. Whenever the afflicted is attacked by a fiendish being, they must succeed on a Wisdom saving throw (DC 14) or immediately become {@condition frightened}.",
-				"{@bold Cure:} The disease cannot be cured while the restraint is still in place. When it is removed it can be fully healed by {@spell greater restoration} or a cure of a similar level. A Nature check (DC 12) reveals that applying a poultice made from ash and river mud before taking a long rest also heals Hell collar, though it leaves a nasty scar. This scar cannot be removed by any means."
+				"{@b Source:} Being enslaved by fiendish beings can leave a nasty rash around the neck from being bound in chains. Each day a creature is wearing a restraint around their neck while in the Abyss or Hells they must make a Constitution saving throw (DC 14). Each dawn the DC increases by 1. On a failed save they experience the following:",
+				"{@b Symptoms:} Blackened scabs around the neck that occasionaly bleed unprompted and a painful, raspy voice.",
+				"{@b Effects:} Disadvantage on Strength saving throws, Athletics checks and all Charisma-based ability and skill checks. Whenever the afflicted is attacked by a fiendish being, they must succeed on a Wisdom saving throw (DC 14) or immediately become {@condition frightened}.",
+				"{@b Cure:} The disease cannot be cured while the restraint is still in place. When it is removed it can be fully healed by {@spell greater restoration} or a cure of a similar level. A Nature check (DC 12) reveals that applying a poultice made from ash and river mud before taking a long rest also heals Hell collar, though it leaves a nasty scar. This scar cannot be removed by any means."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Hunter's Rabies",
 			"entries": [
-				"{@bold Source:} Hunters often encounter wild animals infected with this disease. When bitten by such a beast a creature must make a Constitution saving throw (DC 9). On a failed save they experience the following:",
-				"{@bold Symptoms:} Wheezy breathing and blurred vision, combined with general malaise.",
-				"{@bold Effects:} A -5 penalty to all ranged attack rolls. Disadvantage on all Strength-based checks and saving throws.",
-				"{@bold Cure:} {@spell Lesser restoration} or a cure of a similar level. Alternatively, 2 consecutive long rests without any physical activity between will cure this disease."
+				"{@b Source:} Hunters often encounter wild animals infected with this disease. When bitten by such a beast a creature must make a Constitution saving throw (DC 9). On a failed save they experience the following:",
+				"{@b Symptoms:} Wheezy breathing and blurred vision, combined with general malaise.",
+				"{@b Effects:} A -5 penalty to all ranged attack rolls. Disadvantage on all Strength-based checks and saving throws.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. Alternatively, 2 consecutive long rests without any physical activity between will cure this disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Imp's Sting",
 			"entries": [
-				"{@bold Source:} {@italic Imp's sting} is an airborne disease caused by bacteria that live inside crevices that spew phosphorous volcanic gas. When a creature breathes this air they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
-				"{@bold Symptoms:} Stinging pain in the lungs and nostrils. This effect does not go away.",
-				"{@bold Effects:} The afflicted's maximum health points are reduced by {@dice 1d6 + 1} (to a minimum of 1).",
-				"{@bold Cure:} {@spell Lesser restoration} or any healing spell that heals at least an amount equal to twice the number of lost hit points."
+				"{@b Source:} {@i Imp's sting} is an airborne disease caused by bacteria that live inside crevices that spew phosphorous volcanic gas. When a creature breathes this air they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Stinging pain in the lungs and nostrils. This effect does not go away.",
+				"{@b Effects:} The afflicted's maximum health points are reduced by {@dice 1d6 + 1} (to a minimum of 1).",
+				"{@b Cure:} {@spell Lesser restoration} or any healing spell that heals at least an amount equal to twice the number of lost hit points."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Ironfoot",
 			"entries": [
-				"{@bold Source:} {@italic Ironfoot} is a diseasse carried primarily by {@creature bulette|mm|bulettes}. Coming into contact with the blood or being bitten by an infected bulette may transfer the disease to a creature. When this happens, the creature must make a Constitution saving throw (DC 14). On a failed save they experience the following:",
-				"{@bold Symptoms:} Feet (or other lower extremities) turn a dark grey color and feel unexplainably heavy.",
-				"{@bold Effects:} The afflicted's movement speed is reduced to 10 feet, and they suffer disadvantage on all Dexteroty-based checks and saving throws.",
-				"{@bold Cure:} {@spell Lesser restoration} or a cure of a similar level removes the infection."
+				"{@b Source:} {@i Ironfoot} is a diseasse carried primarily by {@creature bulette|mm|bulettes}. Coming into contact with the blood or being bitten by an infected bulette may transfer the disease to a creature. When this happens, the creature must make a Constitution saving throw (DC 14). On a failed save they experience the following:",
+				"{@b Symptoms:} Feet (or other lower extremities) turn a dark grey color and feel unexplainably heavy.",
+				"{@b Effects:} The afflicted's movement speed is reduced to 10 feet, and they suffer disadvantage on all Dexteroty-based checks and saving throws.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level removes the infection."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Jungle Ulcers",
 			"entries": [
-				"{@bold Source:} Drinking water from still ponds in the jungle may cause a creature to become infected with a bacterium that causes painful stomach ulcers. When a creature drinks this water they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
-				"{@bold Symptoms:} An increasingly painful sensation in the stomach and lower abdomen.",
-				"{@bold Effects:} The infected creature's Strength score is reduced by 1 for each day the infection remains untreated (to a minimum of 1). Potions and other magical ingested tonics are effective only 80% of the time.",
-				"{@bold Cure:} {@spell Lesser restoration} or a cure of a similar level cures the infection, but does not heal the ulcers. A Medicine check (DC 10) reveals that eating 2 spoonfulls of salt and drinking 1 pint of fresh water also treats the infection. Strength lost to this disease is regained at a rate of 1 per day of light activity, or 2 per day of no physical activity. {@spell Greater restoration} restores the lost Strength immediately."
+				"{@b Source:} Drinking water from still ponds in the jungle may cause a creature to become infected with a bacterium that causes painful stomach ulcers. When a creature drinks this water they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} An increasingly painful sensation in the stomach and lower abdomen.",
+				"{@b Effects:} The infected creature's Strength score is reduced by 1 for each day the infection remains untreated (to a minimum of 1). Potions and other magical ingested tonics are effective only 80% of the time.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level cures the infection, but does not heal the ulcers. A Medicine check (DC 10) reveals that eating 2 spoonfulls of salt and drinking 1 pint of fresh water also treats the infection. Strength lost to this disease is regained at a rate of 1 per day of light activity, or 2 per day of no physical activity. {@spell Greater restoration} restores the lost Strength immediately."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Kidney Shadow Sores",
 			"entries": [
-				"{@bold Source:} This disease is extremely rare as it is only seen in vampiric creatures and does not affect the living. It is contracted by drinking the blood of certain fey creatures. When a {@creature vampire} or other blood-absorbing creature feeds on any fey creature of CR 10 or higher, they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
-				"{@bold Symptoms:} Shooting pain in the lower back area accompanied by occasional nosebleeds. The creature's eyes take on a dull grey tint.",
-				"{@bold Effects:} An afflicted creature's Constitution score is reduced by 2 and they suffer disadvantage on Dexterity saving throws and Perception checks.",
-				"{@bold Cure:} {@spell Lesser restoration} or remaining in complete darkness for at least 7 consecutive days will cure the disease."
+				"{@b Source:} This disease is extremely rare as it is only seen in vampiric creatures and does not affect the living. It is contracted by drinking the blood of certain fey creatures. When a {@creature vampire} or other blood-absorbing creature feeds on any fey creature of CR 10 or higher, they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Shooting pain in the lower back area accompanied by occasional nosebleeds. The creature's eyes take on a dull grey tint.",
+				"{@b Effects:} An afflicted creature's Constitution score is reduced by 2 and they suffer disadvantage on Dexterity saving throws and Perception checks.",
+				"{@b Cure:} {@spell Lesser restoration} or remaining in complete darkness for at least 7 consecutive days will cure the disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "King's Cramps",
 			"entries": [
-				"{@bold Source:} The disease known as {@italic king's cramps} occurs when a creature eats copious amounts of well-cooked spiced meats of various beasts in one sitting. When a creature eats too much of these meats they must make a Constitution saving throw (DC 7). On a failed save they experience the following:",
-				"{@bold Symptoms:} Rumbling bowels and pain in the gut.",
-				"{@bold Effects:} A -3 penalty to all Constitution saving throws, Acrobatics checks, and Athletics checks.",
-				"{@bold Cure:} {S@spell Lesser restoration}. A Medicine check (DC 7) reveals that taking a short or long rest without eating also treats the condition."
+				"{@b Source:} The disease known as {@i king's cramps} occurs when a creature eats copious amounts of well-cooked spiced meats of various beasts in one sitting. When a creature eats too much of these meats they must make a Constitution saving throw (DC 7). On a failed save they experience the following:",
+				"{@b Symptoms:} Rumbling bowels and pain in the gut.",
+				"{@b Effects:} A -3 penalty to all Constitution saving throws, Acrobatics checks, and Athletics checks.",
+				"{@b Cure:} {S@spell Lesser restoration}. A Medicine check (DC 7) reveals that taking a short or long rest without eating also treats the condition."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Kraken Lash Inflammation",
 			"entries": [
-				"{@bold Source:} Being attacked by a {@creature kraken} or any aquatic creature with tentacles that is Large or bigger can leave a creature experiencing {@italic kraken lash inflamation}. When a a creature is critically hit by a tentacle attack they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
-				"{@bold Symptoms:} Dark blue rings that don't go away on the attacked body part. General feeling of nausea and fatigue.",
-				"{@bold Effects:} The afflicted suffers {@dice 1d4} poison damage after finishing a long rest (after hit points are restored). Every 3 days that the condition goes untreated, the damage increases by {@dice 1d4}. Once the damage reaches {@dice 4d4}, the creature becomes permanently {@condition poisoned}.",
-				"{@bold Cure:} {@spell Lesser restoration} or {@spell protection from poison} can treat the disease. A Nature or Medicine check (DC 10) reveals that a poultice of seaweed that is applied daily for 3 days on the infected area also cures the inflammation."
+				"{@b Source:} Being attacked by a {@creature kraken} or any aquatic creature with tentacles that is Large or bigger can leave a creature experiencing {@i kraken lash inflamation}. When a a creature is critically hit by a tentacle attack they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Dark blue rings that don't go away on the attacked body part. General feeling of nausea and fatigue.",
+				"{@b Effects:} The afflicted suffers {@dice 1d4} poison damage after finishing a long rest (after hit points are restored). Every 3 days that the condition goes untreated, the damage increases by {@dice 1d4}. Once the damage reaches {@dice 4d4}, the creature becomes permanently {@condition poisoned}.",
+				"{@b Cure:} {@spell Lesser restoration} or {@spell protection from poison} can treat the disease. A Nature or Medicine check (DC 10) reveals that a poultice of seaweed that is applied daily for 3 days on the infected area also cures the inflammation."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Lateral Displacement",
 			"entries": [
-				"{@bold Source:} Some magic practitioners might suffer from this side-effect of attempting to cast short-range teleportation spells (such as {@spell misty step} or {@spell dimension door}) within an {@spell antimagic field} or other magic-suppressing effect.",
-				"{@bold Symptoms:} A slight vibration before suddenly being shunted to another place.",
-				"{@bold Effects:} Any time the afflicted creature casts a spell, roll a {@dice d20}. On a 1 or 2 the creature is teleported a random distance to the left or right. Consult the table below to determine the distance and direction. The creature cannot teleport through (or into) walls and this movement does not trigger attacks of opportunity.",
-				"{@bold Cure:} {@spell Dispel magic} removes the condition. {@spell Lesser restoration} suppresses the effect such that only a roll of 1 causes the shunt.",
+				"{@b Source:} Some magic practitioners might suffer from this side-effect of attempting to cast short-range teleportation spells (such as {@spell misty step} or {@spell dimension door}) within an {@spell antimagic field} or other magic-suppressing effect.",
+				"{@b Symptoms:} A slight vibration before suddenly being shunted to another place.",
+				"{@b Effects:} Any time the afflicted creature casts a spell, roll a {@dice d20}. On a 1 or 2 the creature is teleported a random distance to the left or right. Consult the table below to determine the distance and direction. The creature cannot teleport through (or into) walls and this movement does not trigger attacks of opportunity.",
+				"{@b Cure:} {@spell Dispel magic} removes the condition. {@spell Lesser restoration} suppresses the effect such that only a roll of 1 causes the shunt.",
 				{
 					"type": "table",
 					"caption": "Lateral Displacement Effects",
@@ -703,430 +703,433 @@
 		{
 			"name": "Limb Morphia",
 			"entries": [
-				"{@bold Source:} {@italic Limb morphia} is a disease which is carried by some {@creature hook horror|mm|hook horrors}. When a creature is attacked by an infected hook horror they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
-				"{@bold Symptoms:} Initially a mild tingling sensation is felt in one or both arms. In time, webbing begins to form between the creature's fingers (or other terminal appendages), accompanied by a hardening of the skin. Eventually the arm re-forms into a bony hook-like appendage.",
-				"{@bold Effects:} If left untreated the fingers grow together over the course of 1 week. The creature then suffers disadvantage on all weapon attacks. After another 2 weeks the creature's arm(s) morph into a bone hook. They cannot hold any weapons or objects. Unarmed strikes with a hook arm deal {@dice 2d6} + the creature's Strength modifier piercing damage. The creature may train with their new appendages and become proficient in their use, making them no longer unarmed strikes but a melee weapon attack with a 10-foot reach.",
-				"{@bold Cure:} {@spell Greater restoration} can reverse the effects of limb morphia within the first three weeks. Once the hook arms have formed, they may be amputated and a {@spell regenerate} spell will restore the original limbs."
+				"{@b Source:} {@i Limb morphia} is a disease which is carried by some {@creature hook horror|mm|hook horrors}. When a creature is attacked by an infected hook horror they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Initially a mild tingling sensation is felt in one or both arms. In time, webbing begins to form between the creature's fingers (or other terminal appendages), accompanied by a hardening of the skin. Eventually the arm re-forms into a bony hook-like appendage.",
+				"{@b Effects:} If left untreated the fingers grow together over the course of 1 week. The creature then suffers disadvantage on all weapon attacks. After another 2 weeks the creature's arm(s) morph into a bone hook. They cannot hold any weapons or objects. Unarmed strikes with a hook arm deal {@dice 2d6} + the creature's Strength modifier piercing damage. The creature may train with their new appendages and become proficient in their use, making them no longer unarmed strikes but a melee weapon attack with a 10-foot reach.",
+				"{@b Cure:} {@spell Greater restoration} can reverse the effects of limb morphia within the first three weeks. Once the hook arms have formed, they may be amputated and a {@spell regenerate} spell will restore the original limbs."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Magister's Neck",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} Wizards, professors, and other avid readers of books are the main types of people diagnosed with {@i magister's neck}. When a creature spends 7 consecutive days reading and researching or accumulates 2 points of exhaustion by reading and researching they must make a Strength saving throw (DC 10). The DC increases by 1 for each consecutive day afterward. On a failed save they experience the following:",
+				"{@b Symptoms:} Sore neck and debilitating migraines.",
+				"{@b Effects:} The afflicted suffers disadvantage on all Intelligence-based ability and skill checks, and is unable to concentrate on a spell or other magical effect.",
+				"{@b Cure:} A Medicine check (DC 8) reveals that 1 hour of light exercise followed by a long rest or receiving a neck massage releases the tension from the neck. {@spell Lesser restoration} or other magical means cannot solve magister's neck"
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Marsh Hands",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} Handling tiny creatures like frogs or lizards that live in swamps can be dangerous to a creature's health. Some of these small animals can be infected with a bacteria which causes {i marsh hands} upon contact. When handling an infected animal a creature must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Green pimples forming on the back of the hands. Extremities feel unexlainably cold and numb at times.",
+				"{@b Effects:} All weapon attack rolls and are made without proficiency bonus. Spell attack rolls for spells that require a somatic component are also made without adding the creature's proficiency bonus.",
+				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 10) reveals that rubbing the flowers of Sylvan's touch (a common marsh plant) on the back of the hands cures the disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Medusoid Migraine",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} Being {@condition petrified} for a long period of time can cause unusual effects. A creature that is unpetrified after being petrified for over one week must make a Constitution saving throw (DC 10). On a failed save they experience the following:",
+				"{@b Symptoms:} Severe migraines combined with dry and cracked skin around the temples.",
+				"{@b Effects:} When taking a short rest, the creature has a 5% chance of suffering from extreme migraines and receiving no benefits from the short rest.",
+				"{@b Cure:} Any potion that cures petrification can also be used to treat medusoid migraines by applying it to the temples, soothing the cracked skin. {@spell Remove curse} or a casting of {@spell calm emotions} will also resolve the disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Moon Pox",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} This disease is heriditary in lycanthropes. A lycanthrope will only experience the disease once in their lifetime. However, it can be transfered to other creatures by direct contact while they are symptomatic. When a creature comes into contact with an infected creature they must make a Constitution saving throw (DC 16). On a failed save they experience the following:",
+				"{@b Symptoms:} Shiny white pustules all over the body and a lowered vitality and strength. Often accompanied by foul breath.",
+				"{@b Effects:} Disadvantage on persuasion checks and all Strength-based ability and skill checks.",
+				"{@b Cure:} {@spell Greater restoration}. A Nature check (DC 10) reveals that spending a night without clothing in the light of a full moon also cures this disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Muscular Fluttering",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} {@i Muscular fluttering} is a disease carried by a very specific butterfly that lives in dark forests, far away from any settlements. When a creature's skin comes into direct contact with this butterfly they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Twitchy muscles in the arms and fingers along with an inability to remain still.",
+				"{@b Effects:} When making an attack roll, natural 20 rolls do not trigger a critical hit. The critical miss threshold is increased from 1 to 1-2.",
+				"{@b Cure:} The only known cure is {@spell lesser restoration} cast while the afflicted is being held completely still."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Night Eyes",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} Often seen in creatures that only work the night shift of the city watch or diurnal creatures that sleep during the day and work at night. {@i Night eyes} is a condition that forms slowly over a period of time, and may go unnoticed for years.",
+				"{@b Symptoms:} Larger than normal pupil dilation accompanied by darkened irises. The more severe the condition, the darker the irises become, until they are as black as the pupils.",
+				"{@b Effects:} The creature gains darkvision out to a range of 60 feet if it doesn't have it already. However, it also suffers from sunlight sensitivity, causing disadvantage on attack rolls and perception checks that rely on sight when the creature or their target is in brighter than dim light.",
+				"{@b Cure:} {@spell Greater restoration} or {@spell regenerate} will cure the disease instantly. Reverting back to a normal day-night cycle for at least 2 months will also successfully treat night eyes, though their irises will not return to their original color without magical intervention."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Nightmask Plague",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} {@i Nightmask plague} is a highlyiinfectious virus that is mainly carried spread by ravens and other types of messenger birds. Humanoids can also be infected by other infected humanoids. When coming into contact with an infected bird or other entity a creature must make a Constitution saving throw (DC 17). On a failed save they experience the following:",
+				"{@b Symptoms:} Nightmask plague has three stages which the afflicted will go through.",
+				"During the first stage, the creature experiences a high fever for a single day, which subsides on the following day. On the third day, the skin around the eyes turns a sickly dark shade and the fever returns at a higher temperature. They develops muscle pains throughout the body during the first week.",
+				"The second stage usually begins 10 days after the disease was contracted. Over the course of 2 days, the discolored area around the eyes grows to the size of a mask that covers the eyes and nose caused by blood vessels bursting in the skin of the face. The coloration often shifts to a deep mottled purple.",
+				"In the third the creature becomes {@condition paralyzed}. Over the course of {@dice 4d6} hours, the disease spreads throughout the body. As the fever increases, feathers begin to emerge through the skin around the eyes and at various points on the body. The afflicted usually dies within 12 hours once the third stage is reached.",
+				"{@b Effects:} Disadvantage on Constitution, Strength and Dexterity saving throws during stage 1. Disadvantage on all Constitution-, Strength-, and Dexterity-based ability checks skill checks, and saving throws during stage 2. Paralysis sets in at the beginning of stage 3, and the creature will die if not cured. A creature infected by nightmask plague that gets revived will be brought back to life with stage 1 nightmask plague.",
+				"{@b Cure:} There is currently no known cure, magical or nonmagical, for second or third stage nightmask plague. In the first stage of the disease it can be cured by receiving a {@spell lesser restoration} once per day for 3 consecutive days or a single casting of {@spell greater restoration}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Ordriscius Intenis",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} {@i Ordriscius intenis} is contracted when breathing in the spore-filled air that is expelled from the Ordrisc mushroom, found in swamps and bogs frequented by {@creature bullywug|mm|bullywugs}. When a creature breathes the air within 10 feet of one of these mushrooms they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Sweating, pale skin and excessive blinking of the eyes due to a feeling of dryness.",
+				"{@b Effects:} The afflicted creature suffers disadvantage on Perception checks that depend on sight and regain 1 fewer hit die upon finishing a long rest.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level will cure the disease and expunge all spores. A Nature check (DC 12) reveals that eating a stew brewed from the mushrooms will treat Ordriscius intenis as well. They can be safely plucked and cooked as long as a piece of cloth or other filtering material is worn over the mouth and nose."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Pale Breath",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} Being posessed by a spirit, {@creature ghost}, or other incorporeal creature might leave the host's body with {@i pale breath}. Once the spirit is excised from a creature, they must roll a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Symptoms:} Low body temperature and cold, foul-smelling breath.",
+				"{@b Effects:} The afflictec creature suffers disadvantage on Persuasion checks and vulnerability to fire and radiant damage.",
+				"{@b Cure:} {@spell Lesser restoration} or {@spell remove curse}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Parasitis Arcanium",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} Some magical items attract a parasite which is invisible to the naked eye that feeds off the magic of the object, but can also syphon off the energy of the person using it. When a spellcasting creature touches an infected magic item for the first time they must make a Constitution saving throw (DC 6). If the creature retains the item in their posession the saving throw is repeated following the first time the item is used following a rest and the DC increases by 1 each day at dawn. {@class warlock|phb|Warlocks} are immune to this effect and automatically succeed. On a failed save they experience the following:",
+				"{@b Symptoms:} Sudden, fluctuating loss of magical abilities.",
+				"{@b Effects:} Upon completion of a rest that restores spell slots, roll {@dice 1d10}. The owner of the item loses one spell slot equal to the number rolled (or the closest available spell slot) the first time they use the infected item. On a 10 they lose their highest-level available spell slot and a second spell slot determined by a second {@dice d10} roll.",
+				"{@b Cure:} Casting {@spell dispel magic} targeting the parasite or entering any type of {@spell antimagic field} will remove the parasite from the infected item and cure the afflicted creature. Casting {@spell remove curse} targeting the afflicted creature will lift the parasite's influence on them and make them immune to its effects, but will not remove the parasite from the infected item."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Pig Twitch",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} {@i Pig twitch} is contracted by being in contact with bacteria that live in muddy pools. When a creature comes into contact with this mud they must make a Constitution saving throw (DC 13). On a failed save they experience the following:",
+				"{@b Symptoms:} Twitching eyes and a loss of strength in their hands.",
+				"{@b Effects:} An infected creature suffers a -2 penalty to all weapon attack rolls, disadvantage on Perception checks, and disadvantage on all Dexterity-based ability and skill checks involving the use of fine motor skills.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Pixiedust Acne",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} When a {@creature pixie} is killed by brute force they may burst into a cloud of dust which can cause severe blemishes on the skin of larger creatures. When a creature kills a pixie using physical or force damage each creature within 5 feet of the pixie must roll a Dexterity saving throw (DC 12). {@race elf|phb|Elves} and other fey descendants have advantage on this check. On a failed save, the dust touches their skin and they experience the following:",
+				"{@b Symptoms:} Glittering, slightly glowing pimples across the entire surface of the skin.",
+				"{@b Effects:} An afflicted creature suffers disadvantage on all Stealth checks.",
+				"{@b Cure:} {@spell Lesser restoration} cures the disease instantly, as does a steam bath lasting at least 1 full hour."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Planeshifter's Infection",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Purple Scurvy",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Queen's Skin",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Red Rose Virus",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Red Shock",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Regenerative Combustion Disorder",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Roseheart",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Sage's Fever",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Seasonal Ulcer",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Sheepy Head",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Silver Stroke",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Smolder Crown",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Snow Allergy",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Solar Allergy",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Spider Mouth",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Spinal Dissolving",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Stone Lungs",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Summer Eyes",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Swamp Pneumonia",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Swine Stomach",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "The Niffs",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Thief's Bane",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Twelve Day Decay",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Unending Thirst",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Verdant Veins",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Vocal Fatigue",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Warped Tongue",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Witch's Delirium",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Wobble Bowels",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Wraithskin",
 			"entries": [
-				"{@bold Source:} ",
-				"{@bold Symptoms:} ",
-				"{@bold Effects:} ",
-				"{@bold Cure:} "
+				"{@b Source:} ",
+				"{@b Symptoms:} ",
+				"{@b Effects:} ",
+				"{@b Cure:} "
 			],
 			"source": "bag"
 		}
