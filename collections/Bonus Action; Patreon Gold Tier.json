@@ -798,7 +798,7 @@
 			"entries": [
 				"{@b Source:} Being posessed by a spirit, {@creature ghost}, or other incorporeal creature might leave the host's body with {@i pale breath}. Once the spirit is excised from a creature, they must roll a Constitution saving throw (DC 12). On a failed save they experience the following:",
 				"{@b Symptoms:} Low body temperature and cold, foul-smelling breath.",
-				"{@b Effects:} The afflictec creature suffers disadvantage on Persuasion checks and vulnerability to fire and radiant damage.",
+				"{@b Effects:} The afflicted creature suffers disadvantage on Persuasion checks and vulnerability to fire and radiant damage.",
 				"{@b Cure:} {@spell Lesser restoration} or {@spell remove curse}."
 			],
 			"source": "bag"
@@ -906,70 +906,104 @@
 		{
 			"name": "Sage's Fever",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Sage's fever} has several strains and causes but is mainly seen in herbologists and collectors of plants. Some combinations of ingredients react with each other causing fumes or smells. When such fumes are breathed in by a creature they must roll a Wisdom saving throw (DC 13). On a failed save they experience the following:",
+				"{@b Symptoms:} High body temperature, dilated pupils sometimes accompanied by delusions and hallucinations.",
+				"{@b Effects:} Disadvantage on all Wisdom saving throws and Wisdom-based ability and skill checks.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level will cure the disease. Seperating the causative plants is advised to prevent recurrent infection."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Seasonal Ulcer",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} A {@i seasonal ulcer} is hereditary. If a creature has this disease, roll {@dice 1d4} and consult the table below to determine the season they will experience the disease in and the type of saving throw that is connected to it. After each long rest in the given season, the creature must make the specified saving throw. On a failed save they experience the following:",
+				"{@b Symptoms:} Vomiting blood, loss of vitality, general malaise.",
+				"{@b Effects:} Maximum hit points reduced by an amount equal to the character level +2.",
+				"{@b Cure:} {@spell Lesser restoration} cures the disease until the creature's next long rest. The disease can be cured for the rest of the season by {@spell greater restoration}. An Arcana or Medicine check (DC 20) reveals that {@ seasonal ulcers} can be cured by casting {@spell greater restoration} at the beginning of each season for 4 consecutive seasons.",
+				{
+					"type": "table",
+					"caption": "Seasonal Ulcer Type",
+					"colLabels": [
+						"{@dice d4}",
+						"Season",
+						"Saving Throw"
+					],
+					"colStyles": [
+						"col-1 text-center"
+					],
+					"rows": [
+						[
+							"1",
+							"Spring",
+							"Strength (DC 12)"
+						],
+						[
+							"2",
+							"Summer",
+							"Cnstitution (DC 13)"
+						],
+						[
+							"3",
+							"Autumn",
+							"Strength (DC 14)"
+						],
+						[
+							"4",
+							"Winter",
+							"Constitution (DC 15)"
+						]
+					]
+				}
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Sheepy Head",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Sheepy head} is contracted from a small parasite that lives in the wool of {@creature sheep|skt}. When a creature comes into contact with a sheep or with wool that has not been properly cleansed of these parasites they must roll a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Poofy and curly hair; sudden, unexplainable lethargy (particularly when they are able to see a sheep).",
+				"{@b Effects:} Whenever the creature encounters a sheep they must make a Wisdom saving throw (DC 6). For each sheep present the DC increases by 1. On a failed save they instantly fall {@condition unconscious}.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level can kill the parasites and end the effects."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Silver Stroke",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Silver stroke} is a heriditary disease seen most commonly in elderly {@race elf|phb|elves} and fey creatures. When the afflicted finishes a long rest, they have a 5% chance of accidentally exacerbating the condition. If they do, they must roll a Constitution saving throw (DC 12). The DC increases by 1 wach time the creature succeeds on this save. On a failed save they experience the following:",
+				"{@b Symptoms:} The creature's hair and irises turn to a silvery grey. They also experience lowered physical abilities but heightened cognitive abilities akin to rapid aging (though they do not actually age).",
+				"{@b Effects:} The creature experiences a -2 penalty to their Constitution, Strength and Dexterity scores (to a minimum of 1), but gain a +2 bonus to their Wisdom score (to a maximum of 22).",
+				"{@b Cure:} {@spell Regenerate} and {@spell remove curse} will remove the disease (preventing the need for future saving throws) but not cure its effects. {@spell greater restoration} or similarly powerful restorative magic can reverse the effects once they have manifested."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Smolder Crown",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Spending long times in desert climates or other environments with an intense heat from the heavens often has detrimental effects. When a creature spends at least 1 week in such conditions without protecting their head or scalp in any way they must roll a Constitution saving throw (DC 15). The DC is repeated each week and increases by 1 for each additional week spent in these conditions. On a failed save they experience the following:",
+				"{@b Symptoms:} Excessive sweating, blisters on the top of the head and trouble breathing.",
+				"{@b Effects:} The afflicted has diadvantage on Survival and Nature checks, and gains vulnerability to fire damage.",
+				"{@b Cure:} {@spell Lesser restoration} or a {@item potion of fire resistance} will end the effects. A Medicine check (DC 10) reveals that spending 2 days in the shade with wet rags worn over the head will also cure {@i smolder crown}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Snow Allergy",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Certain creatures are particularly vulnerable to the ice and snow, especially if they originate from desert or tropical climates. When such a creature spends at least 1 day in an arctic climate they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Cyanotic lips, perpetually feet and hands (even when warmd), and stiff limbs.",
+				"{@b Effects:} The creature suffers disadvantage on Acrobatics and Athletics checks.",
+				"{@b Cure:} Any item, potion or spell which provides resistance to cold damage (such as a {item potion of cold resistance} counteracts {@i snow allergy}. If the creature spends at least 1 year in arctic climates will cause them to acclimitize to cold conditions and cures the disease permanently."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Solar Allergy",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Subterranean creatures that have never seen the sun are likely to suffer from a {@i solar allergy}. When they encounter the sun after a period of nonexposure they must roll a Constitution saving throw (DC 10). On a failed save they experience the following:",
+				"{@b Symptoms:} The creature's skin is extremely sensitive and easily burned.",
+				"{@b Effects:} The creature is vulnerable to fire and radiant damage when outside during the day (regardless of weather circumstances) until they take a long rest outside any sunlight.",
+				"{@b Cure:} An Arcana check (DC 9) reveals that drinking a {@item potion of fire resistance} each day for 3 consecutive days will suppress the allergy for 1 year. Alternatively, {@spell greater restoration} cures a {@i solar allergy} permanently."
 			],
 			"source": "bag"
 		},
