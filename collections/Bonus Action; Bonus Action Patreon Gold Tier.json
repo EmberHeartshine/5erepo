@@ -404,7 +404,7 @@
 			"entries": [
 				"{@b Source:} The ficklefern grows in marshes and damp caves, glowing deep crimson in the darkness but otherwise appearing identical to common ferns. When a creature touches a ficklefern they must make a Constitution saving throw (DC 11). On a failed save they experience the following:",
 				"{@b Symptoms:} Increased body temperature, excessive sweating and diminished physical fitness.",
-				"{@b Effects:} The afflicted receives a -1 penalty to all Constitution checks and saving throws. Whenever the creature would gain a point of {#condition exhaustion} they gain 2 points instead",
+				"{@b Effects:} The afflicted receives a -1 penalty to all Constitution checks and saving throws. Whenever the creature would gain a point of {@condition exhaustion} they gain 2 points instead",
 				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 12) reveals that brewing a tea made from ficklefern leaves also cures the disease and makes a creature immune to their effects for 6 hours."
 			],
 			"source": "bag"
@@ -878,8 +878,8 @@
 			"entries": [
 				"{@b Source:} Some {@creature stirge|mm|stirges} carry a nasty disease known as {@i red shock}. When a creature is hit by an infected stirge's blood drain attack they must make a Constitution saving throw (DC 12). The DC increases by 1 for each round the stirge is attached to the creature. On a failed save they experience the following:",
 				"{@b Symptoms:} The creature's eyes immediately turn red, foaming at the mouth and acting aggressively. They eventually become {@condition paralyzed}.",
-				"{@b Effects:} The creature enters a frenzied state for {@dice 1d6} rounds, attacking the nearest creature to it with reckless abandon. Each melee weapon attack roll they make has advantage, but all attacks against them also have advantage. After thethe frenzy wears off they become paralyzed and gain 1 point of {@condition exhaustion}.",
-				"{@b Cure:} "
+				"{@b Effects:} The creature enters a frenzied state for {@dice 1d6} rounds, attacking the nearest creature to it with reckless abandon. Each melee weapon attack roll they make has advantage, but all attacks against them also have advantage. After the frenzy wears off they become paralyzed and gain 1 point of {@condition exhaustion}.",
+				"{@b Cure:} {@spell Lesser restoration} can cause the frenzied state to end early. The paralysis and exhaustion are not prevented."
 			],
 			"source": "bag"
 		},
@@ -993,7 +993,7 @@
 				"{@b Source:} Certain creatures are particularly vulnerable to the ice and snow, especially if they originate from desert or tropical climates. When such a creature spends at least 1 day in an arctic climate they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
 				"{@b Symptoms:} Cyanotic lips, perpetually feet and hands (even when warmd), and stiff limbs.",
 				"{@b Effects:} The creature suffers disadvantage on Acrobatics and Athletics checks.",
-				"{@b Cure:} Any item, potion or spell which provides resistance to cold damage (such as a {item potion of cold resistance} counteracts {@i snow allergy}. If the creature spends at least 1 year in arctic climates will cause them to acclimitize to cold conditions and cures the disease permanently."
+				"{@b Cure:} Any item, potion or spell which provides resistance to cold damage (such as a {@item potion of cold resistance} counteracts {@i snow allergy}. If the creature spends at least 1 year in arctic climates will cause them to acclimitize to cold conditions and cures the disease permanently."
 			],
 			"source": "bag"
 		},
@@ -1010,160 +1010,221 @@
 		{
 			"name": "Spider Mouth",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Being constrained in webs spun by large arachnids can have difficult side effects to humanoids. When a creature's face comes into contact with the webs of an arachnid of Small or larger size they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Difficulty speaking as their lips stick together.",
+				"{@b Effects:} Disadvantage on all Charisma-based skill and ability checks, as well as Charisma saving throws. Any spell cast using verbal components suffer a -2 penalty to the spell attack modifier or save DC.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Spinal Dissolving",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Spinal disolving} is caused by being bitten by large monstrous insect such as a {@creature giant centipede} or a {@creature remorhaz}. When a creature is bitten by an infected insect they must make a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} An infected creature experiences instability and trouble standing straight as their vertebrae lose strength.",
+				"{@b Effects:} Disadvantage on all Athletics, Acrobatics and Intimidation checks. Weapon attack rolls to not have the creature's proficiency bonus added to it.",
+				"{@b Cure:} {@spell Greater restoration} or a cure of a similar level. A Medicine or Nature check (DC 15) reveals that consuming a tonic made from milk, calcium and a powdered dragon scale (of any color) daily for 5 consecutive days also cures {@i spinal disolving}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Stone Lungs",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Some parts of the elemental plane of Earth are infected with a foul-smelling air that spews up through cracks in the rock. Creatures not from the plane may contract {@i stone lungs} when inhaling this air. When a creature breathes infected air, they must make a Constitution saving throw (DC 16) on a failed save they experience the following:",
+				"{@b Symptoms:} Coughing, trouble breathing, and the feeling of a heavy weight on their chest.",
+				"{@b Effects:} While infected, a creature suffers a -2 penalty to their Constutition score, as well as disadvantage on all Strength-based skill and ability checks.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. An Arcana or Medicine check (DC 12) reveals that breathing the pure air from the elemental plane of Air for at least 1 hour will also cure the disease."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Summer Eyes",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} A mix of pollens released during summertime from certain deep forest trees can cause an irritation in the eyes. When a creature spends at least 2 days near these trees they must make a Constitution saving throw (DC 12). The saving throw is repeated each day a creature remains in the forest for 7 days, after which they are immune until the next summer. On a failed save they experience the following:",
+				"{@b Symptoms:} Bloodshot eyes with excessive tearing accompanied by a lowered capability to concentrate.",
+				"{@b Effects:} The afflicted creature suffers disadvantage to all Perception checks and Constitution saving throws.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. Alternatively, a Nature or Medicine check (DC 12) reveals that the symptoms will resolve on their own after {@dice 1d6}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Swamp Pneumonia",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Swamp pneumonia} is caused by camping in the open air during the winter months in swamps and bogs. When a creature spends a long rest in such conditions they must roll a Constitution saving throw (DC10). The DC increases by 1 for each consecutive long rest they spend in these conditions. On a failed save they experience the following:",
+				"{@b Symptoms:} Diffoculty breathing, accompanied by heavy wheezing and occasional productive cough. The mucus coughed out has a thick slimy consistency.",
+				"{@b Effects:} The afflicted creature suffers a -2 penalty to their Constitution score, vulnerability to poison and cold damage, and disadvantage on all Stealth checks.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level is able to cure {@swamp pneumonia}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Swine Stomach",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Swine stomach} is a variation of {@disease pig twitch|bag} that is specific to pigs and boars that live in the wild. When eating the spoiled meat of such an animal the creature must make a Constitution saving throw (DC 17). On a failed save they experience the following:",
+				"{@b Symptoms:} An infected creature experiences severe nausea, vomiting, fatigue.",
+				"{@b Effects:} The afflicted suffers a -2 penalty to their Constitution score.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "The Niffs",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i The niffs} are a common, highly contagious virus that is spread through contact with infected creatures. The specific origin is unknown but infections seem to increase during autumn- to wintertime. When a creature comes into contact with an infected creature they must make a Constitution saving throw (DC 9). They must repeat this saving throw each time they encounter another infected creature, including the same creature at another time. On a failed save they experience the following:",
+				"{@b Symptoms:} Excessive mucus causing a runny nose, irritability, headache, and sinus congestion.",
+				"{@b Effects:} The afflicted suffers -5 to all smell-based Perception checks, a -2 penalty to all Persuasion checks and Constitution saving throws, and disadvantage on all Stealth checks.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. A Medicine check (DC 5) reveals that symptoms will resolve on their own after 2 long rests with minimal activity in between."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Thief's Bane",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Some locks that have not been disturbed for a long time may be caked in a layer of grime that causes an infection to a creature attempting to open the lock. When a creature touches the grime by trying to unlock such a lock they must roll a Constitution saving throw (DC 15). On a failed save they experience the following:",
+				"{@b Symptoms:} Shaky hands, ragged breathing and anxiety.",
+				"{@b Effects:} An infected creature suffers -4 to all Sleight of Hand, Stealth, and Deception checks.",
+				"{@b Cure:} {@spell Calm emotions} or {@spell lesser restoration} will cure {@i thief's bane}."
 			],
 			"source": "bag"
 		},
 		{
-			"name": "Twelve Day Decay",
+			"name": "Twelve-Day Decay",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} A very rare enzyme which is sometimes found in the bodily fluids of {@creature zombie|mm|zombies} can have serious effects on the living. When a creature is damaged by an infected zombie they must make a Constitution saving throw (DC 12) On a failed save they experience the following:",
+				"{@b Symptoms:} The creature's skin changes in shade to an increasingly sickly grey or green and they experience muscle soreness, before experiencing full-body numbness on the 12th day.",
+				"{@b Effects:} With each day that passes, the infected creature suffers a reduction in their maximum hit points as shown in the table below. If the creature's maximum hit points fall below 0 they die immediately, and become a zombie over the course of {@dice 1d4} days.",
+				"{@b Cure:} {@spell Lesser restoration} or {@spell remove curse} can be used to halt the progression of the disease, but will not heal the lost hit point maximum. {@spell Greater restoration} or a similarly-powerful spell has a 95% chance of restoring the lost hit points (with a 5% chance to have no effect).",
+				{
+					"type": "table",
+					"caption": "Twelve-Day Decay Effects",
+					"colLabels": [
+						"Day",
+						"Maximum HP"
+					],
+					"colStyles": [
+						"col-1 text-center"
+					],
+					"rows": [
+						[
+							"1",
+							"-1"
+						],
+						[
+							"2",
+							"-3"
+						],
+						[
+							"3",
+							"-6"
+						],
+						[
+							"4",
+							"-10"
+						],
+						[
+							"5",
+							"-15"
+						],
+						[
+							"6",
+							"-21"
+						],
+						[
+							"7",
+							"-28"
+						],
+						[
+							"8",
+							"-36"
+						],
+						[
+							"9",
+							"-45"
+						],
+						[
+							"10",
+							"-55"
+						],
+						[
+							"11",
+							"-66"
+						],
+						[
+							"12",
+							"-78"
+						]
+					]
+				}
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Unending Thirst",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} {@i Unending thirst} is a mental disorder seen mostly in sailors (shipwrecked or otherwise) that have not had access to fresh drinking water for a prolonged period of time. When a creature that has had this experience drinks any liquid for the first time they must make a Wisdom saving throw (DC 10). The DC increases by 1 for each day they went without access to a drink of any kind. On a failed save they experience the following:",
+				"{@b Symptoms:} Drinking as much as possible, frenzied drinking, low impulse control to satisfy their thirst.",
+				"{@b Effects:} Effects may differ depending on the type of drink, including intoxication or other harmful effects. Consuming any liquid will always conclude in the creature becoming {@condition poisoned} for {@dice 1d6 hours} in addition to any other effects of overconsumption.",
+				"{@b Cure:} {@spell Calm emotions} or a successful Persuation check (contested by the afflicted creature's Wisdom saving throw) may stop the frenzied drinking, but does not treat the underlying condition. {@spell Greater restoration} or extended therapy are the only known cures."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Verdant Veins",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Ticks living in grasslands can carry a virus that causes {@i verdant veins} in creatures. When a tick attaches to a creature, they must make a Perception check (DC 10) to notice the tick. If they do not, the tick deals 1 piercing damage and transfers the disease over the course of {@dice 1d4} hours. The creature can repeat the Perception check every hour. At the end of this time, if they have not noticed the tick, the creature must make a Constitution saving throw (DC 15). On a success, the tick detaches on its own and no further effects are felt. On a failed save they experience the following:",
+				"{@b Symptoms:} Extreme fatigue, superficial veins turning a deep green as well as a generally greenish complexion.",
+				"{@b Effects:} An infected creature gains 1 level of {@condition exhaustion} for every 12 consecutive hours they go without a long rest (instead of 24 hours), and when they would gain 1 level of exhaustion through other effects (such as extreme weather), they instead gain 2 levels. In addition, the creaure requires 2 more hours of sleep (or 1 more hour of meditation, if the creature does not sleep) in order to experience the effects of a long rest.",
+				"{@b Cure:} {@spell Greater restoration} may be used to cure the disease if the afflicted creature does not already have any levels of exhaustion. A creature's exhaustion must be addressed before their {@i verdant veins} can be cured."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Vocal Fatigue",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Those not proficient in the art of performing and singing may strain their vocal chords when they try, experiencing a condition known as {@i vocal fatigue}. When a creature not proficient in Performance spends more than 10 minutes evening singing, telling stories, or otherwise performing in any way that involves speech, they must roll a Charisma saving throw (DC 10). On a failed save they experience the following:",
+				"{@b Symptoms:} The creature's voice becomes raspy, and may even diminish.",
+				"{@b Effects:} The afflicted creature suffers disadvantage on all Charisma-based skill and ability checks for {@dice 1d4} days.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level will restore the creature's voice. A Nature or Medicine check (DC 10) reveals that drinking tea prepared with honey may soothe the effects of {@i vocal fatigue} and reduce the recovery time by 1 day."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Warped Tongue",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} A {@i warped tongue} is often seen in drunkards or others who consume copious amounts of alcohol. If a very intoxicated creature attempts a Performance check and rolls a natural 1, they must make a Charisma saving throw (DC 10). On a failed save they experience the following:",
+				"{@b Symptoms:} The creature's tongue twists painfully out of shape and vocalization is difficult.",
+				"{@b Effects:} The creature suffers disadvantage on all Charisma-based ability and skill checks. Additionally, if the creature attempts to cast a spell with a verbal component, there is a 5% chance the spell goes wild. To determine the random effect, roll on the {@table wild magic surge|phb} table.",
+				"{@b Cure:} {@spell Lesser restoration} can cure this condition immediately. A Medicine check (DC 9) reveals that a {@i warped tongue} resolves itself after a long rest."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Witch's Delirium",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Some {@creature green hag|mm|hags} carry a virus that is benign to them but may cause a severe problem for other humanoids they come into contact with. This disease is most commonly known as {@i witch's delirium}. When coming within 5 feet of an infected hag, a creature must make a Constitution saving throw. On a failed save they experience the following:",
+				"{@b Symptoms:} Auditory hallucinations of various forest animals, causing an inability to focus or think clearly.",
+				"{@b Effects:} The afflicted suffers a -2 penalty to their Intelligence and Wisdom scores. Additionally, they are unable to maintain concentration on any spell or effect requiring concentration.",
+				"{@b Cure:} {@spell Lesser Restoration} or any healing spell of 3rd level or higher cast by a fey creature will cure {@witch's delerium}."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Wobble Bowels",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} When a creature eats food that has been badly or unsafely prepared they must roll a Constitution saving throw (DC 10). On a failed save they experience the following:",
+				"{@b Symptoms:} Uneasiness in the intestines, followed by diarrhea and incontinence.",
+				"{@b Effects:} For the next {@dice 1d6} hours, the afflicted suffers disadvantage on all attack rolls. If an attack roll or Athletics or Acrobatic check is a critical miss during this time, they soil themselves. The stench causes disadvantage on all Charisma-based ability and skill checks until it is cleaned. After the symptoms resolve, the creature suffers 1 level of {@condition exhaustion}.",
+				"{@b Cure:} {@spell Lesser restoration} may cure this disease. The effects also wear off after {@dice 1d6} hours, as mentioned above. A Medicine check (DC 5) reveals that drinking a sufficient quantity of water prior to being cured or the effects resolving will prevent the exhaustion."
 			],
 			"source": "bag"
 		},
 		{
 			"name": "Wraithskin",
 			"entries": [
-				"{@b Source:} ",
-				"{@b Symptoms:} ",
-				"{@b Effects:} ",
-				"{@b Cure:} "
+				"{@b Source:} Caused by coming into direct contact with a pale, hanging moss found in caverns and other recesses known as white wraith moss. When touching this plant a creature must make a Constitution saving throw (DC 18). On a failed save they experience the following:",
+				"{@b Symptoms:} Goosebumps and sensitive skin. The creature is also easily startled.",
+				"{@b Effects:} An afflicted creature suffers disadvantage on all saving throws against being {@condition frightened} as well as vulnerability to piercing damage.",
+				"{@b Cure:} {@spell Lesser restoration} or a cure of similar level. A Nature check (DC 10) will reveal that spending a short rest in a comfortable warm environment (such as near a campfire) will also cause symptoms to resolve."
 			],
 			"source": "bag"
 		}
@@ -1552,7 +1613,7 @@
 				],
 				[
 					"93",
-					"{@disease Twelve Day Decay|bag}"
+					"{@disease Twelve-Day Decay|bag}"
 				],
 				[
 					"94",
