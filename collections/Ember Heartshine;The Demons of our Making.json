@@ -287,12 +287,7 @@
 				"darkvision 60 ft."
 			],
 			"languages": [
-				{
-					"languages": [
-						"Abyssal"
-					],
-					"note": "(can understand but can't speak)"
-				}
+				"Abyssal (can understand but can't speak)"
 			],
 			"conditionImmune": [
 				"restrained"
@@ -369,6 +364,109 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Hell Razer",
+			"size": "M",
+			"type": {
+				"type": "fiend (demon)"
+			},
+			"source": "doom",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d8 + 36",
+				"average": 117
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 14,
+			"int": 12,
+			"wis": 10,
+			"cha": 12,
+			"passive": 13,
+			"cr": "5",
+			"fluff": {
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"The hell razer is an astute and tactical foe that will engage enemies from a distance with a powerful beam of unrefined Argent energy. The beam emanates from an arm-like protrusion composed of cartilage and other osseous tissue. Articulation of the cartilage allows the hell razer to focus its energy beam into a single charged shot that will obiterate anything that stands in its path."
+						]
+					}
+				]
+			},
+			"skill": {
+				"intimidation": "+4",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"Abyssal"
+			],
+			"trait": [
+				{
+					"name": "Rake",
+					"entries": [
+						"Any target hit by at least two of the hell razer's claw attacks in one turn must make a successful {@dc 15} Constitution saving throw or begin to bleed, losing 2 ({@dice 1d4}) hit points at the start of its next 5 turns. A creature affected by this ability may make repeat the saving throw again at the end of each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hell razer makes three attacks with its claw, or one attack with its claw and either a {@i hell razer} or {@i hell beam} attack."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d8 + 1}) slashing damage."
+					]
+				},
+				{
+					"name": "Hell Razer (Recharge 5-6)",
+					"entries": [
+						"The hell razer releases pure Argent energy in a beam encompassing a 30-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 33 ({@dice 6d10}) Argent/fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Hell Beam (Recharge 5-6)",
+					"entries": [
+						"The hell razer releases pure Argent in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 15} Dexterity saving throw, taking 22 ({@dice 5d8}) Argent/fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"S",
+				"F"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
 			]
 		}
 	]
