@@ -169,8 +169,8 @@
 			"senses": [
 				"darkvision 60 ft."
 			],
-			"senseTags": [
-				"D"
+			"languages": [
+				"Abyssal"
 			],
 			"immune": [
 				"fire"
@@ -224,6 +224,12 @@
 			"damageTags": [
 				"S",
 				"F"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB"
 			],
 			"miscTags": [
 				"MW",
@@ -280,15 +286,20 @@
 			"senses": [
 				"darkvision 60 ft."
 			],
-			"senseTags": [
-				"D"
+			"languages": [
+				{
+					"languages": [
+						"Abyssal"
+					],
+					"note": "(can understand but can't speak)"
+				}
 			],
 			"conditionImmune": [
 				"restrained"
 			],
 			"resist": [
 				{
-					"immune": [
+					"resist": [
 						"bludgeoning",
 						"piercing",
 						"slashing"
@@ -333,13 +344,19 @@
 				{
 					"name": "Tail Swipe",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}17 ({@damage d46 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}17 ({@damage 4d6 + 3}) bludgeoning damage."
 					]
 				}
 			],
 			"damageTags": [
 				"B",
 				"P"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB"
 			],
 			"conditionInflicted": [
 				"prone"
