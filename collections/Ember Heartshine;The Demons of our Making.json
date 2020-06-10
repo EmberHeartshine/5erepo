@@ -1,0 +1,117 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "doom",
+				"abbreviation": "DooM",
+				"full": "The Demons of our Making",
+				"color": "#922610",
+				"authors": [
+					"Ember Heartshine"
+				],
+				"version": "1.0.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1589210429,
+		"dateLastModified": 1589210429
+	},
+	"monster": [
+		{
+			"name": "The Possessed",
+			"size": "M",
+			"type": {
+				"type": "undead"
+			},
+			"source": "doom",
+			"alignment": [
+				"NE"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 45
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 5
+			},
+			"str": 15,
+			"dex": 6,
+			"con": 16,
+			"int": 2,
+			"wis": 6,
+			"cha": 5,
+			"passive": 8,
+			"cr": "1/2",
+			"fluff": {
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"The Possessed are created in a Lazarus Wave event, a phenomenon first discovered by Arcanist Luren Insoren during her Lazarus Project. While most victims exposed to Argent biowaves will expire without further effect, some subjects will absorb traces of Argent energy and enter a state of posthumous vigor. Despite necrosis on the internal organs (with the exception of the brain), the victim continues to animate and exhibit a low order of sentinence for weeks or even months after death. Posthumous brain activity in the possessed is limited to instinctive behavior. The possessed are known to be territorial when confronted by the living. When isolated, they will often enter a dormant state for extended periods of time. They will stand, unmoving, for days or weeks at a time until presented with a live food source, or threatened by a predator."
+						]
+					},
+					"{@b Fodder:} The possessed are considered the lowest form of demon, and act as front-line fodder for their armies. They are rarely encountered alone, and can overwhelm unprepared adventurers.",
+					"{@b Ashes to Ashes:} When the posessed is destroyed, its body crumbles to ash, along with any clothing it is wearing."
+				]
+			},
+			"skill": {
+				"stealth": "+2"
+			},
+			"senses": [
+				"tremorsense 30 ft. ({@condition blinded|phb|blind} beyond this radius)"
+			],
+			"senseTags": [
+				"T"
+			],
+			"conditionImmune": [
+				"blinded",
+				"frightened"
+			],
+			"immune": [
+				"psychic"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"trait": [
+				{
+					"name": "Vindictive Death",
+					"entries": [
+						"If damage reduces the the possessed to 0 hit points, it releases the Argent energy trapping its soul. Each creature within 5 feet of the the possessed must succeed on a {@dc 13} Constitution saving throw or take 13 ({@d 3d8}) Argent/fire damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}6 ({@dice 1d8 + 2}) bludeoning damage. If the target is Medium or smaller, they must make a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"conditionInflicted": [
+				"prone"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
