@@ -10,7 +10,7 @@
 					"Ember Heartshine"
 				],
 				"version": "1.0.0",
-				"url": "https://www.patreon.com/bonusaction",
+				"url": "https://github.com/EmberHeartshine/5erepo",
 				"convertedBy": "Ember Heartshine",
 				"targetSchema": "1.0.0"
 			}
@@ -27,7 +27,7 @@
 			},
 			"source": "doom",
 			"alignment": [
-				"NE"
+				"E"
 			],
 			"ac": [
 				{
@@ -62,11 +62,11 @@
 						]
 					},
 					"{@b Fodder:} The possessed are considered the lowest form of demon, and act as front-line fodder for their armies. They are rarely encountered alone, and can overwhelm unprepared adventurers.",
-					"{@b Ashes to Ashes:} When the posessed is destroyed, its body crumbles to ash, along with any clothing it is wearing."
+					"{@b Ashes to Ashes:} When the posessed is destroyed, its body crumbles to ash, along with any clothing it was wearing."
 				]
 			},
-			"skill": {
-				"stealth": "+2"
+			"save": {
+				"con": "+5"
 			},
 			"senses": [
 				"tremorsense 30 ft. ({@condition blinded|phb|blind} beyond this radius)"
@@ -88,7 +88,7 @@
 				{
 					"name": "Vindictive Death",
 					"entries": [
-						"If damage reduces the the possessed to 0 hit points, it releases the Argent energy trapping its soul. Each creature within 5 feet of the the possessed must succeed on a {@dc 13} Constitution saving throw or take 13 ({@d 3d8}) Argent/fire damage."
+						"If damage reduces the the possessed to 0 hit points, it releases the Argent energy trapping its soul. Each creature within 5 feet of the the possessed must succeed on a {@dc 13} Constitution saving throw or take 13 ({@dice 3d8}) Argent/fire damage."
 					]
 				}
 			],
