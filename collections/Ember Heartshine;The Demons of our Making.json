@@ -15,8 +15,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1589210429,
-		"dateLastModified": 1589210429
+		"dateAdded": 1591810040,
+		"dateLastModified": 1591810040
 	},
 	"monster": [
 		{
@@ -111,6 +111,116 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Demonic Imp",
+			"size": "M",
+			"type": {
+				"type": "fiend (demon)"
+			},
+			"source": "doom",
+			"alignment": [
+				"CE"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 14",
+				"average": 77
+			},
+			"speed": {
+				"walk": 35,
+				"climb": 30
+			},
+			"str": 12,
+			"dex": 17,
+			"con": 13,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"passive": 13,
+			"cr": "3",
+			"fluff": {
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"Despite their low status among the demon ranks and their seemingly endless number, imps have unique characteristics in battle. Some prefer fighting from an elevated position, while others will rush their target and swipe at them with razor sharp claws. Walls and obstacles offer no defense against imps as they will leap great heights and easily hang from surfaces. The imp is capable of channeling Argent energy through its hands and shaping it into a projectile. As the imp channels the energy, airborn particles and debris are sucked into the malestrom to create a condensed, superheated fireball. The mechanics of the imp's ranged attacks suggest that they are actually a lower form of the {@creature summoner|doom}."
+						]
+					},
+					"{@b Blood Frenzy:} Imps often become crazed at the scent of blood, and attack with reckless abandon."
+				]
+			},
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"intimidation": "+4",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"immune": [
+				"fire"
+			],
+			"trait": [
+				{
+					"name": "Leap",
+					"entries": [
+						"During its movement, the demonic imp may leap up to the remaining distance in its movement in any direction, including up. If the imp leaps to a wall or other vertical surface, it can dig one of its claws into the surface and remain there until it leaps to another location."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The demonic imp has advantage on an attack roll against a creature if at least one of the demonic imp's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The demonic imp makes two attacks with its claws."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}8 ({@dice 2d6 + 1}) slashing damage."
+					]
+				},
+				{
+					"name": "Hurl Hellfire",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/100 ft., one target. {@h}16 ({@damage 3d6 + 3}) Argent/fire damage."
+					]
+				},
+				{
+					"name": "Charged Hellfire",
+					"entries": [
+						"The demonic imp may choose to hold its hurled hellfire for 1 round before releasing it. If it does so, the target takes an additional 9 ({@dice 2d8}) Argent/fire damage on a successful hit. However, if the demonic imp takes any damage when taking this action before releasing the hellfire, the attack is lost and the demonic imp cannot attempt to use this ability again until the end of its next turn."
+					]
+				}
+			],
+			"damageTags": [
+				"S",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
 			]
 		}
 	]
