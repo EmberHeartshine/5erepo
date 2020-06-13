@@ -201,8 +201,14 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"{@b Pitch Black.} This matte black candle is cool to the touch, even when placed in a warm environment. When it is lit, magical darkness spreads from the candle in a 20-foot radius sphere for 5 hours (per the {@spell darkness} spell). The darkness spreads around corners.",
-				"A creature with darkvision can't see through this darkness, and non-magical light can't illuminate it. Completely covering the candle with an opaque object, such as a bowl or a helm, blocks the darkness. If any of the candle's area of effect overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
+				"This matte black candle is cool to the touch, even when placed in a warm environment.",{
+					"type": "entries",
+					"name": "Pitch Black",
+					"entries": [
+						"While this candle is lit, magical darkness spreads from the candle in a 20-foot radius sphere for 5 hours (per the {@spell darkness} spell). The darkness spreads around corners.",
+						"A creature with darkvision can't see through this darkness, and non-magical light can't illuminate it. Completely covering the candle with an opaque object, such as a bowl or a helm, blocks the darkness. If any of the candle's area of effect overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
+					]
+				}
 			]
 		},
 		{
@@ -223,7 +229,13 @@
 			"dmgType": "B",
 			"weapon": true,
 			"entries": [
-				"{@b Trip.} Bolas are mainly used to trip foes from a distance. A Large or smaller bipedal creature hit with bolas must make a Dexterity saving throw (DC 15) or be {@condition restrained}. A restrained creature may attempt to break free with a successful Strength (Athletics) check (DC 15). A creature can also try to untangle the bolas using a Dexterity (Sleight of Hand) check (DC 12)."
+				{
+					"type": "entries",
+					"name": "Trip",
+					"entries": [
+						"Bolas are mainly used to trip foes from a distance. A Large or smaller bipedal creature hit with bolas must make a Dexterity saving throw (DC 15) or be {@condition restrained}. A restrained creature may attempt to break free with a successful Strength (Athletics) check (DC 15). A creature can also try to untangle the bolas using a Dexterity (Sleight of Hand) check (DC 12)."
+					]
+				} 
 			]
 		},
 		{
@@ -237,8 +249,21 @@
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"entries": [
-				"{@b Returning.} When you throw the boom-erang you can catch it in the same round as part of the attack, or you can choose to catch it in the following round as a bonus action. If the boom-erang is thrown further than 60 feet you may only catch it in the following round.",
-				"{@b Arcane Blast.} When you make a successful attack with this weapon you can choose to activate a blast of arcane energy centered on your target. Each creature in a 10-foot radius must make a Dexterity saving throw (DC 15). On a failed save the target takes 2d6 Force and 2d4 Fire damage, or half damage on a successful save. You can use this feature up to two times per long rest."
+				"This simple boomerang is carved from ebony wood, with runes lining the outer edge.",
+				{
+					"type": "entries",
+					"name": "Returning",
+					"entries": [
+						"When you throw the boom-erang you can catch it in the same round as part of the attack, or you can choose to catch it in the following round as a bonus action. If the boom-erang is thrown further than 60 feet you may only catch it in the following round."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Blast",
+					"entries": [
+						"When you make a successful attack with this weapon you can choose to activate a blast of arcane energy centered on your target. Each creature in a 10-foot radius must make a Dexterity saving throw (DC 15). On a failed save the target takes 2d6 Force and 2d4 Fire damage, or half damage on a successful save. You can use this feature up to two times per long rest."
+					]
+				}
 			]
 		}
 	]
