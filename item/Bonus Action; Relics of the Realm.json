@@ -62,6 +62,7 @@
 			"name": "Aegis of the Abyss",
 			"source": "rotr1",
 			"page": 1,
+			"baseItem": "shield|phb",
 			"type": "S",
 			"tier": "major",
 			"rarity": "legendary",
@@ -212,6 +213,41 @@
 			]
 		},
 		{
+			"name": "Blade of the Empire",
+			"source": "rotr1",
+			"page": 2,
+			"baseItem": "shortsword +1|dmg",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6 + 1",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This broad-bladed {@item shortsword +1|dmg} was created to aid the Imperial soldiers in battle against the forces of the Abyss.",
+				{
+					"type": "entries",
+					"name": "Military Precision",
+					"entries": [
+						"You receive a +1 bonus to attack rolls made with this weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lawkeeper",
+					"entries": [
+						"If you are of a Lawful alignment you deal an extra {@damage 1d6} slashing damage to creatures with a Chaotic alignment whenever you make a successful attack using this sword."
+					]
+				}
+			]
+		},
+		{
 			"name": "Bolas",
 			"source": "rotr1",
 			"page": 2,
@@ -261,7 +297,7 @@
 					"type": "entries",
 					"name": "Arcane Blast",
 					"entries": [
-						"When you make a successful attack with this weapon you can choose to activate a blast of arcane energy centered on your target. Each creature in a 10-foot radius must make a Dexterity saving throw (DC 15). On a failed save the target takes 2d6 Force and 2d4 Fire damage, or half damage on a successful save. You can use this feature up to two times per long rest."
+						"When you make a successful attack with this weapon you can choose to activate a blast of arcane energy centered on your target. Each creature in a 10-foot radius must make a Dexterity saving throw (DC 15). On a failed save the target takes {@damage 2d6} force and {@damage 2d4} fire damage, or half damage on a successful save. You can use this feature up to two times per long rest."
 					]
 				}
 			]
