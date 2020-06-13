@@ -928,11 +928,13 @@
 			"wondrous": true,
 			"charges": 10,
 			"entries": [
+				"These electric blue hand wraps occasionally crackle with static electricity, and the hair on your arms (if you have any) constantly stands on end.",
+				"You gain a +1 bonus to your unarmed strike's attack and damage rolls while wearing these hand wraps. The hand wraps have the following additional properties.",
 				{
 					"type": "entries",
-					"name": "Fast as Lightning",
+					"name": "Thunderous Strikes",
 					"entries": [
-						"You gain a +1 bonus to your unarmed strike's attack and damage rolls while wearing these hand wraps. Your unarmed strikes are also considered magical for the purposes of overcoming damage resistance/immunity. The hand wraps have the following additional properties."
+						"Your unarmed strikes are considered magical for the purposes of overcoming damage resistance/immunity."
 					]
 				},
 				{
@@ -941,6 +943,31 @@
 					"entries": [
 						"These hand wraps can hold 10 charges. They gain 1 charge for every unarmed strike you land on a hostile creature. You gain 3 charges upon a critical hit. When you have not struck a hostile creature in at least 10 minutes, any unexpended charges are lost.",
 						"When you hit with an unarmed strike, you may choose to expend 5 charges to deal an additional {@damage 2d4 + 2} lightning damage. The hand wraps do not gain a charge when you hit with an electrified unarmed strike."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hood of the Deciever",
+			"source": "RotR2",
+			"page": 6,
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": "by a warlock",
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gift of the Pact",
+					"entries": [
+						"After a long rest, roll a {@dice d4}. The entity you have a pact with grants you an extra spell slot of the level that you rolled. This spell slot lasts until you finish another long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master's Voice",
+					"entries": [
+						"The hood allows you to channel the otherworldly charisma of your patron. You recieve a +3 bonus to Charisma (Deception) and Charisma (Persuasion) checks."
 					]
 				}
 			]
