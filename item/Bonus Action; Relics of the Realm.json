@@ -5,7 +5,7 @@
 				"json": "RotR1",
 				"abbreviation": "RotR1",
 				"full": "Relics of the Realm Volume 1",
-				"color": "#0a7e8f",
+				"color": "#005f69",
 				"authors": [
 					"Tim"
 				],
@@ -18,7 +18,7 @@
 				"json": "RotR2",
 				"abbreviation": "RotR2",
 				"full": "Relics of the Realm Volume 2",
-				"color": "#0a7e8f",
+				"color": "#005f69",
 				"authors": [
 					"Tim"
 				],
@@ -31,7 +31,7 @@
 				"json": "RotR3",
 				"abbreviation": "RotR3",
 				"full": "Relics of the Realm Volume 3",
-				"color": "#0a7e8f",
+				"color": "#005f69",
 				"authors": [
 					"Tim"
 				],
@@ -44,7 +44,7 @@
 				"json": "RotR4",
 				"abbreviation": "RotR4",
 				"full": "Relics of the Realm Volume 4",
-				"color": "#0a7e8f",
+				"color": "#005f69",
 				"authors": [
 					"Tim"
 				],
@@ -109,7 +109,7 @@
 					"type": "entries",
 					"name": "Amphibious Comfort",
 					"entries": [
-						"{@b Amphibian.} When attuned to this amulet, you gain a movement speed equal to your walking speed (if you don't have one already)."
+						"When attuned to this amulet, you gain a movement speed equal to your walking speed (if you don't have one already)."
 					]
 				},
 				{
@@ -345,6 +345,7 @@
 			"page": 2,
 			"type": "R",
 			"rarity": "rare",
+			"weight": 1,
 			"weaponCategory": "simple",
 			"range": "60/120",
 			"dmg1": "1d4",
@@ -385,7 +386,6 @@
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"weapon": true,
-			"ac": 1,
 			"bonusAc": "+1",
 			"entries": [
 				"Attached to this otherwise unremarkable {@item shortbow|phb} is a small shield to protect the wielder from harm.",
@@ -419,7 +419,8 @@
 					"type": "entries",
 					"name": "Endless Piggy Bank",
 					"entries": [
-						"This magically enchanted coin box has an extradimensional space in which it can store up to 25,000 coins of any type in any combination. Coins can be stored into the box using the slot on top. The box is otherwise sealed shut but can be opened by speaking a command word, revealing the amount of currency desired. When opened, the interior of the box is as deep as required to fit all the coins that will be taken from it."
+						"This magically enchanted coin box has an extradimensional space in which it can store up to 50,000 coins of any type in any combination. Coins can be stored into the box using the slot on top. The box is otherwise sealed shut but can be opened by speaking a command word, revealing the amount of currency desired. When opened, the interior of the box is as deep as required to fit all the coins that will be taken from it.",
+						"Attempting to place any other object inside the coinbox will eject the item from the box."
 					]
 				},
 				"Placing a coinbox of holding inside an extradimensional space created by a {@item Heward's handy haversack}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
@@ -430,6 +431,146 @@
 				],
 				"weightless": true
 			}
+		},
+		{
+			"name": "Cornucopeia of the Harvest",
+			"source": "RotR1",
+			"page": 3,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"weight": 0.5,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Healthy Diet",
+					"entries": [
+						"As an action you can make this cornucopia fill and overflow with enough fruits and vegetables to sustain 5 people for a whole day. This feature can be used once each day."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bountiful Harvest",
+					"entries": [
+						"Once per year you can cast the spell {@spell heroes' feast} without any material components."
+					]
+				}
+			]
+		},
+		{
+			"name": "Crimson Amplifier",
+			"source": "RotR1",
+			"page": 3,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"curse": true,
+			"wondrous": true,
+			"entries": [
+				"This crystalline pendant features an empty space in the middle and a metal needle projecting upward from its cap.",
+				{
+					"type": "entries",
+					"name": "A Tiny Drop",
+					"entries": [
+						"As a bonus action you can push your finger on the needle on top of this pendant to drain a single drop of blood into the pendant and taking 1 point of piercing damage. The first evocation or necromancy spell you cast within the next hour deals an extra 3d4 damage. If it is a spell attack, you gain a +2 bonus to the spell attack, or if it has a save the DC increases by 2. This effect can only be triggered using your own blood. You can use this feature twice per long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blood Sacrifice (Curse)",
+					"entries": [
+						"When a crimson amplifier accumulates 50 drops of blood in total across all wearers, it shatters and summons a {@creature horned devil} along with {@dice 3d4} {@creature imps}. The summoned creatures are hostile toward the wearer and and anyone else that is not fiendish in nature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Crystalline Crusher",
+			"source": "RotR1",
+			"baseItem": "mace|phb",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6 + 1",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This beautiful mace is roughly carved from a massive purple quartz crystal It features a series of sharp edges along one face.",
+				{
+					"type": "entries",
+					"name": "Crystal Clear",
+					"entries": [
+						"You recieve a +1 bonus to attack rolls made with this weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Smooth or Sharp",
+					"entries": [
+						"When you make an attack with this weapon you can choose to deal piercing or bludgeoning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Mineral",
+					"entries": [
+						"This weapon can be used by all spellcasters as an arcane focus.",
+						"In addition, you may use this weapon once per day to cast {@spell guiding bolt}, making the attack roll with a +6 bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dagger of the Red Dragon",
+			"source": "RotR1",
+			"page": 3,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"curse": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4 +2",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This {@dagger +2|dmg} was created by an ancient draconic cult as an offering to Brazzemal the Bright during his long slumber. Its shimmering golden blade and jeweled hilt is as beautiful as it is deadly.",
+				{
+					"type": "entries",
+					"name": "Essence of Fire",
+					"entries": [
+						"Once per day, you can use this dagger to cast {@spell flame strike} at 5th level (DC 18)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greed of the Red",
+					"entries": [
+						"Whenever you are near a hoard of at least 5,000 gp that is not in your possession, the blade emits low red light equivalent to candlelight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Consumed by Fire (Curse)",
+					"entries": [
+						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times.",
+						"In addition, whenever you have more than 10,000 gp in your possession and you use this weapon's {@i Essence of Fire} ability, roll a {@dice d100}. On a 95 or higher you get an insatiable urge to light your own equipment on fire. On a 100 you become compelled to do so before doing anything else."
+					]
+				}
+			],
+			"attachedSpells": [
+				"flame strike"
+			]
 		}
 	]
 }
