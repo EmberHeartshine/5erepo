@@ -70,8 +70,21 @@
 			"ac": 3,
 			"bonusAc": "+3",
 			"entries": [
-				"{@b Spellguard.} While holding this Shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.",
-				"{@b Arcane Hunger.} As a reaction you can make the shield absorb a ranged spell attack, if the target of the spell is within 10 feet of you. You can use this feature twice per long rest. If a single spell deals more than 90 damage the shield, it shatters."
+				"This broad silvered shield is adorned with a grotesque face. Its fanged open mouth contains swirling arcane energies.",
+				{
+					"type": "entries",
+					"name": "Spellguard",
+					"entries": [
+						"While holding this Shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Hunger",
+					"entries": [
+						"As a reaction you can make the shield absorb a ranged spell attack, if the target of the spell is within 10 feet of you. You can use this feature twice per long rest. If a single spell deals more than 90 damage the shield, it shatters."
+					]
+				}
 			]
 		},
 		{
@@ -85,7 +98,7 @@
 			"entries": [
 				"{@b Leapfrog.} This amulet can be used to cast the spell {@spell jump} twice per long rest.",
 				"{@b Amphibian.} When attuned to this amulet, you gain a movement speed equal to your walking speed (if you don't have one already).",
-				"{@b Knowledge of the Swamp.} If a {@class druid} attunes to this necklace, they gain the following beast shapes: {@creature rat}, {@creature raven}, {@creature giant rat}, {@creature poisonous snake}, {@creature stirge}, {@creature constrictor snake}, Giant Frog, Giant Lizard, {@creature giant poisonous snake}, {@creature crocodile}, {@creature giant spider}, {@creature giant toad}, {@creature giant constrictor snake}, and {@creature giant crocodile}."
+				"{@b Knowledge of the Swamp.} If a {@class druid} attunes to this necklace, they gain the following beast shapes: {@creature rat}, {@creature raven}, {@creature giant rat}, {@creature poisonous snake}, {@creature stirge}, {@creature constrictor snake}, {@creature giant frog}, {@creature giant lizard}, {@creature giant poisonous snake}, {@creature crocodile}, {@creature giant spider}, {@creature giant toad}, {@creature giant constrictor snake}, and {@creature giant crocodile}."
 			]
 		},
 		{
