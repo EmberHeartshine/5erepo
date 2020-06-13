@@ -924,7 +924,7 @@
 			"page": 5,
 			"tier": "major",
 			"rarity": "rare",
-			"reqAttune": "by a monk"
+			"reqAttune": "by a monk",
 			"wondrous": true,
 			"charges": 10,
 			"entries": [
