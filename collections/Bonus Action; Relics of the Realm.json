@@ -63,8 +63,8 @@
 			"source": "rotr1",
 			"page": 1,
 			"type": "S",
-			"tier": "legendary",
-			"rarity": "rare",
+			"tier": "major",
+			"rarity": "legendary",
 			"reqAttune": true,
 			"weight": 6,
 			"ac": 3,
@@ -73,6 +73,40 @@
 				"{@b Spellguard.} While holding this Shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.",
 				"{@b Arcane Hunger.} As a reaction you can make the shield absorb a ranged spell attack, if the target of the spell is within 10 feet of you. You can use this feature twice per long rest. If a single spell deals more than 90 damage the shield, it shatters."
 			]
-		}
+		},
+		{
+			"name": "Amulet of the Frog",
+			"source": "rotr1",
+			"page": 1,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"{@b Leapfrog.} This amulet can be used to cast the spell {@spell jump} twice per long rest.",
+				"{@b Amphibian.} When attuned to this amulet, you gain a movement speed equal to your walking speed (if you don't have one already).",
+				"{@b Knowledge of the Swamp.} If a {@class druid} attunes to this necklace, they gain the following beast shapes: {@creature rat}, {@creature raven}, {@creature giant rat}, {@creature poisonous snake}, {@creature stirge}, {@creature constrictor snake}, Giant Frog, Giant Lizard, {@creature giant poisonous snake}, {@creature crocodile}, {@creature giant spider}, {@creature giant toad}, {@creature giant constrictor snake}, and {@creature giant crocodile}."
+			]
+		},
+		{
+			"name": "Band of the Firm Grip",
+			"source": "rotr1",
+			"page": 1,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"{@b Helping Hand.} This ring allows the wearer to cast {@spell mage hand} at will.",
+				"{@b Firm Grip.} This ring has 10 charges. As an action, the wearer may expend charges to cast the following spells: {@spell hold person} at 2nd level (3 charges), {@spell hold monster} at 5th level (5 charges), and {@spell Bigby's hand} at 5th level (10 charges). The ring regains {@dice 1d10} spent charges at dawn.",
+				"{@ Hold Tight (Curse).} The cursed variant of this item clasps painfully around the wearer's finger and is unable to be removed or unattuned. The curse may be broken by {@spell remove curse} or by severing the finger."
+			],
+			"attachedSpells": [
+				"mage hand",
+				"hold person",
+				"hold monster"
+			]
+		},
 	]
 }
