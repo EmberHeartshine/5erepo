@@ -55,7 +55,7 @@
 			}
 		],
 		"dateAdded": 1589115470,
-		"dateLastModified": 1589115470
+		"dateLastModified": 1592087222
 	},
 	"item": [
 		{
@@ -76,7 +76,7 @@
 					"type": "entries",
 					"name": "Spellguard",
 					"entries": [
-						"While holding this Shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you."
+						"While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you."
 					]
 				},
 				{
@@ -231,12 +231,11 @@
 			"weapon": true,
 			"entries": [
 				"This broad-bladed {@item shortsword +1|dmg} was created to aid the Imperial soldiers in battle against the forces of the Abyss.",
-				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
 					"name": "Military Precision",
 					"entries": [
-						"You receive a +1 bonus to attack rolls made with this weapon."
+						"You receive a +1 bonus to attack and damage rolls made with this magic weapon."
 					]
 				},
 				{
@@ -269,7 +268,6 @@
 			"weapon": true,
 			"entries": [
 				"This delicate single-edged blade is etched with an icy pattern along the base of the blade. When in freezing temperatures, a soothing metallic sound emits from the blade when swung through the air.",
-				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
 					"name": "Northern Smithing",
@@ -300,7 +298,7 @@
 			"page": 2,
 			"baseItem": "quarterstaff|phb",
 			"type": "M",
-			"rarity": "uncommon",
+			"rarity": "none",
 			"weight": 6,
 			"weaponCategory": "simple",
 			"property": [
@@ -319,7 +317,7 @@
 			"source": "RotR1",
 			"page": 2,
 			"type": "R",
-			"rarity": "common",
+			"rarity": "none",
 			"weight": 1,
 			"value": 10,
 			"weaponCategory": "martial",
@@ -376,6 +374,7 @@
 			"page": 2,
 			"baseItem": "shortbow|phb",
 			"type": "R",
+			"rarity": "none",
 			"weight": 2,
 			"weaponCategory": "simple",
 			"property": [
@@ -433,7 +432,7 @@
 			}
 		},
 		{
-			"name": "Cornucopeia of the Harvest",
+			"name": "Cornucopia of the Harvest",
 			"source": "RotR1",
 			"page": 3,
 			"tier": "major",
@@ -545,12 +544,11 @@
 			"bonusWeapon": "+2",
 			"entries": [
 				"This {@dagger +2|dmg} was created by an ancient draconic cult as an offering to Brazzemal the Bright during his long slumber. Its shimmering golden blade and jeweled hilt are as beautiful as it is deadly.",
-				"You have a +2 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
 					"name": "Essence of Fire",
 					"entries": [
-						"Once per day, you can use this dagger to cast {@spell flame strike} at 5th level (DC 18)."
+						"You have a +2 bonus to attack and damage rolls made with this magic weapon. Once per day, you can use this dagger to cast {@spell flame strike} at 5th level (DC 18)."
 					]
 				},
 				{
@@ -692,6 +690,7 @@
 				"A",
 				"EXP"
 			],
+			"rarity": "none",
 			"entries": [
 				"This arrow features an explosive charge attached to the tip. As a result, its effective range is halved.",
 				{
@@ -843,6 +842,7 @@
 			"source": "RotR1",
 			"page": 5,
 			"type": "A",
+			"rarity": "none",
 			"entries": [
 				"This arrow features large barbed hooks in place of its tip. As a result, its effective range is halved.",
 				{
@@ -993,6 +993,7 @@
 			"source": "RotR1",
 			"page": 6,
 			"type": "A",
+			"rarity": "none",
 			"entries": [
 				"This arrow features a reinforced syringe in place of its tip. As a result, its effective range is halved.",
 				{
@@ -1007,6 +1008,42 @@
 					"type": "entries",
 					"entries": [
 						"You can fill the reservoir of the syringe with one potion, poison, or other liquid. It is injected directly into the target upon a hit, and any effects are immediate. Filling the reservoir takes 1 minute."
+					]
+				}
+			]
+		},
+		{
+			"name": "Jade Xiphos",
+			"source": "RotR1",
+			"page": 6,
+			"baseItem": "shortsword +1|dmg",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6 + 1",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This delicate {@item shortsword +1|dmg} is forged from a solid jade blade attached to a sturdy brass handle.",
+				{
+					"type": "entries",
+					"name": "Fine Balance",
+					"entries": [
+						"You receive a +1 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shards of Glass",
+					"entries": [
+						"If exposed to more than 30 points of force or thunder damage, the blade vibrates violently and shatters into hundreds of pieces. If the blade is stuck into a creature at the time, it takes {@damage 6d10} points of piercing damage. If it is not, the holder must succeed on a Dexterity saving throw (DC 12) or take the damage instead. The blade of the sword is destroyed beyond repair in this process.",
+						"A skilled {@class bard} may also be able to shatter the sword by singing a resonant note with a successful Charisma (Performance) check (DC 25)."
 					]
 				}
 			]
