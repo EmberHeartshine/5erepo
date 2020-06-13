@@ -2,9 +2,48 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "rotr",
-				"abbreviation": "RotR",
-				"full": "Relics of the Realm",
+				"json": "rotr1",
+				"abbreviation": "RotR1",
+				"full": "Relics of the Realm Volume 1",
+				"color": "#0a7e8f",
+				"authors": [
+					"Tim"
+				],
+				"version": "1.0.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "rotr2",
+				"abbreviation": "RotR2",
+				"full": "Relics of the Realm Volume 2",
+				"color": "#0a7e8f",
+				"authors": [
+					"Tim"
+				],
+				"version": "1.0.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "rotr3",
+				"abbreviation": "RotR3",
+				"full": "Relics of the Realm Volume 3",
+				"color": "#0a7e8f",
+				"authors": [
+					"Tim"
+				],
+				"version": "1.0.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "rotr4",
+				"abbreviation": "RotR4",
+				"full": "Relics of the Realm Volume 4",
 				"color": "#0a7e8f",
 				"authors": [
 					"Tim"
@@ -18,3 +57,22 @@
 		"dateAdded": 1589115470,
 		"dateLastModified": 1589115470
 	},
+	"item": [
+		{
+			"name": "Aegis of the Abyss",
+			"source": "rotr1",
+			"page": 1,
+			"type": "S",
+			"tier": "legendary",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 3,
+			"bonusAc": "+3",
+			"entries": [
+				"{@b Spellguard.} While holding this Shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.",
+				"{@b Arcane Hunger.} As a reaction you can make the shield absorb a ranged spell attack, if the target of the spell is within 10 feet of you. You can use this feature twice per long rest. If a single spell deals more than 90 damage the shield, it shatters."
+			]
+		}
+	]
+}
