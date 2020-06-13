@@ -300,6 +300,7 @@
 			"type": "M",
 			"rarity": "none",
 			"weight": 6,
+			"value": 1500,
 			"weaponCategory": "simple",
 			"property": [
 				"V"
@@ -842,7 +843,7 @@
 			"page": 5,
 			"type": "A",
 			"rarity": "none",
-			"value": 1000,
+			"value": 500,
 			"entries": [
 				"This arrow features large barbed hooks in place of its tip. As a result, its effective range is halved.",
 				{
@@ -1045,6 +1046,37 @@
 					"entries": [
 						"If exposed to more than 30 points of force or thunder damage, the blade vibrates violently and shatters into hundreds of pieces. If the blade is stuck into a creature at the time, it takes {@damage 6d10} points of piercing damage. If it is not, the holder must succeed on a Dexterity saving throw (DC 12) or take the damage instead. The blade of the sword is destroyed beyond repair in this process.",
 						"A skilled {@class bard} may also be able to shatter the sword by singing a resonant note with a successful Charisma (Performance) check (DC 25)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Knife of the Vampire Lord",
+			"source": "RotR1",
+			"page": 6,
+			"baseItem": "dagger +2|dmg",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": "by a spellcaster",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4 + 2",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This {@dagger +2|dmg} has a razor-sharp edge that seems to never dull.",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"type": "entries",
+					"name": "Blood Magic",
+					"entries": [
+						"As an action you may regain the spell slot of the last spell you have cast by wounding yourself with this dagger. You deal yourself {@ damage 1d4 + 2} piercing damage and an additional {@damage 1d6} necrotic damage per spell slot level recovered. You may regain a spell slot of up to 6th level in this manner. If the last spell you cast was of 7th or higher you regain a 6th level spell slot instead. You can use this feature only once per long rest and can only use it on yourself."
 					]
 				}
 			]
