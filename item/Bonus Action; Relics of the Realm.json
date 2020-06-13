@@ -699,7 +699,7 @@
 					"name": "Big Red Button",
 					"type": "entries",
 					"entries": [
-						"This arrow deals {@dice 1d4} (+ Dexterity modifier) bludgeoning damage to a single target upon impact regardless of what bow it is shot from. All creatures in a 10-foot radius from the point of impact must make a Dexterity saving throw (DC 18) or take {@damage 2d8} thunder and {@damage 2d8} fire damage and be knocked {@condition prone}, taking half damage and remaining standing on a success."
+						"This arrow deals bludgeoning (rather than piercing) damage to its target upon impact regardless of what bow it is shot from. All creatures in a 10-foot radius from the point of impact must make a Dexterity saving throw (DC 18) or take {@damage 2d8} thunder and {@damage 2d8} fire damage and be knocked {@condition prone}, taking half damage and remaining standing on a success."
 					]
 				},
 				{
@@ -707,6 +707,13 @@
 					"type": "entries",
 					"entries": [
 						"As a bonus action before firing, you can twist the head of this arrow to activate a timed ignition mechanism. You can choose a time between a minimum of 1 round and a maximum of 5 rounds. If this arrow impacts a target, it does not deal the thunder or fire damage until the specified number of turns elapses."
+					]
+				},
+				{
+					"name": "Single Use",
+					"type": "entries",
+					"entries": [
+						"Activating the explosive tip of this arrow destroys it."
 					]
 				}
 			]
@@ -788,8 +795,7 @@
 					"name": "Fire of the Forge",
 					"type": "entries",
 					"entries": [
-						"This warhammer has 10 charges. As an action you may expend 3 charges to cast {@spell scorching ray} at 2nd level, or 4 charges to cast at 3rd level. The ranged spell attack is made with a +7 bonus.",
-						"If you roll a 1 on your ranged spell attack, the spell backfires and the warhammer casts {@spell heat metal} on itself with a save DC of 15."
+						"This warhammer has 10 charges. As an action you may expend 3 charges to cast {@spell scorching ray} at 2nd level, or 4 charges to cast at 3rd level. The ranged spell attack is made with a +7 bonus."
 					]
 				},
 				{
@@ -805,6 +811,138 @@
 				"scorching ray",
 				"mending",
 				"heat metal"
+			]
+		},
+		{
+			"name": "Fuzzy Teddy",
+			"source": "RotR1",
+			"page": 5,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"weight": 0.5,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Soft, Warm, and Fuzzy",
+					"entries": [
+						"This teddy has been enchanted to always feel comfortable to the touch, whether that is warm or cool. Cuddling the teddy is extremely comforting. It is often used to comfort distressed children in situations of extreme panic.",
+						"While cuddling the fuzzy teddy, saving throws to resist becoming or staying {@condition frightened} are made with advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keeper of Secrets",
+					"entries": [
+						"The fuzzy teddy is a great listener. You can tell all your secrets to teddy, he's never going to tell anyone."
+					]
+				}
+			]
+		},
+		{
+			"name": "Grapple Arrow",
+			"source": "RotR1",
+			"page": 5,
+			"type": "A",
+			"tier": "minor",
+			"rarity": "Uncommon",
+			"entries": [
+				"This arrow features large barbed hooks in place of its tip. As a result, its effective range is halved.",
+				{
+					"name": "Hooked",
+					"type": "entries",
+					"entries": [
+						"This arrow deals an extra {@damage 1d4} piercing damage on a successful hit as the hooks lodge into its target. Removing the arrow requires a Strength save (DC 12), upon which the target takes an additional {@damage 1d4} points of slashing damage."
+					]
+				},
+				{
+					"name": "Ropeshot",
+					"type": "entries",
+					"entries": [
+						"You may attach up to 90 feet of rope to this arrow without affecting the show. If the target is a Large or smaller creature, the target must succeed on a Strength (Athletics) check contested by your Strength (Athletics) check. On a failure, the target is considered {@condition grappled}. On subsequent turns, you may use an action to attempt to pull the target up to 10 feet using another contested Strength (Athletics) check.",
+						"If the target is an object, you can choose to climb the rope as if it were a regular {@item grappling hook|phb}."
+					]
+				},
+				{
+					"name": "Single Use",
+					"type": "entries",
+					"entries": [
+						"Removing this arrow from a target destroys its hooks, rendering it useless."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gravedigger's Staff",
+			"source": "RotR1",
+			"page": 5,
+			"rarity": "rare",
+			"reqAttune": "by a Cleric, Wizard, Sorcerer, or Warlock",
+			"focus": true,
+			"curse": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dusk",
+			"charges": 8,
+			"staff": true,
+			"entries": [
+				"This ebony staff features a broad, dull blade at one end and a handle on the other, mimicking a spade. A crystalline skull is embedded into the base of the blade.",
+				{
+					"name": "Final Hour",
+					"type": "entries",
+					"entries": [
+						"This staff has 8 charges. As an action, you may expend 2 charges to cast {@spell toll the dead} as if cast by a level 5 spellcaster. The spell save DC is your spell save DC or 17, whichever is higher."
+					]
+				},
+				{
+					"name": "Buried Alive",
+					"type": "entries",
+					"entries": [
+						"As an action, you may expend 6 charges to dissolve a 5 foot wide, 10 foot long, and 6 foot deep section of dirt, sand, or loose stone, causing it to reappear 20 feet above its original location. Creatures standing above the space must succeed on a Dexterity saving throw (DC 15) or drop 6 feet into the grave. The earth then collapses upon them, burying them and dealing {@damage 6d10} bludgeoning damage. A buried creature is {@condition blinded}, {@condition restrained}, and has total cover.",
+						"Any creature buried by this effect can escape through magical means, excavation by an ally (1 minute of digging), or succeeding on a DC 20 Strength check to dig themselves out. While buried, the creature has air for 1 + their Constitution modifier minutes, after which they fall {@condition unconscious} and begin to suffocate."
+					]
+				},
+				{
+					"name": "Grave Consequences (Curse)",
+					"type": "entries",
+					"entries": [
+						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times.",
+						"Whenever you deal a killing blow while attuned to this weapon, you must make a Wisdom saving throw (DC 15). On a failure the spirit of the gravedigger compels you to bury the creature you have killed if it is not yet buried. Ignoring this will cause {@damage 1d8} psychic damage each hour the creature remains unburied."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hand Wraps of the Gathering Storm",
+			"source": "RotR1",
+			"page": 5,
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a monk"
+			"wondrous": true,
+			"charges": 10,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fast as Lightning",
+					"entries": [
+						"You gain a +1 bonus to your unarmed strike's attack and damage rolls while wearing these hand wraps. Your unarmed strikes are also considered magical for the purposes of overcoming damage resistance/immunity. The hand wraps have the following additional properties."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Electrifying Potential",
+					"entries": [
+						"These hand wraps can hold 10 charges. They gain 1 charge for every unarmed strike you land on a hostile creature. You gain 3 charges upon a critical hit. When you have not struck a hostile creature in at least 10 minutes, any unexpended charges are lost.",
+						"When you hit with an unarmed strike, you may choose to expend 5 charges to deal an additional {@damage 2d4 + 2} lightning damage. The hand wraps do not gain a charge when you hit with an electrified unarmed strike."
+					]
+				}
 			]
 		}
 	]
