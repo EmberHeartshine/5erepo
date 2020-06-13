@@ -376,9 +376,7 @@
 			"page": 2,
 			"baseItem": "shortbow|phb",
 			"type": "R",
-			"rarity": "common",
 			"weight": 2,
-			"value": 2500,
 			"weaponCategory": "simple",
 			"property": [
 				"A",
@@ -690,9 +688,10 @@
 			"name": "Explosive Arrow",
 			"source": "RotR1",
 			"page": 4,
-			"type": "A",
-			"tier": "minor",
-			"rarity": "rare",
+			"type": [
+				"A",
+				"EXP"
+			],
 			"entries": [
 				"This arrow features an explosive charge attached to the tip. As a result, its effective range is halved.",
 				{
@@ -844,8 +843,6 @@
 			"source": "RotR1",
 			"page": 5,
 			"type": "A",
-			"tier": "minor",
-			"rarity": "Uncommon",
 			"entries": [
 				"This arrow features large barbed hooks in place of its tip. As a result, its effective range is halved.",
 				{
@@ -897,7 +894,7 @@
 					"name": "Final Hour",
 					"type": "entries",
 					"entries": [
-						"This staff has 8 charges. As an action, you may expend 2 charges to cast {@spell toll the dead} as if cast by a level 5 spellcaster. The spell save DC is your spell save DC or 17, whichever is higher."
+						"This staff has 8 charges. As an action, you may expend 2 charges to cast {@spell toll the dead|xge} as if cast by a level 5 spellcaster. The spell save DC is your spell save DC or 17, whichever is higher."
 					]
 				},
 				{
@@ -949,7 +946,7 @@
 		},
 		{
 			"name": "Hood of the Deciever",
-			"source": "RotR2",
+			"source": "RotR1",
 			"page": 6,
 			"tier": "major",
 			"rarity": "legendary",
@@ -968,6 +965,48 @@
 					"name": "Master's Voice",
 					"entries": [
 						"The hood allows you to channel the otherworldly charisma of your patron. You recieve a +3 bonus to Charisma (Deception) and Charisma (Persuasion) checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ikran Gloves",
+			"source": "RotR1",
+			"page": 6,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"These thick leather gloves have deep indigo mesh fabric covering the fingertips. They constantly smell of fresh earth.",
+				{
+					"type": "entries",
+					"name": "Herbologist's Fingers",
+					"entries": [
+						"These gloves grant resistance to poison and ncrotic damage. Additionally, when wearing these gloves you receive a +5 bonus on any rolls made that utilize an {@item herbalism kit}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Injection Arrow",
+			"source": "RotR1",
+			"page": 6,
+			"type": "A",
+			"entries": [
+				"This arrow features a reinforced syringe in place of its tip. As a result, its effective range is halved.",
+				{
+					"name": "Thin Needle",
+					"type": "entries",
+					"entries": [
+						"This arrow only deals 1 piercing damage regardless of the bow it is shot from. (In addition to any magical effects from the bow.)"
+					]
+				},
+				{
+					"name": "Reservoir",
+					"type": "entries",
+					"entries": [
+						"You can fill the reservoir of the syringe with one potion, poison, or other liquid. It is injected directly into the target upon a hit, and any effects are immediate. Filling the reservoir takes 1 minute."
 					]
 				}
 			]
