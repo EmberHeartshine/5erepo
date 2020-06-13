@@ -143,7 +143,7 @@
 					"type": "entries",
 					"name": "Firm Grip",
 					"entries": [
-						"This ring has 10 charges. As an action, the wearer may expend charges to cast the following spells: {@spell hold person} at 2nd level (3 charges), {@spell hold monster} at 5th level (5 charges), and {@spell Bigby's hand} at 5th level (10 charges). The ring regains {@dice 1d10} spent charges at dawn."
+						"This ring has 10 charges. As an action, you may expend charges to cast the following spells: {@spell hold person} at 2nd level (3 charges), {@spell hold monster} at 5th level (5 charges), and {@spell Bigby's hand} at 5th level (10 charges). The ring regains {@dice 1d10} spent charges at dawn."
 					]
 				}
 			],
@@ -231,6 +231,7 @@
 			"weapon": true,
 			"entries": [
 				"This broad-bladed {@item shortsword +1|dmg} was created to aid the Imperial soldiers in battle against the forces of the Abyss.",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
 					"name": "Military Precision",
@@ -260,19 +261,20 @@
 			"property": [
 				"V"
 			],
-			"dmg1": "1d8 +1",
+			"dmg1": "1d8 + 1",
 			"dmgType": "S",
-			"dmg2": "1d10 +1",
+			"dmg2": "1d10 + 1",
 			"bonusWeapon": "+1",
 			"sword": true,
 			"weapon": true,
 			"entries": [
 				"This delicate single-edged blade is etched with an icy pattern along the base of the blade. When in freezing temperatures, a soothing metallic sound emits from the blade when swung through the air.",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
 					"name": "Northern Smithing",
 					"entries": [
-						"You receive a +1 bonus to attack rolls made with this weapon."
+						"You have a +1 bonus to attack and damage rolls made with this magic weapon."
 					]
 				},
 				{
@@ -427,7 +429,7 @@
 			],
 			"containerCapacity": {
 				"weight": [
-					500
+					1000
 				],
 				"weightless": true
 			}
@@ -472,7 +474,7 @@
 					"type": "entries",
 					"name": "A Tiny Drop",
 					"entries": [
-						"As a bonus action you can push your finger on the needle on top of this pendant to drain a single drop of blood into the pendant and taking 1 point of piercing damage. The first evocation or necromancy spell you cast within the next hour deals an extra 3d4 damage. If it is a spell attack, you gain a +2 bonus to the spell attack, or if it has a save the DC increases by 2. This effect can only be triggered using your own blood. You can use this feature twice per long rest."
+						"As a bonus action you can push your finger on the needle on top of this pendant to drain a single drop of blood into the pendant and taking 1 point of piercing damage. The first evocation or necromancy spell you cast within the next hour deals an extra {@dice 3d4} damage. If it is a spell attack, you gain a +2 bonus to the spell attack, or if it has a save the DC increases by 2. This effect can only be triggered using your own blood. You can use this feature twice per long rest."
 					]
 				},
 				{
@@ -487,7 +489,7 @@
 		{
 			"name": "Crystalline Crusher",
 			"source": "RotR1",
-			"baseItem": "mace|phb",
+			"baseItem": "mace +1|dmg",
 			"type": "M",
 			"rarity": "rare",
 			"reqAttune": true,
@@ -503,7 +505,7 @@
 					"type": "entries",
 					"name": "Crystal Clear",
 					"entries": [
-						"You recieve a +1 bonus to attack rolls made with this weapon."
+						"You have a +1 bonus to attack and damage rolls made with this magic weapon."
 					]
 				},
 				{
@@ -527,7 +529,7 @@
 			"name": "Dagger of the Red Dragon",
 			"source": "RotR1",
 			"page": 3,
-			"baseItem": "dagger|phb",
+			"baseItem": "dagger +2|dmg",
 			"type": "M",
 			"rarity": "very rare",
 			"reqAttune": true,
@@ -540,11 +542,12 @@
 				"T"
 			],
 			"range": "20/60",
-			"dmg1": "1d4 +2",
+			"dmg1": "1d4 + 2",
 			"dmgType": "P",
 			"bonusWeapon": "+2",
 			"entries": [
-				"This {@dagger +2|dmg} was created by an ancient draconic cult as an offering to Brazzemal the Bright during his long slumber. Its shimmering golden blade and jeweled hilt is as beautiful as it is deadly.",
+				"This {@dagger +2|dmg} was created by an ancient draconic cult as an offering to Brazzemal the Bright during his long slumber. Its shimmering golden blade and jeweled hilt are as beautiful as it is deadly.",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
 					"name": "Essence of Fire",
@@ -570,6 +573,238 @@
 			],
 			"attachedSpells": [
 				"flame strike"
+			]
+		},
+		{
+			"name": "Dance",
+			"source": "RotR1",
+			"page": 4,
+			"baseItem": "dagger +1|dmg",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4 + 1",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This {@dagger +1|dmg} features a large pearl embedded in the hilt. When it is swung through the air, a gentle chime can be heard.",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"type": "entries",
+					"name": "Choreography of Returning",
+					"entries": [
+						"As a bonus action you can call back Dance to your hand. As it does so, it flies in large loops, twirls and spins through the air. It dodges and weaves past any objects in its path. You can use this feature up to a range of 120 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Song and Dance",
+					"entries": [
+						"When you make successful attacks with both {@item Song|RotR1} and Dance in the same round, you deal an extra {@damage 1d4} piercing damage with the weapon you attacked with last."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two of a Kind",
+					"entries": [
+						"Attunement to both {@item Song|RotR1} and Dance counts as a single attunement."
+					]
+				}
+			]
+		},
+		{
+			"name": "Death Knight's Helm",
+			"source": "RotR1",
+			"page": 4,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"curse": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"This obsidian helmet bears the visage of a horned skull with a deep purple gem embedded in the center of the forehead.",
+				{
+					"type": "entries",
+					"name": "Knight's Stamina",
+					"entries": [
+						"When attuned to this helmet you have resistance to necrotic and poison damage and are immune to being {@condition frightened}. You gain a +1 bonus to your Constitution score each day you are attuned until the bonus from this item reaches +4 (to a maximum of 22)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Death's Call (Curse)",
+					"entries": [
+						"This helm is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the helm, keeping it within reach at all times.",
+						"Each day you wear this helmet you must make a Wisdom saving throw (DC 12). The DC increases by 2 every for every subsequent day you wear this helmet. On a failed save, you take {@damage 2d8} psychic damage and lose all Constitution bonuses from this item. Each time you fail the save, the damage increases by another {@damage 2d8}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Executioner's Remorse",
+			"source": "RotR1",
+			"page": 4,
+			"baseItem": "greatsword +2|dmg",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This heavy greatsword is adorned with a dark sheen that seems to glow when covered in blood.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"name": "Executioner's Mercy",
+					"type": "entries",
+					"entries": [
+						"When making a successful attack using this sword you can choose to heal the target for {@dice 3d6} hit points. The damage of the sword is applied first. If the target is already {@condition unconscious}, it fails its death saves before the healing is applied.",
+						"When attacking an undead creature this effect may be applied as radiant damage instead. You can use this feature twice per day."
+					]
+				},
+				{
+					"name": "Executioner's Burden (Curse)",
+					"type": "entries",
+					"entries": [
+						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times.",
+						"When Executioner's Mercy is used in combat you start hearing maddening voices from the dead for {@dice 1d8} hours. If there are more than 5 dead or undead creatures in a 200-foot radius you must make a Wisdom saving throw (DC15) every minute you are in the presence of the dead. On a failed save you take {@damage 2d4 + 2} psychic damage. on a successful save you are able to shut out the voices for 1 hour."
+					]
+				}
+			]
+		},
+		{
+			"name": "Explosive Arrow",
+			"source": "RotR1",
+			"page": 4,
+			"type": "A",
+			"tier": "minor",
+			"rarity": "rare",
+			"entries": [
+				"This arrow features an explosive charge attached to the tip. As a result, its effective range is halved.",
+				{
+					"name": "Big Red Button",
+					"type": "entries",
+					"entries": [
+						"This arrow deals {@dice 1d4} (+ Dexterity modifier) bludgeoning damage to a single target upon impact regardless of what bow it is shot from. All creatures in a 10-foot radius from the point of impact must make a Dexterity saving throw (DC 18) or take {@damage 2d8} thunder and {@damage 2d8} fire damage and be knocked {@condition prone}, taking half damage and remaining standing on a success."
+					]
+				},
+				{
+					"name": "Delayed Blast",
+					"type": "entries",
+					"entries": [
+						"As a bonus action before firing, you can twist the head of this arrow to activate a timed ignition mechanism. You can choose a time between a minimum of 1 round and a maximum of 5 rounds. If this arrow impacts a target, it does not deal the thunder or fire damage until the specified number of turns elapses."
+					]
+				}
+			]
+		},
+		{
+			"name": "Forgemaster's Warhammer",
+			"source": "RotR1",
+			"page": 4,
+			"baseItem": "warhammer +2|dmg",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": "by a creature with a Strength score of at least 16",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8 + 2",
+			"dmgType": "B",
+			"dmg2": "1d10 + 2",
+			"bonusWeapon": "+2",
+			"weapon": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"This bronze {@item warhammer +2|dmg} is bound by hardened steel with an intricate latticework design imprinted along the head.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"name": "Arcane Anvil",
+					"type": "entries",
+					"entries": [
+						"You can use this warhammer to cast {@spell mending} 5 times per long rest."
+					]
+				},
+				{
+					"name": "Fire of the Forge",
+					"type": "entries",
+					"entries": [
+						"This warhammer has 10 charges. As an action you may expend 3 charges to cast {@spell scorching ray} at 2nd level, or 4 charges to cast at 3rd level. The ranged spell attack is made with a +7 bonus."
+					]
+				}
+			],
+			"attachedSpells": [
+				"scorching ray",
+				"mending"
+			]
+		},
+		{
+			"name": "Forgemaster's Warhammer (Cursed)",
+			"source": "RotR1",
+			"page": 4,
+			"baseItem": "warhammer +2|dmg",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": "by a creature with a Strength score of at least 16",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8 + 2",
+			"dmgType": "B",
+			"dmg2": "1d10 + 2",
+			"bonusWeapon": "+2",
+			"weapon": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"This bronze {@item warhammer +2|dmg} is bound by hardened steel with an intricate latticework design imprinted along the head.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"name": "Arcane Anvil",
+					"type": "entries",
+					"entries": [
+						"You can use this warhammer to cast {@spell mending} 5 times per long rest."
+					]
+				},
+				{
+					"name": "Fire of the Forge",
+					"type": "entries",
+					"entries": [
+						"This warhammer has 10 charges. As an action you may expend 3 charges to cast {@spell scorching ray} at 2nd level, or 4 charges to cast at 3rd level. The ranged spell attack is made with a +7 bonus.",
+						"If you roll a 1 on your ranged spell attack, the spell backfires and the warhammer casts {@spell heat metal} on itself with a save DC of 15."
+					]
+				},
+				{
+					"name": "Unforgiving Embers (Curse)",
+					"type": "entries",
+					"entries": [
+						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times.",
+						"Whenever you make a regular attack or spell attack using this weapon and roll a 1, the warhammer casts {@spell heat metal} on itself. If the attack was a spell attack, the charges are still expended."
+					]
+				}
+			],
+			"attachedSpells": [
+				"scorching ray",
+				"mending",
+				"heat metal"
 			]
 		}
 	]
