@@ -376,6 +376,7 @@
 			"type": "R",
 			"rarity": "none",
 			"weight": 2,
+			"value": 5000,
 			"weaponCategory": "simple",
 			"property": [
 				"A",
@@ -686,11 +687,9 @@
 			"name": "Explosive Arrow",
 			"source": "RotR1",
 			"page": 4,
-			"type": [
-				"A",
-				"EXP"
-			],
+			"type": "A",
 			"rarity": "none",
+			"value": 2500,
 			"entries": [
 				"This arrow features an explosive charge attached to the tip. As a result, its effective range is halved.",
 				{
@@ -843,6 +842,7 @@
 			"page": 5,
 			"type": "A",
 			"rarity": "none",
+			"value": 1000,
 			"entries": [
 				"This arrow features large barbed hooks in place of its tip. As a result, its effective range is halved.",
 				{
@@ -994,6 +994,7 @@
 			"page": 6,
 			"type": "A",
 			"rarity": "none",
+			"value": 3500,
 			"entries": [
 				"This arrow features a reinforced syringe in place of its tip. As a result, its effective range is halved.",
 				{
