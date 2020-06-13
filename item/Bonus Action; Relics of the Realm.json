@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "rotr1",
+				"json": "RotR1",
 				"abbreviation": "RotR1",
 				"full": "Relics of the Realm Volume 1",
 				"color": "#0a7e8f",
@@ -15,7 +15,7 @@
 				"targetSchema": "1.0.0"
 			},
 			{
-				"json": "rotr2",
+				"json": "RotR2",
 				"abbreviation": "RotR2",
 				"full": "Relics of the Realm Volume 2",
 				"color": "#0a7e8f",
@@ -28,7 +28,7 @@
 				"targetSchema": "1.0.0"
 			},
 			{
-				"json": "rotr3",
+				"json": "RotR3",
 				"abbreviation": "RotR3",
 				"full": "Relics of the Realm Volume 3",
 				"color": "#0a7e8f",
@@ -41,7 +41,7 @@
 				"targetSchema": "1.0.0"
 			},
 			{
-				"json": "rotr4",
+				"json": "RotR4",
 				"abbreviation": "RotR4",
 				"full": "Relics of the Realm Volume 4",
 				"color": "#0a7e8f",
@@ -60,9 +60,9 @@
 	"item": [
 		{
 			"name": "Aegis of the Abyss",
-			"source": "rotr1",
+			"source": "RotR1",
 			"page": 1,
-			"baseItem": "shield|phb",
+			"baseItem": "shield +1|dmg",
 			"type": "S",
 			"tier": "major",
 			"rarity": "legendary",
@@ -90,7 +90,7 @@
 		},
 		{
 			"name": "Amulet of the Frog",
-			"source": "rotr1",
+			"source": "RotR1",
 			"page": 1,
 			"tier": "major",
 			"rarity": "uncommon",
@@ -123,7 +123,7 @@
 		},
 		{
 			"name": "Band of the Firm Grip",
-			"source": "rotr1",
+			"source": "RotR1",
 			"page": 1,
 			"type": "RG",
 			"rarity": "rare",
@@ -155,7 +155,7 @@
 		},
 		{
 			"name": "Band of the Firm Grip (Cursed)",
-			"source": "rotr1",
+			"source": "RotR1",
 			"page": 1,
 			"type": "RG",
 			"rarity": "rare",
@@ -183,7 +183,7 @@
 					"type": "entries",
 					"name": "Hold Tight (Curse)",
 					"entries": [
-						"Some {@i bands of the firm grip} are cursed, and attuning to them extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic (or by severing the finger it is worn on), this item clasps painfully around your finger and is unable to be removed or unattuned. Despite this, you are unwilling to part with this ring until the curse is broken.",
+						"This item is cursed, and attuning to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic (or by severing the finger it is worn on), this item clasps painfully around your finger and is unable to be removed or unattuned. Despite this, you are unwilling to part with this ring until the curse is broken.",
 						"While this item is cursed, it loses {@dice 1d4} charges upon attunement and cannot regain expended charges."
 					]
 				}
@@ -196,7 +196,7 @@
 		},
 		{
 			"name": "Blackout Candle",
-			"source": "rotr1",
+			"source": "RotR1",
 			"page": 1,
 			"tier": "minor",
 			"rarity": "uncommon",
@@ -214,7 +214,7 @@
 		},
 		{
 			"name": "Blade of the Empire",
-			"source": "rotr1",
+			"source": "RotR1",
 			"page": 2,
 			"baseItem": "shortsword +1|dmg",
 			"type": "M",
@@ -248,8 +248,73 @@
 			]
 		},
 		{
+			"name": "Blade of the Northern Tribe",
+			"source": "RotR1",
+			"page": 2,
+			"baseItem": "longsword +1|dmg",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8 +1",
+			"dmgType": "S",
+			"dmg2": "1d10 +1",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This delicate single-edged blade is etched with an icy pattern along the base of the blade. When in freezing temperatures, a soothing metallic sound emits from the blade when swung through the air.",
+				{
+					"type": "entries",
+					"name": "Northern Smithing",
+					"entries": [
+						"You receive a +1 bonus to attack rolls made with this weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frost Edge",
+					"entries": [
+						"Each day at dawn this sword forms a thin layer of razor sharp ice on its edge. The first five successful attacks you make with this weapon deal an extra {@damage 1d4} cold damage. After five hits, the layer of ice melts."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Touch of Cold",
+					"entries": [
+						"As an action once per day, you can immerse the sword into a body of water to create a layer of ice 1 foot thick in a 15-foot radius. All creatures in this area must make a Strength saving throw (DC 12) or become {@condition restrained} in the ice. On the success of any one creature, the ice layer breaks completely and quickly melts away.",
+						"The ice is strong enough to hold the weight of approximately 4 small creatures, 2 medium creatures or 1 large creature. When a creature steps on the ice they must make a Dexterity saving throw (DC 8) or slip and fall {@condition prone}. The ice is considered rough terrain."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bladestaff",
+			"source": "RotR1",
+			"page": 2,
+			"baseItem": "quarterstaff|phb",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 6,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"Either end of this {@item quarterstaff|phb} has a blade affixed to it, enabling the wielder to strike at opponents with ease."
+			]
+		},
+		{
 			"name": "Bolas",
-			"source": "rotr1",
+			"source": "RotR1",
 			"page": 2,
 			"type": "R",
 			"rarity": "common",
@@ -276,7 +341,7 @@
 		},
 		{
 			"name": "Boom-erang",
-			"source": "rotr1",
+			"source": "RotR1",
 			"page": 2,
 			"type": "R",
 			"rarity": "rare",
@@ -301,6 +366,70 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Close Quarters Bow",
+			"source": "RotR1",
+			"page": 2,
+			"baseItem": "shortbow|phb",
+			"type": "R",
+			"rarity": "common",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "50/150",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"ac": 1,
+			"bonusAc": "+1",
+			"entries": [
+				"Attached to this otherwise unremarkable {@item shortbow|phb} is a small shield to protect the wielder from harm.",
+				{
+					"type": "entries",
+					"name": "Ranger's Defense",
+					"entries": [
+						"While you are holding this bow, you gain a +1 bonus to your AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shield Stab",
+					"entries": [
+						"As an action you can use the pointed end of the shield to make a melee attack using your Strength modifier. On a successful hit, you deal {@damage 1d4} piercing damage. This attack is considered martial for the purposes of proficiency."
+					]
+				}
+			],
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Coinbox of Holding",
+			"source": "RotR1",
+			"page": 3,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"weight": 2,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Endless Piggy Bank",
+					"entries": [
+						"This magically enchanted coin box has an extradimensional space in which it can store up to 25,000 coins of any type in any combination. Coins can be stored into the box using the slot on top. The box is otherwise sealed shut but can be opened by speaking a command word, revealing the amount of currency desired. When opened, the interior of the box is as deep as required to fit all the coins that will be taken from it."
+					]
+				},
+				"Placing a coinbox of holding inside an extradimensional space created by a {@item Heward's handy haversack}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+			],
+			"containerCapacity": {
+				"weight": [
+					500
+				],
+				"weightless": true
+			}
 		}
 	]
 }
