@@ -86,7 +86,18 @@
 						"As a reaction you can make the shield absorb a ranged spell attack, if the target of the spell is within 10 feet of you. You can use this feature twice per long rest. If a single spell deals more than 90 damage the shield, it shatters."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Kv8NBJ.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Amulet of the Frog",
@@ -1793,21 +1804,6 @@
 			],
 			"attachedSpells": [
 				"tree stride"
-			]
-		}
-	],
-	"itemFluff": [
-		{
-			"name": "Aegis of the Abyss",
-			"source": "RotR1",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"path": "https://i.vgy.me/Kv8NBJ.png"
-					}
-				}
 			]
 		}
 	]
