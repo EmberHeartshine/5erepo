@@ -1724,7 +1724,7 @@
 					"type": "entries",
 					"name": "Liquid to Solid",
 					"entries": [
-						"Twice per day, you can use a bonus action to click the heels of these boots together to enable you to walk on any surface of water as if it were solid ground (per the spell {@spell water walking}, but only on water). You may use a bonus action to click the heels again to deactivate the boots."
+						"Twice per day, you can use a bonus action to click the heels of these boots together to enable you to walk on any surface of water as if it were solid ground (per the spell {@spell water walk}, but only on water). You may use a bonus action to click the heels again to deactivate the boots."
 					]
 				},
 				{
