@@ -1795,5 +1795,20 @@
 				"tree stride"
 			]
 		}
+	],
+	"itemFluff": [
+		{
+			"name": "Aegis of the Abyss",
+			"source": "RotR1",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://i.vgy.me/Kv8NBJ.png"
+					}
+				}
+			]
+		}
 	]
 }
