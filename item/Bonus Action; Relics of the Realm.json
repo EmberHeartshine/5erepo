@@ -230,7 +230,7 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"This broad-bladed {@item shortsword +1|dmg} was created to aid the Imperial soldiers in battle against the forces of the Abyss.",
+				"This broad-bladed {@item shortsword +1|dmg} was created to aid Imperial soldiers in battle against the forces of the Abyss.",
 				{
 					"type": "entries",
 					"name": "Military Precision",
@@ -301,7 +301,7 @@
 			"rarity": "none",
 			"weight": 6,
 			"value": 1500,
-			"weaponCategory": "simple",
+			"weaponCategory": "martial",
 			"property": [
 				"V"
 			],
@@ -480,7 +480,7 @@
 					"type": "entries",
 					"name": "Blood Sacrifice (Curse)",
 					"entries": [
-						"When a crimson amplifier accumulates 50 drops of blood in total across all wearers, it shatters and summons a {@creature horned devil} along with {@dice 3d4} {@creature imps}. The summoned creatures are hostile toward the wearer and and anyone else that is not fiendish in nature."
+						"When a crimson amplifier accumulates 50 drops of blood in total across all wearers, it shatters and summons a {@creature horned devil} along with {@dice 3d4} {@creature imp|mm|imps}. The summoned creatures are hostile toward the wearer and and anyone else that is not fiendish in nature."
 					]
 				}
 			]
@@ -1082,11 +1082,11 @@
 			]
 		},
 		{
-			"name": "Kobold's Lucky Toth",
+			"name": "Kobold's Lucky Tooth",
 			"source": "RotR1",
 			"page": 7,
 			"tier": "minor",
-			"rarity": "cmmon",
+			"rarity": "common",
 			"wondrous": true,
 			"entries": [
 				"A tooth taken from a rather unlucky kobold blessed with ironic luck.",
@@ -1174,7 +1174,7 @@
 					"type": "entries",
 					"name": "Moonlight's Power",
 					"entries": [
-						"Each attack made with this scimitar made while under the night sky deals an additional {@damage 1d4} radiant damage. When there is a visible full moon, the damage increases to {}@damage 2d4}."
+						"Each attack made with this scimitar made while under the night sky deals an additional {@damage 1d4} radiant damage. When there is a visible full moon, the damage increases to {@damage 2d4}."
 					]
 				}
 			]
@@ -1200,6 +1200,123 @@
 					"name": "Well-Rested",
 					"entries": [
 						"When sleeping in this bedroll as part of a long rest, you gain one extra hit die when recovering hit dice, unless you have already recovered or will recover all of your hit dice this rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mail of the Riverlands",
+			"source": "RotR1",
+			"page": 8,
+			"type": "MA",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 45,
+			"ac": 14,
+			"bonusSavingThrow": "+1",
+			"stealth": true,
+			"entries": [
+				"This fitted scale mail shimmers as you move like fish scales.",
+				{
+					"type": "entries",
+					"name": "Scales of the Trout",
+					"entries": [
+						"This armor does not weigh you down in water and magically enhances you swimming ability. You gain a swim speed equal to your movement speed, and your Strength (Athletics) checks made to swim are made with advantage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mask of the Witch Doctor",
+			"source": "RotR1",
+			"page": 8,
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": "by a cleric, paladin, or druid",
+			"recharge": "dusk",
+			"charges": 2,
+			"wondrous": true,
+			"entries": [
+				"This wooden mask is adorned with the claws of some large predator and bears a dull green pearl embedded in the center of its forehead.",
+				{
+					"type": "entries",
+					"name": "Voodoo Remedy",
+					"entries": [
+						"This item has 2 charges. As an action, you can cast a random spell from the mask at a range of 60 feet (regardless of the spell description). Choose a target and roll on the following table to determine the effect.",
+						{
+					"type": "table",
+					"colLabels": [
+						"d4",
+						"spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell Witch bolt} (2nd level)"
+						],
+						[
+							"2",
+							"{@spell Hex} (1st level)"
+						],
+						[
+							"3",
+							"{@spell Polymorph} ({@creature frog|mm}, save DC 15)"
+						],
+						[
+							"4",
+							"{@spell Hypnotic pattern} (save DC 15)"
+						]
+					]
+				}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Protection of the Swamp",
+					"entries": [
+						"While attuned to this item, you are unaffected by the following spells: {@spell witch bolt}, {@spell hex}, {@spell polymorph}, and {@spell hypnotic pattern} (even those cast by you). Additionally, you gain resistance to poison damage and are immune to all diseases."
+					]
+				}
+			]
+		},
+		{
+			"name": "Port-a-boulder",
+			"source": "RotR1",
+			"page": 8,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This 1-inch cube appears to be made from solid stone but weighs next to nothing. It has an eerie blue glow to it.",
+				{
+					"type": "entries",
+					"name": "Explosive Expansion",
+					"entries": [
+						"When the stone touches any type of earthen surface of at least 5 feet by 5 feet, it rapidly expands to a 10-foot cube of solid rock. Any creatures occupying a space that the cube expands into are pushed outward and take {@damage 1d10} bludgeoning damage. The expanded boulder weighs 1500 lbs and does not glow.",
+						"The rock instantly returns to its original size when it is no longer in contact with an earthen surface (for example, if it is pushed off a ledge). Alternatively, it can be returned to its original size by speaking a command word which will make it shrink over the course of 1 minute."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ruby Evertorch",
+			"source": "RotR1",
+			"page": 8,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"A deep crimson flame sprouts from the basket of this metal-weave torch.",
+				{
+					"type": "entries",
+					"name": "Flamebringer",
+					"entries": [
+						"As a bonus action you can speak a command word to cause this torch to light itself, shedding bright light in a 30-foot radius and dim light for an additional 40 feet. If you make a melee attack with the flame active, it deals an additional 1 point of fire damage."
 					]
 				}
 			]
