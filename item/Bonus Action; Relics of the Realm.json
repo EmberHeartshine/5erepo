@@ -613,7 +613,7 @@
 					"type": "entries",
 					"name": "Two of a Kind",
 					"entries": [
-						"Attunement to both {@item Song|RotR1} and Dance counts as a single attunement."
+						"Attunement to both {@i Song} and Dance counts as a single attunement."
 					]
 				}
 			]
@@ -1243,36 +1243,36 @@
 					"type": "entries",
 					"name": "Voodoo Remedy",
 					"entries": [
-						"This item has 2 charges. As an action, you can cast a random spell from the mask at a range of 60 feet (regardless of the spell description). Choose a target and roll on the following table to determine the effect.",
+						"This item has 2 charges, and regains all expended charges at dusk. As an action, you can cast a random spell from the mask at a range of 60 feet (regardless of the spell description). Choose a target and roll on the following table to determine the effect.",
 						{
-					"type": "table",
-					"colLabels": [
-						"d4",
-						"spell"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1",
-							"{@spell Witch bolt} (2nd level)"
-						],
-						[
-							"2",
-							"{@spell Hex} (1st level)"
-						],
-						[
-							"3",
-							"{@spell Polymorph} ({@creature frog|mm}, save DC 15)"
-						],
-						[
-							"4",
-							"{@spell Hypnotic pattern} (save DC 15)"
-						]
-					]
-				}
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Spell"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Witch bolt} (2nd level)"
+								],
+								[
+									"2",
+									"{@spell Hex} (1st level)"
+								],
+								[
+									"3",
+									"{@spell Polymorph} ({@creature frog|mm}, save DC 15)"
+								],
+								[
+									"4",
+									"{@spell Hypnotic pattern} (save DC 15)"
+								]
+							]
+						}
 					]
 				},
 				{
@@ -1320,6 +1320,226 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Song",
+			"source": "RotR1",
+			"page": 9,
+			"baseItem": "rapier +1|dmg",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8 + 1",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This beautiful and deadly {@item rapier +1|dmg} features three rubies embedded in its basket and vibrates when it is swung, creating a delicate chime sound as it passes through the air.",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"type": "entries",
+					"name": "Charming",
+					"entries": [
+						"Once every three days, you can use this rapier to cast {@spell charm person}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Song and Dance",
+					"entries": [
+						"When you make successful attacks with both Song and {@item Dance|RotR1} in the same round, you deal an extra {@damage 1d4} piercing damage with the weapon you attacked with last."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two of a Kind",
+					"entries": [
+						"Attunement to both Song and {@i Dance} counts as a single attunement."
+					]
+				}
+			],
+			"attachedSpells": [
+				"charm person"
+			]
+		},
+		{
+			"name": "Stalker's Dart",
+			"source": "RotR1",
+			"page": 9,
+			"baseItem": "dart +1|dmg",
+			"type": "R",
+			"rarity": "uncommon",
+			"weight": 0.25,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4 + 1",
+			"dmgType": "P",
+			"entries": [
+				"This flanged {@item dart +1|dmg} has a small golden beryl gemstone embedded into the rear. Its wide metal fins hum as the dart flies through the air.",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"type": "entries",
+					"name": "Mark of the Hunted",
+					"entries": [
+						"Upon a succesfull attack, the gemstone in this dart shatters and releases an arcane mark. For the next 6 hours, if the creature is within 1000 feet of you, you sense its direction relative to you. If the creature is in motion you know the direction of its movement. This effect can be dispelled."
+					]
+				},
+				{
+					"name": "Single Use",
+					"type": "entries",
+					"entries": [
+						"Activating the arcane mark shatters the gem, removing the enchantment and causing it to become a mundane {@item dart|phb}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Talisman of the Satyr",
+			"source": "RotR1",
+			"page": 9,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This amulet, shaped like the skull of a {@creature satyr|mm}, features a large opalite gemstone embedded in the forehead.",
+				{
+					"type": "entries",
+					"name": "Master of the Bow",
+					"entries": [
+						"When you make a ranged attack with a {@item shortbow|phb}, {@item longbow|phb}, or any type of crossbow and a hostile creature within 5 feet of you, you do not suffer disadvantage on the ranged attack roll. Additionally, the normal and long ranges of these weapons are each 10 feet longer while you are attuned to this item."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sounds of the Forest",
+					"entries": [
+						"While attuned to this item, you are proficient with {@item pan flutes} if you aren't already. With a successful Charisma (Performance) check (DC 15) when playing a pan flute, you can attract {@dice 1d8} birds from your surroundings, if there are any. Most types of songbirds will happily tweet along to your music."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Northern Winds",
+			"source": "RotR1",
+			"page": 9,
+			"rarity": "legendary",
+			"reqAttune": "by a druid, monk, ranger, sorcerer, or wizard",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6 + 1",
+			"dmgType": "B",
+			"dmg2": "1d8 + 1",
+			"bonusWeapon": "+1",
+			"bonusSpellAttack": "+1",
+			"staff": true,
+			"entries": [
+				"A delicate elven face adorns the head of this metal staff, a large blue diamond embedded in the back of its head. The staff feels cool to the touch, even when in warm environments.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While holding it, you also gain a +1 bonus to spell attack rolls that deal frost damage.",
+				{
+					"type": "entries",
+					"name": "Arctic Storm",
+					"entries": [
+						"As an action, you can summon a swirling storm of glittering ice encompassing a 20-foot tall, 50-foot radius cylinder centered on a point yu can see within 120 feet. When a creature enters or ends its turn inside the storm, it must make a Constitution saving throw (DC 18) or take {@damage 3d} frost damage, or half that on a success. The effect lasts for 1 minute and requires concentration. This feature may be used once per day."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Go with the Wind",
+					"entries": [
+						"You can cast the spell {@spell wind walk} once every 3 days, eschewing material components."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Icy Touch",
+					"entries": [
+						"When holding this staff in at least one hand, you have resistance to frost damage."
+					]
+				}
+			],
+			"attachedSpells": [
+				"wind walk"
+			]
+		},
+		{
+			"name": "Thorn of the North",
+			"source": "RotR1",
+			"page": 9,
+			"baseItem": "longbow +1|dmg",
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 2,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8 + 1",
+			"dmgType": "P",
+			"entries": [
+				"The arms of this {@item longbw +1|dmg} is covered in sharp thorns and tipped with a small rosebud.",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"type": "entries",
+					"name": "Barbed Shot",
+					"entries": [
+						"This bow holds 6 charges. Each day at dawn it regains {@dice 1d6} charges. Before making an attack with this weapon, you can expend 1 charge to add sharp thorns to the arrow you are shooting. If your attack is successful, add {@damage 1d4} piercing damage, and one of the rosebuds at the end of the arms blooms for 1 minute (unless both have already bloomed)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Might of the Rose",
+					"entries": [
+						"Alternatively, you can expend charges to cast spells from the table below. Any spell save DC is 15.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Charges",
+								"Spell"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"2",
+									"{@spell Hail of thorns} (1st level)"
+								],
+								[
+									"3",
+									"{@spell Spike growth}"
+								],
+								[
+									"5",
+									"{@spell Grasping vine}"
+								]
+							]
+						}
+					]
+				}
+			],
+			"ammoType": "arrow|phb"
 		}
 	]
 }
