@@ -1455,7 +1455,7 @@
 					"type": "entries",
 					"name": "Arctic Storm",
 					"entries": [
-						"As an action, you can summon a swirling storm of glittering ice encompassing a 20-foot tall, 50-foot radius cylinder centered on a point yu can see within 120 feet. When a creature enters or ends its turn inside the storm, it must make a Constitution saving throw (DC 18) or take {@damage 3d} frost damage, or half that on a success. The effect lasts for 1 minute and requires concentration. This feature may be used once per day."
+						"As an action, you can summon a swirling storm of glittering ice encompassing a 20-foot tall, 50-foot radius cylinder centered on a point yu can see within 120 feet. When a creature enters or ends its turn inside the storm, it must make a Constitution saving throw (DC 18) or take {@damage 3d6} frost damage, or half that on a success. The effect lasts for 1 minute and requires concentration. This feature may be used once per day."
 					]
 				},
 				{
@@ -1565,7 +1565,7 @@
 			"name": "Tunic of the Warmage's Apprentice",
 			"source": "RotR1",
 			"page": 10,
-			"baseItem": "leather armor|PHB",
+			"baseItem": "leather armor|phb",
 			"type": "LA",
 			"rarity": "very rare",
 			"reqAttune": "by a spellcaster",
@@ -1577,7 +1577,7 @@
 					"type": "entries",
 					"name": "Spell-Infused",
 					"entries": [
-						"This armor is infused with the {spell mage armor} spell. The enchantment can be dispelled, at which point it reverts to mundane {@item leather armor}. If dispelled, the enchantment will automatically be restored after 24 hours."
+						"This armor is infused with the {spell mage armor} spell. The enchantment can be dispelled, at which point it reverts to mundane {@item leather armor|phb}. If dispelled, the enchantment will automatically be restored after 24 hours."
 					]
 				},
 				{
@@ -1698,6 +1698,7 @@
 			"rarity": "uncommon",
 			"weight": 1,
 			"entries": [
+				"This simple wooden wand has a small iron cat sleeping along the shaft at one end.",
 				{
 					"type": "entries",
 					"name": "Power Nap",
@@ -1708,6 +1709,90 @@
 			],
 			"attachedSpells": [
 				"catnap"
+			]
+		},
+		{
+			"name": "Waterwalkers",
+			"source": "RotR1",
+			"page": 11,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"These soft, comfortable leather boots feature a blue silk stripe along the laces and teardrop-shaped turquoise gems embedded into the tongues.",
+				{
+					"type": "entries",
+					"name": "Liquid to Solid",
+					"entries": [
+						"Twice per day, you can use a bonus action to click the heels of these boots together to enable you to walk on any surface of water as if it were solid ground (per the spell {@spell water walking}, but only on water). You may use a bonus action to click the heels again to deactivate the boots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aquatic Booster",
+					"entries": [
+						"These boots give you a swim speed of 20 feet, or a 10-foot bonus to your swim speed if you already have one."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wavecaller",
+			"source": "RotR1",
+			"page": 11,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This silvered horn has the image of waves etched around its bell.",
+				{
+					"type": "entries",
+					"name": "Song of the Sea",
+					"entries": [
+						"When sounding this horn at sea (or any other body of salt water), a gentle wave pushes your vessel forward, increasing the maximum speed of the vessel by 1 mile per hour for 12 hours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fog of War",
+					"entries": [
+						"Once per day, you can use an action to sound the horn and cast {@spell fog cloud}, creating a 60-foot cloud rather than a 20-foot cloud."
+					]
+				}
+			],
+			"attachedSpells": [
+				"fog cloud"
+			]
+		},
+		{
+			"name": "Willow's Whisper",
+			"source": "RotR1",
+			"page": 11,
+			"baseItem": "flute|phb",
+			"type": "INS",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": "by a bard with proficiency with flutes",
+			"wondrous": true,
+			"entries": [
+				"This finely-crafted wooden {@item flute|phb} features green vines curling around its shaft.",
+				{
+					"type": "entries",
+					"name": "Melody of the Willow's Bark",
+					"entries": [
+						"As an action, you can play a soft tune on this flute laced with the healing essence of the willow's bark. Anyone within a 30-foot radius that can hear you play receives {@dice 1d8 + 2} points of healing. This song also cures most mundane diseases and relieves pain."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Way of the Willows",
+					"entries": [
+						"Once per day, you can use this flute to cast {@spell tree stride}."
+					]
+				}
+			],
+			"attachedSpells": [
+				"tree stride"
 			]
 		}
 	]
