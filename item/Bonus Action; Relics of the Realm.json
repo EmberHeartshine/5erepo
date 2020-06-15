@@ -857,7 +857,7 @@
 					"name": "Ropeshot",
 					"type": "entries",
 					"entries": [
-						"You may attach up to 90 feet of rope to this arrow without affecting the show. If the target is a Large or smaller creature, the target must succeed on a Strength (Athletics) check contested by your Strength (Athletics) check. On a failure, the target is considered {@condition grappled}. On subsequent turns, you may use an action to attempt to pull the target up to 10 feet using another contested Strength (Athletics) check.",
+						"You may attach up to 90 feet of rope to this arrow without affecting the shot. If the target is a Large or smaller creature, the target must succeed on a Strength (Athletics) check contested by your Strength (Athletics) check. On a failure, the target is considered {@condition grappled}. On subsequent turns, you may use an action to attempt to pull the target up to 10 feet using another contested Strength (Athletics) check.",
 						"If the target is an object, you can choose to climb the rope as if it were a regular {@item grappling hook|phb}."
 					]
 				},
@@ -1002,7 +1002,7 @@
 					"name": "Thin Needle",
 					"type": "entries",
 					"entries": [
-						"This arrow only deals 1 piercing damage regardless of the bow it is shot from. (In addition to any magical effects from the bow.)"
+						"This arrow only deals 1 piercing damage regardless of the bow it is shot from. Any magical effects the bow confers upon its ammunition, such as elemental damage, still takes effect."
 					]
 				},
 				{
@@ -1070,13 +1070,136 @@
 			"dmgType": "P",
 			"bonusWeapon": "+2",
 			"entries": [
-				"This {@dagger +2|dmg} has a razor-sharp edge that seems to never dull.",
+				"This {@item dagger +2|dmg} has a razor-sharp edge that seems to never dull.",
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
 					"name": "Blood Magic",
 					"entries": [
 						"As an action you may regain the spell slot of the last spell you have cast by wounding yourself with this dagger. You deal yourself {@ damage 1d4 + 2} piercing damage and an additional {@damage 1d6} necrotic damage per spell slot level recovered. You may regain a spell slot of up to 6th level in this manner. If the last spell you cast was of 7th or higher you regain a 6th level spell slot instead. You can use this feature only once per long rest and can only use it on yourself."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kobold's Lucky Toth",
+			"source": "RotR1",
+			"page": 7,
+			"tier": "minor",
+			"rarity": "cmmon",
+			"wondrous": true,
+			"entries": [
+				"A tooth taken from a rather unlucky kobold blessed with ironic luck.",
+				{
+					"type": "entries",
+					"name": "Lost and Found",
+					"entries": [
+						"Once per day, you may spend an action to polish it. Upon doing so, roll a {@dice d4}. One minute later, you find that number of gp. These coins can be found in your pocket, bags or inventory. (You probably forgot about them.) Sometimes you find them in your surroundings, some extra coins in the loot you find, or just in the mud on street right outside of the tavern you've been staying in."
+					]
+				}
+			]
+		},
+		{
+			"name": "Light Flask",
+			"source": "RotR1",
+			"page": 7,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This bulb-shaped flask has no opening and is attached to a fine, yet sturdy, gold chain.",
+				{
+					"type": "entries",
+					"name": "Light Collector",
+					"entries": [
+						"As an action you can swing the flask overhead using the chain. It will absorb 3 charges of light per round up to a maximum of 15 charges. There can only be one type of light in the flask, and the light retains all of its properties (such as the color of sunlight or moonlight). The flask will absorb the strongest light if not defined by the user (i.e. the flask will absorb sunlight over torchlight). This absorption has no environmental effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lightshedder",
+					"entries": [
+						"As a bonus action you can speak its command word to activate the flask. Upon doing so, the flask begins to shed the light captured. Every round one charge is spent. No matter which type of light is emitted, the light is shed as bright light in a 30-foot radius and dim light in a 60-foot radius."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lockcrawler",
+			"source": "RotR1",
+			"page": 7,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"{@i This item requires proficiency with {@item thieves' tools|phb}.}",
+				"This small mechanical beetle clicks and whirrs whenever it is activated, its antennae waving gently.",
+				{
+					"type": "entries",
+					"name": "Tiny Thief",
+					"entries": [
+						"The lockcrawler is able to unlock most mechanical locks without effort. As a bonus action, you can activate it and order it to unlock any mundane lock. The lockcrawler has a walking speed of 10 feet, 5 hit points, an AC of 10, and is able to climb vertical surfaces using its walk speed. It cannot carry any weight.",
+						"When using the lockcrawler to unlock a lock, roll a {@dice d20}. On a 1, the lockcrawler makes a fatal mistake and is crushed in the mechanism, causing future checks to unlock the lock to be made with disadvantage. If the lock's DC is 20 or higher, this roll is made with disadvantage. If the lock's DC is 30 or higher, a roll of 2 also causes a fatal mistake in addition to rolling with disadvantage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lunar Scimitar",
+			"source": "RotR1",
+			"page": 7,
+			"baseItem": "scimitar +1|dmg",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6 + 1",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This blue-tinted {@item scimitar +1|dmg} features symbols etched into the blade resembling the phases of the moon(s).",
+				{
+					"type": "entries",
+					"name": "Lunar Essence",
+					"entries": [
+						"You receive a +1 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moonlight's Power",
+					"entries": [
+						"Each attack made with this scimitar made while under the night sky deals an additional {@damage 1d4} radiant damage. When there is a visible full moon, the damage increases to {}@damage 2d4}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Luxurious Satin Bedroll",
+			"source": "RotR1",
+			"page": 7,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This beautifully-crafted {@item bedroll|phb} features a soft furred interior and gold trim.",
+				{
+					"type": "entries",
+					"name": "Comfortable Climate",
+					"entries": [
+						"The interior of this thin bedroll is always at the perfect temperature to sleep no matter which climate you are in. However, the soft pillows and fabrics of the bedroll do not protect you against extreme heat (fire damage) or extreme cold (frost damage)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Well-Rested",
+					"entries": [
+						"When sleeping in this bedroll as part of a long rest, you gain one extra hit die when recovering hit dice, unless you have already recovered or will recover all of your hit dice this rest."
 					]
 				}
 			]
