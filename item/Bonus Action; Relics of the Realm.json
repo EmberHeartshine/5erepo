@@ -1424,7 +1424,7 @@
 					"type": "entries",
 					"name": "Sounds of the Forest",
 					"entries": [
-						"While attuned to this item, you are proficient with {@item pan flutes} if you aren't already. With a successful Charisma (Performance) check (DC 15) when playing a pan flute, you can attract {@dice 1d8} birds from your surroundings, if there are any. Most types of songbirds will happily tweet along to your music."
+						"While attuned to this item, you are proficient with {@item pan flute|phb|pan flutes} if you aren't already. With a successful Charisma (Performance) check (DC 15) when playing a pan flute, you can attract {@dice 1d8} birds from your surroundings, if there are any. Most types of songbirds will happily tweet along to your music."
 					]
 				}
 			]
@@ -1433,6 +1433,7 @@
 			"name": "The Northern Winds",
 			"source": "RotR1",
 			"page": 9,
+			"baseItem": "quarterstaff +1|dmg",
 			"rarity": "legendary",
 			"reqAttune": "by a druid, monk, ranger, sorcerer, or wizard",
 			"focus": true,
@@ -1497,7 +1498,7 @@
 			"dmg1": "1d8 + 1",
 			"dmgType": "P",
 			"entries": [
-				"The arms of this {@item longbw +1|dmg} is covered in sharp thorns and tipped with a small rosebud.",
+				"The arms of this {@item longbow +1|dmg} is covered in sharp thorns and tipped with a small rosebud.",
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
@@ -1540,6 +1541,174 @@
 				}
 			],
 			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Totem of Tongues",
+			"source": "RotR1",
+			"page": 10,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@i This item is only usable by a {@class druid} or {@class warlock}.}",
+				"This small totem is adorned with three tribal faces, each with their tongue out.",
+				{
+					"type": "entries",
+					"name": "Sharp Tongue",
+					"entries": [
+						"As a ritual, you can cast the spell {@spell tongues} using this totem in place of the material component. You can use this feature twice every three days."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tunic of the Warmage's Apprentice",
+			"source": "RotR1",
+			"page": 10,
+			"baseItem": "leather armor|PHB",
+			"type": "LA",
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"weight": 10,
+			"ac": 13,
+			"entries": [
+				"This otherwise unremarkable leather armor features a glowing, shield-shaped gem affixed to the chest.",
+				{
+					"type": "entries",
+					"name": "Spell-Infused",
+					"entries": [
+						"This armor is infused with the {spell mage armor} spell. The enchantment can be dispelled, at which point it reverts to mundane {@item leather armor}. If dispelled, the enchantment will automatically be restored after 24 hours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Apprentice of the Arcane",
+					"entries": [
+						"While wearing this armor, you have a +1 bonus to all spell attacks. Additionally, if you cast an evocation spell that deals damage, it deals +2 bonus damage of the original type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Twin Hook Swords",
+			"source": "RotR1",
+			"page": 10,
+			"baseItem": "shortsword|phb",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"entries": [
+				"Often made from a single piece of metal with cloth wraps for handles, these paired {@item shortsword|phb|shortswords} feature a very unusual hook at the end, along with an extra blade serving as a knuckle guard.",
+				{
+					"type": "entries",
+					"name": "Sweep the Leg",
+					"entries": [
+						"When you hit with one of these swords, you can use a bonus action to attempt to {@action shove} a creature {@condition prone} by hooking one of its legs. On a successful shove, you deal an extra {@damage 1d4} slashing damage and pull the creaure prone. This feature only works on bipedal creatures or winged flying creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Climber's Hook",
+					"entries": [
+						"You can use these swords to anchor yourself while climbing, similar to a {@item climber's kit|phb}. When you do, you gain advantage on Strength (Athletics) checks made for climbing."
+					]
+				}
+			]
+		},
+		{
+			"name": "Twin Serpent Staff",
+			"source": "RotR1",
+			"page": 10,
+			"baseItem": "quarterstaff|phb",
+			"rarity": "uncommon",
+			"reqAttune": "by a druid, sorcerer, warlock, or wizard",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"This wooden {@item quarterstaff|phb} features two large serpent's heads on either end that seem to move slightly when viewed out of the corner of one's eye.",
+				{
+					"type": "entries",
+					"name": "Acid Spray",
+					"entries": [
+						"As an action, you can cast {@spell Melf's acid arrow} at 3rd level. This feature may be used once per day."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Life Transfer",
+					"entries": [
+						"As an action, you can cause the two snake heads to bite down on two different willing creatures. The creature with the lowest number of missing hit points takes {@damage 3d8} necrotic damage. The other creature heals an equivalent number of hit points + 4. Any poisons  affecting the first creature are transferred to the second. This feature may be used once per long rest."
+					]
+				}
+			],
+			"attachedSpells": [
+				"Melf's acid arrow"
+			]
+		},
+		{
+			"name": "Violin of the Afterlife",
+			"source": "RotR1",
+			"page": 10,
+			"baseItem": "viol|phb",
+			"type": "INS",
+			"tier": "major",
+			"rarity": "Rare",
+			"reqAttune": "by a bard with proficiency with viols",
+			"wondrous": true,
+			"entries": [
+				"This finely-crafted wooden {@item viol|phb} bears the appearance of a skull on the body, with carved teeth acting as the bridge.",
+				{
+					"type": "entries",
+					"name": "Dirge of the Dead",
+					"entries": [
+						"When you make a spell attack against an undead creature using this instrument as your spellcasting focus, the attack is made with advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shriek of the Afterlife",
+					"entries": [
+						"As an action, you can play a succession of notes on this instrument that will cause a black mist to erupt from the F-holes. The mist coalesces into the form of a face, and shrieks with a terrifying scream.",
+						"Each creature of your choice within 30 feet must succeed on a Wisdom saving throw (DC 15) or become {@condition frightened} of you. The creature can repeat the saving throw at the beginning of its turn if it cannot see you. You can use this feature once every three days."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wand of Catnap",
+			"source": "RotR1",
+			"page": 10,
+			"type": "WD",
+			"rarity": "uncommon",
+			"weight": 1,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Power Nap",
+					"entries": [
+						"You can use this wand to cast {@spell catnap|xge} at 5th level. You can use this feature once every three days."
+					]
+				}
+			],
+			"attachedSpells": [
+				"catnap"
+			]
 		}
 	]
 }
