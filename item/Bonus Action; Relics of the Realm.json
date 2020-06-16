@@ -374,11 +374,11 @@
 			"source": "RotR1",
 			"page": 2,
 			"baseItem": "quarterstaff|phb",
-			"type": "S",
+			"type": "M",
 			"rarity": "none",
 			"weight": 6,
 			"value": 1500,
-			"weaponCategory": "martial",
+			"weaponCategory": "simple",
 			"property": [
 				"V"
 			],
