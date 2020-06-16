@@ -130,7 +130,18 @@
 						"If a {@class druid} attunes to this necklace, they gain the following beast shapes: {@creature rat}, {@creature raven}, {@creature giant rat}, {@creature poisonous snake}, {@creature stirge}, {@creature constrictor snake}, {@creature giant frog}, {@creature giant lizard}, {@creature giant poisonous snake}, {@creature crocodile}, {@creature giant spider}, {@creature giant toad}, {@creature giant constrictor snake}, and {@creature giant crocodile}."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/KQPRQ9.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Band of the Firm Grip",
@@ -162,7 +173,18 @@
 				"mage hand",
 				"hold person",
 				"hold monster"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/MvLjo8.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Band of the Firm Grip (Cursed)",
@@ -175,7 +197,7 @@
 			"recharge": "dawn",
 			"charges": 10,
 			"entries": [
-				"This golden ring is designed with two hands interlacing their fingers on one side, adorned with a small red gem on either hand.",
+				"This golden ring is designed with two hands interlacing their fingers on one side, adorned with a small blue gem on either hand.",
 				{
 					"type": "entries",
 					"name": "Helping Hand",
@@ -203,7 +225,18 @@
 				"mage hand",
 				"hold person",
 				"hold monster"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/MvLjo8.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Blackout Candle",
@@ -221,7 +254,18 @@
 						"A creature with darkvision can't see through this darkness, and non-magical light can't illuminate it. Completely covering the candle with an opaque object, such as a bowl or a helm, blocks the darkness. If any of the candle's area of effect overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/l3f7Ru.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Blade of the Empire",
@@ -256,7 +300,18 @@
 						"If you are of a Lawful alignment you deal an extra {@damage 1d6} slashing damage to creatures with a Chaotic alignment whenever you make a successful attack using this sword."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/txXhbz.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Blade of the Northern Tribe",
@@ -301,14 +356,25 @@
 						"The ice is strong enough to hold the weight of approximately 4 small creatures, 2 medium creatures or 1 large creature. When a creature steps on the ice they must make a Dexterity saving throw (DC 8) or slip and fall {@condition prone}. The ice is considered rough terrain."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/sm4EtM.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Bladestaff",
 			"source": "RotR1",
 			"page": 2,
 			"baseItem": "quarterstaff|phb",
-			"type": "M",
+			"type": "S",
 			"rarity": "none",
 			"weight": 6,
 			"value": 1500,
@@ -322,7 +388,18 @@
 			"staff": true,
 			"entries": [
 				"Either end of this {@item quarterstaff|phb} has a blade affixed to it, enabling the wielder to strike at opponents with ease."
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Y2GfGD.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Bolas",
@@ -342,6 +419,7 @@
 			"dmgType": "B",
 			"weapon": true,
 			"entries": [
+				"These heavy metal balls are connected by a thin leather cord, making for easy throwing.",
 				{
 					"type": "entries",
 					"name": "Trip",
@@ -349,7 +427,18 @@
 						"Bolas are mainly used to trip foes from a distance. A Large or smaller bipedal creature hit with bolas must make a Dexterity saving throw (DC 15) or be {@condition restrained}. A restrained creature may attempt to break free with a successful Strength (Athletics) check (DC 15). A creature can also try to untangle the bolas using a Dexterity (Sleight of Hand) check (DC 12)."
 					]
 				} 
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/DwSOAr.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Boom-erang",
@@ -378,7 +467,18 @@
 						"When you make a successful attack with this weapon you can choose to activate a blast of arcane energy centered on your target. Each creature in a 10-foot radius must make a Dexterity saving throw (DC 15). On a failed save the target takes {@damage 2d6} force and {@damage 2d4} fire damage, or half damage on a successful save. You can use this feature up to two times per long rest."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/I5gG0W.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Close Quarters Bow",
@@ -416,7 +516,18 @@
 					]
 				}
 			],
-			"ammoType": "arrow|phb"
+			"ammoType": "arrow|phb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/VyGmjg.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Coinbox of Holding",
@@ -442,6 +553,17 @@
 					1000
 				],
 				"weightless": true
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Xc1MuF.png"
+						}
+					}
+				]
 			}
 		},
 		{
@@ -467,7 +589,18 @@
 						"Once per year you can cast the spell {@spell heroes' feast} without any material components."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/wIPIdF.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Crimson Amplifier",
@@ -494,7 +627,18 @@
 						"When a crimson amplifier accumulates 50 drops of blood in total across all wearers, it shatters and summons a {@creature horned devil} along with {@dice 3d4} {@creature imp|mm|imps}. The summoned creatures are hostile toward the wearer and and anyone else that is not fiendish in nature."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/UtUBG2.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Crystalline Crusher",
@@ -533,7 +677,18 @@
 						"In addition, you may use this weapon once per day to cast {@spell guiding bolt}, making the attack roll with a +6 bonus."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/pvfBzF.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Dagger of the Red Dragon",
@@ -582,7 +737,18 @@
 			],
 			"attachedSpells": [
 				"flame strike"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/0sfmXI.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Dance",
@@ -627,7 +793,18 @@
 						"Attunement to both {@i Song} and Dance counts as a single attunement."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/X6i8oC.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Death Knight's Helm",
@@ -655,7 +832,18 @@
 						"Each day you wear this helmet you must make a Wisdom saving throw (DC 12). The DC increases by 2 every for every subsequent day you wear this helmet. On a failed save, you take {@damage 2d8} psychic damage and lose all Constitution bonuses from this item. Each time you fail the save, the damage increases by another {@damage 2d8}."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/eMPfT5.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Executioner's Remorse",
@@ -693,7 +881,18 @@
 						"When Executioner's Mercy is used in combat you start hearing maddening voices from the dead for {@dice 1d8} hours. If there are more than 5 dead or undead creatures in a 200-foot radius you must make a Wisdom saving throw (DC15) every minute you are in the presence of the dead. On a failed save you take {@damage 2d4 + 2} psychic damage. on a successful save you are able to shut out the voices for 1 hour."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/3P80Cv.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Explosive Arrow",
@@ -725,7 +924,18 @@
 						"Activating the explosive tip of this arrow destroys it."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/HCgGUB.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Forgemaster's Warhammer",
@@ -768,7 +978,18 @@
 			"attachedSpells": [
 				"scorching ray",
 				"mending"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Q1HCHd.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Forgemaster's Warhammer (Cursed)",
@@ -820,7 +1041,18 @@
 				"scorching ray",
 				"mending",
 				"heat metal"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Q1HCHd.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Fuzzy Teddy",
@@ -846,7 +1078,18 @@
 						"The fuzzy teddy is a great listener. You can tell all your secrets to teddy, he's never going to tell anyone."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Vy7kNS.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Grapple Arrow",
@@ -879,7 +1122,18 @@
 						"Removing this arrow from a target destroys its hooks, rendering it useless."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/9AajKC.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Gravedigger's Staff",
@@ -925,7 +1179,18 @@
 						"Whenever you deal a killing blow while attuned to this weapon, you must make a Wisdom saving throw (DC 15). On a failure the spirit of the gravedigger compels you to bury the creature you have killed if it is not yet buried. Ignoring this will cause {@damage 1d8} psychic damage each hour the creature remains unburied."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/BMM9Il.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Hand Wraps of the Gathering Storm",
@@ -954,7 +1219,18 @@
 						"When you hit with an unarmed strike, you may choose to expend 5 charges to deal an additional {@damage 2d4 + 2} lightning damage. The hand wraps do not gain a charge when you hit with an electrified unarmed strike."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/mZbWwq.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Hood of the Deciever",
@@ -979,7 +1255,18 @@
 						"The hood allows you to channel the otherworldly charisma of your patron. You recieve a +3 bonus to Charisma (Deception) and Charisma (Persuasion) checks."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/2B4rep.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Ikran Gloves",
@@ -998,7 +1285,18 @@
 						"These gloves grant resistance to poison and ncrotic damage. Additionally, when wearing these gloves you receive a +5 bonus on any rolls made that utilize an {@item herbalism kit}."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/pE6Xtw.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Injection Arrow",
@@ -1023,7 +1321,18 @@
 						"You can fill the reservoir of the syringe with one potion, poison, or other liquid. It is injected directly into the target upon a hit, and any effects are immediate. Filling the reservoir takes 1 minute."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/8I97W8.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Jade Xiphos",
@@ -1059,7 +1368,18 @@
 						"A skilled {@class bard} may also be able to shatter the sword by singing a resonant note with a successful Charisma (Performance) check (DC 25)."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/EfSkZA.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Knife of the Vampire Lord",
@@ -1090,7 +1410,18 @@
 						"As an action you may regain the spell slot of the last spell you have cast by wounding yourself with this dagger. You deal yourself {@ damage 1d4 + 2} piercing damage and an additional {@damage 1d6} necrotic damage per spell slot level recovered. You may regain a spell slot of up to 6th level in this manner. If the last spell you cast was of 7th or higher you regain a 6th level spell slot instead. You can use this feature only once per long rest and can only use it on yourself."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/LtwBu9.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Kobold's Lucky Tooth",
@@ -1108,7 +1439,18 @@
 						"Once per day, you may spend an action to polish it. Upon doing so, roll a {@dice d4}. One minute later, you find that number of gp. These coins can be found in your pocket, bags or inventory. (You probably forgot about them.) Sometimes you find them in your surroundings, some extra coins in the loot you find, or just in the mud on street right outside of the tavern you've been staying in."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/2aR2mQ.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Light Flask",
@@ -1133,7 +1475,18 @@
 						"As a bonus action you can speak its command word to activate the flask. Upon doing so, the flask begins to shed the light captured. Every round one charge is spent. No matter which type of light is emitted, the light is shed as bright light in a 30-foot radius and dim light in a 60-foot radius."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/1hhksn.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Lockcrawler",
@@ -1153,7 +1506,18 @@
 						"When using the lockcrawler to unlock a lock, roll a {@dice d20}. On a 1, the lockcrawler makes a fatal mistake and is crushed in the mechanism, causing future checks to unlock the lock to be made with disadvantage. If the lock's DC is 20 or higher, this roll is made with disadvantage. If the lock's DC is 30 or higher, a roll of 2 also causes a fatal mistake in addition to rolling with disadvantage."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/kMLcnX.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Lunar Scimitar",
@@ -1188,7 +1552,18 @@
 						"Each attack made with this scimitar made while under the night sky deals an additional {@damage 1d4} radiant damage. When there is a visible full moon, the damage increases to {@damage 2d4}."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Ct4qbl.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Luxurious Satin Bedroll",
@@ -1213,7 +1588,18 @@
 						"When sleeping in this bedroll as part of a long rest, you gain one extra hit die when recovering hit dice, unless you have already recovered or will recover all of your hit dice this rest."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/nL9odf.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Mail of the Riverlands",
@@ -1236,7 +1622,18 @@
 						"This armor does not weigh you down in water and magically enhances you swimming ability. You gain a swim speed equal to your movement speed, and your Strength (Athletics) checks made to swim are made with advantage."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/whGuhI.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Mask of the Witch Doctor",
@@ -1293,7 +1690,18 @@
 						"While attuned to this item, you are unaffected by the following spells: {@spell witch bolt}, {@spell hex}, {@spell polymorph}, and {@spell hypnotic pattern} (even those cast by you). Additionally, you gain resistance to poison damage and are immune to all diseases."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/rFDg0S.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Port-a-boulder",
@@ -1312,7 +1720,18 @@
 						"The rock instantly returns to its original size when it is no longer in contact with an earthen surface (for example, if it is pushed off a ledge). Alternatively, it can be returned to its original size by speaking a command word which will make it shrink over the course of 1 minute."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/ZCiyB1.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Ruby Evertorch",
@@ -1330,7 +1749,18 @@
 						"As a bonus action you can speak a command word to cause this torch to light itself, shedding bright light in a 30-foot radius and dim light for an additional 40 feet. If you make a melee attack with the flame active, it deals an additional 1 point of fire damage."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/x3XESS.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Song",
@@ -1377,7 +1807,18 @@
 			],
 			"attachedSpells": [
 				"charm person"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/8bOurZ.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Stalker's Dart",
@@ -1412,7 +1853,18 @@
 						"Activating the arcane mark shatters the gem, removing the enchantment and causing it to become a mundane {@item dart|phb}."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/9MD65l.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Talisman of the Satyr",
@@ -1438,7 +1890,18 @@
 						"While attuned to this item, you are proficient with {@item pan flute|phb|pan flutes} if you aren't already. With a successful Charisma (Performance) check (DC 15) when playing a pan flute, you can attract {@dice 1d8} birds from your surroundings, if there are any. Most types of songbirds will happily tweet along to your music."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/9w2BzY.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "The Northern Winds",
@@ -1486,7 +1949,18 @@
 			],
 			"attachedSpells": [
 				"wind walk"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/TWufd5.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Thorn of the North",
@@ -1509,13 +1983,13 @@
 			"dmg1": "1d8 + 1",
 			"dmgType": "P",
 			"entries": [
-				"The arms of this {@item longbow +1|dmg} is covered in sharp thorns and tipped with a small rosebud.",
+				"The arms of this {@item longbow +1|dmg} are covered in sharp thorns.",
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
 					"name": "Barbed Shot",
 					"entries": [
-						"This bow holds 6 charges. Each day at dawn it regains {@dice 1d6} charges. Before making an attack with this weapon, you can expend 1 charge to add sharp thorns to the arrow you are shooting. If your attack is successful, add {@damage 1d4} piercing damage, and one of the rosebuds at the end of the arms blooms for 1 minute (unless both have already bloomed)."
+						"This bow holds 6 charges. Each day at dawn it regains {@dice 1d6} charges. Before making an attack with this weapon, you can expend 1 charge to add sharp thorns to the arrow you are shooting. If your attack is successful, add {@damage 1d4} piercing damage."
 					]
 				},
 				{
@@ -1551,7 +2025,18 @@
 					]
 				}
 			],
-			"ammoType": "arrow|phb"
+			"ammoType": "arrow|phb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/A1NJWi.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Totem of Tongues",
@@ -1570,7 +2055,18 @@
 						"As a ritual, you can cast the spell {@spell tongues} using this totem in place of the material component. You can use this feature twice every three days."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Da3orj.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Tunic of the Warmage's Apprentice",
@@ -1598,7 +2094,18 @@
 						"While wearing this armor, you have a +1 bonus to all spell attacks. Additionally, if you cast an evocation spell that deals damage, it deals +2 bonus damage of the original type."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/1ZJizv.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Twin Hook Swords",
@@ -1632,7 +2139,18 @@
 						"You can use these swords to anchor yourself while climbing, similar to a {@item climber's kit|phb}. When you do, you gain advantage on Strength (Athletics) checks made for climbing."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/1tqfrq.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Twin Serpent Staff",
@@ -1670,7 +2188,18 @@
 			],
 			"attachedSpells": [
 				"Melf's acid arrow"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/Ve8C9T.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Violin of the Afterlife",
@@ -1699,7 +2228,18 @@
 						"Each creature of your choice within 30 feet must succeed on a Wisdom saving throw (DC 15) or become {@condition frightened} of you. The creature can repeat the saving throw at the beginning of its turn if it cannot see you. You can use this feature once every three days."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/uVQXLW.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Wand of Catnap",
@@ -1720,7 +2260,18 @@
 			],
 			"attachedSpells": [
 				"catnap"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/M02DQB.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Waterwalkers",
@@ -1745,7 +2296,18 @@
 						"These boots give you a swim speed of 20 feet, or a 10-foot bonus to your swim speed if you already have one."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/SQe2pb.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Wavecaller",
@@ -1773,7 +2335,18 @@
 			],
 			"attachedSpells": [
 				"fog cloud"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/wIRm79.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Willow's Whisper",
@@ -1804,7 +2377,18 @@
 			],
 			"attachedSpells": [
 				"tree stride"
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.vgy.me/cNQrU2.png"
+						}
+					}
+				]
+			}
 		}
 	]
 }
