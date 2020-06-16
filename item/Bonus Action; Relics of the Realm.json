@@ -2497,7 +2497,7 @@
 			}
 		},
 		{
-			"name": "Bifocals of the Basalisk",
+			"name": "Bifocals of the Basilisk",
 			"source": "RotR2",
 			"page": 1,
 			"tier": "major",
@@ -2516,7 +2516,7 @@
 					"type": "entries",
 					"name": "Stone Cold",
 					"entries": [
-						"While wearing these goggles you are immune to the petrifying effects of creatures such as {@creature basalisk|mm|basalisks} or {@creature medusa|mm|medusas} that take hold through eye contact."
+						"While wearing these goggles you are immune to the petrifying effects of creatures such as {@creature basilisk|mm|basilisks} or {@creature medusa|mm|medusas} that take hold through eye contact."
 					]
 				},
 				{
@@ -2717,7 +2717,7 @@
 							"rows": [
 								[
 									"50 gp",
-									"{@spell Cause fear} (2nd level)"
+									"{@spell Cause fear|xge} (2nd level)"
 								],
 								[
 									"100 gp",
