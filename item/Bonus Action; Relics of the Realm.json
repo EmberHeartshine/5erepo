@@ -55,7 +55,7 @@
 			}
 		],
 		"dateAdded": 1589115470,
-		"dateLastModified": 1592087222
+		"dateLastModified": 1592338098
 	},
 	"item": [
 		{
@@ -2812,6 +2812,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"weight": 5,
 			"entries": [
 				"This leather shoulder bag is emblazoned with a golden dragon's head.",
 				{
