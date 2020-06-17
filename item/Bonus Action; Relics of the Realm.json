@@ -2884,10 +2884,10 @@
 				"F",
 				"L"
 			],
-			"dmg1": "1d4 + 1 necrotic + 1d4 + 1 radiant",
-			"damageInflict": [
-				"necrotic",
-				"radiant"
+			"dmg1": "1d4 + 1 necrotic + 1d4 + 1",
+			"dmgType": [
+				"R",
+				"N"
 			],
 			"sword": true,
 			"weapon": true,
