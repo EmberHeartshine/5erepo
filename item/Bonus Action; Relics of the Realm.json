@@ -2885,7 +2885,10 @@
 				"L"
 			],
 			"dmg1": "1d4 + 1 necrotic + 1d4 + 1 radiant",
-			"dmgType": "S",
+			"damageInflict": [
+				"necrotic",
+				"radiant"
+			],
 			"sword": true,
 			"weapon": true,
 			"entries": [
