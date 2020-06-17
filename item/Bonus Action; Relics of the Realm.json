@@ -2885,10 +2885,7 @@
 				"L"
 			],
 			"dmg1": "1d4 + 1 necrotic + 1d4 + 1",
-			"dmgType": [
-				"R",
-				"N"
-			],
+			"dmgType": "R",
 			"sword": true,
 			"weapon": true,
 			"entries": [
