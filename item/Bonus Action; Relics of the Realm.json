@@ -2869,6 +2869,53 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Duality Blade",
+			"source": "RotR2",
+			"page": 3,
+			"baseItem": "shortsword|phb",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d4 + 1 necrotic + 1d4 + 1 radiant",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Like a shadow in your hand, this {@item shortsword|phb} feels almost unreal. A long hole is driven along the center of the blade.",
+				{
+					"type": "entries",
+					"name": "Streamers of Light",
+					"entries": [
+						"As a bonus action, you can speak a command word to shroud the blade in flowing streams of light. The sword sheds bright light in a 15-foot radius and dim light in a 30-foot radius while in this state. Additionally, attacks with this sword deal {@damage 1d4} necrotic + {@damage 1d4 + 2} radiant damage instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blade of Darkness",
+					"entries": [
+						"The blade of this sword does not reflect any light and is difficult to discern in dim light and darkness. While you are in dim light or darkness, attacks with this weapon have a +3 bonus to hit and deal {@damage 1d4 + 2} necrotic + {@damage 1d4} radiant instead. Activating the {@i Streamers of Light} feature negates this effect."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR1/blade-empire.png"
+						}
+					}
+				]
+			}
 		}
 	]
 }
