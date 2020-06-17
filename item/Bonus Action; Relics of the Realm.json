@@ -2911,7 +2911,188 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR1/blade-empire.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/duality.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Earring of Whispering",
+			"source": "RotR2",
+			"page": 3,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This golden earring has a small chain clasp that fits onto the upper portion of the ear.",
+				{
+					"type": "entries",
+					"name": "Jenga",
+					"entries": [
+						"As an action, this earring allows you to cast {@spell message} to another connected earring within 500 feet. The earring will always passively recieve messages. If the reciever is out of range they will hear nothing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pairing Mode",
+					"entries": [
+						"Two or more earrings may be connected by holding them together for 10 minutes. If an earring is more than 5 miles away from another connected earring for at least 1 week, the connection will be broken and the earrings must be re-paired."
+					]
+				}
+			],
+			"attachedSpells": [
+				"message"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/earring.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Frost Reaper",
+			"source": "RotR2",
+			"page": 3,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d6 + 1 + 1d6",
+			"dmgType": "C",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This heavy iron scythe features a jagged icy blade.",
+				{
+					"name": "Cold-Hearted",
+					"type": "entries",
+					"entries": [
+						"You gain a +1 bonus to attack rolls made with this magic weapon."
+					]
+				},
+				{
+					"name": "Ice Harvest",
+					"type": "entries",
+					"entries": [
+						"As an action, you can speak a command word to freeze {@dice 1d8} shards of ice from the moisture in the air around you. Choose any number of targets you can see within 60 feet (up to the number of shards formed) and roll a ranged weapon attack for each shard. Each hit deals {@damage 1d4 + 1} cold damage. You may use this feature twice per day."
+					]
+				}
+			],
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/frost.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Gapcloser 2000",
+			"source": "RotR2",
+			"page": 3,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"A curious black box, two long crossbow bolt-like rods stick out from either end.",
+				{
+					"type": "entries",
+					"name": "Zipline",
+					"entries": [
+						"As an action, you lift the Gapcloser 2000 into the air and activate its line launcher, which shoots both bolts in opposite directions, each attached to 50 feet of steel wire. Make a ranged weapon attack for each bolt. On two successful hits the wire tightens and you can use your movement to travel up to 50 feet between the two anchor points. You can cause the Gapcloser 2000 to detach and reel in the bolts as a bonus action. Refer to the table below for the ACs of various materials.",
+						"If one of the bolts strikes a creature, it deals {@damage 1d4 - 1} (minimum of 1) points of piercing damage and becomes lodged in their body. The creature can release itself by taking an action to make a Strength check (DC 10).",
+						{
+							"type": "table",
+							"colLabels": [
+								"Material",
+								"AC"
+							],
+							"colStyles": [
+								"col-1",
+								"col-10"
+							],
+							"rows": [
+								[
+									"Crystal, Ice",
+									"11"
+								],
+								[
+									"Wood, Bone",
+									"13"
+								],
+								[
+									"Stone",
+									"15"
+								],
+								[
+									"Iron, Steel",
+									"17"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/gapcloser.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Goodberry Sapling",
+			"source": "RotR2",
+			"page": 3,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Most goodberries are created through magic such as {@spell goodberry}. In some rare cases, goodberries can be planted  to grow godberry bushes.",
+				{
+					"type": "entries",
+					"name": "Seed of the Feywild",
+					"entries": [
+						"You can plant this sapling in any fertile ground. Over the course of {@dice 1d6} days a roughly 5-foot tall bush grows."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healthy Harvest",
+					"entries": [
+						"Once the bush has grown, {@dice 1d4} berries grow on the bush every day to a maximum of 20 berries. These berries have the same properties as those conjured by {@spell goodberry}, and last for the same duration.",
+						"If all berries are plucked from the bush, roll a {@dice d20}. On a 1, the bush will no longer grow any berries until it has been watered with water from the feywild."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/goodberry.png"
 						}
 					}
 				]
