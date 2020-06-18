@@ -3008,7 +3008,7 @@
 			"page": 3,
 			"rarity": "none",
 			"weight": 2,
-			"value": 100000,
+			"value": 20000,
 			"wondrous": true,
 			"entries": [
 				"This gnomish invention features two crossbow bolt-like rods extending out from either side. Despite its complex operation, the Gapcloser 2000 is a feat of mundane engineering.",
@@ -3283,6 +3283,175 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/luminous.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mantle of Vitalis",
+			"source": "RotR2",
+			"page": 5,
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": "by a bard, cleric, or druid",
+			"recharge": "dawn",
+			"charges": 3,
+			"wondrous": true,
+			"entries": [
+				"These vestments seem to wave gently in the wind, even in still air.",
+				{
+					"type": "entries",
+					"name": "Legacy of the Healer",
+					"entries": [
+						"This mantle has 3 charges that empower your healing spells. Whenever you cast a spell that heals hit points, you can spend 1 charge to heal one of the targets for an additional {@dice 3d8} + your spellcasting modifier. You can spend any number of charges at once, but each charge only affects one target and you cannot use multiple charges on the same target. All 3 charges are regained at dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dreamwalker",
+					"entries": [
+						"Once per long rest, you can use an action to cast {@spell dream}. Additionally, you are immune to all spells that would make you fall asleep while wearing this mantle (including your own)."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/mantle.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Map Beacon",
+			"source": "RotR2",
+			"page": 5,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"These small metallic cubes light gently with different colors as you touch them.",
+				{
+					"type": "entries",
+					"name": "Binding the Beacon",
+					"entries": [
+						"To bind to a beacon, a creature must hold one in their hand and speak a command word. Binding to the beacon does not count as attunement."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Split the Party",
+					"entries": [
+						"When a map beacon is placed onto a map and its command word is spoken, these tiny beacons will light up and hover over the location on the map of the creature they are bound to. If there are multiple bound creatures in one location, the beacons will hover over each other. If they are not anywhere on the map, the beacon lies still and dark.",
+						"Map beacons work best with detailed maps, but can also function to give general position on crudely-drawn maps. If yu draw a map for this purpose, it must have at least three points of reference and be enclosed by a rectangular edge."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/map.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Maask of the Raven's Disciple",
+			"source": "RotR2",
+			"page": 5,
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a cleric, paladin, or warlock",
+			"wondrous": true,
+			"bonusSavingThrow": "+2",
+			"entries": [
+				"This metallic masquerade mask features a long, beak-like extension from the nose and a purple topaz embedded in the forehead.",
+				{
+					"type": "entries",
+					"name": "Wisdom from Beyond",
+					"entries": [
+						"While attuned to this mask you recieve a +2 bonus to all Wisdom saving throws and Wisdom-based skill checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "My Queen",
+					"entries": [
+						"The Strength score of a {@class cleric} or {@class paladin} attuned to this item increases by 1. The Charisma bonus of a {@class warlock} attuned to this item increases by 1. In you are multiclassed into both warlock and cleric or paladin, choose one bonus to apply when you attune."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Queen's Forgiveness",
+					"entries": [
+						"Once per day, you can use this mask to cast {@spell spare the dying}. When you do, the gemstone flares brightly for the duration of the casting."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/mask.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mountainguard's Greataxe",
+			"source": "RotR2",
+			"page": 5,
+			"baseItem": "greataxe +2|dmg",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 7,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12 + 2",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				"This beautifully-crafted {@item greataxe +2|dmg} features delicate etchings along the body of the blades.",
+				{
+					"type": "entries",
+					"name": "Dwarven-Forged",
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Last Line of Defense",
+					"entries": [
+						"As an action, you can slam the pommel of this axe on the ground to cause a ripple of gold energy to burst in a 30-foot radius. All creatures of your choice within this range become immune to being {@condition frightened} for the next minute. During this time, they also gain 10 temporary hit points at the start of each of their turns. You can use this feature once per day."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/mountainguards.png"
 						}
 					}
 				]
