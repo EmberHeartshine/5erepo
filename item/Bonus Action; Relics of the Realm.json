@@ -2662,7 +2662,7 @@
 					"type": "entries",
 					"name": "From the Ashes (Hidden Feature)",
 					"entries": [
-						"When a creature attuned to this item dies, their body erupts in a burst of flames. Creatures in a 10-foot radius must make a Dexterity saving throw (DC 15) or receive 2d10 Fire damage, or half on a success. The creature that was wearing the circlet and all the equipment they were carrying crumble to ash. After {@dice 1d4} hours, they appear awake with full hit points on the elemental plane of fire, wearing only the {@item luminous vestments of the phoenix|RotR2}. This feature is not revealed by {@spell identify} or attuning to this item."
+						"When a creature attuned to this item dies, their body erupts in a burst of flames. Creatures in a 10-foot radius must make a Dexterity saving throw (DC 15) or receive 2d10 Fire damage, or half on a success. The creature that was wearing the circlet and all the non-magical equipment they were carrying crumble to ash. After {@dice 1d4} hours, they appear awake with full hit points on the elemental plane of fire, wearing only the {@item luminous vestments of the phoenix|RotR2}. This feature is not revealed by {@spell identify} or attuning to this item."
 					]
 				}
 			],
@@ -3006,11 +3006,12 @@
 			"name": "Gapcloser 2000",
 			"source": "RotR2",
 			"page": 3,
-			"tier": "major",
-			"rarity": "uncommon",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100000,
 			"wondrous": true,
 			"entries": [
-				"A curious black box, two long crossbow bolt-like rods stick out from either end.",
+				"This gnomish invention features two crossbow bolt-like rods extending out from either side. Despite its complex operation, the Gapcloser 2000 is a feat of mundane engineering.",
 				{
 					"type": "entries",
 					"name": "Zipline",
@@ -3093,6 +3094,195 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/goodberry.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "L'Arcana #23",
+			"source": "RotR2",
+			"page": 4,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple lipstick shimmers purple with an almost otherworldly appearance.",
+				{
+					"type": "entries",
+					"name": "Because Thou Art Worth It",
+					"entries": [
+						"It takes about 30 seconds to apply L'Arcana #23, after which the effects last 8 hours or until it is removed. A full container of L'Arcana #23 comes with 15 uses; most found will have {@dice 1d6 - 1} uses missing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "#23",
+					"entries": [
+						"While wearing this lipstick you gain a +1 bonus to every spell attack when casting a spell with a verbal component. In addition, your spell save DC for {@spell charm person} and {@spell charm monster|xge} increase by 2."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/larcana.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "La Guillotina",
+			"source": "RotR2",
+			"page": 4,
+			"baseItem": "greataxe +2|dmg",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 7,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12 + 2",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				"This massive {@item greataxe +2|dmg} appears to be little more than a guillotine blade affixed to a reinforced handle.",
+				{
+					"type": "entries",
+					"name": "Repurposed Adamantine Blade",
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Purge the Wicked",
+					"entries": [
+						"Attacks made with this axe against good-aligned creatures are made at disadvantage and deal half damage on hit. It also cannot deal killing blows to good or neutral creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Voice of the Judge",
+					"entries": [
+						"Twice per long rest, you can cast {@spell command} at 1st level (DC 14)."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/laguillotina.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Lash of the Hydra",
+			"source": "RotR2",
+			"page": 4,
+			"baseItem": "whip +2|dmg",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4 + 2",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"weapon": true,
+			"entries": [
+				"This wicked-looking whip has a dark blade embedded in its tip. The handle seems too broad for just one cord…",
+				{
+					"type": "entries",
+					"name": "Essence of the Monster",
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hydra's Frenzy",
+					"entries": [
+						"Whenever you attack a creature that is hostile toward you and roll a 19 or 20 on the {@dice d20}, an extra cord grows from the handle of the whip. Your attacks with this whip deal an additional {@damage 1d4} damage for each extra cord. The whip can have a total of 5 cords. Extra cords disappear 12 hours after the last cord has grown, after which only 1 cord remains."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hydra's Curse",
+					"entries": [
+						"Whenever you roll a natural 1 on an attack roll with this weapon, 1 cord disappears from the handle. However, if there is only 1 cord left, roll a {@dice d100}. On a 15 or lower the last cord disappears, making the whip useless and unable to grow any cords ever again. If you roll higher than 15 the last cord remains attached."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/lash.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Luminous Vestments of the Phoenix",
+			"source": "RotR2",
+			"page": 4,
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": "by a wizard, sorcerer, druid, or warlock",
+			"wondrous": true,
+			"entries": [
+				"These brilliant robes radiate eternal heat, threatening to burn those around it.",
+				{
+					"type": "entries",
+					"name": "Soul of the Fire Plane",
+					"entries": [
+						"While attuned to this robe you are immune to fire damage and have resistance to cold damage. You also gain a +4 bonus to your spell attack and your spell save DC increases by 2."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight of the Phoenix",
+					"entries": [
+						"Twice per long rest, you can use these robes to cast {@spell fly} at 6th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ashes to Ashes",
+					"entries": [
+						"Once per long rest, you can use these robes to cast {@spell fire storm}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/luminous.png"
 						}
 					}
 				]
