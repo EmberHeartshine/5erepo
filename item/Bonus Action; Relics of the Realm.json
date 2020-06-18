@@ -2969,7 +2969,7 @@
 				"H",
 				"2H"
 			],
-			"dmg1": "1d6 + 1 + 1d6",
+			"dmg1": "1d6 + 1 slashing + 1d6",
 			"dmgType": "C",
 			"bonusWeapon": "+1",
 			"entries": [
@@ -2978,7 +2978,7 @@
 					"name": "Cold-Hearted",
 					"type": "entries",
 					"entries": [
-						"You gain a +1 bonus to attack rolls made with this magic weapon."
+						"You gain a +1 bonus to attack and damage rolls made with this magic weapon."
 					]
 				},
 				{
@@ -3209,7 +3209,7 @@
 			"bonusWeapon": "+2",
 			"weapon": true,
 			"entries": [
-				"This wicked-looking whip has a dark blade embedded in its tip. The handle seems too broad for just one cord…",
+				"This wicked-looking {@item whip +2|dmg} has a dark blade embedded in its tip. The handle seems too broad for just one cord…",
 				{
 					"type": "entries",
 					"name": "Essence of the Monster",
