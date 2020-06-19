@@ -3656,6 +3656,821 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Repurposed Eyestalk",
+			"source": "RotR2",
+			"page": 7,
+			"type": "WD",
+			"rarity": "very rare",
+			"reqAttune": "by a sorcerer, warlock, or wizard",
+			"weight": 1,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This sturdy wand features a large preserved eye attached to the end. The eye follows your gaze disconcertingly.",
+				{
+					"type": "entries",
+					"name": "Intellect of the Beholder",
+					"entries": [
+						"While attuned to this wand, your Intelligence score increases by 2 (to a maximum of 22). You also recieve a +1 bonus to all Wisdom {@skill Perception}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Lens",
+					"entries": [
+						"This wand holds 3 charges, which replenish each day at dawn. As an action you can point the wand at a target you can see within 120 feet and release a charge at random. Roll a {@dice 4} to determine the effect. All save DCs are your spell save DC or 16, whichever is higher. None of the ray effects requie concentration.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Fear Ray.} The target must succeed on a Wisdom saving throw or become {@condition frightened} of you per the {@spell cause fear|xge} spell."
+								],
+								[
+									"2",
+									"{@b Necrotic Ray.} The target must succeed on a Constitution saving throw or take {@damage 3d6 + 2} necrotic damage."
+								],
+								[
+									"3",
+									"{@b Sleep Ray.} The target must succeed on a Wisdom saving throw or fall asleep per the {@spell sleep} spell."
+								],
+								[
+									"4",
+									"{@b Ray of Mastery.} You cast a spell of your choice from your list of prepared spells that deals damage. This spell must be 3rd level or lower. You do not expend a spell slot to cast this spell."
+								]
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": [
+				"cause fear",
+				"sleep"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR1/repurposed.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of the Fey",
+			"source": "RotR2",
+			"page": 7,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"This bone-white ring has a skull-like imprint on the face, and a sunstone gem adorning the top.",
+				{
+					"type": "entries",
+					"name": "Mind of the Fey",
+					"entries": [
+						"While attuned to this ring your Intelligence score increases by 1. Additionally, you gain a +2 bonus to all Intelligence ({@skill Arcana}) and Intelligence ({@skill Nature}) skill checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"While attuned to this ring you have advantage on all saving throws made to resist being charmed, and magic can't put you to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light of the Feywild",
+					"entries": [
+						"Onc per day you can use this ring to cast a special type of {@spell faerie fire}. {@i Faerie fire} cast in this manner does not require concentration and tints the affected area orange and red. While you are in the feywild the range and cube size increase by 10 feet."
+					]
+				}
+			],
+			"attachedSpells": [
+				"faerie fire"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR1/ring.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Alabaster White)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						"When drawn around a creature that is {@condition unconscious} and at 0 hit points, this will immediately stabilize them. This shape has no effect on constructs or the undead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						"While standing inside the circle you are granted a {@dice 1d4} bonus on a single ability check of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						"Creates a sacred glypn that encompasses a 5-foot square. Any undead creature walking over the glyph must succeed on a Dexterity saving throw (DC 15) or take {@damage 1d8 + 2} radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						"Completely and irreversibly erases all information from a piece of paper or parchment."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-alabaster.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Bright Yellow)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					],
+					{
+						"type": "table",
+						"colLabels": [
+							"Shape",
+							"Effect"
+						],
+						"colStyles": [
+							"col-3",
+							"col-10"
+						],
+						"rows": [
+							[
+								"Square",
+								"Fills one container placed within the square with 1 pint of your favorite wine or ale."
+							],
+							[
+								"Circle",
+								"Casts {@spell light} on the object the circle is drawn on. "
+							],
+							[
+								"Triangle",
+								"Fills a container placed within the triangle with 1 pint of {@item oil (flask)|phb|oil}."
+							],
+							[
+								"Cross",
+								"Wards a 5-foot square such that {@spell grease} (DC 12) is cast on that space when a creature walks over it. A maximum of 3 bright yellow crosses may be active at a time."
+							]
+						]
+					}
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-bright.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Charming Pink)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-charming.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Cloudy Gray)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-cloudy.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Flame Red)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-flame.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Midnight Black)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-midnight.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Navy Blue)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-navy.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Royal Purple)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-royal.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Sky Blue)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-sky.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Swamp Green)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-swamp.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Vine Green)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-vine.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Warm Orange)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "runechalk",
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Square",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Triangle",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cross",
+					"entries": [
+						""
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-warm.png"
+						}
+					}
+				]
+			}
 		}
 	]
 }
