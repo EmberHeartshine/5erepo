@@ -3847,37 +3847,37 @@
 					"type": "entries",
 					"name": "Chalk One Up",
 					"entries": [
-						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
-					],
-					{
-						"type": "table",
-						"colLabels": [
-							"Shape",
-							"Effect"
-						],
-						"colStyles": [
-							"col-3",
-							"col-10"
-						],
-						"rows": [
-							[
-								"Square",
-								"Fills one container placed within the square with 1 pint of your favorite wine or ale."
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Shape",
+								"Effect"
 							],
-							[
-								"Circle",
-								"Casts {@spell light} on the object the circle is drawn on. "
+							"colStyles": [
+								"col-3",
+								"col-10"
 							],
-							[
-								"Triangle",
-								"Fills a container placed within the triangle with 1 pint of {@item oil (flask)|phb|oil}."
-							],
-							[
-								"Cross",
-								"Wards a 5-foot square such that {@spell grease} (DC 12) is cast on that space when a creature walks over it. A maximum of 3 bright yellow crosses may be active at a time."
+							"rows": [
+								[
+									"Square",
+									"Fills one container placed within the square with 1 pint of your favorite wine or ale."
+								],
+								[
+									"Circle",
+									"Casts {@spell light} on the object the circle is drawn on. "
+								],
+								[
+									"Triangle",
+									"Fills a container placed within the triangle with 1 pint of {@item oil (flask)|phb|oil}."
+								],
+								[
+									"Cross",
+									"Wards a 5-foot square such that {@spell grease} (DC 12) is cast on that space when a creature walks over it. A maximum of 3 bright yellow crosses may be active at a time."
+								]
 							]
-						]
-					}
+						}
+					]
 				}
 			],
 			"fluff": {
