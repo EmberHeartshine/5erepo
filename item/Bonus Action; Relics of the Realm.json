@@ -3793,31 +3793,32 @@
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Square",
-					"entries": [
-						"When drawn around a creature that is {@condition unconscious} and at 0 hit points, this will immediately stabilize them. This shape has no effect on constructs or the undead."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Circle",
-					"entries": [
-						"While standing inside the circle you are granted a {@dice 1d4} bonus on a single ability check of your choice."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Triangle",
-					"entries": [
-						"Creates a sacred glypn that encompasses a 5-foot square. Any undead creature walking over the glyph must succeed on a Dexterity saving throw (DC 15) or take {@damage 1d8 + 2} radiant damage."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Cross",
-					"entries": [
-						"Completely and irreversibly erases all information from a piece of paper or parchment."
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Square",
+							"When drawn around a creature that is {@condition unconscious} and at 0 hit points, this will immediately stabilize them. This shape has no effect on constructs or the undead."
+						],
+						[
+							"Circle",
+							"While standing inside the circle you are granted a {@dice 1d4} bonus on a single ability check of your choice."
+						],
+						[
+							"Triangle",
+							"Creates a sacred glypn that encompasses a 5-foot square. Any undead creature walking over the glyph must succeed on a Dexterity saving throw (DC 15) or take {@damage 1d8 + 2} radiant damage."
+						],
+						[
+							"Cross",
+							"Completely and irreversibly erases all information from a piece of paper or parchment."
+						]
 					]
 				}
 			],
@@ -3855,7 +3856,7 @@
 								"Effect"
 							],
 							"colStyles": [
-								"col-3",
+								"col-1",
 								"col-10"
 							],
 							"rows": [
