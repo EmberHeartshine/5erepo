@@ -3990,7 +3990,7 @@
 					"rows": [
 						[
 							"Square",
-							"Anything drawn or written with this chalk and then enclosed within a square will appear in the sky per the {@spell skywrite} spell. Using this feature takes two uses."
+							"Anything drawn or written with this chalk and then enclosed within a square will appear in the sky per the {@spell skywrite|xge} spell. Using this feature takes two uses."
 						],
 						[
 							"Circle",
@@ -4174,7 +4174,7 @@
 					"rows": [
 						[
 							"Square",
-							"While standing inside the circle, you may cast {@spell shape water} for the next hour. Only on creature may be under the influence of this shape at once."
+							"While standing inside the circle, you may cast {@spell shape water|xge} for the next hour. Only on creature may be under the influence of this shape at once."
 						],
 						[
 							"Circle",
@@ -4236,19 +4236,19 @@
 					"rows": [
 						[
 							"Square",
-							"When drawn on a shield, grants a +1 bonus to AC for 1 hour."
+							"When drawn on a shield, grants a +1 bonus to AC for 1 hour. Only one shape may be active at a time."
 						],
 						[
 							"Circle",
-							"When drawn on armor, grants resistance to bludgeoning damage for 1 hour."
+							"When drawn on armor, grants resistance to bludgeoning damage for 1 hour. Only one shape may be active at a time."
 						],
 						[
 							"Triangle",
-							"When drawn on armor, grants resistance to piercing damage for 1 hour."
+							"When drawn on armor, grants resistance to piercing damage for 1 hour. Only one shape may be active at a time."
 						],
 						[
 							"Cross",
-							"When drawn on armor, grants resistance to slashing damage for 1 hour."
+							"When drawn on armor, grants resistance to slashing damage for 1 hour. Only one shape may be active at a time."
 						]
 					]
 				}
