@@ -3656,59 +3656,6 @@
 					}
 				]
 			}
-		},
-		{
-			"name": "Alabaster White",
-			"page": 7,
-			"type": "runechalk",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Chalk",
-					"entries": [
-						"Test test test"
-					]
-				}
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-alabaster.png"
-						}
-					}
-				]
-			}
-		}
-	],
-	"variant": [
-		{
-			"name": "Runechalk",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "runechalk"
-				}
-			],
-			"inherits": {
-				"nameSuffix": " Runechalk",
-				"source": "RotR2",
-				"tier": "major",
-				"rarity": "uncommon",
-				"wondrous": true,
-				"entries": [
-					"This simple piece of chalk has been imbued with magical abilities that change depending on what is drawn with it.",
-					{
-						"type": "entries",
-						"name": "Chalk One Up",
-						"entries": [
-							"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 10 to draw these symbols. Only one of the symbols can be active at a time. You can draw up to 20 symbols with this chalk before it is completely used up."
-						]
-					}
-				]
-			}
 		}
 	]
 }
