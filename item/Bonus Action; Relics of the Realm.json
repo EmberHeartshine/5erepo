@@ -3659,11 +3659,7 @@
 		},
 		{
 			"name": "Alabaster White",
-			"source": "RotR2",
 			"page": 7,
-			"tier": "major",
-			"rarity": "uncommon",
-			"wondrous": true,
 			"type": "runechalk",
 			"entries": [
 				{
@@ -3700,7 +3696,9 @@
 				"nameSuffix": " Runechalk",
 				"source": "RotR2",
 				"page": 7,
+				"tier": "major",
 				"rarity": "uncommon",
+				"wondrous": true,
 				"entries": [
 					"This simple piece of chalk has been imbued with magical abilities that change depending on what is drawn with it.",
 					{
