@@ -217,7 +217,7 @@
 					"type": "entries",
 					"name": "Hold Tight (Curse)",
 					"entries": [
-						"This item is cursed, and attuning to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic (or by severing the finger it is worn on), this item clasps painfully around your finger and is unable to be removed or unattuned. Despite this, you are unwilling to part with this ring until the curse is broken.",
+						"This item is cursed, and attuning to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic (or by amputating the finger it is worn on), this item clasps painfully around your finger and is unable to be removed or unattuned. Despite this, you are unwilling to part with this ring until the curse is broken.",
 						"While this item is cursed, it loses {@dice 1d4} charges upon attunement and cannot regain expended charges."
 					]
 				}
@@ -4501,6 +4501,139 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/rc-warm.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sanctified Gilded Skull",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This gold-trimmed skull has three sapphire gems embedded into it: one in each eye, and one in the center of the forehead.",
+				{
+					"type": "entries",
+					"name": "Ward of the Afterlife",
+					"entries": [
+						"If you are dealt necrotic damage while attuned to this item, roll {@dice 1d6} and subtract the rolled number from the amount of damage you receive. Additionally, undead creatures cannot be made within 100 feet of this item. (Existing undead can enter this range.)"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necromantic Aversion",
+					"entries": [
+						"If you are targeted with a necromanic spell of 1st through 3rd level, you may choose to negate the effects of the spell. If you choose to use this feature, roll {@dice 1d20}. On a 5 or higher, the effect is negated. On a 1, the skull shatters and is destroyed. You may use this feature once per long rest."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/sanctified.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sapphire Claws",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a barbarian, druid, fighter, or monk",
+			"wondrous": true,
+			"entries": [
+				"These dark bracers and gloves have sapphires embedded into the back of the hand, along the first row of knuckles, and as sharp nails projecting from the fingertips.",
+				{
+					"type": "entries",
+					"name": "Cat's Slash",
+					"entries": [
+						"Your unarmed strikes are considered magical for the purposes of overcoming damage resistance/immunity, and you are considered armed (dealing slashing damage instead of bludgeoning). You have a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cave Climber",
+					"entries": [
+						"You gain a climbing speed equal to half your movement speed, and any Strength ({@skill Athletics}) check made to grapple a creature has a +1 bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crystal Shaper",
+					"entries": [
+						"You gain the ability to cast {@spell mold earth|xge} and {@spell light}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/sapphire.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sapphire Claws (Cursed)",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a barbarian, druid, fighter, or monk",
+			"wondrous": true,
+			"entries": [
+				"These dark bracers and gloves have sapphires embedded into the back of the hand, along the first row of knuckles, and as sharp nails projecting from the fingertips.",
+				{
+					"type": "entries",
+					"name": "Cat's Slash",
+					"entries": [
+						"Your unarmed strikes are considered magical for the purposes of overcoming damage resistance/immunity, and you are considered armed (dealing slashing damage instead of bludgeoning). You have a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cave Climber",
+					"entries": [
+						"You gain a climbing speed equal to half your movement speed, and any Strength ({@skill Athletics}) check made to grapple a creature has a +1 bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crystal Shaper",
+					"entries": [
+						"You gain the ability to cast {@spell mold earth|xge} and {@spell light}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sapphire Parasitism (Curse)",
+					"entries": [
+						"This item is cursed, and attuning to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic (or by amputating the arm it is worn on), this item clasps painfully around your arms and is unable to be removed or unattuned. Despite this, you are unwilling to part with this item until the curse is broken.",
+						"If the curse is not broken in 1 week, you feel your fingertips turn cold and harden as they begin to fuse with the item over the course of {@dice 1d4} days. Once fused, nothing short of a {@spell wish} or amputating the arm it is worn on will break the curse."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/sapphire.png"
 						}
 					}
 				]
