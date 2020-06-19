@@ -1285,7 +1285,7 @@
 					"type": "entries",
 					"name": "Herbologist's Fingers",
 					"entries": [
-						"These gloves grant resistance to poison and ncrotic damage. Additionally, when wearing these gloves you receive a +5 bonus on any rolls made that utilize an {@item herbalism kit}."
+						"These gloves grant resistance to poison and ncrotic damage. Additionally, when wearing these gloves you receive a +5 bonus on any rolls made that utilize an {@item herbalism kit|phb}."
 					]
 				}
 			],
@@ -3473,7 +3473,7 @@
 					"type": "entries",
 					"name": "Enchanted Eyes",
 					"entries": [
-						"It takes 1 minute to apply this eyeliner to both eyes. While applied, you have {@sense darkvision} for a range of 60 feet. Additionally, you have advantage on all Wisdom (@skill Perception}) checks that depend on sight. These features last for 24 hours or until the makeup is removed. This eyeliner is not waterproof, and a full bottle contains enough eyeliner for 20 uses."
+						"It takes 1 minute to apply this eyeliner to both eyes. While applied, you have {@sense darkvision} for a range of 60 feet. Additionally, you have advantage on all Wisdom ({@skill Perception}) checks that depend on sight. These features last for 24 hours or until the makeup is removed. This eyeliner is not waterproof, and a full bottle contains enough eyeliner for 20 uses."
 					]
 				}
 			],
