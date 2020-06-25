@@ -4953,7 +4953,7 @@
 							],
 							"colStyles": [
 								"col-10",
-								"col-2"
+								"col-3"
 							],
 							"rows": [
 								[
@@ -5143,7 +5143,7 @@
 							"rows": [
 								[
 									"+1 Charisma",
-									"{@class sorcerer|phb|Storm sorcerer|Storm}"
+									"{@class sorcerer|xge|Storm sorcerer|Storm}"
 								],
 								[
 									"+1 Intelligence",
