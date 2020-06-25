@@ -4812,7 +4812,49 @@
 					"type": "entries",
 					"name": "Elemental Origin",
 					"entries": [
-						"Once per day, if you are on the elemental plane of air with this shield, you can spend an action to gain a flying speed equal to your normal movement speed for 1 hour. If this shield has been on the elemental plane of air for 24 hours, this feature can be used on any plane, and its rarity increases to rare."
+						"Once per day, if you are on the elemental plane of air with this shield, you can spend an action to gain a flying speed equal to your normal movement speed for 1 hour. If this shield has been on the elemental plane of air for 24 hours, this feature can be used on any plane, and its rarity increases to rare. (See {@item Shield of the Roc (Rare)|RotR2}.)"
+					]
+				}
+			],
+			"attachedSpells": [
+				"feather fall"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/shield.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shield of the Roc (Rare)",
+			"source": "RotR2",
+			"page": 10,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This feather-shaped shield feels lighter than it should be for its size.",
+				{
+					"type": "entries",
+					"name": "Light as a Feather",
+					"entries": [
+						"Twice per long rest, you can use your reaction to cast {@spell feather fall} on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elemental Origin",
+					"entries": [
+						"Once per day, you can spend an action to gain a flying speed equal to your normal movement speed for 1 hour."
 					]
 				}
 			],
