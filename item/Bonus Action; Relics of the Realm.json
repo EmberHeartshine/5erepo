@@ -1662,8 +1662,8 @@
 								"Spell"
 							],
 							"colStyles": [
-								"col-2 text-center",
-								"col-10"
+								"col-1 text-center",
+								"col-11"
 							],
 							"rows": [
 								[
@@ -2008,8 +2008,8 @@
 								"Spell"
 							],
 							"colStyles": [
-								"col-2 text-center",
-								"col-10"
+								"col-1 text-center",
+								"col-11"
 							],
 							"rows": [
 								[
@@ -3511,7 +3511,7 @@
 					"type": "entries",
 					"name": "Healing Flight",
 					"entries": [
-						"Once per day, you can use an action to speak a command word and direct the orb to float in a straight line toward a creature within 100 feet. The orb moves at a speed of 50 feet per round on your turn. While in motion, the orb becomes ethereal and heals each creature it passes through for {@dice 1d4 + 1} hit points. Upon arriving at the target, the orb hovers adjacent to them for 3 rounds, healing {@1d4 + 1} hit points at the beginning of your turn, then returns to you along the same line. The orb does not heal during its return to you.",
+						"Once per day, you can use an action to speak a command word and direct the orb to float in a straight line toward a creature within 100 feet. The orb moves at a speed of 50 feet per round on your turn. While in motion, the orb becomes ethereal and heals each creature it passes through for {@dice 1d4 + 1} hit points. Upon arriving at the target, the orb hovers adjacent to them for 3 rounds, healing {@dice 1d4 + 1} hit points at the beginning of your turn, then returns to you along the same line. The orb does not heal during its return to you.",
 						"While ethereal, the orb can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
 					]
 				}
@@ -3690,8 +3690,8 @@
 								"Effect"
 							],
 							"colStyles": [
-								"col-2 text-center",
-								"col-10"
+								"col-1 text-center",
+								"col-11"
 							],
 							"rows": [
 								[
@@ -5143,7 +5143,7 @@
 							"rows": [
 								[
 									"+1 Charisma",
-									"{@class sorcerer|xge|Storm sorcerer|Storm}"
+									"{@class sorcerer|phb|Storm sorcerer|Storm|xge}"
 								],
 								[
 									"+1 Intelligence",
