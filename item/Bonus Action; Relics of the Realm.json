@@ -7,7 +7,8 @@
 				"full": "Relics of the Realm Volume 1",
 				"color": "#005f69",
 				"authors": [
-					"Tim"
+					"Tim",
+					"Ember Heartshine"
 				],
 				"version": "1.0.0",
 				"url": "https://www.patreon.com/bonusaction",
@@ -20,7 +21,8 @@
 				"full": "Relics of the Realm Volume 2",
 				"color": "#005f69",
 				"authors": [
-					"Tim"
+					"Tim",
+					"Ember Heartshine"
 				],
 				"version": "1.0.0",
 				"url": "https://www.patreon.com/bonusaction",
@@ -33,7 +35,8 @@
 				"full": "Relics of the Realm Volume 3",
 				"color": "#005f69",
 				"authors": [
-					"Tim"
+					"Tim",
+					"Ember Heartshine"
 				],
 				"version": "1.0.0",
 				"url": "https://www.patreon.com/bonusaction",
@@ -46,7 +49,8 @@
 				"full": "Relics of the Realm Volume 4",
 				"color": "#005f69",
 				"authors": [
-					"Tim"
+					"Tim",
+					"Ember Heartshine"
 				],
 				"version": "1.0.0",
 				"url": "https://www.patreon.com/bonusaction",
@@ -677,7 +681,7 @@
 					"name": "Arcane Mineral",
 					"entries": [
 						"This weapon can be used by all spellcasters as an arcane focus.",
-						"In addition, you may use this weapon once per day to cast {@spell guiding bolt}, making the spell attack roll with a +6 bonus."
+						"In addition, you may use this weapon once per day to cast {@spell guiding bolt}, making the spell attack roll with a {@hit +6} bonus."
 					]
 				}
 			],
@@ -974,7 +978,7 @@
 					"name": "Fire of the Forge",
 					"type": "entries",
 					"entries": [
-						"This warhammer has 10 charges. As an action you may expend 3 charges to cast {@spell scorching ray} at 2nd level, or 4 charges to cast at 3rd level. The ranged spell attack is made with a +7 bonus. {@dice 1d8 + 2} charges are regained at dawn."
+						"This warhammer has 10 charges. As an action you may expend 3 charges to cast {@spell scorching ray} at 2nd level, or 4 charges to cast at 3rd level. The ranged spell attack is made with a {@hit +7} bonus. {@dice 1d8 + 2} charges are regained at dawn."
 					]
 				}
 			],
