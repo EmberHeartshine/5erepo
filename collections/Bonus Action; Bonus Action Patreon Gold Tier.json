@@ -382,7 +382,7 @@
 		{
 			"name": "Explosive Sneezing",
 			"entries": [
-				"{@b Source:} {@i Explosive sneezing} is a very common disease in {@creature goblin|mm|goblinoid} communities. It is believed that the cause of explosive sneezing is breathing in the air inside deep mines, which results in the accumulation of certain minerals in the nostrils. When a creature takes a breath of the dusty air in such a mine, they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
+				"{@b Source:} {@i Explosive sneezing} is a very common disease in goblinoid communities. It is believed that the cause of explosive sneezing is breathing in the air inside deep mines, which results in the accumulation of certain minerals in the nostrils. When a creature takes a breath of the dusty air in such a mine, they must make a Constitution saving throw (DC 12). On a failed save they experience the following:",
 				"{@b Symptoms:} Uncontrollable, incredibly loud sneezing.",
 				"{@b Effects:} They spend the next {@dice 1d6} rounds sneezing. The sneezing is audible from up to 300 feet away. The sneezer is considered {@condition incapacitated}, they take {@dice 1d4 - 1} (minimum 1) thunder damage at the beginning of each turn they spend sneezing, and all creatures within 20 feet of the sneezer must roll a Constitution saving throw (DC 10) at the end of their turn or become {@condition deafened} until the end of their next turn.",
 				"{@b Cure:} Explosive sneezing can be prevented by covering one's mouth and nose when venturing in a goblin mine. Due to the short-lived nature of the affliction, no one has found a way to stop an explosive sneezing fit, and everyone who experiences it is immune to another fit for 24 hours."
@@ -846,7 +846,7 @@
 		{
 			"name": "Purple Scurvy",
 			"entries": [
-				"{@b Source:} {@i Purple scurvy} is a heriditary disease seen in some {@creature goblin|mm|goblinoid} creatures, {@creature orc|mm|orcs), and {@creature kobold|mm|kobolds}. When an infected creature eats a citrus fruit they must make a Constitution saving throw (DC 20). On a failed save they experience the following:",
+				"{@b Source:} {@i Purple scurvy} is a heriditary disease seen in some goblinoid creatures, {@creature orc|mm|orcs), and {@creature kobold|mm|kobolds}. When an infected creature eats a citrus fruit they must make a Constitution saving throw (DC 20). On a failed save they experience the following:",
 				"{@b Symptoms:} A purple rash on the face and arms. Loud belching sometimes accompanied by vomiting.",
 				"{@b Effects:} Disadvantage on all Stealth, Deception, Persuasion, Intimidation and Performance checks.",
 				"{@b Cure:} The disease resolves on its own in {@dice 1d4} days but can instantly be cured by {@spell lesser restoration}."
@@ -1201,7 +1201,7 @@
 		{
 			"name": "Witch's Delirium",
 			"entries": [
-				"{@b Source:} Some {@creature green hag|mm|hags} carry a virus that is benign to them but may cause a severe problem for other humanoids they come into contact with. This disease is most commonly known as {@i witch's delirium}. When coming within 5 feet of an infected hag, a creature must make a Constitution saving throw. On a failed save they experience the following:",
+				"{@b Source:} Some hags carry a virus that is benign to them but may cause a severe problem for other humanoids they come into contact with. This disease is most commonly known as {@i witch's delirium}. When coming within 5 feet of an infected hag, a creature must make a Constitution saving throw. On a failed save they experience the following:",
 				"{@b Symptoms:} Auditory hallucinations of various forest animals, causing an inability to focus or think clearly.",
 				"{@b Effects:} The afflicted suffers a \u22122 penalty to their Intelligence and Wisdom scores. Additionally, they are unable to maintain concentration on any spell or effect requiring concentration.",
 				"{@b Cure:} {@spell Lesser Restoration} or any healing spell of 3rd level or higher cast by a fey creature will cure {@witch's delerium}."
