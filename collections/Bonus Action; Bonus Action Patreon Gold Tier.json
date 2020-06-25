@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1589115470,
-		"dateLastModified": 1591137022
+		"dateLastModified": 1593090461
 	},
 	"disease": [
 		{
@@ -264,7 +264,7 @@
 			"entries": [
 				"{@b Source:} Dark Itch is a bacterial disease carried by {@creature bat|mm|bats}, {@creature rat|mm|rats} and other cave-dwelling vermin. If a creature is bitten by a host of the disease must to make a Constitution saving throw (DC 10). On a failed save they experience the following:",
 				"{@b Symptoms:} Dark purple bruising around the bite itself, and the body part that has been bitten becomes extremely itchy.",
-				"{@b Effects:} Disadvantage on all concentration checks and a -3 penalty to all ranged weapon and spell attack rolls.",
+				"{@b Effects:} Disadvantage on all concentration checks and a \u22123 penalty to all ranged weapon and spell attack rolls.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
 			"source": "bag"
@@ -294,7 +294,7 @@
 			"entries": [
 				"{@b Source:} The source of {@i desolation panic} is usually a poison that is found in certain desert creatures such as {@creature wyvern|mm|wyverns} and ({@creature giant scorpion|mm|giant}) {@creature scorpion|mm|scorpions}. When a creature is dealt poison damage by such a creature, they must roll a Constitution saving throw (DC 18). On a failed save they experience the following:",
 				"{@b Symptoms:} Tunnelled vision, erratic movement and behavior in general. These symptoms come and go.",
-				"{@b Effects:} A -5 penalty to all Perception and Charisma-based skills as well as a -4 penalty to Dexterity saving throws. The creature also has a 15% chance of becoming {@condition frightened} for {@dice 1d4} minute(s) upon failure.",
+				"{@b Effects:} A \u22125 penalty to all Perception and Charisma-based skills as well as a \u22124 penalty to Dexterity saving throws. The creature also has a 15% chance of becoming {@condition frightened} for {@dice 1d4} minute(s) upon failure.",
 				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 12) reveals that a tonic brewed from the poison that caused the disease can also cure desolation panic."
 			],
 			"source": "bag"
