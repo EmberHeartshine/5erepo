@@ -55,7 +55,7 @@
 			}
 		],
 		"dateAdded": 1589115470,
-		"dateLastModified": 1592338098
+		"dateLastModified": 1593094650
 	},
 	"item": [
 		{
@@ -72,7 +72,7 @@
 			"bonusAc": "+1",
 			"entries": [
 				"Once the tool of the Abyssal Guard, an elite force of mage hunters, following their decline their weapons and armor became some of the most sought after in the world. This broad silvered shield is adorned with a grotesque face. Its fanged open mouth contains swirling arcane energies.",
-				"While holding this shield, you gain a +1 bonus to your AC.",
+				"While holding this shield, you gain a +1 bonus to your AC. This bonus is in addition to the shield's normal bonus to AC.",
 				{
 					"type": "entries",
 					"name": "Spellguard",
@@ -2078,6 +2078,7 @@
 			"page": 10,
 			"baseItem": "leather armor|phb",
 			"type": "LA",
+			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a spellcaster",
 			"weight": 10,
@@ -3582,6 +3583,7 @@
 			"page": 6,
 			"baseItem": "plate armor|phb",
 			"type": "HA",
+			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": true,
 			"weight": 65,
@@ -4634,6 +4636,196 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/sapphire.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Scout's Arrow",
+			"source": "RotR2",
+			"page": 10,
+			"type": "A",
+			"rarity": "rare",
+			"entries": [
+				"This sleek arrow features runes etched into the tip.",
+				{
+					"name": "Farshot",
+					"type": "entries",
+					"entries": [
+						"When you make a ranged attack with this arrow, the normal range for the bow is extended by 50 feet and the long range is extended by 100 feet."
+					]
+				},
+				{
+					"name": "Sharp Eye",
+					"type": "entries",
+					"entries": [
+						"On subsequent turns after shooting this arrow, you can spend an action to see the arrow's surroundings. This effect can last up to 1 minute and requires concentration. During this time, you are {@condition blinded|phb|blind} and {@condition deafened|phb|deaf}, seeing and hearing instead from the arrow.",
+						"While this effect is active, you have {@sense truesight} for a 60-foot radius centered on the arrow."
+					]
+				},
+				{
+					"name": "Single Use",
+					"type": "entries",
+					"entries": [
+						"Activating the {@i Sharp Eye} feature expends the magic enchanting it, causing it to become a mundane {@item arrow|phb}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/scouts.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shadowborn's Second Skin",
+			"source": "RotR2",
+			"page": 10,
+			"baseItem": "leather armor|phb",
+			"type": "LA",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 10,
+			"ac": 12,
+			"entries": [
+				"This otherwise unremarkable {@item leather armor|phb} features a small, crescent-shaped band of metal affixed to the chest.",
+				{
+					"type": "entries",
+					"name": "Shadow Stalker",
+					"entries": [
+						"You gain a +2 bonus to all Dexterity ({@skill Stealth}) checks. While you are in dim light or darkness, this bonus rises to +4."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swift as Nightfall",
+					"entries": [
+						"Once per day, you can use a bonus action to cast {@spell misty step}."
+					]
+				}
+			],
+			"attachedSpells": [
+				"misty step"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/shadowborns.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shadowglass Dagger",
+			"source": "RotR2",
+			"page": 10,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This {@dagger|phb} was cut, rather than forged, from the purest of obsidian found in the Barrier Peaks.",
+				{
+					"type": "entries",
+					"name": "Unseen",
+					"entries": [
+						"You have a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadow Recall",
+					"entries": [
+						"Once per round as part of an attack, you can cause this blade to reappear in your hand from up to 200 feet away. It disappears into a void of darkness and appears in a free hand. Alternatively, you can use a bonus action to recall the blade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Twist the Knife",
+					"entries": [
+						"Twice per day following a successful attack with this weapon, you can let go of it (if the attack was a melee attack) and use a bonus action to speak a command word. Doing so causes the blade to twist in the wound, dealing an additional {@dice 2d4 + 2} damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slippery Surface",
+					"entries": [
+						"This dagger cannot be coated in any type of poison, nor can it suffer any metal-based decay such as rust."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/shadowglass.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shield of the Roc",
+			"source": "RotR2",
+			"page": 10,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This feather-shaped shield feels lighter than it should be for its size.",
+				{
+					"type": "entries",
+					"name": "Light as a Feather",
+					"entries": [
+						"Twice per long rest, you can use your reaction to cast {@spell feather fall} on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elemental Origin",
+					"entries": [
+						"Once per day, if you are on the elemental plane of air with this shield, you can spend an action to gain a flying speed equal to your normal movement speed for 1 hour. If this shield has been on the elemental plane of air for 24 hours, this feature can be used on any plane, and its rarity increases to rare."
+					]
+				}
+			],
+			"attachedSpells": [
+				"feather fall"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/shield.png"
 						}
 					}
 				]
