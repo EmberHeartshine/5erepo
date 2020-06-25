@@ -714,7 +714,7 @@
 			"dmgType": "P",
 			"bonusWeapon": "+2",
 			"entries": [
-				"This {@dagger|phb} was created by an ancient draconic cult as an offering to Brazzemal the Bright during his long slumber. Its shimmering golden blade and jeweled hilt are as beautiful as it is deadly.",
+				"This {@item dagger|phb} was created by an ancient draconic cult as an offering to Brazzemal the Bright during his long slumber. Its shimmering golden blade and jeweled hilt are as beautiful as it is deadly.",
 				{
 					"type": "entries",
 					"name": "Essence of Fire",
@@ -773,7 +773,7 @@
 			"dmgType": "P",
 			"bonusWeapon": "+1",
 			"entries": [
-				"This {@dagger|phb} features a large pearl embedded in the hilt. When it is swung through the air, a gentle chime can be heard.",
+				"This {@item dagger|phb} features a large pearl embedded in the hilt. When it is swung through the air, a gentle chime can be heard.",
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
 				{
 					"type": "entries",
@@ -3801,8 +3801,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -3860,8 +3860,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -3923,8 +3923,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -3986,8 +3986,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4049,8 +4049,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4111,8 +4111,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4170,8 +4170,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4232,8 +4232,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4291,8 +4291,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4355,8 +4355,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4414,8 +4414,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4473,8 +4473,8 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-2",
-						"col-10"
+						"col-1",
+						"col-11"
 					],
 					"rows": [
 						[
@@ -4952,8 +4952,8 @@
 								"Number of Ducks"
 							],
 							"colStyles": [
-								"col-8",
-								"col-4"
+								"col-6",
+								"col-6 text-center"
 							],
 							"rows": [
 								[
