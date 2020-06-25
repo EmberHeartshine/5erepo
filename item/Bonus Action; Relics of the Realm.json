@@ -2832,9 +2832,9 @@
 								"Damage Type"
 							],
 							"colStyles": [
-								"col-3",
-								"col-3",
-								"col-3"
+								"col-4",
+								"col-4",
+								"col-4"
 							],
 							"rows": [
 								[
@@ -3029,8 +3029,8 @@
 								"AC"
 							],
 							"colStyles": [
-								"col-1",
-								"col-10"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
@@ -3801,7 +3801,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -3860,7 +3860,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -3923,7 +3923,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -3986,7 +3986,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4049,7 +4049,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4111,7 +4111,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4170,7 +4170,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4232,7 +4232,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4291,7 +4291,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4355,7 +4355,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4414,7 +4414,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4473,7 +4473,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-2",
 						"col-10"
 					],
 					"rows": [
@@ -4952,8 +4952,8 @@
 								"Number of Ducks"
 							],
 							"colStyles": [
-								"col-10",
-								"col-3"
+								"col-8",
+								"col-4"
 							],
 							"rows": [
 								[
@@ -5138,7 +5138,7 @@
 							],
 							"colStyles": [
 								"col-3",
-								"col-10"
+								"col-9"
 							],
 							"rows": [
 								[
