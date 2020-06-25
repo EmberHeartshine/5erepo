@@ -4747,7 +4747,7 @@
 			"dmgType": "P",
 			"bonusWeapon": "+2",
 			"entries": [
-				"This {@dagger|phb} was cut, rather than forged, from the purest of obsidian found in the Barrier Peaks.",
+				"This {@item dagger|phb} was cut, rather than forged, from the purest of obsidian found in the Barrier Peaks.",
 				{
 					"type": "entries",
 					"name": "Unseen",
