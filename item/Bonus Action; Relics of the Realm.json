@@ -55,7 +55,7 @@
 			}
 		],
 		"dateAdded": 1589115470,
-		"dateLastModified": 1593094650
+		"dateLastModified": 1593100204
 	},
 	"item": [
 		{
@@ -974,7 +974,7 @@
 					"name": "Fire of the Forge",
 					"type": "entries",
 					"entries": [
-						"This warhammer has 10 charges. As an action you may expend 3 charges to cast {@spell scorching ray} at 2nd level, or 4 charges to cast at 3rd level. The ranged spell attack is made with a +7 bonus."
+						"This warhammer has 10 charges. As an action you may expend 3 charges to cast {@spell scorching ray} at 2nd level, or 4 charges to cast at 3rd level. The ranged spell attack is made with a +7 bonus. {@dice 1d8 + 2} charges are regained at dawn."
 					]
 				}
 			],
@@ -1143,7 +1143,7 @@
 			"source": "RotR1",
 			"page": 5,
 			"rarity": "rare",
-			"reqAttune": "by a Cleric, Wizard, Sorcerer, or Warlock",
+			"reqAttune": "by a cleric, sorcerer, warlock, or wizard",
 			"focus": true,
 			"curse": true,
 			"weight": 4,
@@ -4868,6 +4868,307 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/shield.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Staff of Amplification",
+			"source": "RotR2",
+			"page": 11,
+			"baseItem": "quarterstaff|phb",
+			"rarity": "rare",
+			"reqAttune": true,
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"This metallic staff features a curious holed box at the top.",
+				{
+					"type": "entries",
+					"name": "Arcane Voice",
+					"entries": [
+						"Whenever you cast a spell with a verbal component that requires the target to make a saving throw, your spell save DC increases by 2."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reverberating Performance",
+					"entries": [
+						"Twice per long rest, any creature that has been granted your bardic inspiration but has not used it may add 1 to the inspiration die roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stage Presence",
+					"entries": [
+						"You can cause your voice to boom up to three times as loud as normal for up to 1 minute per the {@spell thaumaturgy} cantrip."
+					]
+				}
+			],
+			"attachedSpells": [
+				"thaumaturgy"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/staff.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Tiny Duck Crown",
+			"source": "RotR2",
+			"page": 11,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This bracelet appears to have a duck's foot imprinted on one side.",
+				{
+					"type": "entries",
+					"name": "Karl's Legacy",
+					"entries": [
+						"While attuned to this bracelet, you gain a +1 bonus to your Wisdom score.",
+						"Each day at dawn, roll a {@dice d20}. If the result is 10 or higher, all ducks in a 1-mile radius flock to you over the next hour and follow you around until dusk. Roll on the table below to determine how many ducks follow you.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Habitat",
+								"Number of Ducks"
+							],
+							"colStyles": [
+								"col-3",
+								"col-10"
+							],
+							"rows": [
+								[
+									"Natural (e.d. forest, hill)",
+									"{@dice 4d8}"
+								],
+								[
+									"Unlikely (e.g. mointain)",
+									"{@dice 2d8}"
+								],
+								[
+									"Very unlikely (e.g. Avernus)",
+									"{@dice 1d8}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "King of Ducks",
+					"entries": [
+						"By speaking a command word ('Quack'), up to 5 ducks will perform the {@action help} action (minimum of 3 ducks). The ducks cannot attack, and will not perform any other action. Each duck has 1 hit point and an AC of 5. The ducks that assist you leave once the task has been completed. This feature cannot be used if there are fewer than 3 ducks remaining, but the remaining ducks will still follow you until dusk."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/tiny.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Warmage's Longsword",
+			"source": "RotR2",
+			"page": 11,
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"recharge": "dawn",
+			"charges": 5,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"The blade and pommel of this {@item longsword|phb} feature several shimmering jaspers.",
+				{
+					"type": "entries",
+					"name": "Battleworn",
+					"entries": [
+						"You have a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Knowledge of the Warmage",
+					"entries": [
+						"While attuned to this sword you gain a +2 bonus to Intelligence ({@skill Arcana}) and Intelligence ({@skill History}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Barrage",
+					"entries": [
+						"This sword has 5 charges, one in each gemstone on the blade. As an action you may expend charges to release {@spell magic missile} darts. You may expend any number of charges at once, releasing 1 dart for every charge spent. All spent charges are regained at dawn."
+					]
+				}
+			],
+			"attachedSpells": [
+				"magic missile"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/warmages.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wayfinder",
+			"source": "RotR2",
+			"page": 11,
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Faint arcane runes run along the length of this {@item longsword|phb}, which seems to drift in a certain direction when not being attended to.",
+				{
+					"type": "entries",
+					"name": "Etched and Honed",
+					"entries": [
+						"You have a +1 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wanderer of the Wilds",
+					"entries": [
+						"While attuned to this sword you gain a +2 bonus to Intelligence ({@skill Nature}) and Wisdom ({@skill Survival}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Compass",
+					"entries": [
+						"While on the material plane, you can place this sword on the ground and speak a command word, causing the sword to slowly rotate until the point faces northward. If you are not on the material plane, the sword will point toward the nearest portal back to the material plane (if there is one)."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/wwayfinder.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wrath of the Tempest",
+			"source": "RotR2",
+			"page": 11,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": "by a cleric, druid, sorcerer, or wizard",
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"This simple silver ring features a deep blue gemstone swirling with stormclouds within.",
+				{
+					"type": "entries",
+					"name": "Stormcloud",
+					"entries": [
+						"Once per day, you can use an action to cast {@spell call lightning} at 4th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "At Home in the Storm",
+					"entries": [
+						"While attuned to this ring, you recieve a +1 bonus to your Constitution score. You gain an additional bonus to your Charisma, Intelligence, or Charisma skill if you are one of the following subclasses:",
+						{
+							"type": "table",
+							"colLabels": [
+								"Skill Bonus",
+								"Subclass"
+							],
+							"colStyles": [
+								"col-3",
+								"col-10"
+							],
+							"rows": [
+								[
+									"+1 Charisma",
+									"{@class sorcerer|phb|Storm|Storm sorcerer}"
+								],
+								[
+									"+1 Intelligence",
+									"{@class wizard|phb|Evocation|Evocation wizard}"
+								],
+								[
+									"+1 Wisdom",
+									"{@class cleric|phb|Tempest|Tempest Domain cleric}, {@class druid|phb|Land|Circle of the Land druid}"
+								]
+							]
+						},
+						"In you are multiclassed into two or more of the above subclasses, the bonus applies to the class you have more levels in. If these levels are the same, choose one of the ability scores to recieve the bonus when you attune."
+					]
+				}
+			],
+			"attachedSpells": [
+				"call lightning"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/RotR2/wrath.png"
 						}
 					}
 				]
