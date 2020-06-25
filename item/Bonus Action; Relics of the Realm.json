@@ -4952,8 +4952,8 @@
 								"Number of Ducks"
 							],
 							"colStyles": [
-								"col-3",
-								"col-10"
+								"col-10",
+								"col-2"
 							],
 							"rows": [
 								[
@@ -5143,19 +5143,19 @@
 							"rows": [
 								[
 									"+1 Charisma",
-									"{@class sorcerer|phb|Storm|Storm sorcerer}"
+									"{@class sorcerer|phb|Storm sorcerer|Storm}"
 								],
 								[
 									"+1 Intelligence",
-									"{@class wizard|phb|Evocation|Evocation wizard}"
+									"{@class wizard|phb|Evocation wizard|Evocation}"
 								],
 								[
 									"+1 Wisdom",
-									"{@class cleric|phb|Tempest|Tempest Domain cleric}, {@class druid|phb|Land|Circle of the Land druid}"
+									"{@class cleric|phb|Tempest Domain cleric|Tempest}, {@class druid|phb|Circle of the Land druid|Land}"
 								]
 							]
 						},
-						"In you are multiclassed into two or more of the above subclasses, the bonus applies to the class you have more levels in. If these levels are the same, choose one of the ability scores to recieve the bonus when you attune."
+						"If you are multiclassed into two or more of the above subclasses, the bonus applies to the class you have more levels in. If these levels are the same, choose one of the ability scores to recieve the bonus when you attune."
 					]
 				}
 			],
