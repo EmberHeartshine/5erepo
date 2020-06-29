@@ -330,6 +330,19 @@
 			"shortName": "Couatl Herald",
 			"className": "Fighter",
 			"classSource": "PHB"
+		},
+		{
+			"name": "Way of the Celestial",
+			"source": "tgs1",
+			"subclassFeatures": [
+				"Way of the Celestial|Monk||Celestial|tgs1|3",
+				"Stabilizing Ki|Monk||Celestial|tgs1|6",
+				"Celestial Emissary|Monk||Celestial|tgs1|11",
+				"Heavenborne|Monk||Celestial|tgs1|17"
+			],
+			"shortName": "Celestial",
+			"className": "Monk",
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [
@@ -861,6 +874,104 @@
 			"entries": [
 				"At 18th level, your training has taught you to strike with the magic and force of a mighty {@creature couatl}. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d10 force damage to the target. When you deal this force damage, you can choose to spend a mercy die to add an additional 1d10 force damage to the attack.",
 				"In addition, if you choose to knock a creature out instead of killing it outright when you reduce it to 0 hit points, the target remains unconscious for 8 hours or until a creature friendly to you uses an action to shake it awake, even if the target regains hit points."
+			]
+		},
+		{
+			"name": "Way of the Celestial",
+			"source": "tgs1",
+			"page": 163,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Celestial are peacekeepers and protectors of their chosen kin. These monks meditate to achieve a greater understanding of a divine being, granting them the ability to channel celestial energies into their own. These martial defenders are pensive, patient, and understanding, but offer little mercy when evil intentions are made clear.",
+				"The Way of the Celestial originated from the lost city of Hearth as a tribute to the city’s guardian couatl protectors. While these teachings are far from common knowledge, there’s no telling what small, protected monasteries may still exist after the city’s untimely destruction. Regardless of how you come upon this tradition, the wisdom of the celestials guides its every principle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Celestial Connection|Monk||Celestial|tgs1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Soul-Searching Strike|Monk||Celestial|tgs1|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Celestial Connection",
+			"entries": [
+				"Starting when you choose this tradition at 3rd level, you can telepathically speak to any creature you can see within 30 feet of you. When you do, you don’t need to share a language with the creature for it to understand you, but the creature must be able to understand at least one language."
+			],
+			"source": "tgs1",
+			"page": 163,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Soul-Searching Strike",
+			"entries": [
+				"At 3rd level, you can spend 1 ki point when you touch a creature to peer into its soul. Until the start of your next turn, or for 1 minute if you are not in combat, you are aware of the creature’s emotional state and its most obvious desire. At the GM’s option, you may also discern its current number of hit points or one piece of the creature’s history. During this effect, you have advantage on any Wisdom (Insight) checks made to interact with that creature, and the next attack roll you make against that creature before the end of your turn has advantage.",
+				"If you use this feature when you hit a creature with one of the attacks granted by your Flurry of Blows, you do not need to spend a ki point to use it."
+			],
+			"source": "tgs1",
+			"page": 163,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Stabilizing Ki",
+			"source": "tgs1",
+			"page": 163,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial",
+			"subclassSource": "tgs1",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can harness healing celestial energy and channel it using your ki. As an action, you can touch a willing creature with less than half its hit points left and spend 1 or more ki points. That creature regains 5 hit points for each point you spend, restoring it to no more than half its hit point maximum.",
+				"In addition, you can spend 2 ki points as an action to cast {@spell enhance ability}, {@spell lesser restoration}, or {@spell protection from evil and good}, requiring no material components."
+			]
+		},
+		{
+			"name": "Celestial Emissary",
+			"source": "tgs1",
+			"page": 164,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial",
+			"subclassSource": "tgs1",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Beginning at 11th level, your connection to celestials can be used to expand your mind’s reach. You can cast the {@spell dream} or {@spell scrying} spell, requiring no material components, using your ki save DC. When you cast dream using this feature, only you can act as the dream’s messenger. Once you cast a spell in this way, you can’t cast it again until you finish a long rest.",
+				"In addition, you are immune to scrying and to any effect that would sense your emotions, read your thoughts, or detect your location."
+			]
+		},
+		{
+			"name": "Heavenborne",
+			"source": "tgs1",
+			"page": 164,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial",
+			"subclassSource": "tgs1",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"harmful and healing celestial magic. Your unarmed strikes deal an extra 1d4 radiant damage, and you can now use your Stabilizing Ki as a bonus action, instead of an action, to heal a creature up to 30 feet away from you.",
+				"In addition, you gain a flying speed equal to your current walking speed. This benefit only works in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
 			]
 		}
 	]
