@@ -30,11 +30,11 @@
 			"ability": [
 				{
 					"choose": {
-						"from": {
-							"int": 2,
-							"wis": 2,
-							"cha": 2
-						},
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
 						"amount": 2
 					}
 				}
@@ -202,84 +202,129 @@
 			},
 			"languageProficiencies": [
 				{
-					"common": true
+					"common": true,
+					"choose": {
+						"from": [
+							"other"
+						],
+						"count": 1
+					}
 				}
 			]
 		}
 	],
 	"subclass": [
 		{
-			"class": "Barbarian",
 			"name": "Path of the Glacier",
+			"subclassFeatures": [
+				"Path of the Glacier|Barbarian||Glacier|tgs1|3",
+				"Cold Fortress|Barbarian||Glacier|tgs1|6",
+				"Deep Sleep|Barbarian||Glacier|tgs1|10",
+				"Avalanche Stomp|Barbarian||Glacier|tgs1|14"
+			],
 			"source": "tgs1",
 			"shortName": "Glacier",
-			"subclassFeatures": [
-				[
-					{
-						"name": "Path of the Glacier",
-						"entries": [
-							"Born from the frigid and daunting Everglacier, barbarians who follow Path of the Glacier have learned to harbor the resolute stillness, patience, and unwavering determination and destruction of the icy landscape. These warriors transform their bodies into powerful moving bunkers that are as difficult to take down as they are to escape from.",
-							"Barbarians that follow this path are often trained hunters who enjoy the patient stalking of prey. They thrive on the peril they impose on their fleeing targets, and take special pride in their slow-and-steady approach.",
-							{
-								"type": "entries",
-								"name": "Permafrost",
-								"entries": [
-									"Starting when you choose this path at 3rd level, your skin becomes icy and tough to the touch. You gain resistance to cold damage, and while you're not wearing any armor, you gain a +1 bonus to your AC.",
-									"In addition, your rage is a cold and patient well of power. When your rage would end early due to you either not attacking or taking damage, you can choose to maintain it instead. You can use this feature a number of times equal to your Constitution modifier (minimum of 1). You regain all expended uses when you finish a long rest."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Frostbite",
-								"entries": [
-									"Also at 3rd level, you can unleash the unforgiving cold inside of you with your attacks. Once on each of your turns while you're raging, you can release a burst of sheer cold when you hit a target with a melee weapon attack. When you do, that target takes an extra {@damage 1d6} cold damage from the attack. This damage increases when you reach certain levels in this class, increasing to {@damage 2d6} cold damage at 10th level and {@damage 3d6} at 14th level.",
-									"When a creature takes cold damage in this way, its speed is reduced by 10 feet until the start of your next turn."
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Cold Fortress",
-								"entries": [
-									"By 6th level, you learn to further channel the icy resilience within you. When you enter a rage and are not wearing any armor, your skin becomes shielded by a protective layer of frost. This frost grants you a number of temporary hit points equal to {@dice 1d12} + your Constitution modifier that last for 1 hour.",
-									"You can use a bonus action on your following turns while you're raging to expend a Hit Die to gain these temporary hit points again. When you do, the number of temporary hit points you gain is equal to the maximum roll of the expended Hit Die + your Constitution modifier."
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "options",
-								"name": "Deep Sleep",
-								"entries": [
-									"At 10th level, you can choose to enter a deep state of hibernation when you take a long rest. While resting in this way, you're cold to the touch and appear dead to all outward inspection and to spells used to determine your status. Noise and other distractions fail to wake you.",
-									"You awake from this rest after 6 hours, when you take damage, or when a creature uses its action to slap you awake. If you finish a continuous 6 hours of sleep in this way, you gain the benefits of finishing a long rest, and you regain all expended Hit Dice."
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Avalanche Stomp",
-								"entries": [
-									"At 14th level, you become as mighty as an unstoppable glacier. As an action, you can stomp the ground to send out a magical tremor. All creatures of your choice within 15 feet of you must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, a creature takes bludgeoning damage equal to {@damage 3d6} + your Strength modifier and is knocked prone. If you use this feature while you're raging, you maintain your rage until the end of your next turn."
-								]
-							}
-						]
-					}
-				]
+			"className": "Barbarian",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Glacier",
+			"source": "tgs1",
+			"page": 158,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Glacier",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"entries": [
+				"Born from the frigid and daunting Everglacier, barbarians who follow Path of the Glacier have learned to harbor the resolute stillness, patience, and unwavering determination and destruction of the icy landscape. These warriors transform their bodies into powerful moving bunkers that are as difficult to take down as they are to escape from.",
+				"Barbarians that follow this path are often trained hunters who enjoy the patient stalking of prey. They thrive on the peril they impose on their fleeing targets, and take special pride in their slow-and-steady approach.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Permafrost|Barbarian||Glacier|tgs1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Frostbite|Barbarian||Glacier|tgs1|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Permafrost",
+			"entries": [
+				"Starting when you choose this path at 3rd level, your skin becomes icy and tough to the touch. You gain resistance to cold damage, and while you're not wearing any armor, you gain a +1 bonus to your AC.",
+				"In addition, your rage is a cold and patient well of power. When your rage would end early due to you either not attacking or taking damage, you can choose to maintain it instead. You can use this feature a number of times equal to your Constitution modifier (minimum of 1). You regain all expended uses when you finish a long rest."
+			],
+			"source": "tgs1",
+			"page": 158,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Glacier",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Frostbite",
+			"entries": [
+				"Also at 3rd level, you can unleash the unforgiving cold inside of you with your attacks. Once on each of your turns while you're raging, you can release a burst of sheer cold when you hit a target with a melee weapon attack. When you do, that target takes an extra {@damage 1d6} cold damage from the attack. This damage increases when you reach certain levels in this class, increasing to {@damage 2d6} cold damage at 10th level and {@damage 3d6} at 14th level.",
+				"When a creature takes cold damage in this way, its speed is reduced by 10 feet until the start of your next turn."
+			],
+			"source": "tgs1",
+			"page": 158,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Glacier",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Cold Fortress",
+			"source": "tgs1",
+			"page": 158,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Glacier",
+			"subclassSource": "tgs1",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"By 6th level, you learn to further channel the icy resilience within you. When you enter a rage and are not wearing any armor, your skin becomes shielded by a protective layer of frost. This frost grants you a number of temporary hit points equal to {@dice 1d12} + your Constitution modifier that last for 1 hour.",
+				"You can use a bonus action on your following turns while you're raging to expend a Hit Die to gain these temporary hit points again. When you do, the number of temporary hit points you gain is equal to the maximum roll of the expended Hit Die + your Constitution modifier."
+			]
+		},
+		{
+			"name": "Deep Sleep",
+			"source": "tgs1",
+			"page": 158,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Glacier",
+			"subclassSource": "tgs1",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you can choose to enter a deep state of hibernation when you take a long rest. While resting in this way, you're cold to the touch and appear dead to all outward inspection and to spells used to determine your status. Noise and other distractions fail to wake you.",
+				"You awake from this rest after 6 hours, when you take damage, or when a creature uses its action to slap you awake. If you finish a continuous 6 hours of sleep in this way, you gain the benefits of finishing a long rest, and you regain all expended Hit Dice."
+			]
+		},
+		{
+			"name": "Avalanche Stomp",
+			"source": "tgs1",
+			"page": 158,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Glacier",
+			"subclassSource": "tgs1",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you become as mighty as an unstoppable glacier. As an action, you can stomp the ground to send out a magical tremor. All creatures of your choice within 15 feet of you must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, a creature takes bludgeoning damage equal to {@damage 3d6} + your Strength modifier and is knocked prone. If you use this feature while you're raging, you maintain your rage until the end of your next turn."
 			]
 		}
 	]
