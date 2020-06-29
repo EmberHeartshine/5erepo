@@ -367,7 +367,7 @@
 					"source": "PHB"
 				},
 				{
-					"name": "continuous flame",
+					"name": "continual flame",
 					"source": "PHB"
 				},
 				{
@@ -383,7 +383,7 @@
 					"source": "PHB"
 				},
 				{
-					"name": "guardian of the faith",
+					"name": "guardian of faith",
 					"source": "PHB"
 				},
 				{
@@ -391,7 +391,7 @@
 					"source": "PHB"
 				},
 				{
-					"name": "telepathic bond",
+					"name": "Rary's telepathic bond",
 					"source": "PHB"
 				}
 			],
@@ -1120,7 +1120,7 @@
 						],
 						[
 							"5th",
-							"{@spell aid}, {@spell continuous flame}"
+							"{@spell aid}, {@spell continual flame}"
 						],
 						[
 							"9th",
@@ -1128,11 +1128,11 @@
 						],
 						[
 							"13th",
-							"{@spell fire shield}, {@spell guardian of the faith}"
+							"{@spell fire shield}, {@spell guardian of faith}"
 						],
 						[
 							"17th",
-							"{@spell flame strike}, {@spell telepathic bond}"
+							"{@spell flame strike}, {@spell Rary's telepathic bond}"
 						]
 					]
 				}
