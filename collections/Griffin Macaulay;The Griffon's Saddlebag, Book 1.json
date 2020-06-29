@@ -238,6 +238,62 @@
 			"shortName": "Dance",
 			"className": "Bard",
 			"classSource": "PHB"
+		},
+		{
+			"name": "Astral Domain",
+			"shortName": "Astral",
+			"source": "tgs1",
+			"subclassSpells": [
+				{
+					"name": "guiding bolt",
+					"source": "PHB"
+				},
+				{
+					"name": "longstrider",
+					"source": "PHB"
+				},
+				{
+					"name": "blur",
+					"source": "PHB"
+				},
+				{
+					"name": "invisibility",
+					"source": "PHB"
+				},
+				{
+					"name": "blink",
+					"source": "PHB"
+				},
+				{
+					"name": "slow",
+					"source": "PHB"
+				},
+				{
+					"name": "banishment",
+					"source": "PHB"
+				},
+				{
+					"name": "dimension door",
+					"source": "PHB"
+				},
+				{
+					"name": "teleportation circle",
+					"source": "PHB"
+				},
+				{
+					"name": "wall of force",
+					"source": "PHB"
+				}
+			],
+			"subclassFeatures": [
+				"Astral Domain|Cleric||Astral|tgs1|1",
+				"Channel Divinity: Indomitable Spirit|Cleric||Astral|tgs1|2",
+				"Share Blessing|Cleric||Astral|tgs1|6",
+				"Divine Strike|Cleric||Astral|tgs1|8",
+				"Righteous Rally|Cleric||Astral|tgs1|17"
+			],
+			"className": "Cleric",
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [
@@ -418,6 +474,148 @@
 			"entries": [
 				"By 14th level, your dance has become so invigorating that it can inspire an ally to attack. A creature that gains temporary hit points from your Inspirational Dance can choose to use its reaction to make one weapon attack.",
 				"In addition, your endless dancing allows you to more easily avoid being hit. You can use a bonus action to take the Dodge action, and whenever you use a bonus action to expend a Bardic Inspiration die, you can take the Dodge action as part of that bonus action."
+			]
+		},
+		{
+			"name": "Astral Domain",
+			"source": "tgs1",
+			"page": 160,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Astral",
+			"subclassSource": "tgs1",
+			"level": 1,
+			"entries": [
+				"Gods of the Astral Plane are as lost to time and space as the realm they reign over. The Astral Plane fills the gaps between the planes of existence and is an important, balancing force in the cosmic ecosystem of the multiverse. Practitioners of this domain see the absence of anything as something, and consider the Astral Plane as the ultimate destination of all things. These acolytes follow the ultimate path to their destination, and help shepherd others along their way in a grand mission of entropy. Clerics of the astral domain are chaotic by nature, but typically choose to destroy evil where they find it and hasten its inevitable journey to the Astral Plane.",
+				{
+					"type": "table",
+					"caption": "Astral Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell guiding bolt}, {@spell longstrider}"
+						],
+						[
+							"3rd",
+							"{@spell blur}, {@spell invisibility}"
+						],
+						[
+							"5th",
+							"{@spell blink}, {@spell slow}"
+						],
+						[
+							"7th",
+							"{@spell banishment}, {@spell dimension door}"
+						],
+						[
+							"9th",
+							"{@spell teleportation circle}, {@spell wall of force}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Cleric||Astral|tgs1|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Planar Reach|Cleric||Astral|tgs1|1"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Bonus Cantrip",
+			"entries": [
+				"When you choose this domain at 1st level, you gain the {@spell guidance} cantrip if you don't already know it."
+			],
+			"source": "tgs1",
+			"page": 160,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Astral",
+			"subclassSource": "tgs1",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Planar Reach",
+			"entries": [
+				"At 1st level, you can create and reach through brief holes in the fabric of reality. When you cast a spell that has a range of touch, you can target a creature within 30 feet of you that you can see instead. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+			],
+			"source": "tgs1",
+			"page": 160,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Astral",
+			"subclassSource": "tgs1",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Channel Divinity: Create Void",
+			"source": "tgs1",
+			"page": 160,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Astral",
+			"subclassSource": "tgs1",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to create a brief tear in the planar fabric that leads to the Astral Plane. As a bonus action, you can point your finger at a point you can see within 60 feet to create a planar tear. The tear is minuscule, but creates a powerful vacuum that forces each creature within 15 feet of the point to make a Dexterity saving throw. On a failed save, a creature takes force damage equal to 2d10 + half your cleric level and is pulled up to 15 feet toward the point. On a successful save, a creature takes half as much force damage and is not pulled. The tear vanishes immediately after drawing in any nearby creatures."
+			]
+		},
+		{
+			"name": "Channel Divinity: Spatial Exchange",
+			"source": "tgs1",
+			"page": 160,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Astral",
+			"subclassSource": "tgs1",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"By 6th level, you can use your Channel Divinity to distort the fabric of reality. As an action, you teleport up to 30 feet away to an unoccupied space you can see. Alternatively, you can choose a space within range that is occupied by a Small or Medium creature. If that creature is willing, you both teleport, swapping places."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "tgs1",
+			"page": 160,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Astral",
+			"subclassSource": "tgs1",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Supreme Switching",
+			"source": "tgs1",
+			"page": 160,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Astral",
+			"subclassSource": "tgs1",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can choose to target a hostile creature when you use your Spatial Exchange feature. When you do, that creature must make a Charisma saving throw against your cleric spell save DC. On a failure, it switches places with you. On a success, neither you nor the creature are moved by your Channel Divinity.",
+				"In addition, your comfort slipping through planes allows you to do more while you move between them. Whenever you successfully swap places with another creature using your Spatial Exchange feature, you can cast a spell of 5th level or lower with a range of touch as part of that action. The spell must have a casting time of 1 action, and you must target the creature you’re switching places with. The spell completes as you and the other creature switch places."
 			]
 		}
 	]
