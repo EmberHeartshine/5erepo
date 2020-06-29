@@ -27,6 +27,18 @@
 			"speed": {
 				"walk": 30
 			},
+			"ability": [
+				{
+					"choose": {
+						"from": {
+							"int": 2,
+							"wis": 2,
+							"cha": 2
+						},
+						"count": 1
+					}
+				}
+			],
 			"darkvision": 60,
 			"entries": [
 				{
@@ -198,7 +210,7 @@
 	"subclass": [
 		{
 			"class": "Barbarian",
-			"name": "Glacier",
+			"name": "Path of the Glacier",
 			"source": "tgs1",
 			"shortName": "Glacier",
 			"subclassFeatures": [
