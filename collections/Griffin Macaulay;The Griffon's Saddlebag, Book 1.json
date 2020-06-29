@@ -287,10 +287,10 @@
 			],
 			"subclassFeatures": [
 				"Astral Domain|Cleric||Astral|tgs1|1",
-				"Channel Divinity: Indomitable Spirit|Cleric||Astral|tgs1|2",
-				"Share Blessing|Cleric||Astral|tgs1|6",
-				"Divine Strike|Cleric||Astral|tgs1|8",
-				"Righteous Rally|Cleric||Astral|tgs1|17"
+				"Channel Divinity: Create Void|Cleric||Astral|tgs1|2",
+				"Channel Divinity: Spatial Exchange|Cleric||Astral|tgs1|6",
+				"Potent Spellcasting|Cleric||Astral|tgs1|8",
+				"Supreme Switching|Cleric||Astral|tgs1|17"
 			],
 			"className": "Cleric",
 			"classSource": "PHB"
