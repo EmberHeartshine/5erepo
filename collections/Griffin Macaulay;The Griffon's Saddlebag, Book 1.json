@@ -79,8 +79,8 @@
 								"Ability Score Increase"
 							],
 							"colStyles": [
-								"col-7 text-center",
-								"col-5"
+								"col-6 text-center",
+								"col-6"
 							],
 							"rows": [
 								[
@@ -215,7 +215,7 @@
 	],
 	"subclass": [
 		{
-			"name": "Glacier",
+			"name": "Path of the Glacier",
 			"subclassFeatures": [
 				"Path of the Glacier|Barbarian||Glacier|tgs1|3",
 				"Cold Fortress|Barbarian||Glacier|tgs1|6",
