@@ -21,7 +21,7 @@
 	"race": [
 		{
 			"name": "Feathren",
-			"source": "TGS1",
+			"source": "tgs1",
 			"page": 154,
 			"size": "M",
 			"speed": {
@@ -199,7 +199,7 @@
 		{
 			"class": "Barbarian",
 			"name": "Glacier",
-			"source": "TGS1",
+			"source": "tgs1",
 			"shortName": "Glacier",
 			"subclassFeatures": [
 				[
