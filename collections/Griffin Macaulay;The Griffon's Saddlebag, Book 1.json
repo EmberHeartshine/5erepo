@@ -952,7 +952,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "tgs1",
-			"level": 14,
+			"level": 11,
 			"header": 2,
 			"entries": [
 				"Beginning at 11th level, your connection to celestials can be used to expand your mind's reach. You can cast the {@spell dream} or {@spell scrying} spell, requiring no material components, using your ki save DC. When you cast dream using this feature, only you can act as the dream's messenger. Once you cast a spell in this way, you can't cast it again until you finish a long rest.",
