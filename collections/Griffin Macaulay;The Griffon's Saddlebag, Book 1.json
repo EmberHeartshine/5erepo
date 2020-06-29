@@ -198,6 +198,15 @@
 							"Those that see past a feathren's ancestry find themselves with a lasting companion. Dragonborn, dwarves, gnomes, and half-elves in particular are likely to be befriended by feathren, who see them as either natural creative peers or kindred spirits caught between worlds. Half-orcs and tieflings can spark this same sense of camaraderie, but often lack the creative drive that can cement a lifelong friendship."
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"path": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Feathren.jpg"
+						}
+					}
 				]
 			},
 			"languageProficiencies": [
