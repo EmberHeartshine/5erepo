@@ -226,6 +226,18 @@
 			"shortName": "Glacier",
 			"className": "Barbarian",
 			"classSource": "PHB"
+		},
+		{
+			"name": "College of Dance",
+			"subclassFeatures": [
+				"College of Dance|Bard||Dance|tgs1|3",
+				"Entrancing Movement|Bard||Dance|tgs1|6",
+				"Endless Dance|Bard||Dance|tgs1|14"
+			],
+			"source": "tgs1",
+			"shortName": "Dance",
+			"className": "Bard",
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [
@@ -325,6 +337,87 @@
 			"header": 2,
 			"entries": [
 				"At 14th level, you become as mighty as an unstoppable glacier. As an action, you can stomp the ground to send out a magical tremor. All creatures of your choice within 15 feet of you must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, a creature takes bludgeoning damage equal to {@damage 3d6} + your Strength modifier and is knocked prone. If you use this feature while you're raging, you maintain your rage until the end of your next turn."
+			]
+		},
+		{
+			"name": "College of Dance",
+			"source": "tgs1",
+			"page": 159,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dance",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"entries": [
+				"Bards of the College of Dance tell stories and perform music without making a sound, choosing to instead move with feylike grace and magic to evade harm and inspire others. These dances originate from the Festerwood, whose radiant spores and light made for miraculous performances and deadly hazards. These bards can be found anywhere from the local tavern to the highest levels of theater moving crowds to tears as quickly as rebellion. At every turn, they inspire others to be brave, move, and join in.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fast Movement|Bard||Dance|tgs1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Inspirational Dance|Bard||Dance|tgs1|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Fast Movement",
+			"entries": [
+				"When you join the College of Dance at 3rd level, your walking speed increases by 10 feet. When you reach 6th and 14th level in this class, your walking speed increases by an extra 5 feet."
+			],
+			"source": "tgs1",
+			"page": 159,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dance",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Inspirational Dance",
+			"entries": [
+				"Also at 3rd level, you learn how to use the universal language of dance. As a bonus action, you can expend one of your uses of Bardic Inspiration to dance and reinvigorate a creature other than you who can see you. When you do, roll a Bardic Inspiration die. That creature gains temporary hit points equal to the number rolled plus your Charisma modifier (minimum of 1). When a creature gains temporary hit points in this way, it can immediately use its reaction to move up to its speed without provoking opportunity attacks or take the Dodge action."
+			],
+			"source": "tgs1",
+			"page": 159,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dance",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Entrancing Movement",
+			"source": "tgs1",
+			"page": 159,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dance",
+			"subclassSource": "tgs1",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your movements become so graceful that even the most cold-hearted enemies are filled with remorse for having stopped your dance. Whenever a creature hits you with an opportunity attack, that creature takes psychic damage equal to your Charisma modifier + half your bard level.",
+				"In addition, you can use your dance to cast the {@spell charm person} spell, without expending a spell slot. When cast in this way, the target doesn’t have advantage on the saving throw if you’re currently fighting it. When you reach 14th level in this class, you can cast the {@spell Otto's ittesistible dance|phb|irresistible dance} spell in this way as well. A spell cast with this feature requires only somatic components. After you cast a spell in this way, you can’t use this feature to cast it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Endless Dance",
+			"source": "tgs1",
+			"page": 159,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dance",
+			"subclassSource": "tgs1",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"By 14th level, your dance has become so invigorating that it can inspire an ally to attack. A creature that gains temporary hit points from your Inspirational Dance can choose to use its reaction to make one weapon attack.",
+				"In addition, your endless dancing allows you to more easily avoid being hit. You can use a bonus action to take the Dodge action, and whenever you use a bonus action to expend a Bardic Inspiration die, you can take the Dodge action as part of that bonus action."
 			]
 		}
 	]
