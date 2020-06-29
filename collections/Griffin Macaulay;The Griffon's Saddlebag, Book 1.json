@@ -343,6 +343,61 @@
 			"shortName": "Celestial",
 			"className": "Monk",
 			"classSource": "PHB"
+		},
+		{
+			"name": "Oath of the Hearth",
+			"subclassFeatures": [
+				"Oath of the Hearth|Paladin||Hearth|tgs1|3",
+				"Aura of Warmth|Paladin||Hearth|tgs1|7",
+				"Insulating Ward|Paladin||Hearth|tgs1|15",
+				"Burning Spirit|Paladin||Hearth|tgs1|20"
+			],
+			"source": "tgs1",
+			"subclassSpells": [
+				{
+					"name": "burning hands",
+					"source": "PHB"
+				},
+				{
+					"name": "find familiar",
+					"source": "PHB"
+				},
+				{
+					"name": "aid",
+					"source": "PHB"
+				},
+				{
+					"name": "continuous flame",
+					"source": "PHB"
+				},
+				{
+					"name": "beacon of hope",
+					"source": "PHB"
+				},
+				{
+					"name": "daylight",
+					"source": "PHB"
+				},
+				{
+					"name": "fire shield",
+					"source": "PHB"
+				},
+				{
+					"name": "guardian of the faith",
+					"source": "PHB"
+				},
+				{
+					"name": "flame strike",
+					"source": "PHB"
+				},
+				{
+					"name": "telepathic bond",
+					"source": "PHB"
+				}
+			],
+			"shortName": "Hearth",
+			"className": "Paladin",
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [
@@ -972,6 +1027,197 @@
 			"entries": [
 				"At 17th level, your energy is perfectly intertwined with both harmful and healing celestial magic. Your unarmed strikes deal an extra {@damage 1d4} radiant damage, and you can now use your Stabilizing Ki as a bonus action, instead of an action, to heal a creature up to 30 feet away from you.",
 				"In addition, you gain a flying speed equal to your current walking speed. This benefit only works in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
+			]
+		},
+		{
+			"name": "Oath of the Hearth",
+			"source": "tgs1",
+			"page": 164,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"entries": [
+				"The Oath of the Hearth originates from the city of the same name, whose tragic downfall has been all but lost to history over centuries. These paladins swore an oath to protect this tropical, sunlit city in the name of their celestial guardians. Until the end, they fulfilled their oaths. You may swear this oath because you have an age-old connection to the city through your bloodline, or may have established a connection to the city's principles through stories or interaction with a related celestial being. Regardless of your reasons for taking it, those that swear this oath adorn their armor with symbols of community, fire, and the sun to reflect their commitment to the city and the lives that were led there.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Hearth|Paladin||Hearth|tgs1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath of the Hearth Spells|Paladin||Hearth|tgs1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin||Hearth|tgs1|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Tenets of the Hearth",
+			"entries": [
+				"The tenets of the Oath of the Hearth are linked directly to the once-flourishing city of the oath's origin. The culture was vibrant and open, and thrived under the tropical sun in the Elsath Jungle. They were supportive of children's imagination and new ideas, and as a community would rush to foster good creativity. With new ideas came progress and prosperity, and with each new generation, the future always looked brighter. The core principles of this oath are devoted to supporting the weak, developing community, and destroying the evils that would seek to harm them.",
+				{
+					"type": "entries",
+					"name": "Shield the Embers",
+					"entries": [
+						"Protect those that can't defend themselves. Every ember is a fount of possibility and strength."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feed the Fire",
+					"entries": [
+						"Keep the fires of passion burning. New ideas light the way to progress and salvation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Share the Warmth",
+					"entries": [
+						"Offer guidance and kindness to those that need it. Respite and rest are always free to give."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Burn Away Evil",
+					"entries": [
+						"Turn those that would harm the innocent or douse the peoples' flames to ash."
+					]
+				}
+			],
+			"source": "tgs1",
+			"page": 164,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Oath of the Hearth Spells",
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Astral Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell burning hands}, {@spell find familiar}"
+						],
+						[
+							"5th",
+							"{@spell aid}, {@spell continuous flame}"
+						],
+						[
+							"9th",
+							"{@spell beacon of hope}, {@spell daylight}"
+						],
+						[
+							"13th",
+							"{@spell fire shield}, {@spell guardian of the faith}"
+						],
+						[
+							"17th",
+							"{@spell flame strike}, {@spell telepathic bond}"
+						]
+					]
+				}
+			],
+			"source": "tgs1",
+			"page": 164,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "tgs1",
+			"page": 163,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "tgs1",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+				{
+					"type": "entries",
+					"name": "Burning Weapon",
+					"entries": [
+						"As a bonus action, you can ignite one weapon that you're holding with fiery energy using your Channel Divinity. For 1 minute, you deal extra fire damage with that weapon equal to your Charisma modifier (minimum 1). The weapon also emits bright light in a 20-foot radius and dim light for an additional 20 feet. If the weapon is not already magical, it becomes magical for the duration.",
+						"You can end this effect on your turn (no action required). If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Warming Respite",
+					"entries": [
+						"Your Channel Divinity can enhance the healing powers of a good rest. When you or any friendly creatures who can see you finish a short rest, you can use your Channel Divinity to grant each of those creatures a number of temporary hit points equal to your paladin level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Warmth",
+			"source": "tgs1",
+			"page": 164,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "tgs1",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you and friendly creatures within 10 feet of you have resistance to cold and fire damage while you are conscious.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Insulating Ward",
+			"source": "tgs1",
+			"page": 165,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "tgs1",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Beginning at 15th level, whenever you expend a spell slot, you and friendly creatures within your Aura of Warmth gain a number of temporary hit points equal to the spell slot's level + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Burning Enforcer",
+			"source": "tgs1",
+			"page": 163,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "tgs1",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 20th level, as an action, you can magically ignite yourself to embody your fiery soul for 1 minute. These flames are harmless to you and cast bright light in a 40-foot radius and dim light for an additional 40 feet. The flames invigorate you, giving you 10 temporary hit points at the start of each of your turns. While in this form, you become more lithe and fluid in your movements, increasing your speed by 10 feet and allowing you to move through and enter a hostile creature's space and stop there.",
+				"Hostile creatures are hurt by these flames as punishment for their transgressions. A hostile creature takes fire damage equal to twice your Charisma modifier (minimum of 1) whenever it touches you, hits you with a melee attack, or whenever you enter its space for the first time on your turn.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
 	]
