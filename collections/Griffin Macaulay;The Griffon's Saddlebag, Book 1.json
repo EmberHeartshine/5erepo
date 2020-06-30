@@ -18,6 +18,109 @@
 		"dateAdded": 1593429293,
 		"dateLastModified": 1593536318
 	},
+	"monster": [
+		{
+			"name": "Glacier Bulette",
+			"source": "tgs1",
+			"page": 177,
+			"size": "L",
+			"type": {
+				"type": "monstrosity"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "8d10 + 48",
+				"average": 92
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40
+			},
+			"str": 19,
+			"dex": 12,
+			"con": 22,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"fire"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that touches the bulette or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) fire damage."
+					]
+				},
+				{
+					"name": "Ice Walk",
+					"entries": [
+						"The bulette can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+					]
+				},
+				{
+					"name": "Tunneler",
+					"entries": [
+						"The bulette can burrow through solid ice at its full burrow speed and leaves a smooth, slick, 10-foot-diameter tunnel in its wake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}30 ({@damage 4d12 + 4}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Steam Eruption {@recharge 5}",
+					"entries": [
+						"If the bulette starts its turn burrowed in solid ice at least 15 feet deep, it can then use its action to move up to its burrow speed to the surface, then erupt from the ice in an explosion of ice shards and steam, potentially in a space that contains one or more other creatures. Each of those creatures, as well as any other creatures within 10 feet of the bulette when it emerges, must make a {@dc 16} Dexterity saving throw. Any creature in the bulette's space when it emerges is pushed to the nearest unoccupied space and makes this saving throw with disadvantage.",
+						"A creature that fails the saving throw takes 11 ({@damage 2d6 + 4}) piercing damage plus 10 ({@damage 3d6}) fire damage and is knocked prone. A creature that succeeds on its save takes half as much damage and is not knocked prone.",
+						"As part of this same action, the bulette also jumps from the ice up to 10 feet in the air, landing in an unoccupied space of its choice within 15 feet of where it emerged."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"everglacier"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"damageTags": [
+				"P",
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflicted": [
+				"prone"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		}
+	],
 	"race": [
 		{
 			"name": "Feathren",
