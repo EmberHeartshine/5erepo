@@ -31,7 +31,12 @@
 				"U"
 			],
 			"ac": [
-				15
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
 			],
 			"hp": {
 				"formula": "8d10 + 48",
@@ -118,6 +123,125 @@
 			],
 			"conditionInflict": [
 				"prone"
+			]
+		},
+		{
+			"name": "Ice Gargoyle",
+			"source": "tgs1",
+			"page": 178,
+			"size": "M",
+			"type": {
+				"type": "elemental"
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 14",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20,
+				"fly": 60
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 15,
+			"int": 5,
+			"wis": 12,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't adamantine"
+				}
+			],
+			"languages": [
+				"Aquan",
+				"Auran"
+			],
+			"immune": [
+				"cold",
+				"poison"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the gargoyle remains motionless, it is indistinguishable from an inanimate ice statue."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gargoyle makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 7 ({@damage 2d6}) cold damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Ice Darts",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"everglacier"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AQ",
+				"AU"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"C"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
 			]
 		}
 	],
