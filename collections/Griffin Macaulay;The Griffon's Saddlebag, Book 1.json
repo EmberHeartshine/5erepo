@@ -1717,11 +1717,11 @@
 				"You have made a pact with a powerful demigod of the Astral Plane: a Griffon whose control over space, creation, and pocket dimensions extends throughout the multiverse. It aims to expand its eclectic collection of treasures, both magical and mundane. These treasures may be worth very little in the average shop, but to the Griffon it holds a special place in history or the fabric of existence. Your binding may lead you far and wide in search of foreign artifacts as quickly as it would a nearby pub for a tarnished locket. Regardless of the task, the Griffon's aims are rarely subject to distinctly good or evil motives.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Expanded Spell List|Warlock||Astral Griffon|tgs1|3"
+					"subclassFeature": "Expanded Spell List|Warlock||Astral Griffon|tgs1|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extradimensional Acuity|Warlock||Astral Griffon|tgs1|3"
+					"subclassFeature": "Extradimensional Acuity|Warlock||Astral Griffon|tgs1|1"
 				}
 			]
 		},
@@ -1782,7 +1782,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Astral Griffon",
 			"subclassSource": "tgs1",
-			"level": 3,
+			"level": 1,
 			"header": 2,
 			"entries": [
 				"At 1st level, your patron grants you the ability to maintain a small pocket dimension. The extradimensional space is always accessible to you and can hold up to 50 pounds of inanimate material, not exceeding 1 cubic foot. You can access and interact with this space using your hands the same way you would with a normal container. Your hands disappear within the space while they're accessing it.",
