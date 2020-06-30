@@ -435,6 +435,19 @@
 			],
 			"className": "Ranger",
 			"classSource": "PHB"
+		},
+		{
+			"name": "Runetagger",
+			"source": "tgs1",
+			"subclassFeatures": [
+				"Runetagger|Rogue||Runetagger|tgs1|3",
+				"Escape Artist|Rogue||Runetagger|tgs1|9",
+				"Resourceful|Rogue||Runetagger|tgs1|13",
+				"Lead Paint|Rogue||Runetagger|tgs1|17"
+			],
+			"shortName": "Runetagger",
+			"className": "Rogue",
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [
@@ -1399,6 +1412,124 @@
 			"header": 2,
 			"entries": [
 				"At 15th level, you have learned to use a creature's mistakes against them. When a Large or smaller creature within 5 feet of you that you can see misses you with an attack, you can use your reaction to knock that creature prone. When you do, you can make either one weapon attack against that creature or move up to half your speed immediately after its attack."
+			]
+		},
+		{
+			"name": "Runetagger",
+			"source": "tgs1",
+			"page": 167,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Runetagger",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"entries": [
+				"Dexterous fighters and brigands are full of surprises. Trained assassins, spies, and cutpurses are classic rogues, but where there are new dangers and rewards to be gained, so too are the kinds of people seeking to subvert and claim them. Whether they slink through shadows to avoid detection or walk harmlessly through danger, every rogue has trained to develop their own methods of handling life’s threats.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Impressionist|Rogue||Runetagger|tgs1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Runes|Rogue||Runetagger|tgs1|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Impressionist",
+			"entries": [
+				"Starting at 3rd level, you’re never without your brushes. You gain proficiency in {@item calligrapher’s supplies} and {@item painter’s supplies}. Your proficiency bonus is doubled whenever you make an ability check that uses either of these tools.",
+				"In addition, whenever you finish making a mark or rune with ink or paint, you can imbue it with the effects of the {@spell message} spell. When you do, the mark is visibly magical and casts dim light in a 5-foot radius. A creature that touches the glowing mark telepathically hears the message you imbued in it. Once a message is heard, the magic fades from the mark.",
+				"You always have at least one paint or calligraphy brush on your person and can either create or purchase inks and pigments as part of your downtime activities. You can improvise these tools over the course of 10 minutes, assembling them from objects in your environment."
+			],
+			"source": "tgs1",
+			"page": 167,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Runetagger",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Runes",
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain four rune points to fuel various magical effects. When you hit a creature with a melee weapon attack, you can spend 1 rune point to mark that target with a magical rune in a flourish of paint and weaponry. These runes remain on a marked target for 1 minute, even if its magic has faded, or until a creature uses its action to wipe it off. You regain all spent rune points when you finish a short or long rest.",
+				"When you mark a creature with a rune, you can choose to leave one of the following runes:",
+				{
+					"type": "entries",
+					"name": "Cryos",
+					"entries": [
+						"The creature can’t take reactions until the start of your next turn. The rune’s magic fades at the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hexxus",
+					"entries": [
+						"The creature is cursed with an enervating rune. While a creature is marked with this rune, you can use your reaction to activate it when the marked creature makes an attack roll or ability check, reducing the total of the attack roll or ability check by {@dice 1d6}. You must be within 60 feet and be able to see the creature in order to activate the rune. You can choose to activate the rune after the creature makes its roll, but before the GM determines whether the attack roll or ability check succeeds or fails. Once the rune has been activated, its magic fades."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Locus",
+					"entries": [
+						"The next attack against the marked creature is made with advantage, and if that attack hits, it deals an extra {@damage 1d6} acid damage. Hit or miss, the rune’s magic fades after the next attack is made against the marked creature."
+					]
+				}
+			],
+			"source": "tgs1",
+			"page": 167,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Runetagger",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Escape Artist",
+			"source": "tgs1",
+			"page": 168,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Runetagger",
+			"subclassSource": "tgs1",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level you become slippery and evasive, capable of worming out of even the tightest holds. You have advantage on ability checks and saving throws made to escape from and resist being grappled or restrained, and when you are {@condition grappled} or {@condition restrained}, you can attempt to escape as a bonus action.",
+				"In addition, you gain a new way to use your rune points. When you’re next to a wall or similar surface, you can use a bonus action to spend 1 rune point to place a rune on it using ink or paint. When you do, you become invisible until you move or take an action or a reaction."
+			]
+		},
+		{
+			"name": "Resourceful",
+			"source": "tgs1",
+			"page": 168,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Runetagger",
+			"subclassSource": "tgs1",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"When you reach 13th level, your mastery over the arts is lauded by friends and feared by foes. When you have no rune points remaining, you gain 1 rune point when you score a critical hit against a creature and when you roll initiative."
+			]
+		},
+		{
+			"name": "Lead Paint",
+			"source": "tgs1",
+			"page": 168,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Runetagger",
+			"subclassSource": "tgs1",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"By 17th level, you’re able to apply more ink or paint whenever you leave a rune and use it to expose weak points in a target’s defense and guide your strikes. You can use your Sneak Attack against any creature that has a rune on it. When you do, that creature takes an extra {@damage 2d6} damage from the attack."
 			]
 		}
 	]
