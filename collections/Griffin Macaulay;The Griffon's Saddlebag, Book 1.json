@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1593429293,
-		"dateLastModified": 1593429293
+		"dateLastModified": 1593536318
 	},
 	"race": [
 		{
@@ -397,6 +397,43 @@
 			],
 			"shortName": "Hearth",
 			"className": "Paladin",
+			"classSource": "PHB"
+		},
+		{
+			"name": "Winter Trapper",
+			"shortName": "Winter Trapper",
+			"source": "tgs1",
+			"page": 166,
+			"subclassFeatures": [
+				"Winter Trapper|Ranger||Winter Trapper|tgs1|3",
+				"Sure-Footed|Ranger||Winter Trapper|tgs1|7",
+				"Helpless Prey|Ranger||Winter Trapper|tgs1|7",
+				"Magic Snare|Ranger||Winter Trapper|tgs1|11",
+				"Tripped Defenses|Ranger||Winter Trapper|tgs1|15"
+			],
+			"subclassSpells": [
+				{
+					"name": "expeditious retreat",
+					"source": "PHB"
+				},
+				{
+					"name": "mirror image",
+					"source": "PHB"
+				},
+				{
+					"name": "sleet storm",
+					"source": "PHB"
+				},
+				{
+					"name": "hallucinatory terrain",
+					"source": "PHB"
+				},
+				{
+					"name": "mislead",
+					"source": "PHB"
+				}
+			],
+			"className": "Ranger",
 			"classSource": "PHB"
 		}
 	],
@@ -1107,7 +1144,7 @@
 					"type": "table",
 					"caption": "Astral Domain Spells",
 					"colLabels": [
-						"Cleric Level",
+						"Paladin Level",
 						"Spells"
 					],
 					"colStyles": [
@@ -1219,6 +1256,149 @@
 				"At 20th level, as an action, you can magically ignite yourself to embody your fiery soul for 1 minute. These flames are harmless to you and cast bright light in a 40-foot radius and dim light for an additional 40 feet. The flames invigorate you, giving you 10 temporary hit points at the start of each of your turns. While in this form, you become more lithe and fluid in your movements, increasing your speed by 10 feet and allowing you to move through and enter a hostile creature's space and stop there.",
 				"Hostile creatures are hurt by these flames as punishment for their transgressions. A hostile creature takes fire damage equal to twice your Charisma modifier (minimum of 1) whenever it touches you, hits you with a melee attack, or whenever you enter its space for the first time on your turn.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Winter Trapper",
+			"source": "tgs1",
+			"page": 166,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Winter Trapper",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"entries": [
+				"The Oath of the Hearth originates from the city of the same name, whose tragic downfall has been all but lost to history over centuries. These paladins swore an oath to protect this tropical, sunlit city in the name of their celestial guardians. Until the end, they fulfilled their oaths. You may swear this oath because you have an age-old connection to the city through your bloodline, or may have established a connection to the city's principles through stories or interaction with a related celestial being. Regardless of your reasons for taking it, those that swear this oath adorn their armor with symbols of community, fire, and the sun to reflect their commitment to the city and the lives that were led there.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Winter Trapper Magic|Ranger||Winter Trapper|tgs1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Pin Down|Ranger||Winter Trapper|tgs1|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Winter Trapper Magic",
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Winter Trapper Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know",
+				{
+					"type": "table",
+					"caption": "Winter Trapper Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell expeditious retreat}"
+						],
+						[
+							"5th",
+							"{@spell mirror image}"
+						],
+						[
+							"9th",
+							"{@spell sleet storm}"
+						],
+						[
+							"13th",
+							"{@spell hallucinatory terrain}"
+						],
+						[
+							"17th",
+							"{@spell mislead}"
+						]
+					]
+				}
+			],
+			"source": "tgs1",
+			"page": 166,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Winter Trapper",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Pin Down",
+			"source": "tgs1",
+			"page": 166,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Winter Trapper",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you learn how to keep your prey exactly where you want them. Once on each of your turns when you make a weapon attack, you can attempt to pin down that target. You make this choice before rolling the attack. If it hits, the target takes an extra {@damage 1d8} damage of the weapon's type and its speed is reduced by 10 feet until the start of your next turn.",
+				"When you reach 11th level in this class, the extra damage increases to {@damage 2d8}, and if the attack hits, the target also can't take reactions until the start of your next turn."
+			]
+		},
+		{
+			"name": "Sure-Footed",
+			"source": "tgs1",
+			"page": 166,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Winter Trapper",
+			"subclassSource": "tgs1",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"By 7th level, you know how best to keep your footing. While you're not incapacitated, you can't be knocked prone.",
+				"In addition, your archetype's wintry history grants you additional benefits. You ignore difficult terrain created by ice or snow, and you have advantage on Dexterity ({@skill Stealth}) checks while in icy or snowy terrain."
+			]
+		},
+		{
+			"name": "Helpless Prey",
+			"source": "tgs1",
+			"page": 166,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Winter Trapper",
+			"subclassSource": "tgs1",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Also at 7th level, attacking a prone creature doesn't impose disadvantage on your ranged attack rolls."
+			]
+		},
+		{
+			"name": "Magic Snare",
+			"source": "tgs1",
+			"page": 166,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Winter Trapper",
+			"subclassSource": "tgs1",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you've learned how to quickly set undetectable magical traps. You can imperceptibly create one of these magical snares in the ground at your feet as a bonus action on your turn. The first Large or smaller creature other than you that steps in that space within 1 minute must make a Dexterity saving throw against your spell save DC. On a failed save, a creature takes {@damage 2d8} piercing damage and has its speed reduced to 0 until the end of its current turn, as the ground opens up and clamps down on it. On a successful save, a creature takes half as much piercing damage, and its speed is unaffected.",
+				"When you create a snare, you can designate any creatures you choose, and the trap ignores them. A creature that can see invisible creatures and objects (such as one benefiting from {@spell see invisibility} or {@sense truesight}) can see these traps. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Tripped Defenses",
+			"source": "tgs1",
+			"page": 166,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Winter Trapper",
+			"subclassSource": "tgs1",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you have learned to use a creature's mistakes against them. When a Large or smaller creature within 5 feet of you that you can see misses you with an attack, you can use your reaction to knock that creature prone. When you do, you can make either one weapon attack against that creature or move up to half your speed immediately after its attack."
 			]
 		}
 	]
