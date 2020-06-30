@@ -171,16 +171,16 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from nonmagical weapons that aren't adamantine"
+					"note": "from nonmagical attacks that aren't adamantine"
 				}
-			],
-			"languages": [
-				"Aquan",
-				"Auran"
 			],
 			"immune": [
 				"cold",
 				"poison"
+			],
+			"languages": [
+				"Aquan",
+				"Auran"
 			],
 			"cr": "3",
 			"trait": [
@@ -288,6 +288,9 @@
 			"int": 11,
 			"wis": 12,
 			"cha": 11,
+			"skill": {
+				"perception": "+4"
+			},
 			"senses": [
 				"darkvision 60 ft."
 			],
@@ -311,7 +314,7 @@
 				{
 					"name": "Shapechanger",
 					"entries": [
-						"The weremammoth can use its action to polymorph into a Large mammoth-humanoid hybrid or into a Huge mammoth, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+						"The weremammoth can use its action to polymorph into a Large mammoth-humanoid hybrid or into a Huge mammoth, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
 					]
 				},
 				{
@@ -389,6 +392,137 @@
 			],
 			"conditionInflict": [
 				"prone"
+			]
+		},
+		{
+			"name": "White Wraith",
+			"source": "tgs1",
+			"page": 179,
+			"size": "M",
+			"type": {
+				"type": "undead"
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 24",
+				"average": 60
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 60,
+					"condition": " (hover)"
+				}
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 17,
+			"int": 9,
+			"wis": 16,
+			"cha": 15,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"languages": [
+				"any languages it knew in life"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Blizzard Stalker",
+					"entries": [
+						"The wraith's vision and hearing are unimpeded by inclement weather such as wind, snow, and fog, and it has advantage on all Dexterity ({@skill Stealth}) checks it makes in such conditions."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The wraith has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d8 + 3}) necrotic damage plus 10 ({@damage 3d6}) cold damage. The target must succeed on a {@dc 14} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Freezing Gale",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30 ft., one target. {@h}21 ({@damage 6d6}) cold damage and if the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Create Walker (2/Day)",
+					"entries": [
+						"The wraith targets a humanoid within 10 feet of it that has died from either cold damage or exposure to the elements. The target's remains rise as either a {@creature zombie} or {@creature skeleton} (depending on the state of the corpse, as determined by the GM) that shares the wraith's damage immunities and its Blizzard Stalker trait. The reanimated creature is under the wraith's control and rises in the space of its remains. The wraith can have no more than ten such undead under its control at one time."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"everglacier"
+			],
+			"traitTags": [
+				"Ambusher",
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
 			]
 		}
 	],
