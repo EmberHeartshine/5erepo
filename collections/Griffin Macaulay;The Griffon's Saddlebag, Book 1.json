@@ -98,7 +98,7 @@
 					"name": "Steam Eruption {@recharge 5}",
 					"entries": [
 						"If the bulette starts its turn burrowed in solid ice at least 15 feet deep, it can then use its action to move up to its burrow speed to the surface, then erupt from the ice in an explosion of ice shards and steam, potentially in a space that contains one or more other creatures. Each of those creatures, as well as any other creatures within 10 feet of the bulette when it emerges, must make a {@dc 16} Dexterity saving throw. Any creature in the bulette's space when it emerges is pushed to the nearest unoccupied space and makes this saving throw with disadvantage.",
-						"A creature that fails the saving throw takes 11 ({@damage 2d6 + 4}) piercing damage plus 10 ({@damage 3d6}) fire damage and is knocked prone. A creature that succeeds on its save takes half as much damage and is not knocked prone.",
+						"A creature that fails the saving throw takes 11 ({@damage 2d6 + 4}) piercing damage plus 10 ({@damage 3d6}) fire damage and is knocked {@condition prone}. A creature that succeeds on its save takes half as much damage and is not knocked prone.",
 						"As part of this same action, the bulette also jumps from the ice up to 10 feet in the air, landing in an unoccupied space of its choice within 15 feet of where it emerged."
 					]
 				}
@@ -242,6 +242,153 @@
 			"miscTags": [
 				"MW",
 				"RW"
+			]
+		},
+		{
+			"name": "Weremammoth",
+			"source": "tgs1",
+			"page": 178,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					],
+					"condition": "in mammoth or hybrid form"
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 60",
+				"average": 114
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": " (40 ft. in mammoth or hybrid form)"
+				}
+			},
+			"str": 24,
+			"dex": 10,
+			"con": 21,
+			"int": 11,
+			"wis": 12,
+			"cha": 11,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"cold",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered"
+				}
+			],
+			"languages": [
+				"Common (can't speak in mammoth form)"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The weremammoth can use its action to polymorph into a Large mammoth-humanoid hybrid or into a Huge mammoth, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Adapted",
+					"entries": [
+						"The weremammoth can tolerate temperatures as low as -50 degrees Fahrenheit without protection."
+					]
+				},
+				{
+					"name": "Trampling Charge (Mammoth or Hybrid Form Only)",
+					"entries": [
+						"If the weremammoth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked {@condition prone}. If the target is prone, the weremammoth can make one stomp attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"In mammoth form, the weremammoth makes two gore attacks. In humanoid form, it makes two attacks with its maul or three attacks with its spears. In hybrid form, it can attack like a mammoth or a humanoid."
+					]
+				},
+				{
+					"name": "Gore (Mammoth or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Stomp (Mammoth or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one prone creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Maul (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d10 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Spear (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw,rw} {@hit 10} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}10 ({@damage 1d6 + 7}) piercing damage, or 11 ({@damage 1d8 + 7}) piercing damage if used with two hands to make a melee attack."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"everglacier"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"traitTags": [
+				"Shapechanger"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflicted": [
+				"prone"
+			],
+			"conditionInflict": [
+				"prone"
 			]
 		}
 	],
