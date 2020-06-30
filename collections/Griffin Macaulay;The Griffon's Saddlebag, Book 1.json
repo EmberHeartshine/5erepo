@@ -467,6 +467,61 @@
 			],
 			"className": "Sorcerer",
 			"classSource": "PHB"
+		},
+		{
+			"name": "The Astral Griffon",
+			"subclassFeatures": [
+				"The Astral Griffon|Warlock||Astral Griffon|tgs1|1",
+				"Planar Escape|Warlock||Astral Griffon|tgs1|6",
+				"Extradimensional Mastery|Warlock||Astral Griffon|tgs1|10",
+				"Pocketeer|Warlock||Astral Griffon|tgs1|14"
+			],
+			"source": "tgs1",
+			"subclassSpells": [
+				{
+					"name": "identify",
+					"source": "PHB"
+				},
+				{
+					"name": "magic missile",
+					"source": "PHB"
+				},
+				{
+					"name": "locate object",
+					"source": "PHB"
+				},
+				{
+					"name": "rope trick",
+					"source": "PHB"
+				},
+				{
+					"name": "blink",
+					"source": "PHB"
+				},
+				{
+					"name": "clairvoyance",
+					"source": "PHB"
+				},
+				{
+					"name": "Mordenkainen's private sanctum",
+					"source": "PHB"
+				},
+				{
+					"name": "Leomund's secret chest",
+					"source": "PHB"
+				},
+				{
+					"name": "legend lore",
+					"source": "PHB"
+				},
+				{
+					"name": "passwall",
+					"source": "PHB"
+				}
+			],
+			"shortName": "Astral Griffon",
+			"className": "Warlock",
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [
@@ -1647,6 +1702,136 @@
 			"entries": [
 				"At 18th level, you gain immunity to cold damage and resistance to fire damage.",
 				"You also learn the {@spell wall of ice} spell. The spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know. In addition, you can cast it once without expending a spell slot. When you do, the panels of ice created by the spell don't need to be contiguous with one another. Once you cast the spell in this way, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "The Astral Griffon",
+			"source": "tgs1",
+			"page": 170,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Griffon",
+			"subclassSource": "tgs1",
+			"level": 1,
+			"entries": [
+				"You have made a pact with a powerful demigod of the Astral Plane: a Griffon whose control over space, creation, and pocket dimensions extends throughout the multiverse. It aims to expand its eclectic collection of treasures, both magical and mundane. These treasures may be worth very little in the average shop, but to the Griffon it holds a special place in history or the fabric of existence. Your binding may lead you far and wide in search of foreign artifacts as quickly as it would a nearby pub for a tarnished locket. Regardless of the task, the Griffon's aims are rarely subject to distinctly good or evil motives.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock||Astral Griffon|tgs1|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extradimensional Acuity|Warlock||Astral Griffon|tgs1|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Expanded Spell List",
+			"entries": [
+				"The Astral Griffon lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Astral Domain Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell identify}, {@spell magic missile}"
+						],
+						[
+							"2nd",
+							"{@spell locate object}, {@spell rope trick}"
+						],
+						[
+							"3rd",
+							"{@spell blink}, {@spell clairvoyance}"
+						],
+						[
+							"4th",
+							"{@spell Mordenkainen's private sanctum}, {@spell Leomund's secret chest}"
+						],
+						[
+							"5th",
+							"{@spell legend lore}, {@spell passwall}"
+						]
+					]
+				}
+			],
+			"source": "tgs1",
+			"page": 170,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Griffon",
+			"subclassSource": "tgs1",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Extradimensional Acuity",
+			"source": "tgs1",
+			"page": 170,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Griffon",
+			"subclassSource": "tgs1",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 1st level, your patron grants you the ability to maintain a small pocket dimension. The extradimensional space is always accessible to you and can hold up to 50 pounds of inanimate material, not exceeding 1 cubic foot. You can access and interact with this space using your hands the same way you would with a normal container. Your hands disappear within the space while they're accessing it.",
+				"Placing a {@item bag of holding}, {@item Heward's handy haversack}, {@item portable hole}, or similar item inside your pocket dimension instantly destroys both the item and anything else within the two extradimensional spaces. When this happens, you are unable to access your pocket dimension again until 7 days have passed.",
+				"In addition, you can sense whether pocket dimensions are present within 60 feet of you. This feature doesn't reveal their location or number."
+			]
+		},
+		{
+			"name": "Planar Escape",
+			"source": "tgs1",
+			"page": 170,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Griffon",
+			"subclassSource": "tgs1",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"By 6th level, you can hide yourself in a temporary extradimensional space to avoid harm. When you take damage from a hostile creature you can see within 30 feet of you, you can use your reaction to disappear into a harmless pocket dimension. You can see into your original plane of existence and move normally while in this extradimensional space, but other creatures can neither see nor harm you while you remain there. You remain in this pocket dimension until the end of your next turn or until you attack or cast a spell. Once you use this feature, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Extradimensional Mastery",
+			"source": "tgs1",
+			"page": 170,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Griffon",
+			"subclassSource": "tgs1",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, the fabric of existence is clear to you. You have resistance to force damage, and whenever you discover an extradimensional space, you can perceive what items are stored within it.",
+				"In addition, you can use an action to enhance your perception of reality. For 10 minutes, you have advantage on Wisdom ({@skill Perception}) checks that rely on sight, and you gain {@sense truesight} out to 30 feet. You can use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Pocketeer",
+			"source": "tgs1",
+			"page": 170,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Griffon",
+			"subclassSource": "tgs1",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you've learned how to mold extradimensional spaces beyond their normal limits. Your pocket dimension expands to hold up to 250 pounds, or 10 cubic feet.",
+				"In addition, you can use an action to shunt an object that isn't being worn that you can see within 30 feet of you into your pocket dimension, provided that there's enough space. If the object is being carried, the holder must succeed on a Wisdom saving throw against your warlock spell save DC. The object remains in the extradimensional space until the end of your next turn or until you retrieve it. When the effect ends, the object reappears in an unoccupied space within 5 feet of you or in your hands, if you have any free (your choice). Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
 		}
 	]
