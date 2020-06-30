@@ -448,6 +448,25 @@
 			"shortName": "Runetagger",
 			"className": "Rogue",
 			"classSource": "PHB"
+		},
+		{
+			"name": "Frost Magic",
+			"subclassFeatures": [
+				"Frost Magic|Sorcerer||Frost|tgs1|1",
+				"Cold-Hearted|Sorcerer||Frost|tgs1|6",
+				"Flash Freeze|Sorcerer||Frost|tgs1|14",
+				"Frozen Soul|Sorcerer||Frost|tgs1|18"
+			],
+			"source": "tgs1",
+			"shortName": "Frost",
+			"subclassSpells": [
+				{
+					"name": "wall of ice",
+					"source": "PHB"
+				}
+			],
+			"className": "Sorcerer",
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [
@@ -1424,7 +1443,7 @@
 			"subclassSource": "tgs1",
 			"level": 3,
 			"entries": [
-				"Dexterous fighters and brigands are full of surprises. Trained assassins, spies, and cutpurses are classic rogues, but where there are new dangers and rewards to be gained, so too are the kinds of people seeking to subvert and claim them. Whether they slink through shadows to avoid detection or walk harmlessly through danger, every rogue has trained to develop their own methods of handling life’s threats.",
+				"Dexterous fighters and brigands are full of surprises. Trained assassins, spies, and cutpurses are classic rogues, but where there are new dangers and rewards to be gained, so too are the kinds of people seeking to subvert and claim them. Whether they slink through shadows to avoid detection or walk harmlessly through danger, every rogue has trained to develop their own methods of handling life's threats.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Impressionist|Rogue||Runetagger|tgs1|3"
@@ -1439,7 +1458,7 @@
 			"type": "entries",
 			"name": "Impressionist",
 			"entries": [
-				"Starting at 3rd level, you’re never without your brushes. You gain proficiency in {@item calligrapher’s supplies} and {@item painter’s supplies}. Your proficiency bonus is doubled whenever you make an ability check that uses either of these tools.",
+				"Starting at 3rd level, you're never without your brushes. You gain proficiency in {@item calligrapher's supplies|phb} and {@item painter's supplies|phb}. Your proficiency bonus is doubled whenever you make an ability check that uses either of these tools.",
 				"In addition, whenever you finish making a mark or rune with ink or paint, you can imbue it with the effects of the {@spell message} spell. When you do, the mark is visibly magical and casts dim light in a 5-foot radius. A creature that touches the glowing mark telepathically hears the message you imbued in it. Once a message is heard, the magic fades from the mark.",
 				"You always have at least one paint or calligraphy brush on your person and can either create or purchase inks and pigments as part of your downtime activities. You can improvise these tools over the course of 10 minutes, assembling them from objects in your environment."
 			],
@@ -1462,7 +1481,7 @@
 					"type": "entries",
 					"name": "Cryos",
 					"entries": [
-						"The creature can’t take reactions until the start of your next turn. The rune’s magic fades at the start of your next turn."
+						"The creature can't take reactions until the start of your next turn. The rune's magic fades at the start of your next turn."
 					]
 				},
 				{
@@ -1476,7 +1495,7 @@
 					"type": "entries",
 					"name": "Locus",
 					"entries": [
-						"The next attack against the marked creature is made with advantage, and if that attack hits, it deals an extra {@damage 1d6} acid damage. Hit or miss, the rune’s magic fades after the next attack is made against the marked creature."
+						"The next attack against the marked creature is made with advantage, and if that attack hits, it deals an extra {@damage 1d6} acid damage. Hit or miss, the rune's magic fades after the next attack is made against the marked creature."
 					]
 				}
 			],
@@ -1501,7 +1520,7 @@
 			"header": 2,
 			"entries": [
 				"At 9th level you become slippery and evasive, capable of worming out of even the tightest holds. You have advantage on ability checks and saving throws made to escape from and resist being grappled or restrained, and when you are {@condition grappled} or {@condition restrained}, you can attempt to escape as a bonus action.",
-				"In addition, you gain a new way to use your rune points. When you’re next to a wall or similar surface, you can use a bonus action to spend 1 rune point to place a rune on it using ink or paint. When you do, you become invisible until you move or take an action or a reaction."
+				"In addition, you gain a new way to use your rune points. When you're next to a wall or similar surface, you can use a bonus action to spend 1 rune point to place a rune on it using ink or paint. When you do, you become invisible until you move or take an action or a reaction."
 			]
 		},
 		{
@@ -1529,7 +1548,105 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"By 17th level, you’re able to apply more ink or paint whenever you leave a rune and use it to expose weak points in a target’s defense and guide your strikes. You can use your Sneak Attack against any creature that has a rune on it. When you do, that creature takes an extra {@damage 2d6} damage from the attack."
+				"By 17th level, you're able to apply more ink or paint whenever you leave a rune and use it to expose weak points in a target's defense and guide your strikes. You can use your Sneak Attack against any creature that has a rune on it. When you do, that creature takes an extra {@damage 2d6} damage from the attack."
+			]
+		},
+		{
+			"name": "Frost Magic",
+			"source": "tgs1",
+			"page": 169,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Frost",
+			"subclassSource": "tgs1",
+			"level": 1,
+			"entries": [
+				"Your magic is created by pieces of the Everheart, the center and driving force behind the expanding Everglacier wastelands. This power within you might be passed down through ancestors who protected the glacier's magical core, or it might have been forced upon you through a chance encounter with the enchanted ice itself. Regardless of the source of your power, you are a creature of cold incarnate.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Frozen Body|Sorcerer||Frost|tgs1|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Create Ice|Sorcerer||Frost|tgs1|1"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Frozen Body",
+			"entries": [
+				"Starting at 1st level, your skin takes on a faintly ice-like, crystalline glow. Your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.",
+				"In addition, you're most comfortable in the ice and snow. You ignore difficult terrain created by ice or snow, and when you walk on ice, you only spend 1 foot of movement for every 2 feet you move."
+			],
+			"source": "tgs1",
+			"page": 169,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Frost",
+			"subclassSource": "tgs1",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Create Ice",
+			"entries": [
+				"At 1st level, you can use a bonus action to turn up to 5 contiguous 5-foot spaces on the ground into icy terrain, originating from the ground at your feet. The ice is difficult terrain and lasts until the end of your next turn.",
+				"You can spend up to 2 sorcery points when creating this terrain to increase the number of spaces you can target with this feature by 5 for each sorcery point spent."
+			],
+			"source": "tgs1",
+			"page": 169,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Frost",
+			"subclassSource": "tgs1",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Cold-Hearted",
+			"source": "tgs1",
+			"page": 169,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Frost",
+			"subclassSource": "tgs1",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain resistance to cold damage. When you deal cold damage to a Large or smaller creature with a spell, you can spend 1 or more sorcery points to attempt to freeze it in place. When you do, that creature's speed is reduced by 15 feet for each sorcery point you spend until the end of its next turn. If you reduce a creature's speed to 0 in this way, it takes {@damage 2d6} cold damage.",
+				"In addition, you can now use your Create Ice feature to freeze water as well as ground."
+			]
+		},
+		{
+			"name": "Flash Freeze",
+			"source": "tgs1",
+			"page": 169,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Frost",
+			"subclassSource": "tgs1",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"By 14th level, you're most confident on the ice. Your movement doesn't provoke opportunity attacks while you're walking on icy terrain.",
+				"In addition, when a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to release a blast of freezing cold, dealing cold damage to the attacker equal to half your sorcerer level + your Charisma modifier. When you do, you can also create up to 5 contiguous spaces of icy terrain, originating from the ground at your feet. This icy terrain lasts until the end of your next turn."
+			]
+		},
+		{
+			"name": "Frozen Soul",
+			"source": "tgs1",
+			"page": 169,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Frost",
+			"subclassSource": "tgs1",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you gain immunity to cold damage and resistance to fire damage.",
+				"You also learn the {@spell wall of ice} spell. The spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know. In addition, you can cast it once without expending a spell slot. When you do, the panels of ice created by the spell don't need to be contiguous with one another. Once you cast the spell in this way, you can't do so again until you finish a long rest."
 			]
 		}
 	]
