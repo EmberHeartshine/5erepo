@@ -521,10 +521,10 @@
 				"C"
 			],
 			"conditionInflicted": [
-				"grappled"
+				"prone"
 			],
 			"conditionInflict": [
-				"grappled"
+				"prone"
 			],
 			"miscTags": [
 				"MW",
@@ -595,7 +595,7 @@
 				{
 					"name": "Regeneration",
 					"entries": [
-						"The sporehusk regains 5 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn’t function at the start of the sporehusk’s next turn. The sporehusk dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+						"The sporehusk regains 5 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of the sporehusk's next turn. The sporehusk dies only if it starts its turn with 0 hit points and doesn't regenerate."
 					]
 				}
 			],
@@ -637,19 +637,25 @@
 				"B",
 				"P"
 			],
+			"conditionInflicted": [
+				"grappled"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
 			"miscTags": [
 				"MW"
 			],
 			"fluff": {
 				"entries": [
-					"The creatures that fall victim to the Lightspore’s influence become sporehusks: empty shells of their former selves whose only purpose is to nourish the great Lightspore at the center of the festerwood.",
+					"The creatures that fall victim to the Lightspore's influence become sporehusks: empty shells of their former selves whose only purpose is to nourish the great Lightspore at the center of the festerwood.",
 					"When a creature dies while it has at least one Spore Counter, it becomes a Risen Sporehusk after 24 hours. If it is slain again, the corpse remains dead.",
 					"Sporehusks will not attack unless provoked. Their natural preference is to shamble their way towards the Lightspore, but will defend themselves if attacked or otherwise prevented from reaching their destination.",
 					{
 						"type": "inset",
 						"name": "Transformative Spores",
 						"entries": [
-							"At the end of every 24 hours that a creature spends above ground in the Festerwood, that creature is forced to make a {@dc 5} Constitution saving throw. On a failure, that creature gains one Spore Counter. Rolling a 1 on this saving throw is always considered a failure, regardless of the roll’s total. If a creature reaches 3 Spore Counters, that creature becomes a sporehusk."
+							"At the end of every 24 hours that a creature spends above ground in the Festerwood, that creature is forced to make a {@dc 5} Constitution saving throw. On a failure, that creature gains one Spore Counter. Rolling a 1 on this saving throw is always considered a failure, regardless of the roll's total. If a creature reaches 3 Spore Counters, that creature becomes a sporehusk."
 						]
 					},
 					{
@@ -664,14 +670,14 @@
 										"type": "entries",
 										"name": "Alignment",
 										"entries": [
-											"The sporehusk’s alignment becomes neutral evil. The sporehusk loses all motivations, bonds, and loyalties it had in its previous life."
+											"The sporehusk's alignment becomes neutral evil. The sporehusk loses all motivations, bonds, and loyalties it had in its previous life."
 										]
 									},
 									{
 										"type": "entries",
 										"name": "Natural Armor",
 										"entries": [
-											"The sporehusk’s armor class can’t be less than 12 + its Dexterity modifier."
+											"The sporehusk's armor class can't be less than 12 + its Dexterity modifier."
 										]
 									},
 									{
@@ -685,7 +691,7 @@
 										"type": "entries",
 										"name": "Ability Scores",
 										"entries": [
-											"The sporehusk’s Strength and Constitution scores increase by 2, and its Dexterity, Wisdom, and Charisma are reduced by 2 (minimum 1). Its Intelligence score becomes 6, unless it is already lower."
+											"The sporehusk's Strength and Constitution scores increase by 2, and its Dexterity, Wisdom, and Charisma are reduced by 2 (minimum 1). Its Intelligence score becomes 6, unless it is already lower."
 										]
 									},
 									{
@@ -727,7 +733,7 @@
 										"type": "entries",
 										"name": "Regeneration",
 										"entries": [
-											"The sporehusk regains 5 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn’t function at the start of the sporehusk’s next turn. The sporehusk dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+											"The sporehusk regains 5 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of the sporehusk's next turn. The sporehusk dies only if it starts its turn with 0 hit points and doesn't regenerate."
 										]
 									},
 									{
@@ -748,7 +754,7 @@
 										"type": "entries",
 										"name": "New Action: Grab",
 										"entries": [
-											"Melee weapon attack using Strength. On a hit, the attack deals {@damage 1d6} + Strength modifier bludgeoning damage and if the target is a creature, it is grappled. The escape DC of the grapple is equal to 10 + the creature’s Strength modifier."
+											"Melee weapon attack using Strength. On a hit, the attack deals {@damage 1d6} + Strength modifier bludgeoning damage and if the target is a creature, it is grappled. The escape DC of the grapple is equal to 10 + the creature's Strength modifier."
 										]
 									},
 									{
@@ -762,7 +768,7 @@
 										"type": "inset",
 										"name": "REMINDER: Changing Ability Scores",
 										"entries": [
-											"When you change a creature’s ability scores, remember to adjust any bonuses for attack and damage rolls, as well as for AC, hit points, saving throws, and skills."
+											"When you change a creature's ability scores, remember to adjust any bonuses for attack and damage rolls, as well as for AC, hit points, saving throws, and skills."
 										]
 									}
 								]
@@ -785,6 +791,152 @@
 						]
 					}
 				]
+			}
+		},
+		{
+			"name": "Scout Sporehusk",
+			"source": "tgs1",
+			"page": 189,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 15",
+				"average": 37
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 16,
+			"int": 6,
+			"wis": 11,
+			"cha": 9,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"poison"
+			],
+			"vulnerable": [
+				"fire",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"undesrtands Common but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The scout has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The sporehusk regains 5 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of the sporehusk's next turn. The sporehusk dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Sunlight Weakness",
+					"entries": [
+						"While in sunlight, the sporehusk has disadvantage on attack rolls, ability checks, and saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sporehusk makes one grab attack. If that attack hits, the sporehusk can make one bite attack against the same target."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage and if the target is a creature, it is {@condition grappled} (escape {@dc 11})."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target that is grappled by the sporehusk. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"forest",
+				"festerwood"
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Regeneration",
+				"Sunlight Sensitivity"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"conditionInflicted": [
+				"grappled"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"fluff": {
+				"_copy": {
+					"name": "Risen Sporehusk",
+					"source": "tgs1"
+				}
 			}
 		}
 	],
