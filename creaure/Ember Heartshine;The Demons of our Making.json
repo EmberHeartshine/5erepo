@@ -118,7 +118,10 @@
 			"name": "Demonic Imp",
 			"size": "M",
 			"type": {
-				"type": "fiend (demon)"
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
 			},
 			"source": "doom",
 			"alignment": [
@@ -240,7 +243,10 @@
 			"name": "Pinky",
 			"size": "M",
 			"type": {
-				"type": "fiend (demon)"
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
 			},
 			"source": "doom",
 			"alignment": [
@@ -275,7 +281,7 @@
 					{
 						"type": "quote",
 						"entries": [
-							"These demonic animals are unnamed by those in Hell. They were colloquially named pinkies, due to their unusual skin pigmentation, when first discovered by the Lazarus Project's Tethering Operation. Their aggressive nature against the living is well-documented."
+							"These demonic animals are unnamed by those in Hell. They were colloquially named \"pinkies\", due to their unusual skin pigmentation, when first discovered by the Lazarus Project's Tethering Operation. Their aggressive nature against the living is well-documented."
 						]
 					}
 				]
@@ -370,7 +376,10 @@
 			"name": "Hell Razer",
 			"size": "M",
 			"type": {
-				"type": "fiend (demon)"
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
 			},
 			"source": "doom",
 			"alignment": [
@@ -442,15 +451,15 @@
 					]
 				},
 				{
-					"name": "Hell Razer (Recharge 5-6)",
+					"name": "Hell Razer {@recharge 5}",
 					"entries": [
-						"The hell razer releases pure Argent energy in a beam encompassing a 30-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 33 ({@dice 6d10}) Argent/fire damage on a failed save, or half as much damage on a successful one."
+						"The hell razer releases pure Argent energy in a beam encompassing a 30-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 33 ({@damage 6d10}) Argent/fire damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
-					"name": "Hell Beam (Recharge 5-6)",
+					"name": "Hell Beam {@recharge 5}",
 					"entries": [
-						"The hell razer releases pure Argent in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 15} Dexterity saving throw, taking 22 ({@dice 5d8}) Argent/fire damage on a failed save, or half as much damage on a successful one."
+						"The hell razer releases pure Argent in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 5d8}) Argent/fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
