@@ -792,7 +792,13 @@
 			"miscTags": [
 				"MW",
 				"RW"
-			]
+			],
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Sporehusk",
+					"source": "tgs1"
+				}
+			}
 		}
 	],
 	"monsterFluff": [
