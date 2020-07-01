@@ -1307,7 +1307,7 @@
 							"spells": [
 								"{@spell blight}",
 								"{@spell confusion}",
-								"{@spell phantasmal killer}*"
+								"{@spell phantasmal killer}"
 							]
 						},
 						"5": {
@@ -1569,7 +1569,7 @@
 			]
 		},
 		{
-			"name": "Nicrone Dentallen",
+			"name": "Nicrone Dendallen",
 			"source": "tgs1",
 			"entries": [
 				"Nicrone Dendallen is a human wizard whose passion for self-improvement has become an obsession, focused on removing the inherent limits of his own mortality. His focus on gaining power through sacrifice at any cost attracts dedicated sycophants. Their beliefs make them eager to recklessly endanger their lives for the chance to earn powerful rewards from his hand.",
