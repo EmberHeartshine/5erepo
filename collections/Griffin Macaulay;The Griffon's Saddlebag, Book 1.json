@@ -582,7 +582,7 @@
 				"exhaustion",
 				"frightened",
 				"poisoned",
-				"unconcsious"
+				"unconscious"
 			],
 			"cr": "1",
 			"trait": [
@@ -722,6 +722,48 @@
 										"entries": [
 											"The sporehusk understands any languages it knew previously, but can't speak."
 										]
+									},
+									{
+										"type": "entries",
+										"name": "Regeneration",
+										"entries": [
+											"The sporehusk regains 5 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn’t function at the start of the sporehusk’s next turn. The sporehusk dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Sunlight Weakness",
+										"entries": [
+											"While in sunlight, the sporehusk has disadvantage on attack rolls, ability checks, and saving throws."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Multiattack",
+										"entries": [
+											"The sporehusk makes one grab attack. If that attack hits, the sporehusk can make one bite attack against the same target. If the creature already has a multiattack, the GM can decide to either replace it, or add this as an alternative."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "New Action: Grab",
+										"entries": [
+											"Melee weapon attack using Strength. On a hit, the attack deals {@damage 1d6} + Strength modifier bludgeoning damage and if the target is a creature, it is grappled. The escape DC of the grapple is equal to 10 + the creature’s Strength modifier."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "New Action: Bite",
+										"entries": [
+											"Melee weapon attack using Strength, targeting a creature grappled by the sporehusk. On a hit, the attack deals {@damage 1d8} + Strength modifier piercing damage."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "REMINDER: Changing Ability Scores",
+										"entries": [
+											"When you change a creature’s ability scores, remember to adjust any bonuses for attack and damage rolls, as well as for AC, hit points, saving throws, and skills."
+										]
 									}
 								]
 							}
@@ -729,16 +771,17 @@
 					},
 					{
 						"type": "entries",
-						"name": "Spread the Spores",
+						"name": "Example Sporehusk",
 						"entries": [
-							"Mold zombies are controlled by their spores, which seek to infect more humanoids. When a zombie sees a potential host, it fights to the death, hoping to kill infected creatures so it can immediately rise as an undead. Mold zombies attract other mold zombies and move in large groups."
+							"Use the new abilities and features from the {@i Becoming A Sporehusk} section to create the statistics for a newly turned sporehusk. As an example, the sporehusk template has been applied to a human scout to create a {@creature scout sporehusk|tgs1}."
 						]
 					},
 					{
 						"type": "entries",
-						"name": "Undead Nature",
+						"name": "Saving Sporehusks",
 						"entries": [
-							"The mold zombie doesn't require air, food, drink, or sleep"
+							"A sporehusk subjected to 8 or more hours of sunlight each day for 5 days is cured of its affliction. A {@creature risen sporehusk|tgs1} becomes a nonmagical corpse, and a living sporehusk has no memory of its time spent as a husk.",
+							"If you reduce a sporehusk to 0 hit points and magically revive it again before it becomes a risen sporehusk, the creature returns to its normal faculties with 1 level of exhaustion and two Spore Counters."
 						]
 					}
 				]
