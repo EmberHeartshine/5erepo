@@ -1643,7 +1643,7 @@
 				{
 					"name": "Conjure Tendrils {@recharge 5}",
 					"entries": [
-						"The spirit conjures {@dice 1d4 + 1} {@creature tendrils of Dendallen|tgs1} at points of its choice on surfaces within 120 feet of it, up to a maximum of six of them at once. Roll initiative for the tendrils, which have their own turns."
+						"The spirit conjures {@dice 1d4 + 1} {@creature tendril of Dendallen|tgs1|tendrils of Dendallen} at points of its choice on surfaces within 120 feet of it, up to a maximum of six of them at once. Roll initiative for the tendrils, which have their own turns."
 					]
 				}
 			],
@@ -1726,6 +1726,145 @@
 					"source": "tgs1"
 				}
 			}
+		},
+		{
+			"name": "Tendril of Dendallen",
+			"source": "tgs1",
+			"page": 203,
+			"size": "L",
+			"type": {
+				"type": "undead"
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d10 + 6",
+				"average": 22
+			},
+			"speed": {
+				"walk": 0
+			},
+			"str": 22,
+			"dex": 15,
+			"con": 15,
+			"int": 2,
+			"wis": 6,
+			"cha": 3,
+			"skill": {
+				"athletics": "+8"
+			},
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+							"bludgeoning",
+							"piercing",
+							"slashing"
+						],
+						"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"stunned",
+				"unconscious"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Necromantic Form",
+					"entries": [
+						"The tendril can occupy another creature’s space and vice versa. The tendril is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Planted",
+					"entries": [
+						"The tendril isn’t affected by forced movement, and it doesn’t need to make a check to cling to difficult surfaces like walls or ceilings."
+					]
+				},
+				{
+					"name": "Will of Dendallen",
+					"entries": [
+						"The tendril shares a psychic link with {@creature spirit of Dendallen|tgs1|the spirit} as well as the host while it’s controlled by the spirit. The tendril doesn’t provide cover to hostile creatures against attacks made through the tendril’s space by the spirit of Dendallen or its enthralled host."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grasp",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) force damage plus 9 ({@damage 2d8}) acid damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 16}) and must succeed on a {@dc 16} Strength saving throw or be pulled up to 5 feet toward the tendril. Until this grapple ends, the tendril can’t grasp another target."
+					]
+				},
+				{
+					"name": "Fling",
+					"entries": [
+						"One Medium or smaller object or creature grappled by the tendril is thrown up to 20 feet in a direction of the tendril’s choice and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 16} Dexterity saving throw or take the same damage and be knocked prone."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The tendril withdraws into the surface from which it appeared and emerges elsewhere, teleporting to an unoccupied space of its choice within 120 feet of Dendallen."
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"A",
+				"F",
+				"B"
+			],
+			"conditionInflicted": [
+				"prone",
+				"grappled"
+			],
+			"conditionInflict": [
+				"prone",
+				"grappled"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
 		}
 	],
 	"monsterFluff": [
@@ -1967,7 +2106,7 @@
 					"name": "Attuning to the Remnants",
 					"entries": [
 						"Attuning to three Remnants of Dendallen is a gift as well as a curse. While a creature is attuned to three of these items, it can freely attune to other Remnants of Dendallen. When it does, its attunement to another Remnant ends, as well as its curse.",
-						"If Dendallen is dead, being attuned to these items activates a secondary effect once you reach level 15 (or 14 if there are 5 players in your group, etc.). When this happens, the attuned creature's cursed body becomes strong enough to handle the intensity of channeling the {@creature spirit of Dendallen}. The event is involuntary, and happens either at the end of a long rest or at your discretion."
+						"If Dendallen is dead, being attuned to these items activates a secondary effect once you reach level 15 (or 14 if there are 5 players in your group, etc.). When this happens, the attuned creature's cursed body becomes strong enough to handle the intensity of channeling the {@creature spirit of Dendallen|tgs1}. The event is involuntary, and happens either at the end of a long rest or at your discretion."
 					]
 				},
 				{
@@ -1994,7 +2133,7 @@
 									"type": "entries",
 									"name": "Resilient Thrall",
 									"entries": [
-										"Once a creature attunes to three Remnants of Dendallen, nothing short of a {@spell wish} spell can break their attunement to the items. However, once the spirit of Dendallen has been summoned, targeting the host with greater restoration, remove curse, the {@i break enchantment} effect of {@spell dispel good and evil} or other applicable spells of 5th level or greater grants the host advantage on their next saving throw to resist Dendallen's thrall. Likewise, any game effects that end possession or the {@condition charmed} condition don't end the spirit's thrall over its host, but do grant the host advantage on their next saving throw against the spirit's control."
+										"Once a creature attunes to three Remnants of Dendallen, nothing short of a {@spell wish} spell can break their attunement to the items. However, once the spirit of Dendallen has been summoned, targeting the host with greater restoration, remove curse, the {@i break enchantment} effect of {@spell dispel evil and good} or other applicable spells of 5th level or greater grants the host advantage on their next saving throw to resist Dendallen's thrall. Likewise, any game effects that end possession or the {@condition charmed} condition don't end the spirit's thrall over its host, but do grant the host advantage on their next saving throw against the spirit's control."
 									]
 								},
 								{
