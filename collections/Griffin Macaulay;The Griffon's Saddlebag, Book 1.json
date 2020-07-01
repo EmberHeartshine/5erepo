@@ -1207,6 +1207,192 @@
 					"source": "tgs1"
 				}
 			}
+		},
+		{
+			"name": "Nicrone Dendallen",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "tgs1",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 130,
+				"formula": "20d8 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 20,
+			"wis": 13,
+			"cha": 16,
+			"skill": {
+				"arcana": "+9",
+				"history": "+9",
+				"medicine": "+9"
+			},
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"any three others"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Dendallen is a 19th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell dancing lights}",
+								"{@spell mage hand}",
+								"{@spell poison spray}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell false life}",
+								"{@spell inflict wounds}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell darkness}",
+								"{@spell hold person}",
+								"{@spell ray of enfeeblement}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell haste}",
+								"{@spell slow}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight}",
+								"{@spell confusion}",
+								"{@spell phantasmal killer}*"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell cloudkill}",
+								"{@spell telekinesis}",
+								"{@spell wall of force}"
+							]
+						},
+						"6": {
+							"slots": 2,
+							"spells": [
+								"{@spell circle of death}",
+								"{@spell disintegrate}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell prismatic spray}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell feeblemind}"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell weird}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Staff of Withering",
+					"entries": [
+						"This staff has 3 charges and regains {@dice 1d3} expended charges daily at dawn. On a hit, it deals damage as a normal quarterstaff, and Dendallen can expend 1 charge to deal an extra 11 ({@damage 2d10}) necrotic damage to the target. In addition, the target must succeed on a {@dc 15} Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff of Withering",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8}) bludgeoning damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Nicrone Dendallen",
+					"source": "tgs1"
+				}
+			}
 		}
 	],
 	"monsterFluff": [
@@ -1380,6 +1566,58 @@
 			"source": "tgs1",
 			"entries": [
 				"Winged wretches are swarming bat-humanoid hybrids native to subterranean realms and tropical jungles. Although they resemble certain shapechangers and vampires, they are not blood-drinkers. Regardless, they are cruel creatures who delight in the torture of weaker prey."
+			]
+		},
+		{
+			"name": "Nicrone Dentallen",
+			"source": "tgs1",
+			"entries": [
+				"Nicrone Dendallen is a human wizard whose passion for self-improvement has become an obsession, focused on removing the inherent limits of his own mortality. His focus on gaining power through sacrifice at any cost attracts dedicated sycophants. Their beliefs make them eager to recklessly endanger their lives for the chance to earn powerful rewards from his hand.",
+				"Dedicated and tenacious followers of Dendallen are given tokens of his appreciation: terrifying items made by Dendallen himself, each enchanted with a grotesque balance of strength and consequence.",
+				"While Dendallen is a master of the necromantic arts, his frustration with the limits of his mortal body makes him scoff at those who pursue longevity through undeath's tenuous hold on existence. Only under extreme circumstances\u2014or the promise of extreme rewards—is he willing to work with undead creatures or the magic that enables them.",
+				{
+					"type": "entries",
+					"name": "Teachings of Dendallen",
+					"entries": [
+						"Dendallen's belief that self-sacrifice leads to self-improvement is a fervent mantra held by his followers. In general, those that subscribe to Dendallen's teachings believe that in order to truly become greater, you must be willing to let go of the mortal trappings that bind you. The major tenets of Dendallen are as follows:",
+						{
+							"type": "entries",
+							"name": "Embrace Self-Sacrifice",
+							"entries": [
+								"To forget the familiar as a price for greatness is admirable."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Conquer your Limits",
+							"entries": [
+								"To become more powerful is to embrace the purpose of life."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enforce your Will",
+							"entries": [
+								"To conquer all obstacles in your path is to ensure success."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Followers of Dendallen",
+					"entries": [
+						"Use the {@creature cultist} and {@creature cult fanatic} statistics for followers of Dendallen. Dendallen's more powerful followers can use other humanoid stat blocks that fit your setting and party level. These leaders are groomed to be more formidable than those deemed undeserving, unproven, or mediocre.",
+						"Typically, these trusted followers of Dendallen will have overt visual ailments or symptoms of disease, but will be notably more powerful because of it. Elite followers such as this will occasionally wield a Remnant of Dendallen, bestowed unto them after they complete a dangerous or otherwise notable feat of faith, loyalty and self-sacrifice. Upon defeating such a creature, your party can take the Remnant for themselves. The particular Remnant each follower wields is up to you, but should be scaled relative to the creature's challenge rating."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slaying Nicrone Dendallen",
+					"entries": [
+						"Killing Nicrone allows for his spirit to return at a later time. His final mortal words should capture his beliefs and foreshadow his return, such as \"Giving up your weaknesses grants power beyond compare!\""
+					]
+				}
 			]
 		}
 	],
