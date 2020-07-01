@@ -332,7 +332,7 @@
 		{
 			"name": "Dysvaric Inflammation",
 			"entries": [
-				"{@b Source:} Certain woodland animals eat Dysvarian bonnets, a strain of mushroom which causes a harmless infection in animals. Eating the meat of such an animal or the mushroom itself can cause {@ialic Dysvaric inflammation}. When a creature eats a mushroom or meat of an infected animal they must roll a Constitution saving throw (DC 19). On a failed save they experience the following:",
+				"{@b Source:} Certain woodland animals eat Dysvarian bonnets, a strain of mushroom which causes a harmless infection in animals. Eating the meat of such an animal or the mushroom itself can cause {@i Dysvaric inflammation}. When a creature eats a mushroom or meat of an infected animal they must roll a Constitution saving throw (DC 19). On a failed save they experience the following:",
 				"{@b Symptoms:} Swollen fingers and tongue, causing difficulty holding items and speaking.",
 				"{@b Effects:} Disadvantage on all Charisma-based ability and skill checks and a \u22125 penalty to all attack rolls.",
 				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 10) reveals that a tea made from vanilla ivy (a plant that often grows close to Dysvarian bonnets) cures the inflammation as well."
