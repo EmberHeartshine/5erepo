@@ -851,19 +851,13 @@
 					]
 				},
 				{
-					"name": "Sunlight Weakness",
-					"entries": [
-						"While in sunlight, the sporehusk has disadvantage on attack rolls, ability checks, and saving throws."
-					]
-				}
-			],
-			"action": [
-				{
 					"name": "Invisibility",
 					"entries": [
 						"The invisiboar is invisible."
 					]
-				},
+				}
+			],
+			"action": [
 				{
 					"name": "Tusk",
 					"entries": [
@@ -896,6 +890,89 @@
 			"fluff": {
 				"_monsterFluff": {
 					"name": "Invisiboar",
+					"source": "tgs1"
+				}
+			}
+		},
+		{
+			"name": "Swordbeak",
+			"source": "tgs1",
+			"page": 196,
+			"size": "H",
+			"type": {
+				"type": "beast"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d12 + 24",
+				"average": 102
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 80
+			},
+			"str": 21
+			"dex": 17,
+			"con": 15,
+			"int": 3,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Dive Attack",
+					"entries": [
+						"If the swordbeak is flying and dives at least 30 feet straight toward a target and then hits it with a beak attack on the same turn, the attack deals an extra 7 ({@damage 2d6}) damage to the target."
+					]
+				},
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The swordbeak has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}21 ({@damage 3d10 + 5}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"grassland",
+				"hill",
+				"hearth"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Swordbeak",
 					"source": "tgs1"
 				}
 			}
@@ -1057,6 +1134,14 @@
 				"Native to the jungles of Elsath, invisiboars are literally invisible boars. It's largely believed that these strange pigs owe their existence to the wild magic that flows through the jungles of the world, and the fact that so many of them are found near sites of permanent or programmed illusions lends further credence to that theory.",
 				"Invisiboars are consummate hunters who use their innate invisibility to stalk their prey before viciously charging it. When pitted against tougher combatants, they utilize hit and run tactics that let them charge the same target repeatedly.",
 				"When invisiboars are killed, the magic that conceals them “bursts,” blinding creatures who witness the burst."
+			]
+		},
+		{
+			"name": "Swordbeak",
+			"source": "tgs1",
+			"entries": [
+				"As the name suggests, swordbeaks are huge birds with 10-foot-long razor-sharp beaks. These beaks are capable of punching through stone and steel. Voracious carnivores, they often attack large creatures, and even humanoids, in grasslands, hillsides, coasts, and other open areas.",
+				"Swordbeak nests are usually littered with gold, gems, and other valuables that their humanoid prey were carrying at their time of death. Appreciative of shiny objects, swordbeaks defend their collected treasures almost as fiercely as they do a clutch of eggs."
 			]
 		}
 	],
