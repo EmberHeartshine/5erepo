@@ -799,6 +799,106 @@
 					"source": "tgs1"
 				}
 			}
+		},
+		{
+			"name": "Invisiboar",
+			"source": "tgs1",
+			"page": 196,
+			"size": "L",
+			"type": {
+				"type": "beast"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 15",
+				"average": 42
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 17,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"skill": {
+				"stealth": "+3"
+			},
+			"passive": 12,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the invisiboar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 ({@damage 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Death Flash",
+					"entries": [
+						"When the invisiboar dies, its invisibility ends and it emits a bright flash of light. Each creature within 10 feet of it must make a {@dc 13} Constitution saving throw or become {@condition blinded} for 1 minute. A creature can repeat its saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Sunlight Weakness",
+					"entries": [
+						"While in sunlight, the sporehusk has disadvantage on attack rolls, ability checks, and saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The invisiboar is invisible."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 6d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban",
+				"swamp",
+				"hearth"
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"S"
+			],
+			"conditionInflicted": [
+				"prone",
+				"blinded"
+			],
+			"conditionInflict": [
+				"prone",
+				"blinded"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Invisiboar",
+					"source": "tgs1"
+				}
+			}
 		}
 	],
 	"monsterFluff": [
@@ -807,7 +907,7 @@
 			"source": "tgs1",
 			"entries": [
 				"The creatures that fall victim to the Lightspore's influence become sporehusks: empty shells of their former selves whose only purpose is to nourish the great Lightspore at the center of the festerwood.",
-				"When a creature dies while it has at least one Spore Counter, it becomes a Risen Sporehusk after 24 hours. If it is slain again, the corpse remains dead.",
+				"When a creature dies while it has at least one Spore Counter, it becomes a {@creature risen sporehusk|tgs1} after 24 hours. If it is slain again, the corpse remains dead.",
 				"Sporehusks will not attack unless provoked. Their natural preference is to shamble their way towards the Lightspore, but will defend themselves if attacked or otherwise prevented from reaching their destination.",
 				{
 					"type": "inset",
@@ -944,10 +1044,19 @@
 					"type": "entries",
 					"name": "Saving Sporehusks",
 					"entries": [
-						"A sporehusk subjected to 8 or more hours of sunlight each day for 5 days is cured of its affliction. A {@creature risen sporehusk|tgs1} becomes a nonmagical corpse, and a living sporehusk has no memory of its time spent as a husk.",
+						"A sporehusk subjected to 8 or more hours of sunlight each day for 5 days is cured of its affliction. A risen sporehusk becomes a nonmagical corpse, and a living sporehusk has no memory of its time spent as a husk.",
 						"If you reduce a sporehusk to 0 hit points and magically revive it again before it becomes a risen sporehusk, the creature returns to its normal faculties with 1 level of exhaustion and two Spore Counters."
 					]
 				}
+			]
+		},
+		{
+			"name": "Invisiboar",
+			"source": "tgs1",
+			"entries": [
+				"Native to the jungles of Elsath, invisiboars are literally invisible boars. It's largely believed that these strange pigs owe their existence to the wild magic that flows through the jungles of the world, and the fact that so many of them are found near sites of permanent or programmed illusions lends further credence to that theory.",
+				"Invisiboars are consummate hunters who use their innate invisibility to stalk their prey before viciously charging it. When pitted against tougher combatants, they utilize hit and run tactics that let them charge the same target repeatedly.",
+				"When invisiboars are killed, the magic that conceals them “bursts,” blinding creatures who witness the burst."
 			]
 		}
 	],
