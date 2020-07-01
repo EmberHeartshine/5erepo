@@ -919,7 +919,7 @@
 				"{@b Source:} A {@i seasonal ulcer} is hereditary. If a creature has this disease, roll {@dice 1d4} and consult the table below to determine the season they will experience the disease in and the type of saving throw that is connected to it. After each long rest in the given season, the creature must make the specified saving throw. On a failed save they experience the following:",
 				"{@b Symptoms:} Vomiting blood, loss of vitality, general malaise.",
 				"{@b Effects:} Maximum hit points reduced by an amount equal to the character level +2.",
-				"{@b Cure:} {@spell Lesser restoration} cures the disease until the creature's next long rest. The disease can be cured for the rest of the season by {@spell greater restoration}. An Arcana or Medicine check (DC 20) reveals that {@ seasonal ulcers} can be cured by casting {@spell greater restoration} at the beginning of each season for 4 consecutive seasons.",
+				"{@b Cure:} {@spell Lesser restoration} cures the disease until the creature's next long rest. The disease can be cured for the rest of the season by {@spell greater restoration}. An Arcana or Medicine check (DC 20) reveals that {@i seasonal ulcers} can be cured by casting {@spell greater restoration} at the beginning of each season for 4 consecutive seasons.",
 				{
 					"type": "table",
 					"caption": "Seasonal Ulcer Type",
@@ -1053,7 +1053,7 @@
 				"{@b Source:} {@i Swamp pneumonia} is caused by camping in the open air during the winter months in swamps and bogs. When a creature spends a long rest in such conditions they must roll a Constitution saving throw (DC10). The DC increases by 1 for each consecutive long rest they spend in these conditions. On a failed save they experience the following:",
 				"{@b Symptoms:} Diffoculty breathing, accompanied by heavy wheezing and occasional productive cough. The mucus coughed out has a thick slimy consistency.",
 				"{@b Effects:} The afflicted creature suffers a \u22122 penalty to their Constitution score, vulnerability to poison and cold damage, and disadvantage on all Stealth checks.",
-				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level is able to cure {@swamp pneumonia}."
+				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level is able to cure {@i swamp pneumonia}."
 			],
 			"source": "bag"
 		},
@@ -1204,7 +1204,7 @@
 				"{@b Source:} Some hags carry a virus that is benign to them but may cause a severe problem for other humanoids they come into contact with. This disease is most commonly known as {@i witch's delirium}. When coming within 5 feet of an infected hag, a creature must make a Constitution saving throw. On a failed save they experience the following:",
 				"{@b Symptoms:} Auditory hallucinations of various forest animals, causing an inability to focus or think clearly.",
 				"{@b Effects:} The afflicted suffers a \u22122 penalty to their Intelligence and Wisdom scores. Additionally, they are unable to maintain concentration on any spell or effect requiring concentration.",
-				"{@b Cure:} {@spell Lesser Restoration} or any healing spell of 3rd level or higher cast by a fey creature will cure {@witch's delerium}."
+				"{@b Cure:} {@spell Lesser Restoration} or any healing spell of 3rd level or higher cast by a fey creature will cure {@i witch's delerium}."
 			],
 			"source": "bag"
 		},
