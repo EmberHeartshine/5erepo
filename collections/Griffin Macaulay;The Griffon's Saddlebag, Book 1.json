@@ -641,40 +641,118 @@
 				"MW"
 			],
 			"fluff": {
-				"entries": [
-					"The creatures that fall victim to the Lightspore’s influence become sporehusks: empty shells of their former selves whose only purpose is to nourish the great Lightspore at the center of the festerwood.",
-					"When a creature dies while it has at least one Spore Counter, it becomes a Risen Sporehusk after 24 hours. If it is slain again, the corpse remains dead.",
-					"Sporehusks will not attack unless provoked. Their natural preference is to shamble their way towards the Lightspore, but will defend themselves if attacked or otherwise prevented from reaching their destination.",
-					{
-						"type": "inset",
-						"name": "Transformative Spores",
-						"entries": [
-							"At the end of every 24 hours that a creature spends above ground in the Festerwood, that creature is forced to make a {@dc 5} Constitution saving throw. On a failure, that creature gains one Spore Counter. Rolling a 1 on this saving throw is always considered a failure, regardless of the roll’s total. If a creature reaches 3 Spore Counters, that creature becomes a sporehusk."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Becoming a Sporehusk",
-						"entries": [
-							"Any creature made from living tissue can become a sporehusk, including undead risen from such creatures. When a creature becomes a sporehusk, it retains all its statistics except as noted below."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Spread the Spores",
-						"entries": [
-							"Mold zombies are controlled by their spores, which seek to infect more humanoids. When a zombie sees a potential host, it fights to the death, hoping to kill infected creatures so it can immediately rise as an undead. Mold zombies attract other mold zombies and move in large groups."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Undead Nature",
-						"entries": [
-							"The mold zombie doesn't require air, food, drink, or sleep"
-						]
-					}
-				]
+				"_copy": {
+				"name": "Sporehusk",
+				"source": "tgs1"
 			}
+			}
+		}
+	],
+	"monsterFluff": [
+		{
+			"name": "Sporehusk",
+			"source": "tgs1",
+			"entries": [
+				"The creatures that fall victim to the Lightspore’s influence become sporehusks: empty shells of their former selves whose only purpose is to nourish the great Lightspore at the center of the festerwood.",
+				"When a creature dies while it has at least one Spore Counter, it becomes a Risen Sporehusk after 24 hours. If it is slain again, the corpse remains dead.",
+				"Sporehusks will not attack unless provoked. Their natural preference is to shamble their way towards the Lightspore, but will defend themselves if attacked or otherwise prevented from reaching their destination.",
+				{
+					"type": "inset",
+					"name": "Transformative Spores",
+					"entries": [
+						"At the end of every 24 hours that a creature spends above ground in the Festerwood, that creature is forced to make a {@dc 5} Constitution saving throw. On a failure, that creature gains one Spore Counter. Rolling a 1 on this saving throw is always considered a failure, regardless of the roll’s total. If a creature reaches 3 Spore Counters, that creature becomes a sporehusk."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Becoming a Sporehusk",
+					"entries": [
+						"Any creature made from living tissue can become a sporehusk, including undead risen from such creatures. When a creature becomes a sporehusk, it retains all its statistics except as noted below.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Alignment",
+									"entries": [
+										"The sporehusk’s alignment becomes neutral evil. The sporehusk loses all motivations, bonds, and loyalties it had in its previous life."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Natural Armor",
+									"entries": [
+										"The sporehusk’s armor class can’t be less than 12 + its Dexterity modifier."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hit Points",
+									"entries": [
+										"The sporehusk gains 2 hit dice, increasing its hit point maximum accordingly."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ability Scores",
+									"entries": [
+										"The sporehusk’s Strength and Constitution scores increase by 2, and its Dexterity, Wisdom, and Charisma are reduced by 2 (minimum 1). Its Intelligence score becomes 6, unless it is already lower."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Senses",
+									"entries": [
+										"The sporehusk has {@sense blindsight} with a radius of 15 feet and {@sense darkvision} with a radius of 60 feet, unless it has a superior darkvision range."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Damage Vulnerabilities",
+									"entries": [
+										"The sporehusk has vulnerability to fire and radiant damage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Damage Resistances",
+									"entries": [
+										"The sporehusk has resistance to poison damage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Condition Immunities",
+									"entries": [
+										"The sporehusk has immunity to the {@condition charmed} and {@condition poisoned} conditions."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Languages",
+									"entries": [
+										"The sporehusk understands any languages it knew previously, but can't speak."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spread the Spores",
+					"entries": [
+						"Mold zombies are controlled by their spores, which seek to infect more humanoids. When a zombie sees a potential host, it fights to the death, hoping to kill infected creatures so it can immediately rise as an undead. Mold zombies attract other mold zombies and move in large groups."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Undead Nature",
+					"entries": [
+						"The mold zombie doesn't require air, food, drink, or sleep"
+					]
+				}
+			]
 		}
 	],
 	"race": [
