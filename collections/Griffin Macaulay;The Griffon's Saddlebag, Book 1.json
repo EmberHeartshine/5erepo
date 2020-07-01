@@ -520,10 +520,161 @@
 				"N",
 				"C"
 			],
+			"conditionInflicted": [
+				"grappled"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
 			"miscTags": [
 				"MW",
 				"RW"
 			]
+		},
+		{
+			"name": "Risen Sporehusk",
+			"source": "tgs1",
+			"page": 188,
+			"size": "M",
+			"type": {
+				"type": "undead"
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 9,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 15",
+				"average": 37
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 13,
+			"dex": 6,
+			"con": 16,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 30 ft. (blind beyond this radius)"
+			],
+			"passive": 10,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"poison"
+			],
+			"vulnerable": [
+				"fire",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"unconcsious"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Radiance Susceptibility",
+					"entries": [
+						"If the sporehusk takes radiant damage, it loses its damage resistances and gains vulnerability to bludgeoning, piercing, and slashing damage until the start of its next turn. If the sporehusk is ever within an area of sunlight, it has disadvantage on attack rolls, ability checks, and saving throws until the end of its next turn."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The sporehusk regains 5 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn’t function at the start of the sporehusk’s next turn. The sporehusk dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sporehusk makes one grab attack. If that attack hits, the sporehusk can make one bite attack against the same target."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage and if the target is a creature, it is {@condition grappled} (escape {@dc 11})."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target that is grappled by the sporehusk. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"forest",
+				"festerwood"
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"The creatures that fall victim to the Lightspore’s influence become sporehusks: empty shells of their former selves whose only purpose is to nourish the great Lightspore at the center of the festerwood.",
+					"When a creature dies while it has at least one Spore Counter, it becomes a Risen Sporehusk after 24 hours. If it is slain again, the corpse remains dead.",
+					"Sporehusks will not attack unless provoked. Their natural preference is to shamble their way towards the Lightspore, but will defend themselves if attacked or otherwise prevented from reaching their destination.",
+					{
+						"type": "inset",
+						"name": "Transformative Spores",
+						"entries": [
+							"At the end of every 24 hours that a creature spends above ground in the Festerwood, that creature is forced to make a {@dc 5} Constitution saving throw. On a failure, that creature gains one Spore Counter. Rolling a 1 on this saving throw is always considered a failure, regardless of the roll’s total. If a creature reaches 3 Spore Counters, that creature becomes a sporehusk."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Becoming a Sporehusk",
+						"entries": [
+							"Any creature made from living tissue can become a sporehusk, including undead risen from such creatures. When a creature becomes a sporehusk, it retains all its statistics except as noted below."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Spread the Spores",
+						"entries": [
+							"Mold zombies are controlled by their spores, which seek to infect more humanoids. When a zombie sees a potential host, it fights to the death, hoping to kill infected creatures so it can immediately rise as an undead. Mold zombies attract other mold zombies and move in large groups."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Undead Nature",
+						"entries": [
+							"The mold zombie doesn't require air, food, drink, or sleep"
+						]
+					}
+				]
+			}
 		}
 	],
 	"race": [
