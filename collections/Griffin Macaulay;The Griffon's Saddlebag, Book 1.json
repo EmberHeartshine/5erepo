@@ -1806,19 +1806,19 @@
 				{
 					"name": "Necromantic Form",
 					"entries": [
-						"The tendril can occupy another creature’s space and vice versa. The tendril is immune to any spell or effect that would alter its form."
+						"The tendril can occupy another creature's space and vice versa. The tendril is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Planted",
 					"entries": [
-						"The tendril isn’t affected by forced movement, and it doesn’t need to make a check to cling to difficult surfaces like walls or ceilings."
+						"The tendril isn't affected by forced movement, and it doesn't need to make a check to cling to difficult surfaces like walls or ceilings."
 					]
 				},
 				{
 					"name": "Will of Dendallen",
 					"entries": [
-						"The tendril shares a psychic link with {@creature spirit of Dendallen|tgs1|the spirit} as well as the host while it’s controlled by the spirit. The tendril doesn’t provide cover to hostile creatures against attacks made through the tendril’s space by the spirit of Dendallen or its enthralled host."
+						"The tendril shares a psychic link with {@creature spirit of Dendallen|tgs1|the spirit} as well as the host while it's controlled by the spirit. The tendril doesn't provide cover to hostile creatures against attacks made through the tendril's space by the spirit of Dendallen or its enthralled host."
 					]
 				}
 			],
@@ -1826,13 +1826,13 @@
 				{
 					"name": "Grasp",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) force damage plus 9 ({@damage 2d8}) acid damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 16}) and must succeed on a {@dc 16} Strength saving throw or be pulled up to 5 feet toward the tendril. Until this grapple ends, the tendril can’t grasp another target."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) force damage plus 9 ({@damage 2d8}) acid damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 16}) and must succeed on a {@dc 16} Strength saving throw or be pulled up to 5 feet toward the tendril. Until this grapple ends, the tendril can't grasp another target."
 					]
 				},
 				{
 					"name": "Fling",
 					"entries": [
-						"One Medium or smaller object or creature grappled by the tendril is thrown up to 20 feet in a direction of the tendril’s choice and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 16} Dexterity saving throw or take the same damage and be knocked prone."
+						"One Medium or smaller object or creature grappled by the tendril is thrown up to 20 feet in a direction of the tendril's choice and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 16} Dexterity saving throw or take the same damage and be knocked prone."
 					]
 				},
 				{
@@ -2022,7 +2022,7 @@
 			"entries": [
 				"Native to the jungles of Elsath, invisiboars are literally invisible boars. It's largely believed that these strange pigs owe their existence to the wild magic that flows through the jungles of the world, and the fact that so many of them are found near sites of permanent or programmed illusions lends further credence to that theory.",
 				"Invisiboars are consummate hunters who use their innate invisibility to stalk their prey before viciously charging it. When pitted against tougher combatants, they utilize hit and run tactics that let them charge the same target repeatedly.",
-				"When invisiboars are killed, the magic that conceals them “bursts,” blinding creatures who witness the burst."
+				"When invisiboars are killed, the magic that conceals them \"bursts,\" blinding creatures who witness the burst."
 			]
 		},
 		{
