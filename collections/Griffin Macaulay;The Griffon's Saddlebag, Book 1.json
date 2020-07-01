@@ -1582,23 +1582,28 @@
 						"Dendallen's belief that self-sacrifice leads to self-improvement is a fervent mantra held by his followers. In general, those that subscribe to Dendallen's teachings believe that in order to truly become greater, you must be willing to let go of the mortal trappings that bind you. The major tenets of Dendallen are as follows:",
 						{
 							"type": "entries",
-							"name": "Embrace Self-Sacrifice",
 							"entries": [
-								"To forget the familiar as a price for greatness is admirable."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Conquer your Limits",
-							"entries": [
-								"To become more powerful is to embrace the purpose of life."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Enforce your Will",
-							"entries": [
-								"To conquer all obstacles in your path is to ensure success."
+								{
+									"type": "entries",
+									"name": "Embrace Self-Sacrifice",
+									"entries": [
+										"To forget the familiar as a price for greatness is admirable."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conquer your Limits",
+									"entries": [
+										"To become more powerful is to embrace the purpose of life."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enforce your Will",
+									"entries": [
+										"To conquer all obstacles in your path is to ensure success."
+									]
+								}
 							]
 						}
 					]
