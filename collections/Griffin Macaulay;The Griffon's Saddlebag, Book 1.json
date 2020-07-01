@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1593429293,
-		"dateLastModified": 1593626798
+		"dateLastModified": 1593631548
 	},
 	"monster": [
 		{
@@ -976,6 +976,237 @@
 					"source": "tgs1"
 				}
 			}
+		},
+		{
+			"name": "Winged Wretch",
+			"source": "tgs1",
+			"page": 197,
+			"size": "M",
+			"type": {
+				"type": "monstrosity"
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 50
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 12,
+			"int": 7,
+			"wis": 12,
+			"cha": 7,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Undercommon"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Echolocation",
+					"entries": [
+						"The winged wretch can't use its blindsight while {@condition deafened}."
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The winged wretch has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The winged wretch makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"forest",
+				"hearth"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"U"
+			],
+			"damageTags": [
+				"S",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Winged Wretch",
+					"source": "tgs1"
+				}
+			}
+		},
+		{
+			"name": "Greater Winged Wretch",
+			"source": "tgs1",
+			"page": 197,
+			"size": "L",
+			"type": {
+				"type": "monstrosity"
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 20",
+				"average": 75
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60
+			},
+			"str": 18,
+			"dex": 17,
+			"con": 15,
+			"int": 10,
+			"wis": 12,
+			"cha": 9,
+			"save": {
+				"str": "+6",
+				"con": "+4",
+				"wis": "+3"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Undercommon"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Echolocation",
+					"entries": [
+						"The greater winged wretch can't use its blindsight while {@condition deafened}."
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The greater winged wretch has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The greater winged wretch makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Thunderous Shriek {@recharge 5}",
+					"entries": [
+						"The greater winged wretch shrieks, emitting a wave of thunderous force in a 30-foot cone that originates from the wretch. Each creature in the area must make a {@dc 12} Constitution saving throw. On a failed save, a creature takes 17 ({@damage 5d6}) thunder damage and is deafened for 1 minute. On a successful save, a creature takes half as much damage and isn't deafened."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"forest",
+				"hearth"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"U"
+			],
+			"damageTags": [
+				"S",
+				"P"
+			],
+			"conditionInflicted": [
+				"deafened"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Winged Wretch",
+					"source": "tgs1"
+				}
+			}
 		}
 	],
 	"monsterFluff": [
@@ -1142,6 +1373,13 @@
 			"entries": [
 				"As the name suggests, swordbeaks are huge birds with 10-foot-long razor-sharp beaks. These beaks are capable of punching through stone and steel. Voracious carnivores, they often attack large creatures, and even humanoids, in grasslands, hillsides, coasts, and other open areas.",
 				"Swordbeak nests are usually littered with gold, gems, and other valuables that their humanoid prey were carrying at their time of death. Appreciative of shiny objects, swordbeaks defend their collected treasures almost as fiercely as they do a clutch of eggs."
+			]
+		},
+		{
+			"name": "Winged Wretch",
+			"source": "tgs1",
+			"entries": [
+				"Winged wretches are swarming bat-humanoid hybrids native to subterranean realms and tropical jungles. Although they resemble certain shapechangers and vampires, they are not blood-drinkers. Regardless, they are cruel creatures who delight in the torture of weaker prey."
 			]
 		}
 	],
