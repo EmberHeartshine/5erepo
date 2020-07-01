@@ -279,7 +279,7 @@
 			"speed": {
 				"walk": {
 					"number": 30,
-					"condition": " (40 ft. in mammoth or hybrid form)"
+					"condition": "(40 ft. in mammoth or hybrid form)"
 				}
 			},
 			"str": 24,
@@ -422,7 +422,8 @@
 				"walk": 30,
 				"fly": {
 					"number": 60,
-					"condition": " (hover)"
+					"condition": "(hover)",
+					"canHover": true
 				}
 			},
 			"str": 6,
@@ -645,7 +646,13 @@
 			],
 			"miscTags": [
 				"MW"
-			]
+			],
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Sporehusk",
+					"source": "tgs1"
+				}
+			}
 		},
 		{
 			"name": "Scout Sporehusk",
@@ -785,18 +792,12 @@
 			"miscTags": [
 				"MW",
 				"RW"
-			],
-			"fluff": {
-				"_copy": {
-					"name": "Risen Sporehusk",
-					"source": "tgs1"
-				}
-			}
+			]
 		}
 	],
 	"monsterFluff": [
 		{
-			"name": "Risen Sporehusk",
+			"name": "Sporehusk",
 			"source": "tgs1",
 			"entries": [
 				"The creatures that fall victim to the Lightspore's influence become sporehusks: empty shells of their former selves whose only purpose is to nourish the great Lightspore at the center of the festerwood.",
@@ -942,14 +943,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Scout Sporehusk",
-			"source": "tgs1",
-			"_copy": {
-				"name": "Risen Sporehusk",
-				"source": "tgs1"
-			}
 		}
 	],
 	"race": [
