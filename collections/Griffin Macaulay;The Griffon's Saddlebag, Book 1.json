@@ -831,6 +831,181 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Band of Mirrored Essence",
+			"source": "tgs1",
+			"page": 33,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"This unassuming platinum ring is polished to a mirror finish. When you reduce a Small or larger hostile creature to 0 hit points while wearing the ring, you can use your reaction to absorb a portion of that creature's essence into the ring. Looking into the ring shows the reflection of the creature whose essence is held inside. As an action, you can release the captured essence and assume either the creature's appearance or one of its features.",
+				"If you take on the appearance of the creature, it must be a creature no more than one size larger or smaller than you. You do not physically change in size or shape, but your body is shrouded in a convincing illusion. Your voice changes to match the creature's, and you can understand any of its known languages but can neither read nor speak any that you don't already know. Another creature can see through the illusion by succeeding on a {@dc 16} Intelligence ({@skill Investigation}) check. Physical interaction with this illusory form reveals it to be an illusion, because things can pass through it. The illusion lasts for 8 hours or until you dismiss it as a bonus action or fall unconscious.",
+				"If you assume one of the creature's features, your body or mind temporarily changes to accommodate the new ability. You can choose to gain 1 skill or saving throw proficiency, damage resistance, condition immunity, sense, or language that the creature had. If the creature could breathe underwater, you can choose to gain that feature instead. You retain this feature for 8 hours or until you dismiss it as a bonus action or fall unconscious.",
+				"Once you capture an essence with the ring, you can't do so again for {@dice 1d8} hours. You can only have 1 essence at a time. If you capture an essence when you already have one, you replace the original."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Band-of-Mirrored-Essence.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bands of the Found and Lost",
+			"source": "tgs1",
+			"page": 33,
+			"tier": "minor",
+			"rarity": "common",
+			"entries": [
+				"The compass-like mechanisms on top of these matching leather bracelets remain motionless until each bracelet is worn by a different creature. While they're worn, each compass points in the direction of the other matching band. It doesn't indicate height or depth. The compasses spin wildly if the two bands are worn on different planes of existence."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bands-of-the-Found-and-Lost.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bard-in-a-Box",
+			"source": "tgs1",
+			"page": 33,
+			"tier": "minor",
+			"rarity": "common",
+			"entries": [
+				"This small music box can play songs at the request of the holder. As a bonus action, you can command the box to play a song for which it has music, causing the contraption to emit a slightly tinny rendition of the musical number. The box can know up to 5 songs at a time but can't recreate lyrics or other creature sounds. The box has a knob on its side to adjust its volume: able to be as quiet as a whisper or as loud as a scream.",
+				"Sheet music can be fed into the box through a narrow slot along the bottom of the device. Sheet music must be labeled with a song title, page number, and instrument in order to be replayed. Pages failing to meet the requirements cause the box to make a sad, discordant noise before being spat back out. Once a sheet is successfully fed into the box, it is consumed and can't be retrieved.",
+				"If a new piece of music causes the box to forget an older one, it quickly plays several bars of the now-forgotten number before it slows to a stop."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bard-in-a-Box.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Barge Helm",
+			"source": "tgs1",
+			"page": 34,
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"This flat, rugged helmet lets you run headlong into targets and bowl them over with abandon. If you move at least 20 feet straight toward a target and then {@action shove} them on the same turn, the target takes {@damage 1d6} bludgeoning damage from being barreled into by the helmet."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Barge-Helm.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Barricade Shield",
+			"source": "tgs1",
+			"page": 34,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"While holding this sturdy iron shield, you can use an action to plant it on the ground and expand its height and width to stretch up to 15 feet across in either direction, potentially becoming a defensive wall or similar platform. The edges of the shield magically conform to fit the shape of an enclosed space, such as the walls of a tunnel or hallway. While holding the expanded shield in place, your speed becomes 0 and you have disadvantage on Dexterity checks and Dexterity saving throws. Regardless of the shield's size, its weight always remains the same.",
+				"The expanded shield is considered a nonmagical structure that has an AC of 14 and 40 hit points. The shield can remain expanded for up to 1 minute before it reverts back to its normal size. The expanded shield reverts early (but is not destroyed) if it reaches 0 hit points or moves. If you're holding the expanded shield, you can choose to revert it early using a bonus action.",
+				"Once this property has been used, it can't be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Barricade-Shield.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Basco's Handy Bangle",
+			"source": "tgs1",
+			"page": 34,
+			"tier": "major",
+			"rarity": "rare",
+			"entries": [
+				"This shiny platinum bangle is inlaid with arcane runes that seem to be written by different hands. Labels can be read behind each of the adorning runes on the inside of the bangle. As an action, you can touch one of the runes and say the command phrase, “I can do this,” to gain proficiency in the rune's associated tool for the next 24 hours. The rune glows with arcane energy while in effect. Once a rune is activated in this way, it can't be activated again until 1d4 days have passed.",
+				"There are 10 runes on the bangle that can be activated in this way: {@item alchemist's supplies|phb}, {@item carpenter's tools}, {@item cook's utensils|phb}, {@item leatherworker's tools|phb}, {@item smith's tools|phb}, {@item tinker's tools|phb}, {@item musical instrument|phb|instruments} ({@item drum|phb}, {@item flute|phb}, {@item lute|phb}, {@item lyre|phb}), {@item navigator's tools|phb}, {@item thieves' tools|phb}, and {@table Mountes and Vehicles; Waterborne Vehicles||vehicles (water)}. If you're already proficient with any of these tools, your proficiency bonus is doubled for any ability check you make that uses the tool while the rune is active."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bascos-Handy-Bangle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Basalisk Dagger",
+			"source": "tgs1",
+			"page": 34,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"This magic dagger was made from pieces of a slain basilisk and still retains some of its properties. The dagger deals an extra {@damage 1d4} poison damage to any target it hits.",
+				"In addition, when you score a critical hit with this weapon against a Large or smaller creature, that creature must succeed on a {@dc 13} Constitution saving throw or be restrained until the end of your next turn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Basalisk-Dagger.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
