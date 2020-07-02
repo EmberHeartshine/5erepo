@@ -18,6 +18,112 @@
 		"dateAdded": 1593429293,
 		"dateLastModified": 1593631548
 	},
+	"item": [
+		{
+			"name": "Abjurer's Glider",
+			"source": "tgs1",
+			"page": 29,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": "by a wizard",
+			"wondrous": true,
+			"attachedSpells": [
+				"shield"
+			],
+			"entries": [
+				"This golden badge is usually given to wizards who either excel at or who have mastered abjuration magic as a symbol of their accomplishments. While wearing this badge, you always have the {@spell shield} spell prepared if you know it, and it doesn’t count against the number of spells you can have prepared. In addition, whenever you cast the {@i shield} spell, you can take another reaction before the start of your next turn. This second reaction can’t be used to cast the {@i shield} spell again."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Abjurers-Glider.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Acidlight Arrow",
+			"source": "tgs1",
+			"page": 29,
+			"type": "A",
+			"tier": "minor",
+			"rarity": "rare",
+			"dmgType": "A",
+			"entries": [
+				"This ammunition is covered in an alchemical concoction that ignites upon impact, casting bright light in the space of the target it hits and dim light in a 5-foot radius for 1 minute. A creature struck by the ammunition takes {@damage 1d4} acid damage at the start of each of its turns and has disadvantage on any Dexterity ({@skill Stealth}) checks it makes while the ammunition remains lit. The ammunition remains lodged in a target it hits until a creature uses an action to remove and snuff out the ammunition. If the target is invisible, it’s revealed while the ammunition is lodged within it. The ammunition is destroyed by the lit solution, preventing it from being recovered once fired."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Acidlight-Arrow.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Aegis of Radiance",
+			"source": "tgs1",
+			"page": 29,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a cleric",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"entries": [
+				"This shield emits a faint, holy glow when wielded and recognizes your devotion to a higher power. When you attune to this shield, the emblem adorning its face changes to one that represents your chosen deity, allowing you to use the shield as a holy symbol. You gain a +1 bonus to your AC while wielding this shield in addition to the shield’s normal bonus to AC.",
+				"While wielding the shield, you can speak its command word as a bonus action to cause it to shatter into countless fragments of pure light. The pieces of light protect you as if you were wielding the shield, leaving your hands free. The light surrounds you for 1 minute, until you dismiss the effect as a bonus action, or until you fall unconscious or die, at which point the shield rematerializes on the ground at your feet or into your hand if you have one free. If your holy symbol is emblazoned or attached to the shield, it floats prominently amidst the shards of light and continues to function as a spellcasting focus. Undead creatures have disadvantage on attack rolls made against you while you’re surrounded by the light in this way. The surrounding shards of light cast bright light in a 20 foot radius and dim light for another 20 feet. Once this property has been used, it can’t be used again until the following dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Aegis-of-Radiance.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Amulet of Equilibrium",
+			"source": "tgs1",
+			"page": 29,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"This spiraling pendant is made of three magic-sensitive panes of colorful crystal. Each piece of crystal is attuned to a different arcane element. If you can cast spells, you can use the amulet as a spellcasting focus while you’re attuned to it.",
+				"The amulet has 4 charges and regains 2 expended charges daily at dawn. When you deal cold, fire, or lightning damage to a single creature while wearing the amulet, you can expend any number of its charges to reroll that many of the cold, fire, or lightning damage dice. You must use the new rolls.",
+				"Whenever you take cold, fire, or lightning damage from a hostile creature, the amulet regains 1 charge."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Amulet-of-Equilibrium.jpg"
+						}
+					}
+				]
+			}
+		}
+	],
 	"monster": [
 		{
 			"name": "Glacier Bulette",
