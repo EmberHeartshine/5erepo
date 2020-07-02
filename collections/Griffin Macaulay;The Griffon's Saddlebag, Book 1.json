@@ -617,7 +617,7 @@
 				"scrying",
 				"see invisibility",
 				"sending",
-				"telepathinc bond"
+				"Rary's telepathinc bond"
 			],
 			"entries": [
 				"An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.",
@@ -656,7 +656,7 @@
 								],
 								[
 									"5",
-									"{@spell scrying}, {@spell telepathic bond}"
+									"{@spell scrying}, {@spell Rary's telepathic bond}"
 								]
 							]
 						}
@@ -761,7 +761,7 @@
 				"speak with animals"
 			],
 			"entries": [
-				"This ornate silver tiara grants you power over certain flying creatures. You can use an action to cast animal messenger or speak with animals at will using the circlet. Any creature affected by these spells must be a beast and have a flying speed.",
+				"This ornate silver tiara grants you power over certain flying creatures. You can use an action to cast {@spell animal messenger} or {@spell speak with animals} at will using the circlet. Any creature affected by these spells must be a beast and have a flying speed.",
 				"In addition, you can touch a willing beast with a flying speed. For 1 minute, you can see through the creature's eyes, sharing any of its special visual senses for the duration. You are blinded to your own surroundings while you share its vision in this way. You can end this effect early using an action to return to your normal senses. Once this property has been used, it can't be used again until this next dawn."
 			],
 			"fluff": {
