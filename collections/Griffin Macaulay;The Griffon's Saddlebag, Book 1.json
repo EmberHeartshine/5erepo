@@ -90,7 +90,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Aegis-of-Radiance.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Aegis-of-Radiance.jpg"
 						}
 					}
 				]
@@ -118,6 +118,558 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Amulet-of-Equilibrium.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Mirror",
+			"source": "tgs1",
+			"page": 30,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"shield"
+			],
+			"entries": [
+				"This mirror-like shield is enchanted with abjuration magic that can reflect spells back at their source. While holding the shield, you can use it as a reaction when hit by an attack to cast the shield spell from it. Once this property has been used, it can’t be used again until you finish a short or long rest.",
+				"The shield has 10 charges and regains {@dice 1d6 + 4} expended charges each day at dawn. When you succeed on a saving throw to resist the effects of a spell that targets only you or are missed by a spell attack, you can use your reaction to learn the level of the spell. As part of your reaction, you can expend a number of the shield’s charges equal to the level of the spell (up to 6th level) to reflect that spell back at its source. You can’t reflect a spell of 7th level or higher. When you reflect a spell in this way, the caster of the spell must make a {@dc 16} Dexterity saving throw. On a failed save, the target takes {@damage 1d8} radiant damage for each expended charge as a bolt of reflected arcane energy hits them. On a successful save, the damage is halved. If you reflect a spell in this way that would cause you to take half damage on a successful save, you take no damage instead."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Arcane-Mirror.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcanist's Bowstaff",
+			"source": "tgs1",
+			"page": 30,
+			"baseItem": "quarterstaff|phb",
+			"rarity": "very rare",
+			"reqAttune": "by a creature with an Intelligence of 17 or higher",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeapon": "+2",
+			"staff": true,
+			"recharge": "dawn",
+			"charges": 8,
+			"attachedSpells": [
+				"magic missile"
+			],
+			"entries": [
+				"When you attune to this quarterstaff, it remains solid in your grip but feels pliable within your mind. You can choose to use your Intelligence modifier for the attack and damage rolls made with this weapon instead of Strength. You must use the same modifier for both rolls.",
+				"When you make an attack with this magic weapon, you can choose to make the attack at range. When you do, you use your mind to telekinetically curve the quarterstaff into the form of a {@item longbow|phb}. The bow is magically strung with an arcane energy that arcs between the rings on either end of the weapon. A glowing, magical arrow is formed whenever the arcing energy is drawn back. The arrow disappears after it hits a target. When you make a ranged attack with the quarterstaff in this way, the weapon is treated as if it were a magical longbow. This longbow can only use the ammunition that it generates and does not have the heavy property. While holding this weapon, you’re proficient with this longbow when using it in this way.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"In addition, this quarterstaff has 8 charges and regains {@dice 1d6 + 2} expended charges daily at dawn. When you take the Attack action with this weapon, you can expend 1 of its charges to cast the {@spell magic missile} spell from the quarterstaff as a bonus action, instead of its normal casting time. When you do, the missiles are fired from either the bow or the quarterstaff ’s embossed faces."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Arcanists-Bowstaff.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Architect's Distain",
+			"source": "tgs1",
+			"page": 30,
+			"baseItem": "war pick|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"attachedSpells": [
+				"dispel magic"
+			],
+			"entries": [
+				"This adamantine war pick is specially designed to tear down walls. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Whenever the war pick hits an object or structure, the hit is a critical hit. In addition, if you hit a magically created object or structure, such as a {@spell wall of ice}, with the war pick, you can choose to dispel the wall or object as if by the {@spell dispel magic} spell (6th-level version). The effect fails if the spell or magical effect that created the object or structure was cast using a 7th-level spell slot or higher. Once the war pick has dispelled a structure in this way, this property can’t be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Architects-Disdain.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Astral Bracelet of Energy",
+			"source": "tgs1",
+			"page": 31,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": "by a sorcerer or wizard",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"dispel magic",
+				"Tenser's floating disk",
+				"globe of invulnerability",
+				"hallucinatory terrain",
+				"hypnotic pattern",
+				"protection from energy",
+				"Otiluke's resilient sphere"
+			],
+			"entries": [
+				"An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.",
+				"The bracelet has 10 charges and regains {@dice 2d4 + 2} expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.",
+				{
+					"name": "Spells",
+					"entries": [
+						"Each kind of astral bracelet has a different list spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:",
+						{
+							"type": "table",
+							"caption": "Astral Bracelet of Energy Spells",
+							"colLabels": [
+								"Charges",
+								"Spells"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Tenser's floating disk}"
+								],
+								[
+									"3",
+									"{@spell dispel magic}, {@spell hypnotic pattern}, {@spell protection from energy}"
+								],
+								[
+									"4",
+									"{@spell hallucinatory terrain}, {@spell Otiluke's resilient sphere}"
+								],
+								[
+									"6",
+									"{@spell globe of invulnerability}"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Astral-Bracelet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Astral Bracelet of Heavens",
+			"source": "tgs1",
+			"page": 31,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": "by a cleric or paladin",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"detect evil and good",
+				"dispel evil and good",
+				"divination",
+				"magic circle",
+				"protection from evil and good",
+				"spirit guardians",
+				"warding bond"
+			],
+			"entries": [
+				"An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.",
+				"The bracelet has 10 charges and regains {@dice 2d4 + 2} expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.",
+				{
+					"name": "Spells",
+					"entries": [
+						"Each kind of astral bracelet has a different list spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:",
+						{
+							"type": "table",
+							"caption": "Astral Bracelet of Heavens Spells",
+							"colLabels": [
+								"Charges",
+								"Spells"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell detect evil and good}, {@spell protection from evil and good}"
+								],
+								[
+									"2",
+									"{@spell warding bond}"
+								],
+								[
+									"3",
+									"{@spell magic circle}, {@spell spirit guardians}"
+								],
+								[
+									"4",
+									"{@spell divination}"
+								],
+								[
+									"5",
+									"{@spell dispel evil and good}"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Astral-Bracelet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Astral Bracelet of Hells",
+			"source": "tgs1",
+			"page": 31,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": "by a cleric, warlock, or wizard",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"detect evil and good",
+				"dispel evil and good",
+				"fire shield",
+				"flaming sphere",
+				"hellish rebuke",
+				"magic circle",
+				"protection from evil and good"
+			],
+			"entries": [
+				"An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.",
+				"The bracelet has 10 charges and regains {@dice 2d4 + 2} expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.",
+				{
+					"name": "Spells",
+					"entries": [
+						"Each kind of astral bracelet has a different list spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:",
+						{
+							"type": "table",
+							"caption": "Astral Bracelet of Hells Spells",
+							"colLabels": [
+								"Charges",
+								"Spells"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell detect evil and good}, {@spell protection from evil and good}, {@spell hellish rebuke}"
+								],
+								[
+									"2",
+									"{@spell flaming sphere}"
+								],
+								[
+									"3",
+									"{@spell magic circle}"
+								],
+								[
+									"4",
+									"{@spell fire shield}"
+								],
+								[
+									"5",
+									"{@spell dispel evil and good}"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Astral-Bracelet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Astral Bracelet of Knowledge",
+			"source": "tgs1",
+			"page": 31,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": "by a bard, cleric, druid, ranger, or wizard",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"comprehend languages",
+				"detect magic",
+				"dispel magic",
+				"identify",
+				"legend lore",
+				"locate creature",
+				"locate object",
+				"sending"
+			],
+			"entries": [
+				"An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.",
+				"The bracelet has 10 charges and regains {@dice 2d4 + 2} expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.",
+				{
+					"name": "Spells",
+					"entries": [
+						"Each kind of astral bracelet has a different list spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:",
+						{
+							"type": "table",
+							"caption": "Astral Bracelet of Knowledge Spells",
+							"colLabels": [
+								"Charges",
+								"Spells"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell comprehend languages}, {@spell detect magic}, {@spell identify}"
+								],
+								[
+									"2",
+									"{@spell locate object}"
+								],
+								[
+									"3",
+									"{@spell dispel magic}, {@spell sending}"
+								],
+								[
+									"4",
+									"{@spell locate creature}"
+								],
+								[
+									"5",
+									"{@spell legend lore}"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Astral-Bracelet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Astral Bracelet of Planebending",
+			"source": "tgs1",
+			"page": 31,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": "by a sorcerer, warlock, or wizard",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"banishment",
+				"dimension door",
+				"find familiar",
+				"misty step",
+				"plane shift",
+				"rope trick",
+				"sending"
+			],
+			"entries": [
+				"An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.",
+				"The bracelet has 10 charges and regains {@dice 2d4 + 2} expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.",
+				{
+					"name": "Spells",
+					"entries": [
+						"Each kind of astral bracelet has a different list spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:",
+						{
+							"type": "table",
+							"caption": "Astral Bracelet of Planebending Spells",
+							"colLabels": [
+								"Charges",
+								"Spells"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell find familiar}"
+								],
+								[
+									"2",
+									"{@spell misty step}, {@spell rope trick}"
+								],
+								[
+									"3",
+									"{@spell sending}"
+								],
+								[
+									"4",
+									"{@spell banishment}, {@spell dimension door}"
+								],
+								[
+									"7",
+									"{@spell plane shift}"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Astral-Bracelet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+		
+			"name": "Astral Bracelet of Omniscience",
+			"source": "tgs1",
+			"page": 31,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": "by a wizard",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"arcane eye",
+				"detect magic",
+				"detect thoughts",
+				"scrying",
+				"see invisibility",
+				"sending",
+				"telepathinc bond"
+			],
+			"entries": [
+				"An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.",
+				"The bracelet has 10 charges and regains {@dice 2d4 + 2} expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.",
+				{
+					"name": "Spells",
+					"entries": [
+						"Each kind of astral bracelet has a different list spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:",
+						{
+							"type": "table",
+							"caption": "Astral Bracelet of Omniscience Spells",
+							"colLabels": [
+								"Charges",
+								"Spells"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell detect magic}"
+								],
+								[
+									"2",
+									"{@spelldetect thoughts}, {@spell see invisibility}"
+								],
+								[
+									"3",
+									"{@spell sending}"
+								],
+								[
+									"4",
+									"{@spell arcane eye}"
+								],
+								[
+									"5",
+									"{@spell scrying}, {@spell telepathic bond}"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Astral-Bracelet.jpg"
 						}
 					}
 				]
