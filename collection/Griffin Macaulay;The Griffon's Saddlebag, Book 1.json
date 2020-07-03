@@ -1173,39 +1173,6 @@
 			}
 		},
 		{
-			"name": "Battlement Bow",
-			"source": "tgs1",
-			"page": 36,
-			"srd": true,
-			"baseItem": "any bow",
-			"type": "R",
-			"tier": "major",
-			"rarity": "uncommon",
-			"reqAttune": true,
-			"weight": 2,
-			"weaponCategory": "martial",
-			"property": [
-				"A",
-				"2H"
-			],
-			"range": "*",
-			"ammoType": "arrow|phb",
-			"entries": [
-				"This magic bow is enchanted with passive abjuration protections. When you hit a creature with a ranged attack using this bow, the bow creates a thin barrier of protective magic that stays between you and that creature until the start of your next turn. If you hit a different creature while protected by this barrier, the barrier moves to defend you against the new target instead. While the barrier is protecting you against a creature in this way, you’re considered to have half cover against that creature’s ranged attacks and spell effects."
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battlement-Bow.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
 			"name": "Belt of the Raid Leader",
 			"source": "tgs1",
 			"page": 36,
@@ -5346,27 +5313,17 @@
 			"type": "GV",
 			"requires": [
 				{
-					"type": "R",
-					"property": [
-						"A",
-						"2H"
-					]
+					"type": "bow"
 				}
 			],
-			"excludes": {
-				"property": [
-					"LD",
-					"T"
-				]
-			},
 			"inherits": {
-				"namePrefix": "Battlement ",
-				"source": "tgs1",
-				"page": 36,
+				"genericBonus": "+1",
 				"tier": "major",
 				"rarity": "uncommon",
+				"source": "tgs1",
+				"page": 36,
+				"namePrefix": "Battlement ",
 				"reqAttune": true,
-				"bonusWeapon": "+1",
 				"entries": [
 					"This magic bow is enchanted with passive abjuration protections. When you hit a creature with a ranged attack using this bow, the bow creates a thin barrier of protective magic that stays between you and that creature until the start of your next turn. If you hit a different creature while protected by this barrier, the barrier moves to defend you against the new target instead. While the barrier is protecting you against a creature in this way, you’re considered to have half cover against that creature’s ranged attacks and spell effects."
 				],
