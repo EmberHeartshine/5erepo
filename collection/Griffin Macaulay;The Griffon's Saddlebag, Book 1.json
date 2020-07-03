@@ -1031,7 +1031,7 @@
 		},
 		{
 			"name": "Baton of Many Sizes",
-			"source": "DMG",
+			"source": "tgs1",
 			"page": 35,
 			"type": "RD",
 			"tier": "minor",
@@ -1117,6 +1117,113 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battlebrew-Maul.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Battlechef Buckler",
+			"source": "tgs1",
+			"page": 36,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This small shield is the repurposed pot lid of a famous adventuring chef. While wielding the shield, you have advantage on saving throws to resist or avoid taking fire damage. In addition, if you place the shield face down over a pot or similar vessel that’s holding no more than 2 gallons of a water-based liquid inside, the vessel and its liquid comes to a rolling boil after 10 minutes."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battleshef-Buckler.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Battlechef's Splendid Saucepan",
+			"source": "tgs1",
+			"page": 36,
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 4,
+			"wondrous": true,
+			"entries": [
+				"This magic saucepan can be used to turn nearly anything into a delicious and filling meal. You can boil 1 pound of any one or combination of organic, nonmagical materials for 10 minutes or longer to magically transform them into a stew that can nourish up to 4 creatures for 24 hours.",
+				"The saucepan also functions as a {@item mace|phb}, granting you a +1 bonus to attack and damage rolls made with it. The saucepan deals an extra {@damage 1d4} thunder damage to any target it hits that’s either wearing metal armor or made of metal or stone.",
+				"If you’re not wearing heavy armor, you can use an action to either wear or remove the saucepan as a helmet. While wearing the saucepan in this way, you gain a +1 bonus to your AC."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battlechefs-Splendid-Saucepan.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Oathbow",
+			"source": "tgs1",
+			"page": 36,
+			"srd": true,
+			"baseItem": "any bow",
+			"type": "R",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"dmgType": "P",
+			"ammoType": "arrow|phb",
+			"entries": [
+				"This magic bow is enchanted with passive abjuration protections. When you hit a creature with a ranged attack using this bow, the bow creates a thin barrier of protective magic that stays between you and that creature until the start of your next turn. If you hit a different creature while protected by this barrier, the barrier moves to defend you against the new target instead. While the barrier is protecting you against a creature in this way, you’re considered to have half cover against that creature’s ranged attacks and spell effects."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battlement-Bow.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Belt of the Raid Leader",
+			"source": "tgs1",
+			"page": 36,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": "by a half-orc or orc",
+			"entries": [
+				"This thick leather belt is reinforced with large rivets and secured with a heavy iron skull buckle. While wearing this belt, you can use an action to let loose a powerful war cry that inspires you and up to 5 friendly creatures within 60 feet of you of your choice that can hear you. An inspired creature has advantage on attack rolls until the start of your next turn. When you use this property of the belt, you can make one weapon attack as a bonus action.",
+				"Once this property has been used, it can’t be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Belt-of-the-Raid-Leader.jpg"
 						}
 					}
 				]
