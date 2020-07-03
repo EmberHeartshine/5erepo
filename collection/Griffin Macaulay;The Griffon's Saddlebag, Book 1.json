@@ -1039,7 +1039,7 @@
 			"weight": 2,
 			"entries": [
 				"While holding this segmented, 1-foot-long rod, you can speak its command word as an action to cause it to extend in either direction. The rod can extend up to 50 feet or as far as the surrounding space allows. If the rod touches another creature or surface before reaching its full length, the rod stops moving in that direction. If it stops moving against a solid, unmoving surface, the rod fills the gaps to hold firm against it.",
-				"The rod is unwieldy to hold once it’s longer than 10 feet, forcing you to make a Strength ({@skill Athletics}) check to maintain your grip on it while it’s extended beyond that range. The DC for this check is equal to 8 + 1 for every 5 feet beyond 10 that the rod is extended. For example, the DC is 9 while the rod is 15 feet long, but 16 while a full 50 feet. If you lose your grip and drop the rod or use it to make an attack while it’s extended more than 10 feet, it immediately retracts back to its shortened length. You can speak the rod’s command word again as an action to cause it to retract."
+				"The rod is unwieldy to hold once it's longer than 10 feet, forcing you to make a Strength ({@skill Athletics}) check to maintain your grip on it while it's extended beyond that range. The DC for this check is equal to 8 + 1 for every 5 feet beyond 10 that the rod is extended. For example, the DC is 9 while the rod is 15 feet long, but 16 while a full 50 feet. If you lose your grip and drop the rod or use it to make an attack while it's extended more than 10 feet, it immediately retracts back to its shortened length. You can speak the rod's command word again as an action to cause it to retract."
 			],
 			"fluff": {
 				"images": [
@@ -1073,7 +1073,7 @@
 			"bonusWeapon": "+1",
 			"entries": [
 				"This golden battleaxe is the chosen weapon of many merchants and followers of mercantile deities. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"When you roll a 20 on an attack roll with this weapon against a Small or larger hostile creature, you magically earn a number of gold coins equal to the attack’s damage. When you do, the axe glimmers like a sparkling coin, and you can sense the weight and clink of coins magically falling into your purse, pocket, or bag (your choice). If you have no room for the coins or don’t want them to be immediately added to your storage, the coins erupt from the wound you inflict on the target instead. Once the axe generates coins in this way, it can’t create any more for 12 hours."
+				"When you roll a 20 on an attack roll with this weapon against a Small or larger hostile creature, you magically earn a number of gold coins equal to the attack's damage. When you do, the axe glimmers like a sparkling coin, and you can sense the weight and clink of coins magically falling into your purse, pocket, or bag (your choice). If you have no room for the coins or don't want them to be immediately added to your storage, the coins erupt from the wound you inflict on the target instead. Once the axe generates coins in this way, it can't create any more for 12 hours."
 			],
 			"fluff": {
 				"images": [
@@ -1133,7 +1133,7 @@
 			"weight": 6,
 			"ac": 2,
 			"entries": [
-				"This small shield is the repurposed pot lid of a famous adventuring chef. While wielding the shield, you have advantage on saving throws to resist or avoid taking fire damage. In addition, if you place the shield face down over a pot or similar vessel that’s holding no more than 2 gallons of a water-based liquid inside, the vessel and its liquid comes to a rolling boil after 10 minutes."
+				"This small shield is the repurposed pot lid of a famous adventuring chef. While wielding the shield, you have advantage on saving throws to resist or avoid taking fire damage. In addition, if you place the shield face down over a pot or similar vessel that's holding no more than 2 gallons of a water-based liquid inside, the vessel and its liquid comes to a rolling boil after 10 minutes."
 			],
 			"fluff": {
 				"images": [
@@ -1157,8 +1157,8 @@
 			"wondrous": true,
 			"entries": [
 				"This magic saucepan can be used to turn nearly anything into a delicious and filling meal. You can boil 1 pound of any one or combination of organic, nonmagical materials for 10 minutes or longer to magically transform them into a stew that can nourish up to 4 creatures for 24 hours.",
-				"The saucepan also functions as a {@item mace|phb}, granting you a +1 bonus to attack and damage rolls made with it. The saucepan deals an extra {@damage 1d4} thunder damage to any target it hits that’s either wearing metal armor or made of metal or stone.",
-				"If you’re not wearing heavy armor, you can use an action to either wear or remove the saucepan as a helmet. While wearing the saucepan in this way, you gain a +1 bonus to your AC."
+				"The saucepan also functions as a {@item mace|phb}, granting you a +1 bonus to attack and damage rolls made with it. The saucepan deals an extra {@damage 1d4} thunder damage to any target it hits that's either wearing metal armor or made of metal or stone.",
+				"If you're not wearing heavy armor, you can use an action to either wear or remove the saucepan as a helmet. While wearing the saucepan in this way, you gain a +1 bonus to your AC."
 			],
 			"fluff": {
 				"images": [
@@ -1178,10 +1178,11 @@
 			"page": 36,
 			"tier": "major",
 			"rarity": "rare",
-			"wondrous": "by a half-orc or orc",
+			"wondrous": true,
+			"reqAttune": "by a half-orc or orc",
 			"entries": [
 				"This thick leather belt is reinforced with large rivets and secured with a heavy iron skull buckle. While wearing this belt, you can use an action to let loose a powerful war cry that inspires you and up to 5 friendly creatures within 60 feet of you of your choice that can hear you. An inspired creature has advantage on attack rolls until the start of your next turn. When you use this property of the belt, you can make one weapon attack as a bonus action.",
-				"Once this property has been used, it can’t be used again until the next dawn."
+				"Once this property has been used, it can't be used again until the next dawn."
 			],
 			"fluff": {
 				"images": [
@@ -1190,6 +1191,100 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Belt-of-the-Raid-Leader.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bird of a Feather (common)",
+			"source": "tgs1",
+			"page": 37,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This small stuffed roc toy is filled with enchanted down. While holding onto the toy and concentrating, you magically gain a flying speed of 20 feet for up to 1 minute. The stuffed toy's weak magic can carry up to 200 pounds.",
+				"If you take any damage while flying in this way, you lose concentration on the toy and immediately start falling.",
+				"The common variant of this item is single-use, becoming mundane once the magic has been expended."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bird-of-a-Feather.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bird of a Feather (uncommon)",
+			"source": "tgs1",
+			"page": 37,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This small stuffed roc toy is filled with enchanted down. While holding onto the toy and concentrating, you magically gain a flying speed of 20 feet for up to 1 minute. The stuffed toy's weak magic can carry up to 200 pounds.",
+				"If you take any damage while flying in this way, you lose concentration on the toy and immediately start falling.",
+				"This item cannot be used again for {@dice 1d4} hours. It gives a happy little chirp when its magic can be used again."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bird-of-a-Feather.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Blizzard Sphere",
+			"source": "tgs1",
+			"page": 37,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This glass sphere contains a raging blizzard inside. It's cold to the touch and vibrates with the gusts of wind trapped within. As an action, you can throw the orb at a point or object you can see within 30 feet, shattering it on impact. When the orb shatters, the blizzard erupts from the glass in a 20-foot-radius sphere of swirling ice and snow centered on the point of impact. When a creature enters the area for the first time on a turn or starts its turn there, it must make a {@dc 15} Constitution saving throw. On a failed save, a creature takes {@damage 4d8} cold damage and its speed is halved until the start of its next turn. On a successful save, a creature takes half as much cold damage and its speed is unaffected.",
+				"The blizzard remains for {@dice 1d4} rounds or until targeted by a {@spell dispel magic} spell ({@dc 15} or cast at 5th level or higher). Any surface within the area is covered in a slick sheet of ice and sleet, turning the ground within the sphere into difficult terrain that remains for the effect's duration. While the blizzard persists, the area is heavily obscured."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Blizzard-Sphere.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Blood Pact Pendants",
+			"source": "tgs1",
+			"page": 37,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"These iron pendants come in pairs and are connected by a powerful bond of self-sacrifice. In order to create this bond, you and a friendly creature with whom you are close perform a brief, 1-minute ritual to connect your destinies and forge a blood pact. When you create this blood pact, you must each agree on a number of hit points to permanently sacrifice and reduce your total maximum hit points by (minimum 1). Once a pact has been forged, trickles of the bound creatures' blood are absorbed into the normally clear gems adorning the faces of these pendants. While the gem is filled in this way, it seems to gently swirl and pulse in time with your heartbeat.",
+				"While the bound creatures are wearing their respective pendants and are on the same plane of existence, they're protected by this pact so long as one creature is still conscious. When a bound creature dies, it's immediately revived with {@dice 2d10} hit points plus twice the number of hit points it had sacrificed. When a creature is revived in this way, the other bound creature immediately falls to 0 hit points and is knocked {@condition unconscious}, ending the blood pact and restoring both creatures' hit point maximums to normal. This property ignores any effect that would normally prevent a creature from falling to 0 hit points. Once the pact is ended in this way, the gems and pendants crack and are no longer magical."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Blood-Pact-Pendants.jpg"
 						}
 					}
 				]
@@ -5333,7 +5428,7 @@
 				"namePrefix": "Battlement ",
 				"reqAttune": true,
 				"entries": [
-					"This magic bow is enchanted with passive abjuration protections. When you hit a creature with a ranged attack using this bow, the bow creates a thin barrier of protective magic that stays between you and that creature until the start of your next turn. If you hit a different creature while protected by this barrier, the barrier moves to defend you against the new target instead. While the barrier is protecting you against a creature in this way, you’re considered to have half cover against that creature’s ranged attacks and spell effects."
+					"This magic bow is enchanted with passive abjuration protections. When you hit a creature with a ranged attack using this bow, the bow creates a thin barrier of protective magic that stays between you and that creature until the start of your next turn. If you hit a different creature while protected by this barrier, the barrier moves to defend you against the new target instead. While the barrier is protecting you against a creature in this way, you're considered to have half cover against that creature's ranged attacks and spell effects."
 				],
 				"fluff": {
 					"images": [
