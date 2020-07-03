@@ -173,6 +173,7 @@
 			"dmg2": "1d8",
 			"bonusWeapon": "+2",
 			"staff": true,
+			"weapon": true,
 			"recharge": "dawn",
 			"charges": 8,
 			"attachedSpells": [
@@ -209,6 +210,7 @@
 			"dmg1": "1d8",
 			"dmgType": "P",
 			"bonusWeapon": "+2",
+			"weapon": true,
 			"attachedSpells": [
 				"dispel magic"
 			],
@@ -688,6 +690,7 @@
 			"dmg1": "1d8",
 			"dmgType": "P",
 			"bonusWeapon": "+3",
+			"weapon": true,
 			"recharge": "dawn",
 			"charges": 4,
 			"entries": [
@@ -731,6 +734,7 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"bonusWeapon": "+1",
+			"weapon": true,
 			"entries": [
 				"This gold and silver set of daggers seem ordinary when used on their own, but become magical when used together. You gain a +1 bonus to attack and damage rolls made with these daggers while you hold one of them in each hand. When you engage in two-weapon fighting using these daggers, you can add your ability modifier to the damage of the second attack.",
 				"In addition, if you hit the same target with both daggers in the same round, it takes an extra {@damage 1d4} piercing damage from the second attack and can't use its reaction until the end of your turn."
@@ -991,6 +995,7 @@
 			"range": "40/80",
 			"dmg1": "1d4",
 			"dmgType": "P",
+			"weapon": true,
 			"entries": [
 				"This magic dagger was made from pieces of a slain basilisk and still retains some of its properties. The dagger deals an extra {@damage 1d4} poison damage to any target it hits.",
 				"In addition, when you score a critical hit with this weapon against a Large or smaller creature, that creature must succeed on a {@dc 13} Constitution saving throw or be restrained until the end of your next turn."
@@ -1071,6 +1076,7 @@
 			"dmgType": "S",
 			"dmg2": "1d10",
 			"bonusWeapon": "+1",
+			"weapon": true,
 			"entries": [
 				"This golden battleaxe is the chosen weapon of many merchants and followers of mercantile deities. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 				"When you roll a 20 on an attack roll with this weapon against a Small or larger hostile creature, you magically earn a number of gold coins equal to the attack's damage. When you do, the axe glimmers like a sparkling coin, and you can sense the weight and clink of coins magically falling into your purse, pocket, or bag (your choice). If you have no room for the coins or don't want them to be immediately added to your storage, the coins erupt from the wound you inflict on the target instead. Once the axe generates coins in this way, it can't create any more for 12 hours."
@@ -1104,7 +1110,7 @@
 			"dmg1": "2d6",
 			"dmgType": "B",
 			"bonusWeapon": "+1",
-
+			"weapon": true,
 			"entries": [
 				"The head of this maul is an alchemical keg that generates battlebrew liquor, a favorite among dwarves and half-orcs. The keg holds up to 4 gallons of the liquor and creates 1 gallon each day at dawn and again each time you roll for initiative while holding it. A creature can use its action to remove or reattach the handle of the maul to the keg, and another action to pour out or stopper it.",
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While held in combat, the hammer heats the liquor inside it. When you roll a 20 on an attack roll made with this weapon, the target takes an extra {@damage 2d6} acid damage as the hammer buckles from the impact and releases a spray of the volatile liquor.",
@@ -1248,7 +1254,7 @@
 			"name": "Blizzard Sphere",
 			"source": "tgs1",
 			"page": 37,
-			"tier": "major",
+			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
@@ -1276,6 +1282,7 @@
 			"wondrous": true,
 			"entries": [
 				"These iron pendants come in pairs and are connected by a powerful bond of self-sacrifice. In order to create this bond, you and a friendly creature with whom you are close perform a brief, 1-minute ritual to connect your destinies and forge a blood pact. When you create this blood pact, you must each agree on a number of hit points to permanently sacrifice and reduce your total maximum hit points by (minimum 1). Once a pact has been forged, trickles of the bound creatures' blood are absorbed into the normally clear gems adorning the faces of these pendants. While the gem is filled in this way, it seems to gently swirl and pulse in time with your heartbeat.",
+				"While the bound creatures are wearing their respective pendants and are on the same plane of existence, they're protected by this pact so long as one creature is still conscious. When a bound creature dies, it's immediately revived with {@dice 2d10} hit points plus twice the number of hit points it had sacrificed. When a creature is revived in this way, the other bound creature immediately falls to 0 hit points and is knocked {@condition unconscious}, ending the blood pact and restoring both creatures' hit point maximums to normal. This property ignores any effect that would normally prevent a creature from falling to 0 hit points. Once the pact is ended in this way, the gems and pendants crack and are no longer magical.",
 				"While the bound creatures are wearing their respective pendants and are on the same plane of existence, they're protected by this pact so long as one creature is still conscious. When a bound creature dies, it's immediately revived with {@dice 2d10} hit points plus twice the number of hit points it had sacrificed. When a creature is revived in this way, the other bound creature immediately falls to 0 hit points and is knocked {@condition unconscious}, ending the blood pact and restoring both creatures' hit point maximums to normal. This property ignores any effect that would normally prevent a creature from falling to 0 hit points. Once the pact is ended in this way, the gems and pendants crack and are no longer magical."
 			],
 			"fluff": {
@@ -1285,6 +1292,165 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Blood-Pact-Pendants.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bloodmage Dagger",
+			"source": "tgs1",
+			"page": 38,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"reqAttune": "by a spellcaster",
+			"focus": true,
+			"recharge": "dusk",
+			"charges": 5,
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"entries": [
+				"This roughly hewn obsidian dagger is razor sharp and can be used as a spellcasting focus. Its handle is covered in small holes that drink in whatever blood runs down the blade. There's a small reservoir for blood at the dagger's pommel that seems to never completely fill. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"The dagger has 5 charges and regains {@dice 1d3 + 2} expended charges daily at dusk. While holding the dagger, you can expend 1 of its charges as an action to make a melee spell attack using your spell attack bonus against a living creature you can see within 5 feet of you. When you do, an illusory crimson dagger sweeps out towards the creature. A creature hit by this attack takes necrotic damage equal to {@damage 3d6} + your spellcasting ability modifier, and you regain hit points equal to the necrotic damage dealt. If the target is a construct, plant, or undead creature, you don't regain any hit points in this way.",
+				"Alternatively, while holding the dagger, you can expend 1 or more of its charges when you cast a spell using a 1st, 2nd, or 3rd-level spell slot. The spell must target either a single creature or yourself. The spell slot you use to cast this spell counts as one level higher for each charge you expend in this way. You can't increase a spell slot level beyond 5th level in this way. When you use this property of the dagger, you also expend 1 Hit Die for each charge you expend in this way. Roll a number of Hit Dice equal to the number of expended charges and take necrotic damage equal to the total you roll. This damage ignores resistance and immunity. If expending charges in this way causes you to fall to 0 hit points, the spell fails and you fall {@condition unconscious}."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bloodmage-Dagger.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bloodscryer Oculus",
+			"source": "tgs1",
+			"page": 38,
+			"tier": "major",
+			"rarity": "legendary",
+			"wondrous": true,
+			"reqAttune": "by a ranger",
+			"entries": [
+				"These red goggles have a second set of lenses that magically adjust their distance from your eyes to magnify and focus on targets. While you're attuned to these goggles, you are unaffected by visual obscurity such as fog or smoke and can see up to 60 feet in magical and nonmagical darkness. If you already have {@sense darkvision}, wearing the goggles increases its range by 60 feet. Additionally, you gain advantage on Wisdom ({@skill Perception}) checks that rely on sight.",
+				"These lenses are also imbued with several innate spells. While wearing the goggles, you can cast the following spells from them, using your spell save DC, but can only target creatures whose blood you can see: {@spell hunter's mark} (3rd-level version), {@spell locate creature}, or {@spell scrying}. Casting a spell in this way does not require you to concentrate on the spell in order to maintain it. Once the oculus casts a spell in this way, it can't be used to cast that spell again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bloodscryer-Oculus.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bolt",
+			"source": "tgs1",
+			"page": 39,
+			"baseItem": "heavy crossbow|phb",
+			"tier": "major",
+			"type": "R",
+			"rarity": "very rare",
+			"weight": 18,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"LD",
+				"2H"
+			],
+			"range": "100/400",
+			"dmg1": "1d12",
+			"dmgType": "L",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"reqAttune": true,
+			"entries": [
+				"This heavy crossbow is made of metal and fires small bolts of electricity instead of normal ammunition. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you pull the string back to load the crossbow, the string crackles with energy and loads a small bolt of lightning ammunition instead. Attacks made with this crossbow deal {@damage 1d12} lightning damage instead of 1d10 piercing. In addition, whenever you make a ranged attack with this weapon against a metal target or a creature wearing metal armor, you make the attack with advantage.",
+				"This crossbow acts as a small lightning rod. If another creature within 10 feet of you takes lightning damage while you're holding the crossbow, you take {@damage 1d6} lightning damage for every 10 lightning damage the other creature took."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bolt.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Boots of Dendallen",
+			"source": "tgs1",
+			"page": 39,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"Remnant of Dendallen": true,
+			"recharge": "dusk",
+			"charges": 4,
+			"entries": [
+				"These dark, fleshy boots grant marvelous powers and enhance your normal movement. While wearing these boots, you gain a flying speed equal to your walking speed and can hover. You can hover up to 20 feet off the ground in this way, leaving behind a thin trail of shadow when you do. In addition, when you take the Dash action while wearing the boots, you can move an extra 10 feet.",
+				"The boots have 4 charges and regain {@dice 1d3 + 1} expended charges daily at dusk. While wearing the boots, you can use a bonus action to expend 1 of their charges to cast either the {@spell expeditious retreat} or {@spell misty step} spell from them. When you cast {@i misty step} in this way, the normally silver mist that surrounds you is dark and ominous.",
+				{
+					"name": "Curse",
+					"entries": [
+						"When you pull these boots over your feet for the first time, make a {@dc 16} Wisdom saving throw. On a success, you are aware of the curse's effects and can immediately remove the boots before they extend it to you. On a failure, the boots' muscly sinews dig into your legs and feet, interlocking with your own flesh. You immediately take {@damage 4d8} necrotic damage as the tainted muscles and flesh latch onto you, and you can't remove the boots unless you're targeted by the {@spell remove curse} spell or similar magic. While you wear the boots, your feet sometimes move in unexpected ways. You make Dexterity ({@skill Acrobatics}) checks and Dexterity saving throws with disadvantage, and it costs you an extra 10 feet of movement to stand up after you fall {@condition prone}.",
+						"If you fail the saving throw to resist the curse and later remove the boots, you take another {@damage 4d8} necrotic damage as they painfully tear themselves from your body."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Boots-of-Dendallen.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Boots of the Cloud Jumper",
+			"source": "tgs1",
+			"page": 39,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"While wearing these boots, you can {@action jump} while in the air as if you'd leapt from solid ground. You can't jump farther than your remaining movement would allow, and you treat all jumps made in this way as they were standing jumps. When you make a mid-air jump, faint clouds fly out from under your feet. The boots allow you to jump in this way once before they need to make contact with a solid surface again. Jumping in this way while falling before landing on solid ground prevents up to 20 feet of fall damage."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Boots-of-the-Cloud-Jumper.jpg"
 						}
 					}
 				]
