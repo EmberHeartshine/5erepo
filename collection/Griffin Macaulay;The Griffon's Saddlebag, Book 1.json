@@ -5313,11 +5313,20 @@
 			"type": "GV",
 			"requires": [
 				{
-					"type": "bow"
+					"type": "R",
+					"property": [
+						"A",
+						"2H"
+					]
 				}
 			],
+			"excludes": {
+				"property": [
+						"LD",
+						"T"
+					]
+			},
 			"inherits": {
-				"genericBonus": "+1",
 				"tier": "major",
 				"rarity": "uncommon",
 				"source": "tgs1",
