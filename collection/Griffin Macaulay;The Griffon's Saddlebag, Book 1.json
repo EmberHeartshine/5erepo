@@ -1173,7 +1173,7 @@
 			}
 		},
 		{
-			"name": "Oathbow",
+			"name": "Battlement Bow",
 			"source": "tgs1",
 			"page": 36,
 			"srd": true,
@@ -1186,10 +1186,9 @@
 			"weaponCategory": "martial",
 			"property": [
 				"A",
-				"H",
 				"2H"
 			],
-			"dmgType": "P",
+			"range": "*",
 			"ammoType": "arrow|phb",
 			"entries": [
 				"This magic bow is enchanted with passive abjuration protections. When you hit a creature with a ranged attack using this bow, the bow creates a thin barrier of protective magic that stays between you and that creature until the start of your next turn. If you hit a different creature while protected by this barrier, the barrier moves to defend you against the new target instead. While the barrier is protecting you against a creature in this way, you’re considered to have half cover against that creature’s ranged attacks and spell effects."
@@ -5339,6 +5338,50 @@
 				"At 14th level, when you destroy a Large or smaller nonmagical object or structure with a spell, you can recreate it as an action once within the next 8 hours. When you do, the object or structure reappears intact in an unoccupied space you choose within 60 feet of you. If the object or structure is recreated in the air, it immediately falls. Any creature below the item must make a Dexterity saving throw against your wizard spell save DC. If the object is Small or smaller, a creature that fails the saving throw takes {@damage 1d8} bludgeoning damage from the impact for every 10 feet that it fell. If the object is Medium or Large, the bludgeoning damage increases to {@damage 1d10} or {@damage 1d12} for every 10 feet it fell, respectively. On a successful save, a creature takes half as much bludgeoning damage. If an object is the same size or larger than a creature it falls on, that creature is pushed to the nearest unoccupied space.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
+		}
+	],
+	"variant": [
+		{
+			"name": "Battlement Bow",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "R",
+					"property": [
+						"A",
+						"2H"
+					]
+				}
+			],
+			"excludes": {
+				"property": [
+					"LD",
+					"T"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Battlement ",
+				"source": "tgs1",
+				"page": 36,
+				"tier": "major",
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"This magic bow is enchanted with passive abjuration protections. When you hit a creature with a ranged attack using this bow, the bow creates a thin barrier of protective magic that stays between you and that creature until the start of your next turn. If you hit a different creature while protected by this barrier, the barrier moves to defend you against the new target instead. While the barrier is protecting you against a creature in this way, you’re considered to have half cover against that creature’s ranged attacks and spell effects."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battlement-Bow.jpg"
+							}
+						}
+					]
+				}
+			}
 		}
 	]
 }
