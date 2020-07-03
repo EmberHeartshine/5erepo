@@ -5313,7 +5313,6 @@
 			"type": "GV",
 			"requires": [
 				{
-					"type": "R",
 					"property": [
 						"A",
 						"2H"
@@ -5321,10 +5320,7 @@
 				}
 			],
 			"excludes": {
-				"property": [
-						"LD",
-						"T"
-					]
+				"name": "Crossbow"
 			},
 			"inherits": {
 				"tier": "major",
