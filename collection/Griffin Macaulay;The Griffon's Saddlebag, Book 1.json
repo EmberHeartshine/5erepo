@@ -911,7 +911,7 @@
 			"source": "tgs1",
 			"page": 34,
 			"tier": "major",
-			"rarity": "uncommon",
+			"rarity": "none",
 			"weight": 2,
 			"wondrous": true,
 			"entries": [
@@ -1509,32 +1509,32 @@
 			"entries": [
 				"This enlarged, floating snowflake is magically held in place and changes its shape as temperatures fluctuate. While attuned to the pendant you have resistance to cold damage and give off an aura of cheeriness. The snowflake has 8 charges and regains {@dice 1d6 + 2} expended charges each day at dawn. While wearing it, you can expend 1 or more of its charges to cast the following spells using a spell save DC of 15:",
 				{
-							"type": "table",
-							"caption": "Boreal Pendant Spells",
-							"colLabels": [
-								"Charges",
-								"Spells"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"{@spell charm person}, {@spell color spray}, {@spell detect magic}"
-								],
-								[
-									"3",
-									"{@spell hypnotic pattern}"
-								],
-								[
-									"4",
-									"{@spell ice storm}"
-								]
-							]
-						},
-				"If you expend the pendant’s last charge, roll a d20. On a 1, the snowflake melts into a puddle of water. After 1 year, the pendant reforms around the magical golden brackets that hold it in place."
+					"type": "table",
+					"caption": "Boreal Pendant Spells",
+					"colLabels": [
+						"Charges",
+						"Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell charm person}, {@spell color spray}, {@spell detect magic}"
+						],
+						[
+							"3",
+							"{@spell hypnotic pattern}"
+						],
+						[
+							"4",
+							"{@spell ice storm}"
+						]
+					]
+				},
+				"If you expend the pendant's last charge, roll a d20. On a 1, the snowflake melts into a puddle of water. After 1 year, the pendant reforms around the magical golden brackets that hold it in place."
 			],
 			"fluff": {
 				"images": [
@@ -1590,9 +1590,9 @@
 			"dmg2": "1d8",
 			"weapon": true,
 			"entries": [
-				"This spear has a hollow metal head filled with a spring-loaded {@item net|phb}. Attacks made with this weapon deal bludgeoning damage instead of piercing. When you hit a target with a melee attack using the weapon, you can press a button on the handle as a bonus action to deploy the spring-loaded net. When you do, the target of the attack is restrained if it’s Large or smaller. Once the net is deployed, you can retract and reset it as an action. When you do, anything held by the net is released. Attacks with the spear are made with disadvantage while the net is deployed. If something is retrained by the net, you can’t use the spear to make weapon attacks.",
-				"You can use a bonus action to prime the net to trigger upon impact, allowing it to deploy when the spear hits a target the next time it’s thrown or swung as part of an attack.",
-				"This net follows the net’s normal rules but cannot be detached from the spear without destroying the net. You can replace the net with a new one by spending 1 minute reattaching it to the spear."
+				"This spear has a hollow metal head filled with a spring-loaded {@item net|phb}. Attacks made with this weapon deal bludgeoning damage instead of piercing. When you hit a target with a melee attack using the weapon, you can press a button on the handle as a bonus action to deploy the spring-loaded net. When you do, the target of the attack is restrained if it's Large or smaller. Once the net is deployed, you can retract and reset it as an action. When you do, anything held by the net is released. Attacks with the spear are made with disadvantage while the net is deployed. If something is retrained by the net, you can't use the spear to make weapon attacks.",
+				"You can use a bonus action to prime the net to trigger upon impact, allowing it to deploy when the spear hits a target the next time it's thrown or swung as part of an attack.",
+				"This net follows the net's normal rules but cannot be detached from the spear without destroying the net. You can replace the net with a new one by spending 1 minute reattaching it to the spear."
 			],
 			"fluff": {
 				"images": [
@@ -1630,7 +1630,7 @@
 			],
 			"entries": [
 				"Arrows fired from this magic bow deal an extra {@damage 1d4} psychic damage to any creature that they hit.",
-				"When you hit a humanoid with an arrow in this way, you can force that creature to make a {@dc 15} Wisdom saving throw after the attack. On a failed save, that creature falls under the effects of the {@spell dominate person} spell for up to 1 minute as if cast by you. This effect does not require concentration. In addition, you can use a bonus action to see through that creature’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the creature has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses. Once this property of the bow has been used, it can’t be used again until the next dawn."
+				"When you hit a humanoid with an arrow in this way, you can force that creature to make a {@dc 15} Wisdom saving throw after the attack. On a failed save, that creature falls under the effects of the {@spell dominate person} spell for up to 1 minute as if cast by you. This effect does not require concentration. In addition, you can use a bonus action to see through that creature's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the creature has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses. Once this property of the bow has been used, it can't be used again until the next dawn."
 			],
 			"fluff": {
 				"images": [
@@ -1663,7 +1663,7 @@
 			"staff": true,
 			"weapon": true,
 			"entries": [
-				"This magical quarterstaff is made of a tightly knit length of braided rope. As a bonus action, you can speak the weapon’s command word to release its knotted form and loosen it into a 50-foot length of {@item hempen rope (50 feet)|phb|hempen rope}. Speaking the command word again causes the rope to tighten back up into the quarterstaff. If a creature is restrained by the rope when you speak its command word, the rope tightens around the creature but does not crush it. Once tightened in this way, the restrained creature or an adjacent ally can use an action to escape following a successful {@dc 15} Strength or Dexterity check (their choice).",
+				"This magical quarterstaff is made of a tightly knit length of braided rope. As a bonus action, you can speak the weapon's command word to release its knotted form and loosen it into a 50-foot length of {@item hempen rope (50 feet)|phb|hempen rope}. Speaking the command word again causes the rope to tighten back up into the quarterstaff. If a creature is restrained by the rope when you speak its command word, the rope tightens around the creature but does not crush it. Once tightened in this way, the restrained creature or an adjacent ally can use an action to escape following a successful {@dc 15} Strength or Dexterity check (their choice).",
 				"Tying an object no larger than six inches on a side to the end the rope does not prevent it from reforming into the quarterstaff. The rope can only be broken by magical means. If broken, the rope cannot be transformed back into a quarterstaff."
 			],
 			"fluff": {
@@ -1700,8 +1700,8 @@
 				]
 			},
 			"entries": [
-				"This wooden quiver can carry your arrows as well as provide some of its own. The quiver has 4 grown arrows and regrows {@dice 1d3 + 1} picked arrows daily at dawn. The grown arrows are thorned and remain attached to the quiver until picked for use (no action required). While you’re attuned to the quiver, you gain a +2 bonus to attack and damage rolls made with these magic arrows. A grown arrow is no longer magical after 1 minute has passed since it was first picked from the quiver.",
-				"When you fire and hit a target or point with one of these magic arrows, you can use a bonus action on that same turn to speak the quiver’s command word. When you do, that arrow transforms into a thick field of thorns to recreate the effects of the {@spell spike growth} spell, centered on its location. This effect does not require concentration and lasts until the start of your next turn. If the arrow was lodged in a target when you use this property, that target also takes {@damage 2d4} piercing damage."
+				"This wooden quiver can carry your arrows as well as provide some of its own. The quiver has 4 grown arrows and regrows {@dice 1d3 + 1} picked arrows daily at dawn. The grown arrows are thorned and remain attached to the quiver until picked for use (no action required). While you're attuned to the quiver, you gain a +2 bonus to attack and damage rolls made with these magic arrows. A grown arrow is no longer magical after 1 minute has passed since it was first picked from the quiver.",
+				"When you fire and hit a target or point with one of these magic arrows, you can use a bonus action on that same turn to speak the quiver's command word. When you do, that arrow transforms into a thick field of thorns to recreate the effects of the {@spell spike growth} spell, centered on its location. This effect does not require concentration and lasts until the start of your next turn. If the arrow was lodged in a target when you use this property, that target also takes {@damage 2d4} piercing damage."
 			],
 			"fluff": {
 				"images": [
@@ -1710,6 +1710,340 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Brambleheart-Quiver.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Breastplate of the Morning Light",
+			"source": "tgs1",
+			"page": 42,
+			"type": "MA",
+			"rarity": "rare",
+			"reqAttune": "by a cleric or paladin",
+			"weight": 20,
+			"ac": 14,
+			"bonusAc": "+1",
+			"entries": [
+				"You have a +1 bonus to your AC. You can use an action on your turn to channel the armor's magic to cause it emit a flash of blinding, radiant light. When you do, all other creatures within 30 feet of you are forced to make a {@dc 15} Constitution saving throw. On a failure, a creature is {@condition blinded} until the end of its next turn. Undead creatures have disadvantage on the saving throw and take {@damage 2d8} radiant damage on a failure, or half as much on a success. Once this property of the armor has been used, it can't be used again until the following dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Breastplate-of-the-Morning-Light.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Brooch of Many Sizes",
+			"source": "tgs1",
+			"page": 42,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"attachedSpells": [
+				"Enlarge/Reduce"
+			],
+			"entries": [
+				"This metal brooch features a rotatable dial and can be used to secure a cape or adorn a piece of clothing. While wearing the brooch, you can use an action to cast the {@spell enlarge/reduce} spell, targeting only yourself, by turning the dial toward either the larger or smaller figure adorning the sides of the brooch. Once this property of the brooch has been used, it can't be used again until the following dawn.",
+				"While under the effects of this spell, you can use a bonus action to overload the brooch by forcibly twisting the dial beyond its normal limits. When you do, your size changes by an additional category: growing either a second size larger if you had cast the {@i enlarge} spell or a second size smaller if you had cast the {@i reduce} spell. Your size can't be larger than Huge or smaller than Tiny by overloading the brooch, and your damage and weight are increased or decreased as if you were affected by a second instance of the {@i enlarge/reduce} spell.",
+				"When you return to your original size after overloading the brooch, you can't move or take actions until after your next turn. Once the brooch has been overloaded, it can't be used again until 7 days have passed."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Brooch-of-Many-Sizes.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bug Smashers",
+			"source": "tgs1",
+			"page": 42,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This grotesque pair of gloves are made using the barbed exoskeleton and harvested remains of a giant centipede. When you roll a 20 on an unarmed attack roll using these knuckles, the target takes an extra {@damage 2d6} poison damage and must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} until the start of your next turn. Unarmed attacks with these gloves deal either bludgeoning or piercing damage (your choice)."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bug-Smashers.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Cactus Mace",
+			"source": "tgs1",
+			"page": 42,
+			"baseItem": "mace|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This magical weapon's head is an enchanted cactus that rapidly regrows its missing needles. The first target hit by this weapon on each of your turns takes an extra {@damage 1d4} piercing damage from the attack."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Cactus-Mace.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Candle of Anti-Light",
+			"source": "tgs1",
+			"page": 42,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While burning, this dark candle sheds magical darkness in a 10-foot radius. It can be lit for up to 1 hour before it's consumed and can be snuffed or relit like a normal candle as a bonus action. Completely covering the candle with something opaque contains the darkness. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Candle-of-Anti-Light.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Catnip Amulet",
+			"source": "tgs1",
+			"page": 43,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This gold and jade amulet seems to draw domestic cats to it. While wearing the necklace, you have advantage on ability checks made to find or call Tiny domestic cats (if there are any) and on Wisdom ({@skill Animal Handling}) checks you make to interact with them."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Catnip-Amulet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Celestial Circlet",
+			"source": "tgs1",
+			"page": 43,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": "by a cleric of good alignment",
+			"recharge": "dawn",
+			"charges": 7,
+			"attachedSpells": [
+				"protection from evil and good",
+				"cure wounds",
+				"spirit guardians"
+			],
+			"entries": [
+				"This golden circlet radiates holy energy. A thin halo hovers above your head while you wear it, emitting bright light in a 20-foot radius and dim light for another 20 feet. Small motes of holy light swirl around the apex of the circlet.",
+				"While you wear the circlet, you are always under the effects of the {@spell protection from evil and good} spell. This effect only applies to one creature type: you can choose a new creature type (other than celestials) to be protected against daily at dawn.",
+				"The circlet has 7 charges. As an action while wearing the circlet, you can expend 1 or more of its charges to cast either {@spell cure wounds} (1 charge per spell level, up to 4th) or {@spell spirit} guardians (3 charges) from it, using your spell save DC and spellcasting ability modifier. Immediately before or after you cast a spell from the circlet in this way, you can use your bonus action to fly up to 10 feet without provoking opportunity attacks. When you do, you are carried away on a pair of angelic wings.",
+				"The circlet regains {@dice 1d4 + 3} expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the halo vanishes and the circlet becomes mundane and nonmagical."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Celestial-Circlet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ceratopper",
+			"source": "tgs1",
+			"page": 43,
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2,
+			"bonusAc": "+1",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"polymorph"
+			],
+			"entries": [
+				"This adamantine helm is fashioned in the likeness of a triceratops and decorated with painted designs. You have a +1 bonus to AC while you wear this helmet. If you move at least 20 feet toward a target and then attack it with a melee weapon attack on the same turn, you can choose to make a special attack using the helmet instead of the weapon. On a hit, the target takes piercing damage equal to {@damage 3d4} + your Strength modifier. You're proficient with this attack and use your Strength modifier for its attack rolls. If you hit and the target is no more than one size larger than you, it must also succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
+				"In addition, while wearing the helmet, you can use an action to cast the {@spell polymorph} spell from it, transforming yourself into a {@creature triceratops}. Once this property has been used, it can't be used again until 2 days have passed."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ceratopper.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Charlatan's Wardrobe",
+			"source": "tgs1",
+			"page": 44,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This set of plain clothes is exceptionally comfortable and easy to wear. They are always clean and smell freshly washed and lightly perfumed. You can change the appearance of the outfit as an action by twirling in place and speaking the clothes' command word. The outfit's appearance is illusory. Physical interaction with the clothes reveals their appearance to be an illusion, because things can pass through it. A creature that uses its action to examine the clothes can determine that it is an illusion with a successful {@dc 13} Intelligence ({@skill Investigation}) check. Regardless of their appearance, the clothes offer no additional protection from the elements, and can only appear to be clothes."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Charlatans-Wardrobe.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Chillspike",
+			"source": "tgs1",
+			"page": 44,
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 18,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"entries": [
+				"This cold steel weapon from the Everglacier is topped with a menacing ice spike that never melts. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The pike deals an extra {@damage 1d10} cold damage to any target it hits. In addition, attacks with this weapon and its properties ignore resistance to cold damage.",
+				"When you reduce a Large or smaller creature to 0 hit points using this weapon, you can choose to encase that creature in ice. An encased creature is prevented from falling prone and is held in place by a shell of ice for 1 minute. If the creature is {@condition unconscious}, it does not make death saving throws while it's encased in the ice. The ice has AC 12, 20 hit points, immunity to poison and psychic damage, and vulnerability to fire damage. If the encased creature is healed or the ice is destroyed, the ice crumbles and releases the creature.",
+				{
+					"name": "Everglacier's Fury",
+					"entries": [
+						"As an action, you can plunge the pike into the ground at your feet. When you do, the blade of the pike magically vanishes into the earth and summons up to three icy spikes from the ground nearby. Choose up to 3 different targets on the ground you can see within 20 feet of you. An affected target must succeed on a {@dc 16} Dexterity saving throw or take {@damage 2d8} cold damage as a frozen spike erupts from the ground beneath it. The spikes immediately recede into the ground after the effect, and the icy blade of the pike reappears."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Chillspike.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Chromacloth",
+			"source": "tgs1",
+			"page": 44,
+			"baseItem": "sling|PHB",
+			"type": "R",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weaponCategory": "simple",
+			"property": [
+				"A"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"ammoType": "sling bullet|phb",
+			"entries": [
+				"This silken cloth is enchanted using a unique blend of abjuration and evocation magic, allowing it to be used for a number of purposes. At any one time it can be one of four colors: red, yellow, green, or blue. You can change the chromacloth's color to another one as an action.",
+				"You can wear the chromacloth as a headband or wrap to gain resistance to the damage type associated with the cloth's color. Once the cloth reduces damage taken in this way, it can't do so again until the following dawn.",
+				"Alternatively, the cloth can be fashioned to be an effective sling. Ammunition fired from the sling deals damage of a type matching the cloth's color instead of bludgeoning. Refer to the table below for a reference of the chromacloth's associated colors and damage types:",
+				{
+					"type": "table",
+					"caption": "Chromacloth Sling Damage",
+					"colLabels": [
+						"Color",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Red",
+							"Fire"
+						],
+						[
+							"Yellow",
+							"Lightning"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Blue",
+							"Cold"
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Chromacloth.jpg"
 						}
 					}
 				]
