@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1593429293,
-		"dateLastModified": 1593631548
+		"dateLastModified": 1593789961
 	},
 	"item": [
 		{
@@ -3672,11 +3672,11 @@
 				"thunder",
 				{
 					"resist": [
-							"bludgeoning",
-							"piercing",
-							"slashing"
-						],
-						"note": "from magical attacks"
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from magical attacks"
 				}
 			],
 			"conditionImmune": [
@@ -3994,11 +3994,11 @@
 				"thunder",
 				{
 					"resist": [
-							"bludgeoning",
-							"piercing",
-							"slashing"
-						],
-						"note": "from nonmagical attacks"
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
 				}
 			],
 			"conditionImmune": [
