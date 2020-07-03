@@ -2059,6 +2059,182 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Cinnabar Rapier",
+			"source": "tgs1",
+			"page": 46,
+			"baseItem": "rapier|PHB",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"This magic rapier's blade is alchemically coated in a thin but toxic layer of cinnabar. The weapon has 10 charges and regains {@dice 1d8 + 2} expended charges each day at dawn. When you hit a creature with this weapon, you can expend 1 or more of its charges. The blade's poison leeches into the blood of the creature you struck to deal an extra {@damage 1d4} poison damage for each charge expended in this way."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Cinnabar-Rapier.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Circlet of the Huntsman's Third Eye",
+			"source": "tgs1",
+			"page": 46,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"recharge": "dusk",
+			"charges": 5,
+			"attachedSpells": [
+				"hunter's mark"
+			],
+			"entries": [
+				"This barbed metal circlet features a grotesque yet ornately preserved eye hanging from its center. The eye rests on the forehead of the creature wearing it. While wearing the circlet, its latent cunning guides your hand, giving you advantage on Wisdom ({@skill Survival}) checks.",
+				"The circlet has 5 charges and regains all expended charges daily at dusk. While wearing the circlet, you can use a bonus action to expend 1 of its charges to cast the {@spell hunter's mark} spell from it. You have advantage on Constitution saving throws made to maintain concentration on this spell. In addition, you can expend a 2nd charge when casting {@i hunter's mark} in this way, or 1 charge as a bonus action on another turn, to gain {@sense truesight} out to a range of 120 feet for 1 minute.",
+				{
+					"name": "Curse",
+					"entries": [
+						"Attuning to the circlet curses you until you are targeted by the remove curse spell or similar magic. Removing the circlet fails to end the curse. While cursed, whenever you roll a 1 on an attack roll or ability check, you take {@damage 1d6} psychic damage as the eye's intense frustration and scorn pierce your psyche."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Circlet-of-the-Huntsmans-Third-Eye.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Cloak of the Boundless Spirit",
+			"source": "tgs1",
+			"page": 46,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This swirling, translucent cloak bolsters the fighting spirits of friendly nearby creatures. The cloak has 3 charges and regains all expended charges each day at dawn. When an ally you can see within 15 feet of you takes damage, you can use your reaction to expend 1 charge and reduce that damage by {@dice 2d6}.",
+				"In addition, friendly creatures within 15 feet of you regain consciousness on a roll of 19 or 20 on death saving throws. When a creature within range regains consciousness in this way, you can use a reaction to expend 1 charge to grant them {@dice 2d6} temporary hit points. Once a creature regains consciousness by rolling a 19 or 20 on a death saving throw in this way, it can't do so again until it finishes a long rest."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Cloak-of-the-Boundless-Spirit.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Clockwork Faefly",
+			"source": "tgs1",
+			"page": 46,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"attachedSpells": [
+				"faerie fire",
+				"light"
+			],
+			"entries": [
+				"This brass clockwork mechanism is 2 inches long and whirs with the hum of tiny gears inside. You can tap the head of the faefly twice as a bonus action. When you do, the mechanism begins to flutter 5 feet in the air. The faefly has AC 10 and 10 hit points and flies in this way until a creature grasps it or it falls to 0 hit points. If you move more than 60 feet from the hovering faefly, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the faefly sinks gently to the ground and becomes inactive, and its light fades out. While it's flying, you can use a bonus action to speak its command word to cause it to move up to 20 feet.",
+				"If you are within 60 feet of the faefly, you can speak another command word as an action to cause it to emit the {@spell light} spell or cast {@spell faerie fire} (save {@dc 13}), affecting a 20-foot cube originating from itself. {@i Faerie fire} does not require concentration when cast in this way, but ends early if the faefly falls to 0 hit points. Once the faefly casts the {@i faerie fire} spell, it can't cast it again until the next dawn.",
+				"The faefly is considered a magical object and is not a creature. If the {@spell mending} spell is cast on it while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the faefly falls to 0 hit points, it can't be used again until 2 days have passed, at which point it regains all its hit points."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Clockwork-Faefly.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Clockwork Healerbee",
+			"source": "tgs1",
+			"page": 47,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 8,
+			"entries": [
+				"This pill-shaped magical mechanism is 2 inches long and made of brass and glass. It has a pair of tiny wings that silently keep it aloft. It hovers up to 5 feet above the ground and does its best to stay at your side within your space. The bee can enter and pass through another creature's space and does not provoke opportunity attacks.",
+				"The bee has 8 charges and regains {@dice 1d6 + 2} expended charges daily at dawn. While the bee is within your space, you can speak its command word as a bonus action and expend up to 3 of its charges to command the bee to heal a creature that you can see within 20 feet of you. The bee flies to the creature's space and touches its stinger to the creature, causing the creature to regain {@dice 1d6} hit points for each expended charge and emitting a bright light that fills the space. After healing the creature, the bee returns to your space.",
+				"The bee is considered a magical object and is not a creature. It has AC 15, 10 hit points, and has resistance to all damage. If the {@spell mending} spell is cast on the bee while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the bee drops to 0 hit points, it can't be used again for 24 hours, at which point it regains all its hit points."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Clockwork-Healerbee.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Clockwork Inkbeetle",
+			"source": "tgs1",
+			"page": 47,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This minuscule, mechanical beetle is 1 inch long and quietly whirs with a mix of magical and mechanical forces. Placing the beetle on a piece of parchment you hold or carry causes it to spring to life and begin tracking your travels. As you move, so does the beetle: leaving behind a small line of ink. The ink immediately dries and doesn't dissolve in water. In addition, the beetle's small frame allows it to move even while enclosed in a book or similar enclosure without losing its sense of movement or direction.",
+				"The beetle mirrors your movement to create a to-scale map of your journey, drawing 1 inch of ink in your choice of the following scales: 20 feet/inch, 200 feet/inch, 2 miles/ inch, or 20 miles/inch. You can rotate the dial on the beetle's underside to change the scale as an action. The beetle is immune to magical effects that would otherwise alter its sense of direction.",
+				"The beetle always knows which direction is north. When placed on a piece of parchment for the first time, it crouches down to stamp a small compass rose on the sheet before it begins to move. If the beetle runs out of space on the parchment to travel, it stops moving in that direction and emits a clicking sound that can be heard by creatures within 5 feet of it.",
+				"Attaching one {@item Bands of the Found and Lost|tgs1|Band of the Found and Lost} to the beetle while you wear the other allows the beetle to move and trace your movements in this way from afar so long as you are both on the same plane of existence."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Clockwork-Inkbeetle.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
