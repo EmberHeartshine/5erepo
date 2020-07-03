@@ -1345,6 +1345,11 @@
 			"rarity": "legendary",
 			"wondrous": true,
 			"reqAttune": "by a ranger",
+			"attachedSpells": [
+				"hunter's mark",
+				"locate reature",
+				"scrying"
+			],
 			"entries": [
 				"These red goggles have a second set of lenses that magically adjust their distance from your eyes to magnify and focus on targets. While you're attuned to these goggles, you are unaffected by visual obscurity such as fog or smoke and can see up to 60 feet in magical and nonmagical darkness. If you already have {@sense darkvision}, wearing the goggles increases its range by 60 feet. Additionally, you gain advantage on Wisdom ({@skill Perception}) checks that rely on sight.",
 				"These lenses are also imbued with several innate spells. While wearing the goggles, you can cast the following spells from them, using your spell save DC, but can only target creatures whose blood you can see: {@spell hunter's mark} (3rd-level version), {@spell locate creature}, or {@spell scrying}. Casting a spell in this way does not require you to concentrate on the spell in order to maintain it. Once the oculus casts a spell in this way, it can't be used to cast that spell again until the next dawn."
@@ -1410,6 +1415,10 @@
 			"Remnant of Dendallen": true,
 			"recharge": "dusk",
 			"charges": 4,
+			"attachedSpells": [
+				"expeditious retreat",
+				"misty step"
+			],
 			"entries": [
 				"These dark, fleshy boots grant marvelous powers and enhance your normal movement. While wearing these boots, you gain a flying speed equal to your walking speed and can hover. You can hover up to 20 feet off the ground in this way, leaving behind a thin trail of shadow when you do. In addition, when you take the Dash action while wearing the boots, you can move an extra 10 feet.",
 				"The boots have 4 charges and regain {@dice 1d3 + 1} expended charges daily at dusk. While wearing the boots, you can use a bonus action to expend 1 of their charges to cast either the {@spell expeditious retreat} or {@spell misty step} spell from them. When you cast {@i misty step} in this way, the normally silver mist that surrounds you is dark and ominous.",
@@ -1442,7 +1451,7 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"While wearing these boots, you can {@action jump} while in the air as if you'd leapt from solid ground. You can't jump farther than your remaining movement would allow, and you treat all jumps made in this way as they were standing jumps. When you make a mid-air jump, faint clouds fly out from under your feet. The boots allow you to jump in this way once before they need to make contact with a solid surface again. Jumping in this way while falling before landing on solid ground prevents up to 20 feet of fall damage."
+				"While wearing these boots, you can {@bookref-quick jumping||jump} while in the air as if you'd leapt from solid ground. You can't jump farther than your remaining movement would allow, and you treat all jumps made in this way as they were standing jumps. When you make a mid-air jump, faint clouds fly out from under your feet. The boots allow you to jump in this way once before they need to make contact with a solid surface again. Jumping in this way while falling before landing on solid ground prevents up to 20 feet of fall damage."
 			],
 			"fluff": {
 				"images": [
