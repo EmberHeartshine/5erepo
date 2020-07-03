@@ -3216,6 +3216,7 @@
 			"dmgType": "S",
 			"bonusWeapon": "+2",
 			"weapon": true,
+			"curse": true,
 			"entries": [
 				"This wicked-looking {@item whip|phb} has a dark blade embedded in its tip. The handle seems too broad for just one cord…",
 				{
@@ -4600,6 +4601,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a barbarian, druid, fighter, or monk",
+			"curse": true,
 			"wondrous": true,
 			"entries": [
 				"These dark bracers and gloves have sapphires embedded into the back of the hand, along the first row of knuckles, and as sharp nails projecting from the fingertips.",
