@@ -1006,6 +1006,121 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Bath potion",
+			"source": "tgs1",
+			"page": 35,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"entries": [
+				"This bubbly potion is frothy and smells like lavender. When you drink this potion, any dirt and grime on your body is magically rinsed away. Further, your breath, hair, and nails are suddenly cleaned, looking either polished and pristine or smelling of daisies and honey for the next 24 hours. Bubbles occasionally escape from your mouth while the potion is in effect."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Bath-Potion.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Baton of Many Sizes",
+			"source": "DMG",
+			"page": 35,
+			"type": "RD",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 2,
+			"entries": [
+				"While holding this segmented, 1-foot-long rod, you can speak its command word as an action to cause it to extend in either direction. The rod can extend up to 50 feet or as far as the surrounding space allows. If the rod touches another creature or surface before reaching its full length, the rod stops moving in that direction. If it stops moving against a solid, unmoving surface, the rod fills the gaps to hold firm against it.",
+				"The rod is unwieldy to hold once it’s longer than 10 feet, forcing you to make a Strength ({@skill Athletics}) check to maintain your grip on it while it’s extended beyond that range. The DC for this check is equal to 8 + 1 for every 5 feet beyond 10 that the rod is extended. For example, the DC is 9 while the rod is 15 feet long, but 16 while a full 50 feet. If you lose your grip and drop the rod or use it to make an attack while it’s extended more than 10 feet, it immediately retracts back to its shortened length. You can speak the rod’s command word again as an action to cause it to retract."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Baton-of-Many-Sizes.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Battle Tax",
+			"source": "tgs1",
+			"page": 35,
+			"baseItem": "battleaxe|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This golden battleaxe is the chosen weapon of many merchants and followers of mercantile deities. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"When you roll a 20 on an attack roll with this weapon against a Small or larger hostile creature, you magically earn a number of gold coins equal to the attack’s damage. When you do, the axe glimmers like a sparkling coin, and you can sense the weight and clink of coins magically falling into your purse, pocket, or bag (your choice). If you have no room for the coins or don’t want them to be immediately added to your storage, the coins erupt from the wound you inflict on the target instead. Once the axe generates coins in this way, it can’t create any more for 12 hours."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battle-Tax.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Battlebrew Maul",
+			"source": "tgs1",
+			"page": 35,
+			"baseItem": "maul|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 10,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+
+			"entries": [
+				"The head of this maul is an alchemical keg that generates battlebrew liquor, a favorite among dwarves and half-orcs. The keg holds up to 4 gallons of the liquor and creates 1 gallon each day at dawn and again each time you roll for initiative while holding it. A creature can use its action to remove or reattach the handle of the maul to the keg, and another action to pour out or stopper it.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While held in combat, the hammer heats the liquor inside it. When you roll a 20 on an attack roll made with this weapon, the target takes an extra {@damage 2d6} acid damage as the hammer buckles from the impact and releases a spray of the volatile liquor.",
+				"For 1 minute after a target has been sprayed with acid in this way, the next time that target takes fire damage, it takes an extra {@damage 2d6} fire damage as the liquor ignites."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battlebrew-Maul.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
