@@ -5313,14 +5313,17 @@
 			"type": "GV",
 			"requires": [
 				{
-					"property": [
-						"A",
-						"2H"
-					]
+					"type": "R",
+					"dmgType": "P"
 				}
 			],
 			"excludes": {
-				"name": "Crossbow"
+					"property": [
+						"AF",
+						"LD",
+						"T"
+					],
+					"name": "Light Repeating Crossbow"
 			},
 			"inherits": {
 				"tier": "major",
