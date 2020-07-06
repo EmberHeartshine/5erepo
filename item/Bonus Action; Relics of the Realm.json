@@ -3783,13 +3783,34 @@
 			}
 		},
 		{
+			"name": "Runechalk",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"items": [
+				"Runechalk (Alabaster White)|RotR2",
+				"Runechalk (Bright Yellow)|RotR2",
+				"Runechalk (Charming Pink)|RotR2",
+				"Runechalk (Cloudy Gray)|RotR2",
+				"Runechalk (Flame Red)|RotR2",
+				"Runechalk (Midnight Black)|RotR2",
+				"Runechalk (Navy Blue)|RotR2",
+				"Runechalk (Royal Purple)|RotR2",
+				"Runechalk (Sky Blue)|RotR2",
+				"Runechalk (Swamp Green)|RotR2",
+				"Runechalk (Vine Green)|RotR2",
+				"Runechalk (Warm Orange)|RotR2"
+			]
+		},
+		{
 			"name": "Runechalk (Alabaster White)",
 			"source": "RotR2",
 			"page": 7,
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -3848,7 +3869,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -3911,7 +3931,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -3974,7 +3993,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -4037,7 +4055,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -4099,7 +4116,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -4158,7 +4174,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -4220,7 +4235,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -4279,7 +4293,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -4343,7 +4356,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -4402,7 +4414,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
@@ -4461,7 +4472,6 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
-			"type": "runechalk",
 			"entries": [
 				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
 				{
