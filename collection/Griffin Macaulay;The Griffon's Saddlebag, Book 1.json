@@ -2796,13 +2796,13 @@
 			"bonusWeapon": "+1",
 			"entries": [
 				"This blade was once used as a dagger by an ogre, but is nevertheless large enough to be a shortsword. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"This blade’s hilt is hollow and can hold up to 3 cantrip spell scrolls. Cantrip scrolls left within the compartment for 1 minute activate one of the three clear gems adorning its grip. Once activated, you can cast these cantrips at will using your spellcasting modifier. If you don’t have a spellcasting modifier, use your Intelligence modifier instead. You have proficiency with these cantrips. Cantrips cast from the blade use the weapon as an arcane focus and allow you to perform any somatic components with the weapon instead of requiring a free hand. Scrolls contained within the sword are not destroyed after using them in this way.",
-				"When you cast a cantrip using the sword that deals damage, the sword’s damage type changes to match the cantrip’s for 1 minute or until you end it early (no action required).",
+				"This blade's hilt is hollow and can hold up to 3 cantrip spell scrolls. Cantrip scrolls left within the compartment for 1 minute activate one of the three clear gems adorning its grip. Once activated, you can cast these cantrips at will using your spellcasting modifier. If you don't have a spellcasting modifier, use your Intelligence modifier instead. You have proficiency with these cantrips. Cantrips cast from the blade use the weapon as an arcane focus and allow you to perform any somatic components with the weapon instead of requiring a free hand. Scrolls contained within the sword are not destroyed after using them in this way.",
+				"When you cast a cantrip using the sword that deals damage, the sword's damage type changes to match the cantrip's for 1 minute or until you end it early (no action required).",
 				{
 						"type": "inset",
 						"name": "Cantrips from Magic Items",
 						"entries": [
-							"Remember, spells cast from magic items are always cast at their lowest possible level unless otherwise specified. That includes cantrips! Regardless of your character level, cantrips cast from magic items are always cast as if you’re 1st level."
+							"Remember, spells cast from magic items are always cast at their lowest possible level unless otherwise specified. That includes cantrips! Regardless of your character level, cantrips cast from magic items are always cast as if you're 1st level."
 						]
 					}
 			],
@@ -2833,7 +2833,7 @@
 			],
 			"entries": [
 				"This dark, sea-soaked suit of armor smells of brine and is covered in eldritch runes. You have a +1 bonus to AC and can breathe normally underwater while wearing this armor.",
-				"In addition, while wearing this armor, you can use an action to cast the {@spell Evard's black tentacles} spell (save {@dc 15}) from it. When cast in this way, the spell targets a 15-foot square centered on your location that does not follow you when you move. In addition, you do not need to concentrate on the spell and are immune to its effects when cast in this way. Once this property has been used, it can’t be used again until the next dusk."
+				"In addition, while wearing this armor, you can use an action to cast the {@spell Evard's black tentacles} spell (save {@dc 15}) from it. When cast in this way, the spell targets a 15-foot square centered on your location that does not follow you when you move. In addition, you do not need to concentrate on the spell and are immune to its effects when cast in this way. Once this property has been used, it can't be used again until the next dusk."
 			],
 			"fluff": {
 				"images": [
@@ -2856,7 +2856,7 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"This bronze mask lets out a deep, sonorous ring when struck. When you’re reduced to 0 hit points or fail a death saving throw while wearing the mask, the 3 enemy creatures nearest to you within 30 feet must succeed on a {@dc 15} Wisdom saving throw or take {@damage 2d12} necrotic damage. This property has no effect on creatures who aren’t missing any hit points or are {@condition deafened}. If you’re healed or stabilized after falling to 0 hit points, the mask can’t be used again in this way until the following dusk."
+				"This bronze mask lets out a deep, sonorous ring when struck. When you're reduced to 0 hit points or fail a death saving throw while wearing the mask, the 3 enemy creatures nearest to you within 30 feet must succeed on a {@dc 15} Wisdom saving throw or take {@damage 2d12} necrotic damage. This property has no effect on creatures who aren't missing any hit points or are {@condition deafened}. If you're healed or stabilized after falling to 0 hit points, the mask can't be used again in this way until the following dusk."
 			],
 			"fluff": {
 				"images": [
@@ -2889,7 +2889,7 @@
 			"weapon": true,
 			"bonusWeapon": "+1",
 			"entries": [
-				"This dark metal weapon is grimly ornate. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Once per turn when you reduce a Small or larger creature to 0 hit points with this weapon, a foreboding, gong-like sound emanates from the blade. When this happens, any hostile creature within 15 feet of the target that’s missing any of its hit points must make a {@dc 15} Wisdom saving throw. On a failed save, a creature takes {@damage 1d8} psychic damage, or half as much damage on a successful one."
+				"This dark metal weapon is grimly ornate. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Once per turn when you reduce a Small or larger creature to 0 hit points with this weapon, a foreboding, gong-like sound emanates from the blade. When this happens, any hostile creature within 15 feet of the target that's missing any of its hit points must make a {@dc 15} Wisdom saving throw. On a failed save, a creature takes {@damage 1d8} psychic damage, or half as much damage on a successful one."
 			],
 			"fluff": {
 				"images": [
@@ -2911,8 +2911,8 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This well-worn leather eyepatch is enchanted with the illusion of an embroidered eye on the front. While wearing this eyepatch over an eye, whether you’re missing one or not, you can magically see from the patch as if it were a working eye. The embroidered eye adorning the front of the patch swivels and moves as you look around while wearing it.",
-				"In addition, while wearing the eyepatch over an eye, you can speak its command word as a bonus action to gain darkvision out to a range of 60 feet for 1 hour. If you already have darkvision, this effect increases its range by 60 feet. While this property is in effect, you can see through magical darkness as if it were nonmagical darkness. Once this property of the eyepatch has been used, it can’t be used again until the next dawn."
+				"This well-worn leather eyepatch is enchanted with the illusion of an embroidered eye on the front. While wearing this eyepatch over an eye, whether you're missing one or not, you can magically see from the patch as if it were a working eye. The embroidered eye adorning the front of the patch swivels and moves as you look around while wearing it.",
+				"In addition, while wearing the eyepatch over an eye, you can speak its command word as a bonus action to gain darkvision out to a range of 60 feet for 1 hour. If you already have darkvision, this effect increases its range by 60 feet. While this property is in effect, you can see through magical darkness as if it were nonmagical darkness. Once this property of the eyepatch has been used, it can't be used again until the next dawn."
 			],
 			"fluff": {
 				"images": [
@@ -2984,7 +2984,7 @@
 			"reqAttune": true,
 			"bonusWeapon": "+1",
 			"entries": [
-				"This thin, hollow quarterstaff has the finesse property and reverberates when it strikes a target. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a target with this weapon and roll the maximum amount of bludgeoning damage on the weapon’s damage die, the hollow staff shudders and emits a deep, thunderous sound. When that happens, roll the weapon’s damage die again and add it to the total damage of the attack. This extra damage is thunder damage."
+				"This thin, hollow quarterstaff has the finesse property and reverberates when it strikes a target. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a target with this weapon and roll the maximum amount of bludgeoning damage on the weapon's damage die, the hollow staff shudders and emits a deep, thunderous sound. When that happens, roll the weapon's damage die again and add it to the total damage of the attack. This extra damage is thunder damage."
 			],
 			"fluff": {
 				"images": [
@@ -3006,7 +3006,7 @@
 			"type": "RG",
 			"rarity": "uncommon",
 			"entries": [
-				"This magic wooden ring is always covered in splotches of charcoal, ink, or paint, regardless of how well or often it’s cleaned. While wearing the ring on a finger, you can touch that finger to a solid surface and begin to draw. The drawing uses your finger to make marks as if it were a piece of charcoal, ink quill, or paintbrush (your choice). The marks you make can be in any color. Any drawing made by the ring can be easily smudged or washed away without leaving any marks behind. The ring can have up to a total of 5 square feet covered with drawings in this way at any time. Drawing more than that begins to erase the previous marks, and any mark left after 24 hours of being made is magically erased."
+				"This magic wooden ring is always covered in splotches of charcoal, ink, or paint, regardless of how well or often it's cleaned. While wearing the ring on a finger, you can touch that finger to a solid surface and begin to draw. The drawing uses your finger to make marks as if it were a piece of charcoal, ink quill, or paintbrush (your choice). The marks you make can be in any color. Any drawing made by the ring can be easily smudged or washed away without leaving any marks behind. The ring can have up to a total of 5 square feet covered with drawings in this way at any time. Drawing more than that begins to erase the previous marks, and any mark left after 24 hours of being made is magically erased."
 			],
 			"fluff": {
 				"images": [
@@ -3028,8 +3028,8 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This black sugarpaste cookie is made using a grim recipe passed down through generations of clerics devoted to gods of death. Inside this hollow cookie is a blank strip of enchanted paper whose writing only appears when you break open the cookie. The paper’s writing vaguely predicts the manner in which you’ll die. When you open this cookie, roll a {@dice d20} and use the table below to determine the paper’s prediction.",
-				"Once a creature’s fortune has been predicted in this way, all future doomsday cookie papers will predict the same outcome for them. If a creature dies in a way foretold by the cookie (at your GM’s discretion) the cookie’s paper transforms into a scroll of {@spell revivify}. This scroll can only be used on the creature whose passing it foretold. If the scroll is unused within 1 minute, it crumbles into flour.",
+				"This black sugarpaste cookie is made using a grim recipe passed down through generations of clerics devoted to gods of death. Inside this hollow cookie is a blank strip of enchanted paper whose writing only appears when you break open the cookie. The paper's writing vaguely predicts the manner in which you'll die. When you open this cookie, roll a {@dice d20} and use the table below to determine the paper's prediction.",
+				"Once a creature's fortune has been predicted in this way, all future doomsday cookie papers will predict the same outcome for them. If a creature dies in a way foretold by the cookie (at your GM's discretion) the cookie's paper transforms into a scroll of {@spell revivify}. This scroll can only be used on the creature whose passing it foretold. If the scroll is unused within 1 minute, it crumbles into flour.",
 				"Regardless of its grim foretellings, the cookie itself is a delicious snack that is sweet, salty, and smoky.",
 				{
 					"type": "table",
@@ -7339,6 +7339,30 @@
 						}
 					]
 				}
+			}
+		},
+		{
+			"name": "Dragon Edge Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": [
+						"S",
+						"P"
+					]
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragon Edge ",
+				"source": "tgs1",
+				"page": 57,
+				"rarity": "uncommon",
+				"entries": [
+					"This weapon is made from the harvested remains of a fallen dragon. With a properly reclaimed claw or tooth, the resource can be forged into a simple piercing or slashing weapon whose latent draconic powers can appear in battle.",
+					"The first time you hit a creature on your turn with this weapon with an attack that you had advantage on, its draconic magic comes forth to deal an extra 1d6 damage of the original dragon's elemental type.",
+					"Weapons made from the claws or teeth of dragons change in rarity and power depending on the original dragon's age. Young dragons' bones aren't as powerful as older ones, and create uncommon weapons."
+				]
 			}
 		}
 	]
