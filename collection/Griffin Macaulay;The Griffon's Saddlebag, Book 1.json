@@ -3262,7 +3262,18 @@
 						"If you fail a saving throw by 4 or less, you can choose to succeed on it instead. Once this feature of the sword's been used, it can't be used again until the following dawn."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragon-Kindled-Edge.jpg"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Dragon's Call",
