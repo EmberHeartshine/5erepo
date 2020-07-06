@@ -2598,7 +2598,7 @@
 				{
 					"name": "Tooth and Scale",
 					"entries": [
-						"When you take damage from a creature within 10 feet of you, you can use your reaction to channel the good spirit within the armor and cause a bright, spectral couatl to appear above you. The spectral form strikes at the creature who damaged you, forcing it to make a {@dc 15} Dexterity saving throw. On a failure, the creature takes {@damage 4d10} radiant damage, or half as much damage on a success. Once this property has been used, it can’t be used again until the next dawn."
+						"When you take damage from a creature within 10 feet of you, you can use your reaction to channel the good spirit within the armor and cause a bright, spectral couatl to appear above you. The spectral form strikes at the creature who damaged you, forcing it to make a {@dc 15} Dexterity saving throw. On a failure, the creature takes {@damage 4d10} radiant damage, or half as much damage on a success. Once this property has been used, it can't be used again until the next dawn."
 					]
 				},
 				{
@@ -2615,6 +2615,253 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Scales.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Cratering Quarterstaff",
+			"source": "tgs1",
+			"page": 52,
+			"baseItem": "quarterstaff|phb",
+			"tier": "major",
+			"rarity": "very rare",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"weapon": true,
+			"reqAttune": "by a creature with a Strength score of 17 or higher",
+			"bonusWeapon": "+1",
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"This thick, stony quarterstaff requires a Strength score of 17 or higher in order to wield. Despite glowing with embers, it feels comfortably warm to the touch. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"This quarterstaff has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. Once on each of your turns immediately after you make an attack with the quarterstaff, you can expend 1 of its charges (no action required) to slam the weapon into the ground and create a 10-foot cone of intense tremors and flame in the direction of the original attack's target. Any creature caught in the cone must make a {@dc 16} Dexterity saving throw. The original attack's target has disadvantage on the saving throw. On a failed save, a creature takes {@damage 1d8} bludgeoning damage and {@damage 1d8} fire damage, or half as much damage on a successful one."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Cratering-Quarterstaff.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Crosier of Divine Power",
+			"source": "tgs1",
+			"page": 52,
+			"baseItem": "quarterstaff|phb",
+			"tier": "major",
+			"rarity": "very rare",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"weapon": true,
+			"reqAttune": "by a cleric or paladin",
+			"bonusWeapon": "+3",
+			"entries": [
+				"This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.",
+				"This staff is enchanted with powerful holy magic that manifests as radiant motes of power during times of need. At the start of each of your turns in combat, roll a {@dice d6}. On a 6, a mote of power appears above the head of the staff. When you hit a target with the staff or heal a creature with a spell or magical effect while holding it, you can expend 1 of these motes to add {@damage 2d6} to the total damage dealt or hit points healed. The extra damage is radiant.",
+				"Each mote lasts for 1 minute or until it's expended. When you roll initiative against a hostile creature, the staff creates 2 motes."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Crosier-of-Divine-Power.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Crown of Deep Winter",
+			"source": "tgs1",
+			"page": 52,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"fire shield"
+			],
+			"entries": [
+				"This icy crown is made using ice from the Everglacier. While wearing the crown, you have resistance to cold damage. In addition, you can use an action to cast the {@spell fire shield} spell from it, making only a chill shield when you do. Once the crown has cast this spell, it can't cast it again until the next dawn.",
+				{
+					"name": "Frozen Burst",
+					"entries": [
+						"While wearing this crown, you can use your reaction when a creature within 5 feet of you that you can see hits you with an attack to cause the area around you to explode in a burst of razor-sharp icicles. When you do, all creatures within 5 feet of you must make a {@dc 16} Dexterity saving throw. On a failure, a creature takes {@damage 2d8} cold damage, or half as much on a success. This property of the crown can't be used again until you finish a short or long rest."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Crown-of-Deep-Winter.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Crypt Keeper Glaive",
+			"source": "tgs1",
+			"page": 52,
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+3",
+			"entries": [
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+				"When you use the glaive to reduce a Small or larger creature that is hostile toward you to 0 hit points, roll a {@dice d10}. You gain temporary hit points equal to the number you roll.",
+				"In addition, the glaive's blade begins to glow with a sickly green haze whenever you gain temporary hit points in this way. While glowing, the first successful melee attack you make with the glaive deals extra necrotic damage equal to the number of temporary hit points you gained. Once you deal this bonus damage, the haze fades.",
+				"The haze and any remaining temporary hit points are lost after 1 minute.",
+				"Undead creatures killed by this weapon cannot be raised from the dead again.",
+				{
+					"name": "6 Feet Under",
+					"entries": [
+						"The first time on your turn that you land a successful melee attack with this weapon against a creature that is {@condition prone}, the weapon's damage die is maximized."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Crypt-Keeper-Glaive.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Dagger of the Ogre Mage",
+			"source": "tgs1",
+			"page": 53,
+			"baseItem": "shortsword|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"This blade was once used as a dagger by an ogre, but is nevertheless large enough to be a shortsword. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"This blade’s hilt is hollow and can hold up to 3 cantrip spell scrolls. Cantrip scrolls left within the compartment for 1 minute activate one of the three clear gems adorning its grip. Once activated, you can cast these cantrips at will using your spellcasting modifier. If you don’t have a spellcasting modifier, use your Intelligence modifier instead. You have proficiency with these cantrips. Cantrips cast from the blade use the weapon as an arcane focus and allow you to perform any somatic components with the weapon instead of requiring a free hand. Scrolls contained within the sword are not destroyed after using them in this way.",
+				"When you cast a cantrip using the sword that deals damage, the sword’s damage type changes to match the cantrip’s for 1 minute or until you end it early (no action required).",
+				{
+						"type": "inset",
+						"name": "Cantrips from Magic Items",
+						"entries": [
+							"Remember, spells cast from magic items are always cast at their lowest possible level unless otherwise specified. That includes cantrips! Regardless of your character level, cantrips cast from magic items are always cast as if you’re 1st level."
+						]
+					}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dagger-of-the-Ogre-Mage.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Dark Fathom Armor",
+			"source": "tgs1",
+			"page": 53,
+			"type": "LA",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 13,
+			"ac": 12,
+			"bonusAc": "+1",
+			"attachedSpells": [
+				"Evard's black tentacles"
+			],
+			"entries": [
+				"This dark, sea-soaked suit of armor smells of brine and is covered in eldritch runes. You have a +1 bonus to AC and can breathe normally underwater while wearing this armor.",
+				"In addition, while wearing this armor, you can use an action to cast the {@spell Evard's black tentacles} spell (save {@dc 15}) from it. When cast in this way, the spell targets a 15-foot square centered on your location that does not follow you when you move. In addition, you do not need to concentrate on the spell and are immune to its effects when cast in this way. Once this property has been used, it can’t be used again until the next dusk."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dark-Fathom-Armor.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Dead Ringer",
+			"source": "tgs1",
+			"page": 53,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This bronze mask lets out a deep, sonorous ring when struck. When you’re reduced to 0 hit points or fail a death saving throw while wearing the mask, the 3 enemy creatures nearest to you within 30 feet must succeed on a {@dc 15} Wisdom saving throw or take {@damage 2d12} necrotic damage. This property has no effect on creatures who aren’t missing any hit points or are {@condition deafened}. If you’re healed or stabilized after falling to 0 hit points, the mask can’t be used again in this way until the following dusk."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dead-Ringer.jpg"
 						}
 					}
 				]
