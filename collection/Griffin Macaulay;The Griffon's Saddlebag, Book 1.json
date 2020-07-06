@@ -7636,8 +7636,7 @@
 			"type": "GV",
 			"requires": [
 				{
-					"type": "M",
-					"dmgType": "P"
+					"type": "M"
 				}
 			],
 			"inherits": {
@@ -7670,8 +7669,7 @@
 			"type": "GV",
 			"requires": [
 				{
-					"type": "M",
-					"dmgType": "P"
+					"type": "M"
 				}
 			],
 			"inherits": {
@@ -7704,8 +7702,7 @@
 			"type": "GV",
 			"requires": [
 				{
-					"type": "M",
-					"dmgType": "P"
+					"type": "M"
 				}
 			],
 			"inherits": {
