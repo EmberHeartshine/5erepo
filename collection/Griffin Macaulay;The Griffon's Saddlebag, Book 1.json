@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1593429293,
-		"dateLastModified": 1593789961
+		"dateLastModified": 1594038024
 	},
 	"item": [
 		{
@@ -1153,7 +1153,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battleshef-Buckler.jpg"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battlechef-Buckler.jpg"
 						}
 					}
 				]
@@ -2231,6 +2231,157 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Clockwork-Inkbeetle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Coil Crook",
+			"source": "tgs1",
+			"page": 48,
+			"baseItem": "quarterstaff|phb",
+			"tier": "major",
+			"rarity": "uncommon",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeapon": "+2",
+			"staff": true,
+			"weapon": true,
+			"attachedSpells": [
+				"rope trick"
+			],
+			"entries": [
+				"This smooth red staff is actually made from a rigid length of rope. You can speak the staff 's command word as a bonus action to cause it to magically loosen and turn into a 10-foot length of decorative {@item silk rope (50 feet)|phb|silken rope}. You can speak the staff 's command word again as a bonus action to cause the rope to untangle itself and become the solid staff form once more. It can be used as a spellcasting focus in either of these forms.",
+				"While holding the staff, you can use an action to cast the {@spell rope trick} spell from it, using it as the rope required for the spell. Once this property has been used, it can't be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Coil-Crook.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Coldsnap",
+			"source": "tgs1",
+			"page": 48,
+			"baseItem": "whip|phb",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This icy whip deals an extra {@damage 1d4} cold damage to any target it hits. In addition, you have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"The whip has 3 charges and regains all of them each day at dawn. When you hit a creature that is not immune to cold damage with this weapon, you can expend 1 of its charges to force the creature to make a {@dc 15} Constitution saving throw. On a failure, its speed becomes 0 until the start of your next turn. On a success, its speed is halved instead.",
+				"Once you attune to this weapon, its normally frigid handle feels warm to the touch."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Coldsnap.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Companion's Band",
+			"source": "tgs1",
+			"page": 48,
+			"tier": "minor",
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This woven band can be worn as a necklace or bracelet by resizing its strap. While wearing the band, you can use an action to summon a spectral companion that appears in a space within 5 feet of you. The companion can be a dog, cat, bird, or similar Small or smaller beast. The form is translucent and immaterial, but feels warm to the touch. It emits dim light in a 5-foot radius. The companion remains until dismissed (no action required) or until you remove the band. It is not considered to be a creature, does not occupy space, and does not require food, water, or air to exist. It is friendly toward you and other creatures you choose. It stays within 30 feet of you at all times and moves through objects as necessary in order to do so. If it's unable to reach you, it disappears until summoned again. The companion wears a spectral copy of the band on its neck or limb when you summon it (your choice).",
+				"The companion understands the emotion and intent of your commands, but cannot speak or understand language. Attempting to target the companion with a {@spell detect thoughts} spell only reveals an overwhelming sense of love and affection for you.",
+				"Once the same spectral companion has remained or has been summoned at least once a day for 7 consecutive days, the band and companion become permanently linked to you. When this happens, the band no longer requires you be attuned to it in order to use it, and no other creature can attune to it. Once the band is linked to you in this way, you can summon your linked companion using a bonus action instead of an action. In addition, once the band is linked to you, the companion becomes partially physical, allowing you and creatures you choose to be able to gently pet and hold its otherwise spectral form.",
+				"If you die, the band can be attuned to by a different creature. The linked companion follows you to whatever afterlife awaits you or reappears if you're resurrected and summon it once again."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Companions-Band.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Container of Heat and Frost",
+			"source": "tgs1",
+			"page": 49,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This heavy iron container is adorned with 3 arcane symbols along the edge of its removable lid. The container can hold up to 1 gallon of liquid. As an action, you can press 1 of the container's arcane glyphs to heat the liquid inside to a boil (212 degrees Fahrenheit), chill it (33 degrees Fahrenheit), or maintain its current temperature (keeping it between 33 and 212 degrees Fahrenheit). Once pressed, the selected glyph glows either red, blue, or yellow, respectively.",
+				"It takes 1 minute to boil or chill a liquid. Pressing the glyph again as an action ends the heating or cooling process early. After boiling or chilling the liquid, the container maintains its hot or cool temperature, respectively."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Container-of-Heat-and-Frost.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Coralshield Golem",
+			"source": "tgs1",
+			"page": 49,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This crablike golem is made of a light but resilient magical coral. While wearing it on your back, you can use a bonus action to command it to move along your arm and don itself. You can command the golem to return to your back using another bonus action.",
+				"If you don't have a free hand or refuse to drop what you're holding when the golem attempts to don itself, it returns and reattaches to your back."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Coralshield-Golem.jpg"
 						}
 					}
 				]
