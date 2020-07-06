@@ -2386,6 +2386,239 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Couatl Herald's Fang",
+			"source": "tgs1",
+			"page": 50,
+			"baseItem": "greatsword|phb",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"reqAttune": true,
+			"entries": [
+				"This vibrant claymore carries with it some of the properties of the {@creature couatl} who either forged it or the couatl whose scales it was crafted from. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, when you roll a 20 on an attack roll made with this weapon, the target takes an extra {@damage 2d6} poison damage and must make a {@dc 15} Constitution saving throw. On a failure, the target is {@condition incapacitated} and has a speed of 0 until it takes any damage or someone else uses an action to shake the target out of its stupor.",
+				{
+					"name": "Flight of the Couatls",
+					"entries": [
+						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Fang.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Couatl Herald's Guard",
+			"source": "tgs1",
+			"page": 50,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": "by a creature of good alignment",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This magic shield is made from yew and covered in durable couatl feathers. When a creature you can see within 10 feet of you takes damage, you can use your reaction to magically take that damage instead of the creature taking it. When you do so, the damage type changes to force. Once this property has been used, it can't be used again until you finish a short or long rest.",
+				{
+					"name": "Flight of the Couatls",
+					"entries": [
+						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Guard.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Couatl Herald's Lash",
+			"source": "tgs1",
+			"page": 50,
+			"baseItem": "whip|phb",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": "by a creature of good alignment",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R",
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This slender whip's grip is feathered and comfortable to wield. Its weight has been magically reduced and it gently sways on its own. This weapon has the light property. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"Once on each of your turns when you take the Attack action and use this whip to make an attack against a Medium or smaller creature, you can choose to forgo the attack and force the target to make a {@dc 15} Dexterity saving throw instead. On a failure, the target is {@contition grappled} by the whip and takes {@damage 1d4} bludgeoning damage as it's constricted. If you replace another attack with the whip in this way against a target who's already grappled by it, that target becomes {@condition restrained} by the whip instead upon failing the saving throw. A target grappled or restrained by the whip can use an action to make a {@dc 15} Strength or Dexterity check (target's choice). On a success, it is no longer grappled or restrained by the whip.",
+				"Until this grapple or restraint ends, you can't use the whip against a different target. Moving more than 10 feet away from the target or dropping the whip ends the grapple or restraint.",
+				{
+					"name": "Flight of the Couatls",
+					"entries": [
+						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Lash.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Couatl Herald's Mantle",
+			"source": "tgs1",
+			"page": 50,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": "by a creature of good alignment",
+			"entries": [
+				"This magic cloak is given to those deemed kind-hearted and responsible by a celestial. While wearing the mantle, you have advantage on saving throws to resist becoming {@condition poisoned} or diseased. In addition, you are immune to any effect that would sense your emotions.",
+				{
+					"name": "Flight of the Couatls",
+					"entries": [
+						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Mantle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Couatl Herald's Radiance",
+			"source": "tgs1",
+			"page": 51,
+			"baseItem": "quarterstaff|phb",
+			"tier": "major",
+			"rarity": "rare",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"weapon": true,
+			"reqAttune": "by a spellcaster of good alignment",
+			"recharge": "dawn",
+			"charges": 5,
+			"attachedSpells": [
+				"create food and water",
+				"cure wounds",
+				"lesser restoration",
+				"protection from poison",
+				"sanctuary",
+				"shield"
+			],
+			"entries": [
+				"This magic wooden staff was enchanted by a powerful {@creature couatl}. The staff has 5 charges. While holding the staff, you can expend 1 of its charges to cast one of the following spells, using your spellcasting ability modifier and spell save DC: {@spell create food and water}, {@spell cure wounds} (2nd-level version), {@spell lesser restoration}, {@spell protection from poison}, {@spell sanctuary}, or {@spell shield}.",
+				"The staff regains {@dice 1d3 + 2} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff vanishes in a flash of light, lost forever.",
+				{
+					"name": "Flight of the Couatls",
+					"entries": [
+						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Radiance.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Couatl Herald's Scales",
+			"source": "tgs1",
+			"page": 51,
+			"type": "MA",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a creature of good alignment",
+			"weight": 45,
+			"ac": 14,
+			"bonusAc": "+1",
+			"stealth": false,
+			"entries": [
+				"This enchanted armor is made from {@creature couatl} scales that were collected by a generous celestial. You gain a +1 bonus to AC while you wear this armor. This armor does not impose disadvantage on Dexterity ({@skill Stealth}) checks.",
+				{
+					"name": "Tooth and Scale",
+					"entries": [
+						"When you take damage from a creature within 10 feet of you, you can use your reaction to channel the good spirit within the armor and cause a bright, spectral couatl to appear above you. The spectral form strikes at the creature who damaged you, forcing it to make a {@dc 15} Dexterity saving throw. On a failure, the creature takes {@damage 4d10} radiant damage, or half as much damage on a success. Once this property has been used, it can’t be used again until the next dawn."
+					]
+				},
+				{
+					"name": "Flight of the Couatls",
+					"entries": [
+						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Scales.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
@@ -6534,6 +6767,56 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Battlement-Bow.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Couatl Herald's Reach",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "R",
+					"dmgType": "P"
+				}
+			],
+			"excludes": {
+					"property": [
+						"AF",
+						"LD",
+						"T"
+					],
+					"name": "Light Repeating Crossbow"
+			},
+			"inherits": {
+				"tier": "major",
+				"rarity": "rare",
+				"source": "tgs1",
+				"page": 51,
+				"namePrefix": "Couatl Herald's Reach ",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"recharge": "dawn",
+				"charges": 4,
+				"entries": [
+					"This wooden bow is carved to resemble a mighty {@creature couatl}. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bow has 4 charges and regains {@dice 1d3 + 1} expended charges daily at dawn. When you make a ranged attack against a Large or smaller creature with the bow, you can choose a limb to target and expend 1 of the bow's charges as part of the attack. If the attack hits, the weapon's damage becomes radiant, and the creature is forced to make a {@dc 15} Dexterity saving throw. On a failed save, that creature's targeted limb is pinned by radiant tethers of magic: holding it to its body or an adjacent surface (if any) for up to 1 minute.",
+					"Depending on the pinned limb, the creature may fall over {@condition prone}, be unable to move, or make weapon attacks with disadvantage while the limb remains pinned in this way. A creature can use its action to make a {@dc 15} Strength check, freeing itself or another creature within its reach on a success from the pinning tethers.",
+					{
+					"name": "Flight of the Couatls",
+					"entries": [
+						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+					]
+				}
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Reach.jpg"
 							}
 						}
 					]
