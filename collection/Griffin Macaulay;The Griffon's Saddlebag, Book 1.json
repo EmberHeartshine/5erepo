@@ -3137,6 +3137,181 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Dragon Tamer Lance",
+			"source": "tgs1",
+			"page": 57,
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"weapon": true,
+			"bonusWeapon": "+1",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 8,
+			"attachedSpells": [
+				"find steed"
+			],
+			"entries": [
+				"This slender, iridescent lance is covered in an enchanted finish that resembles the hardened scales of many dragons. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While attuned to the weapon, you can, understand and speak Draconic.",
+				"This lance has 8 charges and regains {@dice 1d4 + 4} expended charges each day at dawn. When you hit a target with the lance, you can expend 1 of its charges to deal an extra {@damage 3d6} acid, cold, fire, lightning, or poison damage (your choice) to the target. If you expend a charge in this way when you hit a dragon, it must also succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} of you until the beginning of your next turn. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.",
+				"Whenever you expend a charge in this way to deal extra damage, you can choose to expend a 2nd charge and deal an additional {@damage 1d6} damage of the same type to the target and prevent it from using its reaction until the start of its next turn.",
+				{
+					"type": "entries",
+					"name": "Wyrmling Steed",
+					"entries": [
+						"In addition, while holding the lance, you can use an action to cast the {@spell find steed} spell from it. Once this property has been used, it can't be used again until the next dawn. When you use the lance to cast this spell, you can choose to summon a dragon wyrmling instead of a normal mount by expending a number of charges equal to its challenge rating (maximum 2). You determine the kind of dragon summoned, although its alignment towards good or evil must be the same as your own. If your alignment is neutral, you can summon a wyrmling of either alignment. The wyrmling counts as one size larger when used as a mount and cannot use its breath weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forceful Impact",
+					"entries": [
+						"If you move at least 20 feet straight toward a Medium or smaller target and then make a melee attack with the lance against it while within 5 feet of the target, you make the attack with advantage instead of disadvantage. If you hit, you can immediately roll to attack another target 5 feet directly behind the first, without advantage, as part of the initial attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragon-Tamer-Lance.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragon Turtle Shield",
+			"source": "tgs1",
+			"page": 58,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This shield is made from a piece of reclaimed dragon turtle shell. The brass dragon turtle head sculpture adorning its front magically creates and heats a small reservoir of water that replenishes daily at dawn. When you take fire damage while holding this shield, you can use a reaction to speak the shield's command word. When you do, the water inside it is superheated, reducing the fire damage you take by half. The superheated water is released as a dense cloud of steam that's centered on your space, heavily obscuring the area in a 45-foot sphere that spreads around corners. The cloud does not move with you and lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
+				"Once this property has been used, the shield's reservoir is empty and can't be used again in this way until the next dawn when it replenishes or until it's submerged in nonmagical salt water for 1 hour."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragon-Turtle-Shield.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragon-Kindled Edge",
+			"source": "tgs1",
+			"page": 58,
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+3",
+			"sword": true,
+			"weapon": true,
+			"reqAttune": true,
+			"entries": [
+				"This magnificent blade is crafted from the remains of an ancient dragon. You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a dragon with this weapon, the dragon takes an extra {@damage 2d6} damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns. In addition, while you're attuned to this weapon, you can read and understand draconic.",
+				{
+					"type": "entries",
+					"name": "Kindled Cleave",
+					"entries": [
+						"When you're affected by a hostile dragon's breath attack, you can use your reaction to hold the blade in front of you. When you do, the sword splits the breath attack and leaves you and any creature in a 30-foot cone behind you unaffected by the attack. Once this features has been used, it can't be used again until the following dawn.",
+						"When you use this feature to split a breath attack in this way, the sword gives off an elemental haze like that of the split breath attack. The haze lasts for up to 1 minute and sheds bright light in a 10-foot radius and dim light for another 10 feet. The first creature hit by an attack from the sword while it has this haze takes an extra {@damage 6d6} damage from the attack of the breath attack's damage type. This extra damage ignores resistances and immunity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Draconic Resistance",
+					"entries": [
+						"If you fail a saving throw by 4 or less, you can choose to succeed on it instead. Once this feature of the sword's been used, it can't be used again until the following dawn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragon's Call",
+			"source": "tgs1",
+			"page": 59,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This ear cuff imparts a deeper understanding of draconic history and language upon its wearer. While wearing the ear cuff, you can understand and speak Draconic. In addition, you gain a +1 bonus to any Charisma, Intelligence, or Wisdom ability check you make that involves dragonrelated lore."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragons-Call.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Dream Mantle",
+			"source": "tgs1",
+			"page": 59,
+			"tier": "major",
+			"rarity": "Very Rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"dream"
+			],
+			"entries": [
+				"This short purple cape is vaguely iridescent and is difficult to look at from afar. The cape creates illusions of faraway places that are visible only to creatures 30 or more feet away. While wearing this cloak, creatures more than 30 feet away from you have disadvantage on Wisdom (Perception) checks to detect you based on sight and make ranged attacks against you with disadvantage. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.",
+				"In addition, you can cast the {@spell dream} spell (save {@dc 16}) using the mantle, using yourself as the messenger within the dream. Once this property of the mantle has been used, it can’t be used again until 7 days have passed."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dream-Mantle.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
@@ -7364,7 +7539,198 @@
 					"This weapon is made from the harvested remains of a fallen dragon. With a properly reclaimed claw or tooth, the resource can be forged into a simple piercing or slashing weapon whose latent draconic powers can appear in battle.",
 					"The first time you hit a creature on your turn with this weapon with an attack that you had advantage on, its draconic magic comes forth to deal an extra {@damage 1d6} damage of the original dragon's elemental type.",
 					"Weapons made from the claws or teeth of dragons change in rarity and power depending on the original dragon's age. Young dragons' bones aren't as powerful as older ones, and create uncommon weapons."
-				]
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragon-Edge-Weapon.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Dragon Edge Weapon +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragon Edge ",
+				"nameSuffix": " +1",
+				"source": "tgs1",
+				"page": 57,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made from the harvested remains of a fallen dragon. With a properly reclaimed claw or tooth, the resource can be forged into a simple piercing or slashing weapon whose latent draconic powers can appear in battle.",
+					"The first time you hit a creature on your turn with this weapon with an attack that you had advantage on, its draconic magic comes forth to deal an extra {@damage 1d6} damage of the original dragon's elemental type.",
+					"Weapons made from the claws or teeth of dragons change in rarity and power depending on the original dragon's age. Adult dragons can produce rare weapons with a +1 bonus to attack and damage rolls made with them."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragon-Edge-Weapon.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Dragon Edge Weapon +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragon Edge ",
+				"nameSuffix": " +2",
+				"source": "tgs1",
+				"page": 57,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This weapon is made from the harvested remains of a fallen dragon. With a properly reclaimed claw or tooth, the resource can be forged into a simple piercing or slashing weapon whose latent draconic powers can appear in battle.",
+					"The first time you hit a creature on your turn with this weapon with an attack that you had advantage on, its draconic magic comes forth to deal an extra {@damage 1d6} damage of the original dragon's elemental type.",
+					"Weapons made from the claws or teeth of dragons change in rarity and power depending on the original dragon's age. Ancient dragons can create very rare weapons that have a +2 bonus."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragon-Edge-Weapon.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Dragonkin Weapon +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragonkin ",
+				"nameSuffix": " +1",
+				"source": "tgs1",
+				"page": 58,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeapon": "+1",
+				"entries": [
+					"These weapons are made of a scaly metal that radiates draconic elements. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +1 bonus to your breath weapon's save DC.",
+					"The color of the weapon's metal changes to reflect your own natural colors as a dragonborn once you attune to it."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragonkin-Weapon.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Dragonkin Weapon +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragonkin ",
+				"nameSuffix": " +2",
+				"source": "tgs1",
+				"page": 58,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeapon": "+2",
+				"entries": [
+					"These weapons are made of a scaly metal that radiates draconic elements. You gain a +2 bonus to attack and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +2 bonus to your breath weapon's save DC.",
+					"The color of the weapon's metal changes to reflect your own natural colors as a dragonborn once you attune to it."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragonkin-Weapon.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Dragonkin Weapon +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragonkin ",
+				"nameSuffix": " +3",
+				"source": "tgs1",
+				"page": 58,
+				"tier": "major",
+				"rarity": "legendary",
+				"bonusWeapon": "+3",
+				"entries": [
+					"These weapons are made of a scaly metal that radiates draconic elements. You gain a +3 bonus to attack and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +3 bonus to your breath weapon's save DC.",
+					"The color of the weapon's metal changes to reflect your own natural colors as a dragonborn once you attune to it."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragonkin-Weapon.jpg"
+							}
+						}
+					]
+				}
 			}
 		}
 	]
