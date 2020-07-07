@@ -9203,11 +9203,15 @@
 			"requires": [
 				{
 					"dmgType": "P",
-					"property": [
-						"T"
-					]
+					"weaponCategory": "simple"
+				},
+				{
+					"name": "Trident"
 				}
 			],
+			"excludes": {
+				"property": "A"
+			},
 			"inherits": {
 				"namePrefix": "Galepierce ",
 				"source": "tgs1",
@@ -9215,7 +9219,7 @@
 				"tier": "major",
 				"rarity": "uncommon",
 				"entries": [
-					"These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other airbased hindrances are made without the normal disadvantage that those obstructions would typically cause."
+					"These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause."
 				],
 				"fluff": {
 					"images": [
