@@ -5174,10 +5174,12 @@
 			"name": "Runechalk",
 			"source": "RotR2",
 			"page": 7,
-			"type": "GV",
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces."
+			],
 			"items": [
 				"Runechalk (Alabaster White)|RotR2",
 				"Runechalk (Bright Yellow)|RotR2",
