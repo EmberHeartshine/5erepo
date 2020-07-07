@@ -3952,7 +3952,7 @@
 				"confusion",
 				"contagion",
 				"faerie fire",
-				"locate animals and plants",
+				"locate animals or plants",
 				"moonbeam",
 				"dancing lights"
 			],
@@ -3963,13 +3963,13 @@
 				{
 					"name": "Spore Cleansing",
 					"entries": [
-						"As an action, you can touch a willing creature with the rapier and expend 1 of its charges to remove 1 Spore Counter from that creature. (See {@creature sporehusk|tgs1})"
+						"As an action, you can touch a willing creature with the rapier and expend 1 of its charges to remove 1 Spore Counter from that creature. (See {@creature risen sporehusk|tgs1})"
 					]
 				},
 				{
 					"name": "Spells",
 					"entries": [
-						"While holding this rapier, you can use an action to expend 1 of its charges to cast one of the following spells from it (save {@dc 17}, spell attack bonus +9): {@spell charm person} (4th-level version), {@spell compulsion}, {@spell confusion}, {@spell contagion}, {@spell faerie fire}, {@spell locate animals and plants}, or {@spell moonbeam} (4th-level version). In addition, you can use an action to cast the {@spell dancing lights} spell at will while holding the rapier."
+						"While holding this rapier, you can use an action to expend 1 of its charges to cast one of the following spells from it (save {@dc 17}, spell attack bonus +9): {@spell charm person} (4th-level version), {@spell compulsion}, {@spell confusion}, {@spell contagion}, {@spell faerie fire}, {@spell locate animals or plants}, or {@spell moonbeam} (4th-level version). In addition, you can use an action to cast the {@spell dancing lights} spell at will while holding the rapier."
 					]
 				}
 			],
@@ -8443,12 +8443,15 @@
 			"type": "GV",
 			"requires": [
 				{
-					"name": "maul"
-				},
-				{
-					"name": "warhammer"
+					"weaponCategory": "martial",
+					"dmgType": "B"
 				}
 			],
+			"excludes": {
+				"name": [
+					"Flail"
+				]
+			},
 			"inherits": {
 				"namePrefix": "Festerwood ",
 				"source": "tgs1",
