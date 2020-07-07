@@ -4476,7 +4476,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fragment-of-Elder-Starlight.jpg"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Frefils-Tiny-Tasty-Tongue-Twisty-Sugarbombs.jpg"
 						}
 					}
 				]
@@ -4511,7 +4511,18 @@
 						"While you're attuned to this weapon, your hunger is almost insatiable. You're overwhelmingly compelled to eat twice the amount of food you normally would, and incur 1 level of {@condition exhaustion} if you go a day without eating enough."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Frost-Giant-Fork.jpg"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Frostbitten Buckler",
@@ -4570,7 +4581,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Frostbitten-Dagger.jpg"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Frozen-Dagger.jpg"
 						}
 					}
 				]
