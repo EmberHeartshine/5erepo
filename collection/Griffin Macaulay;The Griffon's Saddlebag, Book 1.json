@@ -3165,21 +3165,18 @@
 				"This lance has 8 charges and regains {@dice 1d4 + 4} expended charges each day at dawn. When you hit a target with the lance, you can expend 1 of its charges to deal an extra {@damage 3d6} acid, cold, fire, lightning, or poison damage (your choice) to the target. If you expend a charge in this way when you hit a dragon, it must also succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} of you until the beginning of your next turn. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.",
 				"Whenever you expend a charge in this way to deal extra damage, you can choose to expend a 2nd charge and deal an additional {@damage 1d6} damage of the same type to the target and prevent it from using its reaction until the start of its next turn.",
 				{
-					"type": "entries",
 					"name": "Wyrmling Steed",
 					"entries": [
 						"In addition, while holding the lance, you can use an action to cast the {@spell find steed} spell from it. Once this property has been used, it can't be used again until the next dawn. When you use the lance to cast this spell, you can choose to summon a dragon wyrmling instead of a normal mount by expending a number of charges equal to its challenge rating (maximum 2). You determine the kind of dragon summoned, although its alignment towards good or evil must be the same as your own. If your alignment is neutral, you can summon a wyrmling of either alignment. The wyrmling counts as one size larger when used as a mount and cannot use its breath weapons."
 					]
 				},
 				{
-					"type": "entries",
 					"name": "Forceful Impact",
 					"entries": [
 						"If you move at least 20 feet straight toward a Medium or smaller target and then make a melee attack with the lance against it while within 5 feet of the target, you make the attack with advantage instead of disadvantage. If you hit, you can immediately roll to attack another target 5 feet directly behind the first, without advantage, as part of the initial attack."
 					]
 				},
 				{
-					"type": "entries",
 					"name": "Special",
 					"entries": [
 						"You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
@@ -3247,7 +3244,6 @@
 			"entries": [
 				"This magnificent blade is crafted from the remains of an ancient dragon. You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a dragon with this weapon, the dragon takes an extra {@damage 2d6} damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns. In addition, while you're attuned to this weapon, you can read and understand draconic.",
 				{
-					"type": "entries",
 					"name": "Kindled Cleave",
 					"entries": [
 						"When you're affected by a hostile dragon's breath attack, you can use your reaction to hold the blade in front of you. When you do, the sword splits the breath attack and leaves you and any creature in a 30-foot cone behind you unaffected by the attack. Once this features has been used, it can't be used again until the following dawn.",
@@ -3255,7 +3251,6 @@
 					]
 				},
 				{
-					"type": "entries",
 					"name": "Lesser Draconic Resistance",
 					"entries": [
 						"If you fail a saving throw by 4 or less, you can choose to succeed on it instead. Once this feature of the sword's been used, it can't be used again until the following dawn."
@@ -3531,7 +3526,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"This swirling potion tastes like iron and bitter raisins. When you drink this potion, you enter a rage that lasts for 1 minute or until you're knocked unconscious. This rage grants you the same effects as the barbarian's class feature at 1st level with the following additional properties:",
+				"This swirling potion tastes like iron and bitter raisins. When you drink this potion, you enter a {@classFeature rage|barbarian||1||rage} that lasts for 1 minute or until you're knocked unconscious. This rage grants you the same effects as the barbarian's class feature at 1st level with the following additional properties:",
 				{
 					"type": "list",
 					"items": [
@@ -3643,6 +3638,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"reqAttune": true,
+			"curse": true,
 			"attachedSpells": [
 				"see invisibility"
 			],
@@ -4086,7 +4082,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fire-Fire.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fire-Fire.jpg"
 						}
 					}
 				]
@@ -4144,8 +4140,8 @@
 					],
 					"colStyles": [
 						"col-1",
-						"col-4",
-						"col-7"
+						"col-2",
+						"col-9"
 					],
 					"rows": [
 						[
@@ -4226,6 +4222,149 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fireweaver-Gloves.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Flesh of Dendallen",
+			"source": "tgs1",
+			"page": 68,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"recharge": "dusk",
+			"charges": 6,
+			"attachedSpells": [
+				"false life"
+			],
+			"entries": [
+				"This patchwork shirt is made of enchanted pieces of stitched-together flesh. This shirt has 6 charges and regains {@dice 1d4 + 2} expended charges daily at dusk. While wearing this shirt, you can use a bonus action to expend 1 of its charges to cast {@spell false life}, regardless of its usual casting time. In addition, while you have less than half your hit points left, you regain hit points equal to {@dice 1d4} + your Constitution modifier (minimum of 1) at the beginning of each of your turns. You do not regain health if you are {@condition unconscious} or have taken fire or radiant damage since the beginning of your last turn.",
+				{
+					"name": "Curse",
+					"entries": [
+						"When you attune to the shirt and wear it, you're forced to make a {@dc 20} Strength saving throw as the fleshy fabric begins to bubble and hiss as it fuses to your skin. On a success, you're able to safely remove the clothing before you attune to the item, but are aware of the curse's effects. On a failure, the shirt attaches to your flesh and destroys any nonmagical clothing covered by it. Magical items worn beneath it rise to the surface as the fleshy shirt seeps through them to attach to your skin. While wearing it, you are considered to be undead in addition to any other creature type you already are and are vulnerable to radiant damage.",
+						"Once you are attuned to the shirt, you cannot remove it unless you are targeted by the {@spell remove curse} spell or similar magic. When you remove it, you take {@damage 4d10} necrotic damage as the shirt is peeled from your skin."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Flesh-of-Dendallen.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Force Gauntlet",
+			"source": "tgs1",
+			"page": 68,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"This jeweled gauntlet has 5 charges and regains {@dice1d4 + 1} expended charges daily at dawn. When you make a melee attack with a hand that's wearing this gauntlet, you can choose to expend 1 of its charges as part of the attack. If it hits, the target takes an extra {@damage 2d6} force damage from the attack and must make a {@dc 15} Strength saving throw. On a failure, the target is pushed 10 feet away from you. On a success, you're pushed 10 feet away from it instead. Targets two or more sizes larger than you automatically succeed on the saving throw."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Force-Gauntlet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fortune's Fivepence",
+			"source": "tgs1",
+			"page": 69,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"charges": 2,
+			"entries": [
+				"This electrum coin has a smiling human woman's face onone side (heads) and a scowling fiendish woman's face on the other (tails). While you're within 30 feet of the coin, you can summon it to either your hand or pocket by speaking its command word as a bonus action. Despite its unique appearance, this coin can be spent like a normal coin.",
+				{
+					"name": "Fate Flip",
+					"entries": [
+						"This coin has 2 charges. You can attempt to regain expended charges once every 24 hours by {@chance 50|flipping a coin|Recharge}. The coin regains all expended charges if it's heads, or 0 if it's tails. When the coin is on your person and your total for an attack roll, ability check, or saving throw is 10 or lower, you can expend 1 of the coin's charges to channel its magic and forge your own luck. When you do, {@chance 50|flip a coin|Fate Flip}. If it's heads, roll a {@dice d10} and add it to the total of your roll. If it's tails, you subtract {@dice 1d10} from the total instead. The coin loses this property if using it in this way reduces the total of your roll to 0 or lower."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fortunes-Fivepence.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fourarm Bracers",
+			"source": "tgs1",
+			"page": 69,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"These bracers can summon another pair of spectral arms below your existing ones. These arms can be summoned as an action and last for up to 1 minute before disappearing. While active, you can use the arms to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. Each arm can carry up to 10 pounds. The arms stay attached to your torso at all times and cannot be moved to other parts of your body, but can be turned around to face the opposite direction.",
+				"In addition, the gems adorning the bracers can amplify the arms' strength for short bursts. The gems have a total of 5 charges and recharge {@dice 1d4 + 1} expended charges each day at dawn. By uttering the bracers' command word using a bonus action and expending 1 charge, you can empower the arms to immediately make two unarmed melee attacks. The arms have a +3 bonus to attack and damage rolls and use your proficiency bonus when making the attacks. Each strike does {@damage 1d4} magical bludgeoning damage upon a successful hit.",
+				"Alternatively, you can expend 1 charge to double the arms' carrying capacity and increase their duration to 5 minutes instead."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fourarm-Bracers.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fragment of Elder Starlight",
+			"source": "tgs1",
+			"page": 69,
+			"weight": 3,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This smooth, egg-shaped crystal is about 6 inches tall, weighs 3 pounds, and sheds bright light out to 20 feet and dim light for an additional 20 feet. The light is sunlight. You can touch the crystal and mentally control its brightness as a bonus action to enlarge, reduce, or snuff out the light's reach up to its maximum range.",
+				"While holding the crystal, you can speak its command word as an action to cause it to release a wave of bright light. The wave of light washes over creatures not behind total cover within a 60-foot radius from the crystal. Undead creatures and fiends affected by the wave of bright light must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes {@damage 8d6} radiant damage and is {@condition blinded} until the end of your next turn. On a success, it takes half as much damage and is not blinded. Friendly living creatures of your choice within the wave of bright light regain {@dice 4d6} hit points.",
+				"Once this property of the crystal has been used, its light dims and can't be used again until the next dawn. While its light is dimmed in this way, it sheds bright light out to a maximum of 10 feet and dim light for an additional 10 feet."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fragment-of-Elder-Starlight.jpg"
 						}
 					}
 				]
@@ -8719,6 +8858,63 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwood-Masher.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Forgemaster's Might",
+			"type": "GV",
+			"requires": [
+				{
+					"weaponCategory": "martial",
+					"dmgType": "B"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Flail"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Forgemaster's ",
+				"source": "tgs1",
+				"page": 68,
+				"tier": "major",
+				"rarity": "legendary",
+				"bonusWeapon": "+2",
+				"reqAttune": "by a creature with a Strength score of 1 or higher",
+				"attachedSpells": [
+					"creation",
+					"fabricate",
+					"mending"
+				],
+				"entries": [
+					"This monumental weapon requires a Strength of 17 or higher to wield. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+					"You can use a bonus action to speak the hammer's command phrase, \"light the forge\" and cause flames to curl up and heat the hammer's anvil head. These flames shed bright light in a 20-foot radius and dim light for an additional 20 feet. While the hammer is lit, it deals an additional {@damage 1d8} fire damage to any target it hits and ignores resistance to fire damage. The flames last until you use a bonus action to speak the command word \"quench,\" or until you drop or stow the hammer.",
+					{
+						"name": "Smith's Blessing",
+						"entries": [
+							"You can use the hammer to cast either the {@spell creation} or {@spell fabricate} spell using an action instead of its usual casting time. {@i Creation} is cast as a 6th level spell when cast in this way, and its conjured materials can be used as materials for the {@i fabricate} spell, although the materials still have a limited duration. Once the hammer has been used to cast a spell in this way, it can't be used to cast that spell again until the following dawn.",
+							"In addition, you know the {@spell mending} cantrip if you don't already know it while you're attuned to the hammer. Mending's usual size restriction is increased to 5 feet in any dimension for you when you use it to repair metal. Ability checks you make using {@item smith's tools|phb} to make or repair an item are made with advantage when you use the hammer's head as the anvil."
+						]
+					},
+					{
+						"name": "Iron Raze",
+						"entries": [
+							"The hammer deals an additional {@damage 2d8} bludgeoning damage to constructs and structures hit by it."
+						]
+					}
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Forgemasters-Might.jpg"
 							}
 						}
 					]
