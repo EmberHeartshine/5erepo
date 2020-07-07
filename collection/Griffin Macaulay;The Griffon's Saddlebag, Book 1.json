@@ -53,7 +53,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"dmgType": "A",
-			"baseItem": "arrow|phb",
+			"baseItem": "arrow|PHB",
 			"entries": [
 				"This ammunition is covered in an alchemical concoction that ignites upon impact, casting bright light in the space of the target it hits and dim light in a 5-foot radius for 1 minute. A creature struck by the ammunition takes {@damage 1d4} acid damage at the start of each of its turns and has disadvantage on any Dexterity ({@skill Stealth}) checks it makes while the ammunition remains lit. The ammunition remains lodged in a target it hits until a creature uses an action to remove and snuff out the ammunition. If the target is invisible, it's revealed while the ammunition is lodged within it. The ammunition is destroyed by the lit solution, preventing it from being recovered once fired."
 			],
@@ -73,7 +73,7 @@
 			"name": "Aegis of Radiance",
 			"source": "tgs1",
 			"page": 29,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "major",
 			"rarity": "rare",
@@ -128,7 +128,7 @@
 			"name": "Arcane Mirror",
 			"source": "tgs1",
 			"page": 30,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "major",
 			"rarity": "very rare",
@@ -160,7 +160,7 @@
 			"name": "Arcanist's Bowstaff",
 			"source": "tgs1",
 			"page": 30,
-			"baseItem": "quarterstaff|phb",
+			"baseItem": "quarterstaff|PHB",
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a creature with an Intelligence of 17 or higher",
@@ -183,7 +183,7 @@
 			],
 			"entries": [
 				"When you attune to this quarterstaff, it remains solid in your grip but feels pliable within your mind. You can choose to use your Intelligence modifier for the attack and damage rolls made with this weapon instead of Strength. You must use the same modifier for both rolls.",
-				"When you make an attack with this magic weapon, you can choose to make the attack at range. When you do, you use your mind to telekinetically curve the quarterstaff into the form of a {@item longbow|phb}. The bow is magically strung with an arcane energy that arcs between the rings on either end of the weapon. A glowing, magical arrow is formed whenever the arcing energy is drawn back. The arrow disappears after it hits a target. When you make a ranged attack with the quarterstaff in this way, the weapon is treated as if it were a magical longbow. This longbow can only use the ammunition that it generates and does not have the heavy property. While holding this weapon, you're proficient with this longbow when using it in this way.",
+				"When you make an attack with this magic weapon, you can choose to make the attack at range. When you do, you use your mind to telekinetically curve the quarterstaff into the form of a {@item longbow|PHB}. The bow is magically strung with an arcane energy that arcs between the rings on either end of the weapon. A glowing, magical arrow is formed whenever the arcing energy is drawn back. The arrow disappears after it hits a target. When you make a ranged attack with the quarterstaff in this way, the weapon is treated as if it were a magical longbow. This longbow can only use the ammunition that it generates and does not have the heavy property. While holding this weapon, you're proficient with this longbow when using it in this way.",
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"In addition, this quarterstaff has 8 charges and regains {@dice 1d6 + 2} expended charges daily at dawn. When you take the Attack action with this weapon, you can expend 1 of its charges to cast the {@spell magic missile} spell from the quarterstaff as a bonus action, instead of its normal casting time. When you do, the missiles are fired from either the bow or the quarterstaff 's embossed faces."
 			],
@@ -203,7 +203,7 @@
 			"name": "Architect's Distain",
 			"source": "tgs1",
 			"page": 30,
-			"baseItem": "war pick|phb",
+			"baseItem": "war pick|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "very rare",
@@ -684,7 +684,7 @@
 			"name": "Astral Sea Piercer",
 			"source": "tgs1",
 			"page": 31,
-			"baseItem": "war pick|phb",
+			"baseItem": "war pick|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "very rare",
@@ -724,7 +724,7 @@
 			"name": "Aurum and Argentum",
 			"source": "tgs1",
 			"page": 32,
-			"baseItem": "dagger|phb",
+			"baseItem": "dagger|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -789,7 +789,7 @@
 			"name": "Axe Beak Tomahawk",
 			"source": "tgs1",
 			"page": 32,
-			"baseItem": "handaxe|phb",
+			"baseItem": "handaxe|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -939,7 +939,7 @@
 			"name": "Barricade Shield",
 			"source": "tgs1",
 			"page": 34,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "minor",
 			"rarity": "uncommon",
@@ -970,7 +970,7 @@
 			"rarity": "rare",
 			"entries": [
 				"This shiny platinum bangle is inlaid with arcane runes that seem to be written by different hands. Labels can be read behind each of the adorning runes on the inside of the bangle. As an action, you can touch one of the runes and say the command phrase, \"I can do this,\" to gain proficiency in the rune's associated tool for the next 24 hours. The rune glows with arcane energy while in effect. Once a rune is activated in this way, it can't be activated again until {@dice 1d4} days have passed.",
-				"There are 10 runes on the bangle that can be activated in this way: {@item alchemist's supplies|phb}, {@item carpenter's tools|phb}, {@item cook's utensils|phb}, {@item leatherworker's tools|phb}, {@item smith's tools|phb}, {@item tinker's tools|phb}, {@item musical instrument|phb|instruments} ({@item drum|phb}, {@item flute|phb}, {@item lute|phb}, {@item lyre|phb}), {@item navigator's tools|phb}, {@item thieves' tools|phb}, and {@table Mounts and Vehicles; Waterborne Vehicles|phb|vehicles (water)}. If you're already proficient with any of these tools, your proficiency bonus is doubled for any ability check you make that uses the tool while the rune is active."
+				"There are 10 runes on the bangle that can be activated in this way: {@item alchemist's supplies|PHB}, {@item carpenter's tools|PHB}, {@item cook's utensils|PHB}, {@item leatherworker's tools|PHB}, {@item smith's tools|PHB}, {@item tinker's tools|PHB}, {@item musical instrument|PHB|instruments} ({@item drum|PHB}, {@item flute|PHB}, {@item lute|PHB}, {@item lyre|PHB}), {@item navigator's tools|PHB}, {@item thieves' tools|PHB}, and {@table Mounts and Vehicles; Waterborne Vehicles|PHB|vehicles (water)}. If you're already proficient with any of these tools, your proficiency bonus is doubled for any ability check you make that uses the tool while the rune is active."
 			],
 			"fluff": {
 				"images": [
@@ -988,7 +988,7 @@
 			"name": "Basilisk Dagger",
 			"source": "tgs1",
 			"page": 34,
-			"baseItem": "dagger|phb",
+			"baseItem": "dagger|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -1069,7 +1069,7 @@
 			"name": "Battle Tax",
 			"source": "tgs1",
 			"page": 35,
-			"baseItem": "battleaxe|phb",
+			"baseItem": "battleaxe|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -1104,7 +1104,7 @@
 			"name": "Battlebrew Maul",
 			"source": "tgs1",
 			"page": 35,
-			"baseItem": "maul|phb",
+			"baseItem": "maul|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -1139,7 +1139,7 @@
 			"name": "Battlechef Buckler",
 			"source": "tgs1",
 			"page": 36,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -1170,7 +1170,7 @@
 			"wondrous": true,
 			"entries": [
 				"This magic saucepan can be used to turn nearly anything into a delicious and filling meal. You can boil 1 pound of any one or combination of organic, nonmagical materials for 10 minutes or longer to magically transform them into a stew that can nourish up to 4 creatures for 24 hours.",
-				"The saucepan also functions as a {@item mace|phb}, granting you a +1 bonus to attack and damage rolls made with it. The saucepan deals an extra {@damage 1d4} thunder damage to any target it hits that's either wearing metal armor or made of metal or stone.",
+				"The saucepan also functions as a {@item mace|PHB}, granting you a +1 bonus to attack and damage rolls made with it. The saucepan deals an extra {@damage 1d4} thunder damage to any target it hits that's either wearing metal armor or made of metal or stone.",
 				"If you're not wearing heavy armor, you can use an action to either wear or remove the saucepan as a helmet. While wearing the saucepan in this way, you gain a +1 bonus to your AC."
 			],
 			"fluff": {
@@ -1308,7 +1308,7 @@
 			"name": "Bloodmage Dagger",
 			"source": "tgs1",
 			"page": 38,
-			"baseItem": "dagger|phb",
+			"baseItem": "dagger|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "very rare",
@@ -1378,7 +1378,7 @@
 			"name": "Bolt",
 			"source": "tgs1",
 			"page": 39,
-			"baseItem": "heavy crossbow|phb",
+			"baseItem": "heavy crossbow|PHB",
 			"tier": "major",
 			"type": "R",
 			"rarity": "very rare",
@@ -1582,7 +1582,7 @@
 			"name": "Bounty Hunter Enforcer",
 			"source": "tgs1",
 			"page": 40,
-			"baseItem": "spear|phb",
+			"baseItem": "spear|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "none",
@@ -1598,7 +1598,7 @@
 			"dmg2": "1d8",
 			"weapon": true,
 			"entries": [
-				"This spear has a hollow metal head filled with a spring-loaded {@item net|phb}. Attacks made with this weapon deal bludgeoning damage instead of piercing. When you hit a target with a melee attack using the weapon, you can press a button on the handle as a bonus action to deploy the spring-loaded net. When you do, the target of the attack is restrained if it's Large or smaller. Once the net is deployed, you can retract and reset it as an action. When you do, anything held by the net is released. Attacks with the spear are made with disadvantage while the net is deployed. If something is retrained by the net, you can't use the spear to make weapon attacks.",
+				"This spear has a hollow metal head filled with a spring-loaded {@item net|PHB}. Attacks made with this weapon deal bludgeoning damage instead of piercing. When you hit a target with a melee attack using the weapon, you can press a button on the handle as a bonus action to deploy the spring-loaded net. When you do, the target of the attack is restrained if it's Large or smaller. Once the net is deployed, you can retract and reset it as an action. When you do, anything held by the net is released. Attacks with the spear are made with disadvantage while the net is deployed. If something is retrained by the net, you can't use the spear to make weapon attacks.",
 				"You can use a bonus action to prime the net to trigger upon impact, allowing it to deploy when the spear hits a target the next time it's thrown or swung as part of an attack.",
 				"This net follows the net's normal rules but cannot be detached from the spear without destroying the net. You can replace the net with a new one by spending 1 minute reattaching it to the spear."
 			],
@@ -1618,7 +1618,7 @@
 			"name": "Bow of Mind Thievery",
 			"source": "tgs1",
 			"page": 41,
-			"baseItem": "shortbow|phb",
+			"baseItem": "shortbow|PHB",
 			"type": "R",
 			"tier": "major",
 			"rarity": "rare",
@@ -1633,7 +1633,7 @@
 			"dmgType": "P",
 			"weapon": true,
 			"reqAttune": true,
-			"ammoType": "arrow|phb",
+			"ammoType": "arrow|PHB",
 			"attachedSpells": [
 				"dominate person"
 			],
@@ -1657,7 +1657,7 @@
 			"name": "Braided Quarterstaff",
 			"source": "tgs1",
 			"page": 41,
-			"baseItem": "quarterstaff|phb",
+			"baseItem": "quarterstaff|PHB",
 			"tier": "major",
 			"rarity": "uncommon",
 			"focus": true,
@@ -1673,7 +1673,7 @@
 			"staff": true,
 			"weapon": true,
 			"entries": [
-				"This magical quarterstaff is made of a tightly knit length of braided rope. As a bonus action, you can speak the weapon's command word to release its knotted form and loosen it into a 50-foot length of {@item hempen rope (50 feet)|phb|hempen rope}. Speaking the command word again causes the rope to tighten back up into the quarterstaff. If a creature is restrained by the rope when you speak its command word, the rope tightens around the creature but does not crush it. Once tightened in this way, the restrained creature or an adjacent ally can use an action to escape following a successful {@dc 15} Strength or Dexterity check (their choice).",
+				"This magical quarterstaff is made of a tightly knit length of braided rope. As a bonus action, you can speak the weapon's command word to release its knotted form and loosen it into a 50-foot length of {@item hempen rope (50 feet)|PHB|hempen rope}. Speaking the command word again causes the rope to tighten back up into the quarterstaff. If a creature is restrained by the rope when you speak its command word, the rope tightens around the creature but does not crush it. Once tightened in this way, the restrained creature or an adjacent ally can use an action to escape following a successful {@dc 15} Strength or Dexterity check (their choice).",
 				"Tying an object no larger than six inches on a side to the end the rope does not prevent it from reforming into the quarterstaff. The rope can only be broken by magical means. If broken, the rope cannot be transformed back into a quarterstaff."
 			],
 			"fluff": {
@@ -1705,7 +1705,7 @@
 			"containerCapacity": {
 				"item": [
 					{
-						"arrow|phb": 60
+						"arrow|PHB": 60
 					}
 				]
 			},
@@ -1736,7 +1736,7 @@
 			"weight": 20,
 			"ac": 14,
 			"bonusAc": "+1",
-			"baseItem": "breastplate|phb",
+			"baseItem": "breastplate|PHB",
 			"entries": [
 				"You have a +1 bonus to your AC. You can use an action on your turn to channel the armor's magic to cause it emit a flash of blinding, radiant light. When you do, all other creatures within 30 feet of you are forced to make a {@dc 15} Constitution saving throw. On a failure, a creature is {@condition blinded} until the end of its next turn. Undead creatures have disadvantage on the saving throw and take {@damage 2d8} radiant damage on a failure, or half as much on a success. Once this property of the armor has been used, it can't be used again until the following dawn."
 			],
@@ -1805,7 +1805,7 @@
 			"name": "Cactus Mace",
 			"source": "tgs1",
 			"page": 42,
-			"baseItem": "mace|phb",
+			"baseItem": "mace|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -1975,7 +1975,7 @@
 			"dmgType": "P",
 			"bonusWeapon": "+1",
 			"weapon": true,
-			"baseItem": "pike|phb",
+			"baseItem": "pike|PHB",
 			"entries": [
 				"This cold steel weapon from the Everglacier is topped with a menacing ice spike that never melts. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The pike deals an extra {@damage 1d10} cold damage to any target it hits. In addition, attacks with this weapon and its properties ignore resistance to cold damage.",
 				"When you reduce a Large or smaller creature to 0 hit points using this weapon, you can choose to encase that creature in ice. An encased creature is prevented from falling prone and is held in place by a shell of ice for 1 minute. If the creature is {@condition unconscious}, it does not make death saving throws while it's encased in the ice. The ice has AC 12, 20 hit points, immunity to poison and psychic damage, and vulnerability to fire damage. If the encased creature is healed or the ice is destroyed, the ice crumbles and releases the creature.",
@@ -2002,7 +2002,7 @@
 			"name": "Chromacloth",
 			"source": "tgs1",
 			"page": 44,
-			"baseItem": "sling|phb",
+			"baseItem": "sling|PHB",
 			"type": "R",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -2014,7 +2014,7 @@
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"weapon": true,
-			"ammoType": "sling bullet|phb",
+			"ammoType": "sling bullet|PHB",
 			"entries": [
 				"This silken cloth is enchanted using a unique blend of abjuration and evocation magic, allowing it to be used for a number of purposes. At any one time it can be one of four colors: red, yellow, green, or blue. You can change the chromacloth's color to another one as an action.",
 				"You can wear the chromacloth as a headband or wrap to gain resistance to the damage type associated with the cloth's color. Once the cloth reduces damage taken in this way, it can't do so again until the following dawn.",
@@ -2066,7 +2066,7 @@
 			"name": "Cinnabar Rapier",
 			"source": "tgs1",
 			"page": 46,
-			"baseItem": "rapier|phb",
+			"baseItem": "rapier|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -2242,7 +2242,7 @@
 			"name": "Coil Crook",
 			"source": "tgs1",
 			"page": 48,
-			"baseItem": "quarterstaff|phb",
+			"baseItem": "quarterstaff|PHB",
 			"tier": "major",
 			"rarity": "uncommon",
 			"focus": true,
@@ -2261,7 +2261,7 @@
 				"rope trick"
 			],
 			"entries": [
-				"This smooth red staff is actually made from a rigid length of rope. You can speak the staff 's command word as a bonus action to cause it to magically loosen and turn into a 10-foot length of decorative {@item silk rope (50 feet)|phb|silken rope}. You can speak the staff 's command word again as a bonus action to cause the rope to untangle itself and become the solid staff form once more. It can be used as a spellcasting focus in either of these forms.",
+				"This smooth red staff is actually made from a rigid length of rope. You can speak the staff 's command word as a bonus action to cause it to magically loosen and turn into a 10-foot length of decorative {@item silk rope (50 feet)|PHB|silken rope}. You can speak the staff 's command word again as a bonus action to cause the rope to untangle itself and become the solid staff form once more. It can be used as a spellcasting focus in either of these forms.",
 				"While holding the staff, you can use an action to cast the {@spell rope trick} spell from it, using it as the rope required for the spell. Once this property has been used, it can't be used again until the next dawn."
 			],
 			"fluff": {
@@ -2280,7 +2280,7 @@
 			"name": "Coldsnap",
 			"source": "tgs1",
 			"page": 48,
-			"baseItem": "whip|phb",
+			"baseItem": "whip|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -2367,7 +2367,7 @@
 			"name": "Coralshield Golem",
 			"source": "tgs1",
 			"page": 49,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -2394,7 +2394,7 @@
 			"name": "Couatl Herald's Fang",
 			"source": "tgs1",
 			"page": 50,
-			"baseItem": "greatsword|phb",
+			"baseItem": "greatsword|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -2433,7 +2433,7 @@
 			"name": "Couatl Herald's Guard",
 			"source": "tgs1",
 			"page": 50,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -2465,7 +2465,7 @@
 			"name": "Couatl Herald's Lash",
 			"source": "tgs1",
 			"page": 50,
-			"baseItem": "whip|phb",
+			"baseItem": "whip|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -2539,7 +2539,7 @@
 			"name": "Couatl Herald's Radiance",
 			"source": "tgs1",
 			"page": 51,
-			"baseItem": "quarterstaff|phb",
+			"baseItem": "quarterstaff|PHB",
 			"tier": "major",
 			"rarity": "rare",
 			"focus": true,
@@ -2598,7 +2598,7 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"stealth": false,
-			"baseItem": "scale mail|phb",
+			"baseItem": "scale mail|PHB",
 			"entries": [
 				"This enchanted armor is made from {@creature couatl} scales that were collected by a generous celestial. You gain a +1 bonus to AC while you wear this armor. This armor does not impose disadvantage on Dexterity ({@skill Stealth}) checks.",
 				{
@@ -2630,7 +2630,7 @@
 			"name": "Cratering Quarterstaff",
 			"source": "tgs1",
 			"page": 52,
-			"baseItem": "quarterstaff|phb",
+			"baseItem": "quarterstaff|PHB",
 			"tier": "major",
 			"rarity": "very rare",
 			"focus": true,
@@ -2668,7 +2668,7 @@
 			"name": "Crosier of Divine Power",
 			"source": "tgs1",
 			"page": 52,
-			"baseItem": "quarterstaff|phb",
+			"baseItem": "quarterstaff|PHB",
 			"tier": "major",
 			"rarity": "very rare",
 			"focus": true,
@@ -2752,7 +2752,7 @@
 			"weapon": true,
 			"reqAttune": true,
 			"bonusWeapon": "+3",
-			"baseItem": "glaive|phb",
+			"baseItem": "glaive|PHB",
 			"entries": [
 				"You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
 				"When you use the glaive to reduce a Small or larger creature that is hostile toward you to 0 hit points, roll a {@dice d10}. You gain temporary hit points equal to the number you roll.",
@@ -2782,7 +2782,7 @@
 			"name": "Dagger of the Ogre Mage",
 			"source": "tgs1",
 			"page": 53,
-			"baseItem": "shortsword|phb",
+			"baseItem": "shortsword|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -2826,7 +2826,7 @@
 			"name": "Dark Fathom Armor",
 			"source": "tgs1",
 			"page": 53,
-			"baseItem": "studded leather armor|phb",
+			"baseItem": "studded leather armor|PHB",
 			"type": "LA",
 			"tier": "major",
 			"rarity": "very rare",
@@ -2879,7 +2879,7 @@
 			"name": "Death Knell",
 			"source": "tgs1",
 			"page": 54,
-			"baseItem": "halberd|phb",
+			"baseItem": "halberd|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -2936,7 +2936,7 @@
 			"name": "Direstone Dwarven Pick",
 			"source": "tgs1",
 			"page": 54,
-			"baseItem": "war pick|phb",
+			"baseItem": "war pick|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -2972,7 +2972,7 @@
 			"name": "Discordant Thunderstave",
 			"source": "tgs1",
 			"page": 54,
-			"baseItem": "quarterstaff|phb",
+			"baseItem": "quarterstaff|PHB",
 			"tier": "major",
 			"rarity": "uncommon",
 			"focus": true,
@@ -3148,7 +3148,7 @@
 			"name": "Dragon Tamer Lance",
 			"source": "tgs1",
 			"page": 57,
-			"baseItem": "lance|phb",
+			"baseItem": "lance|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "legendary",
@@ -3207,7 +3207,7 @@
 			"name": "Dragon Turtle Shield",
 			"source": "tgs1",
 			"page": 58,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "major",
 			"rarity": "rare",
@@ -3233,7 +3233,7 @@
 			"name": "Dragon-Kindled Edge",
 			"source": "tgs1",
 			"page": 58,
-			"baseItem": "longsword|phb",
+			"baseItem": "longsword|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "legendary",
@@ -3330,7 +3330,7 @@
 			"name": "Druidic Throwing Club",
 			"source": "tgs1",
 			"page": 59,
-			"baseItem": "club|phb",
+			"baseItem": "club|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -3560,7 +3560,7 @@
 			"name": "Ether Spear",
 			"source": "tgs1",
 			"page": 61,
-			"baseItem": "spear|phb",
+			"baseItem": "spear|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "very rare",
@@ -3706,7 +3706,7 @@
 			"name": "Fable's End",
 			"source": "tgs1",
 			"page": 63,
-			"baseItem": "mace|phb",
+			"baseItem": "mace|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "very rare",
@@ -3773,7 +3773,7 @@
 			"name": "Festerwood Buckler",
 			"source": "tgs1",
 			"page": 64,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -3798,7 +3798,7 @@
 			"name": "Festerwood Claymore",
 			"source": "tgs1",
 			"page": 64,
-			"baseItem": "greatsword|phb",
+			"baseItem": "greatsword|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -3830,7 +3830,7 @@
 			"name": "Festerwood Fungal Stave",
 			"source": "tgs1",
 			"page": 64,
-			"baseItem": "quarterstaff|phb",
+			"baseItem": "quarterstaff|PHB",
 			"tier": "major",
 			"rarity": "very rare",
 			"focus": true,
@@ -3875,7 +3875,7 @@
 			"name": "Festerwood Logger",
 			"source": "tgs1",
 			"page": 65,
-			"baseItem": "handaxe|phb",
+			"baseItem": "handaxe|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -3933,7 +3933,7 @@
 			"name": "Festerwood's Light",
 			"source": "tgs1",
 			"page": 65,
-			"baseItem": "rapier|phb",
+			"baseItem": "rapier|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "legendary",
@@ -3993,7 +3993,7 @@
 			"name": "Fife of Dragonsong",
 			"source": "tgs1",
 			"page": 66,
-			"baseItem": "blowgun|phb",
+			"baseItem": "blowgun|PHB",
 			"type": "R",
 			"tier": "major",
 			"rarity": "rare",
@@ -4008,7 +4008,7 @@
 			"dmgType": "P",
 			"weapon": true,
 			"reqAttune": "by a bard",
-			"ammoType": "blowgun needle|phb",
+			"ammoType": "blowgun needle|PHB",
 			"bonusWeapon": "+1",
 			"entries": [
 				"This magical fife can be played as an instrument or wielded as a deadly weapon. You are proficient with the fife of dragonsong as both an instrument and blowgun while you're attuned to it. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and any target hit by it takes an extra {@damage 1d6} thunder damage from the attack.",
@@ -4062,7 +4062,7 @@
 			"name": "Fire Fire!",
 			"source": "tgs1",
 			"page": 66,
-			"baseItem": "light crossbow|phb",
+			"baseItem": "light crossbow|PHB",
 			"type": "R",
 			"tier": "major",
 			"rarity": "rare",
@@ -4079,7 +4079,7 @@
 			"weapon": true,
 			"recharge": "dawn",
 			"charges": 3,
-			"ammoType": "crossbow bolt|phb",
+			"ammoType": "crossbow bolt|PHB",
 			"entries": [
 				"This hollow metal crossbow was created by a team of {@creature kobold|mm|kobolds} and contains an enchanted ember at its core. The crossbow has 3 charges. While the crossbow has at least 1 charge, the inner ember burns brightly when you hold the weapon. While it burns, the crossbow emits bright light in a 20-foot radius and dim light for an additional 20 feet, and any nonmagical bolt fired from the crossbow catches fire and deals an extra {@damage 1d6} fire damage to any target it hits.",
 				"You can expend 1 of the crossbow's charges as an action to cause the ember to spew forth devastating flames, sending out a wave of fire in a 30-foot cone. Each creature within the cone must make a {@dc 15} Dexterity saving throw. A creature takes {@damage 4d6} fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.",
@@ -4495,7 +4495,7 @@
 			"name": "Frost Giant Fork",
 			"source": "tgs1",
 			"page": 72,
-			"baseItem": "trident|phb",
+			"baseItem": "trident|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "rare",
@@ -4537,7 +4537,7 @@
 			"name": "Frostbitten Buckler",
 			"source": "tgs1",
 			"page": 72,
-			"baseItem": "shield|phb",
+			"baseItem": "shield|PHB",
 			"type": "S",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -4565,7 +4565,7 @@
 			"name": "Frozen Dagger",
 			"source": "tgs1",
 			"page": 72,
-			"baseItem": "dagger|phb",
+			"baseItem": "dagger|PHB",
 			"type": "M",
 			"tier": "major",
 			"rarity": "uncommon",
@@ -4622,7 +4622,7 @@
 			"name": "Galvanic Steelsnare",
 			"source": "tgs1",
 			"page": 72,
-			"baseItem": "net|phb",
+			"baseItem": "net|PHB",
 			"type": "R",
 			"tier": "major",
 			"rarity": "rare",
@@ -7044,7 +7044,7 @@
 			"source": "tgs1",
 			"shortName": "Glacier",
 			"className": "Barbarian",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "College of Dance",
@@ -7056,7 +7056,7 @@
 			"source": "tgs1",
 			"shortName": "Dance",
 			"className": "Bard",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "Astral Domain",
@@ -7065,43 +7065,43 @@
 			"subclassSpells": [
 				{
 					"name": "guiding bolt",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "longstrider",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "blur",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "invisibility",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "blink",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "slow",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "banishment",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "dimension door",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "teleportation circle",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "wall of force",
-					"source": "phb"
+					"source": "PHB"
 				}
 			],
 			"subclassFeatures": [
@@ -7112,7 +7112,7 @@
 				"Supreme Switching|Cleric||Astral|tgs1|17"
 			],
 			"className": "Cleric",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "The Unbroken Circle",
@@ -7125,7 +7125,7 @@
 			],
 			"shortName": "Unbroken",
 			"className": "Druid",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "Couatl Herald",
@@ -7139,7 +7139,7 @@
 			"source": "tgs1",
 			"shortName": "Couatl Herald",
 			"className": "Fighter",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "Way of the Celestial",
@@ -7152,7 +7152,7 @@
 			],
 			"shortName": "Celestial",
 			"className": "Monk",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "Oath of the Hearth",
@@ -7166,48 +7166,48 @@
 			"subclassSpells": [
 				{
 					"name": "burning hands",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "find familiar",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "aid",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "continual flame",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "beacon of hope",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "daylight",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "fire shield",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "guardian of faith",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "flame strike",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "Rary's telepathic bond",
-					"source": "phb"
+					"source": "PHB"
 				}
 			],
 			"shortName": "Hearth",
 			"className": "Paladin",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "Winter Trapper",
@@ -7224,27 +7224,27 @@
 			"subclassSpells": [
 				{
 					"name": "expeditious retreat",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "mirror image",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "sleet storm",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "hallucinatory terrain",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "mislead",
-					"source": "phb"
+					"source": "PHB"
 				}
 			],
 			"className": "Ranger",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "Runetagger",
@@ -7257,7 +7257,7 @@
 			],
 			"shortName": "Runetagger",
 			"className": "Rogue",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "Frost Magic",
@@ -7272,11 +7272,11 @@
 			"subclassSpells": [
 				{
 					"name": "wall of ice",
-					"source": "phb"
+					"source": "PHB"
 				}
 			],
 			"className": "Sorcerer",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "The Astral Griffon",
@@ -7290,48 +7290,48 @@
 			"subclassSpells": [
 				{
 					"name": "identify",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "magic missile",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "locate object",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "rope trick",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "blink",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "clairvoyance",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "Mordenkainen's private sanctum",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "Leomund's secret chest",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "legend lore",
-					"source": "phb"
+					"source": "PHB"
 				},
 				{
 					"name": "passwall",
-					"source": "phb"
+					"source": "PHB"
 				}
 			],
 			"shortName": "Astral Griffon",
 			"className": "Warlock",
-			"classSource": "phb"
+			"classSource": "PHB"
 		},
 		{
 			"name": "School of Material Magic",
@@ -7344,7 +7344,7 @@
 			"source": "tgs1",
 			"shortName": "Material Magic",
 			"className": "Wizard",
-			"classSource": "phb"
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [
@@ -7353,7 +7353,7 @@
 			"source": "tgs1",
 			"page": 158,
 			"className": "Barbarian",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Glacier",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7380,7 +7380,7 @@
 			"source": "tgs1",
 			"page": 158,
 			"className": "Barbarian",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Glacier",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7396,7 +7396,7 @@
 			"source": "tgs1",
 			"page": 158,
 			"className": "Barbarian",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Glacier",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7407,7 +7407,7 @@
 			"source": "tgs1",
 			"page": 158,
 			"className": "Barbarian",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Glacier",
 			"subclassSource": "tgs1",
 			"level": 6,
@@ -7422,7 +7422,7 @@
 			"source": "tgs1",
 			"page": 158,
 			"className": "Barbarian",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Glacier",
 			"subclassSource": "tgs1",
 			"level": 10,
@@ -7437,7 +7437,7 @@
 			"source": "tgs1",
 			"page": 158,
 			"className": "Barbarian",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Glacier",
 			"subclassSource": "tgs1",
 			"level": 14,
@@ -7451,7 +7451,7 @@
 			"source": "tgs1",
 			"page": 159,
 			"className": "Bard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Dance",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7476,7 +7476,7 @@
 			"source": "tgs1",
 			"page": 159,
 			"className": "Bard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Dance",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7491,7 +7491,7 @@
 			"source": "tgs1",
 			"page": 159,
 			"className": "Bard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Dance",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7502,14 +7502,14 @@
 			"source": "tgs1",
 			"page": 159,
 			"className": "Bard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Dance",
 			"subclassSource": "tgs1",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"At 6th level, your movements become so graceful that even the most cold-hearted enemies are filled with remorse for having stopped your dance. Whenever a creature hits you with an opportunity attack, that creature takes psychic damage equal to your Charisma modifier + half your bard level.",
-				"In addition, you can use your dance to cast the {@spell charm person} spell, without expending a spell slot. When cast in this way, the target doesn't have advantage on the saving throw if you're currently fighting it. When you reach 14th level in this class, you can cast the {@spell Otto's irresistible dance|phb|irresistible dance} spell in this way as well. A spell cast with this feature requires only somatic components. After you cast a spell in this way, you can't use this feature to cast it again until you finish a long rest."
+				"In addition, you can use your dance to cast the {@spell charm person} spell, without expending a spell slot. When cast in this way, the target doesn't have advantage on the saving throw if you're currently fighting it. When you reach 14th level in this class, you can cast the {@spell Otto's irresistible dance|PHB|irresistible dance} spell in this way as well. A spell cast with this feature requires only somatic components. After you cast a spell in this way, you can't use this feature to cast it again until you finish a long rest."
 			]
 		},
 		{
@@ -7517,7 +7517,7 @@
 			"source": "tgs1",
 			"page": 159,
 			"className": "Bard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Dance",
 			"subclassSource": "tgs1",
 			"level": 14,
@@ -7532,7 +7532,7 @@
 			"source": "tgs1",
 			"page": 160,
 			"className": "Cleric",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -7592,7 +7592,7 @@
 			"source": "tgs1",
 			"page": 160,
 			"className": "Cleric",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -7607,7 +7607,7 @@
 			"source": "tgs1",
 			"page": 160,
 			"className": "Cleric",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -7618,7 +7618,7 @@
 			"source": "tgs1",
 			"page": 160,
 			"className": "Cleric",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral",
 			"subclassSource": "tgs1",
 			"level": 2,
@@ -7632,7 +7632,7 @@
 			"source": "tgs1",
 			"page": 160,
 			"className": "Cleric",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral",
 			"subclassSource": "tgs1",
 			"level": 6,
@@ -7646,7 +7646,7 @@
 			"source": "tgs1",
 			"page": 160,
 			"className": "Cleric",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral",
 			"subclassSource": "tgs1",
 			"level": 8,
@@ -7660,7 +7660,7 @@
 			"source": "tgs1",
 			"page": 160,
 			"className": "Cleric",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral",
 			"subclassSource": "tgs1",
 			"level": 17,
@@ -7675,7 +7675,7 @@
 			"source": "tgs1",
 			"page": 161,
 			"className": "Druid",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Unbroken",
 			"subclassSource": "tgs1",
 			"level": 2,
@@ -7702,7 +7702,7 @@
 			"source": "tgs1",
 			"page": 161,
 			"className": "Druid",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Unbroken",
 			"subclassSource": "tgs1",
 			"level": 2,
@@ -7717,7 +7717,7 @@
 			"source": "tgs1",
 			"page": 161,
 			"className": "Druid",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Unbroken",
 			"subclassSource": "tgs1",
 			"level": 2,
@@ -7728,7 +7728,7 @@
 			"source": "tgs1",
 			"page": 161,
 			"className": "Druid",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Unbroken",
 			"subclassSource": "tgs1",
 			"level": 6,
@@ -7743,7 +7743,7 @@
 			"source": "tgs1",
 			"page": 161,
 			"className": "Druid",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Unbroken",
 			"subclassSource": "tgs1",
 			"level": 10,
@@ -7757,7 +7757,7 @@
 			"source": "tgs1",
 			"page": 161,
 			"className": "Druid",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Unbroken",
 			"subclassSource": "tgs1",
 			"level": 14,
@@ -7771,7 +7771,7 @@
 			"source": "tgs1",
 			"page": 162,
 			"className": "Fighter",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Couatl Herald",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7799,7 +7799,7 @@
 			"source": "tgs1",
 			"page": 162,
 			"className": "Fighter",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Couatl Herald",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7814,7 +7814,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Fighter",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Couatl Herald",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7825,7 +7825,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Fighter",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Couatl Herald",
 			"subclassSource": "tgs1",
 			"level": 7,
@@ -7839,7 +7839,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Fighter",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Couatl Herald",
 			"subclassSource": "tgs1",
 			"level": 10,
@@ -7854,7 +7854,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Fighter",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Couatl Herald",
 			"subclassSource": "tgs1",
 			"level": 15,
@@ -7869,7 +7869,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Fighter",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Couatl Herald",
 			"subclassSource": "tgs1",
 			"level": 18,
@@ -7884,7 +7884,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Monk",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7910,7 +7910,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Monk",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7926,7 +7926,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Monk",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -7937,7 +7937,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Monk",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "tgs1",
 			"level": 6,
@@ -7952,7 +7952,7 @@
 			"source": "tgs1",
 			"page": 164,
 			"className": "Monk",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "tgs1",
 			"level": 11,
@@ -7967,7 +7967,7 @@
 			"source": "tgs1",
 			"page": 164,
 			"className": "Monk",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Celestial",
 			"subclassSource": "tgs1",
 			"level": 17,
@@ -7982,7 +7982,7 @@
 			"source": "tgs1",
 			"page": 164,
 			"className": "Paladin",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Hearth",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8039,7 +8039,7 @@
 			"source": "tgs1",
 			"page": 164,
 			"className": "Paladin",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Hearth",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8088,7 +8088,7 @@
 			"source": "tgs1",
 			"page": 164,
 			"className": "Paladin",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Hearth",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8099,7 +8099,7 @@
 			"source": "tgs1",
 			"page": 163,
 			"className": "Paladin",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Hearth",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8128,7 +8128,7 @@
 			"source": "tgs1",
 			"page": 164,
 			"className": "Paladin",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Hearth",
 			"subclassSource": "tgs1",
 			"level": 7,
@@ -8143,7 +8143,7 @@
 			"source": "tgs1",
 			"page": 165,
 			"className": "Paladin",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Hearth",
 			"subclassSource": "tgs1",
 			"level": 15,
@@ -8157,7 +8157,7 @@
 			"source": "tgs1",
 			"page": 165,
 			"className": "Paladin",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Hearth",
 			"subclassSource": "tgs1",
 			"level": 20,
@@ -8173,7 +8173,7 @@
 			"source": "tgs1",
 			"page": 166,
 			"className": "Ranger",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Winter Trapper",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8232,7 +8232,7 @@
 			"source": "tgs1",
 			"page": 166,
 			"className": "Ranger",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Winter Trapper",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8243,7 +8243,7 @@
 			"source": "tgs1",
 			"page": 166,
 			"className": "Ranger",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Winter Trapper",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8258,7 +8258,7 @@
 			"source": "tgs1",
 			"page": 166,
 			"className": "Ranger",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Winter Trapper",
 			"subclassSource": "tgs1",
 			"level": 7,
@@ -8273,7 +8273,7 @@
 			"source": "tgs1",
 			"page": 166,
 			"className": "Ranger",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Winter Trapper",
 			"subclassSource": "tgs1",
 			"level": 7,
@@ -8287,7 +8287,7 @@
 			"source": "tgs1",
 			"page": 166,
 			"className": "Ranger",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Winter Trapper",
 			"subclassSource": "tgs1",
 			"level": 11,
@@ -8302,7 +8302,7 @@
 			"source": "tgs1",
 			"page": 166,
 			"className": "Ranger",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Winter Trapper",
 			"subclassSource": "tgs1",
 			"level": 15,
@@ -8316,7 +8316,7 @@
 			"source": "tgs1",
 			"page": 167,
 			"className": "Rogue",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Runetagger",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8336,14 +8336,14 @@
 			"type": "entries",
 			"name": "Impressionist",
 			"entries": [
-				"Starting at 3rd level, you're never without your brushes. You gain proficiency in {@item calligrapher's supplies|phb} and {@item painter's supplies|phb}. Your proficiency bonus is doubled whenever you make an ability check that uses either of these tools.",
+				"Starting at 3rd level, you're never without your brushes. You gain proficiency in {@item calligrapher's supplies|PHB} and {@item painter's supplies|PHB}. Your proficiency bonus is doubled whenever you make an ability check that uses either of these tools.",
 				"In addition, whenever you finish making a mark or rune with ink or paint, you can imbue it with the effects of the {@spell message} spell. When you do, the mark is visibly magical and casts dim light in a 5-foot radius. A creature that touches the glowing mark telepathically hears the message you imbued in it. Once a message is heard, the magic fades from the mark.",
 				"You always have at least one paint or calligraphy brush on your person and can either create or purchase inks and pigments as part of your downtime activities. You can improvise these tools over the course of 10 minutes, assembling them from objects in your environment."
 			],
 			"source": "tgs1",
 			"page": 167,
 			"className": "Rogue",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Runetagger",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8380,7 +8380,7 @@
 			"source": "tgs1",
 			"page": 167,
 			"className": "Rogue",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Runetagger",
 			"subclassSource": "tgs1",
 			"level": 3,
@@ -8391,7 +8391,7 @@
 			"source": "tgs1",
 			"page": 168,
 			"className": "Rogue",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Runetagger",
 			"subclassSource": "tgs1",
 			"level": 9,
@@ -8406,7 +8406,7 @@
 			"source": "tgs1",
 			"page": 168,
 			"className": "Rogue",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Runetagger",
 			"subclassSource": "tgs1",
 			"level": 13,
@@ -8420,7 +8420,7 @@
 			"source": "tgs1",
 			"page": 168,
 			"className": "Rogue",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Runetagger",
 			"subclassSource": "tgs1",
 			"level": 17,
@@ -8434,7 +8434,7 @@
 			"source": "tgs1",
 			"page": 169,
 			"className": "Sorcerer",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Frost",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -8460,7 +8460,7 @@
 			"source": "tgs1",
 			"page": 169,
 			"className": "Sorcerer",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Frost",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -8476,7 +8476,7 @@
 			"source": "tgs1",
 			"page": 169,
 			"className": "Sorcerer",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Frost",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -8487,7 +8487,7 @@
 			"source": "tgs1",
 			"page": 169,
 			"className": "Sorcerer",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Frost",
 			"subclassSource": "tgs1",
 			"level": 6,
@@ -8502,7 +8502,7 @@
 			"source": "tgs1",
 			"page": 169,
 			"className": "Sorcerer",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Frost",
 			"subclassSource": "tgs1",
 			"level": 14,
@@ -8517,7 +8517,7 @@
 			"source": "tgs1",
 			"page": 169,
 			"className": "Sorcerer",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Frost",
 			"subclassSource": "tgs1",
 			"level": 18,
@@ -8532,7 +8532,7 @@
 			"source": "tgs1",
 			"page": 170,
 			"className": "Warlock",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Griffon",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -8591,7 +8591,7 @@
 			"source": "tgs1",
 			"page": 170,
 			"className": "Warlock",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Griffon",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -8602,7 +8602,7 @@
 			"source": "tgs1",
 			"page": 170,
 			"className": "Warlock",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Griffon",
 			"subclassSource": "tgs1",
 			"level": 1,
@@ -8618,7 +8618,7 @@
 			"source": "tgs1",
 			"page": 170,
 			"className": "Warlock",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Griffon",
 			"subclassSource": "tgs1",
 			"level": 6,
@@ -8632,7 +8632,7 @@
 			"source": "tgs1",
 			"page": 170,
 			"className": "Warlock",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Griffon",
 			"subclassSource": "tgs1",
 			"level": 10,
@@ -8647,7 +8647,7 @@
 			"source": "tgs1",
 			"page": 170,
 			"className": "Warlock",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Astral Griffon",
 			"subclassSource": "tgs1",
 			"level": 14,
@@ -8662,7 +8662,7 @@
 			"source": "tgs1",
 			"page": 171,
 			"className": "Wizard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Material Magic",
 			"subclassSource": "tgs1",
 			"level": 2,
@@ -8689,7 +8689,7 @@
 			"source": "tgs1",
 			"page": 171,
 			"className": "Wizard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Material Magic",
 			"subclassSource": "tgs1",
 			"level": 2,
@@ -8705,7 +8705,7 @@
 			"source": "tgs1",
 			"page": 171,
 			"className": "Wizard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Material Magic",
 			"subclassSource": "tgs1",
 			"level": 2,
@@ -8716,7 +8716,7 @@
 			"source": "tgs1",
 			"page": 172,
 			"className": "Wizard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Material Magic",
 			"subclassSource": "tgs1",
 			"level": 6,
@@ -8743,7 +8743,7 @@
 			"source": "tgs1",
 			"page": 172,
 			"className": "Wizard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Material Magic",
 			"subclassSource": "tgs1",
 			"level": 10,
@@ -8757,7 +8757,7 @@
 			"source": "tgs1",
 			"page": 172,
 			"className": "Wizard",
-			"classSource": "phb",
+			"classSource": "PHB",
 			"subclassShortName": "Material Magic",
 			"subclassSource": "tgs1",
 			"level": 14,
@@ -9184,7 +9184,7 @@
 						"name": "Smith's Blessing",
 						"entries": [
 							"You can use the hammer to cast either the {@spell creation} or {@spell fabricate} spell using an action instead of its usual casting time. {@i Creation} is cast as a 6th level spell when cast in this way, and its conjured materials can be used as materials for the {@i fabricate} spell, although the materials still have a limited duration. Once the hammer has been used to cast a spell in this way, it can't be used to cast that spell again until the following dawn.",
-							"In addition, you know the {@spell mending} cantrip if you don't already know it while you're attuned to the hammer. Mending's usual size restriction is increased to 5 feet in any dimension for you when you use it to repair metal. Ability checks you make using {@item smith's tools|phb} to make or repair an item are made with advantage when you use the hammer's head as the anvil."
+							"In addition, you know the {@spell mending} cantrip if you don't already know it while you're attuned to the hammer. Mending's usual size restriction is increased to 5 feet in any dimension for you when you use it to repair metal. Ability checks you make using {@item smith's tools|PHB} to make or repair an item are made with advantage when you use the hammer's head as the anvil."
 						]
 					},
 					{
