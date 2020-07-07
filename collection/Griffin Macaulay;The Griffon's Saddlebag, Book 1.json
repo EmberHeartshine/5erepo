@@ -801,11 +801,11 @@
 			"range": "20/60",
 			"dmg1": "1d6",
 			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
 			"entries": [
 				"This magic handaxe is made from the remains of a slain axe beak. The first time you hit a creature that has a flying speed on each of your turns with this axe, that creature must make a {@dc 13} Strength saving throw. Each time that a creature fails this saving throw, that creature's flying speed is reduced by 15 feet for 1 minute."
 			],
-			"axe": true,
-			"weapon": true,
 			"fluff": {
 				"images": [
 					{
@@ -3760,6 +3760,226 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ferrymans-Take.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Festerwood Buckler",
+			"source": "tgs1",
+			"page": 64,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This festerwood shield is riddled with amber pustules that glow with a low, yellow light. While holding this magic shield, the pustules emit bright light in a 5-foot radius and dim light for another 5 feet. In addition, while you’re holding the shield, you can use your reaction when a creature that you can see within 5 feet of you misses you with an attack to bash that creature with the shield. When you do, that creature must succeed on a {@dc 13 Dexterity} saving throw or take {@damage 1d4 + 1} acid damage."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwood-Buckler.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Festerwood Claymore",
+			"source": "tgs1",
+			"page": 64,
+			"baseItem": "greatsword|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This heavy, dark wood is incredibly strong and forms part of the symbiotic relationship it shares with destructive beetles that live inside. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you roll a 20 on an attack roll made with this weapon against a creature, some of the sword’s beetles leave the weapon and latch onto the target. The beetles bite and hinder the creature for its next {@dice 1d4} turns. While affected by the beetles in this way, the creature takes {@damage 1d6} piercing damage at the start of each of its turns and its movement speed is halved. A creature can use an action to swat away and remove the beetles to end the effect early. If the target is a plant creature or magical plant, this property deals the maximum damage to it on each of its turns and lasts for 4 turns unless ended early by a creature."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwood-Claymore.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Festerwood Fungal Stave",
+			"source": "tgs1",
+			"page": 64,
+			"baseItem": "quarterstaff|phb",
+			"tier": "major",
+			"rarity": "very rare",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V",
+				"F"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"weapon": true,
+			"reqAttune": "by a cleric, druid, or sorcerer",
+			"recharge": "dusk",
+			"charges": 25,
+			"attachedSpells": [
+				"cloudkill",
+				"fog cloud",
+				"insect plague",
+				"stinking cloud"
+			],
+			"entries": [
+				"This fungal staff has 25 charges and regains {@dice 1d10 + 15} expended charges daily at dusk. While holding the staff, you can use an action to expend 1 or more of its charges to cause clusters of noxious mushrooms to magically appear in a number of unoccupied spaces equal to the number of charges you expend. The spaces must be on solid ground within 60 feet of you. Each space becomes difficult terrain for the duration of the effect. When a creature moves into or within a space or area covered by these mushrooms, that creature takes {@damage 2d4} poison damage for every 5 feet it travels. The mushrooms live for 1 minute or until you dismiss them as a bonus action.",
+				"In addition, while holding the staff, you can use a bonus action to expend 1 or more of its charges to cast one of the following spells from it, regardless of the spell’s normal casting time, using your spell save DC: {@spell cloudkill} (5 charges), {@spell fog cloud} (1 charge), {@spell insect plague} (5 charges), or {@spell stinking cloud} (3 charges). A spell cast in this way ends at the end of your next turn and must target a point adjacent to a space occupied by your mushrooms. When cast from the staff, these spells do not require concentration.",
+				"If you expend the last charge from the staff, roll a {@dice d20}. On a 1, the staff begins to overgrow, destroying the staff and forcing you to drop it in an unoccupied space adjacent to you. A hostile {@creature violet fungus} grows in its place."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwood-Fungal-Stave.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Festerwood Logger",
+			"source": "tgs1",
+			"page": 65,
+			"baseItem": "handaxe|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				"This magic axe is a favorite among lumberjacks. The axe is made entirely of the magically hardened festerwood and sharpened to a menacing edge. The weapon’s glimmering yellow pustules leech acid with each attack, causing any target hit by it to take an extra {@damage 1d4} acid damage. This acid damage is maximized if the target is a plant creature, a nonmagical plant, or an object made of wood."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwood-Logger.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Festerwood Vizard",
+			"source": "tgs1",
+			"page": 65,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This dark wooden mask is strangely insect-like and magically conforms to fit your face. While wearing the mask, you gain {@sense blindsight} out to a range of 10 feet. You can put on and remove the mask using an action.",
+				"In addition, you can summon a {@creature swarm of insects} (beetles) that fly out of the mask’s mouth and obey your verbal commands as an action. You can command the swarm to move and make an attack as part of the action to summon them and then again on each of your following turns as a bonus action. If the swarm goes 10 minutes without attacking a creature, they dissipate harmlessly to seek food elsewhere. Once this property has been used, it can’t be used again until the next dusk."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwood-Vizard.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Festerwood's Light",
+			"source": "tgs1",
+			"page": 65,
+			"baseItem": "rapier|PHB",
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"reqAttune": true,
+			"recharge": "dusk",
+			"charges": 5,
+			"attachedSpells": [
+				"charm person",
+				"compulsion",
+				"confusion",
+				"contagion",
+				"faerie fire",
+				"locate animals and plants",
+				"moonbeam",
+				"dancing lights"
+			],
+			"entries": [
+				"This festerwood rapier’s blade is inlaid with scrapings from the Lightspore, the radiant mushroom growing at the center of the Festerwood. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you’re attuned to this rapier, you have advantage on ability checks made to find locations within the Festerwood and are immune to disease. While holding the sword, the blade sheds bright light in a 10-foot radius and dim light for another 10 feet.",
+				"You can use an action to raise the blade overhead and speak its command word. When you do, all creatures other than you within 30 feet of you are dusted with a sudden wave of magical spores. A friendly creature affected by the spores is suddenly invigorated, allowing it to immediately use its reaction to either make one weapon attack or move up to half its speed without provoking opportunity attacks. A hostile creature affected by the spores must succeed on a {@dc 17} Constitution saving throw or be {@condition incapacitated} until the end of your next turn. Once this property has been used, it can’t be used again until the next dusk.",
+				"The rapier has 5 charges for the following properties. The weapon regains {@dice 1d3 + 2} expended charges daily at dusk.",
+				{
+					"name": "Spore Cleansing",
+					"entries": [
+						"As an action, you can touch a willing creature with the rapier and expend 1 of its charges to remove 1 Spore Counter from that creature. (See {@creature sporehusk|tgs1})"
+					]
+				},
+				{
+					"name": "Spells",
+					"entries": [
+						"While holding this rapier, you can use an action to expend 1 of its charges to cast one of the following spells from it (save {@dc 17}, spell attack bonus +9): {@spell charm person} (4th-level version), {@spell compulsion}, {@spell confusion}, {@spell contagion}, {@spell faerie fire}, {@spell locate animals and plants}, or {@spell moonbeam} (4th-level version). In addition, you can use an action to cast the {@spell dancing lights} spell at will while holding the rapier."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwoods-Light.jpg"
 						}
 					}
 				]
@@ -8212,6 +8432,44 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fanfare-Ammunition.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Festerwood Masher",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "maul"
+				},
+				{
+					"name": "warhammer"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Festerwood ",
+				"source": "tgs1",
+				"page": 65,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeapon": "+2",
+				"reqAttune": true,
+				"recharge": "dusk",
+				"charges": 3,
+				"entries": [
+					"This festerwood hammer has amber pustules on its end that have enriched the wood with its corrosive properties. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+					"In addition, this hammer has 3 charges and regains all expended charges daily at dusk. When you hit a creature or object with the hammer, you can expend 1 of its charges to magically release some of the corrosive acid. When you do, if the target is Large or smaller, that target takes a cumulative \u22121 penalty to its AC that lasts for 1 minute. If the target is Huge or Gargantuan, it takes this penalty after you expend either 2 or 3 charges in this way, respectively. This hammer deals an extra {@damage 1d4} acid damage to any target it hits for each \u22121 penalty to AC it has in this way."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwood-Masher.jpg"
 							}
 						}
 					]
