@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1593429293,
-		"dateLastModified": 1594137727
+		"dateLastModified": 1594151590
 	},
 	"item": [
 		{
@@ -3038,7 +3038,7 @@
 						"Prediction"
 					],
 					"colStyles": [
-						"col-1",
+						"col-1 text-center",
 						"col-11"
 					],
 					"rows": [
@@ -4139,7 +4139,7 @@
 						"Result"
 					],
 					"colStyles": [
-						"col-1",
+						"col-1 text-center",
 						"col-2",
 						"col-9"
 					],
@@ -4274,7 +4274,7 @@
 			"recharge": "dawn",
 			"charges": 5,
 			"entries": [
-				"This jeweled gauntlet has 5 charges and regains {@dice1d4 + 1} expended charges daily at dawn. When you make a melee attack with a hand that's wearing this gauntlet, you can choose to expend 1 of its charges as part of the attack. If it hits, the target takes an extra {@damage 2d6} force damage from the attack and must make a {@dc 15} Strength saving throw. On a failure, the target is pushed 10 feet away from you. On a success, you're pushed 10 feet away from it instead. Targets two or more sizes larger than you automatically succeed on the saving throw."
+				"This jeweled gauntlet has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. When you make a melee attack with a hand that's wearing this gauntlet, you can choose to expend 1 of its charges as part of the attack. If it hits, the target takes an extra {@damage 2d6} force damage from the attack and must make a {@dc 15} Strength saving throw. On a failure, the target is pushed 10 feet away from you. On a success, you're pushed 10 feet away from it instead. Targets two or more sizes larger than you automatically succeed on the saving throw."
 			],
 			"fluff": {
 				"images": [
@@ -4369,6 +4369,260 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Frefil's Jolly Oozebean Sugarbombs",
+			"source": "tgs1",
+			"page": 71,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"A pack of oozebeans comes with 4 inside it. When you open a pack, roll {@dice 4d8} and record each number. Use these numbers to determine the kinds of oozebeans found in the bag using the table below. You can eat an oozebean using a bonus action. Each color has an effect that lasts for 1 minute.",
+				{
+					"name": "Upset Stomach",
+					"entries": [
+						"You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a {@dc 13} Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become {@condition poisoned} for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Oozebean Colors",
+					"colLabels": [
+						"d8",
+						"Color",
+						"Result"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1",
+							"Red",
+							"You gain {@dice 1d8 + 4} temporary hit points."
+						],
+						[
+							"2",
+							"Yellow",
+							"You have resistance against lightning damage and immunity against damage from the {@spell magic missile} spell."
+						],
+						[
+							"3",
+							"Green",
+							"You have resistance to poison damage and advantage on ability checks to escape grapples or restraints."
+						],
+						[
+							"4",
+							"Blue",
+							"Grappling or being grappled deals {@damage 1d8} acid damage to the other creature."
+						],
+						[
+							"5",
+							"Gold",
+							"You gain a climbing speed equal to your movement speed."
+						],
+						[
+							"6",
+							"White",
+							"You can breathe underwater."
+						],
+						[
+							"7",
+							"Black",
+							"You have resistance to acid damage and can safely eat otherwise inedible and nonpoisonous organic materials."
+						],
+						[
+							"8",
+							"Gray",
+							"You have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Frefils-Jolly-Oozebean-Sugarbombs.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Frefil's Tiny Tasty Tongue Twisty Sugarbombs",
+			"source": "tgs1",
+			"page": 71,
+			"tier": "minor",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This small bag of marble-sized gumballs contains 12 enchanted candies. While the color and flavor of each gumball is different, each one's effect is the same. As an action, you can start to chew one of these gumballs to release its magic. For the next 5 minutes while you chew the candy, you understand the literal meaning of any spoken language that you hear. If you speak while chewing the gumball, your accent changes to sound like the creature to whom you're listening: allowing you to sound like a local with minimal effort. The candy's magic and flavor fade 5 minutes after you first start to chew it.",
+				{
+					"name": "Upset Stomach",
+					"entries": [
+						"You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a {@dc 13} Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become {@condition poisoned} for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fragment-of-Elder-Starlight.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Frost Giant Fork",
+			"source": "tgs1",
+			"page": 72,
+			"baseItem": "trident|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This massive utensil comes from the table of a frost giant. Latent jotun magic flows through this makeshift trident and drives your hunger to nearly aggressive levels. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with a melee attack using the trident, you can immediately make a bite attack against that same creature as a bonus action. Your jaws and teeth are fortified to have the strength of a giant, allowing this bite attack to deal {@damage 1d6} piercing damage. You are proficient with this bite attack and use Strength as your ability modifier for it.",
+				{
+					"name": "Curse",
+					"entries": [
+						"While you're attuned to this weapon, your hunger is almost insatiable. You're overwhelmingly compelled to eat twice the amount of food you normally would, and incur 1 level of {@condition exhaustion} if you go a day without eating enough."
+					]
+				}
+			]
+		},
+		{
+			"name": "Frostbitten Buckler",
+			"source": "tgs1",
+			"page": 72,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This icy shield has 3 charges and regains all of them each day at dawn. When a creature you can see hits you with a melee attack, you can expend 1 of the shield's charges as a reaction to deal {@damage 2d4} cold damage to the attacking creature. After the attack, you gain that same amount of cold damage as temporary hit points that last for up to 1 minute."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Frostbitten-Buckler.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Frozen Dagger",
+			"source": "tgs1",
+			"page": 72,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "C",
+			"reqAttune": true,
+			"weapon": true,
+			"entries": [
+				"Attacks made with this dagger deal cold damage instead of piercing. If you roll a 20 on an attack roll made with this magic weapon, the target must succeed on a {@dc 12} Constitution saving throw or be {@condition paralyzed} until the end of its next turn, frozen in place and unable to move. If it succeeds, its movement speed is halved until the end of its next turn instead."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Frostbitten-Dagger.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Funeral Marchers",
+			"source": "tgs1",
+			"page": 72,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While wearing these black leather boots, you can choose to not fall {@condition prone} when you're reduced to 0 hit points. While you're {@condition unconscious} and standing in this way, you can walk up to 10 feet on your turn after rolling a death saving throw."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Funeral-Marchers.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Galvanic Steelsnare",
+			"source": "tgs1",
+			"page": 72,
+			"type": "R",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"S",
+				"T",
+				"H"
+			],
+			"range": "5/15",
+			"weapon": true,
+			"entries": [
+				"This magic net is made with fine steel chains and has the heavy property. Magic, leaden weights line the edge of the net and send shocking pulses throughout the metal. The net is resistant to slashing damage and has immunity to all other damage types. Regardless of a creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn while it's restrained by the net.",
+				{
+					"name": "Special",
+					"entries": [
+						"A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a {@dc 10} Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+					]
+				}
+			]
 		}
 	],
 	"monster": [
@@ -8915,6 +9169,37 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Forgemasters-Might.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Galepierce Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"dmgType": "P",
+					"property": "T"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Galepierce ",
+				"source": "tgs1",
+				"page": 72,
+				"tier": "major",
+				"rarity": "uncommon",
+				"entries": [
+					"These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other airbased hindrances are made without the normal disadvantage that those obstructions would typically cause."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Galepierce-Weapon.jpg"
 							}
 						}
 					]
