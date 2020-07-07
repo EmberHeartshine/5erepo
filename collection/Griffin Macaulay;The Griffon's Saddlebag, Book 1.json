@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1593429293,
-		"dateLastModified": 1594038024
+		"dateLastModified": 1594137727
 	},
 	"item": [
 		{
@@ -968,7 +968,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"entries": [
-				"This shiny platinum bangle is inlaid with arcane runes that seem to be written by different hands. Labels can be read behind each of the adorning runes on the inside of the bangle. As an action, you can touch one of the runes and say the command phrase, “I can do this,” to gain proficiency in the rune's associated tool for the next 24 hours. The rune glows with arcane energy while in effect. Once a rune is activated in this way, it can't be activated again until {@dice 1d4} days have passed.",
+				"This shiny platinum bangle is inlaid with arcane runes that seem to be written by different hands. Labels can be read behind each of the adorning runes on the inside of the bangle. As an action, you can touch one of the runes and say the command phrase, \"I can do this,\" to gain proficiency in the rune's associated tool for the next 24 hours. The rune glows with arcane energy while in effect. Once a rune is activated in this way, it can't be activated again until {@dice 1d4} days have passed.",
 				"There are 10 runes on the bangle that can be activated in this way: {@item alchemist's supplies|phb}, {@item carpenter's tools|phb}, {@item cook's utensils|phb}, {@item leatherworker's tools|phb}, {@item smith's tools|phb}, {@item tinker's tools|phb}, {@item musical instrument|phb|instruments} ({@item drum|phb}, {@item flute|phb}, {@item lute|phb}, {@item lyre|phb}), {@item navigator's tools|phb}, {@item thieves' tools|phb}, and {@table Mounts and Vehicles; Waterborne Vehicles|phb|vehicles (water)}. If you're already proficient with any of these tools, your proficiency bonus is doubled for any ability check you make that uses the tool while the rune is active."
 			],
 			"fluff": {
@@ -3302,7 +3302,7 @@
 			"source": "tgs1",
 			"page": 59,
 			"tier": "major",
-			"rarity": "Very Rare",
+			"rarity": "very rare",
 			"wondrous": true,
 			"reqAttune": true,
 			"attachedSpells": [
@@ -3310,7 +3310,7 @@
 			],
 			"entries": [
 				"This short purple cape is vaguely iridescent and is difficult to look at from afar. The cape creates illusions of faraway places that are visible only to creatures 30 or more feet away. While wearing this cloak, creatures more than 30 feet away from you have disadvantage on Wisdom (Perception) checks to detect you based on sight and make ranged attacks against you with disadvantage. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.",
-				"In addition, you can cast the {@spell dream} spell (save {@dc 16}) using the mantle, using yourself as the messenger within the dream. Once this property of the mantle has been used, it can’t be used again until 7 days have passed."
+				"In addition, you can cast the {@spell dream} spell (save {@dc 16}) using the mantle, using yourself as the messenger within the dream. Once this property of the mantle has been used, it can't be used again until 7 days have passed."
 			],
 			"fluff": {
 				"images": [
@@ -3319,6 +3319,273 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dream-Mantle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Druidic Throwing Club",
+			"source": "tgs1",
+			"page": 59,
+			"baseItem": "club|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a druid or ranger",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"attachedSpells": [
+				"shillelagh"
+			],
+			"entries": [
+				"This magic wooden club has the thrown property with a normal range of 20 feet and a long range of 60 feet. You gain a +1 bonus to attack and damage rolls made with this magic weapon While attuned to the club, you know the {@spell shillelagh} cantrip if you don't already know it. If shillelagh is cast on the club, the spell doesn't end when the weapon is thrown. The club flies back to your hand immediately after making a ranged attack with it."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Druidic-Throwing-Club.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Dryadleaf",
+			"source": "tgs1",
+			"page": 59,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This magic plant only grows at the base of trees that are often stepped through by {@creature dryads}. Its leaves continuously shift as if by a breeze. Touching the plant, even gently, causes its leaves to stop their gentle swaying for 1 minute.",
+				"Dryadleaf plants only grow up to 4 leaves at a time and are found in the wild with {@dice 1d4} matured leaves. Leaves are fully matured once they have a thin yellow rim. You can use an action to eat a mature leaf. When you do, you can speak to beasts and plants for 1 minute as if you shared a language. Once it's been picked, a leaf retains this property for 7 days before it wilts.",
+				"You can move the plant to a pot over the course of 1 minute. When you do, make a {@dc 15} Intelligence ({@skill Nature}) or Wisdom ({@skill Survival}) check. On a success, the delicate plant survives the transfer to a new pot. On a failure, the plant is irreversibly damaged and dies.",
+				"The plant can survive with surprisingly little air, allowing it to survive in an extradimensional space such as a {@item bag of holding} or {@item portable hole}. So long as it's watered lightly each day and given a moderate amount of sunlight (weather and environment permitting), the plant grows {@dice 1d4} missing mature leaves every 7 days."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dryadleaf.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Eaglereign",
+			"source": "tgs1",
+			"page": 60,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"find familiar"
+			],
+			"entries": [
+				"This thick glove is ornamented with eagle feathers and fitted with an enchanted silk lining. You can use the glove to cast the {@spell find familiar} spell as an action instead of its normal casting time. When you do, the familiar takes the form of an {@creature eagle}. The familiar disappears if you are no longer attuned to the glove. Once this property has been used, it can't be used again until the following dawn.",
+				"You can focus on the glove for 1 hour to summon a {@creature giant eagle} that magically appears in an empty space within 30 feet of you. The giant eagle is considered to be a fey creature and disappears after 12 hours, when it drops to 0 hit points, or if you dismiss it as an action. Once the eagle disappears, it can't be summoned again until 2 days have passed.",
+				"The giant eagle is friendly to you and your companions. Roll initiative for the giant eagle, which has its own turns. It obeys any verbal commands that you issue (no action required). If you don't issue any commands, it defends itself from hostile creatures, but otherwise takes no action.",
+				"The giant eagle has a carrying capacity of 480 pounds and can fly at up to 8 miles an hour. It must rest 1 hour for every 3 hours it flies, and it can't fly for more than 9 hours."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Eaglereign.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ear Cuff of the Vampire Bat",
+			"source": "tgs1",
+			"page": 60,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ceramic bat ear cuff, you can mentally command the cuff (no action required) to enhance your hearing when you make a Wisdom ({@skill Perception}) check to listen. When you do, the bat's eyes flash with a red glow as its ceramic fangs bite down on your ear. You take {@damage 1d4 + 1} necrotic damage from the bite and immediately gain a bonus to your listening Wisdom (Perception) check equal to the amount of necrotic damage you took in this way. This damage ignores resistance and immunity. You can decide to use this ability after you roll the {@dice d20}, but before the GM determines the outcome."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ear-Cuff-of-the-Vampire-Bat.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Edible Book of Recipes",
+			"source": "tgs1",
+			"page": 60,
+			"tier": "minor",
+			"rarity": "very rare",
+			"wondrous": true,
+			"attachedSpells": [
+				"heroes' feast"
+			],
+			"entries": [
+				"This tome of cooking recipes is enchanted to turn sheets of fine paper into delectable meals. You can write a simple recipe on 1 of the book's pages over the course of 1 minute. As you do, the paper becomes aromatic, smelling like the cuisine you're writing. You can eat the sheet of paper as an action and find that it has the taste, texture, and smell of the food described on its page. The sheet of paper takes the place of a meal.",
+				"If you add a more complex recipe to the book that takes at least 10 minutes to write\u2014potentially using sensory language, descriptions of fine ingredients, or illustrations of the dish\u2014eating the delicious sheet of paper provides enough nourishment to sustain a creature for 1 day. A creature that eats from the book using one of these complex recipes gains and has their hit point maximum increase by {@dice 1d10} + their proficiency bonus until they finish a long rest. In addition, if the creature is diseased or {@condition poisoned}, it can reattempt the saving throw to end it. A creature can only gain the benefits of a complex recipe once every 24 hours.",
+				"In addition, you can use this book as a spellcasting focus when casting the {@spell create food and water} spell, should you know it. When you do, the food and drink you create can be aromatic and flavorful: recreating recipes from the book of your choice.",
+				"The book can hold up to 50 pages. A book found as treasure usually has {@dice 3d10 + 10} blank pages as well as {@dice 1d10} filled pages containing complex recipes.",
+				"When all the pages are removed from the book or you attempt to rebind it early, roll a {@dice d20}. On a 1, the tome bursts into flame and leaves the air in a 60-foot radius smelling like wine and fine cooking. The smell remains for 30 days. After 1 minute, the book's tattered remains transform into a bountiful meal, conjuring a {@spell heroes' feast} as if cast by the spell. The book is then destroyed. On any roll other than a 1, the book can be rebound using fine paper costing no less than 5 gp per page."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Edible-Book-of-Recipes.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Eldritch Scarf",
+			"source": "tgs1",
+			"page": 60,
+			"tier": "minor",
+			"rarity": "rare",
+			"wondrous": true,
+			"attachedSpells": [
+				"heroes' feast"
+			],
+			"entries": [
+				"This dark scarf moves slowly on its own and is always wrinkled. The scarf hides an extradimensional space within its folds that can only be reached while you wear it. The space holds 60 pounds of material, not exceeding a volume of 6 cubic feet. The scarf always weighs 1 pound, regardless of its contents. When you place an object in this space (no action required), your hand vanishes into the scarf 's loose folds.",
+				"You can't retrieve items placed within the scarf with your hands. Instead, you can use a bonus action to mentally control the scarf, causing its frayed, hand-like ends to reach within the space and retrieve a stored item. The hands can carry up to 10 pounds and drop any object weighing more than that on the ground at your feet.",
+				"Ironing or otherwise flattening the scarf causes the items stored inside to be squeezed out, spilling forth unharmed from the ends of the scarf. If the scarf is destroyed, its contents are lost forever. A living creature can't be placed inside the scarf.",
+				"In addition, while wearing the scarf, you can use an action to mentally control it, using the scarf 's frayed hands instead of your own to manipulate a simple object, such as open an unlocked door, stow or retrieve an item from an open container, or pour the contents out of a vial within 5 feet of you. The hands can't attack or activate magic items.",
+				"Placing the scarf inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Eldritch-Scarf.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Enchantment Breaker",
+			"source": "tgs1",
+			"page": 61,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "rare",
+			"entries": [
+				"This ring's tiny chains rotate slowly around your finger while worn. Whenever you are affected by a spell that restores hit points such as {@spell cure wounds} or {@spell healing word}, you can use your reaction to reattempt the saving throw against an enchantment spell that's currently affecting you.",
+				{
+					"name": "Shatter Enchantment",
+					"entries": [
+						"When you're targeted by an enemy enchantment spell or fail a saving throw against one, you can use your reaction to weaken the enchantment's grip on you and other allies within 10 feet of you: allowing you and nearby allies to roll the enchantment's saving throw with advantage. Once you use this feature, it can't be used again until {@dice 1d4} days have passed."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Enchantment-Breaker.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Essence of Rage",
+			"source": "tgs1",
+			"page": 61,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"entries": [
+				"This swirling potion tastes like iron and bitter raisins. When you drink this potion, you enter a rage that lasts for 1 minute or until you're knocked unconscious. This rage grants you the same effects as the barbarian's class feature at 1st level with the following additional properties:",
+				{
+					"type": "list",
+					"items": [
+						"If you end your turn without having attacked a hostile creature or taken damage since your last turn, your rage does not end, but you take {@damage 1d4} psychic damage instead.",
+						"You can enter this rage even if you're wearing heavy armor."
+					]
+				},
+				"In addition, when you use your action to drink this potion, you can make one weapon attack as a bonus action."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Essence-of-Rage.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ether Spear",
+			"source": "tgs1",
+			"page": 61,
+			"baseItem": "spear|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "F",
+			"dmg2": "1d8",
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+2",
+			"entries": [
+				"This spear can slip through the Ethereal Plane to reach its destination. You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals force damage instead of piercing. When you take the Attack action with the spear, you can choose a point you can see within 20 feet of you. The tip of the spear vanishes and reappears at that point, allowing you to make melee attacks with the spear against a creature in or adjacent to that space until the end of your turn. You ignore half cover with these attacks and treat three-quarters cover as if it were half cover.",
+				"You can use a bonus action to see 60 feet into the Ethereal Plane for 1 minute. Once this property of the spear has been used, it can't be used again until the following dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ether-Spear.jpg"
 						}
 					}
 				]
@@ -7352,7 +7619,7 @@
 			"name": "Arcane Artisan",
 			"entries": [
 				"Beginning at 2nd level, you have dedicated your studies to creation and the magic surrounding it. You gain proficiency with three artisan's tools of your choice and you learn the {@spell mending} cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.",
-				"In addition, your exceptional wit and aptitude allow you to do more with less time. When you use a set of artisan's tools with which you are proficient to craft an item or piece of art, you complete a full work day in a number of hours equal to 8 – your Intelligence modifier (minimum of 1)."
+				"In addition, your exceptional wit and aptitude allow you to do more with less time. When you use a set of artisan's tools with which you are proficient to craft an item or piece of art, you complete a full work day in a number of hours equal to 8 \u2013 your Intelligence modifier (minimum of 1)."
 			],
 			"source": "tgs1",
 			"page": 171,
@@ -7447,12 +7714,12 @@
 				}
 			],
 			"excludes": {
-					"property": [
-						"AF",
-						"LD",
-						"T"
-					],
-					"name": "Light Repeating Crossbow"
+				"property": [
+					"AF",
+					"LD",
+					"T"
+				],
+				"name": "Light Repeating Crossbow"
 			},
 			"inherits": {
 				"tier": "major",
@@ -7487,12 +7754,12 @@
 				}
 			],
 			"excludes": {
-					"property": [
-						"AF",
-						"LD",
-						"T"
-					],
-					"name": "Light Repeating Crossbow"
+				"property": [
+					"AF",
+					"LD",
+					"T"
+				],
+				"name": "Light Repeating Crossbow"
 			},
 			"inherits": {
 				"tier": "major",
