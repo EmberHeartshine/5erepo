@@ -3776,7 +3776,7 @@
 			"weight": 6,
 			"ac": 2,
 			"entries": [
-				"This festerwood shield is riddled with amber pustules that glow with a low, yellow light. While holding this magic shield, the pustules emit bright light in a 5-foot radius and dim light for another 5 feet. In addition, while you’re holding the shield, you can use your reaction when a creature that you can see within 5 feet of you misses you with an attack to bash that creature with the shield. When you do, that creature must succeed on a {@dc 13 Dexterity} saving throw or take {@damage 1d4 + 1} acid damage."
+				"This festerwood shield is riddled with amber pustules that glow with a low, yellow light. While holding this magic shield, the pustules emit bright light in a 5-foot radius and dim light for another 5 feet. In addition, while you're holding the shield, you can use your reaction when a creature that you can see within 5 feet of you misses you with an attack to bash that creature with the shield. When you do, that creature must succeed on a {@dc 13 Dexterity} saving throw or take {@damage 1d4 + 1} acid damage."
 			],
 			"fluff": {
 				"images": [
@@ -3808,7 +3808,7 @@
 			"dmgType": "S",
 			"bonusWeapon": "+1",
 			"entries": [
-				"This heavy, dark wood is incredibly strong and forms part of the symbiotic relationship it shares with destructive beetles that live inside. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you roll a 20 on an attack roll made with this weapon against a creature, some of the sword’s beetles leave the weapon and latch onto the target. The beetles bite and hinder the creature for its next {@dice 1d4} turns. While affected by the beetles in this way, the creature takes {@damage 1d6} piercing damage at the start of each of its turns and its movement speed is halved. A creature can use an action to swat away and remove the beetles to end the effect early. If the target is a plant creature or magical plant, this property deals the maximum damage to it on each of its turns and lasts for 4 turns unless ended early by a creature."
+				"This heavy, dark wood is incredibly strong and forms part of the symbiotic relationship it shares with destructive beetles that live inside. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you roll a 20 on an attack roll made with this weapon against a creature, some of the sword's beetles leave the weapon and latch onto the target. The beetles bite and hinder the creature for its next {@dice 1d4} turns. While affected by the beetles in this way, the creature takes {@damage 1d6} piercing damage at the start of each of its turns and its movement speed is halved. A creature can use an action to swat away and remove the beetles to end the effect early. If the target is a plant creature or magical plant, this property deals the maximum damage to it on each of its turns and lasts for 4 turns unless ended early by a creature."
 			],
 			"fluff": {
 				"images": [
@@ -3852,7 +3852,7 @@
 			],
 			"entries": [
 				"This fungal staff has 25 charges and regains {@dice 1d10 + 15} expended charges daily at dusk. While holding the staff, you can use an action to expend 1 or more of its charges to cause clusters of noxious mushrooms to magically appear in a number of unoccupied spaces equal to the number of charges you expend. The spaces must be on solid ground within 60 feet of you. Each space becomes difficult terrain for the duration of the effect. When a creature moves into or within a space or area covered by these mushrooms, that creature takes {@damage 2d4} poison damage for every 5 feet it travels. The mushrooms live for 1 minute or until you dismiss them as a bonus action.",
-				"In addition, while holding the staff, you can use a bonus action to expend 1 or more of its charges to cast one of the following spells from it, regardless of the spell’s normal casting time, using your spell save DC: {@spell cloudkill} (5 charges), {@spell fog cloud} (1 charge), {@spell insect plague} (5 charges), or {@spell stinking cloud} (3 charges). A spell cast in this way ends at the end of your next turn and must target a point adjacent to a space occupied by your mushrooms. When cast from the staff, these spells do not require concentration.",
+				"In addition, while holding the staff, you can use a bonus action to expend 1 or more of its charges to cast one of the following spells from it, regardless of the spell's normal casting time, using your spell save DC: {@spell cloudkill} (5 charges), {@spell fog cloud} (1 charge), {@spell insect plague} (5 charges), or {@spell stinking cloud} (3 charges). A spell cast in this way ends at the end of your next turn and must target a point adjacent to a space occupied by your mushrooms. When cast from the staff, these spells do not require concentration.",
 				"If you expend the last charge from the staff, roll a {@dice d20}. On a 1, the staff begins to overgrow, destroying the staff and forcing you to drop it in an unoccupied space adjacent to you. A hostile {@creature violet fungus} grows in its place."
 			],
 			"fluff": {
@@ -3887,7 +3887,7 @@
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"This magic axe is a favorite among lumberjacks. The axe is made entirely of the magically hardened festerwood and sharpened to a menacing edge. The weapon’s glimmering yellow pustules leech acid with each attack, causing any target hit by it to take an extra {@damage 1d4} acid damage. This acid damage is maximized if the target is a plant creature, a nonmagical plant, or an object made of wood."
+				"This magic axe is a favorite among lumberjacks. The axe is made entirely of the magically hardened festerwood and sharpened to a menacing edge. The weapon's glimmering yellow pustules leech acid with each attack, causing any target hit by it to take an extra {@damage 1d4} acid damage. This acid damage is maximized if the target is a plant creature, a nonmagical plant, or an object made of wood."
 			],
 			"fluff": {
 				"images": [
@@ -3911,7 +3911,7 @@
 			"reqAttune": true,
 			"entries": [
 				"This dark wooden mask is strangely insect-like and magically conforms to fit your face. While wearing the mask, you gain {@sense blindsight} out to a range of 10 feet. You can put on and remove the mask using an action.",
-				"In addition, you can summon a {@creature swarm of insects} (beetles) that fly out of the mask’s mouth and obey your verbal commands as an action. You can command the swarm to move and make an attack as part of the action to summon them and then again on each of your following turns as a bonus action. If the swarm goes 10 minutes without attacking a creature, they dissipate harmlessly to seek food elsewhere. Once this property has been used, it can’t be used again until the next dusk."
+				"In addition, you can summon a {@creature swarm of insects} (beetles) that fly out of the mask's mouth and obey your verbal commands as an action. You can command the swarm to move and make an attack as part of the action to summon them and then again on each of your following turns as a bonus action. If the swarm goes 10 minutes without attacking a creature, they dissipate harmlessly to seek food elsewhere. Once this property has been used, it can't be used again until the next dusk."
 			],
 			"fluff": {
 				"images": [
@@ -3957,8 +3957,8 @@
 				"dancing lights"
 			],
 			"entries": [
-				"This festerwood rapier’s blade is inlaid with scrapings from the Lightspore, the radiant mushroom growing at the center of the Festerwood. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you’re attuned to this rapier, you have advantage on ability checks made to find locations within the Festerwood and are immune to disease. While holding the sword, the blade sheds bright light in a 10-foot radius and dim light for another 10 feet.",
-				"You can use an action to raise the blade overhead and speak its command word. When you do, all creatures other than you within 30 feet of you are dusted with a sudden wave of magical spores. A friendly creature affected by the spores is suddenly invigorated, allowing it to immediately use its reaction to either make one weapon attack or move up to half its speed without provoking opportunity attacks. A hostile creature affected by the spores must succeed on a {@dc 17} Constitution saving throw or be {@condition incapacitated} until the end of your next turn. Once this property has been used, it can’t be used again until the next dusk.",
+				"This festerwood rapier's blade is inlaid with scrapings from the Lightspore, the radiant mushroom growing at the center of the Festerwood. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you're attuned to this rapier, you have advantage on ability checks made to find locations within the Festerwood and are immune to disease. While holding the sword, the blade sheds bright light in a 10-foot radius and dim light for another 10 feet.",
+				"You can use an action to raise the blade overhead and speak its command word. When you do, all creatures other than you within 30 feet of you are dusted with a sudden wave of magical spores. A friendly creature affected by the spores is suddenly invigorated, allowing it to immediately use its reaction to either make one weapon attack or move up to half its speed without provoking opportunity attacks. A hostile creature affected by the spores must succeed on a {@dc 17} Constitution saving throw or be {@condition incapacitated} until the end of your next turn. Once this property has been used, it can't be used again until the next dusk.",
 				"The rapier has 5 charges for the following properties. The weapon regains {@dice 1d3 + 2} expended charges daily at dusk.",
 				{
 					"name": "Spore Cleansing",
@@ -3980,6 +3980,252 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Festerwoods-Light.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fife of Dragonsong",
+			"source": "tgs1",
+			"page": 66,
+			"type": "R",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 1,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"LD"
+			],
+			"range": "25/100",
+			"dmg1": "1",
+			"dmgType": "P",
+			"weapon": true,
+			"reqAttune": "by a bard",
+			"ammoType": "blowgun needle|phb",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This magical fife can be played as an instrument or wielded as a deadly weapon. You are proficient with the fife of dragonsong as both an instrument and blowgun while you're attuned to it. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and any target hit by it takes an extra {@damage 1d6} thunder damage from the attack.",
+				{
+					"name": "Dragonsong",
+					"entries": [
+						"As an action, you can expend one of your uses of Bardic Inspiration to play a powerful note that repels foes and empowers allies. The note is audible out to 100 feet. Hostile creatures within a 15-foot cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage and isn't pushed.",
+						"An ally within the cone that can hear the note is bolstered by it instead. A friendly creature affected by the note has its speed increased by 10 feet until the end of its next turn and gains 2d6 temporary hit points that last for 10 minutes."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fife-of-Dragonsong.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fire Dervish Cloak",
+			"source": "tgs1",
+			"page": 66,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"This breathable cloak sounds like a crackling fire as it billows behind you and can create a small, fiery cyclone around you as you twirl in it. The cloak has 5 charges and regains all expended charges daily at dawn. Once on your turn, you can expend 1, 2, or 3 charges from the cloak by forfeiting 10, 20, or 30 feet of your movement speed for that turn, respectively, in order to spin in place instead. When you do, each creature within 5 feet of you must succeed on a {@dc 15} Dexterity saving throw or take {@damage 1d8} fire damage for each charge you expend in this way.",
+				"If a creature takes fire damage from the cloak, that creature can't make opportunity attacks against you until the end of your turn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fire-Dervish-Cloak.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fire Fire!",
+			"source": "tgs1",
+			"page": 66,
+			"baseItem": "light crossbow|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"LD",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weapon": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"ammoType": "crossbow bolt|phb",
+			"entries": [
+				"This hollow metal crossbow was created by a team of {@creature kobold|mm|kobolds} and contains an enchanted ember at its core. The crossbow has 3 charges. While the crossbow has at least 1 charge, the inner ember burns brightly when you hold the weapon. While it burns, the crossbow emits bright light in a 20-foot radius and dim light for an additional 20 feet, and any nonmagical bolt fired from the crossbow catches fire and deals an extra {@damage 1d6} fire damage to any target it hits.",
+				"You can expend 1 of the crossbow's charges as an action to cause the ember to spew forth devastating flames, sending out a wave of fire in a 30-foot cone. Each creature within the cone must make a {@dc 15} Dexterity saving throw. A creature takes {@damage 4d6} fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.",
+				"The crossbow regains {@dice 1d3} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the magical ember inside the crossbow dies, and the weapon becomes a nonmagical crossbow."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fire-Fire.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fire Wand of the Unbroken Circle",
+			"source": "tgs1",
+			"page": 67,
+			"type": "WD",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 1,
+			"reqAttune": "by a druid",
+			"recharge": "dawn",
+			"charges": 7,
+			"attachedSpells": [
+				"flame blade",
+				"produce flame"
+			],
+			"entries": [
+				"This wooden wand is carved out of ash and is always faintly warm to the touch. Whenever you grip the wand's handle and later look at your palm, it's strangely covered in a fine layer of charcoal. This wand has 7 charges. While holding the wand, you can expend 1 or more of its charges to cast either the {@spell flame blade} spell (2 charges) or {@spell produce flame} cantrip (no charges, or 1 charge to cast at 5th level) from it, using a spell attack bonus of +5. When you cast the {@i flame blade spell} using this wand, the sword's fiery blade appears above the wand's haft instead of in a free hand.",
+				"Whenever you would fail a Constitution saving throw to maintain concentration on a {@i flame blade} spell cast in this way, you can expend 1 charge as a reaction in order to succeed on the saving throw instead. You can only use your reaction in this way if you're holding the wand.",
+				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fire-Wand-of-the-Unbroken-Circle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Firecracker Crystals",
+			"source": "tgs1",
+			"page": 67,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"These multicolored crystals are usually purchased in small bags at festivals and holiday events. As an action, you can throw 1 of these 1-inch crystals against a solid surface within 20 feet of you to crack it apart. When a crystal breaks, it releases the magic inside. The magic ends at the end of your turn and is entirely sensory.",
+				"A bag of the small crystals comes with 10 ({@dice 1d4 + 8}) crystals inside. Roll a number of d8s equal to the number of crystals in the bag and record each number rolled. Use these numbers to determine the kinds of crystals found in the bag using the table below:",
+				{
+					"type": "table",
+					"caption": "Firecracker Crystal Colors",
+					"colLabels": [
+						"d8",
+						"Color",
+						"Result"
+					],
+					"colStyles": [
+						"col-1",
+						"col-4",
+						"col-7"
+					],
+					"rows": [
+						[
+							"1",
+							"Red",
+							"Releases a harmless 5-foot tall flame."
+						],
+						[
+							"2",
+							"Orange",
+							"Releases a small flash of bright light in a 5-foot radius and dim light for another 5 feet, followed by the smell of spices and citrus."
+						],
+						[
+							"3",
+							"Yellow",
+							"Releases small spiraling motes of energy that fizz and fly about in a 5-foot radius."
+						],
+						[
+							"4",
+							"Green",
+							"Releases a cloud of bright, verdant smoke that fills a 5-foot sphere and smells both foul and sickly sweet."
+						],
+						[
+							"5",
+							"Blue",
+							"Releases a series of comically large bubbles that float outward from the point of impact in a 5-foot radius."
+						],
+						[
+							"6",
+							"Purple",
+							"Releases the sound of music. The song is random, and plays only enough to make it recognizable as music."
+						],
+						[
+							"7",
+							"White",
+							"Releases a dazzling display of sparkling glitter in a 5-foot radius from the point of impact."
+						],
+						[
+							"8",
+							"Black",
+							"Releases a mystery effect. Roll on the table again when using this crystal to determine its effect. If you roll an 8, roll the d8 again."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Firecracker-Crystals.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fireweaver Gloves",
+			"source": "tgs1",
+			"page": 67,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"produce flame"
+			],
+			"entries": [
+				"While wearing these fine golden gloves, you can use an action to cast the {@spell produce flame} cantrip (spell attack bonus +5) from it. You can hold this and other small nonmagical flames (such as a torch or candle) as if they were tangible objects, and can sculpt them like clay. Once sculpted, a flame retains its form for 1 minute before returning to normal. A nonmagical flame carried in this way burns for 1 hour before dying. If you drop or throw a nonmagical flame, it immediately burns out.",
+				"When you cast {@i produce flame} using the gloves, the spell's duration is 1 hour, instead of 10 minutes, and it casts bright light in a 20-foot radius and dim light for an additional 20 feet. In addition, you can place the spell's conjured flame on the ground at your feet (no action required). When you do, the flame continues to burn harmlessly for up to 1 minute before going out. While you're within 5 feet of the placed flame, you can use an action to pick it back up.",
+				"In addition, when you take fire damage while wearing these gloves, you can use your reaction to reduce the damage by {@dice 1d8 + 2}, provided that you have a free hand."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fireweaver-Gloves.jpg"
 						}
 					}
 				]
