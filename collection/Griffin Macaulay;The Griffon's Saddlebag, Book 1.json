@@ -46,30 +46,6 @@
 			}
 		},
 		{
-			"name": "Acidlight Arrow",
-			"source": "tgs1",
-			"page": 29,
-			"type": "A",
-			"tier": "minor",
-			"rarity": "rare",
-			"dmgType": "A",
-			"baseItem": "arrow|PHB",
-			"entries": [
-				"This ammunition is covered in an alchemical concoction that ignites upon impact, casting bright light in the space of the target it hits and dim light in a 5-foot radius for 1 minute. A creature struck by the ammunition takes {@damage 1d4} acid damage at the start of each of its turns and has disadvantage on any Dexterity ({@skill Stealth}) checks it makes while the ammunition remains lit. The ammunition remains lodged in a target it hits until a creature uses an action to remove and snuff out the ammunition. If the target is invisible, it's revealed while the ammunition is lodged within it. The ammunition is destroyed by the lit solution, preventing it from being recovered once fired."
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Acidlight-Arrow.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
 			"name": "Aegis of Radiance",
 			"source": "tgs1",
 			"page": 29,
@@ -8770,6 +8746,42 @@
 	],
 	"variant": [
 		{
+			"name": "Acidlight Arrow",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Sling Bullet",
+					"Blowgun Needle"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Acidlight ",
+				"source": "tgs1",
+				"page": 63,
+				"tier": "minor",
+				"rarity": "rare",
+				"entries": [
+					"This ammunition is covered in an alchemical concoction that ignites upon impact, casting bright light in the space of the target it hits and dim light in a 5-foot radius for 1 minute. A creature struck by the ammunition takes {@damage 1d4} acid damage at the start of each of its turns and has disadvantage on any Dexterity ({@skill Stealth}) checks it makes while the ammunition remains lit. The ammunition remains lodged in a target it hits until a creature uses an action to remove and snuff out the ammunition. If the target is invisible, it's revealed while the ammunition is lodged within it. The ammunition is destroyed by the lit solution, preventing it from being recovered once fired."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Acidlight-Arrow.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
 			"name": "Battlement Bow",
 			"type": "GV",
 			"requires": [
@@ -9083,8 +9095,7 @@
 			],
 			"excludes": {
 				"name": [
-					"Sling Bullet",
-					"Sling Bullets (20)"
+					"Sling Bullet"
 				]
 			},
 			"inherits": {
