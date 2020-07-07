@@ -1419,7 +1419,6 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"curse": true,
-			"Remnant of Dendallen": true,
 			"recharge": "dusk",
 			"charges": 4,
 			"attachedSpells": [
@@ -3570,7 +3569,7 @@
 			],
 			"range": "20/60",
 			"dmg1": "1d6",
-			"dmgType": "F",
+			"dmgType": "O",
 			"dmg2": "1d8",
 			"weapon": true,
 			"reqAttune": true,
@@ -3586,6 +3585,181 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ether-Spear.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Everice Box",
+			"source": "tgs1",
+			"page": 62,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This large wooden box weighs 25 pounds and is 3 feet long and both 2 feet deep and tall. It has rugged ropes on its left and right sides as well as on the top of its lid. The left and right sides of the box are covered by enchanted slabs of stone that magically keep the contents on the inside of the box at a consistent 40 degrees Fahrenheit. The box can hold up to 10 gallons of liquid, 24 rations, or a Small or smaller creature. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach from the box on a success.",
+				"While the box's lid is closed and its latch is shut, you can use an action to speak the box's command word to shrink it and its contents down to a more portable size. The weight of the box and its contents is halved while it's reduced in this way and measures a mere 1 foot long by 8 inches deep and tall. You can speak the box's command word again to return it to its normal size. Opening the latch, whether by choice or by force from the inside, immediately returns the box and its contents to its full size and weight. A living creature can't be reduced in size in this way and forces the lid and latch to open if the box becomes too small for it."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Everice-Box.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Everlasting Sugarbomb",
+			"source": "tgs1",
+			"page": 62,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This large sugarbomb is roughly two inches in diameter. Its flavors are a mix of bitter, salty, savory, spicy, sour, and sweet, but also refreshes you as it's slowly eaten. The sugarbomb is solid and slowly dissolves in your mouth, changing in flavor each time you reach a new layer. An everlasting sugarbomb provides enough nourishment to sustain a creature for 1 day after 1 minute of letting it dissolve in your mouth. The sugarbomb fully dissolves after 30 uses. You can bite through to the center of the everlasting sugarbomb following a successful {@dc 25} Strength or Constitution check (your choice). If you succeed, make a {@dc 16} Constitution saving throw. On a failure, you're {@condition poisoned} for 1 minute and suffer from painful nausea."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Everlasting-Sugarbomb.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Eye of Dendallen",
+			"source": "tgs1",
+			"page": 62,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"see invisibility"
+			],
+			"entries": [
+				"While you're attuned to this item, you can cast the {@spell see invisibility} spell at will.",
+				{
+					"name": "Curse",
+					"entries": [
+						"When you attune to the eye of Dendallen, you're suddenly overcome with the urge to see what it sees. Make a {@dc 20} Wisdom saving throw. On a success, you resist the curse and are aware of its effects but are no longer attuned to the item. On a failure, you forcefully tear out one of your own eyes, taking {@damage 4d10} necrotic damage, and allow the eye of Dendallen to crawl into its now vacant socket. If you're already missing an eye, you simply let the eye crawl into the socket without taking the necrotic damage.",
+						"You can see normally through the eye of Dendallen while it's in your socket. In addition, you have {@sense darkvision} out to a range of 60 feet. If you already had darkvision, the eye increases its range by 30 feet. As a bonus action, you can concentrate on looking through the eye to peer through magical darkness in this way for 1 minute. Once this property of the eye has been used, it can't be used again until the following dusk."
+					]
+				},
+				{
+					"name": "Dendallen Familiar",
+					"entries": [
+						"The eye also doubles as a gruesome familiar. As an action, you can command the eye to crawl out of your eye socket and move independently of you. Use the abilities described in the {@spell find familiar} spell when commanding the eye of Dendallen. The eye is undead, has 5 hit points, an AC of 12, a walking and climbing speed of 20 feet, does not require air to breathe, has darkvision out to a range of 60 feet, and has a +6 bonus to Dexterity ({@skill Stealth}) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. The eyeball appears pitch black if it's slain and loses this feature as well as its benefits to your vision until the following dusk.",
+						"Unattuning to the eye or targeting it with the {@spell remove curse} spell causes it to pull itself out of the socket and try to escape. Slaying the eye while it is unattuned to a creature destroys the item."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Eye-of-Dendallen.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Eye of the Bookwurm",
+			"source": "tgs1",
+			"page": 63,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This small, glass sphere is enchanted with weak divination magics to help you find specific words or phrases in writing. It has a stylized iris etched into the glass.",
+				"You can use a bonus action to speak the eye's command word aloud, followed by the word or phrase you're searching for. The word or phrase magically appears and floats within the sphere. By holding the eye in a free hand, your vision becomes magically enhanced to subconsciously highlight the word or phrase you searched for in a green light wherever you see it. Once you've used the eye's ability for the first time, you can change the word or phrase as many times as you like for the next hour, after which the item can't be used again until the following dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Eye-of-the-Bookwurm.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fable's End",
+			"source": "tgs1",
+			"page": 63,
+			"baseItem": "mace|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"reqAttune": true,
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. Whenever you roll a 20 on an attack roll with fable's end against a Large or smaller creature, it must succeed on a {@dc 15} Charisma saving throw or be banished to its native or other plane of existence. At the end of its next turn, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. You banish and score a critical hit against fey creatures on a roll of 19 or 20 with this weapon. Fey creatures have disadvantage on the saving throw. When a creature is banished in this way, the weapon's center emits a brilliant magenta flash of light."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fables-End.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ferryman's Take",
+			"source": "tgs1",
+			"page": 63,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"attachedSpells": [
+				"gentle repose"
+			],
+			"entries": [
+				"These tarnished copper coins are always found in pairs and bear the portrait of a horned man on one side (heads) and a rowboat on the other (tails).",
+				"You can place the coins over the eyes of a dead, {@condition unconscious}, or willing humanoid creature as an action. When you do, the coins create an effect based on which side is facing up. You can remove one or both of them from the creature's eyes as an action to end their effects early. If the coins aren't facing the same direction, they have no effect on the creature they're placed on.",
+				{
+					"name": "Heads",
+					"entries": [
+						"While the coins are heads up over the eyes of an unconscious creature, that creature is stable. If placed over the eyes of a conscious creature, it enters a physical and mental state indistinguishable from death and gains immunity to psychic damage while doing so. The creature remains in that state for 1 hour or until the coins are removed. Once a living creature leaves this state, it can't enter it again in this way for 24 hours."
+					]
+				},
+				{
+					"name": "Tails",
+					"entries": [
+						"While the coins are tails up over the eyes of a dead creature, that creature is under the effects of the {@spell gentle repose} spell. Its body can't be detected through magical means, and the soul of the creature can't be contacted."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ferrymans-Take.jpg"
 						}
 					}
 				]
@@ -8002,6 +8176,42 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Dragonkin-Weapon.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Fanfare Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Sling Bullet",
+					"Sling Bullets (20)"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Fanfare ",
+				"source": "tgs1",
+				"page": 63,
+				"tier": "minor",
+				"rarity": "common",
+				"entries": [
+					"A favorite among tricksters, this ammunition is intended to distract rather than wound. When you make a ranged attack with this ammunition and hit a target, the attack deals no damage, and the ammunition vanishes and is destroyed on impact. In its place, a noise of your choice erupts from the point of impact, such as the sound of books falling, a dropped coin, or the breaking of glass. You decide the noise and its volume when you fire the ammunition. The sound can be as quiet as a whisper or as loud as a scream. A creature can determine that the sound is an illusion with a successful {@dc 10} Intelligence ({@skill Investigation}) check."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Fanfare-Ammunition.jpg"
 							}
 						}
 					]
