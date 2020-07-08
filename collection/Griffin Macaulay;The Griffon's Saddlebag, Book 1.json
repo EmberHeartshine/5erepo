@@ -1604,7 +1604,7 @@
 				"A",
 				"2H"
 			],
-			"range": "50/150",
+			"range": "80/320",
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"weapon": true,
@@ -4763,7 +4763,7 @@
 			"weight": 30,
 			"entries": [
 				"This soft roll of turf is magically fertile. Its soil is 1 inch thick and allows plants of all kinds to grow well within it. Each roll of turf is 5 feet wide and 10 feet long. Its grass and soil are self-containing and will not grow beyond the size of the carpet. The carpet is so fertile that plants growing in its soil require only half the normal amount of sunlight and water they would normally need in order to grow.",
-				"For every 1 inch of the soil’s depth, the carpet provides the same amount of nutrition as normal soil does with 1 foot, allowing plants whose roots are normally 1 foot long to grow with only 1 inch of soil. Folding the carpet over for added depth, or layering multiple carpets on top of one another, increases the soil depth to allow for larger plants to grow on the carpet.",
+				"For every 1 inch of the soil's depth, the carpet provides the same amount of nutrition as normal soil does with 1 foot, allowing plants whose roots are normally 1 foot long to grow with only 1 inch of soil. Folding the carpet over for added depth, or layering multiple carpets on top of one another, increases the soil depth to allow for larger plants to grow on the carpet.",
 				"The carpet weighs 30 pounds and takes 1 minute to roll up or out. While rolled up, it has a 1-foot diameter. The carpet can be cut into smaller plots using a magical blade, with each plot measuring at least 1 foot long and wide."
 			],
 			"fluff": {
@@ -4802,9 +4802,9 @@
 			"recharge": "dawn",
 			"charges": 4,
 			"entries": [
-				"This dagger’s blade is actually a large, enchanted blade of grass. As wind passes over the blade, it creates a soft, sweet note that magically begins to lull creatures to sleep. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
-				"This blade has 4 charges and regains {@dice 1d4} expended charges daily at dawn. When you hit a creature with a melee attack using this dagger, you can choose to expend 1 of its charges and forgo the attack’s damage to attempt to put the creature to sleep. When you do, you swing the blade in a pattern around the creature that creates a magical lullaby. Roll {@dice 10d8}; the total is how many hit points of the creature this can affect. If the total number of hit points you roll is greater than the target’s remaining hit points, that creature falls {@condition unconscious} for 1 minute or until it takes damage or another creature uses an action to shake or slap that creature awake. If the target is not put to sleep, it takes {@damage 3d8} psychic damage instead.",
-				"Undead and creatures immune to being {@condition charmed} can’t be put to sleep by this effect."
+				"This dagger's blade is actually a large, enchanted blade of grass. As wind passes over the blade, it creates a soft, sweet note that magically begins to lull creatures to sleep. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"This blade has 4 charges and regains {@dice 1d4} expended charges daily at dawn. When you hit a creature with a melee attack using this dagger, you can choose to expend 1 of its charges and forgo the attack's damage to attempt to put the creature to sleep. When you do, you swing the blade in a pattern around the creature that creates a magical lullaby. Roll {@dice 10d8}; the total is how many hit points of the creature this can affect. If the total number of hit points you roll is greater than the target's remaining hit points, that creature falls {@condition unconscious} for 1 minute or until it takes damage or another creature uses an action to shake or slap that creature awake. If the target is not put to sleep, it takes {@damage 3d8} psychic damage instead.",
+				"Undead and creatures immune to being {@condition charmed} can't be put to sleep by this effect."
 			],
 			"fluff": {
 				"images": [
@@ -4826,7 +4826,7 @@
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
-				"This glass and silver goblet is enchanted with a harmless, strange magic. A liquid poured in the cup bends gravity in comical ways, often to the surprise and endrenchment of its drinker. When the cup is tilted, as if to drink, the liquid flows in the opposite direction of gravity\u2014sliding up the cup instead of down it. Once the liquid reaches the edge of the cup, it immediately pours down as normal. Swirling the liquid causes it to flow in the opposite direction in which it’s rotated. Any solid object other than ice that floats in the liquid is not affected by the cup’s magic."
+				"This glass and silver goblet is enchanted with a harmless, strange magic. A liquid poured in the cup bends gravity in comical ways, often to the surprise and endrenchment of its drinker. When the cup is tilted, as if to drink, the liquid flows in the opposite direction of gravity\u2014sliding up the cup instead of down it. Once the liquid reaches the edge of the cup, it immediately pours down as normal. Swirling the liquid causes it to flow in the opposite direction in which it's rotated. Any solid object other than ice that floats in the liquid is not affected by the cup's magic."
 			],
 			"fluff": {
 				"images": [
@@ -4850,12 +4850,12 @@
 			"reqAttune": true,
 			"curse": true,
 			"entries": [
-				"While wearing these skeletal greaves, you gain a climbing speed equal to your walking speed and can stand on and move across any liquid surface as if it were solid ground. In addition, you can jump three times the normal distance, though you can’t jump farther than your remaining movement would allow.",
+				"While wearing these skeletal greaves, you gain a climbing speed equal to your walking speed and can stand on and move across any liquid surface as if it were solid ground. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.",
 				{
 					"name": "Curse",
 					"entries": [
-						"When you first wear the greaves of Dendallen, you feel your legs suddenly ache. Make a {@dc 20} Constitution saving throw. On a success, you’re able to safely remove the greaves but are aware of the curse’s effects. On a failure, you take {@damage 6d8} necrotic damage as your legs fracture. This damage ignores resistance and immunity. Your legs stay broken but don’t hinder your movement so long as you continue to wear the greaves.",
-						"You can’t remove the greaves until they’re targeted by the {@spell remove curse} spell. When you remove the greaves, your walking speed becomes 0. For every 24 hours that pass after removing the greaves, your walking speed increases by 5 feet, up to your normal maximum amount."
+						"When you first wear the greaves of Dendallen, you feel your legs suddenly ache. Make a {@dc 20} Constitution saving throw. On a success, you're able to safely remove the greaves but are aware of the curse's effects. On a failure, you take {@damage 6d8} necrotic damage as your legs fracture. This damage ignores resistance and immunity. Your legs stay broken but don't hinder your movement so long as you continue to wear the greaves.",
+						"You can't remove the greaves until they're targeted by the {@spell remove curse} spell. When you remove the greaves, your walking speed becomes 0. For every 24 hours that pass after removing the greaves, your walking speed increases by 5 feet, up to your normal maximum amount."
 					]
 				}
 			],
@@ -4887,11 +4887,11 @@
 			],
 			"entries": [
 				"These black leather and bone chain gloves spread sickness and decay to anything they touch. While wearing the gloves, your unarmed strikes deal necrotic damage, and you can roll a {@dice d6} in place of the normal damage of your unarmed strikes. This damage is maximized if you hit a plant or plant creature with the attack.",
-				"In addition, while wearing the gloves, you can use an action to cast one of the following spells from them (save DC 16, spell attack bonus +8): {@spell blight}, {@spell contagion}, or {@spell vampiric touch}. Casting {@i blight} in this way uses a range of touch, instead of its normal range. Once the gloves have been used to cast a spell, they can’t be used to cast that spell again until the next dusk.",
+				"In addition, while wearing the gloves, you can use an action to cast one of the following spells from them (save DC 16, spell attack bonus +8): {@spell blight}, {@spell contagion}, or {@spell vampiric touch}. Casting {@i blight} in this way uses a range of touch, instead of its normal range. Once the gloves have been used to cast a spell, they can't be used to cast that spell again until the next dusk.",
 				{
 					"name": "Curse",
 					"entries": [
-						"When you pull these gloves over your hands for the first time, make a {@dc 16} Wisdom saving throw. On a success, you are aware of the curse’s effects and can immediately remove the gloves before they extend it to you. On a failure, the gloves’ bone chains pierce your skin and latch onto the bone in your arms. You take {@damage 4d6} piercing damage and can’t remove the gloves unless you’re targeted by the {@spell remove curse} spell or similar magic. While you wear the gloves, the flesh on your hands slowly rots. The stench can’t be contained or masked through magical or nonmagical means. While your hands rot in this way, you make Charisma checks with disadvantage and take {@damage 1d6} necrotic damage whenever you finish a long rest.",
+						"When you pull these gloves over your hands for the first time, make a {@dc 16} Wisdom saving throw. On a success, you are aware of the curse's effects and can immediately remove the gloves before they extend it to you. On a failure, the gloves' bone chains pierce your skin and latch onto the bone in your arms. You take {@damage 4d6} piercing damage and can't remove the gloves unless you're targeted by the {@spell remove curse} spell or similar magic. While you wear the gloves, the flesh on your hands slowly rots. The stench can't be contained or masked through magical or nonmagical means. While your hands rot in this way, you make Charisma checks with disadvantage and take {@damage 1d6} necrotic damage whenever you finish a long rest.",
 						"If you fail the saving throw when first donning the gloves and later remove them, it takes {@dice 1d4} days for the effects of the rotting flesh to fade."
 					]
 				}
@@ -4938,7 +4938,7 @@
 				"shatter"
 			],
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This halberd has been polished to a mirror finish and is adorned with five ornate gemstones dangling beneath its blade that glow with arcane energy. This weapon contains 5 charges, each stored within one of the gems, and regains {@dide 1d4 + 1} expended charges each day at dawn. You can expend 1 charge to cast {@spell disguise self} or 2 charges to cast either {@spell alter self}, {@spell mirror image}, or {@spell shatter} (save DC 15). The hanging gems lose their glow once their charge has been spent in this way.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This halberd has been polished to a mirror finish and is adorned with five ornate gemstones dangling beneath its blade that glow with arcane energy. This weapon contains 5 charges, each stored within one of the gems, and regains {@dice 1d4 + 1} expended charges each day at dawn. You can expend 1 charge to cast {@spell disguise self} or 2 charges to cast either {@spell alter self}, {@spell mirror image}, or {@spell shatter} (save DC 15). The hanging gems lose their glow once their charge has been spent in this way.",
 				{
 					"name": "Curse",
 					"entries": [
@@ -4953,6 +4953,245 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Halberd-of-the-Peacock.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Hand of the Master",
+			"source": "tgs1",
+			"page": 75,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"mage hand"
+			],
+			"entries": [
+				"This satin glove has no visible seams and can be easily flipped inside-out to wear on either a left or right hand. While attuned to the glove, you can fit it over a hand that is either missing fingers or missing entirely and have it function as a normal body part.",
+				"In addition, you can cast the {@spell mage hand} cantrip at will using the glove. When you do, the spectral hand originates within the glove instead of at a point of your choosing. The glove covers the spectral hand as it carries out your commands, leaving your hand or limb uncovered while it does so. Casting {@i mage hand} using the glove doesn't require any verbal components and doubles both the duration and carrying capacity of the hand."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Hand-of-the-Master.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Harp of Valor",
+			"source": "tgs1",
+			"page": 75,
+			"baseItem": "shortbow|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "T",
+			"weapon": true,
+			"reqAttune": "by a bard",
+			"ammoType": "arrow|phb",
+			"bonusWeapon": "+2",
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"thunderwave",
+				"magic missile"
+			],
+			"entries": [
+				"This elegant bow has 10 strings and can also be used as both a harp and spellcasting focus. You are proficient with this harp while attuned to the weapon, and Charisma ({@skill Performance}) checks made using the harp are made with advantage. You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, arrows fired from the bow deal thunder damage instead of piercing.",
+				"The bow has 10 charges and regains {@dice 1d6 + 4} expended charges daily at dawn. While holding the bow, you can expend 1 to 5 of its charges as an action to cast either the thunderwave or magic missile spell from it at a spell level equal to the number of expended charges, using your spellcasting modifier and spell save DC."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Harp-of-Valor.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Hasty Sugarbomb",
+			"source": "tgs1",
+			"page": 75,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This enchanted sweet can be eaten using an action to increase your movement speed by 5 feet for 1 hour.",
+				{
+					"name": "Upset Stomach",
+					"entries": [
+						"You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a {@dc 13} Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become {@condition poisoned} for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Frefils-Tiny-Tasty-Tongue-Twisty-Sugarbombs.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Hat Trick",
+			"source": "tgs1",
+			"page": 76,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"attachedSpells": [
+				"find familiar",
+				"prestidigitation"
+			],
+			"entries": [
+				"This gaudy purple hat allows the wearer to perform some minor magical feats. The hat has 3 charges and regains 1 expended charge daily at dawn. While holding the hat, you can expend 1 of its charges as an action to cast the {@spell find familiar} spell from it, pulling the familiar from the hat. The summoned familiar must take the form of either a rabbit or dove, using the statistics for a {@creature weasel} or {@creature owl}, respectively. The familiar remains for up to 1 minute, instead of its normal duration, and cannot be used to deliver spells.",
+				"In addition, while wearing the hat, you can use an action to cast the {@spell prestidigitation} spell from it. When cast in this way, the spell can only be used to create harmless, illusory effects."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Hat-Trick.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Hcor'uk the Colossal's Portable Handheld Weapon of Walloping",
+			"source": "tgs1",
+			"page": 76,
+			"baseItem": "flail|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"2H",
+				"H",
+				"R"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"weapon": true,
+			"reqAttune": true,
+			"entries": [
+				"This flail has the two-handed, heavy, and reach properties. Attacks made with the flail deal an extra {@damage 1d8} bludgeoning damage, or {@damage 2d8} if the target is a structure. When you roll a 20 on an attack roll made with this magic weapon against a Huge or smaller creature, that creature must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}.",
+				"The rope and boulder that make this weapon are magically attached and can't be separated. The boulder weighs 200 pounds but is effortless for you to lift once you attune to the weapon."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Hcoruk-the-Colossals-Portable-Handheld-Weapon-of-Walloping.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Heart of the Sleeveless",
+			"source": "tgs1",
+			"page": 76,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This vest is made from a luxurious, silky material that seems to always make the wearer appear more fit. The clothing gently hugs the wearer, redistributing weight and muscle to flatter and accentuate their physique. It seems to deflate sadly once taken off.",
+				"While worn, the fabric's color changes with the wearer's mood or flash of emotion. Refer to the table below for the vest's colors when under different emotions. While unworn, the fabric's color becomes a muted blue.",
+				{
+					"type": "table",
+					"caption": "Heart of the Sleeveless Colors",
+					"colLabels": [
+						"Emotion",
+						"Color"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Anger",
+							"Red"
+						],
+						[
+							"Anticipation",
+							"Orange"
+						],
+						[
+							"Joy",
+							"Yellow"
+						],
+						[
+							"Love",
+							"Lime Green"
+						],
+						[
+							"Fear",
+							"Green"
+						],
+						[
+							"Sadness",
+							"Navy Blue"
+						],
+						[
+							"Disappointment",
+							"Indigo"
+						],
+						[
+							"Disgust",
+							"Violet"
+						],
+						[
+							"Jealousy",
+							"Black"
+						],
+						[
+							"Surprise",
+							"White"
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Heart-of-the-Sleeveless.jpg"
 						}
 					}
 				]
@@ -9586,6 +9825,41 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Galepierce-Weapon.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Healing Arrow",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Sling Bullet"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Healing ",
+				"source": "tgs1",
+				"page": 76,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"entries": [
+					"This magic ammunition is made by the elder clerics of nature and hunting deities. An attack made with this ammunition deals no damage to any target hit by it. When you hit a creature other than yourself with this ammunition, that creature regains hit points equal to {@dice 2d4} + your Dexterity and Wisdom modifiers (minimum 1). If the target is a friendly creature, you have advantage on the attack. Once it hits a creature, this ammunition dissolves into pure healing magic before it's destroyed. This ammunition has no effect on undead creatures or constructs."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Healing-Arrow.jpg"
 							}
 						}
 					]
