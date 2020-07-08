@@ -4655,6 +4655,103 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Give and Take",
+			"source": "tgs1",
+			"page": 72,
+			"baseItem": "scimitar|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"recharge": "midday",
+			"charges": 10,
+			"entries": [
+				"This pair of mithral {@i (Give)} and obsidian {@i (Take)} scimitars are connected by a sturdy chain. When you engage in two-weapon fighting using both scimitars, you can add your ability modifier to the damage of the second attack.",
+				"The scimitars have a collective 10 charges and regain {@dice 1d6 + 4} expended charges daily at midday. When you hit a creature with one of these magic weapons, you can expend 1 of their charges to create an effect based on the blade used in the attack:",
+				{
+					"name": "Give",
+					"entries": [
+						"When you hit a creature with {@i Give} and expend 1 charge, you and all other creatures within 5 feet of the target (other than the target) gain {@dice 2d6} temporary hit points that last for 1 minute."
+					]
+				},
+				{
+					"name": "Take",
+					"entries": [
+						"When you hit a creature with {@i Take} and expend 1 charge, that creature takes {@damage 2d6} necrotic damage, and you and all other creatures within 5 feet of the target take half as much necrotic damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Give-and-Take.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Glove of the Aegis",
+			"source": "tgs1",
+			"page": 72,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"This glove holds 5 charges and regains {@dice 1d3 + 2} expended charges each day at dawn. When a target that you can see hits you with an attack, you can use your reaction to expend any number of the glove's charges. You add +2 to your AC for the attack for each charge expended in this way, potentially causing it to miss. You can use this ability after the attack has been made but before any damage has been calculated.",
+				"The glove's power cannot be used if you are already wielding a shield."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Glove-of-the-Aegis.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Glove of the Grim Fandango",
+			"source": "tgs1",
+			"page": 72,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": "by a bard",
+			"entries": [
+				"You are proficient with all musical instruments while you wear this glove on your dominant hand. In addition, spectral musicians appear behind you to accompany your playing when you play an instrument for at least 1 minute. The musicians are obviously illusory and vanish after you stop playing for 1 minute. While accompanied by the spectral musicians, you have advantage on any Charisma ({@skill Performance}) check you make.",
+				"In addition, your spell save DC for enchantment spells you cast while performing with the spectral musicians increases by 2 when the affected creature or creatures are listening to your performance."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Glove-of-the-Grim-Fandango.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
