@@ -4752,6 +4752,211 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Grass Carpet",
+			"source": "tgs1",
+			"page": 73,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"weight": 30,
+			"entries": [
+				"This soft roll of turf is magically fertile. Its soil is 1 inch thick and allows plants of all kinds to grow well within it. Each roll of turf is 5 feet wide and 10 feet long. Its grass and soil are self-containing and will not grow beyond the size of the carpet. The carpet is so fertile that plants growing in its soil require only half the normal amount of sunlight and water they would normally need in order to grow.",
+				"For every 1 inch of the soil’s depth, the carpet provides the same amount of nutrition as normal soil does with 1 foot, allowing plants whose roots are normally 1 foot long to grow with only 1 inch of soil. Folding the carpet over for added depth, or layering multiple carpets on top of one another, increases the soil depth to allow for larger plants to grow on the carpet.",
+				"The carpet weighs 30 pounds and takes 1 minute to roll up or out. While rolled up, it has a 1-foot diameter. The carpet can be cut into smaller plots using a magical blade, with each plot measuring at least 1 foot long and wide."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Grass-Carpet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Grass Whistle Blade",
+			"source": "tgs1",
+			"page": 73,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"reqAttune": true,
+			"weapon": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"This dagger’s blade is actually a large, enchanted blade of grass. As wind passes over the blade, it creates a soft, sweet note that magically begins to lull creatures to sleep. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"This blade has 4 charges and regains {@dice 1d4} expended charges daily at dawn. When you hit a creature with a melee attack using this dagger, you can choose to expend 1 of its charges and forgo the attack’s damage to attempt to put the creature to sleep. When you do, you swing the blade in a pattern around the creature that creates a magical lullaby. Roll {@dice 10d8}; the total is how many hit points of the creature this can affect. If the total number of hit points you roll is greater than the target’s remaining hit points, that creature falls {@condition unconscious} for 1 minute or until it takes damage or another creature uses an action to shake or slap that creature awake. If the target is not put to sleep, it takes {@damage 3d8} psychic damage instead.",
+				"Undead and creatures immune to being {@condition charmed} can’t be put to sleep by this effect."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Grass-Whistle-Blade.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Gravity Goblet",
+			"source": "tgs1",
+			"page": 73,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This glass and silver goblet is enchanted with a harmless, strange magic. A liquid poured in the cup bends gravity in comical ways, often to the surprise and endrenchment of its drinker. When the cup is tilted, as if to drink, the liquid flows in the opposite direction of gravity\u2014sliding up the cup instead of down it. Once the liquid reaches the edge of the cup, it immediately pours down as normal. Swirling the liquid causes it to flow in the opposite direction in which it’s rotated. Any solid object other than ice that floats in the liquid is not affected by the cup’s magic."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Gravity-Goblet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Greaves of Dendallen",
+			"source": "tgs1",
+			"page": 74,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"entries": [
+				"While wearing these skeletal greaves, you gain a climbing speed equal to your walking speed and can stand on and move across any liquid surface as if it were solid ground. In addition, you can jump three times the normal distance, though you can’t jump farther than your remaining movement would allow.",
+				{
+					"name": "Curse",
+					"entries": [
+						"When you first wear the greaves of Dendallen, you feel your legs suddenly ache. Make a {@dc 20} Constitution saving throw. On a success, you’re able to safely remove the greaves but are aware of the curse’s effects. On a failure, you take {@damage 6d8} necrotic damage as your legs fracture. This damage ignores resistance and immunity. Your legs stay broken but don’t hinder your movement so long as you continue to wear the greaves.",
+						"You can’t remove the greaves until they’re targeted by the {@spell remove curse} spell. When you remove the greaves, your walking speed becomes 0. For every 24 hours that pass after removing the greaves, your walking speed increases by 5 feet, up to your normal maximum amount."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Greaves-of-Dendallen.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Grip of Dendallen",
+			"source": "tgs1",
+			"page": 74,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"attachedSpells": [
+				"blight",
+				"contagion",
+				"vampiric touch"
+			],
+			"entries": [
+				"These black leather and bone chain gloves spread sickness and decay to anything they touch. While wearing the gloves, your unarmed strikes deal necrotic damage, and you can roll a {@dice d6} in place of the normal damage of your unarmed strikes. This damage is maximized if you hit a plant or plant creature with the attack.",
+				"In addition, while wearing the gloves, you can use an action to cast one of the following spells from them (save DC 16, spell attack bonus +8): {@spell blight}, {@spell contagion}, or {@spell vampiric touch}. Casting {@i blight} in this way uses a range of touch, instead of its normal range. Once the gloves have been used to cast a spell, they can’t be used to cast that spell again until the next dusk.",
+				{
+					"name": "Curse",
+					"entries": [
+						"When you pull these gloves over your hands for the first time, make a {@dc 16} Wisdom saving throw. On a success, you are aware of the curse’s effects and can immediately remove the gloves before they extend it to you. On a failure, the gloves’ bone chains pierce your skin and latch onto the bone in your arms. You take {@damage 4d6} piercing damage and can’t remove the gloves unless you’re targeted by the {@spell remove curse} spell or similar magic. While you wear the gloves, the flesh on your hands slowly rots. The stench can’t be contained or masked through magical or nonmagical means. While your hands rot in this way, you make Charisma checks with disadvantage and take {@damage 1d6} necrotic damage whenever you finish a long rest.",
+						"If you fail the saving throw when first donning the gloves and later remove them, it takes {@dice 1d4} days for the effects of the rotting flesh to fade."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Grip-of-Dendallen.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Halberd of the Peacock",
+			"source": "tgs1",
+			"page": 74,
+			"baseItem": "halberd|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true,
+			"bonusWeapon": "+1",
+			"reqAttune": true,
+			"curse": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"attachedSpells": [
+				"disguise self",
+				"alter self",
+				"mirror image",
+				"shatter"
+			],
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This halberd has been polished to a mirror finish and is adorned with five ornate gemstones dangling beneath its blade that glow with arcane energy. This weapon contains 5 charges, each stored within one of the gems, and regains {@dide 1d4 + 1} expended charges each day at dawn. You can expend 1 charge to cast {@spell disguise self} or 2 charges to cast either {@spell alter self}, {@spell mirror image}, or {@spell shatter} (save DC 15). The hanging gems lose their glow once their charge has been spent in this way.",
+				{
+					"name": "Curse",
+					"entries": [
+						"This halberd is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the halberd, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear. Whenever you reduce a creature to 0 hit points using this weapon, you must succeed on a {@dc 12} Wisdom saving throw or be compelled to admire yourself in the mirror until the start of your next turn: sacrificing any remaining movement, action, bonus action, or reactions you may have had. In addition, you automatically fail any Dexterity saving throw you make while admiring yourself in the mirror in this way."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Halberd-of-the-Peacock.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
