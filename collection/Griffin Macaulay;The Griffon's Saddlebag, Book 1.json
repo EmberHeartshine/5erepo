@@ -2779,12 +2779,12 @@
 				"This blade's hilt is hollow and can hold up to 3 cantrip spell scrolls. Cantrip scrolls left within the compartment for 1 minute activate one of the three clear gems adorning its grip. Once activated, you can cast these cantrips at will using your spellcasting modifier. If you don't have a spellcasting modifier, use your Intelligence modifier instead. You have proficiency with these cantrips. Cantrips cast from the blade use the weapon as an arcane focus and allow you to perform any somatic components with the weapon instead of requiring a free hand. Scrolls contained within the sword are not destroyed after using them in this way.",
 				"When you cast a cantrip using the sword that deals damage, the sword's damage type changes to match the cantrip's for 1 minute or until you end it early (no action required).",
 				{
-						"type": "inset",
-						"name": "Cantrips from Magic Items",
-						"entries": [
-							"Remember, spells cast from magic items are always cast at their lowest possible level unless otherwise specified. That includes cantrips! Regardless of your character level, cantrips cast from magic items are always cast as if you're 1st level."
-						]
-					}
+					"type": "inset",
+					"name": "Cantrips from Magic Items",
+					"entries": [
+						"Remember, spells cast from magic items are always cast at their lowest possible level unless otherwise specified. That includes cantrips! Regardless of your character level, cantrips cast from magic items are always cast as if you're 1st level."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2869,7 +2869,7 @@
 			"dmg1": "1d10",
 			"dmgType": "S",
 			"weapon": true,
-			"bonusWeapon": "+1",
+			"bonusWeapon": "+2",
 			"entries": [
 				"This dark metal weapon is grimly ornate. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Once per turn when you reduce a Small or larger creature to 0 hit points with this weapon, a foreboding, gong-like sound emanates from the blade. When this happens, any hostile creature within 15 feet of the target that's missing any of its hit points must make a {@dc 15} Wisdom saving throw. On a failed save, a creature takes {@damage 1d8} psychic damage, or half as much damage on a successful one."
 			],
@@ -5324,6 +5324,495 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Hexaxe.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Hurricane Lance",
+			"source": "tgs1",
+			"page": 78,
+			"baseItem": "lance|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"weapon": true,
+			"bonusWeapon": "+2",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"attachedSpells": [
+				"thunderwave"
+			],
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"The lance has 4 charges and regains {@dice 1d4} expended charges each day at dawn. You can expend 1 charge as an action to surround yourself with a flurry of wind that lasts for 1 minute. While surrounded by this wind, you can take the {@action disengage} action using a bonus action. You can expend a second charge of the weapon (no action required) while surrounded by the wind to extend the effect to any mount you're currently riding. If you dismount or are forced off your mount, the effect fades from it. The effect ends early if you fall unconscious or are no longer wielding the lance.",
+				"In addition, you can use the lance to cast the {@spell thunderwave} spell at 3rd level (save {@dc 16}). Once this property of the lance has been used, it can't be used again until the following dawn.",
+				{
+					"name": "Special",
+					"entries": [
+						"You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Hurricane-Lance.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ice Sickle",
+			"source": "tgs1",
+			"page": 78,
+			"baseItem": "sickle|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"This magic sickle from the Everglacier is perpetually covered in tiny, needle-like icicles along its edge that reform almost as soon as they're gone. The first target hit by this weapon on each of your turns takes an extra {@damage 1d6} cold damage from the attack.",
+				{
+					"type": "quote",
+					"entries": [
+						"Really? You're going to name it that?"
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ice-Sickle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Immovable Button",
+			"source": "tgs1",
+			"page": 78,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"As a bonus action, you can press this iron shirt button against a piece of fabric and speak its command word, \"hold\". When you do, the button magically attaches to the cloth, fixing itself in place even if it is defying gravity. The button must be attached to a piece of fabric that is either unworn or worn by a willing creature. It can hold up to 500 pounds of weight and magically prevents the cloth from tearing due to tension. More weight causes the button to deactivate and fall.",
+				"A creature can use an action to make a {@dc 20} Strength check, moving the fixed button up to 10 feet on a success. A creature can make a {@dc 10} Intelligence ({@skill Investigation}) check to determine that this button is magical, and if already activated, knows that the fabric around the button can be cut away. The button remains fixed in place for 1 minute before falling. The button's magic is lost once it's been used in this way."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Immovable-Button.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Infernal Aegis",
+			"source": "tgs1",
+			"page": 78,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"attachedSpells": [
+				"fire shield",
+				"hellish rebuke"
+			],
+			"entries": [
+				"While holding this shield, you can speak its command word as a bonus action to cause it to become wreathed in harmless, magical flames. The flames cast bright light in a 20-foot radius and dim light for another 20 feet. The flames last until you speak its command word again as a bonus action or until you drop or doff the shield.",
+				"While holding the shield, you have a +1 bonus to AC as well as resistance to fire damage. This bonus is in addition to the shield's normal bonus to AC. In addition, the shield has 4 charges and regains {@dice 1d4} expended charges daily at dawn. While the shield is ablaze, you can expend 1 or more of its charges to cast the {@spell fire shield} (2 charges, warm shield only) or {@spell hellish rebuke} (1 charge, save {@dc 16}) spell from it."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Infernal-Aegis.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Inferno Rope",
+			"source": "tgs1",
+			"page": 80,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This 10-foot long rope smells of sulfur and crackles with embers when moved. As an action, you can lay the rope down in a line next to you on solid ground and speak its command word to magically set it ablaze. When you do, the rope becomes a 15-foot tall wall of fire along its length. The flames are visible, but not opaque, and are 1 inch thick. Creatures within 5 feet of the flames when it's ignited must succeed on a {@dc 13} Dexterity saving throw or take {@damage 2d4} fire damage. A creature setting the rope ablaze automatically succeeds on this saving throw. The flames burn for 1 minute and cast bright light in a 15-foot radius and dim light for another 15 feet. A creature must make a {@dc 13} Dexterity saving throw when it crosses the line of fire for the first time on its turn or ends its turn there. On a failure, the creature takes {@damage 2d4} fire damage.",
+				"The rope rematerializes at the base of the flames after 1 minute. Once the rope has been lit, it can't be used again in this way until the next dawn. The rope can only be cut by magical means and becomes a nonmagical length of rope once cut."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Inferno-Rope.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ironleaf Maul of Entanglement",
+			"source": "tgs1",
+			"page": 80,
+			"baseItem": "maul|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 10,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"Despite the head of this maul being made from vines, it seems impossibly solid and carries with it a formidable heft. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The maul has 3 charges and regains {@dice 1d3} expended charges each day at dawn. When you hit a Medium or smaller target with the maul, you can expend a charge to force it to make a Strength saving throw. On a failure, it takes {@damage 1d6} piercing damage and is restrained by thorny vines until the end of its next turn. The DC for this property is equal to 8 + your proficiency bonus + your Strength modifier."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ironleaf-Maul-of-Entanglement.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ironleaf Oaken Shield",
+			"source": "tgs1",
+			"page": 80,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"reqAttune": "by a druid",
+			"entries": [
+				"This reinforced wooden shield is covered with ironleaf vines that grant you extra protection. You gain a +1 bonus to your AC while wielding this shield in addition to the shield's normal bonus to AC. In addition, the wooden shield reforms itself to fit you whenever you transform into a beast while holding it. When you do, the ironleaf vines and wooden shield latch onto your bestial form, granting you a +1 bonus to your AC while transformed in this way."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ironleaf-Oaken-Shield.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ironleaf Plate",
+			"source": "tgs1",
+			"page": 81,
+			"baseItem": "plate armor|phb",
+			"type": "HA",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 65,
+			"ac": 18,
+			"strength": "15",
+			"bonusAc": "+1",
+			"attachedSpells": [
+				"pass without trace"
+			],
+			"entries": [
+				"This set of armor gives you a +1 bonus to your AC and is lined with ironleaf vines. While wearing this armor, the vines seem to support and quiet its normally loud movements, allowing you to make Dexterity ({@skill Stealth}) checks without disadvantage. In addition, the vines dampen the impact you receive from blunt force, granting you resistance to bludgeoning damage.",
+				"If you take fire damage, the leaves wither for 1 minute. While the leaves are withered, you gain none of their benefits.",
+				{
+					"type": "entries",
+					"name": "Mantle of the Wild",
+					"entries": [
+						"While wearing this armor, you can use an action to cast the {@spell pass without trace} spell from it. Once used, this property can't be used again until the following dawn."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ironleaf-Plate.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ironshod Trotters",
+			"source": "tgs1",
+			"page": 81,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"polymorph"
+			],
+			"entries": [
+				"These boots have iron horseshoes embedded in their soles. When you take the {@action Dash} action to run while wearing the boots, you can move an extra 10 feet.",
+				"As an action, you can click the boots together to cast the {@spell polymorph} spell on yourself to transform into a {@creature riding horse}. The horse has a carrying capacity of 480 pounds and a walking speed of 60 feet. Your game statistics are replaced by the riding horse's statistics, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. Your gear melds into the new form. You can't activate, use, wield, or otherwise benefit from any of your equipment while transformed. Any bags you were carrying do not meld into your new form, and are magically draped over your torso as saddlebags.",
+				"You remain in this form for up to 8 hours or until you end it as an action. Taking any damage while transformed causes you to revert to your normal form early and take the damage as normal. Once this property of the boots has been used, it can't be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ironshod-Trotters.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Jotun's Jodhpurs",
+			"source": "tgs1",
+			"page": 81,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While wearing these pants, you count as one size smaller when riding a nonhumanoid creature as a mount if you aren't wearing heavy armor."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Jotuns-Jodhpurs.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Killskull Longbow of Dread",
+			"source": "tgs1",
+			"page": 81,
+			"baseItem": "longbow|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"ammoType": "arrow|phb",
+			"charges": 4,
+			"entries": [
+				"This magic longbow is adorned with a bear skull and claws. The bow holds up to 4 charges and gains 1 charge whenever you reduce a Small or larger creature to 0 hit points with it. For each charge the bow has, a small, etched line appears on the bear skull adorning the weapon. An etched line vanishes from the skull when its charge is expended.",
+				"When you hit a creature with a ranged attack using this weapon, you can expend 1 of its charges to cause that creature to take an extra {@damage 1d8} psychic damage and make a {@dc 15} Wisdom saving throw. On a failure, the creature is {@condition frightened} of you for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Killskull-Longbow-of-Dread.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Kindle Egg Sugarbomb",
+			"source": "tgs1",
+			"page": 82,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"When you eat this spicy chocolate sweet as an action, you gain resistance to fire damage and can tolerate cold temperatures as low as 0 degrees Fahrenheit without any additional protection for 1 hour.",
+				{
+					"name": "Upset Stomach",
+					"entries": [
+						"You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a {@dc 13} Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become {@condition poisoned} for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Kindle-Egg-Sugarbomb.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Knight's Standard of Valor",
+			"source": "tgs1",
+			"page": 82,
+			"baseItem": "halberd|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this halberd, you radiate fervor and valor. You and other friendly creatures within 10 feet of you are considered proficient in saving throws made to resist becoming {@condition frightened}. In addition, when an allied creature other than you starts its turn within 10 feet of you, that creatures gains a 5-foot bonus to their movement speed until the end of their turn.",
+				"You can concentrate on the weapon's flag over the course of 1 hour to change its design and color."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Knights-Standard-of-Valor.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Knight's Standard of Vigor",
+			"source": "tgs1",
+			"page": 82,
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 18,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"reqAttune": true,
+			"baseItem": "pike|phb",
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this brass pike, you radiate health and vitality. You and other friendly creatures within 10 feet of you are considered proficient in saving throws made to resist becoming {@condition poisoned}. In addition, when an affected creature other than you regains hit points while in combat from a spell or potion, you can use your reaction to cause that ally to regain an extra {@dice 1d6 + 2} hit points.",
+				"You can concentrate on the weapon's flag over the course of a short rest to change its design and color."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Knights-Standard-of-Vigor.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Knight's Standard of Virtue",
+			"source": "tgs1",
+			"page": 82,
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+1",
+			"baseItem": "glaive|phb",
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this decorated glaive, you radiate righteousness. You and other friendly creatures within 10 feet of you are considered proficient in saving throws made to resist becoming {@condition charmed}. In addition, when a friendly creature you can see within 10 feet of you takes damage, you can use your reaction to magically reduce the damage they take by up to 5. When you do, you take force damage equal to the amount of damage you reduced in this way.",
+				"You can concentrate on the weapon's flag over the course of a short rest to change its design and color."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Knights-Standard-of-Virtue.jpg"
 						}
 					}
 				]
