@@ -850,6 +850,7 @@
 			"page": 31,
 			"tier": "minor",
 			"rarity": "common",
+			"wondrous": true,
 			"entries": [
 				"The compass-like mechanisms on top of these matching leather bracelets remain motionless until each bracelet is worn by a different creature. While they're worn, each compass points in the direction of the other matching band. It doesn't indicate height or depth. The compasses spin wildly if the two bands are worn on different planes of existence."
 			],
@@ -871,6 +872,7 @@
 			"page": 31,
 			"tier": "minor",
 			"rarity": "common",
+			"wondrous": true,
 			"entries": [
 				"This small music box can play songs at the request of the holder. As a bonus action, you can command the box to play a song for which it has music, causing the contraption to emit a slightly tinny rendition of the musical number. The box can know up to 5 songs at a time but can't recreate lyrics or other creature sounds. The box has a knob on its side to adjust its volume: able to be as quiet as a whisper or as loud as a scream.",
 				"Sheet music can be fed into the box through a narrow slot along the bottom of the device. Sheet music must be labeled with a song title, page number, and instrument in order to be replayed. Pages failing to meet the requirements cause the box to make a sad, discordant noise before being spat back out. Once a sheet is successfully fed into the box, it is consumed and can't be retrieved.",
@@ -944,6 +946,7 @@
 			"page": 32,
 			"tier": "major",
 			"rarity": "rare",
+			"wondrous": true,
 			"entries": [
 				"This shiny platinum bangle is inlaid with arcane runes that seem to be written by different hands. Labels can be read behind each of the adorning runes on the inside of the bangle. As an action, you can touch one of the runes and say the command phrase, \"I can do this,\" to gain proficiency in the rune's associated tool for the next 24 hours. The rune glows with arcane energy while in effect. Once a rune is activated in this way, it can't be activated again until {@dice 1d4} days have passed.",
 				"There are 10 runes on the bangle that can be activated in this way: {@item alchemist's supplies|phb}, {@item carpenter's tools|phb}, {@item cook's utensils|phb}, {@item leatherworker's tools|phb}, {@item smith's tools|phb}, {@item tinker's tools|phb}, {@item musical instrument|phb|instruments} ({@item drum|phb}, {@item flute|phb}, {@item lute|phb}, {@item lyre|phb}), {@item navigator's tools|phb}, {@item thieves' tools|phb}, and {@table Mounts and Vehicles; Waterborne Vehicles|phb|vehicles (water)}. If you're already proficient with any of these tools, your proficiency bonus is doubled for any ability check you make that uses the tool while the rune is active."
@@ -5962,7 +5965,6 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"weight": 2,
-			"wondrous": true,
 			"focus": true,
 			"reqAttune": "by a bard",
 			"entries": [
@@ -6248,7 +6250,7 @@
 						"Change to your voice"
 					],
 					"colStyles": [
-						"col-1",
+						"col-1 text-center",
 						"col-11"
 					],
 					"rows": [
@@ -10875,7 +10877,7 @@
 				"tier": "major",
 				"rarity": "legendary",
 				"bonusWeapon": "+2",
-				"reqAttune": "by a creature with a Strength score of 1 or higher",
+				"reqAttune": "by a creature with a Strength score of 17 or higher",
 				"attachedSpells": [
 					"creation",
 					"fabricate",
