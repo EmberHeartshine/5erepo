@@ -581,7 +581,6 @@
 			}
 		},
 		{
-		
 			"name": "Astral Bracelet of Omniscience",
 			"source": "tgs1",
 			"page": 28,
@@ -5832,7 +5831,7 @@
 				"knock"
 			],
 			"entries": [
-				"These steel-toed boots of dwarven make are adorned with an embossed key on the toe. As an action, you can kick an object that contains a mundane or magical means of preventing access to cast the {@spell knock} spell on it using the boots. Once this property of the boots has been used, they can’t be used again in this way until the following dawn."
+				"These steel-toed boots of dwarven make are adorned with an embossed key on the toe. As an action, you can kick an object that contains a mundane or magical means of preventing access to cast the {@spell knock} spell on it using the boots. Once this property of the boots has been used, they can't be used again in this way until the following dawn."
 			],
 			"fluff": {
 				"images": [
@@ -5865,8 +5864,8 @@
 			"weapon": true,
 			"entries": [
 				"This whip is made using the shrunken tentacle of a great sea creature. It still writhes slightly on its own.",
-				"As an action, you can force a creature you can see within 10 feet of you to make a {@dc 13} Strength or Dexterity saving throw (their choice). On a failure, the creature is grappled by the whip’s tentacle and takes {@damage 1d4 + 2} bludgeoning damage. The affected target or another creature can use an action to reattempt the saving throw, escaping the grapple upon a success. While grappled, the creature takes {@damage 1d4 + 2} bludgeoning damage at the end of each of its subsequent turns.",
-				"You can’t use the whip to attack while grappling a creature with it in this way. While holding the whip, you can end the grapple at any time (no action required), and your movement speed is halved when you move more than 10 feet away from the grappled creature as you drag it along behind you."
+				"As an action, you can force a creature you can see within 10 feet of you to make a {@dc 13} Strength or Dexterity saving throw (their choice). On a failure, the creature is grappled by the whip's tentacle and takes {@damage 1d4 + 2} bludgeoning damage. The affected target or another creature can use an action to reattempt the saving throw, escaping the grapple upon a success. While grappled, the creature takes {@damage 1d4 + 2} bludgeoning damage at the end of each of its subsequent turns.",
+				"You can't use the whip to attack while grappling a creature with it in this way. While holding the whip, you can end the grapple at any time (no action required), and your movement speed is halved when you move more than 10 feet away from the grappled creature as you drag it along behind you."
 			],
 			"fluff": {
 				"images": [
@@ -5943,7 +5942,7 @@
 			"charges": 6,
 			"bonusWeapon": "+1",
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This quarterstaff has 6 charges and regains {@dice 1d6} expended charges daily at dawn. When you hit a target with this weapon, you can expend 1 of its charges to siphon away some of the target’s life force to deal an extra {@damage 1d6} necrotic damage with the attack. You regain health equal the amount of necrotic damage dealt in this way. This property has no effect on undead creatures or constructs."
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This quarterstaff has 6 charges and regains {@dice 1d6} expended charges daily at dawn. When you hit a target with this weapon, you can expend 1 of its charges to siphon away some of the target's life force to deal an extra {@damage 1d6} necrotic damage with the attack. You regain health equal the amount of necrotic damage dealt in this way. This property has no effect on undead creatures or constructs."
 			],
 			"fluff": {
 				"images": [
@@ -5968,7 +5967,7 @@
 			"focus": true,
 			"reqAttune": "by a bard",
 			"entries": [
-				"This magical lyre’s strings reverberate with enchantment magic when you tell lies, allowing you to deceive other creatures more easily. You have advantage on Charisma ({@skill Deception}) checks you make when you spend at least 1 minute attempting to convince a creature of a lie. In addition, if you cast the {@spell vicious mockery} cantrip while holding the lyre, the spell save DC is increased by 1. You are proficient with this lyre while you’re attuned to it."
+				"This magical lyre's strings reverberate with enchantment magic when you tell lies, allowing you to deceive other creatures more easily. You have advantage on Charisma ({@skill Deception}) checks you make when you spend at least 1 minute attempting to convince a creature of a lie. In addition, if you cast the {@spell vicious mockery} cantrip while holding the lyre, the spell save DC is increased by 1. You are proficient with this lyre while you're attuned to it."
 			],
 			"fluff": {
 				"images": [
@@ -5991,10 +5990,10 @@
 			"rarity": "rare",
 			"weight": 2,
 			"entries": [
-				"These 3-foot-long rods are made using a blend of magic and science and normally come in sets of three. The pylons are tipped with a fragment of a blue dragon’s horn. A lightning pylon can extend electricity to any neighboring pylons to create an electrical barrier between them. Each pylon has an electrical charge. Once a charge has been lost, it takes 12 hours to recharge.",
-				"You can place a pylon upright in an unoccupied space within 5 feet of you using an action. If a pylon has an electrical charge, you can speak its command word as a bonus action if you’re within 5 feet of it. When you do, that pylon is electrified for 1 minute and loses its electrical charge at the end of that minute. Any other pylon with an electrical charge placed within 20 feet of an electrified pylon also becomes electrified, creating a wall of lightning between them that is 10 feet tall and 1 foot thick. The wall is opaque and casts bright light out to 10 feet and dim light for an additional 10 feet. You can have up to 6 pylons connected in this way at one time. Electrified pylons are magically bound to the ground until they lose their charge.",
+				"These 3-foot-long rods are made using a blend of magic and science and normally come in sets of three. The pylons are tipped with a fragment of a blue dragon's horn. A lightning pylon can extend electricity to any neighboring pylons to create an electrical barrier between them. Each pylon has an electrical charge. Once a charge has been lost, it takes 12 hours to recharge.",
+				"You can place a pylon upright in an unoccupied space within 5 feet of you using an action. If a pylon has an electrical charge, you can speak its command word as a bonus action if you're within 5 feet of it. When you do, that pylon is electrified for 1 minute and loses its electrical charge at the end of that minute. Any other pylon with an electrical charge placed within 20 feet of an electrified pylon also becomes electrified, creating a wall of lightning between them that is 10 feet tall and 1 foot thick. The wall is opaque and casts bright light out to 10 feet and dim light for an additional 10 feet. You can have up to 6 pylons connected in this way at one time. Electrified pylons are magically bound to the ground until they lose their charge.",
 				"When the wall appears, each creature within its area must make a {@dc 15} Dexterity saving throw. On a failure, a creature takes {@damage 5d8} lightning damage and its speed is reduced to 0 until the start of its next turn. On a success, a creature takes half as much lightning damage and its speed is halved instead. Creatures made of metal or wearing metal armor have disadvantage on this saving throw. A creature that enters the wall for the first time on its turn or ends its turn within 5 feet of it must also make the saving throw.",
-				"Each magic pylon has AC 15 and 20 hit points. A creature that touches an electrified pylon or hits it with a metal melee weapon takes {@damage 1d8} lightning damage for each pylon connected to it, including itself. When a pylon is reduced to 0 hit points, it falls over and loses its electrical charge, ending any connection it has to other pylons. A pylon reduced to 0 hit points can’t be used again until 2 days have passed, at which point it regains all its hit points."
+				"Each magic pylon has AC 15 and 20 hit points. A creature that touches an electrified pylon or hits it with a metal melee weapon takes {@damage 1d8} lightning damage for each pylon connected to it, including itself. When a pylon is reduced to 0 hit points, it falls over and loses its electrical charge, ending any connection it has to other pylons. A pylon reduced to 0 hit points can't be used again until 2 days have passed, at which point it regains all its hit points."
 			],
 			"fluff": {
 				"images": [
@@ -6056,8 +6055,8 @@
 				"fire shield"
 			],
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon can be attuned to by two friendly creatures together over the course of a long rest. If the weapon is attuned to by two creatures in this way, the weapon’s attack and damage bonus becomes +2 instead.",
-				"This greatsword is made of two long scimitars that are held together by a powerful, unidentifiable magic. You can speak the weapon’s command word using a bonus action to separate it into a pair of scimitars or recombine them into the greatsword. If you are not already holding it when you speak the weapon’s command word and are on the same plane of existence as it, you can choose to summon either one or both scimitars to your hand as individual blades or as the combined greatsword.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon can be attuned to by two friendly creatures together over the course of a long rest. If the weapon is attuned to by two creatures in this way, the weapon's attack and damage bonus becomes +2 instead.",
+				"This greatsword is made of two long scimitars that are held together by a powerful, unidentifiable magic. You can speak the weapon's command word using a bonus action to separate it into a pair of scimitars or recombine them into the greatsword. If you are not already holding it when you speak the weapon's command word and are on the same plane of existence as it, you can choose to summon either one or both scimitars to your hand as individual blades or as the combined greatsword.",
 				"When you hit with an attack using the greatsword, the target takes both {@damage 1d6} fire and {@damage 1d6} cold bonus damage from the attack.",
 				"Each attuned creature can cast the {@spell fire shield} spell once at 4th level without expending a spell slot. You do not need material or somatic components when casting it in this way. Once you cast this spell, you cannot cast it again until the following dawn."
 			],
@@ -6096,8 +6095,8 @@
 				"fire shield"
 			],
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with these magic weapons. These weapons can be attuned to by two friendly creatures together over the course of a long rest. If the weapons are attuned to by two creatures in this way, the weapons’ attack and damage bonuses become +2 instead.",
-				"These scimitars can form a greatsword held together by a powerful, unidentifiable magic. You can speak the weapon’s command word using a bonus action to separate it into a pair of scimitars or recombine them into the greatsword. If you are not already holding it when you speak the weapon’s command word and are on the same plane of existence as it, you can choose to summon either one or both scimitars to your hand as individual blades or as the combined greatsword.",
+				"You gain a +1 bonus to attack and damage rolls made with these magic weapons. These weapons can be attuned to by two friendly creatures together over the course of a long rest. If the weapons are attuned to by two creatures in this way, the weapons' attack and damage bonuses become +2 instead.",
+				"These scimitars can form a greatsword held together by a powerful, unidentifiable magic. You can speak the weapon's command word using a bonus action to separate it into a pair of scimitars or recombine them into the greatsword. If you are not already holding it when you speak the weapon's command word and are on the same plane of existence as it, you can choose to summon either one or both scimitars to your hand as individual blades or as the combined greatsword.",
 				"The scimitars have the thrown property with a normal range of 20 feet and a long range of 60 feet when separated. The scimitars deal piercing damage when thrown.",
 				"Each scimitar also has its own elemental effect\u2014either fire or cold\u2014that inflicts an extra {@damage 1d6} fire or {@damage 1d6} cold damage with each strike, depending on which sword you hit with.",
 				"Each attuned creature can cast the {@spell fire shield} spell once at 4th level without expending a spell slot. You do not need material or somatic components when casting it in this way. Once you cast this spell, you cannot cast it again until the following dawn."
@@ -6128,7 +6127,7 @@
 				"mage armor"
 			],
 			"entries": [
-				"This pointed hat is fitted with chain and metal that have been enchanted with abjuration magic. The cap has 2 charges and regains 1 expended charge daily at dawn. While wearing the cap, you can use an action to expend 1 of its charges to cast the {@spell mage armor} spell from it, targeting only yourself. When the spell is cast in this way, the arcane armor appears platelike and changes your base AC to 15 + your Dexterity modifier instead of the spell’s normal change to your AC."
+				"This pointed hat is fitted with chain and metal that have been enchanted with abjuration magic. The cap has 2 charges and regains 1 expended charge daily at dawn. While wearing the cap, you can use an action to expend 1 of its charges to cast the {@spell mage armor} spell from it, targeting only yourself. When the spell is cast in this way, the arcane armor appears platelike and changes your base AC to 15 + your Dexterity modifier instead of the spell's normal change to your AC."
 			],
 			"fluff": {
 				"images": [
@@ -6183,7 +6182,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"These magical boots are as sturdy as the feet of a mammoth. Your weight increases by 50 pounds while wearing these boots, although you don’t feel any different, and you ignore difficult terrain caused by snow or ice. In addition, whenever you’re pushed against your will, the distance you would be moved is reduced by 5 feet."
+				"These magical boots are as sturdy as the feet of a mammoth. Your weight increases by 50 pounds while wearing these boots, although you don't feel any different, and you ignore difficult terrain caused by snow or ice. In addition, whenever you're pushed against your will, the distance you would be moved is reduced by 5 feet."
 			],
 			"fluff": {
 				"images": [
@@ -6239,7 +6238,7 @@
 				{
 					"name": "Curse",
 					"entries": [
-						"When you place this mask over your face for the first time, make a {@dc 16} Intelligence saving throw. On a success, you are aware of the curse’s effects and can immediately remove the mask before it extends the curse to you. On a failure, you take {@damage 5d10} psychic damage as the curse extends to you and magically latches onto your face. As long as you remain cursed, the mask can’t be removed unless targeted by the {@spell remove curse} spell, and the skin surrounding the mask is riddled with blackened veins and sickly gray skin. While wearing this mask, you can’t smell or taste anything and automatically fail any check relying on smell or taste. Your voice also changes. Use the table below to determine the new voice. In addition, whenever you roll a 1 on an ability check, saving throw, or attack roll, you take {@damage 1d10} psychic damage."
+						"When you place this mask over your face for the first time, make a {@dc 16} Intelligence saving throw. On a success, you are aware of the curse's effects and can immediately remove the mask before it extends the curse to you. On a failure, you take {@damage 5d10} psychic damage as the curse extends to you and magically latches onto your face. As long as you remain cursed, the mask can't be removed unless targeted by the {@spell remove curse} spell, and the skin surrounding the mask is riddled with blackened veins and sickly gray skin. While wearing this mask, you can't smell or taste anything and automatically fail any check relying on smell or taste. Your voice also changes. Use the table below to determine the new voice. In addition, whenever you roll a 1 on an ability check, saving throw, or attack roll, you take {@damage 1d10} psychic damage."
 					]
 				},
 				{
@@ -6302,7 +6301,7 @@
 			"wondrous": true,
 			"reqAttune": "by a warlock",
 			"entries": [
-				"This mask looks like a normal wooden mask before it’s attuned to. When you attune to this mask, your otherworldly patron’s lingering presence over you magically reshapes it to represent the visage of your patron. While you wear this mask, you can cast one spell from your patron’s expanded spell list without expending a spell slot. The spell must be of a level equal to or less than your warlock spell slot level. A spell cast in this way is always cast at its lowest level, regardless of your normal warlock spell slot level. Once the mask has been used in this way, it can’t be used again until the next dawn."
+				"This mask looks like a normal wooden mask before it's attuned to. When you attune to this mask, your otherworldly patron's lingering presence over you magically reshapes it to represent the visage of your patron. While you wear this mask, you can cast one spell from your patron's expanded spell list without expending a spell slot. The spell must be of a level equal to or less than your warlock spell slot level. A spell cast in this way is always cast at its lowest level, regardless of your normal warlock spell slot level. Once the mask has been used in this way, it can't be used again until the next dawn."
 			],
 			"fluff": {
 				"images": [
@@ -6311,6 +6310,166 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Mask-of-the-Pact-Bearer.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Master Machinist's Marvelous Mallet",
+			"source": "tgs1",
+			"page": 87,
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 2,
+			"baseItem": "light hammer|phb",
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+1",
+			"recharge": "dawn",
+			"charges": 7,
+			"attachedSpells": [
+				"mending"
+			],
+			"entries": [
+				"This immaculate silver hammer is polished to a mirror finish. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The weapon has 7 charges and regains {@dice 1d6 + 1} expended charges daily at dawn. As an action, you can touch an object with the hammer and expend 1 of its charges to cast the {@spell mending} cantrip from the hammer on the object. Casting {@i mending} in this way affects an area up to 5 feet on a side, instead of 1 foot. Alternatively, you can expend 3 of its charges as a bonus action while touching a creature's armor with the hammer to temporarily enchant it. The enchantment lasts for 1 minute and grants the armor's wearer a +1 bonus to its AC in addition to the armor's normal bonus to AC, if any. A creature can only be affected by one of these enchantments at any time."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Master-Machinists-Marvelous-Mallet.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mastery Gem",
+			"source": "tgs1",
+			"page": 87,
+			"tier": "major",
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"This red gemstone seems to glint with some sort of liquid inside. The gem is impervious to attacks and damaging effects. The gem contains magic absorbed from countless other sources that it uses to overpower the requirements of certain item attunements. While holding this gem against an item with an attunement requirement you don’t meet, you can ignore that requirement and attune to the item anyway. The item can’t be a legendary item or artifact. The gem fuses to the surface of the item and encases the area around it in a crystalline shell.",
+				"You can unattune to the new item as normal, even if the item is cursed. Unattuning to a cursed item in this way breaks the curse’s effects on you. When you unattune to an item in this way, the gem detaches from the item, allowing you to use it on another one. The crystalline shell remains on the unattuned item. When you remove the crystal in this way, it takes the item’s magic with it: turning the unattuned item into a mundane and nonmagical item."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Mastery-Gem.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Merry Berry",
+			"source": "tgs1",
+			"page": 88,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This small fruit is highly sought after by cooks and sweet-lovers everywhere, both for its flavor as well as its unique sensory-enhancing properties. Eating a berry raw yields a taste and texture like that of a rich shortbread: the perfect way to end a day of adventure or travel.",
+				"Cooking the berry, whether it be in a cuisine or simply roasted over a campfire, brings out more uncommon effects. When properly cooked, a creature that eats the fruit gains advantage on all Wisdom and Intelligence checks based on smell or taste for the next 24 hours, as well as advantage on ability checks using {@item cook’s utensils|phb}.",
+				"Overcooking the fruit not only cooks out the berry’s benefits, but also results in a soggy and overall bland dish."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Merry-Berry.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mirrorlight Edge",
+			"source": "tgs1",
+			"page": 88,
+			"baseItem": "scimitar|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"entries": [
+				"This roughly hewn crystal sword bends light in unexpected and dangerous ways. As an action, you can speak the scimitar’s command word to cause it to emit up to 2 ghostly projections of itself. The sword can have up to 2 of these projections at any time, which last until you dismiss them (no action required). When swung, the ghostly projections make the sword difficult to see. When you make an attack with the sword and miss while it has at least 1 projection, you can dismiss one of its projections to reroll the attack. You must use the new roll.",
+				"When you hit a target with this weapon while it has at least 1 projection, the ghostly projections become razor sharp. Targets hit by the sword take an extra {@damage 1d4} slashing damage for each projection the sword has.",
+				"The sword emits dim light in a 10-foot radius while it has 1 projection and 20 feet while it has 2. Sheathing the scimitar contains the projections and their light without dismissing them."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Mirrorlight-Edge.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mirrorlight Piercer",
+			"source": "tgs1",
+			"page": 88,
+			"baseItem": "spear|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V",
+				"L"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+2",
+			"entries": [
+				"This crystalline spear bends the light it generates in such a way that it becomes tangible. While you hold the spear in one hand and have another hand free, you can speak the spear’s command word as an action to cause it to create a ghostly projection of itself in your free hand. Both the spear and its projection have the light property. When you use an action to create a projection in this way, you can make one weapon attack with either the spear or projection as part of that action. The projection lasts for 1 minute or until you dismiss it using a bonus action or until a creature other than you holds it. If you drop or stow the crystalline spear, the projection disappears until you hold the spear again.",
+				"If you make a ranged attack with the projection, it disappears after it hits or misses a target. If you’re still holding the crystalline spear when this happens, it magically recreates the projection in your open hand again (no action required).",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon and its projection. The spear can only have 1 projection active at a time. While it has a projection, both the spear and projection cast bright light in a 10-foot radius and dim light for an additional 10 feet. If you don’t have an open hand when the spear creates a projection, the projection is dismissed."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Mirrorlight-Piercer.jpg"
 						}
 					}
 				]
@@ -10547,11 +10706,11 @@
 					"This wooden bow is carved to resemble a mighty {@creature couatl}. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bow has 4 charges and regains {@dice 1d3 + 1} expended charges daily at dawn. When you make a ranged attack against a Large or smaller creature with the bow, you can choose a limb to target and expend 1 of the bow's charges as part of the attack. If the attack hits, the weapon's damage becomes radiant, and the creature is forced to make a {@dc 15} Dexterity saving throw. On a failed save, that creature's targeted limb is pinned by radiant tethers of magic: holding it to its body or an adjacent surface (if any) for up to 1 minute.",
 					"Depending on the pinned limb, the creature may fall over {@condition prone}, be unable to move, or make weapon attacks with disadvantage while the limb remains pinned in this way. A creature can use its action to make a {@dc 15} Strength check, freeing itself or another creature within its reach on a success from the pinning tethers.",
 					{
-					"name": "Flight of the Couatls",
-					"entries": [
-						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
-					]
-				}
+						"name": "Flight of the Couatls",
+						"entries": [
+							"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+						]
+					}
 				],
 				"fluff": {
 					"images": [
@@ -10979,6 +11138,57 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Healing-Arrow.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Memento of the Shapeless",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"excludes": {
+				"property": [
+					"R",
+					"H"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Shapeless ",
+				"source": "tgs1",
+				"page": 87,
+				"tier": "major",
+				"rarity": "legendary",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This weapon was forged using the preserved remains of an ancient mimic. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+					"As a bonus action, you can speak the weapon’s command word to reshape it into any melee weapon with which you’re proficient that does not have the reach or heavy property.",
+					"When you hit a creature with this weapon, you can also attempt to grapple it (save {@dc 13}) by channeling the weapon’s natural pseudopod form. While grappling a creature in this way, you can’t attack or grapple another. Releasing the weapon frees the creature.",
+					{
+						"name": "Psuperpod",
+						"entries": [
+							"As an action, choose a creature within 30 feet and make a melee attack against it using the weapon. The weapon stretches towards your target as a pseudopod, ignoring half and three-quarters cover, and deals {@damage 6d8} bludgeoning damage if it hits. After the attack, the weapon retracts back into its previous form. If you attempt to grapple the target with the attack, the save DC increases to 15 for this attack. If the creature fails, it is dragged up to 15 feet closer to you before being released from the weapon’s grasp. If it failed the saving throw by 5 or more, it is dragged up to 30 feet closer to you and remains grappled. Once you’ve used this feature, you can’t use it again until 12 hours have passed."
+						]
+					},
+					{
+						"name": "Limb Replacement",
+						"entries": [
+							"If you’re missing an arm or forearm, you can graft the weapon to you in its place. If you do, the weapon changes and reforms to match the missing limb. You can add your proficiency bonus to any Strength ({@skill Athletics}) checks you make using the limb, or double the bonus if you’re already proficient. You can alter the arm’s form to turn it into a weapon as needed."
+						]
+					}
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Memento-of-the-Shapeless.jpg"
 							}
 						}
 					]
