@@ -5395,13 +5395,13 @@
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
+				"This magic sickle from the Everglacier is perpetually covered in tiny, needle-like icicles along its edge that reform almost as soon as they're gone. The first target hit by this weapon on each of your turns takes an extra {@damage 1d6} cold damage from the attack.",
 				{
 					"type": "inset",
 					"entries": [
 						"{@i \"Really? You're going to name it that?\"}"
 					]
-				},
-				"This magic sickle from the Everglacier is perpetually covered in tiny, needle-like icicles along its edge that reform almost as soon as they're gone. The first target hit by this weapon on each of your turns takes an extra {@damage 1d6} cold damage from the attack."
+				}
 			],
 			"fluff": {
 				"images": [
@@ -6363,8 +6363,8 @@
 			"rarity": "legendary",
 			"wondrous": true,
 			"entries": [
-				"This red gemstone seems to glint with some sort of liquid inside. The gem is impervious to attacks and damaging effects. The gem contains magic absorbed from countless other sources that it uses to overpower the requirements of certain item attunements. While holding this gem against an item with an attunement requirement you don’t meet, you can ignore that requirement and attune to the item anyway. The item can’t be a legendary item or artifact. The gem fuses to the surface of the item and encases the area around it in a crystalline shell.",
-				"You can unattune to the new item as normal, even if the item is cursed. Unattuning to a cursed item in this way breaks the curse’s effects on you. When you unattune to an item in this way, the gem detaches from the item, allowing you to use it on another one. The crystalline shell remains on the unattuned item. When you remove the crystal in this way, it takes the item’s magic with it: turning the unattuned item into a mundane and nonmagical item."
+				"This red gemstone seems to glint with some sort of liquid inside. The gem is impervious to attacks and damaging effects. The gem contains magic absorbed from countless other sources that it uses to overpower the requirements of certain item attunements. While holding this gem against an item with an attunement requirement you don't meet, you can ignore that requirement and attune to the item anyway. The item can't be a legendary item or artifact. The gem fuses to the surface of the item and encases the area around it in a crystalline shell.",
+				"You can unattune to the new item as normal, even if the item is cursed. Unattuning to a cursed item in this way breaks the curse's effects on you. When you unattune to an item in this way, the gem detaches from the item, allowing you to use it on another one. The crystalline shell remains on the unattuned item. When you remove the crystal in this way, it takes the item's magic with it: turning the unattuned item into a mundane and nonmagical item."
 			],
 			"fluff": {
 				"images": [
@@ -6387,8 +6387,8 @@
 			"wondrous": true,
 			"entries": [
 				"This small fruit is highly sought after by cooks and sweet-lovers everywhere, both for its flavor as well as its unique sensory-enhancing properties. Eating a berry raw yields a taste and texture like that of a rich shortbread: the perfect way to end a day of adventure or travel.",
-				"Cooking the berry, whether it be in a cuisine or simply roasted over a campfire, brings out more uncommon effects. When properly cooked, a creature that eats the fruit gains advantage on all Wisdom and Intelligence checks based on smell or taste for the next 24 hours, as well as advantage on ability checks using {@item cook’s utensils|phb}.",
-				"Overcooking the fruit not only cooks out the berry’s benefits, but also results in a soggy and overall bland dish."
+				"Cooking the berry, whether it be in a cuisine or simply roasted over a campfire, brings out more uncommon effects. When properly cooked, a creature that eats the fruit gains advantage on all Wisdom and Intelligence checks based on smell or taste for the next 24 hours, as well as advantage on ability checks using {@item cook's utensils|phb}.",
+				"Overcooking the fruit not only cooks out the berry's benefits, but also results in a soggy and overall bland dish."
 			],
 			"fluff": {
 				"images": [
@@ -6420,7 +6420,7 @@
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"entries": [
-				"This roughly hewn crystal sword bends light in unexpected and dangerous ways. As an action, you can speak the scimitar’s command word to cause it to emit up to 2 ghostly projections of itself. The sword can have up to 2 of these projections at any time, which last until you dismiss them (no action required). When swung, the ghostly projections make the sword difficult to see. When you make an attack with the sword and miss while it has at least 1 projection, you can dismiss one of its projections to reroll the attack. You must use the new roll.",
+				"This roughly hewn crystal sword bends light in unexpected and dangerous ways. As an action, you can speak the scimitar's command word to cause it to emit up to 2 ghostly projections of itself. The sword can have up to 2 of these projections at any time, which last until you dismiss them (no action required). When swung, the ghostly projections make the sword difficult to see. When you make an attack with the sword and miss while it has at least 1 projection, you can dismiss one of its projections to reroll the attack. You must use the new roll.",
 				"When you hit a target with this weapon while it has at least 1 projection, the ghostly projections become razor sharp. Targets hit by the sword take an extra {@damage 1d4} slashing damage for each projection the sword has.",
 				"The sword emits dim light in a 10-foot radius while it has 1 projection and 20 feet while it has 2. Sheathing the scimitar contains the projections and their light without dismissing them."
 			],
@@ -6459,9 +6459,9 @@
 			"reqAttune": true,
 			"bonusWeapon": "+2",
 			"entries": [
-				"This crystalline spear bends the light it generates in such a way that it becomes tangible. While you hold the spear in one hand and have another hand free, you can speak the spear’s command word as an action to cause it to create a ghostly projection of itself in your free hand. Both the spear and its projection have the light property. When you use an action to create a projection in this way, you can make one weapon attack with either the spear or projection as part of that action. The projection lasts for 1 minute or until you dismiss it using a bonus action or until a creature other than you holds it. If you drop or stow the crystalline spear, the projection disappears until you hold the spear again.",
-				"If you make a ranged attack with the projection, it disappears after it hits or misses a target. If you’re still holding the crystalline spear when this happens, it magically recreates the projection in your open hand again (no action required).",
-				"You gain a +2 bonus to attack and damage rolls made with this magic weapon and its projection. The spear can only have 1 projection active at a time. While it has a projection, both the spear and projection cast bright light in a 10-foot radius and dim light for an additional 10 feet. If you don’t have an open hand when the spear creates a projection, the projection is dismissed."
+				"This crystalline spear bends the light it generates in such a way that it becomes tangible. While you hold the spear in one hand and have another hand free, you can speak the spear's command word as an action to cause it to create a ghostly projection of itself in your free hand. Both the spear and its projection have the light property. When you use an action to create a projection in this way, you can make one weapon attack with either the spear or projection as part of that action. The projection lasts for 1 minute or until you dismiss it using a bonus action or until a creature other than you holds it. If you drop or stow the crystalline spear, the projection disappears until you hold the spear again.",
+				"If you make a ranged attack with the projection, it disappears after it hits or misses a target. If you're still holding the crystalline spear when this happens, it magically recreates the projection in your open hand again (no action required).",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon and its projection. The spear can only have 1 projection active at a time. While it has a projection, both the spear and projection cast bright light in a 10-foot radius and dim light for an additional 10 feet. If you don't have an open hand when the spear creates a projection, the projection is dismissed."
 			],
 			"fluff": {
 				"images": [
@@ -6470,6 +6470,234 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Mirrorlight-Piercer.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mockingblade",
+			"source": "tgs1",
+			"page": 89,
+			"baseItem": "shortsword|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"reqAttune": "by a bard",
+			"recharge": "dawn",
+			"charges": 6,
+			"attachedSpells": [
+				"vicious mockery"
+			],
+			"entries": [
+				"This magic sword helps you more effectively add insult to injury. The sword has 6 charges and regains {@dice 1d4 + 2} expended charges daily at dawn. When you hit a creature with this weapon, you can immediately use a bonus action to expend 1 of its charges to cast the {@spell vicious mockery} spell from it, using your spell save DC, against that creature. When you do, any words you use to insult the creature appear written along the blade for 1 minute or until replaced by a new insult.",
+				"When a creature rolls a 20 on a saving throw against a {@i vicious mockery} spell cast from the blade in this way, the face adorning the sword’s hilt screams insults at you instead until the end of your turn. The insults are audible out to 30 feet and are directed at your deepest insecurities and regrets. Any creature that hears these insults is made aware of your weaknesses, granting it advantage on its next attack roll against you until the start of your next turn. Once the sword screams at you in this way, it can’t be used to cast the {@i vicious mockery} spell again until {@dice 1d4} days have passed."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Mockingblade.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Monocle of Clarity",
+			"source": "tgs1",
+			"page": 89,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"attachedSpells": [
+				"comprehend languages",
+				"darkvision",
+				"see invisibility"
+			],
+			"entries": [
+				"You can change the monocle’s filter by rotating its outer ring. A small arrow along the edge of the frame indicates the monocle’s selected filter. The monocle has 4 charges and regains 1d3 + 1 expended charges daily at dawn. While wearing the monocle, you can expend 1 of its charges as an action to activate one of the following filters and gain various benefits. The effects last for 1 hour while you continue to wear the monocle or until you change its filter.",
+				{
+					"name": "Filter of Comprehend Languages",
+					"entries": [
+						"When you peer through this filter, you can read and comprehend any written language as per the written language portion of the {@spell comprehend languages} spell."
+					]
+				},
+				{
+					"name": "Filter of Darkvision",
+					"entries": [
+						"While looking through this filter, you have darkvision out to a range of 60 feet."
+					]
+				},
+				{
+					"name": "Filter of See Invisibility",
+					"entries": [
+						"When gazing through this filter, you see invisible creatures and objects as if they were visible."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Monocle-of-Clarity.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Monsterbane Lasher",
+			"source": "tgs1",
+			"page": 90,
+			"baseItem": "whip|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"bonusWeapon": "+2",
+			"entries": [
+				"This mithral whip was once used by a powerful monster hunter. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, targets hit by the whip take an extra {@damage 1d4} slashing damage from its attacks.",
+				"The whip has 7 runes on its handle that correspond to different damage types: acid, cold, fire, lightning, poison, radiant, or thunder. When you hit a creature with a melee attack using this weapon, you can channel 1 or more of the runes to deal an extra {@damage 2d4} damage of the type or types that correspond to the channeled runes. For example, you can channel 2 runes to add {@damage 2d4} acid and {@damage 2d4} fire damage to an attack against a troll, or 1 rune to add {@damage 2d4} thunder damage to an attack against a clay golem. Once you add a damage type to an attack in this way, you can’t add that type again until the following dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Monsterbane-Lasher.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Necrolace",
+			"source": "tgs1",
+			"page": 90,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"charges": 3,
+			"entries": [
+				"This necklace allows you to absorb the life energy of creatures you slay. When you reduce a Small or larger creature who is hostile toward you to 0 hit points, the necklace emits a faint glow and gains 1 charge. The necklace can hold up to 3 charges and contains {@dice 1d3} charges when found. You can expend 1 or more charges as a bonus action to turn death into life. You take {@damage 1d8} necrotic damage for each expended charge and heal another creature you can see within 30 feet of you for twice the amount of necrotic damage you took. This damage ignores resistance and immunity.",
+				"If this damage reduces you to 0 hit points, you’re stable but unconscious. When this happens, the creature is healed for twice the amount of hit points you had remaining before you fell unconscious."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Necrolace.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Nighstalker's Kanabo",
+			"source": "tgs1",
+			"page": 90,
+			"baseItem": "greatclub|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"2H",
+				"H"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"weapon": true,
+			"bonusWeapon": "+1",
+			"recharge": "dusk",
+			"charges": 3,
+			"attachedSpells": [
+				"invisibility",
+				"sleep"
+			],
+			"entries": [
+				"This studded greatclub once belonged to a hungering {@creature oni} who excelled at subterfuge. You gain a +1 bonus to attack and damage rolls made with this magic weapon, which has the heavy property. When you hit a sleeping creature with this weapon, that creature takes an extra {@damage 2d8} psychic damage from the attack. In addition, when you roll a 20 on an attack roll with this weapon, the target of the attack must succeed on a {@dc 16} Constitution saving throw or magically fall asleep until the end of your next turn, the sleeper takes damage, or a creature uses an action to shake or slap the sleeper awake. While the target is asleep, it is {@condition unconscious}. Undead and creatures immune to being {@condition charmed} automatically succeed on the saving throw.",
+				"The weapon has 3 charges and regains {@dice 1d3} expended charges daily at dusk. While holding the weapon, you can expend 1 of its charges as a bonus action to cast either the {@spell invisibility} (targeting only yourself ) or {@spell sleep} (3rd-level version) spell from it."
+			]
+		},
+		{
+			"name": "Null Chalk",
+			"source": "tgs1",
+			"page": 91,
+			"tier": "minor",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This drab pouch contains {@dice 1d4 + 1} sticks of dull gray chalk. The chalk feels slightly tingly to the touch.",
+				"As an action, you can touch 1 of the sticks of chalk to the ground, wall, or ceiling to magically create a line that is up to 50 feet long and 1 foot thick. The line extends from your location in the direction and shape of your choice. You can shape the line in any way you choose so long as it makes one continuous path along the surface or similar adjacent surfaces. Once a stick of chalk has been used in this way, it disintegrates into a pile of fine, nonmagical powder.",
+				"Magical effects can’t cross this line. The line’s effect extends 20 feet perpendicularly from the surface on which the line is drawn. Targets on the other side of the line are considered to have full cover for the purpose of being targeted by spells or magical effects. Magical items that cross the line become mundane and nonmagical for 1 round.",
+				"The first time a celestial, elemental, fey, fiend, or undead creature attempts to cross the line on a turn, that creature must make a {@dc 16} Charisma saving throw. On a failed save, the creature’s movement speed becomes 0 until the start of its next turn, is forced backward up to 10 feet away from the line, and takes {@damage 2d8} force damage. On a successful save, a creature takes half as much damage, and its speed is unaffected as it passes through the line. If the line cuts through a creature’s space when it appears, the creature is pushed to one side of the line (your choice).",
+				"This effect lasts for 8 hours or until a break of at least one foot is made in the line, which causes it to instantly lose all magical properties. A creature can spend 1 minute to smudge, smear, erase, or otherwise remove the line enough to disable its effects. When targeted by the {@spell dispel magic} spell, the line is treated as if it were a 6th-level spell. If the line is dispelled in this way, its effects are disabled for 1 minute."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Null-Chalk.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Omenbringer's Mantle",
+			"source": "tgs1",
+			"page": 91,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"find familiar"
+			],
+			"entries": [
+				"This raven-feathered mantle is almost iridescent. While wearing this mantle, you have resistance to necrotic damage and descend 60 feet per round when you fall, taking no damage from falling.",
+				"In addition, while wearing the mantle, you can use an action to cast the {@spell find familiar} spell from it. When you do, the familiar takes the form of a {@creature raven}. If the familiar falls to 0 hit points, it can’t be summoned again until the next dusk. Otherwise, the familiar remains so long as you are attuned to the mantle."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Omenbringers-Mantle.jpg"
 						}
 					}
 				]
@@ -11167,18 +11395,18 @@
 				"bonusWeapon": "+2",
 				"entries": [
 					"This weapon was forged using the preserved remains of an ancient mimic. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
-					"As a bonus action, you can speak the weapon’s command word to reshape it into any melee weapon with which you’re proficient that does not have the reach or heavy property.",
-					"When you hit a creature with this weapon, you can also attempt to grapple it (save {@dc 13}) by channeling the weapon’s natural pseudopod form. While grappling a creature in this way, you can’t attack or grapple another. Releasing the weapon frees the creature.",
+					"As a bonus action, you can speak the weapon's command word to reshape it into any melee weapon with which you're proficient that does not have the reach or heavy property.",
+					"When you hit a creature with this weapon, you can also attempt to grapple it (save {@dc 13}) by channeling the weapon's natural pseudopod form. While grappling a creature in this way, you can't attack or grapple another. Releasing the weapon frees the creature.",
 					{
 						"name": "Psuperpod",
 						"entries": [
-							"As an action, choose a creature within 30 feet and make a melee attack against it using the weapon. The weapon stretches towards your target as a pseudopod, ignoring half and three-quarters cover, and deals {@damage 6d8} bludgeoning damage if it hits. After the attack, the weapon retracts back into its previous form. If you attempt to grapple the target with the attack, the save DC increases to 15 for this attack. If the creature fails, it is dragged up to 15 feet closer to you before being released from the weapon’s grasp. If it failed the saving throw by 5 or more, it is dragged up to 30 feet closer to you and remains grappled. Once you’ve used this feature, you can’t use it again until 12 hours have passed."
+							"As an action, choose a creature within 30 feet and make a melee attack against it using the weapon. The weapon stretches towards your target as a pseudopod, ignoring half and three-quarters cover, and deals {@damage 6d8} bludgeoning damage if it hits. After the attack, the weapon retracts back into its previous form. If you attempt to grapple the target with the attack, the save DC increases to 15 for this attack. If the creature fails, it is dragged up to 15 feet closer to you before being released from the weapon's grasp. If it failed the saving throw by 5 or more, it is dragged up to 30 feet closer to you and remains grappled. Once you've used this feature, you can't use it again until 12 hours have passed."
 						]
 					},
 					{
 						"name": "Limb Replacement",
 						"entries": [
-							"If you’re missing an arm or forearm, you can graft the weapon to you in its place. If you do, the weapon changes and reforms to match the missing limb. You can add your proficiency bonus to any Strength ({@skill Athletics}) checks you make using the limb, or double the bonus if you’re already proficient. You can alter the arm’s form to turn it into a weapon as needed."
+							"If you're missing an arm or forearm, you can graft the weapon to you in its place. If you do, the weapon changes and reforms to match the missing limb. You can add your proficiency bonus to any Strength ({@skill Athletics}) checks you make using the limb, or double the bonus if you're already proficient. You can alter the arm's form to turn it into a weapon as needed."
 						]
 					}
 				],
@@ -11189,6 +11417,36 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Memento-of-the-Shapeless.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Moonswaddled Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "LA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Moonswaddled ",
+				"source": "tgs1",
+				"page": 90,
+				"tier": "major",
+				"rarity": "rare",
+				"entries": [
+					"This comfortable set of armor grants additional protection and respite when worn at night. You gain a +1 bonus to AC while wearing this armor between dusk and dawn, and when you would normally roll 1 or more Hit Dice to restore hit points when taking a short rest after dusk, you instead use the highest number possible for each Hit Die spent."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Moonswaddled-Armor.jpg"
 							}
 						}
 					]
