@@ -8209,6 +8209,98 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Rocborne Hand Ballista",
+			"source": "tgs1",
+			"page": 108,
+			"baseItem": "heavy crossbow|phb",
+			"tier": "major",
+			"type": "R",
+			"rarity": "very rare",
+			"weight": 18,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"LD",
+				"2H"
+			],
+			"range": "100/400",
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"This massive, beast-hunting crossbow is carried with its two handles from above instead of by being held from below. You gain a +1 bonus to attack and damage rolls made with this magic weapon. This crossbow uses twice the normal amount of ammunition each time you fire it and deals an extra {@damage 1d10} piercing damage to any target it hits. The weapon emits a {@creature roc}-like screech that’s audible out to 100 feet each time it’s fired.",
+				"This crossbow is blessed with the spirits of great ancestral hunters. The weapon has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. When you attack a Huge or smaller creature with this weapon, you can expend 1 of its charges as part of the attack. If the attack hits, the creature must make a {@dc 16} Constitution saving throw. On a failed save, its speed is reduced to 0 and it can’t take reactions until the start of its next turn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Rocborne-Hand-Ballista.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Rocborne Robe",
+			"source": "tgs1",
+			"page": 108,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"This warm canvas robe is lined with roc down. While wearing it, you can withstand temperatures as low as \u221250 degrees Fahrenheit. In addition, the cloak has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the cloak, you can use an action to expend 1 of its charges and unfurl the robe. The robe opens into two large, stylized wings before flapping back down, buffeting the area in front of you and refolding into the robe. The wings create a line of wind 15 feet wide and 10 feet long in front of you, forcing any affected Medium or smaller creature within the area to make a {@dc 13} Strength saving throw. On a failure, a creature is pushed 10 feet away from you. At the same time, you are flung away, flying 10 feet backwards without provoking opportunity attacks."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Rocborne-Robe.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Rocborne Rod",
+			"source": "tgs1",
+			"page": 108,
+			"type": "RD",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 2,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"This wooden rod is carved in the representation of five ancient {@creature |roc||rocs}. Motes of their spirits flow through it and allow you to channel some of their lingering power.",
+				"This rod has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While holding the rod, you can use a reaction while falling, or an action otherwise, to expend 1 of its charges to cause two handles to extend from its top and bottom. While holding the handles, a pair of magical wings appear above the rod that reduce your falling speed to 10 feet per round, or 20 feet if you weigh more than 200 pounds. While falling in this way, you gain a flying speed of 40 feet but cannot fly upwards without a significant updraft. If you land on the ground while falling in this way, you take no damage from falling.",
+				"In addition, you can use the rod to summon a buffeting gust of wind around you. While holding the rod aloft, you can use an action to expend 1 of its charges. When you do, powerful winds whip around you and blow everything within 20 feet of you skyward in a column of wind 60 feet high. Large and smaller creatures within range must succeed on a {@dc 15} Strength saving throw or be launched 30 feet upward before crashing back to the ground. Affected objects weighing less than 200 pounds are also launched by the wind. You automatically succeed on the saving throw unless you decide to fail. If you choose to fail the saving throw and use your reaction to summon the magical wings (if they weren’t already summoned), you’re carried upward 60 feet instead."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Rocborne-Rod.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
