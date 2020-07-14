@@ -7139,7 +7139,7 @@
 				{
 					"name": "Haunting Phalanx",
 					"entries": [
-						"You can use an action while holding this pike to expend 3 of its charges and point it forward commandingly. Five spectral, pike-wielding warriors appear before you and march in a 25-foot-by-50-foot line in a direction you choose. Any creature within that line's area must make a {@dc 16} Intelligence saving throw. On a failed save, a creature takes {@damage 3d10} necrotic damage and {@damage 3d10} psychic damage and is affected by the weapon's {@i spectral warrior} property. On a success, the creature takes half as much damage and isn't affected by the spectral warriors. Undead creatures automatically succeed on the saving throw."
+						"You can use an action while holding this pike to expend 3 of its charges and point it forward commandingly. Five spectral, pike-wielding warriors appear before you and march in a 25-foot by 50-foot line in a direction you choose. Any creature within that line's area must make a {@dc 16} Intelligence saving throw. On a failed save, a creature takes {@damage 3d10} necrotic damage and {@damage 3d10} psychic damage and is affected by the weapon's {@i spectral warrior} property. On a success, the creature takes half as much damage and isn't affected by the spectral warriors. Undead creatures automatically succeed on the saving throw."
 					]
 				}
 			],
@@ -7775,6 +7775,440 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Reap and Sew",
+			"source": "tgs1",
+			"page": 103,
+			"baseItem": "light crossbow|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "O",
+			"weapon": true,
+			"reqAttune": true,
+			"curse": true,
+			"bonusWeapon": "+2",
+			"recharge": "dawn",
+			"charges": 4,
+			"attachedSpells": [
+				"mending"
+			],
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. While attuned to the weapon, you can cast the {@spell mending} cantrip at will. A special, needle-like bolt is magically bound to the crossbow. When fired, the bolt leaves a faint thread of arcane energy behind it and deals force damage instead of piercing. The bolt returns to the crossbow and loads itself after each attack, ignoring the crossbow’s normal loading property.",
+				"The crossbow has 4 charges and regains {@dice 1d4} expended charges each day at dawn. When you fire the special bolt from this crossbow and hit a Large or smaller creature, you can expend 1 charge to tether that creature to a point on the ground adjacent to it. If the creature attempts to move more than 10 feet away from that point before the end of its next turn, it must succeed on a {@dc 15} Strength saving throw or have its movement speed reduced to 0 until the start of its next turn.",
+				"If the special bolt is somehow destroyed or lost, the bolt reappears loaded in the crossbow after 24 hours. The weapon is considered to be a mundane, nonmagical crossbow while separated from the bolt for longer than 1 minute.",
+				{
+					"name": "Curse",
+					"entries": [
+						"Once attuned to this weapon, you must make a {@dc 12} Wisdom saving throw whenever you attempt to take a short or long rest. On a failure, you are overcome with the urge to craft and are forced to sew, knit, crochet, or crossstitch feverishly for at least 1 hour before being able to rest. The curse remains even if the attunement ends, but can be undone by any effect that removes a curse such as a {@spell greater restoration} or {@spell remove curse} spell."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Reap-and-Sew.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Red Claw's Regalia",
+			"source": "tgs1",
+			"page": 103,
+			"tier": "major",
+			"rarity": "legendary",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This dragon scale robe is miraculously insulated and comfortable. While wearing the robe, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can withstand temperatures as low as \u221250 degrees Fahrenheit without any additional protection.",
+						"Your Constitution score increases by 2, to a maximum of 22.",
+						"You have advantage on Constitution saving throws.",
+						"You have resistance to fire damage.",
+						"You can stand on and walk across molten rock, unharmed, as if it were solid ground."
+					]
+				},
+				"The hem of this robe glimmers with slowly shifting embers. While wearing the robe, your steps leave behind small motes of harmless fire and scorched earth that disappear after 1 second."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Red-Claws-Regalia.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Relentless Bulwark",
+			"source": "tgs1",
+			"page": 105,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"reqAttune": "by a cleric or paladin",
+			"recharge": "dawn",
+			"charges": 6,
+			"attachedSpells": [
+				"shield of faith"
+			],
+			"entries": [
+				"This hefty metal shield is virtually impenetrable. The shield has 6 charges and regains {@dice 1d4 + 2} expended charges daily at dawn. While holding the shield, you can use an action to expend 1 of its charges to cast the {@spell shield of faith} spell from it. Whenever you would fail a Constitution saving throw to maintain concentration on this spell, you can use your reaction to expend another charge from the shield to succeed on the saving throw instead. You can only use your reaction in this way if you’re holding the shield."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Relentless-Bulwark.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Retaliating Bloom Shield",
+			"source": "tgs1",
+			"page": 105,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This steel shield hides a slim chamber in its center where magical flora grow and release toxic pollen. The chamber is covered with an intricate, interlocking series of metal plates and flaps that, once released, resembles a flower.",
+				"While holding the shield, you can use your reaction when a Large or smaller creature you can see within 5 feet of you misses you with an attack to release the chamber’s mechanism and fire the toxic pollen into the face of the attacker. When you do, that creature must succeed on a {@dc 15} Constitution saving throw or take {@damage 3d10} poison damage and be poisoned for 1 minute. On a success, the creature takes half as much damage and isn’t poisoned. Once this property has been used, it can’t be used again until the next dusk, when the flowers release another wave of pollen.",
+				"Curious, whirring mechanisms inside the shield automatically retract the chamber’s unfurled metallic plates at dusk. Alternatively, you can manually collapse the shield’s plates over the course of 1 minute."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Retaliating-Bloom-Shield.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Retaliating Shield of Ink",
+			"source": "tgs1",
+			"page": 105,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This shield has a hidden compartment inside that can spray thick squid ink at attacking creatures. When a Large or smaller creature within 5 feet of you misses you with a melee attack, you can use your reaction to press a button on the shield’s handle. When you do, ink sprays from the front of the shield at the face of the attacking creature. That creature must succeed on a {@dc 13} Dexterity saving throw or be {@condition blinded} until the beginning of its next turn.",
+				"The shield can hold up to 3 uses of the ink before needing to be refilled. It takes 1 minute to refill the shield using a vial of squid ink worth at least 20 gp. Alternatively, you can use a vial of thinner writing ink worth 5 gp. If you do. the save DC becomes 10 instead.",
+				"This is a mechanical item whose purpose and functionality can be understood following a successful Intelligence check ({@dc 12}). On a success, you can interpret what the shield does, how to use it, and how to take care of it. You also understand that filling the shield with other volatile or sticky liquids such as acid, poison, grog, oil, or any other solid material such as sand, will damage the machinery inside and take 8 hours of work to repair."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Retaliating-Shield-of-Ink.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Anchoring",
+			"source": "tgs1",
+			"page": 106,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"While attuned to this ring, you can breathe normally underwater, and whenever you’re pushed against your will, the distance you’re moved is reduced by 10 feet.",
+				{
+					"name": "Curse",
+					"entries": [
+						"Once you attune to and wear this hammered lead ring, the arm that’s wearing it becomes unbearably heavy when it’s submerged underwater. When underwater, make a {@dc 20} Strength ({@skill Athletics}) check. On a failure, you’re dragged downward 30 feet at the start of each of your turns, and your movement speed becomes 0. You can reattempt this saving throw every minute. On a success, you can move your arm, albeit sluggishly, for 1 minute. While you can move your arm, your movement speed is halved, any attack roll you make with the arm is made with disadvantage, and any Strength or Dexterity check you make is made with disadvantage. If you’re still underwater at the end of this minute, you’re forced to reattempt the saving throw. You can’t remove this ring once you’re cursed by it, and you remain cursed until you’re targeted by the {@spell remove curse} spell or similar magic. You can remove the ring and the curse without magic by physically removing the finger that’s wearing it. Once removed from the water, your arm’s weight and your movement speed return to normal."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Anchoring.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Eldritch Ire",
+			"source": "tgs1",
+			"page": 106,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": "by a warlock",
+			"recharge": "dusk",
+			"charges": 3,
+			"entries": [
+				"This cold, warped ring has three yellow gemstones adorning its surface that swivel and move like strange eyes. This ring has 3 charges and regains all expended charges daily at dusk. While wearing the ring, you can expend 1 of its charges as a bonus action to mark an unmarked creature that you can see within 60 feet of you for 1 hour. The mark is lost if you fall unconscious or end it early using a bonus action. A marked creature appears to be shrouded in a strange, sharpening mist that magically helps you focus. You gain a +1 bonus to attack and damage rolls against marked creatures, and marked creatures have a \u22121 penalty to saving throws against spells you cast.",
+				"You know a marked creature’s general distance and direction from you at all times while it’s on the same plane of existence as you. In addition, you perceive a marked creature within 60 feet of you as though you had truesight, and can see through any illusion that stands between you and the marked creature."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Eldritch-Ire.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Gestures",
+			"source": "tgs1",
+			"page": 106,
+			"tier": "minor",
+			"type": "RG",
+			"rarity": "common",
+			"attachedSpells": [
+				"minor illusion"
+			],
+			"entries": [
+				"This gaudy ring has a delicately carved pink gem in the shape of a hand at its center. While wearing this ring, you can cast the {@spell minor illusion} cantrip at will to enlarge, reduce, and change the color of the hand wearing the ring or any of its fingers. In addition, whenever you make a gesture with the hand wearing this ring, the pink gemstone moves to mimic the gesture and remains that way until you make a new one."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Gestures.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Roses",
+			"source": "tgs1",
+			"page": 106,
+			"tier": "minor",
+			"type": "RG",
+			"rarity": "common",
+			"entries": [
+				"As an action, you can cause a single rose to grow and appear in your hand. The stem is 1 foot long and has small, dull thorns. The flower is odorless and blooms in a color of your choice, but withers and turns to dust after 24 hours."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Roses.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Seething",
+			"source": "tgs1",
+			"page": 106,
+			"tier": "minor",
+			"type": "RG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"This dark band is cool to the touch and has several cracks throughout its otherwise smooth body. When you attune to the ring, choose a creature type: aberration, celestial, dragon, elemental, fey, fiend, or undead. While wearing the ring, its normally cool band glows red hot when a creature of the chosen type is within 60 feet of you. In addition, you have advantage on any saving throw you make to resist being {@condition charmed} or {@condition frightened} by a creature of that type. While seemingly radiating heat, the ring feels only faintly warm to you. Small pieces of the metal band hover above the surface of the ring when glowing in this way.",
+				{
+					"name": "Curse",
+					"entries": [
+						"Once you attune to the ring and place it on your finger, you can’t remove it unless targeted by a {@spell remove curse} spell. While cursed, you have disadvantage on any Charisma check or Wisdom ({@skill Insight}) check you make that involves a creature of the chosen type. In addition, while you’re within 60 feet of one or more creatures of that type, you have disadvantage on attack rolls that target a creature of a different type."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Seething.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of the Fowl Sentinel",
+			"source": "tgs1",
+			"page": 107,
+			"tier": "minor",
+			"type": "RG",
+			"rarity": "common",
+			"entries": [
+				"This plain bronze ring is embossed with a rooster’s head at its center. You can use an action to enchant a friendly chicken or rooster by tapping the ring to its beak. While enchanted, its speed becomes 0 and remains quiet for up to 8 hours. The chicken or rooster lets out a cry after 8 hours or if it sees another Small or larger creature it hasn’t seen before. The chicken or rooster has a passive perception of 13 and a +3 bonus to Wisdom ({@skill Perception}) checks it makes while enchanted. It has 1 hit point, an AC of 10, and can be heard out to 150 feet when it lets out a cry. Only 1 creature can be enchanted by the ring at any time. Tapping the ring to the enchanted chicken or rooster’s beak again before the effect ends breaks the enchantment early."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-the-Fowl-Sentinel.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of the Sandskimmer",
+			"source": "tgs1",
+			"page": 107,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "uncommon",
+			"entries": [
+				"This ring is made entirely of sand that ebbs and flows around your finger. The sand is magically held together by a single, perfectly smooth tiger’s eye stone that spins in place as the sand brushes past it. While wearing this ring, you leave no footprints behind when you walk in sand, and you treat all nonmagical difficult terrain in sand as if it were normal terrain."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-the-Sandskimmer.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Fire",
+			"source": "tgs1",
+			"page": 107,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "rare",
+			"entries": [
+				"This ring is made of magical fire. While wearing it, you can use it to cast the {@spell wall of fire} spell (spell save {@dc 15}.",
+				"When cast from the ring, the wall must be in a circle centered on you. The {@i wall of fire} is 20 feet tall and 1 foot thick."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Fire.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Ice",
+			"source": "tgs1",
+			"page": 107,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "very rare",
+			"entries": [
+				"This ring is made of magical ice. While wearing it, you can use it to cast the {@spell wall of ice} spell (spell save {@dc 16}.",
+				"When cast from the ring, the wall must be in a circle centered on you. The {@i wall of ice} is 10 feet tall and 1 foot thick."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Ice.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Stone",
+			"source": "tgs1",
+			"page": 107,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "rare",
+			"entries": [
+				"This ring is made of magical stone. While wearing it, you can use it to cast the {@spell wall of stone} spell (spell save {@dc 15}.",
+				"When cast from the ring, the wall must be in a circle centered on you. The {@i wall of stone} is 10 feet tall and 6 inches thick."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Stone.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of Wind",
+			"source": "tgs1",
+			"page": 107,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "uncommon",
+			"entries": [
+				"This ring is made of magical wind. While wearing it, you can use it to cast the {@spell wind wall} spell (spell save {@dc 13}.",
+				"When cast from the ring, the wall must be in a circle centered on you. The {@i wind wall} is 15 feet tall and 1 foot thick."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Ring-of-Wind.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
@@ -8079,7 +8513,7 @@
 				{
 					"name": "Adapted",
 					"entries": [
-						"The weremammoth can tolerate temperatures as low as -50 degrees Fahrenheit without protection."
+						"The weremammoth can tolerate temperatures as low as \u221250 degrees Fahrenheit without protection."
 					]
 				},
 				{
