@@ -7577,7 +7577,7 @@
 				{
 					"name": "The Inner Ring",
 					"entries": [
-						"This golden ring is blessed by a god of life and healing. While wearing the ring, you can use your {@classFeature Lay On Hands|Paladin|1} feature on an ally within 10 feet of you instead of needing to touch them."
+						"This golden ring is blessed by a god of life and healing. While wearing the ring, you can use your {@classFeature Lay On Hands|Paladin||1} feature on an ally within 10 feet of you instead of needing to touch them."
 					]
 				},
 				{
