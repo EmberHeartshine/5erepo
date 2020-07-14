@@ -3351,7 +3351,7 @@
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
-				"This magic plant only grows at the base of trees that are often stepped through by {@creature dryad|mm|dryads}. Its leaves continuously shift as if by a breeze. Touching the plant, even gently, causes its leaves to stop their gentle swaying for 1 minute.",
+				"This magic plant only grows at the base of trees that are often stepped through by {@creature dryad||dryads}. Its leaves continuously shift as if by a breeze. Touching the plant, even gently, causes its leaves to stop their gentle swaying for 1 minute.",
 				"Dryadleaf plants only grow up to 4 leaves at a time and are found in the wild with {@dice 1d4} matured leaves. Leaves are fully matured once they have a thin yellow rim. You can use an action to eat a mature leaf. When you do, you can speak to beasts and plants for 1 minute as if you shared a language. Once it's been picked, a leaf retains this property for 7 days before it wilts.",
 				"You can move the plant to a pot over the course of 1 minute. When you do, make a {@dc 15} Intelligence ({@skill Nature}) or Wisdom ({@skill Survival}) check. On a success, the delicate plant survives the transfer to a new pot. On a failure, the plant is irreversibly damaged and dies.",
 				"The plant can survive with surprisingly little air, allowing it to survive in an extradimensional space such as a {@item bag of holding} or {@item portable hole}. So long as it's watered lightly each day and given a moderate amount of sunlight (weather and environment permitting), the plant grows {@dice 1d4} missing mature leaves every 7 days."
@@ -4061,7 +4061,7 @@
 			"charges": 3,
 			"ammoType": "crossbow bolt|phb",
 			"entries": [
-				"This hollow metal crossbow was created by a team of {@creature kobold|mm|kobolds} and contains an enchanted ember at its core. The crossbow has 3 charges. While the crossbow has at least 1 charge, the inner ember burns brightly when you hold the weapon. While it burns, the crossbow emits bright light in a 20-foot radius and dim light for an additional 20 feet, and any nonmagical bolt fired from the crossbow catches fire and deals an extra {@damage 1d6} fire damage to any target it hits.",
+				"This hollow metal crossbow was created by a team of {@creature kobold||kobolds} and contains an enchanted ember at its core. The crossbow has 3 charges. While the crossbow has at least 1 charge, the inner ember burns brightly when you hold the weapon. While it burns, the crossbow emits bright light in a 20-foot radius and dim light for an additional 20 feet, and any nonmagical bolt fired from the crossbow catches fire and deals an extra {@damage 1d6} fire damage to any target it hits.",
 				"You can expend 1 of the crossbow's charges as an action to cause the ember to spew forth devastating flames, sending out a wave of fire in a 30-foot cone. Each creature within the cone must make a {@dc 15} Dexterity saving throw. A creature takes {@damage 4d6} fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.",
 				"The crossbow regains {@dice 1d3} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the magical ember inside the crossbow dies, and the weapon becomes a nonmagical crossbow."
 			],
@@ -8286,7 +8286,7 @@
 			"recharge": "dawn",
 			"charges": 5,
 			"entries": [
-				"This wooden rod is carved in the representation of five ancient {@creature |roc||rocs}. Motes of their spirits flow through it and allow you to channel some of their lingering power.",
+				"This wooden rod is carved in the representation of five ancient {@creature roc||rocs}. Motes of their spirits flow through it and allow you to channel some of their lingering power.",
 				"This rod has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While holding the rod, you can use a reaction while falling, or an action otherwise, to expend 1 of its charges to cause two handles to extend from its top and bottom. While holding the handles, a pair of magical wings appear above the rod that reduce your falling speed to 10 feet per round, or 20 feet if you weigh more than 200 pounds. While falling in this way, you gain a flying speed of 40 feet but cannot fly upwards without a significant updraft. If you land on the ground while falling in this way, you take no damage from falling.",
 				"In addition, you can use the rod to summon a buffeting gust of wind around you. While holding the rod aloft, you can use an action to expend 1 of its charges. When you do, powerful winds whip around you and blow everything within 20 feet of you skyward in a column of wind 60 feet high. Large and smaller creatures within range must succeed on a {@dc 15} Strength saving throw or be launched 30 feet upward before crashing back to the ground. Affected objects weighing less than 200 pounds are also launched by the wind. You automatically succeed on the saving throw unless you decide to fail. If you choose to fail the saving throw and use your reaction to summon the magical wings (if they weren’t already summoned), you’re carried upward 60 feet instead."
 			],
