@@ -7129,7 +7129,7 @@
 				"spirit guardians"
 			],
 			"entries": [
-				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. This weapon has 6 charges and regains {@dice1d4 + 2} expended charges daily at dusk. While holding this pike, you can expend 1 or more of its charges to cast one of the following spells from it (save {@dc 16}): {@spell mirror image} (1 charge), {@spell phantom steed} (1 charge), {@spell speak with dead} (1 charge), or {@spell spirit guardians} (2 charges).",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. This weapon has 6 charges and regains {@dice 1d4 + 2} expended charges daily at dusk. While holding this pike, you can expend 1 or more of its charges to cast one of the following spells from it (save {@dc 16}): {@spell mirror image} (1 charge), {@spell phantom steed} (1 charge), {@spell speak with dead} (1 charge), or {@spell spirit guardians} (2 charges).",
 				{
 					"name": "Spectral Warrior",
 					"entries": [
