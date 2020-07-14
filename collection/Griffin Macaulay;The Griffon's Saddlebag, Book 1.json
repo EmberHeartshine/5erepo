@@ -7137,9 +7137,9 @@
 					]
 				},
 				{
-					"name": "Spectral Warrior",
+					"name": "Haunting Phalanx",
 					"entries": [
-						"You can use an action while holding this pike to expend 3 of its charges and point it forward commandingly. Five spectral, pike-wielding warriors appear before you and march in a 25-foot-by-50-foot line in a direction you choose. Any creature within that line’s area must make a {@dc 16} Intelligence saving throw. On a failed save, a creature takes {@damage 3d10} necrotic damage and {@damage 3d10} psychic damage and is affected by the weapon’s {@i spectral warrior} property. On a success, the creature takes half as much damage and isn’t affected by the spectral warriors. Undead creatures automatically succeed on the saving throw."
+						"You can use an action while holding this pike to expend 3 of its charges and point it forward commandingly. Five spectral, pike-wielding warriors appear before you and march in a 25-foot-by-50-foot line in a direction you choose. Any creature within that line's area must make a {@dc 16} Intelligence saving throw. On a failed save, a creature takes {@damage 3d10} necrotic damage and {@damage 3d10} psychic damage and is affected by the weapon's {@i spectral warrior} property. On a success, the creature takes half as much damage and isn't affected by the spectral warriors. Undead creatures automatically succeed on the saving throw."
 					]
 				}
 			],
@@ -7165,8 +7165,8 @@
 			"recharge": "dawn",
 			"charges": 3,
 			"entries": [
-				"This bird-like mask’s blend of magic and science is as unique as it is helpful. It can be easily lifted over your face to eat or speak more clearly. The mask’s beak is lined with magical flowers that react to and purify airborne toxins before they pass through it. While wearing the mask, you have advantage against being {@condition poisoned} or diseased from airborne sources, as well as resistance to the poison damage that they might cause.",
-				"In addition, the flowers have 3 charges and regain {@dice 1d3} expended charges each day at dawn as new flowers bloom. As an action, you can hold the beak’s nostrils closed with a free hand and expend 1 of its charges to exhale a 15-foot cone of thick pollen in front of you. Creatures caught in the pollen must make a {@dc 15} Constitution saving throw. On a failed save, a creature’s speed is halved until the end of its next turn and takes {@damage 2d8} poison damage. On a success, its speed is unaffected and the poison damage is halved."
+				"This bird-like mask's blend of magic and science is as unique as it is helpful. It can be easily lifted over your face to eat or speak more clearly. The mask's beak is lined with magical flowers that react to and purify airborne toxins before they pass through it. While wearing the mask, you have advantage against being {@condition poisoned} or diseased from airborne sources, as well as resistance to the poison damage that they might cause.",
+				"In addition, the flowers have 3 charges and regain {@dice 1d3} expended charges each day at dawn as new flowers bloom. As an action, you can hold the beak's nostrils closed with a free hand and expend 1 of its charges to exhale a 15-foot cone of thick pollen in front of you. Creatures caught in the pollen must make a {@dc 15} Constitution saving throw. On a failed save, a creature's speed is halved until the end of its next turn and takes {@damage 2d8} poison damage. On a success, its speed is unaffected and the poison damage is halved."
 			],
 			"fluff": {
 				"images": [
@@ -7212,6 +7212,320 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Planar-Rapier.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Pomade of Ten Thousand Styles",
+			"source": "tgs1",
+			"page": 98,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"This canister of waxy pomade has magical properties, allowing you to change your hair's color, style, thickness, and length (up to 1 foot longer or shorter per use). The canister steadily replenishes its pomade over time. It can hold up to 4 uses at a time and regains {@dice 1d4} expended uses each day at dawn. Using 1 use of the pomade takes 1 minute.",
+				"Once you've used this product in your hair, it returns to its normal appearance after you finish a long rest. Hair produced by the pomade that's been cut off turns to dust after 24 hours. If you use the pomade every day for 7 days to make the same changes, the changes become permanent."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Pomade-of-Ten-Thousand-Styles.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Potion of Dragon's Breath (uncommon)",
+			"source": "tgs1",
+			"page": 98,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"entries": [
+				"This potion is crafted using the harvested stomach and gizzard of a fallen dragon. Drinking the potion as an action allows you to use an action on your subsequent turns to spew dragon-like projectiles. These projectiles are the same as a dragonborn's breath weapon, whose element and areas of effect are determined by the dragon it was sourced from. The effect lasts for 1 minute. Materials gathered from young dragons produce uncommon potions (dealing {@damage 3d6} damage with the breath weapon, save {@dc 13}).",
+				"It takes 7 days and proficiency with {@item alchemist's supplies|phb} to create the potion, requiring 2 hours of work each day in order to prepare it. Failing to tend to the potion causes it to reset, requiring another 7 days to craft. When the potion resets in this way, roll a {@dice d20}. On a 1, the potion spoils and is lost."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Potion-of-Dragons-Breath.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Potion of Dragon's Breath (rare)",
+			"source": "tgs1",
+			"page": 98,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"entries": [
+				"This potion is crafted using the harvested stomach and gizzard of a fallen dragon. Drinking the potion as an action allows you to use an action on your subsequent turns to spew dragon-like projectiles. These projectiles are the same as a dragonborn's breath weapon, whose element and areas of effect are determined by the dragon it was sourced from. The effect lasts for 1 minute. Materials gathered from adult dragons produce rare potions (dealing {@damage 4d6} damage with the breath weapon, save {@dc 15}).",
+				"It takes 7 days and proficiency with {@item alchemist's supplies|phb} to create the potion, requiring 2 hours of work each day in order to prepare it. Failing to tend to the potion causes it to reset, requiring another 7 days to craft. When the potion resets in this way, roll a {@dice d20}. On a 1, the potion spoils and is lost."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Potion-of-Dragons-Breath.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Potion of Dragon's Breath (very rare)",
+			"source": "tgs1",
+			"page": 98,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"entries": [
+				"This potion is crafted using the harvested stomach and gizzard of a fallen dragon. Drinking the potion as an action allows you to use an action on your subsequent turns to spew dragon-like projectiles. These projectiles are the same as a dragonborn's breath weapon, whose element and areas of effect are determined by the dragon it was sourced from. The effect lasts for 1 minute. Materials gathered from ancient dragons produce very rare potions (dealing {@damage 6d6} damage with the breath weapon, save {@dc 16}).",
+				"It takes 7 days and proficiency with {@item alchemist's supplies|phb} to create the potion, requiring 2 hours of work each day in order to prepare it. Failing to tend to the potion causes it to reset, requiring another 7 days to craft. When the potion resets in this way, roll a {@dice d20}. On a 1, the potion spoils and is lost."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Potion-of-Dragons-Breath.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Potion of Spell Recovery",
+			"source": "tgs1",
+			"page": 98,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"entries": [
+				"When you drink this potion, you recover expended spells slots with a combined level that is equal to or less than {@dice 1d3 + 3}, and none of the slots can be 6th level or higher."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Potion-of-Spell-Recovery.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Prismatic Javelin",
+			"source": "tgs1",
+			"page": 98,
+			"baseItem": "javelin|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"T"
+			],
+			"range": "60/150",
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"entries": [
+				"This dark crystal javelin has a prismatic head that can refract light into beautiful displays of color. Immediately after you throw this javelin and it hits a target within 120 feet of you, the javelin disappears in a small burst of light before reappearing in your open hand.",
+				"As an action, you can throw the javelin at a point you can see within 120 feet of you and speak its command word. When the javelin lands, it erupts in a dazzling display of color and light, casting painful bright light in a 20-foot radius and dim light for another 20 feet. Creatures of your choice within the bright light must make a {@dc 13} Dexterity saving throw. For each creature hit by the light, roll a {@dice d6} to determine the color of light that hits it and type of damage that it takes using the table below. A creature that fails the saving throw takes {@damage 2d10} damage for each beam of light that hits it of the type determined by the table. A creature behind total cover from the javelin is not affected. Once this property has been used, it can't be used again until the next dawn.",
+				{
+					"type": "table",
+					"caption": "Prismatic Javelin Beams",
+					"colLabels": [
+						"d6",
+						"Color",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-3",
+						"col-8"
+					],
+					"rows": [
+						[
+							"1",
+							"Red",
+							"Fire"
+						],
+						[
+							"2",
+							"Orange",
+							"Acid"
+						],
+						[
+							"3",
+							"Yellow",
+							"Ligtning"
+						],
+						[
+							"4",
+							"Green",
+							"Poison"
+						],
+						[
+							"5",
+							"Blue",
+							"Cold"
+						],
+						[
+							"6",
+							"Special",
+							"The creature is struck by two beams of light. Roll twice more, rerolling any 6."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Prismatic-Javelin.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Profane Mask",
+			"source": "tgs1",
+			"page": 99,
+			"tier": "major",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This cloth mask converts the words that pass through it into vile obscenities. While wearing the mask over your mouth, your words are heard as angry insults and swears instead of the ones you intend. You do not hear these words. A creature can make a {@dc 10} Intelligence ({@skill Investigation}) or Wisdom ({@skill Insight}) check to determine that the words it hears are not your own. Verbal spell components, command words, and actual obscenities you say are unaffected by the mask's magic and are heard normally by creatures within earshot."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Profane-Mask.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Purging Dagger",
+			"source": "tgs1",
+			"page": 99,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"reqAttune": true,
+			"weapon": true,
+			"entries": [
+				"This chiseled wooden dagger is a relic crafted from the bough of a holy tree and is always miraculously sharp. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The dagger deals an extra {@damage 1d4} radiant damage to any target it hits. The extra damage increases to {@damage 2d4} when you use the dagger to attack an undead creature, causing blue tongues of holy flame to flash along the weapon's edge.",
+				"When you roll a 20 on an attack roll made with this weapon against an undead creature, you can choose to plunge the blade into the creature's body and leave it there. When you do, the dagger emits bright light in a 15-foot radius and dim light for another 15 feet. The light is sunlight. While the blade is lodged in a target in this way, that target takes {@damage 3d4} radiant damage at the start of each of its turns, and the dagger continues to emit sunlight. A creature can use an action to make a {@dc 16} Strength check, freeing the dagger from the target on a success. Once freed, the blade vanishes and reappears on the ground at your feet or in your hand if you have one free."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Purging-Dagger.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Purity Spear",
+			"source": "tgs1",
+			"page": 99,
+			"baseItem": "spear|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"weapon": true,
+			"reqAttune": "by a good-aligned creature",
+			"bonusWeapon": "+2",
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"calm emotions",
+				"detect evil and good",
+				"dispel evil and good",
+				"greater restoration",
+				"misty step",
+				"purify food and drink"
+			],
+			"entries": [
+				"This beautiful spear has a long handle carved of ivory and is tipped with the spiraling horn of a unicorn. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"While attuned to the spear, you are immune to the {@condition poisoned} condition and have immunity to poison damage. In addition, you have advantage on Constitution and Wisdom saving throws to resist spells and other magical effects.",
+				"The spear has 10 charges and regains {@dice 1d6 + 4} expended charges daily at dawn. While holding the spear, you can expend 1 or more of its charges to cast the following spells from it (save {@dc 17}): {@spell calm emotions} (2 charges), {@spell detect evil and good} (1 charge), {@spell dispel evil and good} (5 charges), {@spell greater restoration} (5 charges), {@spell misty step} (2 charges), or {@spell purify food and drink} (1 charge). In addition, you can use an action to expend 1 of its charges to touch a creature with the spear. That creature regains {@dice 2d8 + 2} hit points and is cured of one poison or disease afflicting it.",
+				{
+					"name": "Charge",
+					"entries": [
+						"If you move at least 20 feet straight toward a target and hit it with the spear on the same turn, the target takes an extra {@damage 2d8} piercing damage."
+					]
+				},
+				{
+					"name": "Curse Breaker",
+					"entries": [
+						"While attuned to the spear, you are immune to being cursed by spells and other abilities. For the purposes of this property, a curse refers to any spell or ability that has \"curse\" in its name or description. If you are already afflicted with a curse when you attune to the spear or are attuned to a cursed item, you suppress the effects of the curse for as long as you remain attuned to the spear. If you break your attunement with the spear, the curse is no longer suppressed."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Mirrorlight-Piercer.jpg"
 						}
 					}
 				]
@@ -11988,7 +12302,7 @@
 				"rarity": "rare",
 				"entries": [
 					"This bolt or arrow is fletched with {@creature phoenix|mtf} feathers and is magically bound to a small quiver. You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once fired, the ammunition bursts into flames upon impact and deals fire damage instead of piercing. At the start of your next turn, the arrow leaves behind a small pile of ash and reappears in its quiver.",
-					"You can speak the ammunition’s command word as a bonus action before firing it to set it ablaze. If you fire it on that same turn, the arrow or bolt deals an extra {@damage 1d6} fire damage to any target it hits, but turns to ash before reaching its target if fired at a target more than 30 feet away. The arrow reappears in its quiver immediately after making this attack.",
+					"You can speak the ammunition's command word as a bonus action before firing it to set it ablaze. If you fire it on that same turn, the arrow or bolt deals an extra {@damage 1d6} fire damage to any target it hits, but turns to ash before reaching its target if fired at a target more than 30 feet away. The arrow reappears in its quiver immediately after making this attack.",
 					"You can store up to 10 other arrows in the quiver but can only have 1 Phoenix Arrow bound to it at a time. If the arrow is ever destroyed, it reappears in the quiver after 24 hours. Firing the arrow or bolt into an antimagic field renders it nonmagical while within the field, allowing the ammunition to be permanently destroyed."
 				],
 				"fluff": {
