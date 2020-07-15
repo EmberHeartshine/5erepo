@@ -8125,6 +8125,9 @@
 			"tier": "major",
 			"type": "RG",
 			"rarity": "rare",
+			"attachedSpells": [
+				"wall of fire"
+			],
 			"entries": [
 				"This ring is made of magical fire. While wearing it, you can use it to cast the {@spell wall of fire} spell (spell save {@dc 15}).",
 				"When cast from the ring, the wall must be in a circle centered on you. The {@i wall of fire} is 20 feet tall and 1 foot thick."
@@ -8148,6 +8151,9 @@
 			"tier": "major",
 			"type": "RG",
 			"rarity": "very rare",
+			"attachedSpells": [
+				"wall of ice"
+			],
 			"entries": [
 				"This ring is made of magical ice. While wearing it, you can use it to cast the {@spell wall of ice} spell (spell save {@dc 16}).",
 				"When cast from the ring, the wall must be in a circle centered on you. The {@i wall of ice} is 10 feet tall and 1 foot thick."
@@ -8171,6 +8177,9 @@
 			"tier": "major",
 			"type": "RG",
 			"rarity": "rare",
+			"attachedSpells": [
+				"wall of stone"
+			],
 			"entries": [
 				"This ring is made of magical stone. While wearing it, you can use it to cast the {@spell wall of stone} spell (spell save {@dc 15}).",
 				"When cast from the ring, the wall must be in a circle centered on you. The {@i wall of stone} is 10 feet tall and 6 inches thick."
@@ -8194,6 +8203,9 @@
 			"tier": "major",
 			"type": "RG",
 			"rarity": "uncommon",
+			"attachedSpells": [
+				"wind wall"
+			],
 			"entries": [
 				"This ring is made of magical wind. While wearing it, you can use it to cast the {@spell wind wall} spell (spell save {@dc 13}).",
 				"When cast from the ring, the wall must be in a circle centered on you. The {@i wind wall} is 15 feet tall and 1 foot thick."
@@ -8297,6 +8309,286 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Rocborne-Rod.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sandstorm Dancer",
+			"source": "tgs1",
+			"page": 109,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 8,
+			"attachedSpells": [
+				"blur",
+				"call lightning",
+				"create or destroy water",
+				"hallucinatory terrain"
+			],
+			"entries": [
+				"This golden cloak billows illusory sand around you when you walk or cast a spell. The cloak has 8 charges and regains {@dice 1d6 + 2} expended charges daily at dawn. While wearing the cloak, you can expend 1 or more of its charges to cast the following spells from it (save {@dc 15}): {@spell blur} (2 charges), {@spell call lightning} (3 charges), {@spell create or destroy water} (1 charge), or {@spell hallucinatory terrain} (4 charges)."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Sandstorm-Dancer.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Scholar's Cap +1",
+			"source": "tgs1",
+			"page": 109,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This hat carries with it the cleverness and knowledge of many previous scholars. While wearing the hat, you gain a +1 bonus to Intelligence checks and saving throws.",
+				"In addition, when it would normally take you at least 1 week in order to research a subject, you instead finish that research 1 day faster for each week you would have spent."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Scholars-Cap.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Scholar's Cap +2",
+			"source": "tgs1",
+			"page": 109,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This hat carries with it the cleverness and knowledge of many previous scholars. While wearing the hat, you gain a +2 bonus to Intelligence checks and saving throws.",
+				"In addition, when it would normally take you at least 1 week in order to research a subject, you instead finish that research 2 days faster for each week you would have spent."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Scholars-Cap.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Scholar's Cap +3",
+			"source": "tgs1",
+			"page": 109,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This hat carries with it the cleverness and knowledge of many previous scholars. While wearing the hat, you gain a +3 bonus to Intelligence checks and saving throws.",
+				"In addition, when it would normally take you at least 1 week in order to research a subject, you instead finish that research 3 days faster for each week you would have spent."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Scholars-Cap.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Scorching Cleaver",
+			"source": "tgs1",
+			"page": 109,
+			"baseItem": "battleaxe|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"recharge": "dawn",
+			"charges": 8,
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This battleaxe has 8 charges and regains {@dice 1d6 + 2} expended charges each day at dawn. As long as the weapon has at least 1 charge, attacks you make with it deal an extra {@damage 1d6} fire damage to any target it hits. When you roll a 20 on an attack roll made with this weapon, it regains 3 expended charges.",
+				{
+					"name": "Erupting Slash",
+					"entries": [
+						"As an action, you can expend 3 or more of the battleaxe’s charges to slash the air in front you. When you do, a line of fire 30 feet long and 5 feet wide erupts from the blade. Creatures within the line must succeed on a Dexterity saving throw or take {@damage 1d6} fire damage for each expended charge. If you expend 4 or more charges in this way and leave the battleaxe with 0 remaining charges, the weapon overheats. When it overheats, targets within the line take an extra {@damage 3d6} fire damage, and creatures that succeed on the Dexterity saving throw take half damage instead of avoiding the effect. The DC for this property’s saving throw is equal to 8 + your proficiency bonus + the number of charges you expend."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Scorching-Cleaver.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Screaming Longbow",
+			"source": "tgs1",
+			"page": 110,
+			"baseItem": "longbow|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"ammoType": "arrow|phb",
+			"charges": 4,
+			"entries": [
+				"Arrows fired from this sickly longbow let out a screeching howl audible up to 100 feet away as they fly by. Creatures struck by these arrows take an extra {@damage 2d4} thunder damage. When you roll a 20 on an attack roll made with this weapon, all creatures within 5 feet of the target must succeed on a {@dc 15} Constitution saving throw or be {@condition deafened} for 1 minute."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Screaming-Longbow.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sea Serpent Hairpin",
+			"source": "tgs1",
+			"page": 110,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This golden, twisting hair pin wraps around a tiny silver sword and gives your fingers and skin a slight grip while underwater. While wearing this pin, you have advantage on Strength ({@skill Athletics}) checks you make in order to grapple another creature while you are either submerged or swimming in water."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Sea-Serpent-Hairpin.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Seafarer's Jacket",
+			"source": "tgs1",
+			"page": 110,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"fog cloud"
+			],
+			"entries": [
+				"This long captain’s jacket carries with it an air of authority. Water slides off of it with ease and magically enhances your comfort in the ocean. You gain a swimming speed equal to your walking speed while wearing the jacket as well as proficiency with water vehicles and navigator’s tools. If you already have proficiency with water vehicles and navigator’s tools, your proficiency bonus is doubled when using them. In addition, you can use the jacket to cast the {@spell fog cloud} spell at 2nd level. Once the jacket has been used to cast this spell, it can’t be used to cast the spell again until the following dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Seafarers-Jacket.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Seat Belt",
+			"source": "tgs1",
+			"page": 110,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While standing on a solid surface, you can begin to sit down in an open space as if there were a chair beneath you. When you would normally crouch or fall to the ground when doing this, you can mentally command the belt to summon an invisible, incorporeal chair as a bonus action instead. The chair can be of any style you choose, such as a stool, recliner, throne, or rocking chair, and can support up to 500 pounds. While it is comfortable, it is nevertheless invisible, and cannot be interacted with beyond simply sitting on. The chair disappears if it is no longer on a solid surface, you stand up, or if you’re pushed or moved while sitting on it."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Seat-Belt.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Seed of Rebirth",
+			"source": "tgs1",
+			"page": 110,
+			"tier": "major",
+			"rarity": "legendary",
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"plant growth",
+				"reincarnate"
+			],
+			"entries": [
+				"This fist-sized, magic seed can be attuned to by up to 4 creatures over the course of a long rest. Each creature attuned to the seed must participate in gently planting it in fertile soil. The seed immediately begins to flourish, growing into a majestic, flowering tree over the course of 7 days. The tree is 60 feet tall and 5 feet in diameter at its base, and its canopy extends out in a 30-foot radius from the center of the tree. The tree has a number of large limbs equal to the number of creatures attuned to the seed. Once planted in this way, no other creatures can attune to the seed. Your attunement to the seed is broken early if you commit a malicious affront to nature.",
+				"When a creature attuned to the seed dies and remains dead for 1 minute, its soul returns to the tree and its body crumbles into a rich soil that recreates the {@spell plant growth} spell, centered on the body. The soul returns to the tree regardless of the circumstance, distance, or plane of existence of the creature’s death. The returned soul is stored in a shelled nut that the tree grows at the time of the creature’s death. After {@dice 1d6 + 1} days, the nut falls from the tree and breaks apart, revealing the reborn creature inside. The creature is reborn as if by the {@spell reincarnate} spell. Once a creature is reborn in this way, its attunement to the seed is broken.",
+				"When a creature’s attunement to the seed is broken, the branch associated with that creature withers and dies. The tree is magical and can’t be destroyed by nonmagical means. If the tree is destroyed, all creatures attuned to the seed are no longer attuned to it. Any creature attuned to the seed is magically alerted if the tree is being attacked or destroyed, or if one of the branches begins to wither. Once all of the tree’s branches wither in this way or are destroyed, the tree splits apart and disintegrates, releasing another seed of rebirth to the astral winds that carry it to a new location on a different plane of existence."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Seed-of-Rebirth.jpg"
 						}
 					}
 				]
@@ -13083,6 +13375,38 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Phoenix-Arrow.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Runic Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Runic ",
+				"source": "tgs1",
+				"page": 109,
+				"tier": "minor",
+				"rarity": "rare",
+				"bonusWeapon": "+1",
+				"entries": [
+					"Runic ammunition resembles normal bolts, arrows, or stones that are etched with runes and are magically discordant to spellcasters. When a creature concentrating on a spell or magical effect is hit by a piece of runic ammunition, that creature makes the resulting Constitution saving throw to maintain its concentration with disadvantage.",
+					"You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Runic-Ammunition.jpg"
 							}
 						}
 					]
