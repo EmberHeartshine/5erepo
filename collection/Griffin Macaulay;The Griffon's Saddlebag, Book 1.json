@@ -8982,7 +8982,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Shapshifters-Circlet.jpg"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Shapeshifters-Circlet.jpg"
 						}
 					}
 				]
@@ -9065,6 +9065,162 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Sheer-Cold.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shield of Yggdrasil",
+			"source": "tgs1",
+			"page": 115,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"reqAttune": "by a creature with a Strength score of 17 or higher",
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"You must have a Strength of 17 or higher in order to wield this massive, magical tower shield. The shield is of dwarven make and functions as a small battlement, granting you an additional +1 bonus to your AC while you wield it. This bonus is in addition to the shield’s normal bonus to AC.",
+				{
+					"name": "Shield Plant",
+					"entries": [
+						"As a bonus action, you can plant this shield on the ground to barricade yourself behind it, granting you half cover against ranged attacks from the direction you’re facing. While you wield the planted shield, bludgeoning, piercing, and slashing damage you take from nonmagical weapons is reduced by 3, but your movement speed becomes 5 feet. You can uproot the shield to end this effect as an action.",
+						"You can doff the shield when planting it by using an action to do so instead of a bonus action. The shield magically remains upright and in place and can be used as half cover to any creature standing immediately behind it in the space it was left in. The shield falls down when you fall unconscious or when knocked over following a successful {@dc 20} Strength ({@skill Athletics}) check. You can move the shield while it’s planted by donning the shield again.",
+						"This shield has 3 charges and regains all expended charges each day at dawn. You can expend 1 charge when you plant this shield or later on a subsequent turn as a bonus action to send out metal roots along the ground in a 10-foot radius, centered on the shield. Enemy creatures treat this area as difficult terrain. Moving the shield also moves the roots. The roots remain until you uproot the shield or it falls over."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Shield-of-Yggdrasil.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shielding Turtle Sugarbombs",
+			"source": "tgs1",
+			"page": 115,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"bonusAc": "+1",
+			"entries": [
+				"These sticky chocolate candies are filled with an enchanted molasses and caramel center and come in packs of 2. You can eat one of these sugarbombs as an action. When you do, your movement speed is reduced by 10 feet for 1 minute. If you are proficient with shields and are wearing one on your back, you gain a +1 bonus to your AC while your speed is reduced in this way. If you’re wielding a shield, you don’t gain this bonus to your AC.",
+				{
+					"name": "Upset Stomach",
+					"entries": [
+						"You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a {@dc 13} Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become {@condition poisoned} for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Shielding-Turtle-Sugarbombs.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Signet Rings of Blindness, Deafness, and Silence",
+			"source": "tgs1",
+			"page": 116,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "rare",
+			"recharge": "dawn",
+			"charges": 1,
+			"entries": [
+				"Each of these three signets is decorated with the carving of a skull and a pair of skeletal hands that cover either its eyes (blindness), ears (deafness), or mouth (in an area of silence). Each ring has 1 charge, which it regains each day at dawn. If you are wearing the corresponding signet when you are blinded, deafened, or in an area of magical silence, you can expend the ring’s charge (no action required) to be cured of the condition or speak a word or phrase (such as a verbal arcane components) that can be heard through magical silence. Wearing the rings together as a set combines their collective charges: potentially allowing you to use one ring’s properties multiple times."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Signet-Rings-of-Blindness-Deafness-and-Silence.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Signet Rings of the Fey Court",
+			"source": "tgs1",
+			"page": 116,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "very rare",
+			"reqAttune": "by an elf, half-elf, or other fey creature",
+			"recharge": "long rest",
+			"charges": 8,
+			"attachedSpells": [
+				"druidcraft"
+			],
+			"entries": [
+				"This set of wooden rings once belonged to a powerful fey creature who ruled over a domain on their native plane of existence. You must be wearing all four rings in order to attune to and use their magic. While wearing the rings, you know the {@spell druidcraft} cantrip. In addition, you gain the elf’s Trance racial trait if you don’t already have it.",
+				{
+					"name": "Season's Resistance",
+					"entries": [
+						"Each of the four rings has a corresponding season: autumn, spring, summer, or winter. Each ring contains 2 charges and regains all expended charges when you finish a long rest. You can expend 1 of a particular ring’s charges as a reaction when you take damage of a type corresponding to that ring in order to gain resistance to that damage type until the start of your next turn, including against the triggering effect: autumn (necrotic damage resistance), spring (radiant damage resistance), summer (fire damage resistance), or winter (cold damage resistance)."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Alternatively, you can expend any 2 charges from the rings as a reaction when you’re affected by a hostile spell or other magical effect in order to gain advantage on saving throws against spells and magical effects until the start of your next turn. The 2 charges do not need to be from the same ring."
+					]
+				},
+				"Once a ring has no remaining charges, the small landscape adorning the top of it withers until it regains its charges."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Signet-Rings-of-the-Fey-Court.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Silken Socks of Slickening",
+			"source": "tgs1",
+			"page": 116,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"attachedSpells": [
+				"grease"
+			],
+			"entries": [
+				"This pair of magic, smooth socks are iridescent and oily to the touch. While wearing both socks on your feet, you can use them to cast the {@spell grease} spell as an action (save {@dc 13}). When you do, the spell targets a 10-foot square area adjacent to you. The magical oil runs off the socks to the ground at your feet, causing the ground to become slick. Once used, this property of the socks can’t be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Silken-Socks-of-Slickening.jpg"
 						}
 					}
 				]
@@ -13883,6 +14039,43 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Runic-Ammunition.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Silver Eagle Weapons",
+			"type": "GV",
+			"requires": [
+				{
+					"name": [
+						"Greataxe",
+						"Greatsword",
+						"Lance",
+						"Maul"
+					]
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silver Eagle ",
+				"source": "tgs1",
+				"page": 116,
+				"tier": "major",
+				"rarity": "uncommon",
+				"bonusWeapon": "+1",
+				"dmg1": "2d6",
+				"entries": [
+					"You gain a +1 bonus to attack and damage rolls made with this silvered, magic weapon of elven make. This weapon deals {@damage 2d6} damage instead of its normal damage dice, and landing a critical hit with the weapon doesn’t double the weapon’s damage dice. Whenever you land an attack with the weapon and roll the same number on both of the weapon’s damage dice, you can immediately roll another {@damage d6} and add it to the weapon’s damage dice. You can continue rolling extra damage dice until you roll a number that does not match the previous rolls."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Silver-Eagle-Weapons.jpg"
 							}
 						}
 					]
