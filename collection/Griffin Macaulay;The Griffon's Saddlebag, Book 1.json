@@ -9225,6 +9225,327 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Silver Lycan Chime",
+			"source": "tgs1",
+			"page": 117,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This small silver bell exudes divination magic, especially while under a full moon. When hung, the bell rings a unique, magical melody if a shapechanger passes no more than 15 feet underneath it. Different kinds of shapechangers cause the bell to emit a different sound. The melody is quiet but is nevertheless audible out to 100 feet.",
+				"Under a full moon, the range of the bell’s magic changes. During a full moon, any shapechanger within 60 feet of the bell causes it to play its melody."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Silver-Lycan-Chime.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Singing Stein",
+			"source": "tgs1",
+			"page": 117,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While this pewter stein holds at least a sip’s worth of potable alcohol, the face adorning it comes alive to sing songs based on the kind of drink. The stein is not sentient, but does have a pleasant singing voice. If there are multiple steins in the same room, they can sing together in harmony if they have the same drinks within them.",
+				"The stein sings songs slightly out of key if the drink inside is poisoned, which can be heard following a successful Wisdom ({@skill Perception}) check as determined by the GM. If there are multiple kinds of alcohol within it, the stein either alternates between song types or does its best to combine their various lyrics.",
+				{
+					"type": "table",
+					"caption": "Singing Stein Songs",
+					"colLabels": [
+						"Example Drink",
+						"Type of Song"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Wine",
+							"Ballad"
+						],
+						[
+							"Rum",
+							"Sea Shanty"
+						],
+						[
+							"Ale",
+							"Drinking Song"
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Singing-Stein.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sirensong Silencer",
+			"source": "tgs1",
+			"page": 117,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While wearing the cuff, you have advantage on saving throws against being {@condition charmed}. In addition, tapping the ear cuff twice deafens you, although you can still faintly hear the sound of the ocean (no action required). Tapping the cuff twice again allows you to hear normally once more."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Sirensong-Silencer.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sling of the Tiny Giant",
+			"source": "tgs1",
+			"page": 117,
+			"baseItem": "sling|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "rare",
+			"weaponCategory": "simple",
+			"property": [
+				"A"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"reqAttune": true,
+			"ammoType": "sling bullet|phb",
+			"entries": [
+				"This wicked sling is devastating against foes larger than yourself. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and when you hit a creature with a ranged attack using this sling, the creature takes an extra {@damage 1d4} force damage for each size larger than you it is (up to an extra {@damage 3d4} damage).",
+				"In addition, when you roll a 20 on an attack roll made with the sling, the target must succeed on a {@dc 15} Strength saving throw or be pushed up to 10 feet away from you and knocked {@condition prone}. If the affected creature is Large or larger, it has disadvantage on the saving throw."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Sling-of-the-Tiny-Giant.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Smash Potatoes",
+			"source": "tgs1",
+			"page": 117,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This hearty root vegetable is grown by the clerics and champions of a god of war and combat, whose strength is said to make its way onto the Material Plane through their gardens. Eating one of these vaguely fist-shaped potatoes will cause your hands to itch for the thrill of combat. Eating a potato increases your unarmed damage to {@damage 1d4} for 1 hour. Each additional eaten potato increases the duration by 1 hour. You can eat up to 3 potatoes before needing to finish a long rest to benefit from them again. If you already have an unarmed combat die that is 1d4 or higher, this vegetable has no effect but is nevertheless delicious."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Smash-Potatoes.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Snuff",
+			"source": "tgs1",
+			"page": 118,
+			"baseItem": "sickle|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+1",
+			"attachedSpells": [
+				"dispel magic"
+			],
+			"entries": [
+				"This dark metal sickle was forged with an unusually harsh angle and has a unique power over light and shadow. You gain a +1 bonus to attack and damage rolls made with this magic weapon. You can speak the sickle’s command word as an action to dispel magical lights and extinguish nonmagical flames within 60 feet of you. Magical lights dispelled in this way are affected as if they were targeted by the {@spell dispel magic} spell. Once this property of the sickle has been used, it can’t be used again until the next dusk.",
+				"As an action, you can draw your hand over the sickle’s handle to magically extend it downward: turning the sickle into the form of a scythe wreathed in shadow. While in this form, the sickle has the two-handed and reach properties. While holding the weapon, you can return the sickle to its one-handed form using a bonus action.",
+				"This weapon is particularly lethal to creatures. Creatures hit by this weapon take an extra {@damage 1d6} psychic damage. This bonus increases to {@damage 2d6} if the weapon is transformed into the scythe."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Snuff.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Snugglebeast (Owlbear)",
+			"source": "tgs1",
+			"page": 118,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted toys. The common {@creature owlbear} variant of the snugglebeast restores {@dice 1d6} hit points. Once this property of the snugglebeast has been used by a creature, that creature can’t benefit from the same snugglebeast again in this way until it finishes a long rest."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Snugglebeast-Owlbear.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Snugglebeast (Unicorn)",
+			"source": "tgs1",
+			"page": 118,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted toys. The uncommon {@ceature unicorn} variant of the snugglebeast restores {@dice 2d6} hit points. Once this property of the snugglebeast has been used by a creature, that creature can’t benefit from the same snugglebeast again in this way until it finishes a long rest."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Snugglebeast-Unicorn.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Snugglebeast (Dragon)",
+			"source": "tgs1",
+			"page": 118,
+			"tier": "minor",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted toys. The rare dragon variant of the snugglebeast restores {@dice 3d6} hit points. Once this property of the snugglebeast has been used by a creature, that creature can’t benefit from the same snugglebeast again in this way until it finishes a long rest."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Snugglebeast-Dragon.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Snugglebeast (Tarrasque)",
+			"source": "tgs1",
+			"page": 118,
+			"tier": "minor",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted toys. The very rare {@creature tarrasque} variant of the snugglebeast restores {@dice 4d6} hit points. Once this property of the snugglebeast has been used by a creature, that creature can’t benefit from the same snugglebeast again in this way until it finishes a long rest."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Snugglebeast-Tarrasque.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Socks of the Well-Rested",
+			"source": "tgs1",
+			"page": 118,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Wearing these comfortable enchanted socks allows you to recover an additional Hit Die (up to your maximum) upon finishing a long rest. You must be wearing both socks on your feet in order to gain this benefit. You can only benefit from wearing one pair of these socks at a time."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Socks-of-the-Well-Rested.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Spellwoven Robes",
+			"source": "tgs1",
+			"page": 118,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"These robes are spun from special, magic-sensitive threads, causing arcane glyphs to appear on the robe while you wear it whenever you cast a spell. While wearing these robes and no other armor, your AC is equal to 10 + your spellcasting ability modifier. In addition, whenever you cast a spell of 1st level or higher, you can change the apparent style, color, and apparent material of the robe. Regardless of its appearance, it is always a robe and its weight remains the same."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Spellwoven-Robes.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
