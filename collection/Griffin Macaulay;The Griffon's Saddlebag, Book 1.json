@@ -8593,6 +8593,176 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Septum Ring of the Great Minotaur",
+			"source": "tgs1",
+			"page": 111,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This septum barbell is made from tempered gold and studded with rubies. While wearing this ring as a nose piercing, your Strength score increases by 2, to a maximum of 22, and you have advantage on Strength checks. In addition, your carrying capacity doubles, and you can perfectly recall any path you’ve traveled within the last 24 hours."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Septum-Ring-of-the-Great-Minotaur.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Serpent Dart",
+			"source": "tgs1",
+			"page": 111,
+			"baseItem": "dart|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 0.25,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"You can use an action to cause thick, emerald green poison to coat this magic dart. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a {@dc 13} Constitution saving throw or take an extra {@damage 2d8} poison damage from the attack and become {@condition poisoned} for 1 minute. Once this property has been used, it can’t be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Serpent-Dart.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Servitude Choker",
+			"source": "tgs1",
+			"page": 111,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This necklace can animate small nonliving objects and have them fulfill simple tasks for you. As an action, you can drape or wrap the necklace around a Small or smaller nonmagical object that weighs less than 50 pounds and isn’t attached to or carried by anything else. The adorned object springs to life, sprouting little arms and legs, and becomes a mindless creature under your control until you remove the necklace or it takes damage. The servant has an AC of 10 and a movement speed of 20 feet.",
+				"As a bonus action, you can mentally command the servant if it’s within 60 feet of you. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. The servant can’t attack, activate magic items, or carry more than 10 pounds. Once you give it a command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command. If you command the servant to perform a task that would put it in danger or move it more than 60 feet away from you, the servant does nothing.",
+				"The necklace can animate an object for up to 8 hours or until it takes damage. When the effect ends, the necklace can’t be used again for another {@dice 1d8} hours."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Servitude-Choker.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Set of Numat's Trick Tubes",
+			"source": "tgs1",
+			"page": 112,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This drab pair of empty ceramic cylinders are magically linked. Each vessel is 3 inches in diameter and 1 foot tall. Placing an item inside one of the vessels and closing the lid will magically teleport it to the second tube, making a quiet whoosh sound when it does. A similarly quiet thud can be heard when receiving an item. A tube can’t send more than 2 pounds of material at a time and can’t be used to send a creature. Both vessels must be on the same plane of existence and have their lids closed in order for an item to be teleported between them."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Set-of-Numats-Trick-Tubes.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Set of Secret Scribe Candles",
+			"source": "tgs1",
+			"page": 112,
+			"tier": "minor",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This pair of candles are magically linked and never seems to run out of wick.",
+				"You can light one of the candles to cause it to burn with a blue flame. By holding parchment over the flame, any ink on the page is burnt off, leaving the paper unmarked. When you finish using the candle in this way, you can extinguish the flame as you normally would. Once you do, the linked candle suddenly comes alight with a normal, orange fire, that cannot be extinguished by nonmagical means. The newly lit candle gives off a faint lavender scent. By holding a plain piece of parchment over the orange flame, the ink from the first piece of parchment is magically burnt onto the new one as the candle heats it. Once all the ink has been transcribed onto new parchment in this way, the orange flame winks out."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Set-of-Secret-Scribe-Candles.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shadow Drinker",
+			"source": "tgs1",
+			"page": 112,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"reqAttune": true,
+			"weapon": true,
+			"entries": [
+				"This wicked dagger can absorb the shadows cast by your enemies. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"When you hit a Small or larger hostile creature with a melee attack using this dagger, you can choose to absorb that creature’s shadow as part of the attack. When you do, that creature no longer casts a shadow, and the dagger becomes shrouded in a dark haze that extends to you while you hold the dagger. While this haze is also surrounding you, you are invisible in areas of dim light and darkness.",
+				"The dark haze surrounds the dagger for 10 minutes or until you end it as a bonus action. The haze ends early after you attack or cast a spell. If a creature is hit by the dagger while it’s shrouded in this haze, the creature takes an extra 1d6 psychic damage from the attack. This bonus damage increases to 2d6 if the creature hit by the dagger is missing its shadow. Once the haze ends, the shadow immediately returns to the creature from whom it was taken.",
+				"You can only have 1 shadow absorbed in this way at a time. Once you steal a creature’s shadow, you can’t steal that same creature’s shadow again until the following dusk.",
+				{
+					"name": "Curse",
+					"entries": [
+						"You have vulnerability to radiant damage while you’re attuned to this weapon."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Shadow-Drinker.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
