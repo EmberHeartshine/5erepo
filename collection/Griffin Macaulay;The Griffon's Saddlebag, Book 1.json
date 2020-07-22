@@ -7176,6 +7176,7 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
+			"reqAttune": true,
 			"bonusWeapon": "+2",
 			"recharge": "dawn",
 			"charges": 5,
@@ -10620,8 +10621,8 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"This mechanical lance has bladed edges and has the heavy property. You can use a bonus action on your turn to extend or retract the weapon by twisting its handle. The weapon is a normal lance while it’s extended. If the lance is retracted, the end of the weapon rests inside the wider, bladed base and is considered to be a {@item greatsword} instead. This greatsword deals {@damage 1d12} slashing damage instead of 2d6.",
-				"While the weapon is retracted, you can choose to extend it as a bonus action immediately after hitting a target with an attack. If the target is a Large or smaller creature, it’s pushed 5 feet away from you.",
+				"This mechanical lance has bladed edges and has the heavy property. You can use a bonus action on your turn to extend or retract the weapon by twisting its handle. The weapon is a normal lance while it's extended. If the lance is retracted, the end of the weapon rests inside the wider, bladed base and is considered to be a {@item greatsword|phb} instead. This greatsword deals {@damage 1d12} slashing damage instead of 2d6.",
+				"While the weapon is retracted, you can choose to extend it as a bonus action immediately after hitting a target with an attack. If the target is a Large or smaller creature, it's pushed 5 feet away from you.",
 				{
 					"name": "Special",
 					"entries": [
@@ -10635,7 +10636,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Lance-of-the-Hungering-Dead.jpg"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Telescoping-Bladelance.jpg"
 						}
 					}
 				]
@@ -10651,7 +10652,7 @@
 			"reqAttune": true,
 			"entries": [
 				"You have resistance to lightning damage and make Dexterity saving throws to resist or avoid lightning spells and effects with advantage while wearing this cape.",
-				"While wearing the cape, you can use an action to speak its command word to transform into a bolt of lightning. When you do, choose an unoccupied space that you can see within 120 feet of you. You disappear from your current location and travel in a line that is 5 feet wide and up to 120 feet long to the chosen space. Any creature in the line or within 5 feet of either your old or new location must make a {@dc 16} Dexterity saving throw. A creature takes {@damage 3d10} lightning damage on a failed save, or half as much damage on a successful one. Once this property of the cape has been used, it can’t be used again until the next dawn."
+				"While wearing the cape, you can use an action to speak its command word to transform into a bolt of lightning. When you do, choose an unoccupied space that you can see within 120 feet of you. You disappear from your current location and travel in a line that is 5 feet wide and up to 120 feet long to the chosen space. Any creature in the line or within 5 feet of either your old or new location must make a {@dc 16} Dexterity saving throw. A creature takes {@damage 3d10} lightning damage on a failed save, or half as much damage on a successful one. Once this property of the cape has been used, it can't be used again until the next dawn."
 			],
 			"fluff": {
 				"images": [
@@ -10660,6 +10661,81 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Tempest-Griffon-Feather-Cape.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Tethervine Quiver",
+			"source": "tgs1",
+			"page": 132,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"type": "G",
+			"reqAttune": true,
+			"weight": 2,
+			"containerCapacity": {
+				"item": [
+					{
+						"arrow|phb": 20,
+						"crossbow bolt|phb": 20
+					}
+				]
+			},
+			"entries": [
+				"This seemingly overgrown quiver keeps a large plant magically concealed inside it. The quiver can store up to 20 arrows or bolts. When you draw a piece of ammunition from the quiver, you can speak the quiver's command word as a bonus action to magically connect the end of the ammunition to the plant inside the quiver. The plant is a rope-like vine that flies effortlessly behind a fired piece of ammunition. While wearing the quiver, you can use a bonus action to magically retract the vine up to 60 feet back into the quiver. Any object weighing less than 25 pounds hit by a connected piece of ammunition is pulled back toward the quiver when its retracted in this way. Despite the quiver's limitations, the rope-like vine can hold up to 250 pounds on its own.",
+				"If you hit a creature with an arrow or bolt that was connected to the vine, the vine magically disconnects itself and falls from the ammunition. You can disconnect the vine from the ammunition by speaking its command word again or by severing the vine from the quiver as a bonus action. Once severed, the vine is considered to be a mundane length of {@item hempen rope (50 feet)|phb|hemp rope}.",
+				"You can only fire a connected piece of ammunition as far as you have the vine to. The plant grows up to 120 feet long and regrows up to 30 feet of vine daily at dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Tethervine-Quiver.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "The Rose Basket",
+			"source": "tgs1",
+			"page": 132,
+			"baseItem": "rapier|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+2",
+			"entries": [
+				"This silver rapier has a rose adorning its crossguard and pommel and has thorns lining its hilt. You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon deals an extra {@damage 1d8} radiant damage to any shapechanger or fey creature it hits.",
+				{
+					"name": "Field of Roses",
+					"entries": [
+						"As an action, you can speak the rapier's command word and touch its point to the ground at your feet. When you do, silver rosebushes sprout from the ground in a 25-foot square, centered on your location. The area becomes difficult terrain, and when a creature moves into or within the area, it takes {@damage 2d4} piercing damage for every 5 feet it travels. While holding this rapier, you can pass through this area as if it were normal terrain, and you don't take damage from moving within it. The rosebushes remain for 1 minute or until you dismiss them as a bonus action. Once this property has been used, it can't be used again until the next dawn."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/The-Rose-Basket.jpg"
 						}
 					}
 				]
@@ -15501,11 +15577,6 @@
 					"name": "Maul"
 				}
 			],
-			"excludes": {
-				"name": [
-					"Sling Bullet"
-				]
-			},
 			"inherits": {
 				"namePrefix": "Silver Eagle ",
 				"source": "tgs1",
@@ -15545,7 +15616,7 @@
 				"tier": "major",
 				"rarity": "uncommon",
 				"entries": [
-					"This silver axe can temporarily bind a creature to its corporeal form. This axe deals an extra {@damage 1d6} force damage to any creature it hits that has the {@i incorporeal movement} trait. When it does, that creature can’t benefit from its {@i incorporeal movement} trait again until the end of its next turn."
+					"This silver axe can temporarily bind a creature to its corporeal form. This axe deals an extra {@damage 1d6} force damage to any creature it hits that has the {@i incorporeal movement} trait. When it does, that creature can't benefit from its {@i incorporeal movement} trait again until the end of its next turn."
 				],
 				"fluff": {
 					"images": [
@@ -15554,6 +15625,72 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Tether-Tearer.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Thornpiercer",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Dagger"
+				},
+				{
+					"name": "Shortsword"
+				},
+				{
+					"name": "Rapier"
+				},
+				{
+					"name": "Whip"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Thornpiercer ",
+				"source": "tgs1",
+				"page": 132,
+				"tier": "major",
+				"rarity": "legendary",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This rose has a stem large enough to hold like the hilt of a weapon. You can focus on the rose as a bonus action to cause it to grow one of the following weapons from its center: a {@item Thornpiercer Dagger|tgs1|dagger}, {@item Thornpiercer Shortsword|tgs1|shortsword}, {@item Thornpiercer Rapier|tgs1|rapier}, or {@item Thornpiercer Whip|tgs1|whip}. If the hilt already has a weapon growing from its center, the existing weapon withers away and disintegrates, allowing the new one to take its place.",
+					"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, targets hit by the weapon take an extra 1d4 piercing damage. If you are a druid or are proficient with either simple or martial weapons, you are proficient with the weapons that thornpiercer grows.",
+					"Each weapon option has a unique property:",
+					{
+						"name": "Dagger",
+						"entries": [
+							"When you throw this weapon, only the blade is thrown from the rose hilt. Hit or miss, when the blade reaches its target, it erupts into a burst of thorns. The target and up to 3 other creatures of your choice within 10 feet of it must succeed on a {@dc 17} Dexterity saving throw or take {@damage 1d4 + 2} piercing damage."
+						]
+					},
+					{
+						"name": "Rapier",
+						"entries": [
+							"When you roll a 20 on an attack roll with this weapon, the blade's thorns eviscerate the inside of the target and deal an extra {@damage 3d4} piercing damage. If the target was a Large or smaller creature, it must also make a {@dc 17} Constitution saving throw. On a failure, its hit point maximum is reduced by the amount of damage dealt by the attack. On a success, it's reduced by half the amount instead. Once the creature completes a short or long rest, its hit point maximum is restored."
+						]
+					},
+					{
+						"name": "Shortsword",
+						"entries": [
+							"The first creature hit by this weapon on each of your turns must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes an extra {@damage 1d6} poison damage and is {@condition poisoned} until the end of its next turn."
+						]
+					},
+					{
+						"name": "Whip",
+						"entries": [
+							"When you hit a Medium or smaller target with this weapon, you can attempt to grapple it with the whip. When you do, the target must succeed on a {@dc 17} Strength saving throw or be {@condition grappled} by viny whip. A grappled target takes {@damage 1d4} piercing damage from the whip's thorns at the start of each of its turns until it's freed. A creature can use its action to make a {@dc 17} Strength check, freeing itself or another creature within its reach on a success. The whip breaks off from the hilt when you successfully grapple a target in this way, allowing you to move freely while the target remains grappled."
+						]
+					}
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Thornpiercer.jpg"
 							}
 						}
 					]
