@@ -10419,6 +10419,7 @@
 			],
 			"range": "5/15",
 			"weapon": true,
+			"reqAttune": true,
 			"entries": [
 				"This gelatinous net is made with the enchanted remains of a gray ooze. A creature takes {@damage 1d6} acid damage when it's {@condition restrained} by the net and again at the end of each of its turns while it remains restrained by it. If the creature is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative \u22121 penalty to the AC it offers whenever it takes acid damage at the end of one of its turns. The armor is destroyed if the penalty reduces its AC to 10. A creature other than you who touches the net takes {@damage 1d6} acid damage.",
 				"The torn net is harmless. If more than half of the net can be salvaged and stored within a container large enough to hold 1 gallon of liquid for 12 hours, the net is repaired and can be used once more. Your attunement to the net ends if the net remains destroyed for longer than 2 days.",
@@ -15122,6 +15123,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"bonusWeapon": "+1",
+				"reqAttune": "by a dragonborn",
 				"entries": [
 					"These weapons are made of a scaly metal that radiates draconic elements. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +1 bonus to your breath weapon's save DC.",
 					"The color of the weapon's metal changes to reflect your own natural colors as a dragonborn once you attune to it."
@@ -15155,6 +15157,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"bonusWeapon": "+2",
+				"reqAttune": "by a dragonborn",
 				"entries": [
 					"These weapons are made of a scaly metal that radiates draconic elements. You gain a +2 bonus to attack and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +2 bonus to your breath weapon's save DC.",
 					"The color of the weapon's metal changes to reflect your own natural colors as a dragonborn once you attune to it."
@@ -15188,6 +15191,7 @@
 				"tier": "major",
 				"rarity": "legendary",
 				"bonusWeapon": "+3",
+				"reqAttune": "by a dragonborn",
 				"entries": [
 					"These weapons are made of a scaly metal that radiates draconic elements. You gain a +3 bonus to attack and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +3 bonus to your breath weapon's save DC.",
 					"The color of the weapon's metal changes to reflect your own natural colors as a dragonborn once you attune to it."
@@ -15431,6 +15435,7 @@
 				"tier": "major",
 				"rarity": "legendary",
 				"bonusWeapon": "+2",
+				"reqAttune": true,
 				"entries": [
 					"This weapon was forged using the preserved remains of an ancient mimic. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
 					"As a bonus action, you can speak the weapon's command word to reshape it into any melee weapon with which you're proficient that does not have the reach or heavy property.",
@@ -15655,6 +15660,7 @@
 				"tier": "major",
 				"rarity": "legendary",
 				"bonusWeapon": "+2",
+				"reqAttune": true,
 				"entries": [
 					"This rose has a stem large enough to hold like the hilt of a weapon. You can focus on the rose as a bonus action to cause it to grow one of the following weapons from its center: a {@item Thornpiercer Dagger|tgs1|dagger}, {@item Thornpiercer Shortsword|tgs1|shortsword}, {@item Thornpiercer Rapier|tgs1|rapier}, or {@item Thornpiercer Whip|tgs1|whip}. If the hilt already has a weapon growing from its center, the existing weapon withers away and disintegrates, allowing the new one to take its place.",
 					"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, targets hit by the weapon take an extra 1d4 piercing damage. If you are a druid or are proficient with either simple or martial weapons, you are proficient with the weapons that thornpiercer grows.",
