@@ -6051,7 +6051,7 @@
 			}
 		},
 		{
-			"name": "Love's Embrace (Greatsword)",
+			"name": "Love's Embrace",
 			"source": "tgs1",
 			"page": 85,
 			"baseItem": "greatsword|phb",
@@ -6073,49 +6073,9 @@
 			],
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon can be attuned to by two friendly creatures together over the course of a long rest. If the weapon is attuned to by two creatures in this way, the weapon's attack and damage bonus becomes +2 instead.",
-				"This greatsword is made of two long {@item Love's Embrace (Scimitar)|tgs1|scimitars} that are held together by a powerful, unidentifiable magic. You can speak the weapon's command word using a bonus action to separate it into a pair of scimitars or recombine them into the greatsword. If you are not already holding it when you speak the weapon's command word and are on the same plane of existence as it, you can choose to summon either one or both scimitars to your hand as individual blades or as the combined greatsword.",
-				"When you hit with an attack using the greatsword, the target takes both {@damage 1d6} fire and {@damage 1d6} cold bonus damage from the attack.",
-				"Each attuned creature can cast the {@spell fire shield} spell once at 4th level without expending a spell slot. You do not need material or somatic components when casting it in this way. Once you cast this spell, you cannot cast it again until the following dawn."
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Loves-Embrace.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Love's Embrace (Scimitar)",
-			"source": "tgs1",
-			"page": 85,
-			"baseItem": "scimitar|phb",
-			"type": "M",
-			"tier": "major",
-			"rarity": "legendary",
-			"reqAttune": "by one or two friendly creatures",
-			"weight": 3,
-			"weaponCategory": "martial",
-			"property": [
-				"F",
-				"L",
-				"T"
-			],
-			"range": "20/60",
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"attachedSpells": [
-				"fire shield"
-			],
-			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with these magic weapons. These weapons can be attuned to by two friendly creatures together over the course of a long rest. If the weapons are attuned to by two creatures in this way, the weapons' attack and damage bonuses become +2 instead.",
-				"These scimitars can form a {@item Love's Embrace (Greatsword)|tgs1|greatsword} held together by a powerful, unidentifiable magic. You can speak the weapon's command word using a bonus action to separate it into a pair of scimitars or recombine them into the greatsword. If you are not already holding it when you speak the weapon's command word and are on the same plane of existence as it, you can choose to summon either one or both scimitars to your hand as individual blades or as the combined greatsword.",
+				"This greatsword is made of two long {@item scimitar|phb|scimitars} that are held together by a powerful, unidentifiable magic. You can speak the weapon's command word using a bonus action to separate it into a pair of scimitars or recombine them into the greatsword. If you are not already holding it when you speak the weapon's command word and are on the same plane of existence as it, you can choose to summon either one or both scimitars to your hand as individual blades or as the combined greatsword.",
 				"The scimitars have the thrown property with a normal range of 20 feet and a long range of 60 feet when separated. The scimitars deal piercing damage when thrown.",
-				"Each scimitar also has its own elemental effect\u2014either fire or cold\u2014that inflicts an extra {@damage 1d6} fire or {@damage 1d6} cold damage with each strike, depending on which sword you hit with.",
+				"Each scimitar also has its own elemental effect\u2014either fire or cold\u2014that inflicts an extra {@damage 1d6} fire or {@damage 1d6} cold damage with each strike, depending on which sword you hit with. When you hit with an attack using the greatsword, the target takes both fire and cold bonus damage from the attack.",
 				"Each attuned creature can cast the {@spell fire shield} spell once at 4th level without expending a spell slot. You do not need material or somatic components when casting it in this way. Once you cast this spell, you cannot cast it again until the following dawn."
 			],
 			"fluff": {
@@ -9687,7 +9647,7 @@
 			}
 		},
 		{
-			"name": "Splitter (Halberd)",
+			"name": "Splitter",
 			"source": "tgs1",
 			"page": 121,
 			"baseItem": "halberd|phb",
@@ -9706,53 +9666,16 @@
 			"weapon": true,
 			"reqAttune": true,
 			"bonusWeapon": "+3",
+			"bonusAc": "+1",
 			"entries": [
-				"This halberd's haft is made of rough, dark wood and is miraculously easy to heft. The bladed end of the halberd looks like a hatchet that's been absorbed by the hewn wood. While holding the halberd with two hands, you can speak its command word as a bonus action to split the weapon into its more basic components. When you do, the halberd deconstructs in your hands, leaving you with a {@item Splitter (Handaxe)|tgs1|handaxe} in one hand and {@item Splitter (Quarterstaff)|tgs1|quarterstaff} in the other. Both the handaxe and quarterstaff have the light property. You can combine the two weapons to reform the halberd by speaking its command word again as a bonus action while you're holding both the handaxe and quarterstaff.",
+				"This halberd's haft is made of rough, dark wood and is miraculously easy to heft. The bladed end of the halberd looks like a hatchet that's been absorbed by the hewn wood. While holding the halberd with two hands, you can speak its command word as a bonus action to split the weapon into its more basic components. When you do, the halberd deconstructs in your hands, leaving you with a {@item handaxe|phb} in one hand and a {@item quarterstaff|phb} in the other. Both the handaxe and quarterstaff have the light property. You can combine the two weapons to reform the halberd by speaking its command word again as a bonus action while you're holding both the handaxe and quarterstaff.",
 				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. If the weapon is split into the handaxe and quarterstaff, the bonus is +1 with each weapon instead.",
 				{
 					"name": "Halberd",
 					"entries": [
 						"If you're wielding the halberd and roll a 10 on the damage die for an attack against a creature, that creature's energy is sapped. The creature's speed is reduced by 10 feet until the end of its next turn, and your speed is increased by 10 feet until the end of your turn."
 					]
-				}
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Splitter-Halberd.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Splitter (Handaxe)",
-			"source": "tgs1",
-			"page": 121,
-			"baseItem": "handaxe|phb",
-			"type": "M",
-			"tier": "major",
-			"rarity": "very rare",
-			"weight": 2,
-			"weaponCategory": "simple",
-			"property": [
-				"L",
-				"T"
-			],
-			"range": "20/60",
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"axe": true,
-			"weapon": true,
-			"reqAttune": true,
-			"bonusWeapon": "+1",
-			"bonusAc": "+1",
-			"entries": [
-				"This handaxe's haft is made of rough, dark wood and is miraculously easy to heft. While holding both the handaxe and {@item Splitter (Quarterstaff)|tgs1|quarterstaff} in each hand, you can speak their command word as a bonus action to combine the weapon into its base {@item Splitter (Halberd)|tgs1|halberd} form.",
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. If the weapon is combined into the halberd, the bonus is +3 with this weapon instead.",
+				},
 				{
 					"name": "Handaxe and Quarterstaff",
 					"entries": [
@@ -9766,52 +9689,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Splitter-Handaxe.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Splitter (Quarterstaff)",
-			"source": "tgs1",
-			"page": 121,
-			"baseItem": "quarterstaff|phb",
-			"tier": "major",
-			"rarity": "very rare",
-			"focus": true,
-			"weight": 4,
-			"weaponCategory": "simple",
-			"property": [
-				"V",
-				"F",
-				"L"
-			],
-			"dmg1": "1d6",
-			"dmgType": "N",
-			"dmg2": "1d8",
-			"staff": true,
-			"weapon": true,
-			"reqAttune": true,
-			"bonusWeapon": "+1",
-			"bonusAc": "+1",
-			"entries": [
-				"This quarterstaff's haft is made of rough, dark wood and is miraculously easy to heft. While holding both the {@item Splitter (Handaxe)|tgs1|handaxe} and quarterstaff in each hand, you can speak their command word as a bonus action to combine the weapon into its base {@item Splitter (Halberd)|tgs1|halberd} form.",
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. If the weapon is combined into the halberd, the bonus is +3 with this weapon instead.",
-				{
-					"name": "Handaxe and Quarterstaff",
-					"entries": [
-						"If you're wielding the handaxe and quarterstaff in either hand, you gain a +1 bonus to AC and can add your ability modifier to the damage of the second attack when you engage in two-weapon fighting. The quarterstaff deals necrotic damage, and its damage die is maximized if it hits a nonmagical plant or plant creature. If you make a ranged attack with the handaxe, it flies back to your hand immediately after the attack."
-					]
-				}
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Splitter-Quarterstaff.jpg"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Splitter.jpg"
 						}
 					}
 				]
@@ -10154,7 +10032,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Staff-of-the-Rverent-Warrior.jpg"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Staff-of-the-Reverent-Warrior.jpg"
 						}
 					}
 				]
@@ -10195,6 +10073,252 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Stalaga-Spear.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Starbreaker",
+			"source": "tgs1",
+			"page": 125,
+			"baseItem": "morningstar|PHB",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 4,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"weapon": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"daylight"
+			],
+			"entries": [
+				"This glowing morningstar casts bright light in a 20-foot radius and dim light for an additional 20 feet while you hold it. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Targets hit by the weapon take an extra {@damage 1d4} radiant damage. In addition, you can use an action to cast the {@spell daylight} spell using the weapon. Once the weapon has been used to cast this spell, it can't do so again until the following dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Starbreaker.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Starmetal Ring",
+			"source": "tgs1",
+			"page": 125,
+			"tier": "major",
+			"type": "RG",
+			"rarity": "rare",
+			"entries": [
+				"This roughly crafted metal ring seems to have an otherworldly pull on other metallic items.",
+				"While wearing the ring, you can spend 1 hour holding onto an object weighing no more than 25 pounds that is at least 50% metal. If the ring and metallic item are in contact for the full hour, they form a powerful and magically controllable magnetic bond. You can only have one item bound to the ring in this way at a time.",
+				"While the bound item is within 40 feet from you and unobstructed, you can use a bonus action on your turn to magically pull it up to 20 feet toward you. The returning item bounces harmlessly against creatures and objects as it passes by."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Starmetal-Ring.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Starmetal Shield",
+			"source": "tgs1",
+			"page": 125,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"reqAttune": true,
+			"entries": [
+				"This open metal shield and gauntlet offer a +1 bonus to your armor class instead of a shield's normal bonus. Whenever you're the target of an attack made with a metal weapon or projectile, the bonus becomes +3 instead. The shield hovers above the gauntlet to protect you as if you were wielding it, leaving your hands free.",
+				{
+					"name": "Shooting Star",
+					"entries": [
+						"As an action, you can throw the shield at up to 3 clustered targets you can see before returning to your arm. Choose up to 3 targets or points. The first target or point must be within 30 feet of you, and any additional targets or points must be within 10 feet of the one before it. You can't select the same target more than once.",
+						"Make a ranged attack with the shield against each target. You are proficient with these attacks and add either your Dexterity or Strength modifier to its attack and damage rolls. Targets hit by the attack take {@damage 2d8} magical slashing damage. Once the shield reaches a target or point, it bounces towards the next target or point. The shield flies back to the gauntlet after reaching its final destination, bouncing harmlessly off of anything obstructing its path."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Starmetal-Shield.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Starmetal Solar Axe",
+			"source": "tgs1",
+			"page": 125,
+			"baseItem": "greataxe|PHB",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 7,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				"This magic weapon is forged using iron from the stars. While you’re attuned to this weapon, you can call upon its latent stellar energy to catalyze change within the metal and create endothermic and exothermic reactions. The weapon can be fused into a greataxe or fissioned into two separated {@item battleaxe|phb|battleaxes}. The weapon has the following properties based on its current state:",
+				{
+					"name": "Fused State",
+					"entries": [
+						"While wielding the fused greataxe, you gain a +1 bonus to attack and damage rolls made with this magic weapon. While you hold this axe, flames erupt from its edges and a small star burns in its center. These flames shed bright light in a 20-foot radius and dim light for an additional 20 feet. The light is sunlight. The greataxe deals an extra {@damage 2d6} fire damage to any target it hits."
+					]
+				},
+				{
+					"name": "Fissioned State",
+					"entries": [
+						"While wielding the two fissioned battleaxes, you gain a +1 bonus to attack and damage rolls made with them. The weapons are bitter cold to the touch and deal an extra {@damage 1d6} cold damage to any target they hit. The axes orbit you slowly while they aren’t being held or stowed. You can retrieve a floating battleaxe as if it were sheathed. In addition, when you take the Attack action, you can use a bonus action to make one melee weapon attack with an orbiting battleaxe against a creature you can see within 20 feet of you."
+					]
+				},
+				{
+					"name": "State Change",
+					"entries": [
+						"This weapon can change between its two states using the following properties:",
+						{
+							"name": "Fission",
+							"entries": [
+								"While holding the fused greataxe, you can use a bonus action to speak the weapon’s command word to split it apart into its fissioned state. When you do, electrical energy is released, forcing creatures within 30 feet of you to make a {@dc 17} Dexterity saving throw. A creature takes {@damage 3d6} lightning damage on a failed save, or half as much lightning damage on a successful one. This property can’t be used again for 12 hours."
+							]
+						},
+						{
+							"name": "Fusion",
+							"entries": [
+								"While holding both battleaxes, you can use a bonus action to speak the weapon’s other command word to recombine the two battleaxes into its fused state. When you do, the sudden generation of heat creates a wave of fire around you, forcing creatures within 30 feet of you to make a {@dc 17} Dexterity saving throw. A creature takes {@damage 3d6} fire damage on a failed save, or half as much damage on a successful one. This property can’t be used again for 12 hours."
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Starmetal-Solar-Axe.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Starmetal Striker",
+			"source": "tgs1",
+			"page": 126,
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 2,
+			"baseItem": "light hammer|phb",
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+2",
+			"entries": [
+				"This light hammer was forged using the remains of a comet and is cold to the touch. You gain a +2 bonus to attack and damage rolls made with this magic weapon, and when you hit with an attack using it, the target takes an extra {@damage 1d4} cold damage. The hammer leaves behind a crackling mist when thrown and immediately flies back to your hand after making a ranged attack with it."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Starmetal-Striker.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Steps of the Trickster",
+			"source": "tgs1",
+			"page": 126,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"These shoes allow you to freely change the sound of your steps when you wear them. Changing the sound of your steps doesn’t change their volume, but can make them sound as though the shoes are made from a different material. For example, your steps can sound like a beggar’s bare feet, a dancer’s sharp heels, or an approaching guard’s metal boots."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Steps-of-the-Trickster.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Storm Sickle",
+			"source": "tgs1",
+			"page": 126,
+			"baseItem": "sickle|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"This sickle sparks with electricity as beads of water form and drip from its blade. The weapon can make ranged attacks by slashing through the air to send out blades of storming wind. Ranged attacks with the sickle deal {@damage 1d4} slashing damage, use Strength as your modifier for its attack and damage rolls, and have a normal range of 20 feet and a long range of 60 feet. When you hit with an attack using this magic sickle, the target takes an extra {@damage 1d4} lightning damage."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Storm-Sickle.jpg"
 						}
 					}
 				]
