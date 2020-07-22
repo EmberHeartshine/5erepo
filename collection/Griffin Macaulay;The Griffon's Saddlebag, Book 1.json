@@ -4010,7 +4010,7 @@
 				{
 					"name": "Dragonsong",
 					"entries": [
-						"As an action, you can expend one of your uses of Bardic Inspiration to play a powerful note that repels foes and empowers allies. The note is audible out to 100 feet. Hostile creatures within a 15-foot cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage and isn't pushed.",
+						"As an action, you can expend one of your uses of {@classFeature bardic inspiration|bard||1||Bardic Inspiration} to play a powerful note that repels foes and empowers allies. The note is audible out to 100 feet. Hostile creatures within a 15-foot cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage and isn't pushed.",
 						"An ally within the cone that can hear the note is bolstered by it instead. A friendly creature affected by the note has its speed increased by 10 feet until the end of its next turn and gains 2d6 temporary hit points that last for 10 minutes."
 					]
 				}
@@ -10190,7 +10190,7 @@
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"This magic weapon is forged using iron from the stars. While you’re attuned to this weapon, you can call upon its latent stellar energy to catalyze change within the metal and create endothermic and exothermic reactions. The weapon can be fused into a greataxe or fissioned into two separated {@item battleaxe|phb|battleaxes}. The weapon has the following properties based on its current state:",
+				"This magic weapon is forged using iron from the stars. While you're attuned to this weapon, you can call upon its latent stellar energy to catalyze change within the metal and create endothermic and exothermic reactions. The weapon can be fused into a greataxe or fissioned into two separated {@item battleaxe|phb|battleaxes}. The weapon has the following properties based on its current state:",
 				{
 					"name": "Fused State",
 					"entries": [
@@ -10200,7 +10200,7 @@
 				{
 					"name": "Fissioned State",
 					"entries": [
-						"While wielding the two fissioned battleaxes, you gain a +1 bonus to attack and damage rolls made with them. The weapons are bitter cold to the touch and deal an extra {@damage 1d6} cold damage to any target they hit. The axes orbit you slowly while they aren’t being held or stowed. You can retrieve a floating battleaxe as if it were sheathed. In addition, when you take the Attack action, you can use a bonus action to make one melee weapon attack with an orbiting battleaxe against a creature you can see within 20 feet of you."
+						"While wielding the two fissioned battleaxes, you gain a +1 bonus to attack and damage rolls made with them. The weapons are bitter cold to the touch and deal an extra {@damage 1d6} cold damage to any target they hit. The axes orbit you slowly while they aren't being held or stowed. You can retrieve a floating battleaxe as if it were sheathed. In addition, when you take the Attack action, you can use a bonus action to make one melee weapon attack with an orbiting battleaxe against a creature you can see within 20 feet of you."
 					]
 				},
 				{
@@ -10210,13 +10210,13 @@
 						{
 							"name": "Fission",
 							"entries": [
-								"While holding the fused greataxe, you can use a bonus action to speak the weapon’s command word to split it apart into its fissioned state. When you do, electrical energy is released, forcing creatures within 30 feet of you to make a {@dc 17} Dexterity saving throw. A creature takes {@damage 3d6} lightning damage on a failed save, or half as much lightning damage on a successful one. This property can’t be used again for 12 hours."
+								"While holding the fused greataxe, you can use a bonus action to speak the weapon's command word to split it apart into its fissioned state. When you do, electrical energy is released, forcing creatures within 30 feet of you to make a {@dc 17} Dexterity saving throw. A creature takes {@damage 3d6} lightning damage on a failed save, or half as much lightning damage on a successful one. This property can't be used again for 12 hours."
 							]
 						},
 						{
 							"name": "Fusion",
 							"entries": [
-								"While holding both battleaxes, you can use a bonus action to speak the weapon’s other command word to recombine the two battleaxes into its fused state. When you do, the sudden generation of heat creates a wave of fire around you, forcing creatures within 30 feet of you to make a {@dc 17} Dexterity saving throw. A creature takes {@damage 3d6} fire damage on a failed save, or half as much damage on a successful one. This property can’t be used again for 12 hours."
+								"While holding both battleaxes, you can use a bonus action to speak the weapon's other command word to recombine the two battleaxes into its fused state. When you do, the sudden generation of heat creates a wave of fire around you, forcing creatures within 30 feet of you to make a {@dc 17} Dexterity saving throw. A creature takes {@damage 3d6} fire damage on a failed save, or half as much damage on a successful one. This property can't be used again for 12 hours."
 							]
 						}
 					]
@@ -10277,7 +10277,7 @@
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
-				"These shoes allow you to freely change the sound of your steps when you wear them. Changing the sound of your steps doesn’t change their volume, but can make them sound as though the shoes are made from a different material. For example, your steps can sound like a beggar’s bare feet, a dancer’s sharp heels, or an approaching guard’s metal boots."
+				"These shoes allow you to freely change the sound of your steps when you wear them. Changing the sound of your steps doesn't change their volume, but can make them sound as though the shoes are made from a different material. For example, your steps can sound like a beggar's bare feet, a dancer's sharp heels, or an approaching guard's metal boots."
 			],
 			"fluff": {
 				"images": [
@@ -10319,6 +10319,187 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Storm-Sickle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Stormstruck Staff",
+			"source": "tgs1",
+			"page": 128,
+			"baseItem": "quarterstaff|phb",
+			"tier": "major",
+			"rarity": "rare",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V",
+				"F"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"weapon": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"This wooden staff has been scarred by lightning and embedded with an amplifying crystal at its head. You gain a +1 bonus to attack and damage rolls made with this magic weapon. Small sparks of electricity arc from the crystal, dealing an extra 1 lightning damage to any target hit by the weapon. The gem glows brilliantly and pulses with electrical energy for 1 minute after either the quarterstaff takes lightning damage or you take lightning damage while holding it from any source (other than itself), or while the weapon is under the effects of the {@spell shillelagh} spell. While the gem is glowing in this way, the extra lightning damage increases to {@damage 1d6}, and the gem emits bright light out to 10 feet and dim light for an additional 10 feet."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Stormstruck-Staff.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Storm Thrower Harpoon",
+			"source": "tgs1",
+			"page": 128,
+			"baseItem": "trident|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"bonusWeapon": "+3",
+			"entries": [
+				"This weapon has a +3 bonus to attack and damage rolls made with this magical weapon.",
+				"The trident has a chain attached to its handle that can be used to retrieve the weapon once it's been thrown using a bonus action. When you hit with a ranged attack using this weapon, it deals an additional {@damage 1d8} lightning damage.",
+				"In addition, this trident acts as a conduit for the sky's ferocious power. Immediately after hitting a creature with the trident, you can call down a bolt of lightning upon it, forcing it and all creatures within 5 feet to make a {@dc 16} Dexterity saving throw. On a failed save, creatures take {@damage 6d10} lightning damage, or half as much on a success. Creatures have disadvantage on the saving throw if they're submerged in water or wearing metal armor. You are immune to the lightning damage caused by this effect. This ability fails if the creatures are obstructed from the sky. Once you use this ability, you cannot do so again until the next dawn.",
+				{
+					"name": "Impale",
+					"entries": [
+						"You can use your action to try to impale and pull a creature toward you. If your target is a creature that is no more than one size larger than you, you can make a ranged weapon attack against it using the trident. If you hit, you can attempt to pull the impaled creature toward you by making a Strength ({@skill Athletics}) check contested by the target's Strength (Athletics) check. If you succeed, you can pull the creature up to 20 feet toward you."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Storm-Thrower-Harpoon.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sundersludge Net",
+			"source": "tgs1",
+			"page": 128,
+			"baseItem": "net|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"S",
+				"T"
+			],
+			"range": "5/15",
+			"weapon": true,
+			"entries": [
+				"This gelatinous net is made with the enchanted remains of a gray ooze. A creature takes {@damage 1d6} acid damage when it's {@condition restrained} by the net and again at the end of each of its turns while it remains restrained by it. If the creature is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative \u22121 penalty to the AC it offers whenever it takes acid damage at the end of one of its turns. The armor is destroyed if the penalty reduces its AC to 10. A creature other than you who touches the net takes {@damage 1d6} acid damage.",
+				"The torn net is harmless. If more than half of the net can be salvaged and stored within a container large enough to hold 1 gallon of liquid for 12 hours, the net is repaired and can be used once more. Your attunement to the net ends if the net remains destroyed for longer than 2 days.",
+				"You're immune to damage from the net while you're attuned to it. Picking up the net after throwing it renders it harmless until the next time you throw it. The net deals no acid damage if no creature is attuned to it.",
+				{
+					"name": "Special",
+					"entries": [
+						"A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. The net's sticky composition makes it more difficult to escape than a mundane one. A creature can use its action to make a {@dc 13} Strength check, freeing itself or another creature within its reach on a success. The net has resistance to all damage types. Dealing 10 slashing damage to the net (AC 12) also frees the creature without harming it, ending the effect and tearing the net apart. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Sundersludge-Net.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Switch",
+			"source": "tgs1",
+			"page": 129,
+			"type": "RD",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2,
+			"reqAttune": "by a druid",
+			"entries": [
+				"This simple, springy rod is made of twisting vines and twigs. While attuned to the rod, you can expend 1 use of your {@classFeature wild shape|druid||2||wild shape} feature as a bonus action to activate it. The rod stays active for a number of hours equal to half your druid level (rounded down).",
+				"When you activate the rod and again on subsequent turns as a bonus action while the rod is active, you can transform the rod into a bludgeoning or piercing weapon of your choice that has neither the loading nor reach property. You're proficient with this weapon and can use Wisdom as your modifier for its attack and damage rolls instead of Dexterity or Strength. A weapon that uses ammunition magically creates its own. Alternatively, you can transform switch back into its rod form if you so choose. Regardless of the weapon you make, targets hit by it take an extra {@damage 1d8} damage of the weapon's type. If the weapon you create has the light property, you can make a weapon attack with it using a bonus action.",
+				"While the rod is activated, you can use an action to expend a second use of your wild shape feature and extend the rod's barked exterior to your body. This tree-like armor can take on any form that you choose. You gain temporary hit points equal to 4 times your Druid level, and your armor class can't be lower than 16 while the rod is active. Using this property of the activated rod does not extend its remaining duration.",
+				"Switch becomes inactive at the end of its duration, you fall to 0 hit points, or end it early as a bonus action. When it's inactive, it reverts to its normal rod form."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Switch.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sword of Resonance",
+			"source": "tgs1",
+			"page": 129,
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V",
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"reqAttune": "by a bard",
+			"entries": [
+				"This peculiar brass longsword is hollow and has lute strings that run along its blade, allowing you to use this sword as both a lute and spellcasting focus. You're proficient with this lute while you're attuned to the sword. This sword also has the finesse property due to the hollow blade's reduced weight.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, the sword's hollow metal blade magically amplifies the music made when using it to inspire allies. Whenever you expend a use of your {@classFeature bardic inspiration|bard||1||Bardic Inspiration}, the sword begins to reverberate with thunderous energy. The next time you hit a target before the end of your next turn with an attack using the sword, that target takes an extra {@damage 1d6} thunder damage from the attack."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Sword-of-Resonance.jpg"
 						}
 					}
 				]
