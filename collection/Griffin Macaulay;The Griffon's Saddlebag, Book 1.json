@@ -10806,7 +10806,7 @@
 			"recharge": "dawn",
 			"charges": 3,
 			"entries": [
-				"This festive quarterstaff is decorated with ribbons and other glittering elements. It is perfectly balanced and seems to be made to perform with. This magic quarterstaff has the finesse property and grants you a +1 bonus to Charisma (Performance) checks you make in order to put on an entertaining performance using the quarterstaff.",
+				"This festive quarterstaff is decorated with ribbons and other glittering elements. It is perfectly balanced and seems to be made to perform with. This magic quarterstaff has the finesse property and grants you a +1 bonus to Charisma ({@skill Performance}) checks you make in order to put on an entertaining performance using the quarterstaff.",
 				{
 					"name": "Punishing Parry",
 					"entries": [
@@ -10919,6 +10919,246 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Timeshifters-Mantle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Toadstone",
+			"source": "tgs1",
+			"page": 135,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This small jade carving of a frog dangles from a simple cord of leather to be worn as a necklace. While you wear it, you gain a swimming speed equal to your walking speed and can hold your breath for up to 1 hour. In addition, you can cast the {@spell jump} spell using the necklace, targeting only yourself. Once the necklace has been used to cast this spell, it can’t do so again until the next dusk.",
+				{
+					"name": "Curse",
+					"entries": [
+						"This necklace is cursed. Attuning to it curses you until you’re targeted by the {@spell remove curse} spell or similar magic. Removing the necklace fails to end the curse on you. While you’re cursed, your skin is perpetually slightly wet and clammy, and you have only an appetite for insects and other grubs instead of the foods you would normally enjoy eating."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Toadstone.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Tome of Dreams",
+			"source": "tgs1",
+			"page": 135,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This beautifully embossed book is full of gripping short stories. You can read a story from the book in 10 minutes. The underlying nature of each story is unclear, leaving your subconscious mind to slowly process and unpack its deeper meanings over the course of your next long rest. The next time you finish a long rest after reading a story from the book, roll a {@dice d20}. On a roll of 10 or lower, you take {@damage 2d4} psychic damage as your mind is plagued with intense terrors from the story you read. On a roll of 11 or higher, you gain {@dice 2d4} temporary hit points as your mind is filled with joy and courage instead. If you start a story but don’t finish reading it, nothing happens the next time you finish a long rest."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Tome-of-Dreams.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Torchbearer's Reach",
+			"source": "tgs1",
+			"page": 135,
+			"baseItem": "whip|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncmmon",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R",
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "F",
+			"weapon": true,
+			"entries": [
+				"This weapon has the light property and deals fire damage instead of slashing. When held, a magical flame forms at the top of the whip’s handle. The flame gives off bright light in a 20-foot radius and dim light for another 20 feet. You can stretch the flame to form a 10-foot long coil of fire by snapping the handle and flame down as if to crack the whip (no action required). The flame doesn’t hurt you while you hold the whip. You can snuff the fire out with your hand or blow it out to extinguish it using a bonus action.",
+				"The whip’s flame is intangible and can’t be used to bind a creature or retrieve objects from afar, but can be used to light other fires."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Torchbearers-Reach.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Torrent Taiaha",
+			"source": "tgs1",
+			"page": 136,
+			"baseItem": "quarterstaff|phb",
+			"tier": "major",
+			"rarity": "rare",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+1",
+			"attachedSpells": [
+				"control water"
+			],
+			"entries": [
+				"A mote of swirling, magic water circles the top of this wooden staff. This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. When you make a melee attack with the staff, you can choose to extend and lash out with the water, instead of the staff. When you do, the water has a range of 10 feet and deals {@damage 1d4} bludgeoning damage if it hits. You’re proficient with this attack and use your Wisdom modifier for its attack and damage rolls. After the attack, the water shrinks back to the staff.",
+				"While holding the staff, you can stand on and move across any liquid surface as if it were solid ground. If you end your turn on a liquid in this way, you sink into it as normal until you stand on solid ground again. In addition, while holding the staff, you can use an action to cast the {@spell control water} spell ({@i Flood} or {@i Part Water} only) from it. The spell ends early if you are no longer holding the staff. Once the staff ’s been used to cast this spell, it can’t do so again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Torrent-Taiaha.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Tote of Tricky Treat Sugarbombs",
+			"source": "tgs1",
+			"page": 136,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This canvas bag holds {@dice 5d8 + 10} clove and pumpkin candies inside. A small illusory face appears over the sewn-on pumpkin at night. Each candy has a minor magical effect that lasts for 1 minute unless otherwise specified. Some effects are pleasant, whereas some are mischievous. You can eat a piece of candy using an action. When you do, roll on the table below to determine the candy’s effect:",
+				{
+					"type": "table",
+					"caption": "Tricky Treat Sugarbomb Effects",
+					"colLabels": [
+						"d20",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"The candy seems to have spoiled, forcing you to succeed on a {@dc 13} Constitution saving throw or spend your action on your next turn retching and reeling."
+						],
+						[
+							"2",
+							"Your face appears to melt: revealing the skull beneath it. The effect is harmless and illusory."
+						],
+						[
+							"3",
+							"Any food you eat or water you drink taste like ash and blood, respectively."
+						],
+						[
+							"4",
+							"Other creatures’ eyes appear to be hollowed out and blackened to you."
+						],
+						[
+							"5",
+							"Your ears turn a different, vibrant color at the start of each of your turns."
+						],
+						[
+							"6",
+							"Your hair falls out and regrows over the next minute."
+						],
+						[
+							"7",
+							"Your laughter becomes maniacal, and you have trouble stopping once you’ve started."
+						],
+						[
+							"8",
+							"Your pupils resemble a snake’s."
+						],
+						[
+							"9",
+							"You hear a fly near your ear, but you can neither see it nor swat it away."
+						],
+						[
+							"10",
+							"Your skin turns orange, and light spills forth from your eyes and mouth, casting bright light in a 10-foot radius and dim light for another 10 feet."
+						],
+						[
+							"11",
+							"Confetti bursts from the top of your head, and small children can be heard laughing."
+						],
+						[
+							"12",
+							"You sprout tiny, flightless bat wings."
+						],
+						[
+							"13",
+							"You know the location of the nearest pumpkin within 1 mile."
+						],
+						[
+							"14",
+							"Nearby crows and ravens land on your shoulders or outstretched arm."
+						],
+						[
+							"15",
+							"A friendly, floppy wizard hat appears on your head. After 1 minute, it disappears in a cloud of stars."
+						],
+						[
+							"16",
+							"Any alcohol in your stomach or that you drink becomes nonalcoholic."
+						],
+						[
+							"17",
+							"Your voice becomes smooth and golden, allowing you to add your proficiency bonus to Charisma ({@skill Performance}) checks to sing. If you are already proficient with this skill, you add double your proficiency bonus instead."
+						],
+						[
+							"18",
+							"Any food you eat or water you drink tastes delicious and reminds you of your favorite pastimes."
+						],
+						[
+							"19",
+							"You gain darkvision out to a range of 30 feet. If you already have darkvision, its range is increased by 30 feet."
+						],
+						[
+							"20",
+							"You can magically sense if someone is possessed, and you can see creatures that are invisible."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Tote-of-Tricky-Treat-Sugarbombs.jpg"
 						}
 					}
 				]
@@ -15879,6 +16119,42 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Thornpiercer.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Torpedo Arrow",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Sling Bullet",
+					"Blowgun Needle"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Torpedo ",
+				"source": "tgs1",
+				"page": 135,
+				"tier": "minor",
+				"rarity": "none",
+				"entries": [
+					"This unique arrow’s spiraling design allows it to travel unimpaired in the water. When firing this arrow underwater, you ignore the normal disadvantages of underwater fighting. When you fire this weapon out of water, the normal and long ranges of the arrow are halved."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Torpedo-Arrow.jpg"
 							}
 						}
 					]
