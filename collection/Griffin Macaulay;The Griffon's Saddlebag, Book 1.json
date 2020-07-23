@@ -10741,6 +10741,188 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Thunderous Flail",
+			"source": "tgs1",
+			"page": 133,
+			"baseItem": "flail|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"weapon": true,
+			"reqAttune": true,
+			"property": [
+				"T"
+			],
+			"range": "20/60",
+			"recharge": "dawn",
+			"charges": 3,
+			"attachedSpells": [
+				"thunderwave"
+			],
+			"entries": [
+				"This flail has 3 charges and regains {@dice 1d3} expended charges each day at dawn. You can expend 1 charge to cast the {@spell thunderwave} spell (save {@dc 15}). The ball of the flail is the origin of the spell. As long as the flail has at least 1 charge, you deal an extra {@damage 1d6} lightning damage to the first target you hit with it on each of your turns.",
+				"If you make a melee attack using the flail, you can immediately expend 1 charge to cast {@i thunderwave} as a bonus action in the direction of your last attacked target.",
+				"The ball of the flail is attached to the chain with a powerful magnetic connection that can be released at will. You can make a ranged attack using the flail by releasing the ball mid-swing. This attack has a normal range of 20 feet and long range of 60. Strength is your ability modifier for this attack. While the ball is within 60 feet of you, you can magnetically pull it back up to 20 feet towards you as a bonus action. It magically reattaches itself to the chain when it enters the same space as you.",
+				"While the ball is detached, you can still use the flail to cast {@i thunderwave}. When you do, the spell's area of effect becomes a 10-foot radius sphere centered on the ball."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Thunderous-Flail.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Thwackstaff",
+			"source": "tgs1",
+			"page": 133,
+			"baseItem": "quarterstaff|phb",
+			"tier": "major",
+			"rarity": "uncommon",
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V",
+				"F"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"weapon": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This festive quarterstaff is decorated with ribbons and other glittering elements. It is perfectly balanced and seems to be made to perform with. This magic quarterstaff has the finesse property and grants you a +1 bonus to Charisma (Performance) checks you make in order to put on an entertaining performance using the quarterstaff.",
+				{
+					"name": "Punishing Parry",
+					"entries": [
+						"This quarterstaff has 3 charges and regains all expended charges daily at dawn. While holding this quarterstaff, you can expend 1 of its charges as a reaction when a creature that you can see hits you with a melee attack. When you do, roll a {@dice d6}. You gain a bonus to AC equal to the number rolled against that attack, potentially causing it to miss you. If the attack misses you as a result of this bonus to AC, you can immediately make one attack with the quarterstaff against the attacking creature as part of your reaction. If you hit, the attack does extra damage equal to the number rolled on the d6."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Thwackstaff.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Timber",
+			"source": "tgs1",
+			"page": 134,
+			"baseItem": "handaxe|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"reqAttune": true,
+			"charges": 3,
+			"entries": [
+				"This magical axe is imbued with a destructive force that builds with each consecutive strike. You have a bonus to attack and damage rolls made with this magic weapon equal to the number of charges it currently has. The handaxe gains 1 charge each time you make a successful attack with it: up to a maximum of 3 charges. When timber gains its third charge, the built-up force explodes; it loses all charges, and the target takes an extra {@damage 3d6} force damage, or {@damage 6d6} if it's made of wood. When this happens, if the target is no more than one size larger than you, you can choose to push it up to 10 feet away from you.",
+				"Timber's charges last for up to 1 minute. It loses all charges if you make an attack against a new target, make an attack with a different weapon, or miss with an attack using timber."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Timber.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Timepiercer",
+			"source": "tgs1",
+			"page": 134,
+			"baseItem": "rapier|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"reqAttune": true,
+			"bonusWeapon": "+2",
+			"attachedSpells": [
+				"haste",
+				"slow"
+			],
+			"entries": [
+				"This item appears to be a sword hilt that has a small hole on either end of it. The hilt is made of clear quartz and contains an hourglass with sand inside it. Despite the holes on the hilt, the sand never seems to flow out of the hourglass. You can speak the hilt's command word as a bonus action to cause it to form a thin blade of sand. The hourglass spills sand from the bottom of the hilt that circulates up and around to form the blade and guard of the rapier before returning to the hourglass again through the hole at the top. You can speak the hilt's command word again as a bonus action to cause all the sand to return to the hourglass. While the blade is formed, you gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"While holding the hilt, you can use an action to cast either the {@spell haste} or {@spell slow} spell (save {@dc 16}) from it. You have advantage on Constitution saving throws you make in order to maintain concentration on a spell cast in this way. Once a spell has been cast using the hilt, it can't be used to cast that spell again until the next dawn. The sands in the hourglass move quickly while you concentrate on a {@i haste} spell cast in this way, or more slowly when you concentrate on a {@i slow} spell."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Timepiercer.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Timeshifter's Mantle",
+			"source": "tgs1",
+			"page": 134,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"If a Large or smaller creature hits you with a melee attack while you're wearing this cloak, you can use your reaction to cause time to briefly warp around you. After taking the damage from the attack, you can immediately move up to half your speed without provoking opportunity attacks, and the attacker's speed is reduced to 0 until the start of its next turn. Once this property of the cloak has been used, it can't be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Timeshifters-Mantle.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
