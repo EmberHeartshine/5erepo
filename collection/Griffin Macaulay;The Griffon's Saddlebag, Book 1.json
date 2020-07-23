@@ -1212,7 +1212,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table A"
+			]
 		},
 		{
 			"name": "Bird of a Feather (uncommon)",
@@ -3341,7 +3344,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table A"
+			]
 		},
 		{
 			"name": "Eaglereign",
@@ -11883,7 +11889,8 @@
 			"page": 145,
 			"tier": "major",
 			"rarity": "rare",
-			"wondrous": "by a monk",
+			"wondrous": true,
+			"reqAttune": "by a monk",
 			"recharge": "dawn",
 			"charges": 3,
 			"attachedSpells": [
@@ -11912,6 +11919,7 @@
 			"tier": "major",
 			"rarity": "artifact",
 			"wondrous": true,
+			"reqAttune": true,
 			"recharge": "dawn",
 			"charges": 7,
 			"attachedSpells": [
@@ -12286,6 +12294,173 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Precipit-the-Formless.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Tectonic Gauntlets",
+			"source": "tgs1",
+			"page": 150,
+			"tier": "major",
+			"rarity": "artifact",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"recharge": "dawn",
+			"charges": 15,
+			"attachedSpells": [
+				"earthquake",
+				"move earth",
+				"shatter",
+				"spike growth",
+				"wall of stone"
+			],
+			"entries": [
+				"This magical set of stone gauntlets imbue your fists with the power of the Elemental Plane of Earth. While wearing and attuned to the gauntlets, your unarmed attacks become magical and deal {@damage 1d8} bludgeoning damage in place of the normal damage of your unarmed strike (unless it’s already higher). In addition, these gloves have 15 charges and regain {@dice 1d10 + 5} expended charges each day at dawn. When you make an unarmed attack with your fists, you can expend up to 5 charges to extend your fist’s reach by 5 feet for each expended charge. Your unarmed strikes deal double damage to objects and structures.",
+				{
+					"name": "Powerglove",
+					"entries": [
+						"When you hit a target with an unarmed strike, you can expend up to 3 charges to deal an extra {@damage 1d8} bludgeoning damage for each charge spent. If you spend any charges in this way, the target must also succeed on a {@dc 16} Strength saving throw or be pushed back 5 feet."
+					]
+				},
+				{
+					"name": "Geomancy",
+					"entries": [
+						"Alternatively, you can expend 1 or more charges on your turn to cast the following spells using the gloves (save {@dc 16}): {@spell earthquake} (8 charges), {@spell move earth} (6 charges), {@spell shatter} (2 charges), {@spell spike growth} (2 charges, with stone projections), or {@spell wall of stone} (5 charges)."
+					]
+				},
+				{
+					"name": "Tectonic Plate Armor",
+					"entries": [
+						"As an action, you can allow rocks to envelop and protect your body. For 1 hour, you gain resistance to bludgeoning, piercing, and slashing damage, your movement speed is halved, and you make Dexterity checks and saving throws with disadvantage. You can end this feature early as a bonus action. While enveloped in this way, you can burrow through nonmagical, unworked earth and stone at a speed of 30 feet. While doing so, you don’t disturb the material you move through. If you end this ability while still underground, you’re forced out of the earth to the nearest space available and take {@damage 1d10} force damage. Once this feature of the gloves has been used, it can’t be used again until you take a short or long rest."
+					]
+				},
+				{
+					"name": "Curse",
+					"entries": [
+						"Your mind and body become sluggish once you attune to the gloves. The gauntlets become one with your flesh and prevent you from removing them. Your movement speed is reduced by 5 feet, and your Intelligence score is reduced by 4 (to a minimum of 7) while cursed. The curse remains even if the attunement ends but can be undone by any effect that removes a curse such as a {@spell greater restoration} or {@spell remove curse} spell, allowing you to remove the gloves and end the curse on you."
+					]
+				},
+				{
+					"name": "Random Properties",
+					"entries": [
+						"he gauntlets have the following random properties:",
+						{
+							"type": "list",
+							"items": [
+								"1 {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial property}",
+								"1 {@table Artifact Properties; Minor Detrimental Properties|dmg|minor detrimental property}"
+							]
+						}
+					]
+				},
+				{
+					"name": "Destroying the Gauntlets",
+					"entries": [
+						"The gloves can only be destroyed in the depths of the crystalline mines of Durhun on the Elemental Plane of Earth where they were first created."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Tectonic-Gauntlets.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "The Griffon's Saddlebag",
+			"source": "tgs1",
+			"page": 151,
+			"tier": "major",
+			"rarity": "artifact",
+			"weight": 3,
+			"wondrous": true,
+			"sentient": true,
+			"recharge": "dawn",
+			"charges": 8,
+			"attachedSpells": [
+				"detect magic",
+				"identify",
+				"legend lore",
+				"blink",
+				"dimension door",
+				"divination",
+				"etherealness",
+				"fly",
+				"Mordenkainen's magnificent mansion",
+				"plane shift",
+				"Leomund's secret chest"
+			],
+			"entries": [
+				"These leather bags have the stylized face of a griffon on their front and appear across the multiverse in strange locations. One may be found in the belly of a dragon, while another in the limbs of a great tree. Regardless of where it’s found, a {@i Griffon’s Saddlebag} is typically discovered by an adventurer with a destiny.",
+				"The saddlebags are made by a great, six-armed griffon on the Astral Plane. Believed by some to be a demigod of pocket dimensions and craftsmen everywhere, the griffon is a patron of artificers and creators across the multiverse. The griffon creates magical items in its great forge using materials collected from various planes of existence to add to its collection. While no one knows exactly how to contact the griffon, it has a knack for knowing what items are needed by whom.",
+				{
+					"name": "Superior Holding",
+					"entries": [
+						"This 1-foot-wide bag always weighs 3 pounds, regardless of what’s inside it. It functions as a bag of holding that can only be pierced by another artifact. Placing a {@item bag of holding}, {@item Heward's handy haversack}, {@item portable hole}, or similar item inside the extradimensional space created by the saddlebag, or vice versa, destroys the extradimensional item but leaves the saddlebag unharmed. Any item stored within the other extradimensional space is magically moved to the space within the saddlebag instead. If doing so overloads the bag, random contents from either space are scattered in the Astral Plane."
+					]
+				},
+				{
+					"name": "Magic Courier",
+					"entries": [
+						"At the GM’s discretion, the saddlebag’s beak opens up to reveal a letter. The magical script can be read by all creatures with an Intelligence score of 4 or higher. The note is a delivery request or similar that includes the name of an item as well as either specific or vague descriptions of a person or place. At the bottom of the letter is a price listed in coins or other form of payment, as well as a date or time depending on its urgency.",
+						"If the saddlebag is brought to the described person or place within the allotted time, it dispenses the magical item into the hand of the appropriate recipient. If the payment isn’t received by the bag within 1 hour of dispensing the magic item, the item vanishes and is lost. After receiving the payment for an item in this way, the bag’s beak reopens to dispense a reward for the courier."
+					]
+				},
+				{
+					"name": "Sell Magic Items",
+					"entries": [
+						"The saddlebag has a connection to the griffon’s forge on the Astral Plane. Depending on the magic item, you can sell a magic item to the saddlebag for half the cost of its base price."
+					]
+				},
+				{
+					"name": "Spells",
+					"entries": [
+						"The saddlebag has 8 charges and regains {@dice 1d6 + 2} expended charges daily at dawn. While wearing the saddlebag, you can expend 1 or more of its charges to cast the following spells from it: {@spell detect magic} (1 charge), {@spell identify} (1 charge), or {@item legend lore} (5 charges)."
+					]
+				},
+				{
+					"name": "Additional Spells",
+					"entries": [
+						"At the GM’s discretion, such as after reaching certain milestones or completing {@i Magic Courier} quests, the saddlebag may offer the following additional spells that can be cast from it: {@spell blink} (3 charges), {@spell dimension door} (4 charges), {@spell divination} (4 charges), {@spell etherealness} (7 charges), {@spell fly} (3 charges), {@spell Mordenkainen's magnificent mansion} (7 charges), {@spell plane shift} (7 charges), or {@spell Leomund's secret chest} (4 charges)."
+					]
+				},
+				{
+					"name": "Sentience",
+					"entries": [
+						"The saddlebag is a sentient chaotic neutral bag with an Intelligence of 13, a Wisdom of 15, and a Charisma of 16. It has hearing and normal vision out to a range of 60 feet.",
+						"The bag can speak, read, and understand Common. When in the presence of only creatures it trusts, the bag’s beak moves when it speaks. Otherwise, the bag communicates telepathically with its wearer. The bag can speak and communicate with griffons."
+					]
+				},
+				{
+					"name": "Personality",
+					"entries": [
+						"The bag’s purpose is to carry, collect, and deliver magic items. Different bags have different personalities, but they are for the most part largely pleasant to talk to. Their voices are bird-like and are filled with occasional coos and squawks, and their stitched eyes widen, squint, and move expressively.",
+						"If the bag’s wearer or allies fail to fulfill {@i Magic Courier} quests, it may stop offering its magic to them. If it does, their items may be lost or inaccessible within the bag, or potentially spat out. While the bag provides the names of item recipients and delivery locations, it doesn’t know any more information than what was provided to it by the astral griffon. Regardless, it does its best to help its wearer and allies find the specified person or location on the letter."
+					]
+				},
+				{
+					"name": "Destroying the Griffon's Saddlebag",
+					"entries": [
+						"While there is no way to permanently destroy the saddlebag, piercing it with an artifact returns it to its place of origin for repair before it’s returned to the multiverse in a new location. Placing a {@i Griffon’s Saddlebag} inside the extradimensional space created by another {@i Griffon’s Saddlebag} returns both items to their place of origin and sends all the items stored within them to the griffon’s forge on the Astral Plane."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/The-Griffons-Saddlebag.jpg"
 						}
 					}
 				]
@@ -16411,6 +16586,45 @@
 			"entries": [
 				"At 14th level, when you destroy a Large or smaller nonmagical object or structure with a spell, you can recreate it as an action once within the next 8 hours. When you do, the object or structure reappears intact in an unoccupied space you choose within 60 feet of you. If the object or structure is recreated in the air, it immediately falls. Any creature below the item must make a Dexterity saving throw against your wizard spell save DC. If the object is Small or smaller, a creature that fails the saving throw takes {@damage 1d8} bludgeoning damage from the impact for every 10 feet that it fell. If the object is Medium or Large, the bludgeoning damage increases to {@damage 1d10} or {@damage 1d12} for every 10 feet it fell, respectively. On a successful save, a creature takes half as much bludgeoning damage. If an object is the same size or larger than a creature it falls on, that creature is pushed to the nearest unoccupied space.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "TGS Magic Item Table A",
+			"source": "tgs1",
+			"caption": "Magic Item Table A",
+			"colLabels": [
+				"{@dice d100}",
+				"Magic Item"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-12"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 1,
+							"max": 5,
+							"pad": true
+						}
+					},
+					"{@item Bird of a Feather (common)|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 6,
+							"max": 10,
+							"pad": true
+						}
+					},
+					"{@item Dryadleaf|tgs1}"
+				]
 			]
 		}
 	],
