@@ -4137,8 +4137,8 @@
 					],
 					"colStyles": [
 						"col-1 text-center",
-						"col-2",
-						"col-9"
+						"col-1",
+						"col-10"
 					],
 					"rows": [
 						[
@@ -16706,8 +16706,8 @@
 				"Magic Item"
 			],
 			"colStyles": [
-				"col-2 text-center",
-				"col-12"
+				"col-1 text-center",
+				"col-11"
 			],
 			"rows": [
 				[
