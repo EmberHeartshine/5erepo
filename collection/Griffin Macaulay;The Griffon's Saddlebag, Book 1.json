@@ -7592,7 +7592,8 @@
 					"entries": [
 						"The inner ring is covered by a silver puzzle ring that grants various benefits. The puzzle ring is made of three distinct bands that, when fit together in an elaborate and ever-changing puzzle, cause you to emanate a 30-foot aura that heals and supports your allies. As an action, you can make an Intelligence check to solve a piece of the puzzle in a fixed order:",
 						{
-							"type": "list-decimal",
+							"type": "list",
+							"style": "list-decimal",
 							"items": [
 								"The first band slides into place following a successful {@dc 5} Intelligence check. Once solved, you begin to emit the ring's aura. The aura lasts for 1 minute and is always centered on you. While you emit this aura, you can use a bonus action on your turn to cause a creature within the aura (including you) to regain {@dice 2d6} hit points.",
 								"The second band is solved following a successful {@dc 10} Intelligence check. When it slides into place, the aura's strength increases. Each living, nonhostile creature regains 1 hit point when it starts its turn in the aura with 0 hit points. In addition, creatures within the radius have resistance against necrotic damage, and their hit point maximum can't be reduced.",
@@ -11774,8 +11775,8 @@
 			"reqAttune": "by a barbarian",
 			"bonusWeapon": "+2",
 			"entries": [
-				"This elaborate weapon channels your bloodlust. You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with a ranged attack with this weapon while you’re raging, you can add your Rage Damage bonus to the attack’s damage. Immediately after making a ranged attack, the weapon flies back to your hand.",
-				"In addition, once on each of your turns when you make a ranged attack with this weapon while you’re raging, you can choose to make another ranged attack with it against a different target within 10 feet of the first. This second target can be beyond the handaxe’s normal or long ranges. When you make this special attack, the axe flies back to your hand after it hits or misses the second target."
+				"This elaborate weapon channels your bloodlust. You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with a ranged attack with this weapon while you're raging, you can add your Rage Damage bonus to the attack's damage. Immediately after making a ranged attack, the weapon flies back to your hand.",
+				"In addition, once on each of your turns when you make a ranged attack with this weapon while you're raging, you can choose to make another ranged attack with it against a different target within 10 feet of the first. This second target can be beyond the handaxe's normal or long ranges. When you make this special attack, the axe flies back to your hand after it hits or misses the second target."
 			],
 			"fluff": {
 				"images": [
@@ -11889,7 +11890,7 @@
 				"ice storm"
 			],
 			"entries": [
-				"This frosty armor is enchanted to keep its wearer at a constant, comfortable temperature. While wearing this armor, you have resistance to cold and fire damage and ignore difficult terrain created by ice or snow. In addition, while wearing the armor, you can use an action to cast the {@spell ice storm} spell (6th-level version, save {@dc 16}) from it. When cast in this way, the spell is centered on your location, and you are immune to its effects. Once this property has been used, it can’t be used again until the next dawn."
+				"This frosty armor is enchanted to keep its wearer at a constant, comfortable temperature. While wearing this armor, you have resistance to cold and fire damage and ignore difficult terrain created by ice or snow. In addition, while wearing the armor, you can use an action to cast the {@spell ice storm} spell (6th-level version, save {@dc 16}) from it. When cast in this way, the spell is centered on your location, and you are immune to its effects. Once this property has been used, it can't be used again until the next dawn."
 			],
 			"fluff": {
 				"images": [
@@ -11913,9 +11914,9 @@
 			"recharge": "dusk",
 			"charges": 4,
 			"entries": [
-				"This dark hooded lantern glows with a {@creature will-o'-wisp}'s flame that can reveal the final moments of a creature’s life. The lantern sheds bright blue light in a 20-foot radius and dim light for an additional 20 feet. You can use an action to reduce the light’s reach or cover it completely.",
-				"The lantern has 4 charges and regains {@dice 1d3 + 1} expended charges each day at dusk. As an action while holding the lantern, you can expend 1 of its charges and touch it to a Large or smaller corpse. When you do, a ghostly blue illusion of the fallen creature appears above its corpse and silently reenacts the last 6 seconds of its conscious life. The illusion only shows the creature’s actions, such as reacting to an unseen monster or trying to extinguish the flames of a fiery trap, but does not show the responsible monster or effect. This ability has no effect on undead creatures. Once a corpse’s death has been shown, it cannot be shown again.",
-				"Alternatively, while holding the lantern, you can use an action to expend 1 of its charges to speak its command word. If there are any undead creatures within 60 feet of you that aren’t behind total cover, the lantern’s light flashes red before returning to its normal blue glow."
+				"This dark hooded lantern glows with a {@creature will-o'-wisp}'s flame that can reveal the final moments of a creature's life. The lantern sheds bright blue light in a 20-foot radius and dim light for an additional 20 feet. You can use an action to reduce the light's reach or cover it completely.",
+				"The lantern has 4 charges and regains {@dice 1d3 + 1} expended charges each day at dusk. As an action while holding the lantern, you can expend 1 of its charges and touch it to a Large or smaller corpse. When you do, a ghostly blue illusion of the fallen creature appears above its corpse and silently reenacts the last 6 seconds of its conscious life. The illusion only shows the creature's actions, such as reacting to an unseen monster or trying to extinguish the flames of a fiery trap, but does not show the responsible monster or effect. This ability has no effect on undead creatures. Once a corpse's death has been shown, it cannot be shown again.",
+				"Alternatively, while holding the lantern, you can use an action to expend 1 of its charges to speak its command word. If there are any undead creatures within 60 feet of you that aren't behind total cover, the lantern's light flashes red before returning to its normal blue glow."
 			],
 			"fluff": {
 				"images": [
@@ -11941,7 +11942,7 @@
 			"ac": 13,
 			"reqAttune": "by a druid or ranger",
 			"entries": [
-				"This magic chain shirt is crafted using strange wooden links enchanted by a militant circle of druids. The wooden chain is reinforced with old, natural magic that responds to the wearer’s reverent connection to nature. While wearing this armor, you gain a bonus to your AC equal to your Wisdom modifier (max 2) in addition to the armor’s normal AC."
+				"This magic chain shirt is crafted using strange wooden links enchanted by a militant circle of druids. The wooden chain is reinforced with old, natural magic that responds to the wearer's reverent connection to nature. While wearing this armor, you gain a bonus to your AC equal to your Wisdom modifier (max 2) in addition to the armor's normal AC."
 			],
 			"fluff": {
 				"images": [
@@ -11976,8 +11977,8 @@
 			"recharge": "dawn",
 			"charges": 4,
 			"entries": [
-				"This enchanted greatsword contains a wyvern’s wing that’s stretched between three thin, collapsed blades. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"The sword has 4 charges and regains {@dice 1d4} expended charges each day at dawn. As an action, you can expend 1 charge to flick open the sword like a fan and swing it down to create a buffeting wind. When you do, you can choose for the wind to affect creatures in either a 15-foot cone in front of you or all creatures within 5 feet of you. Creatures affected by this wind in the area you designate are forced to make a {@dc 15} Dexterity saving throw. On a failure, a creature takes {@damage 2d6} bludgeoning damage and is pushed up to 10 feet away from you. On a success, the creature takes half damage and isn’t pushed. The weapon magically collapses again as the wind settles."
+				"This enchanted greatsword contains a wyvern's wing that's stretched between three thin, collapsed blades. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"The sword has 4 charges and regains {@dice 1d4} expended charges each day at dawn. As an action, you can expend 1 charge to flick open the sword like a fan and swing it down to create a buffeting wind. When you do, you can choose for the wind to affect creatures in either a 15-foot cone in front of you or all creatures within 5 feet of you. Creatures affected by this wind in the area you designate are forced to make a {@dc 15} Dexterity saving throw. On a failure, a creature takes {@damage 2d6} bludgeoning damage and is pushed up to 10 feet away from you. On a success, the creature takes half damage and isn't pushed. The weapon magically collapses again as the wind settles."
 			],
 			"fluff": {
 				"images": [
@@ -12005,7 +12006,7 @@
 				"arcane eye"
 			],
 			"entries": [
-				"This soft, elaborately stitched pillow set focuses the intensity of your meditation. It takes 1 minute to settle into a meditation while sitting on the pillows. You can hold a light conversation when meditating, but are otherwise unable to move or take actions while you do. While meditating in this way, you can levitate yourself, including the pillows, up to 5 feet in the air (no action required). You meditate in this way until you decide to end it (no action required), or until you take damage or are no longer on the pillows. While you’re within 100 feet of at least one of the pillows, you can speak their command word as a bonus action to cause them to be shunted into a special pocket dimension. Speaking their command word again as a bonus action returns them softly to an empty space within 5 feet of you.",
+				"This soft, elaborately stitched pillow set focuses the intensity of your meditation. It takes 1 minute to settle into a meditation while sitting on the pillows. You can hold a light conversation when meditating, but are otherwise unable to move or take actions while you do. While meditating in this way, you can levitate yourself, including the pillows, up to 5 feet in the air (no action required). You meditate in this way until you decide to end it (no action required), or until you take damage or are no longer on the pillows. While you're within 100 feet of at least one of the pillows, you can speak their command word as a bonus action to cause them to be shunted into a special pocket dimension. Speaking their command word again as a bonus action returns them softly to an empty space within 5 feet of you.",
 				"In addition, this pillow has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While meditating on the pillows, you can expend 1 of their charges to cast the {@spell arcane eye} spell, without breaking your meditation. You lose concentration on this spell when cast in this way if you end your meditation."
 			],
 			"fluff": {
@@ -12038,7 +12039,7 @@
 			],
 			"entries": [
 				"This magical helmet once belonged to the Soulfire Phoenix Fara, a paragon to the citizens of the Elemental Plane of Fire who led her people to victory during the Savrayan Wars. While some believe that her ferocity and heroism were a result of {@creature phoenix|mtf} blood running through her veins, others claim that a hero will always rise from the ashes when the time is right.",
-				"A spark of this heroism resides within the helmet, imparting its passion and phoenix-like properties to you. While wearing the helmet, you have resistance to fire damage, and while you’re in combat, magical flames erupt from it. The fire is harmless and casts bright light in a 20-foot radius and dim light for an additional 20 feet.",
+				"A spark of this heroism resides within the helmet, imparting its passion and phoenix-like properties to you. While wearing the helmet, you have resistance to fire damage, and while you're in combat, magical flames erupt from it. The fire is harmless and casts bright light in a 20-foot radius and dim light for an additional 20 feet.",
 				{
 					"name": "Fiery Spirit",
 					"entries": [
@@ -12048,7 +12049,7 @@
 				{
 					"name": "Ignite",
 					"entries": [
-						"While wearing the helmet, you can use a bonus action to cast the {@spell fire shield} spell (warm shield only) from it, requiring only verbal components. When you do, you also sprout a pair of flaming wings that last for the duration of the spell and give you a flying speed of 30 feet. Once this property has been used, it can’t be used again until the next dawn."
+						"While wearing the helmet, you can use a bonus action to cast the {@spell fire shield} spell (warm shield only) from it, requiring only verbal components. When you do, you also sprout a pair of flaming wings that last for the duration of the spell and give you a flying speed of 30 feet. Once this property has been used, it can't be used again until the next dawn."
 					]
 				},
 				{
@@ -12060,7 +12061,7 @@
 				{
 					"name": "From the Ashes",
 					"entries": [
-						"If you are reduced to 0 hit points and not killed outright while wearing the helmet, you can use your reaction to call upon the spark of heroism that resides within the galea to drop to 1 hit point instead. When you do, you immediately regain 14 hit points, and each creature within 10 feet of you must make a {@dc 18} Dexterity saving throw. On a failed save, a creature takes {@damage 4d10} fire damage, or half as much damage on a successful one. In addition, two flaming wings unfurl from your back and carry you to an unoccupied space of your choice up to 60 feet away from you, without provoking opportunity attacks. Once this property has been used, it can’t be used again until 2 days have passed. If you die while attuned to this helmet, it vanishes in a cloud of embers and smoke and reappears somewhere in the Elemental Plane of Fire."
+						"If you are reduced to 0 hit points and not killed outright while wearing the helmet, you can use your reaction to call upon the spark of heroism that resides within the galea to drop to 1 hit point instead. When you do, you immediately regain 14 hit points, and each creature within 10 feet of you must make a {@dc 18} Dexterity saving throw. On a failed save, a creature takes {@damage 4d10} fire damage, or half as much damage on a successful one. In addition, two flaming wings unfurl from your back and carry you to an unoccupied space of your choice up to 60 feet away from you, without provoking opportunity attacks. Once this property has been used, it can't be used again until 2 days have passed. If you die while attuned to this helmet, it vanishes in a cloud of embers and smoke and reappears somewhere in the Elemental Plane of Fire."
 					]
 				},
 				{
@@ -12080,7 +12081,7 @@
 				{
 					"name": "Destroying the Helmet",
 					"entries": [
-						"The only way to destroy the helmet is to feed it to an ancient phoenix. The phoenix dies and is immediately reborn as a result of the intense magic stored within the artifact. When it’s reborn, the phoenix has a pronounced crown of golden feathers upon its head. Regardless of how many times it’s reborn, the phoenix retains this crown of feathers."
+						"The only way to destroy the helmet is to feed it to an ancient phoenix. The phoenix dies and is immediately reborn as a result of the intense magic stored within the artifact. When it's reborn, the phoenix has a pronounced crown of golden feathers upon its head. Regardless of how many times it's reborn, the phoenix retains this crown of feathers."
 					]
 				}
 			],
@@ -12143,7 +12144,7 @@
 				{
 					"name": "Chained Conduits",
 					"entries": [
-						"When you hit a target with a ranged attack with the bow, that target becomes a conduit for electricity for 1 minute. You can speak the bow’s command word as a bonus action to cause all conduits within 60 feet of you to electrify. When you do, 5-foot-wide lines of electricity arc between all electrified conduits that are within 30 feet of each other. Each conduit takes {@damage 2d8} lightning damage, and all other creatures within the lines of electricity must make a {@dc 18} Dexterity saving throw. On a failed save, a creature takes {@damage 2d8} lightning damage, or half as much damage on a successful one. Once a conduit has been electrified in this way, it is no longer a conduit. A creature or object can only take lightning damage from this property once each round."
+						"When you hit a target with a ranged attack with the bow, that target becomes a conduit for electricity for 1 minute. You can speak the bow's command word as a bonus action to cause all conduits within 60 feet of you to electrify. When you do, 5-foot-wide lines of electricity arc between all electrified conduits that are within 30 feet of each other. Each conduit takes {@damage 2d8} lightning damage, and all other creatures within the lines of electricity must make a {@dc 18} Dexterity saving throw. On a failed save, a creature takes {@damage 2d8} lightning damage, or half as much damage on a successful one. Once a conduit has been electrified in this way, it is no longer a conduit. A creature or object can only take lightning damage from this property once each round."
 					]
 				},
 				{
@@ -12161,7 +12162,7 @@
 				{
 					"name": "Embrace the Storm",
 					"entries": [
-						"While you’re attuned to the bow, you’re subjected to the chaotic magic of the Stormheart whenever you take lightning damage. When you do, roll a {@dice d8} and use the table below to determine the resulting effect.",
+						"While you're attuned to the bow, you're subjected to the chaotic magic of the Stormheart whenever you take lightning damage. When you do, roll a {@dice d8} and use the table below to determine the resulting effect.",
 						{
 							"type": "table",
 							"caption": "Stormheart Effects",
@@ -12188,7 +12189,7 @@
 								],
 								[
 									"4",
-									"You can’t take reactions for 1 minute."
+									"You can't take reactions for 1 minute."
 								],
 								[
 									"5",
@@ -12213,7 +12214,7 @@
 				{
 					"name": "Random Properties",
 					"entries": [
-						"Ionbreaker, the Tempest’s Reach has the following random properties:",
+						"Ionbreaker, the Tempest's Reach has the following random properties:",
 						{
 							"type": "list",
 							"items": [
@@ -12228,7 +12229,7 @@
 				{
 					"name": "Destroying the Bow",
 					"entries": [
-						"The bow can be destroyed if it’s struck by lightning in the Stormheart at the same time as it’s hit by a hammer of pure adamantine against a similarly adamantine anvil by a creature attuned to the bow. Once destroyed, all creatures within 60 feet of the bow take {@damage 10d10} lightning damage and {@damage 10d10} force damage. If a creature is reduced to 0 hit points by this damage, it’s immediately turned to ash and can only be revived by a {@spell wish} spell."
+						"The bow can be destroyed if it's struck by lightning in the Stormheart at the same time as it's hit by a hammer of pure adamantine against a similarly adamantine anvil by a creature attuned to the bow. Once destroyed, all creatures within 60 feet of the bow take {@damage 10d10} lightning damage and {@damage 10d10} force damage. If a creature is reduced to 0 hit points by this damage, it's immediately turned to ash and can only be revived by a {@spell wish} spell."
 					]
 				}
 			],
@@ -12283,12 +12284,12 @@
 				"wall of ice"
 			],
 			"entries": [
-				"This magic coral staff was first found within the Great Reef of the Elemental Plane of Water. Its origins beyond that are entirely unknown, with some suggesting it was made by the plane itself rather than forged or crafted by a mere creature’s hands. Attuning to the staff bestows some of its planar powers to you, allowing you to breathe underwater and ignore any of the drawbacks caused by a deep, underwater environment. In addition, while holding the staff, you have resistance to cold damage.",
+				"This magic coral staff was first found within the Great Reef of the Elemental Plane of Water. Its origins beyond that are entirely unknown, with some suggesting it was made by the plane itself rather than forged or crafted by a mere creature's hands. Attuning to the staff bestows some of its planar powers to you, allowing you to breathe underwater and ignore any of the drawbacks caused by a deep, underwater environment. In addition, while holding the staff, you have resistance to cold damage.",
 				"This staff has 15 charges which are used to power its various properties. The staff regains {@dice 1d8 + 7} expended charges daily at dawn.",
 				{
 					"name": "State Change",
 					"entries": [
-						"The staff has a powerful control over the various states of water. As a bonus action while holding the staff, you can mentally command the staff’s ever-present bounty of water to change its state into a gas, liquid, or solid. The properties of each state are listed below. Alternatively, you can expend 1 of its charges as a reaction when you are the target of an attack or spell to force the staff to change its state more rapidly. When you do, the staff’s change is immediate: potentially affecting the outcome of the incoming attack or spell. You take this reaction when you know you are the target of the attack or spell, but before knowing the result of the roll."
+						"The staff has a powerful control over the various states of water. As a bonus action while holding the staff, you can mentally command the staff's ever-present bounty of water to change its state into a gas, liquid, or solid. The properties of each state are listed below. Alternatively, you can expend 1 of its charges as a reaction when you are the target of an attack or spell to force the staff to change its state more rapidly. When you do, the staff's change is immediate: potentially affecting the outcome of the incoming attack or spell. You take this reaction when you know you are the target of the attack or spell, but before knowing the result of the roll."
 					]
 				},
 				{
@@ -12316,7 +12317,7 @@
 				{
 					"name": "Tailwind",
 					"entries": [
-						"While holding the staff in its gas state, you can expend 2 of its charges and speak the staff’s command word as an action to grant additional powers to you and nearby allies. Until the end of your next turn, you and friendly creatures of your choice that you can see within 30 feet of you can take the {@action Dash} action as a bonus action and don’t provoke opportunity attacks by moving."
+						"While holding the staff in its gas state, you can expend 2 of its charges and speak the staff's command word as an action to grant additional powers to you and nearby allies. Until the end of your next turn, you and friendly creatures of your choice that you can see within 30 feet of you can take the {@action Dash} action as a bonus action and don't provoke opportunity attacks by moving."
 					]
 				},
 				{
@@ -12344,7 +12345,7 @@
 				{
 					"name": "Tide Turner",
 					"entries": [
-						"While holding the staff in its liquid state, you can expend 3 of its charges and speak the staff’s command word as an action to send out a wave of ethereal magic water to buffet and push your enemies. Hostile creatures of your choice that you can see within 30 feet of you are forced to make a {@dc 18} Strength saving throw. On a failed save, a creature takes {@damage 4d8} bludgeoning damage and is pushed either 20 feet toward you or away from you (your choice). On a successful save, the creature takes half as much bludgeoning damage and is not pushed."
+						"While holding the staff in its liquid state, you can expend 3 of its charges and speak the staff's command word as an action to send out a wave of ethereal magic water to buffet and push your enemies. Hostile creatures of your choice that you can see within 30 feet of you are forced to make a {@dc 18} Strength saving throw. On a failed save, a creature takes {@damage 4d8} bludgeoning damage and is pushed either 20 feet toward you or away from you (your choice). On a successful save, the creature takes half as much bludgeoning damage and is not pushed."
 					]
 				},
 				{
@@ -12357,7 +12358,7 @@
 								"You have resistance to piercing and slashing damage.",
 								"Your movement speed is reduced to 5 feet.",
 								"You gain a +3 bonus to AC.",
-								"If you’re pushed against your will, the distance you are pushed is halved.",
+								"If you're pushed against your will, the distance you are pushed is halved.",
 								"You gain 10 temporary hit points at the start of each of your turns that last until the staff changes state."
 							]
 						}
@@ -12372,7 +12373,7 @@
 				{
 					"name": "Deep Freeze",
 					"entries": [
-						"While holding the staff in its solid state, you can expend 4 of its charges and speak the staff’s command word as an action to send out a chilling blast to freeze your enemies. Hostile creatures of your choice that you can see within 30 feet of you are forced to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes {@damage 4d8} cold damage and its speed is reduced to 0 until the end of its next turn. On a successful save, the creature takes half as much cold damage and its speed is halved instead."
+						"While holding the staff in its solid state, you can expend 4 of its charges and speak the staff's command word as an action to send out a chilling blast to freeze your enemies. Hostile creatures of your choice that you can see within 30 feet of you are forced to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes {@damage 4d8} cold damage and its speed is reduced to 0 until the end of its next turn. On a successful save, the creature takes half as much cold damage and its speed is halved instead."
 					]
 				},
 				{
@@ -12391,7 +12392,7 @@
 				{
 					"name": "Destroying the Staff",
 					"entries": [
-						"The only way to destroy the staff is to keep it untouched by water for one hundred years while on the Elemental Plane of Water, at which point it crumbles to dust. Any amount, such as a puff of misty air, a drip of water, or the touch of ice during that time reinvigorates the staff’s bounty of water."
+						"The only way to destroy the staff is to keep it untouched by water for one hundred years while on the Elemental Plane of Water, at which point it crumbles to dust. Any amount, such as a puff of misty air, a drip of water, or the touch of ice during that time reinvigorates the staff's bounty of water."
 					]
 				}
 			],
@@ -12426,7 +12427,7 @@
 				"wall of stone"
 			],
 			"entries": [
-				"This magical set of stone gauntlets imbue your fists with the power of the Elemental Plane of Earth. While wearing and attuned to the gauntlets, your unarmed attacks become magical and deal {@damage 1d8} bludgeoning damage in place of the normal damage of your unarmed strike (unless it’s already higher). In addition, these gloves have 15 charges and regain {@dice 1d10 + 5} expended charges each day at dawn. When you make an unarmed attack with your fists, you can expend up to 5 charges to extend your fist’s reach by 5 feet for each expended charge. Your unarmed strikes deal double damage to objects and structures.",
+				"This magical set of stone gauntlets imbue your fists with the power of the Elemental Plane of Earth. While wearing and attuned to the gauntlets, your unarmed attacks become magical and deal {@damage 1d8} bludgeoning damage in place of the normal damage of your unarmed strike (unless it's already higher). In addition, these gloves have 15 charges and regain {@dice 1d10 + 5} expended charges each day at dawn. When you make an unarmed attack with your fists, you can expend up to 5 charges to extend your fist's reach by 5 feet for each expended charge. Your unarmed strikes deal double damage to objects and structures.",
 				{
 					"name": "Powerglove",
 					"entries": [
@@ -12442,7 +12443,7 @@
 				{
 					"name": "Tectonic Plate Armor",
 					"entries": [
-						"As an action, you can allow rocks to envelop and protect your body. For 1 hour, you gain resistance to bludgeoning, piercing, and slashing damage, your movement speed is halved, and you make Dexterity checks and saving throws with disadvantage. You can end this feature early as a bonus action. While enveloped in this way, you can burrow through nonmagical, unworked earth and stone at a speed of 30 feet. While doing so, you don’t disturb the material you move through. If you end this ability while still underground, you’re forced out of the earth to the nearest space available and take {@damage 1d10} force damage. Once this feature of the gloves has been used, it can’t be used again until you take a short or long rest."
+						"As an action, you can allow rocks to envelop and protect your body. For 1 hour, you gain resistance to bludgeoning, piercing, and slashing damage, your movement speed is halved, and you make Dexterity checks and saving throws with disadvantage. You can end this feature early as a bonus action. While enveloped in this way, you can burrow through nonmagical, unworked earth and stone at a speed of 30 feet. While doing so, you don't disturb the material you move through. If you end this ability while still underground, you're forced out of the earth to the nearest space available and take {@damage 1d10} force damage. Once this feature of the gloves has been used, it can't be used again until you take a short or long rest."
 					]
 				},
 				{
@@ -12508,25 +12509,25 @@
 				"Leomund's secret chest"
 			],
 			"entries": [
-				"These leather bags have the stylized face of a griffon on their front and appear across the multiverse in strange locations. One may be found in the belly of a dragon, while another in the limbs of a great tree. Regardless of where it’s found, a {@i Griffon’s Saddlebag} is typically discovered by an adventurer with a destiny.",
+				"These leather bags have the stylized face of a griffon on their front and appear across the multiverse in strange locations. One may be found in the belly of a dragon, while another in the limbs of a great tree. Regardless of where it's found, a {@i Griffon's Saddlebag} is typically discovered by an adventurer with a destiny.",
 				"The saddlebags are made by a great, six-armed griffon on the Astral Plane. Believed by some to be a demigod of pocket dimensions and craftsmen everywhere, the griffon is a patron of artificers and creators across the multiverse. The griffon creates magical items in its great forge using materials collected from various planes of existence to add to its collection. While no one knows exactly how to contact the griffon, it has a knack for knowing what items are needed by whom.",
 				{
 					"name": "Superior Holding",
 					"entries": [
-						"This 1-foot-wide bag always weighs 3 pounds, regardless of what’s inside it. It functions as a bag of holding that can only be pierced by another artifact. Placing a {@item bag of holding}, {@item Heward's handy haversack}, {@item portable hole}, or similar item inside the extradimensional space created by the saddlebag, or vice versa, destroys the extradimensional item but leaves the saddlebag unharmed. Any item stored within the other extradimensional space is magically moved to the space within the saddlebag instead. If doing so overloads the bag, random contents from either space are scattered in the Astral Plane."
+						"This 1-foot-wide bag always weighs 3 pounds, regardless of what's inside it. It functions as a bag of holding that can only be pierced by another artifact. Placing a {@item bag of holding}, {@item Heward's handy haversack}, {@item portable hole}, or similar item inside the extradimensional space created by the saddlebag, or vice versa, destroys the extradimensional item but leaves the saddlebag unharmed. Any item stored within the other extradimensional space is magically moved to the space within the saddlebag instead. If doing so overloads the bag, random contents from either space are scattered in the Astral Plane."
 					]
 				},
 				{
 					"name": "Magic Courier",
 					"entries": [
-						"At the GM’s discretion, the saddlebag’s beak opens up to reveal a letter. The magical script can be read by all creatures with an Intelligence score of 4 or higher. The note is a delivery request or similar that includes the name of an item as well as either specific or vague descriptions of a person or place. At the bottom of the letter is a price listed in coins or other form of payment, as well as a date or time depending on its urgency.",
-						"If the saddlebag is brought to the described person or place within the allotted time, it dispenses the magical item into the hand of the appropriate recipient. If the payment isn’t received by the bag within 1 hour of dispensing the magic item, the item vanishes and is lost. After receiving the payment for an item in this way, the bag’s beak reopens to dispense a reward for the courier."
+						"At the GM's discretion, the saddlebag's beak opens up to reveal a letter. The magical script can be read by all creatures with an Intelligence score of 4 or higher. The note is a delivery request or similar that includes the name of an item as well as either specific or vague descriptions of a person or place. At the bottom of the letter is a price listed in coins or other form of payment, as well as a date or time depending on its urgency.",
+						"If the saddlebag is brought to the described person or place within the allotted time, it dispenses the magical item into the hand of the appropriate recipient. If the payment isn't received by the bag within 1 hour of dispensing the magic item, the item vanishes and is lost. After receiving the payment for an item in this way, the bag's beak reopens to dispense a reward for the courier."
 					]
 				},
 				{
 					"name": "Sell Magic Items",
 					"entries": [
-						"The saddlebag has a connection to the griffon’s forge on the Astral Plane. Depending on the magic item, you can sell a magic item to the saddlebag for half the cost of its base price."
+						"The saddlebag has a connection to the griffon's forge on the Astral Plane. Depending on the magic item, you can sell a magic item to the saddlebag for half the cost of its base price."
 					]
 				},
 				{
@@ -12538,27 +12539,27 @@
 				{
 					"name": "Additional Spells",
 					"entries": [
-						"At the GM’s discretion, such as after reaching certain milestones or completing {@i Magic Courier} quests, the saddlebag may offer the following additional spells that can be cast from it: {@spell blink} (3 charges), {@spell dimension door} (4 charges), {@spell divination} (4 charges), {@spell etherealness} (7 charges), {@spell fly} (3 charges), {@spell Mordenkainen's magnificent mansion} (7 charges), {@spell plane shift} (7 charges), or {@spell Leomund's secret chest} (4 charges)."
+						"At the GM's discretion, such as after reaching certain milestones or completing {@i Magic Courier} quests, the saddlebag may offer the following additional spells that can be cast from it: {@spell blink} (3 charges), {@spell dimension door} (4 charges), {@spell divination} (4 charges), {@spell etherealness} (7 charges), {@spell fly} (3 charges), {@spell Mordenkainen's magnificent mansion} (7 charges), {@spell plane shift} (7 charges), or {@spell Leomund's secret chest} (4 charges)."
 					]
 				},
 				{
 					"name": "Sentience",
 					"entries": [
 						"The saddlebag is a sentient chaotic neutral bag with an Intelligence of 13, a Wisdom of 15, and a Charisma of 16. It has hearing and normal vision out to a range of 60 feet.",
-						"The bag can speak, read, and understand Common. When in the presence of only creatures it trusts, the bag’s beak moves when it speaks. Otherwise, the bag communicates telepathically with its wearer. The bag can speak and communicate with griffons."
+						"The bag can speak, read, and understand Common. When in the presence of only creatures it trusts, the bag's beak moves when it speaks. Otherwise, the bag communicates telepathically with its wearer. The bag can speak and communicate with griffons."
 					]
 				},
 				{
 					"name": "Personality",
 					"entries": [
-						"The bag’s purpose is to carry, collect, and deliver magic items. Different bags have different personalities, but they are for the most part largely pleasant to talk to. Their voices are bird-like and are filled with occasional coos and squawks, and their stitched eyes widen, squint, and move expressively.",
-						"If the bag’s wearer or allies fail to fulfill {@i Magic Courier} quests, it may stop offering its magic to them. If it does, their items may be lost or inaccessible within the bag, or potentially spat out. While the bag provides the names of item recipients and delivery locations, it doesn’t know any more information than what was provided to it by the astral griffon. Regardless, it does its best to help its wearer and allies find the specified person or location on the letter."
+						"The bag's purpose is to carry, collect, and deliver magic items. Different bags have different personalities, but they are for the most part largely pleasant to talk to. Their voices are bird-like and are filled with occasional coos and squawks, and their stitched eyes widen, squint, and move expressively.",
+						"If the bag's wearer or allies fail to fulfill {@i Magic Courier} quests, it may stop offering its magic to them. If it does, their items may be lost or inaccessible within the bag, or potentially spat out. While the bag provides the names of item recipients and delivery locations, it doesn't know any more information than what was provided to it by the astral griffon. Regardless, it does its best to help its wearer and allies find the specified person or location on the letter."
 					]
 				},
 				{
 					"name": "Destroying the Griffon's Saddlebag",
 					"entries": [
-						"While there is no way to permanently destroy the saddlebag, piercing it with an artifact returns it to its place of origin for repair before it’s returned to the multiverse in a new location. Placing a {@i Griffon’s Saddlebag} inside the extradimensional space created by another {@i Griffon’s Saddlebag} returns both items to their place of origin and sends all the items stored within them to the griffon’s forge on the Astral Plane."
+						"While there is no way to permanently destroy the saddlebag, piercing it with an artifact returns it to its place of origin for repair before it's returned to the multiverse in a new location. Placing a {@i Griffon's Saddlebag} inside the extradimensional space created by another {@i Griffon's Saddlebag} returns both items to their place of origin and sends all the items stored within them to the griffon's forge on the Astral Plane."
 					]
 				}
 			],
