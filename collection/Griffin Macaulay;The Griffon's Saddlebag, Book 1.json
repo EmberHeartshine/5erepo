@@ -2373,45 +2373,6 @@
 			}
 		},
 		{
-			"name": "Couatl Herald's Fang",
-			"source": "tgs1",
-			"page": 48,
-			"baseItem": "greatsword|phb",
-			"type": "M",
-			"tier": "major",
-			"rarity": "rare",
-			"weight": 6,
-			"weaponCategory": "martial",
-			"property": [
-				"H",
-				"2H"
-			],
-			"dmg1": "2d6",
-			"dmgType": "S",
-			"bonusWeapon": "+1",
-			"reqAttune": true,
-			"entries": [
-				"This vibrant claymore carries with it some of the properties of the {@creature couatl} who either forged it or the couatl whose scales it was crafted from. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, when you roll a 20 on an attack roll made with this weapon, the target takes an extra {@damage 2d6} poison damage and must make a {@dc 15} Constitution saving throw. On a failure, the target is {@condition incapacitated} and has a speed of 0 until it takes any damage or someone else uses an action to shake the target out of its stupor.",
-				{
-					"name": "Flight of the Couatls",
-					"entries": [
-						"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
-					]
-				}
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Fang.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
 			"name": "Couatl Herald's Guard",
 			"source": "tgs1",
 			"page": 48,
@@ -11388,6 +11349,147 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Visage of Delight and Disaster",
+			"source": "tgs1",
+			"page": 139,
+			"tier": "major",
+			"rarity": "legendary",
+			"wondrous": true,
+			"reqAttune": "by a creature with a Charisma score of 17 or higher",
+			"entries": [
+				"While wearing this mask, you gain 2 {@classFeature bardic inspiration|bard||1||Bardic Inspiration} dice, which are {@dice d10}s. These dice are separate from any Bardic Inspiration dice you have from another source. You can use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die. These dice are the same as normal Bardic Inspiration dice, but carry with them additional benefits based on the mood of your performance:",
+				{
+					"name": "Delight",
+					"entries": [
+						"If you inspire a creature with a joyful or uplifting performance, that creature has advantage on saving throws to resist becoming {@condition frightened} for 1 minute following your performance. In addition, when that creature uses the Bardic Inspiration die, it gains temporary hit points equal to twice the amount it rolled on the die."
+					]
+				},
+				{
+					"name": "Disaster",
+					"entries": [
+						"If you inspire a creature with a grim or haunting performance, that creature has advantage on saving throws to resist becoming {@condition charmed} for 1 minute following your performance. In addition, when that creature hits a target with a weapon attack, it can expend the Bardic Inspiration die to deal psychic damage to the target, in addition to the weapon’s damage. This psychic damage is equal to twice the number rolled on the Bardic Inspiration die."
+					]
+				},
+				"The expression of the mask subtly changes to reflect your expression or mouth’s movement behind the mask. You regain all expended Bardic Inspiration dice when you finish a short or long rest."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Visage-of-Delight-and-Disaster.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Volcanic Boots",
+			"source": "tgs1",
+			"page": 139,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"These heavy volcanic stones rearrange themselves to better fit your feet once you’ve attuned to them. Despite their appearance, the boots are comfortably light and warm. While wearing the boots, you have resistance to fire damage.",
+				"The boots have 10 charges and regain {@dice 1d6 + 4} expended charges daily at dawn. When you walk at least 5 feet on solid ground while wearing the boots, you can expend 1 or more of their charges as part of that movement. Choose an unoccupied space you just walked through for each expended charge: the ground and air in a 5-foot cube within that space becomes volcanic and impossibly hot. Any creature other than you that enters or starts its turn in that space must succeed on a {@dc 15} Dexterity saving throw or take {@damage 2d6} fire damage.",
+				"The volcanic effect lasts for 1 minute or until you end it early as a bonus action or fall unconscious."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Volcanic-Boots.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Volt Gauntlets",
+			"source": "tgs1",
+			"page": 140,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 6,
+			"entries": [
+				"These metallic gauntlets have several sharp points extending from its knuckles and are lined with an insulating material. Unarmed strikes made with your fists while wearing these gauntlets deal piercing damage instead of bludgeoning. In addition, the gauntlets have 6 charges and regain {@dice 1d6} expended charges each day at dawn. When you hit a creature with an unarmed strike with the gauntlets, you can expend 1 of their charges to deal an extra {@damage 1d8} lightning damage. When you do, the target must succeed on a {@dc 15} Constitution saving throw or be unable to take reactions until the start of its next turn. While the gauntlets hold at least 1 charge, they give off occasional snaps and sparks of electricity."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Volt-Gauntlets.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Vox Helm",
+			"source": "tgs1",
+			"page": 140,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This metal helm has a second guard that rests in front of your mouth and alters your voice. You can raise and lower this guard using an action. While wearing the helmet with the guard lowered, your voice sounds obviously enchanted and can be adjusted to modify its pitch, masculinity or femininity, and reverberation at will (no action required)."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Vox-Helm.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wand of Whispers",
+			"source": "tgs1",
+			"page": 140,
+			"type": "WD",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 1,
+			"reqAttune": "by a spellcaster",
+			"recharge": "dusk",
+			"charges": 7,
+			"attachedSpells": [
+				"sending",
+				"message"
+			],
+			"entries": [
+				"These wands are sometimes found in the hands of clandestine mages posing as simple townsfolk. Its magic wax and iron design resembles a candle and candlestick. The wand produces a harmless, magical flame that is indistinguishable from normal candlelight, although the wax never melts or changes shape. The flame is harmless and casts bright light in a 5-foot radius and dim light for another 5 feet. While holding the wand, you can extinguish or relight the flame as a bonus action.",
+				"This wand has 7 charges. While holding the wand, you can use an action to expend some of its charges to cast either the {@spell message} (no charges) or {@spell sending} spell (3 charges) from it. Alternatively, when you cast a spell of 5th level or lower while holding the wand, you can expend 1 of the wand’s charges per spell slot level to ignore the spell’s verbal components. Any spell that requires a target to hear its verbal component gains no benefit from this property.",
+				"The wand regains {@dice 1d6 + 1} expended charges daily at dusk. If you expend the wand’s last charge, roll a d20. On a 1, the magical flame burns out and the wand becomes a mundane candle and candlestick."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Wand-of-Whispers.jpg"
+						}
+					}
+				]
+			}
 		}
 	],
 	"monster": [
@@ -15514,7 +15616,7 @@
 	],
 	"variant": [
 		{
-			"name": "Acidlight Arrow",
+			"name": "Acidlight Ammunition",
 			"type": "GV",
 			"requires": [
 				{
@@ -15542,7 +15644,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Acidlight-Arrow.jpg"
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Acidlight-Ammunition.jpg"
 							}
 						}
 					]
@@ -15554,18 +15656,12 @@
 			"type": "GV",
 			"requires": [
 				{
-					"type": "R",
-					"dmgType": "P"
+					"name": "Longbow"
+				},
+				{
+					"name": "Shortbow"
 				}
 			],
-			"excludes": {
-				"property": [
-					"AF",
-					"LD",
-					"T"
-				],
-				"name": "Light Repeating Crossbow"
-			},
 			"inherits": {
 				"tier": "major",
 				"rarity": "uncommon",
@@ -15590,22 +15686,63 @@
 			}
 		},
 		{
+			"name": "Couatl Herald's Fang",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"name": "Dagger"
+				}
+			],
+			"excludes": {
+				"axe": true,
+				"property": "R",
+				"name": "Sickle"
+			},
+			"inherits": {
+				"namePrefix": "Couatl Herald's Fang ",
+				"source": "tgs1",
+				"page": 48,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeapon": "+1",
+				"reqAttune": true,
+				"entries": [
+					"This vibrant sword carries with it some of the properties of the {@creature couatl} who either forged it or the couatl whose scales it was crafted from. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, when you roll a 20 on an attack roll made with this weapon, the target takes an extra {@damage 2d6} poison damage and must make a {@dc 15} Constitution saving throw. On a failure, the target is {@condition incapacitated} and has a speed of 0 until it takes any damage or someone else uses an action to shake the target out of its stupor.",
+					{
+						"name": "Flight of the Couatls",
+						"entries": [
+							"While you're attuned to 3 items with this property, you gain a flying speed of 30 feet. If you already have a flying speed, your flying speed increases by 30 feet instead."
+						]
+					}
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Couatl-Heralds-Fang.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
 			"name": "Couatl Herald's Reach",
 			"type": "GV",
 			"requires": [
 				{
-					"type": "R",
-					"dmgType": "P"
+					"name": "Longbow"
+				},
+				{
+					"name": "Shortbow"
 				}
 			],
-			"excludes": {
-				"property": [
-					"AF",
-					"LD",
-					"T"
-				],
-				"name": "Light Repeating Crossbow"
-			},
 			"inherits": {
 				"tier": "major",
 				"rarity": "rare",
@@ -16027,7 +16164,7 @@
 			}
 		},
 		{
-			"name": "Healing Arrow",
+			"name": "Healing Ammunition",
 			"type": "GV",
 			"requires": [
 				{
@@ -16054,7 +16191,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Healing-Arrow.jpg"
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Healing-Ammunition.jpg"
 							}
 						}
 					]
@@ -16144,7 +16281,7 @@
 			}
 		},
 		{
-			"name": "Phoenix Arrow",
+			"name": "Phoenix Ammunition",
 			"type": "GV",
 			"requires": [
 				{
@@ -16163,7 +16300,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"entries": [
-					"This bolt or arrow is fletched with {@creature phoenix|mtf} feathers and is magically bound to a small quiver. You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once fired, the ammunition bursts into flames upon impact and deals fire damage instead of piercing. At the start of your next turn, the arrow leaves behind a small pile of ash and reappears in its quiver.",
+					"This bolt or arrow is fletched with {@creature phoenix|mtf} feathers and is magically bound to a small {@item quiver}. You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once fired, the ammunition bursts into flames upon impact and deals fire damage instead of piercing. At the start of your next turn, the arrow leaves behind a small pile of ash and reappears in its quiver.",
 					"You can speak the ammunition's command word as a bonus action before firing it to set it ablaze. If you fire it on that same turn, the arrow or bolt deals an extra {@damage 1d6} fire damage to any target it hits, but turns to ash before reaching its target if fired at a target more than 30 feet away. The arrow reappears in its quiver immediately after making this attack.",
 					"You can store up to 10 other arrows in the quiver but can only have 1 Phoenix Arrow bound to it at a time. If the arrow is ever destroyed, it reappears in the quiver after 24 hours. Firing the arrow or bolt into an antimagic field renders it nonmagical while within the field, allowing the ammunition to be permanently destroyed."
 				],
@@ -16173,7 +16310,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Phoenix-Arrow.jpg"
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Phoenix-Ammunition.jpg"
 							}
 						}
 					]
@@ -16379,7 +16516,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Torpedo-Arrow.jpg"
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Torpedo-Ammunition.jpg"
 							}
 						}
 					]
@@ -16411,6 +16548,78 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Venombane-Armor.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Void Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Sling Bullet"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Void ",
+				"source": "tgs1",
+				"page": 139,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"entries": [
+					"This pitch-dark piece of ammunition is composed of densely-packed shadows. A creature hit by this magic ammunition takes psychic damage instead of piercing damage. This ammunition makes no sound when it’s fired or strikes a surface, leaves no discernible wounds, and vanishes immediately after hitting a creature."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Void-Ammunition.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Voltedge",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "S"
+				}
+			],
+			"excludes": {
+				"axe": true,
+				"property": "R",
+				"name": "Sickle"
+			},
+			"inherits": {
+				"namePrefix": "Voltedge ",
+				"source": "tgs1",
+				"page": 140,
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"This split metal sword arcs with electricity between its two halves. When you hit with an attack using this magic sword, the target takes an extra {@damage 1d6} lightning damage. While holding this sword, you can use an action to unleash a concentrated beam of lightning from the blade in a line that is 60 feet long and 5 feet wide. Each creature within that line must make a {@dc 15} Dexterity saving throw. A creature takes 4d6 lightning damage on a failed save, or half as much damage on a success. Once this property of the sword has been used, it can’t be used again until the next dawn."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Voltedge.jpg"
 							}
 						}
 					]
