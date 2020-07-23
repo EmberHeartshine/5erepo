@@ -11065,7 +11065,7 @@
 						"Effect"
 					],
 					"colStyles": [
-						"col-1",
+						"col-1 text-center",
 						"col-11"
 					],
 					"rows": [
@@ -11159,6 +11159,231 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Tote-of-Tricky-Treat-Sugarbombs.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Trident of the Dryad",
+			"source": "tgs1",
+			"page": 137,
+			"baseItem": "trident|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"This magical wooden trident has 4 charges and regains {@dice 1d3 + 1} expended charges daily at dawn. Once on each of your turns while holding the trident, you can expend 1 of its charges (no action required) and use 10 feet of your movement to step magically into one living tree within your reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.",
+				{
+					"name": "Tree Form",
+					"entries": [
+						"You can use an action to plant the bottom of this trident in fertile ground and speak its command word to transform it into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. Once on your turn, you can expend 1 of the trident’s charges (no action required) and use 10 feet of your movement to step into this tree and emerge from another point on its trunk or within its branches.",
+						"The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by detect magic. While touching the tree, you can use an action to speak its command word again to return the trident to its normal form. Any creature in the tree falls when it reverts to a trident. Once this property of the trident has been used, it can’t be used again until the next dawn."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Trident-of-the-Dryad.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Trident of the Hydra",
+			"source": "tgs1",
+			"page": 137,
+			"baseItem": "trident|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This oddly shaped trident is made of hammered mythril and has a strangely short handle. You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon can’t be wielded with two hands. When you throw this trident, the forked end of the weapon magically splits apart to form three separate spears: allowing you to make 3 attacks with it instead of 1. After the attack, the trident regrows its missing prongs from one of the separated spears, and the other two spears dissolve."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Trident-of-the-Hydra.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Tub of Churning and Fermentation",
+			"source": "tgs1",
+			"page": 137,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This squat wooden and ceramic tub has a screw-on lid that fits snuggly around its base. The tub can hold up to 2 gallons of liquid or 1 cubic foot of material within it. You can leave a liquid or other perishable in the tub and secure the lid before saying the name of the end result you’d like the contents to turn into. If you say the name of a possible result, the tub clicks lightly before locking its lid shut for 10 minutes.",
+				"After 10 minutes, the tub gives a second, louder click as the lid unlocks. The contents of the tub will have been stirred, processed, or otherwise fermented in such a way to generate the commanded end product. Adding extra ingredients into the tub can impact the end result’s flavor.",
+				"Once the tub has been used in this way, it can’t be used again until the following dawn.",
+				{
+					"type": "table",
+					"caption": "Tub of Churning and Fermentation Results",
+					"colLabels": [
+						"Example Ingredients",
+						"Potential Outcomes"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Milk",
+							"Butter, cheese, yogurt"
+						],
+						[
+							"Vinegar, cucumbers",
+							"Pickles"
+						],
+						[
+							"Apples",
+							"Applesauce, hard cider"
+						],
+						[
+							"Assorted fruits",
+							"Wine"
+						],
+						[
+							"Cabbage",
+							"Sauerkraut"
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Tub-of-Churning-and-Fermentation.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Uorik the Conqueror's Juice Cup",
+			"source": "tgs1",
+			"page": 138,
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This brass cup changes the flavor of any water it’s holding. As a bonus action, you can whisper the name of a fruit into the cup. If the cup is filled with water, the water’s color and flavors change to resemble that kind of fruit juice. Saying the name of another fruit changes the water’s color and flavors again. Regardless of its color and flavors, the water is still only water. Shouting into the cup causes the juice to effervesce and bubble. If the water is poisoned, the drink tastes foul and badly fermented."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Uorik-the-Conquerors-Juice-Cup.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Vancian Helm",
+			"source": "tgs1",
+			"page": 138,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"bonusAc": "+1",
+			"entries": [
+				"This helmet is made from the reclaimed and partially disenchanted remains of a {@creature shield guardian}. The helm is no longer bound to an amulet. You gain a +1 bonus to AC while you wear this helmet.",
+				{
+					"name": "Spell Storing",
+					"entries": [
+						"Any creature can cast a spell of 1st through 4th level into it by touching the helm as the spell is cast. The spell has no effect, other than to be stored in the helm. The helm can only hold one spell at a time.",
+						"While wearing this helmet, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. When the spell is cast or a new spell is stored, any previously stored spell is lost.",
+						"If you are wearing the helmet when a spell of 5th level or higher is cast into the helm, the spell is expended without effect and you take {@damage 2d6} psychic damage. While a spell is stored within the helmet, your eyes glow with a brilliant color of your choice while you wear it."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Vancian-Helm.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Vigilus",
+			"source": "tgs1",
+			"page": 136,
+			"baseItem": "hand crossbow|phb",
+			"type": "R",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"L",
+				"LD"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"reqAttune": true,
+			"ammoType": "crossbow bolt|phb",
+			"entries": [
+				"This hand crossbow has a small spring-loaded case of 6 bolts attached to its side that automatically reload the crossbow whenever it’s fired. While the case has bolts in it, the crossbow ignores its loading property. Once the case is empty, a creature can use an action to reload it with another 6 bolts.",
+				"As an action, you can unfurl the crossbow’s three collapsible legs and plant it firmly on the ground to become a Small defensive construct. Once deployed, the crossbow magically draws itself and loads the next bolt in its case, if any. While you’re within 30 feet of the crossbow, you can use a bonus action on each of your turns to command it to attack a target you can see within 30 feet of it. The crossbow uses your attack roll and ability score modifier for its damage rolls. The first time an invisible creature enters a space within 30 feet of the crossbow on its turn, the crossbow emits a small chirping sound audible out to 100 feet.",
+				"The deployed crossbow has 30 hit points, AC 12, and automatically fails Dexterity and Strength saving throws but passes all others. If it’s reduced to 0 hit points, it falls over and can’t be deployed again in this way for 1 minute. You can quickly retrieve the deployed crossbow using a bonus action when you enter the same space as it."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Vigilus.jpg"
 						}
 					}
 				]
@@ -16126,7 +16351,7 @@
 			}
 		},
 		{
-			"name": "Torpedo Arrow",
+			"name": "Torpedo Ammunition",
 			"type": "GV",
 			"requires": [
 				{
@@ -16155,6 +16380,37 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Torpedo-Arrow.jpg"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Venombane Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "LA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Venombane ",
+				"source": "tgs1",
+				"page": 138,
+				"tier": "major",
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"entries": [
+					"This armor absorbs poison and allows you to traverse webbed areas more easily. While you’re wearing this armor, you can’t be caught in webs of any sort and can move through webs as if they were difficult terrain. In addition, when you take poison damage while wearing this armor, you can use your reaction to reduce the damage by {@dice 1d8} + your Constitution modifier."
+				],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Venombane-Armor.jpg"
 							}
 						}
 					]
