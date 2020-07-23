@@ -161,7 +161,7 @@
 				"When you attune to this quarterstaff, it remains solid in your grip but feels pliable within your mind. You can choose to use your Intelligence modifier for the attack and damage rolls made with this weapon instead of Strength. You must use the same modifier for both rolls.",
 				"When you make an attack with this magic weapon, you can choose to make the attack at range. When you do, you use your mind to telekinetically curve the quarterstaff into the form of a {@item longbow|phb}. The bow is magically strung with an arcane energy that arcs between the rings on either end of the weapon. A glowing, magical arrow is formed whenever the arcing energy is drawn back. The arrow disappears after it hits a target. When you make a ranged attack with the quarterstaff in this way, the weapon is treated as if it were a magical longbow. This longbow can only use the ammunition that it generates and does not have the heavy property. While holding this weapon, you're proficient with this longbow when using it in this way.",
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
-				"In addition, this quarterstaff has 8 charges and regains {@dice 1d6 + 2} expended charges daily at dawn. When you take the Attack action with this weapon, you can expend 1 of its charges to cast the {@spell magic missile} spell from the quarterstaff as a bonus action, instead of its normal casting time. When you do, the missiles are fired from either the bow or the quarterstaff 's embossed faces."
+				"In addition, this quarterstaff has 8 charges and regains {@dice 1d6 + 2} expended charges daily at dawn. When you take the {@action Attack} action with this weapon, you can expend 1 of its charges to cast the {@spell magic missile} spell from the quarterstaff as a bonus action, instead of its normal casting time. When you do, the missiles are fired from either the bow or the quarterstaff's embossed faces."
 			],
 			"fluff": {
 				"images": [
@@ -1408,7 +1408,7 @@
 				"misty step"
 			],
 			"entries": [
-				"These dark, fleshy boots grant marvelous powers and enhance your normal movement. While wearing these boots, you gain a flying speed equal to your walking speed and can hover. You can hover up to 20 feet off the ground in this way, leaving behind a thin trail of shadow when you do. In addition, when you take the Dash action while wearing the boots, you can move an extra 10 feet.",
+				"These dark, fleshy boots grant marvelous powers and enhance your normal movement. While wearing these boots, you gain a flying speed equal to your walking speed and can hover. You can hover up to 20 feet off the ground in this way, leaving behind a thin trail of shadow when you do. In addition, when you take the {@action Dash} action while wearing the boots, you can move an extra 10 feet.",
 				"The boots have 4 charges and regain {@dice 1d3 + 1} expended charges daily at dusk. While wearing the boots, you can use a bonus action to expend 1 of their charges to cast either the {@spell expeditious retreat} or {@spell misty step} spell from them. When you cast {@i misty step} in this way, the normally silver mist that surrounds you is dark and ominous.",
 				{
 					"name": "Curse",
@@ -2243,7 +2243,7 @@
 				"rope trick"
 			],
 			"entries": [
-				"This smooth red staff is actually made from a rigid length of rope. You can speak the staff 's command word as a bonus action to cause it to magically loosen and turn into a 10-foot length of decorative {@item silk rope (50 feet)|phb|silken rope}. You can speak the staff 's command word again as a bonus action to cause the rope to untangle itself and become the solid staff form once more. It can be used as a spellcasting focus in either of these forms.",
+				"This smooth red staff is actually made from a rigid length of rope. You can speak the staff's command word as a bonus action to cause it to magically loosen and turn into a 10-foot length of decorative {@item silk rope (50 feet)|phb|silken rope}. You can speak the staff's command word again as a bonus action to cause the rope to untangle itself and become the solid staff form once more. It can be used as a spellcasting focus in either of these forms.",
 				"While holding the staff, you can use an action to cast the {@spell rope trick} spell from it, using it as the rope required for the spell. Once this property has been used, it can't be used again until the next dawn."
 			],
 			"fluff": {
@@ -2428,7 +2428,7 @@
 			"charges": 3,
 			"entries": [
 				"This slender whip's grip is feathered and comfortable to wield. Its weight has been magically reduced and it gently sways on its own. This weapon has the light property. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"Once on each of your turns when you take the Attack action and use this whip to make an attack against a Medium or smaller creature, you can choose to forgo the attack and force the target to make a {@dc 15} Dexterity saving throw instead. On a failure, the target is {@condition grappled} by the whip and takes {@damage 1d4} bludgeoning damage as it's constricted. If you replace another attack with the whip in this way against a target who's already grappled by it, that target becomes {@condition restrained} by the whip instead upon failing the saving throw. A target grappled or restrained by the whip can use an action to make a {@dc 15} Strength or Dexterity check (target's choice). On a success, it is no longer grappled or restrained by the whip.",
+				"Once on each of your turns when you take the {@action Attack} action and use this whip to make an attack against a Medium or smaller creature, you can choose to forgo the attack and force the target to make a {@dc 15} Dexterity saving throw instead. On a failure, the target is {@condition grappled} by the whip and takes {@damage 1d4} bludgeoning damage as it's constricted. If you replace another attack with the whip in this way against a target who's already grappled by it, that target becomes {@condition restrained} by the whip instead upon failing the saving throw. A target grappled or restrained by the whip can use an action to make a {@dc 15} Strength or Dexterity check (target's choice). On a success, it is no longer grappled or restrained by the whip.",
 				"Until this grapple or restraint ends, you can't use the whip against a different target. Moving more than 10 feet away from the target or dropping the whip ends the grapple or restraint.",
 				{
 					"name": "Flight of the Couatls",
@@ -2541,7 +2541,6 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
-			"stealth": false,
 			"baseItem": "scale mail|phb",
 			"entries": [
 				"This enchanted armor is made from {@creature couatl} scales that were collected by a generous celestial. You gain a +1 bonus to AC while you wear this armor. This armor does not impose disadvantage on Dexterity ({@skill Stealth}) checks.",
@@ -3436,10 +3435,10 @@
 				"heroes' feast"
 			],
 			"entries": [
-				"This dark scarf moves slowly on its own and is always wrinkled. The scarf hides an extradimensional space within its folds that can only be reached while you wear it. The space holds 60 pounds of material, not exceeding a volume of 6 cubic feet. The scarf always weighs 1 pound, regardless of its contents. When you place an object in this space (no action required), your hand vanishes into the scarf 's loose folds.",
+				"This dark scarf moves slowly on its own and is always wrinkled. The scarf hides an extradimensional space within its folds that can only be reached while you wear it. The space holds 60 pounds of material, not exceeding a volume of 6 cubic feet. The scarf always weighs 1 pound, regardless of its contents. When you place an object in this space (no action required), your hand vanishes into the scarf's loose folds.",
 				"You can't retrieve items placed within the scarf with your hands. Instead, you can use a bonus action to mentally control the scarf, causing its frayed, hand-like ends to reach within the space and retrieve a stored item. The hands can carry up to 10 pounds and drop any object weighing more than that on the ground at your feet.",
 				"Ironing or otherwise flattening the scarf causes the items stored inside to be squeezed out, spilling forth unharmed from the ends of the scarf. If the scarf is destroyed, its contents are lost forever. A living creature can't be placed inside the scarf.",
-				"In addition, while wearing the scarf, you can use an action to mentally control it, using the scarf 's frayed hands instead of your own to manipulate a simple object, such as open an unlocked door, stow or retrieve an item from an open container, or pour the contents out of a vial within 5 feet of you. The hands can't attack or activate magic items.",
+				"In addition, while wearing the scarf, you can use an action to mentally control it, using the scarf's frayed hands instead of your own to manipulate a simple object, such as open an unlocked door, stow or retrieve an item from an open container, or pour the contents out of a vial within 5 feet of you. The hands can't attack or activate magic items.",
 				"Placing the scarf inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
 			],
 			"fluff": {
@@ -3534,7 +3533,7 @@
 			"reqAttune": true,
 			"bonusWeapon": "+2",
 			"entries": [
-				"This spear can slip through the Ethereal Plane to reach its destination. You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals force damage instead of piercing. When you take the Attack action with the spear, you can choose a point you can see within 20 feet of you. The tip of the spear vanishes and reappears at that point, allowing you to make melee attacks with the spear against a creature in or adjacent to that space until the end of your turn. You ignore half cover with these attacks and treat three-quarters cover as if it were half cover.",
+				"This spear can slip through the Ethereal Plane to reach its destination. You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals force damage instead of piercing. When you take the {@action Attack} action with the spear, you can choose a point you can see within 20 feet of you. The tip of the spear vanishes and reappears at that point, allowing you to make melee attacks with the spear against a creature in or adjacent to that space until the end of your turn. You ignore half cover with these attacks and treat three-quarters cover as if it were half cover.",
 				"You can use a bonus action to see 60 feet into the Ethereal Plane for 1 minute. Once this property of the spear has been used, it can't be used again until the following dawn."
 			],
 			"fluff": {
@@ -5335,7 +5334,7 @@
 			],
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
-				"The lance has 4 charges and regains {@dice 1d4} expended charges each day at dawn. You can expend 1 charge as an action to surround yourself with a flurry of wind that lasts for 1 minute. While surrounded by this wind, you can take the {@action disengage} action using a bonus action. You can expend a second charge of the weapon (no action required) while surrounded by the wind to extend the effect to any mount you're currently riding. If you dismount or are forced off your mount, the effect fades from it. The effect ends early if you fall unconscious or are no longer wielding the lance.",
+				"The lance has 4 charges and regains {@dice 1d4} expended charges each day at dawn. You can expend 1 charge as an action to surround yourself with a flurry of wind that lasts for 1 minute. While surrounded by this wind, you can take the {@action Disengage} action using a bonus action. You can expend a second charge of the weapon (no action required) while surrounded by the wind to extend the effect to any mount you're currently riding. If you dismount or are forced off your mount, the effect fades from it. The effect ends early if you fall unconscious or are no longer wielding the lance.",
 				"In addition, you can use the lance to cast the {@spell thunderwave} spell at 3rd level (save {@dc 16}). Once this property of the lance has been used, it can't be used again until the following dawn.",
 				{
 					"name": "Special",
@@ -7527,7 +7526,7 @@
 					"entries": [
 						"The inner ring is covered by a silver puzzle ring that grants various benefits. The puzzle ring is made of three distinct bands that, when fit together in an elaborate and ever-changing puzzle, cause you to emanate a 30-foot aura that heals and supports your allies. As an action, you can make an Intelligence check to solve a piece of the puzzle in a fixed order:",
 						{
-							"type": "list",
+							"type": "list-decimal",
 							"items": [
 								"The first band slides into place following a successful {@dc 5} Intelligence check. Once solved, you begin to emit the ring's aura. The aura lasts for 1 minute and is always centered on you. While you emit this aura, you can use a bonus action on your turn to cause a creature within the aura (including you) to regain {@dice 2d6} hit points.",
 								"The second band is solved following a successful {@dc 10} Intelligence check. When it slides into place, the aura's strength increases. Each living, nonhostile creature regains 1 hit point when it starts its turn in the aura with 0 hit points. In addition, creatures within the radius have resistance against necrotic damage, and their hit point maximum can't be reduced.",
@@ -7898,6 +7897,7 @@
 			"type": "RG",
 			"rarity": "rare",
 			"reqAttune": true,
+			"curse": true,
 			"entries": [
 				"While attuned to this ring, you can breathe normally underwater, and whenever you're pushed against your will, the distance you're moved is reduced by 10 feet.",
 				{
@@ -8001,6 +8001,7 @@
 			"type": "RG",
 			"rarity": "uncommon",
 			"reqAttune": true,
+			"curse": true,
 			"entries": [
 				"This dark band is cool to the touch and has several cracks throughout its otherwise smooth body. When you attune to the ring, choose a creature type: aberration, celestial, dragon, elemental, fey, fiend, or undead. While wearing the ring, its normally cool band glows red hot when a creature of the chosen type is within 60 feet of you. In addition, you have advantage on any saving throw you make to resist being {@condition charmed} or {@condition frightened} by a creature of that type. While seemingly radiating heat, the ring feels only faintly warm to you. Small pieces of the metal band hover above the surface of the ring when glowing in this way.",
 				{
@@ -8702,6 +8703,7 @@
 			"bonusWeapon": "+1",
 			"reqAttune": true,
 			"weapon": true,
+			"curse": true,
 			"entries": [
 				"This wicked dagger can absorb the shadows cast by your enemies. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 				"When you hit a Small or larger hostile creature with a melee attack using this dagger, you can choose to absorb that creature's shadow as part of the attack. When you do, that creature no longer casts a shadow, and the dagger becomes shrouded in a dark haze that extends to you while you hold the dagger. While this haze is also surrounding you, you are {@condition invisible} in areas of dim light and darkness.",
@@ -9891,7 +9893,7 @@
 				{
 					"name": "Spells",
 					"entries": [
-						"You can use an action to expend 1 or more of the staff 's charges to cast one of the following spells from it, using your spell save DC. You gain a +2 bonus to your spell save DC when casting one of these spells from the staff: {@spell disguise self} (1 charge), {@spell hallucinatory terrain} (4 charges), {@spell invisibility} (2 charges), {@spell mirror image} (2 charges), {@spell mislead} (5 charges), or {@spell silent image} (1 charge)."
+						"You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC. You gain a +2 bonus to your spell save DC when casting one of these spells from the staff: {@spell disguise self} (1 charge), {@spell hallucinatory terrain} (4 charges), {@spell invisibility} (2 charges), {@spell mirror image} (2 charges), {@spell mislead} (5 charges), or {@spell silent image} (1 charge)."
 					]
 				}
 			],
@@ -9933,7 +9935,7 @@
 				"phantom steed"
 			],
 			"entries": [
-				"This dark wooden staff is carved in the shape of a majestic stallion. The staff has 10 charges. While holding the staff, you can use an action to expend 1 of its charges to cast the {@spell phantom steed} spell from it. Alternatively, while holding the staff, you can expend 1 of its charges and speak the staff 's command word as a bonus action to take the Dash action.",
+				"This dark wooden staff is carved in the shape of a majestic stallion. The staff has 10 charges. While holding the staff, you can use an action to expend 1 of its charges to cast the {@spell phantom steed} spell from it. Alternatively, while holding the staff, you can expend 1 of its charges and speak the staff's command word as a bonus action to take the {@action Dash} action.",
 				"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff breaks in two as if bitten and is destroyed. When this happens, the sound of hooves can be heard galloping away in an indiscernible direction."
 			],
 			"fluff": {
@@ -10162,7 +10164,7 @@
 				{
 					"name": "Fissioned State",
 					"entries": [
-						"While wielding the two fissioned battleaxes, you gain a +1 bonus to attack and damage rolls made with them. The weapons are bitter cold to the touch and deal an extra {@damage 1d6} cold damage to any target they hit. The axes orbit you slowly while they aren't being held or stowed. You can retrieve a floating battleaxe as if it were sheathed. In addition, when you take the Attack action, you can use a bonus action to make one melee weapon attack with an orbiting battleaxe against a creature you can see within 20 feet of you."
+						"While wielding the two fissioned battleaxes, you gain a +1 bonus to attack and damage rolls made with them. The weapons are bitter cold to the touch and deal an extra {@damage 1d6} cold damage to any target they hit. The axes orbit you slowly while they aren't being held or stowed. You can retrieve a floating battleaxe as if it were sheathed. In addition, when you take the {@action Attack} action, you can use a bonus action to make one melee weapon attack with an orbiting battleaxe against a creature you can see within 20 feet of you."
 					]
 				},
 				{
@@ -10893,6 +10895,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"reqAttune": true,
+			"curse": true,
 			"entries": [
 				"This small jade carving of a frog dangles from a simple cord of leather to be worn as a necklace. While you wear it, you gain a swimming speed equal to your walking speed and can hold your breath for up to 1 hour. In addition, you can cast the {@spell jump} spell using the necklace, targeting only yourself. Once the necklace has been used to cast this spell, it can't do so again until the next dusk.",
 				{
@@ -10995,7 +10998,7 @@
 			],
 			"entries": [
 				"A mote of swirling, magic water circles the top of this wooden staff. This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. When you make a melee attack with the staff, you can choose to extend and lash out with the water, instead of the staff. When you do, the water has a range of 10 feet and deals {@damage 1d4} bludgeoning damage if it hits. You're proficient with this attack and use your Wisdom modifier for its attack and damage rolls. After the attack, the water shrinks back to the staff.",
-				"While holding the staff, you can stand on and move across any liquid surface as if it were solid ground. If you end your turn on a liquid in this way, you sink into it as normal until you stand on solid ground again. In addition, while holding the staff, you can use an action to cast the {@spell control water} spell ({@i Flood} or {@i Part Water} only) from it. The spell ends early if you are no longer holding the staff. Once the staff 's been used to cast this spell, it can't do so again until the next dawn."
+				"While holding the staff, you can stand on and move across any liquid surface as if it were solid ground. If you end your turn on a liquid in this way, you sink into it as normal until you stand on solid ground again. In addition, while holding the staff, you can use an action to cast the {@spell control water} spell ({@i Flood} or {@i Part Water} only) from it. The spell ends early if you are no longer holding the staff. Once the staff's been used to cast this spell, it can't do so again until the next dawn."
 			],
 			"fluff": {
 				"images": [
@@ -11630,6 +11633,273 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Webgrip-Rucksack.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wildman's Spinning Cleaver",
+			"source": "tgs1",
+			"page": 144,
+			"baseItem": "handaxe|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"reqAttune": "by a barbarian",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This elaborate weapon channels your bloodlust. You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with a ranged attack with this weapon while you’re raging, you can add your Rage Damage bonus to the attack’s damage. Immediately after making a ranged attack, the weapon flies back to your hand.",
+				"In addition, once on each of your turns when you make a ranged attack with this weapon while you’re raging, you can choose to make another ranged attack with it against a different target within 10 feet of the first. This second target can be beyond the handaxe’s normal or long ranges. When you make this special attack, the axe flies back to your hand after it hits or misses the second target."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Wildmans-Spinning-Cleaver.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Windrazor",
+			"source": "tgs1",
+			"page": 144,
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V",
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"attachedSpells": [
+				"heroism",
+				"wind wall"
+			],
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. This weapon has the finesse property. The sword has 10 charges and regains {@dice 1d6 + 4} expended charges daily at dawn. While holding the blade, you can expend 1 or more of its charges to cast one of the following spells from it (save {@dc 17}): {@spell heroism} (1 charge) or {@spell wind wall} (3 charges). Your spellcasting modifier is +5 when casting {@i heroism} in this way.",
+				{
+					"name": "Air Rend",
+					"entries": [
+						"This weapon can manipulate the air around it to generate blades of wind, delivering devastating slashing attacks from range. When you take the {@action Attack} action, you can expend 1 charge to make a special ranged attack with the sword against a target you can see up to 30 feet away. If you have the Extra Attack feature, you can expend 1 or more charges to use this special attack for any of the attacks you make as part of the Attack action."
+					]
+				},
+				{
+					"name": "Sudden Storm",
+					"entries": [
+						"When you hold the sword and take damage from a creature within 5 feet of you, you can use your reaction to expend 1 charge and make a melee attack with the sword against that creature. Additionally, if a creature hits you with a ranged weapon attack, you can use your reaction to expend 1 charge and slash at the projectile, reducing the damage you take by {@dice 1d10 + 5}. If you reduce the damage to 0, you destroy the projectile."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Windrazor.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Windswept Wyvernplate",
+			"source": "tgs1",
+			"page": 144,
+			"baseItem": "half plate armor|phb",
+			"type": "MA",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 40,
+			"ac": 15,
+			"stealth": true,
+			"attachedSpells": [
+				"feather fall"
+			],
+			"entries": [
+				"This half plate armor seems to grow lighter when you inhale. You can hold your breath at any point to both lighten the armor and quiet its clattering, negating the normal disadvantage on Dexterity ({@skill Stealth}) checks imposed by half plate armor.",
+				"In addition, if you fall while wearing this armor, you can hold your breath as a reaction to cast the {@spell feather fall} spell, targeting only yourself, at will."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Windswept-Wyvernplate.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Winter's Embrace",
+			"source": "tgs1",
+			"page": 144,
+			"type": "MA",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 20,
+			"ac": 14,
+			"baseItem": "breastplate|phb",
+			"attachedSpells": [
+				"ice storm"
+			],
+			"entries": [
+				"This frosty armor is enchanted to keep its wearer at a constant, comfortable temperature. While wearing this armor, you have resistance to cold and fire damage and ignore difficult terrain created by ice or snow. In addition, while wearing the armor, you can use an action to cast the {@spell ice storm} spell (6th-level version, save {@dc 16}) from it. When cast in this way, the spell is centered on your location, and you are immune to its effects. Once this property has been used, it can’t be used again until the next dawn."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Winters-Embrace.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wisplight Lantern",
+			"source": "tgs1",
+			"page": 144,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"recharge": "dusk",
+			"charges": 4,
+			"entries": [
+				"This dark hooded lantern glows with a {@creature will-o'-wisp}'s flame that can reveal the final moments of a creature’s life. The lantern sheds bright blue light in a 20-foot radius and dim light for an additional 20 feet. You can use an action to reduce the light’s reach or cover it completely.",
+				"The lantern has 4 charges and regains {@dice 1d3 + 1} expended charges each day at dusk. As an action while holding the lantern, you can expend 1 of its charges and touch it to a Large or smaller corpse. When you do, a ghostly blue illusion of the fallen creature appears above its corpse and silently reenacts the last 6 seconds of its conscious life. The illusion only shows the creature’s actions, such as reacting to an unseen monster or trying to extinguish the flames of a fiery trap, but does not show the responsible monster or effect. This ability has no effect on undead creatures. Once a corpse’s death has been shown, it cannot be shown again.",
+				"Alternatively, while holding the lantern, you can use an action to expend 1 of its charges to speak its command word. If there are any undead creatures within 60 feet of you that aren’t behind total cover, the lantern’s light flashes red before returning to its normal blue glow."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Wisplight-Lantern.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wooden Chain of the Unbroken Circle",
+			"source": "tgs1",
+			"page": 145,
+			"baseItem": "chain shirt|phb",
+			"type": "MA",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 20,
+			"ac": 13,
+			"reqAttune": "by a druid or ranger",
+			"entries": [
+				"This magic chain shirt is crafted using strange wooden links enchanted by a militant circle of druids. The wooden chain is reinforced with old, natural magic that responds to the wearer’s reverent connection to nature. While wearing this armor, you gain a bonus to your AC equal to your Wisdom modifier (max 2) in addition to the armor’s normal AC."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Wooden-Chain-f-the-Unbroken-Circle.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wyvernwing",
+			"source": "tgs1",
+			"page": 145,
+			"baseItem": "greatsword|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"This enchanted greatsword contains a wyvern’s wing that’s stretched between three thin, collapsed blades. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"The sword has 4 charges and regains {@dice 1d4} expended charges each day at dawn. As an action, you can expend 1 charge to flick open the sword like a fan and swing it down to create a buffeting wind. When you do, you can choose for the wind to affect creatures in either a 15-foot cone in front of you or all creatures within 5 feet of you. Creatures affected by this wind in the area you designate are forced to make a {@dc 15} Dexterity saving throw. On a failure, a creature takes {@damage 2d6} bludgeoning damage and is pushed up to 10 feet away from you. On a success, the creature takes half damage and isn’t pushed. The weapon magically collapses again as the wind settles."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Wyvernwing.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Zafu of the Wandering Mind",
+			"source": "tgs1",
+			"page": 145,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": "by a monk",
+			"recharge": "dawn",
+			"charges": 3,
+			"attachedSpells": [
+				"arcane eye"
+			],
+			"entries": [
+				"This soft, elaborately stitched pillow set focuses the intensity of your meditation. It takes 1 minute to settle into a meditation while sitting on the pillows. You can hold a light conversation when meditating, but are otherwise unable to move or take actions while you do. While meditating in this way, you can levitate yourself, including the pillows, up to 5 feet in the air (no action required). You meditate in this way until you decide to end it (no action required), or until you take damage or are no longer on the pillows. While you’re within 100 feet of at least one of the pillows, you can speak their command word as a bonus action to cause them to be shunted into a special pocket dimension. Speaking their command word again as a bonus action returns them softly to an empty space within 5 feet of you.",
+				"In addition, this pillow has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While meditating on the pillows, you can expend 1 of their charges to cast the {@spell arcane eye} spell, without breaking your meditation. You lose concentration on this spell when cast in this way if you end your meditation."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/TGS1/Zafu-of-the-Wandering-Mind.jpg"
 						}
 					}
 				]
@@ -16441,7 +16711,7 @@
 			"excludes": {
 				"name": [
 					"Sling Bullet",
-					"Blowgun Dart"
+					"Blowgun Needle"
 				]
 			},
 			"inherits": {
@@ -16716,7 +16986,7 @@
 			"excludes": {
 				"name": [
 					"Sling Bullet",
-					"Blowgun Dart"
+					"Blowgun Needle"
 				]
 			},
 			"inherits": {
