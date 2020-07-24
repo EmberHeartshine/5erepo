@@ -45,7 +45,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -76,7 +79,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -106,7 +112,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -141,7 +150,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -187,7 +199,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -223,7 +238,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -297,7 +315,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -375,7 +396,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -453,7 +477,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -532,7 +559,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -610,7 +640,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -688,7 +721,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -731,7 +767,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -770,7 +809,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -802,7 +844,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -839,7 +884,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -865,7 +913,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -894,7 +945,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -943,7 +997,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -969,7 +1026,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -999,7 +1059,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -1025,7 +1088,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1063,7 +1129,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1088,7 +1157,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1115,7 +1187,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -1153,7 +1228,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1191,7 +1269,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1220,7 +1301,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1250,7 +1334,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1277,7 +1364,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1304,7 +1394,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1331,7 +1424,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1357,7 +1453,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1384,8 +1483,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1",
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1429,7 +1534,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1461,7 +1569,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1501,7 +1612,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1542,8 +1656,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1",
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1569,7 +1689,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1596,7 +1719,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1658,7 +1784,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1684,7 +1813,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table D|tgs1"
+				{
+					"name": "TGS Magic Item Table D",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1723,7 +1855,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1765,7 +1900,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1802,7 +1940,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1844,7 +1985,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1874,7 +2018,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1904,7 +2051,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1929,7 +2079,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1959,7 +2112,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -1984,7 +2140,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -2009,7 +2168,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2045,7 +2207,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2077,7 +2242,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2102,7 +2270,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -2147,7 +2318,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2214,7 +2388,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2251,7 +2428,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2291,7 +2471,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2320,7 +2503,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2351,7 +2537,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2381,7 +2570,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2409,7 +2601,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -2449,7 +2644,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2490,7 +2688,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2519,7 +2720,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2545,7 +2749,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2575,7 +2782,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2610,7 +2820,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2658,7 +2871,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2691,7 +2907,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2745,7 +2964,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2787,7 +3009,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2828,7 +3053,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2868,7 +3096,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2903,7 +3134,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2951,7 +3185,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -2998,7 +3235,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3031,7 +3271,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3057,7 +3300,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3094,7 +3340,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3120,7 +3369,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -3159,7 +3411,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3198,7 +3453,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3223,7 +3481,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3344,7 +3605,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -3406,7 +3670,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3435,7 +3702,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3486,7 +3756,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3523,7 +3796,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3553,8 +3829,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1",
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3594,7 +3876,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3622,7 +3907,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3654,7 +3942,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3680,7 +3971,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3712,7 +4006,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table D|tgs1"
+				{
+					"name": "TGS Magic Item Table D",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3744,7 +4041,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3775,7 +4075,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3808,7 +4111,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3848,7 +4154,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3874,7 +4183,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -3899,7 +4211,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3943,7 +4258,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -3969,7 +4287,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -4001,7 +4322,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4042,7 +4366,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4070,7 +4397,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4105,7 +4435,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4153,7 +4486,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4190,7 +4526,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4217,7 +4556,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4280,7 +4622,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4326,7 +4671,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4355,7 +4703,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4397,7 +4748,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4432,7 +4786,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4514,7 +4871,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4545,7 +4905,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4584,8 +4947,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1",
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4613,7 +4982,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4646,7 +5018,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4676,7 +5051,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4704,7 +5082,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4791,7 +5172,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -4822,7 +5206,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -4867,7 +5254,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4898,7 +5288,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4936,7 +5329,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -4961,7 +5357,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5002,7 +5401,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5029,7 +5431,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5079,7 +5484,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5108,7 +5516,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5135,7 +5546,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5163,7 +5577,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5206,7 +5623,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5231,7 +5651,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5265,7 +5688,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5305,8 +5731,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1",
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5359,7 +5791,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5389,7 +5824,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5435,7 +5873,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5466,7 +5907,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -5533,7 +5977,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5613,7 +6060,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5652,7 +6102,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5679,7 +6132,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5715,7 +6171,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5757,7 +6216,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5807,7 +6269,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5847,7 +6312,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5873,7 +6341,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5910,7 +6381,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5936,7 +6410,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -5975,7 +6452,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6005,7 +6485,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6047,7 +6530,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6078,7 +6564,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6103,7 +6592,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6143,7 +6635,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6174,7 +6669,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -6213,7 +6711,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6252,7 +6753,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6291,7 +6795,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6319,7 +6826,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6356,7 +6866,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6398,7 +6911,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6439,7 +6955,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6467,7 +6986,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6496,7 +7018,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6525,7 +7050,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6568,7 +7096,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6599,7 +7130,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6635,7 +7169,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 1|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 1",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6660,7 +7197,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6685,7 +7225,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6763,8 +7306,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1",
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6790,7 +7339,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6833,7 +7385,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6859,7 +7414,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6886,7 +7444,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6923,7 +7484,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -6965,7 +7529,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7008,7 +7575,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7058,7 +7628,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7095,7 +7668,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7122,7 +7698,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7166,7 +7745,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7195,7 +7777,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table D|tgs1"
+				{
+					"name": "TGS Magic Item Table D",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7225,7 +7810,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7250,7 +7838,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7277,7 +7868,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7313,7 +7907,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7344,7 +7941,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7373,7 +7973,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -7398,7 +8001,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7433,7 +8039,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7463,7 +8072,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7493,7 +8105,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7524,8 +8139,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1",
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7559,7 +8180,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7586,7 +8210,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7615,7 +8242,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7655,7 +8285,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7713,7 +8346,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7741,7 +8377,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7782,7 +8421,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7810,7 +8452,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7836,7 +8481,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -7862,7 +8510,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7888,7 +8539,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table D|tgs1"
+				{
+					"name": "TGS Magic Item Table D",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7913,7 +8567,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -7995,7 +8652,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8020,7 +8680,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8060,7 +8723,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8124,7 +8790,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8161,7 +8830,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8208,7 +8880,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8249,7 +8924,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8289,7 +8967,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8328,7 +9009,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8354,7 +9038,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8392,7 +9079,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8443,7 +9133,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8484,7 +9177,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8518,7 +9214,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8548,7 +9247,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8578,7 +9280,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -8611,7 +9316,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8641,7 +9349,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8669,7 +9380,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8694,7 +9408,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8727,7 +9444,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -8752,7 +9472,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8777,7 +9500,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8806,7 +9532,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8835,7 +9564,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8864,7 +9596,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8893,7 +9628,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8935,7 +9673,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8963,7 +9704,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -8994,7 +9738,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9028,7 +9775,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9059,7 +9809,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9090,7 +9843,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9121,8 +9877,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1",
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9167,7 +9929,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9205,7 +9970,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9230,7 +9998,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9259,7 +10030,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9284,7 +10058,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9316,7 +10093,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9345,7 +10125,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9380,7 +10163,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9408,7 +10194,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9433,7 +10222,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -9459,7 +10251,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9508,7 +10303,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9534,7 +10332,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9562,7 +10363,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9587,7 +10391,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9615,7 +10422,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9676,7 +10486,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9710,7 +10523,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9737,7 +10553,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9764,7 +10583,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9801,7 +10623,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9841,7 +10666,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9873,7 +10701,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -9900,7 +10731,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9944,7 +10778,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9972,7 +10809,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -9998,7 +10838,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10050,7 +10893,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10075,7 +10921,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10113,7 +10962,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10138,7 +10990,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10179,7 +11034,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10204,7 +11062,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10229,7 +11090,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -10254,8 +11118,14 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1",
-				"TGS Magic Item Table C|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"source": "tgs1"
+				},
+				{
+					"name": "TGS Magic Item Table C",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10280,7 +11150,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table D|tgs1"
+				{
+					"name": "TGS Magic Item Table D",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10305,7 +11178,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -10330,7 +11206,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10369,7 +11248,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10402,7 +11284,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				{
+					"name": "TGS Magic Item Table E",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10444,7 +11329,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10481,7 +11369,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10533,7 +11424,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10568,7 +11462,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10617,7 +11514,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10699,7 +11599,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10744,7 +11647,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10798,7 +11704,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10842,7 +11751,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10897,7 +11809,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10940,7 +11855,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -10976,7 +11894,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11003,7 +11924,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11040,7 +11964,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11108,7 +12035,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11146,7 +12076,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11171,7 +12104,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11207,7 +12143,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11245,7 +12184,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11291,7 +12233,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11334,7 +12279,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11364,7 +12312,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11404,7 +12355,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11450,7 +12404,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11484,7 +12441,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11509,7 +12469,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11552,7 +12515,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -11579,7 +12545,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11617,7 +12586,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -11660,7 +12632,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11704,7 +12679,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11750,7 +12728,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11790,7 +12771,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11832,7 +12816,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11857,7 +12844,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11890,7 +12880,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11915,7 +12908,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11952,7 +12948,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -11994,7 +12993,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12113,7 +13115,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12159,7 +13164,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table F|tgs1"
+				{
+					"name": "TGS Magic Item Table F",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12194,7 +13202,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12255,7 +13266,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				{
+					"name": "TGS Magic Item Table B",
+					"souce": "tgs1"
+				}
 			]
 		},
 		{
@@ -12280,7 +13294,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12315,7 +13332,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12356,7 +13376,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12395,7 +13418,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12425,7 +13451,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12452,7 +13481,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12477,7 +13509,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12512,7 +13547,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12542,7 +13580,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12600,7 +13641,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12641,7 +13685,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12668,7 +13715,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table A|tgs1"
+				{
+					"name": "TGS Magic Item Table A",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12708,7 +13758,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12765,7 +13818,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table I|tgs1"
+				{
+					"name": "TGS Magic Item Table I",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12799,7 +13855,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12831,7 +13890,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table H|tgs1"
+				{
+					"name": "TGS Magic Item Table H",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12860,7 +13922,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12889,7 +13954,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12928,7 +13996,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -12960,7 +14031,10 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table G, Option 2|tgs1"
+				{
+					"name": "TGS Magic Item Table G, Option 2",
+					"source": "tgs1"
+				}
 			]
 		},
 		{
@@ -21475,7 +22549,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 1|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 1",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21512,7 +22589,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table F|tgs1"
+					{
+						"name": "TGS Magic Item Table F",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21568,7 +22648,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 1|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 1",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21615,7 +22698,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 1|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 1",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21655,7 +22741,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table F|tgs1"
+					{
+						"name": "TGS Magic Item Table F",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21697,7 +22786,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 1|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 1",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21739,7 +22831,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table H|tgs1"
+					{
+						"name": "TGS Magic Item Table H",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21776,7 +22871,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 1|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 1",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21813,7 +22911,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table H|tgs1"
+					{
+						"name": "TGS Magic Item Table H",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21850,7 +22951,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table I|tgs1"
+					{
+						"name": "TGS Magic Item Table I",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21888,7 +22992,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table A|tgs1"
+					{
+						"name": "TGS Magic Item Table A",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21932,7 +23039,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table H|tgs1"
+					{
+						"name": "TGS Magic Item Table H",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -21992,7 +23102,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table I|tgs1"
+					{
+						"name": "TGS Magic Item Table I",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22032,7 +23145,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table F|tgs1"
+					{
+						"name": "TGS Magic Item Table F",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22070,7 +23186,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table B|tgs1"
+					{
+						"name": "TGS Magic Item Table B",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22125,7 +23244,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table I|tgs1"
+					{
+						"name": "TGS Magic Item Table I",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22158,7 +23280,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 2|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 2",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22199,7 +23324,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 2|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 2",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22234,7 +23362,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table C|tgs1"
+					{
+						"name": "TGS Magic Item Table C",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22278,7 +23409,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table F|tgs1"
+					{
+						"name": "TGS Magic Item Table F",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22311,7 +23445,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table F|tgs1"
+					{
+						"name": "TGS Magic Item Table F",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22381,7 +23518,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table I|tgs1"
+					{
+						"name": "TGS Magic Item Table I",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22420,7 +23560,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table A|tgs1"
+					{
+						"name": "TGS Magic Item Table A",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22454,7 +23597,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table F|tgs1"
+					{
+						"name": "TGS Magic Item Table F",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22493,7 +23639,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table B|tgs1"
+					{
+						"name": "TGS Magic Item Table B",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22539,7 +23688,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 2|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 2",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22580,7 +23732,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table G, Option 2|tgs1"
+					{
+						"name": "TGS Magic Item Table G, Option 2",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22616,7 +23771,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table A|tgs1"
+					{
+						"name": "TGS Magic Item Table A",
+						"source": "tgs1"
+					}
 				]
 			}
 		},
@@ -22650,7 +23808,10 @@
 					]
 				},
 				"lootTables": [
-					"TGS Magic Item Table F|tgs1"
+					{
+						"name": "TGS Magic Item Table F",
+						"source": "tgs1"
+					}
 				]
 			}
 		}
