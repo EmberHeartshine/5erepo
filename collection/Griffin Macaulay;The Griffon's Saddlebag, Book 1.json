@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1593429293,
-		"dateLastModified": 1595534284
+		"dateLastModified": 1595621170
 	},
 	"item": [
 		{
@@ -139,7 +139,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Arcanist's Bowstaff",
@@ -182,10 +185,13 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
-			"name": "Architect's Distain",
+			"name": "Architect's Disdain",
 			"source": "tgs1",
 			"page": 28,
 			"baseItem": "war pick|phb",
@@ -215,7 +221,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Astral Bracelet of Energy",
@@ -286,7 +295,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Astral Bracelet of Heavens",
@@ -361,7 +373,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Astral Bracelet of Hells",
@@ -436,7 +451,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Astral Bracelet of Knowledge",
@@ -512,7 +530,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Astral Bracelet of Planebending",
@@ -587,7 +608,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Astral Bracelet of Omniscience",
@@ -662,7 +686,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Astral Sea Piercer",
@@ -702,7 +729,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Aurum and Argentum",
@@ -1218,7 +1248,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Belt of the Raid Leader",
@@ -1351,7 +1384,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				"TGS Magic Item Table E|tgs1",
+				"TGS Magic Item Table H|tgs1"
 			]
 		},
 		{
@@ -1393,7 +1427,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Bloodscryer Oculus",
@@ -1422,7 +1459,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Bolt",
@@ -1459,7 +1499,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Boots of Dendallen",
@@ -1499,7 +1542,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				"TGS Magic Item Table E|tgs1",
+				"TGS Magic Item Table H|tgs1"
 			]
 		},
 		{
@@ -1798,7 +1842,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Breastplate of the Morning Light",
@@ -2028,7 +2075,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Charlatan's Wardrobe",
@@ -2095,7 +2145,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Chromacloth",
@@ -2236,7 +2289,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Cloak of the Boundless Spirit",
@@ -2770,7 +2826,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Crosier of Divine Power",
@@ -2807,7 +2866,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Crown of Deep Winter",
@@ -2839,7 +2901,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Crypt Keeper Glaive",
@@ -2884,7 +2949,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Dagger of the Ogre Mage",
@@ -2961,7 +3029,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Dead Ringer",
@@ -3333,7 +3404,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Dragon Turtle Shield",
@@ -3410,7 +3484,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Dragon's Call",
@@ -3476,7 +3553,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				"TGS Magic Item Table E|tgs1",
+				"TGS Magic Item Table H|tgs1"
 			]
 		},
 		{
@@ -3768,7 +3846,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Everice Box",
@@ -3918,7 +3999,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Ferryman's Take",
@@ -4067,7 +4151,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Festerwood Logger",
@@ -4191,7 +4278,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Fife of Dragonsong",
@@ -4494,7 +4584,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				"TGS Magic Item Table E|tgs1",
+				"TGS Magic Item Table H|tgs1"
 			]
 		},
 		{
@@ -4583,7 +4674,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Fragment of Elder Starlight",
@@ -4608,7 +4702,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Frefil's Jolly Oozebean Sugarbombs",
@@ -4980,7 +5077,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Glove of the Aegis",
@@ -5104,7 +5204,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Gravity Goblet",
@@ -5202,7 +5305,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				"TGS Magic Item Table E|tgs1",
+				"TGS Magic Item Table H|tgs1"
 			]
 		},
 		{
@@ -5329,7 +5433,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Hasty Sugarbomb",
@@ -5424,7 +5531,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Heart of the Sleeveless",
@@ -5540,7 +5650,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Helm of Heroes",
@@ -5692,7 +5805,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Ice Sickle",
@@ -5792,7 +5908,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Inferno Rope",
@@ -5926,7 +6045,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Ironshod Trotters",
@@ -6274,7 +6396,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Leeching Quarterstaff",
@@ -6441,7 +6566,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Mageplate Cap",
@@ -6635,7 +6763,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				"TGS Magic Item Table E|tgs1",
+				"TGS Magic Item Table H|tgs1"
 			]
 		},
 		{
@@ -6728,7 +6857,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Merry Berry",
@@ -6831,7 +6963,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Mockingblade",
@@ -6958,7 +7093,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Necrolace",
@@ -6988,7 +7126,7 @@
 			]
 		},
 		{
-			"name": "Nighstalker's Kanabo",
+			"name": "Nightstalker's Kanabo",
 			"source": "tgs1",
 			"page": 90,
 			"baseItem": "greatclub|phb",
@@ -7026,7 +7164,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Null Chalk",
@@ -7082,7 +7223,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Orator's Quill",
@@ -7167,7 +7311,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Overshield",
@@ -7314,7 +7461,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Pendant of Thieves' Sight",
@@ -7561,7 +7711,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Plaguebane Mask",
@@ -7627,7 +7780,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Pomade of Ten Thousand Styles",
@@ -7902,7 +8058,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Purity Spear",
@@ -7963,7 +8122,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Purse Piglet",
@@ -8044,7 +8206,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Quagmire Maul",
@@ -8082,7 +8247,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Quake Hammer",
@@ -8314,7 +8482,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Relentless Bulwark",
@@ -8662,7 +8833,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Ring of Stone",
@@ -8759,7 +8933,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Rocborne Robe",
@@ -8944,7 +9121,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table E|tgs1"
+				"TGS Magic Item Table E|tgs1",
+				"TGS Magic Item Table H|tgs1"
 			]
 		},
 		{
@@ -8987,7 +9165,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Screaming Longbow",
@@ -9162,7 +9343,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Serpent Dart",
@@ -9322,7 +9506,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Shadow Ink",
@@ -9373,7 +9560,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Shadowshawl",
@@ -9484,7 +9674,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Shapeshifter's Circlet",
@@ -9646,7 +9839,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Shielding Turtle Sugarbombs",
@@ -9746,7 +9942,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Silken Socks of Slickening",
@@ -9978,7 +10177,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Snugglebeast (Owlbear)",
@@ -10329,7 +10531,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Squasher",
@@ -10410,7 +10615,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Staff of the Four Seasons",
@@ -10489,7 +10697,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Staff of the Magpie",
@@ -10727,7 +10938,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Starbreaker",
@@ -10824,7 +11038,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Starmetal Solar Axe",
@@ -10889,7 +11106,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Starmetal Striker",
@@ -11069,7 +11289,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Sundersludge Net",
@@ -11139,7 +11362,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Sword of Resonance",
@@ -11222,7 +11448,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Talyard the Great's Wand of Power",
@@ -11348,7 +11577,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Tethervine Quiver",
@@ -11426,7 +11658,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Thunderous Flail",
@@ -11553,7 +11788,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Timepiercer",
@@ -11592,7 +11830,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Timeshifter's Mantle",
@@ -12152,7 +12393,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Volcanic Boots",
@@ -12296,7 +12540,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Warmind Wand",
@@ -12459,7 +12706,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Windrazor",
@@ -12513,7 +12763,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table I|tgs1"
+			]
 		},
 		{
 			"name": "Windswept Wyvernplate",
@@ -12576,7 +12829,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table H|tgs1"
+			]
 		},
 		{
 			"name": "Wisplight Lantern",
@@ -18442,8 +18698,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 15,
-							"max": 26,
-							"pad": true
+							"max": 26
 						}
 					},
 					"{@item Toadstone|tgs1}"
@@ -20288,6 +20543,900 @@
 					"{@item Wyvernwing|tgs1}"
 				]
 			]
+		},
+		{
+			"name": "TGS Magic Item Table H",
+			"source": "tgs1",
+			"page": 24,
+			"colLabels": [
+				"{@dice d100}",
+				"Magic Item"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 1,
+							"max": 6,
+							"pad": true
+						}
+					},
+					"{@item Boots of Dendallen|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 7,
+							"max": 11,
+							"pad": true
+						}
+					},
+					"{@item Flesh of Dendallen|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 12,
+							"max": 17
+						}
+					},
+					"{@item Grip of Dendallen|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 18,
+							"max": 23
+						}
+					},
+					"{@item Mask of Dendallen|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 24,
+							"max": 26
+						}
+					},
+					"{@item Battlechef's Splendid Saucepan|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 27,
+							"max": 29
+						}
+					},
+					"{@item Blood Pact Pendants|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 30,
+							"max": 32
+						}
+					},
+					"{@item Dragon Edge Weapon +2|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 33,
+							"max": 35
+						}
+					},
+					"{@item Fragment of Elder Starlight|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 36,
+							"max": 38
+						}
+					},
+					"{@item Monsterbane Lasher|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 39,
+							"max": 41
+						}
+					},
+					"{@item Ring of Ice|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 42
+						}
+					},
+					"{@item Arcane Mirror|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 43
+						}
+					},
+					"{@item Arcanist's Bowstaff|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 44
+						}
+					},
+					"{@item Architect's Disdain|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 45
+						}
+					},
+					"Astral Bracelet (of {@item Astral Bracelet of Energy|tgs1|Energy}, {@item Astral Bracelet of Heavens|tgs1|Heavens}, {@item Astral Bracelet of Hells|tgs1|Hells}, {@item Astral Bracelet of Knowledge|tgs1|Knowledge}, {@item Astral Bracelet of Planebending|tgs1|Planebending}, or {@item Astral Bracelet of Omniscience|tgs1|Omniscience})"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 46
+						}
+					},
+					"{@item Bloodmage Dagger|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 47
+						}
+					},
+					"{@item Bolt|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 48
+						}
+					},
+					"{@item Brambleheart Quiver|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 49
+						}
+					},
+					"{@item Ceratopper|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 50
+						}
+					},
+					"{@item Circlet of the Huntsman's Third Eye|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 51
+						}
+					},
+					"{@item Cratering Quarterstaff|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 52
+						}
+					},
+					"{@item Crosier of Divine Power|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 53
+						}
+					},
+					"{@item Crown of Deep Winter|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 54
+						}
+					},
+					"{@item Dark Fathom Armor|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 55
+						}
+					},
+					"{@item Dragonkin Weapon +2|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 56
+						}
+					},
+					"{@item Dream Mantle|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 57
+						}
+					},
+					"{@item Ether Spear|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 58
+						}
+					},
+					"{@item Fable's End|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 59
+						}
+					},
+					"{@item Festerwood Fungal Stave|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 60
+						}
+					},
+					"{@item Festerwood Masher|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 61
+						}
+					},
+					"{@item Fourarm Bracers|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 62
+						}
+					},
+					"{@item Give and Take|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 63
+						}
+					},
+					"{@item Grass Whistle Blade|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 64
+						}
+					},
+					"{@item Harp of Valor|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 65
+						}
+					},
+					"{@item Hcor'uk the Colossal's Portable Handheld Weapon of Walloping|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 66
+						}
+					},
+					"{@item Hellfire Pitchfork|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 67
+						}
+					},
+					"{@item Hurricane Lance|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 68
+						}
+					},
+					"{@item Infernal Aegis|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 69
+						}
+					},
+					"{@item Ironleaf Plate|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 70
+						}
+					},
+					"{@item Lance of the Hungering Dead|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 71
+						}
+					},
+					"{@item Mirrorlight Piercer|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 72
+						}
+					},
+					"{@item Nightstalker's Kanabo|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 73
+						}
+					},
+					"{@item Omenbringer's Mantle|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 74
+						}
+					},
+					"{@item Ouroboros Rapier|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 75
+						}
+					},
+					"{@item Pendant of the Tempered Fury|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 76
+						}
+					},
+					"{@item Planar Rapier|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 77
+						}
+					},
+					"{@item Purging Dagger|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 78
+						}
+					},
+					"{@item Quagmire Maul|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 79
+						}
+					},
+					"{@item Rocborne Hand Ballista|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 80
+						}
+					},
+					"{@item Scholar's Cap +3|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 81
+						}
+					},
+					"{@item Scorching Cleaver|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 82
+						}
+					},
+					"{@item Septum Ring of the Great Minotaur|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 83
+						}
+					},
+					"{@item Shadow Drinker|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 84
+						}
+					},
+					"{@item Shadow Ward|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 85
+						}
+					},
+					"{@item Shadenstaff|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 86
+						}
+					},
+					"{@item Shield of Yggdrasil|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 87
+						}
+					},
+					"{@item Signet Rings of the Fey Court|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 88
+						}
+					},
+					"{@item Snuff|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 89
+						}
+					},
+					"{@item Splitter|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 90
+						}
+					},
+					"{@item Staff of Favorable Winds|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 91
+						}
+					},
+					"{@item Staff of the Four Seasons|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 92
+						}
+					},
+					"{@item Stalaga Spear|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 93
+						}
+					},
+					"{@item Switch|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 94
+						}
+					},
+					"{@item Tempest Griffon Feather Cape|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 95
+						}
+					},
+					"{@item The Rose Basket|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 96
+						}
+					},
+					"{@item Timber|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 97
+						}
+					},
+					"{@item Timepiercer|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 98
+						}
+					},
+					"{@item War Standard of Battlecries|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 99
+						}
+					},
+					"{@item Wildman's Spinning Cleaver|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 100
+						}
+					},
+					"{@item Winter's Embrace|tgs1}"
+				]
+			]
+		},
+		{
+			"name": "TGS Magic Item Table I",
+			"source": "tgs1",
+			"page": 25,
+			"colLabels": [
+				"{@dice d100}",
+				"Magic Item"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 1,
+							"max": 12,
+							"pad": true
+						}
+					},
+					"{@item Mastery Gem|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 13,
+							"max": 16
+						}
+					},
+					"{@item Astral Sea Piercer|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 17,
+							"max": 20
+						}
+					},
+					"{@item Bloodscryer Oculus|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 21,
+							"max": 24
+						}
+					},
+					"{@item Chillspike|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 25,
+							"max": 28
+						}
+					},
+					"{@item Crypt Keeper Glaive|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 29,
+							"max": 32
+						}
+					},
+					"{@item Dragon Tamer Lance|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 33,
+							"max": 36
+						}
+					},
+					"{@item Dragonkin Weapon +3|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 37,
+							"max": 40
+						}
+					},
+					"{@item Dragon-Kindled Edge|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 41,
+							"max": 44
+						}
+					},
+					"{@item Festerwood's Light|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 45,
+							"max": 48
+						}
+					},
+					"{@item Forgemaster's Might|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 49,
+							"max": 52
+						}
+					},
+					"{@item Love's Embrace|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 53,
+							"max": 56
+						}
+					},
+					"{@item Memento of the Shapeless|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 57,
+							"max": 60
+						}
+					},
+					"{@item Pike of the Forgotten Legion|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 61,
+							"max": 64
+						}
+					},
+					"{@item Purity Spear|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 65,
+							"max": 68
+						}
+					},
+					"{@item Puzzle Ring of Vitality, Life, and Power|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 69,
+							"max": 72
+						}
+					},
+					"{@item Red Claw's Regalia|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 73,
+							"max": 76
+						}
+					},
+					"{@item Starmetal Shield|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 77,
+							"max": 80
+						}
+					},
+					"{@item Starmetal Solar Axe|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 81,
+							"max": 84
+						}
+					},
+					"{@item Storm Thrower Harpoon|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 85,
+							"max": 88
+						}
+					},
+					"{@item Sword of the Spelldrinker|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 89,
+							"max": 92
+						}
+					},
+					"{@item Thornpiercer|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 93,
+							"max": 96
+						}
+					},
+					"{@item Visage of Delight and Disaster|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 97,
+							"max": 100
+						}
+					},
+					"{@item Windrazor|tgs1}"
+				]
+			]
 		}
 	],
 	"variant": [
@@ -20588,7 +21737,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table H|tgs1"
+				]
 			}
 		},
 		{
@@ -20659,7 +21811,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table H|tgs1"
+				]
 			}
 		},
 		{
@@ -20693,7 +21848,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table I|tgs1"
+				]
 			}
 		},
 		{
@@ -20772,7 +21930,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table H|tgs1"
+				]
 			}
 		},
 		{
@@ -20829,7 +21990,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table I|tgs1"
+				]
 			}
 		},
 		{
@@ -20959,7 +22123,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table I|tgs1"
+				]
 			}
 		},
 		{
@@ -21212,7 +22379,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table I|tgs1"
+				]
 			}
 		},
 		{
