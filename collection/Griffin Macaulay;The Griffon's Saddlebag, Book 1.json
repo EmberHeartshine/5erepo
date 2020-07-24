@@ -815,7 +815,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Band of Mirrored Essence",
@@ -940,7 +943,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Basco's Handy Bangle",
@@ -1047,7 +1053,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Battle Tax",
@@ -1842,7 +1851,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Catnip Amulet",
@@ -1951,7 +1963,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Chillspike",
@@ -2237,7 +2252,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Coil Crook",
@@ -2897,7 +2915,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Direstone Dwarven Pick",
@@ -3112,7 +3133,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Dragon Tamer Lance",
@@ -3599,7 +3623,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Everlasting Sugarbomb",
@@ -3688,7 +3715,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Fable's End",
@@ -4452,7 +4482,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Frefil's Tiny Tasty Tongue Twisty Sugarbombs",
@@ -4480,7 +4513,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Frost Giant Fork",
@@ -5075,7 +5111,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Hat Trick",
@@ -5735,7 +5774,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Knight's Standard of Valor",
@@ -6837,7 +6879,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Pair of Tiny Violin Rings",
@@ -6976,7 +7021,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Periapt of Reflection",
@@ -7266,7 +7314,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Potion of Dragon's Breath (rare)",
@@ -7957,7 +8008,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Ring of Anchoring",
@@ -8097,7 +8151,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Ring of the Fowl Sentinel",
@@ -8739,7 +8796,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Set of Secret Scribe Candles",
@@ -9146,7 +9206,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Signet Rings of Blindness, Deafness, and Silence",
@@ -9478,7 +9541,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Snugglebeast (Dragon)",
@@ -9500,7 +9566,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Snugglebeast (Tarrasque)",
@@ -9544,7 +9613,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Spellwoven Robes",
@@ -10707,7 +10779,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Tempest Griffon Feather Cape",
@@ -10766,7 +10841,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "The Rose Basket",
@@ -11365,7 +11443,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table B|tgs1"
+			]
 		},
 		{
 			"name": "Uorik the Conqueror's Juice Cup",
@@ -16702,6 +16783,7 @@
 		{
 			"name": "TGS Magic Item Table A",
 			"source": "tgs1",
+			"page": 19,
 			"colLabels": [
 				"{@dice d100}",
 				"Magic Item"
@@ -16738,8 +16820,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 11,
-							"max": 15,
-							"pad": true
+							"max": 15
 						}
 					},
 					"{@item Everlasting Sugarbomb|tgs1}"
@@ -16749,8 +16830,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 16,
-							"max": 20,
-							"pad": true
+							"max": 20
 						}
 					},
 					"{@item Firecracker Crystals|tgs1}"
@@ -16760,8 +16840,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 21,
-							"max": 25,
-							"pad": true
+							"max": 25
 						}
 					},
 					"{@item Smash Potatoes|tgs1}"
@@ -16771,8 +16850,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 26,
-							"max": 30,
-							"pad": true
+							"max": 30
 						}
 					},
 					"{@item Torpedo Arrow (generic)|tgs1}"
@@ -16782,8 +16860,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 31,
-							"max": 32,
-							"pad": true
+							"max": 32
 						}
 					},
 					"{@item Bard-in-a-Box|tgs1}"
@@ -16793,8 +16870,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 33,
-							"max": 44,
-							"pad": true
+							"max": 44
 						}
 					},
 					"{@item Bath Potion|tgs1}"
@@ -16804,8 +16880,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 35,
-							"max": 36,
-							"pad": true
+							"max": 36
 						}
 					},
 					"{@item Borboss' Joyous Wand of Color|tgs1}"
@@ -16815,8 +16890,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 37,
-							"max": 38,
-							"pad": true
+							"max": 38
 						}
 					},
 					"{@item Catnip Amulet|tgs1}"
@@ -16826,8 +16900,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 39,
-							"max": 40,
-							"pad": true
+							"max": 40
 						}
 					},
 					"{@item Clockwork Faefly|tgs1}"
@@ -16837,8 +16910,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 41,
-							"max": 42,
-							"pad": true
+							"max": 42
 						}
 					},
 					"{@item Companion's Band|tgs1}"
@@ -16848,8 +16920,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 43,
-							"max": 44,
-							"pad": true
+							"max": 44
 						}
 					},
 					"{@item Container of Heat and Frost|tgs1}"
@@ -16859,8 +16930,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 45,
-							"max": 46,
-							"pad": true
+							"max": 46
 						}
 					},
 					"{@item Doodle Ring|tgs1}"
@@ -16870,8 +16940,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 47,
-							"max": 48,
-							"pad": true
+							"max": 48
 						}
 					},
 					"{@item Fanfare Ammunition|tgs1}"
@@ -16881,8 +16950,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 49,
-							"max": 50,
-							"pad": true
+							"max": 50
 						}
 					},
 					"{@item Grass Carpet|tgs1}"
@@ -16892,8 +16960,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 51,
-							"max": 52,
-							"pad": true
+							"max": 52
 						}
 					},
 					"{@item Gravity Goblet|tgs1}"
@@ -16903,8 +16970,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 53,
-							"max": 54,
-							"pad": true
+							"max": 54
 						}
 					},
 					"{@item Heart of the Sleeveless|tgs1}"
@@ -16914,8 +16980,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 55,
-							"max": 56,
-							"pad": true
+							"max": 56
 						}
 					},
 					"{@item Immovable Button|tgs1}"
@@ -16925,8 +16990,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 57,
-							"max": 58,
-							"pad": true
+							"max": 58
 						}
 					},
 					"{@item Merry Berry|tgs1}"
@@ -16936,8 +17000,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 59,
-							"max": 60,
-							"pad": true
+							"max": 60
 						}
 					},
 					"{@item Orator's Quill|tgs1}"
@@ -16947,8 +17010,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 61,
-							"max": 62,
-							"pad": true
+							"max": 62
 						}
 					},
 					"{@item Pair of Tiny Violin Rings|tgs1}"
@@ -16958,8 +17020,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 63,
-							"max": 64,
-							"pad": true
+							"max": 64
 						}
 					},
 					"{@item Permanent Parchment|tgs1}"
@@ -16969,8 +17030,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 65,
-							"max": 66,
-							"pad": true
+							"max": 66
 						}
 					},
 					"{@item Pomade of Ten Thousand Styles|tgs1}"
@@ -16980,8 +17040,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 67,
-							"max": 68,
-							"pad": true
+							"max": 68
 						}
 					},
 					"{@item Profane Mask|tgs1}"
@@ -16991,8 +17050,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 69,
-							"max": 70,
-							"pad": true
+							"max": 70
 						}
 					},
 					"{@item Quicksilver Clay|tgs1}"
@@ -17002,8 +17060,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 71,
-							"max": 72,
-							"pad": true
+							"max": 72
 						}
 					},
 					"{@item Ring of Gestures|tgs1}"
@@ -17013,8 +17070,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 73,
-							"max": 74,
-							"pad": true
+							"max": 74
 						}
 					},
 					"{@item Ring of Roses|tgs1}"
@@ -17024,8 +17080,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 75,
-							"max": 76,
-							"pad": true
+							"max": 76
 						}
 					},
 					"{@item Ring of the Fowl Sentinel|tgs1}"
@@ -17035,8 +17090,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 77,
-							"max": 78,
-							"pad": true
+							"max": 78
 						}
 					},
 					"{@item Seat Belt|tgs1}"
@@ -17046,8 +17100,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 79,
-							"max": 80,
-							"pad": true
+							"max": 80
 						}
 					},
 					"{@item Shadow Ink|tgs1}"
@@ -17057,8 +17110,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 81,
-							"max": 82,
-							"pad": true
+							"max": 82
 						}
 					},
 					"{@item Shapeshifter's Circlet|tgs1}"
@@ -17068,8 +17120,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 83,
-							"max": 84,
-							"pad": true
+							"max": 84
 						}
 					},
 					"{@item Singing Stein|tgs1}"
@@ -17079,8 +17130,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 85,
-							"max": 86,
-							"pad": true
+							"max": 86
 						}
 					},
 					"{@item Snugglebeast (Owlbear)|tgs1}"
@@ -17090,8 +17140,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 87,
-							"max": 88,
-							"pad": true
+							"max": 88
 						}
 					},
 					"{@item Steps of the Trickster|tgs1}"
@@ -17101,8 +17150,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 89,
-							"max": 90,
-							"pad": true
+							"max": 90
 						}
 					},
 					"{@item Tear of Gaia|tgs1}"
@@ -17112,8 +17160,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 91,
-							"max": 92,
-							"pad": true
+							"max": 92
 						}
 					},
 					"{@item Tote of Tricky Treat Sugarbombs|tgs1}"
@@ -17123,8 +17170,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 93,
-							"max": 94,
-							"pad": true
+							"max": 94
 						}
 					},
 					"{@item Uorik the Conqueror's Juice Cup|tgs1}"
@@ -17134,8 +17180,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 95,
-							"max": 96,
-							"pad": true
+							"max": 96
 						}
 					},
 					"{@item Vox Helm|tgs1}"
@@ -17145,8 +17190,7 @@
 						"type": "cell",
 						"roll": {
 							"min": 97,
-							"max": 98,
-							"pad": true
+							"max": 98
 						}
 					},
 					"{@item Weapon of Showmanship|tgs1}"
@@ -17156,11 +17200,312 @@
 						"type": "cell",
 						"roll": {
 							"min": 99,
-							"max": 100,
-							"pad": true
+							"max": 100
 						}
 					},
 					"{@item Webgrip Rucksack|tgs1}"
+				]
+			]
+		},
+		{
+			"name": "TGS Magic Item Table B",
+			"source": "tgs1",
+			"page": 19,
+			"colLabels": [
+				"{@dice d100}",
+				"Magic Item"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 1,
+							"max": 5,
+							"pad": true
+						}
+					},
+					"{@item Bag of Sundrops|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 6,
+							"max": 10,
+							"pad": true
+						}
+					},
+					"{@item Candle of Anti-Light|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 11,
+							"max": 15
+						}
+					},
+					"{@item Doomsday Cookie|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 16,
+							"max": 20
+						}
+					},
+					"{@item Frefil's Jolly Oozebean Sugarbombs|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 21,
+							"max": 25
+						}
+					},
+					"{@item Frefil's Tiny Tasty Tongue Twisty Sugarbombs|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 26,
+							"max": 30
+						}
+					},
+					"{@item Hasty Sugarbomb|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 31,
+							"max": 35
+						}
+					},
+					"{@item Healing Arrow (generic)|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 36,
+							"max": 40
+						}
+					},
+					"{@item Kindle Egg Sugarbomb|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 41,
+							"max": 45
+						}
+					},
+					"{@item Pack of LeviBubble Sugarbombs|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 46,
+							"max": 50
+						}
+					},
+					"{@item Peppermince Sugarbomb|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 51,
+							"max": 55
+						}
+					},
+					"{@item Potion of Dragon's Breath (uncommon)|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 56,
+							"max": 60
+						}
+					},
+					"{@item Shielding Turtle Sugarbombs|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 61,
+							"max": 63
+						}
+					},
+					"{@item Void Arrow (generic)|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 64,
+							"max": 66
+						}
+					},
+					"{@item Baton of Many Sizes|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 67,
+							"max": 69
+						}
+					},
+					"{@item Charlatan's Wardrobe|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 70,
+							"max": 72
+						}
+					},
+					"{@item Clockwork Inkbeetle|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 73,
+							"max": 75
+						}
+					},
+					"{@item Devil's Detail Eyepatch|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 76,
+							"max": 78
+						}
+					},
+					"{@item Everice Box|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 79,
+							"max": 81
+						}
+					},
+					"{@item Eye of the Bookwurm|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 82,
+							"max": 84
+						}
+					},
+					"{@item Ring of Seething|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 85,
+							"max": 87
+						}
+					},
+					"{@item Set of Numat's Trick Tubes|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 88,
+							"max": 90
+						}
+					},
+					"{@item Snugglebeast (Unicorn)|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 91,
+							"max": 93
+						}
+					},
+					"{@item Socks of the Well-Rested|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 94,
+							"max": 95
+						}
+					},
+					"{@item Tub of Churning and Fermentation|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 96
+						}
+					},
+					"{@item Barricade Shield|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 97
+						}
+					},
+					"{@item Retaliating Shield of Ink|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 98
+						}
+					},
+					"{@item Telescoping Bladelance|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 99
+						}
+					},
+					"{@item Tethervine Quiver|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 100
+						}
+					},
+					"{@item Snugglebeast (Dragon)|tgs1}"
 				]
 			]
 		}
@@ -17755,7 +18100,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table B|tgs1"
+				]
 			}
 		},
 		{
@@ -18151,7 +18499,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table B|tgs1"
+				]
 			}
 		},
 		{
