@@ -1277,7 +1277,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table C|tgs1"
+			]
 		},
 		{
 			"name": "Blood Pact Pendants",
@@ -3505,7 +3508,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table C|tgs1"
+			]
 		},
 		{
 			"name": "Enchantment Breaker",
@@ -3563,7 +3569,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table C|tgs1"
+			]
 		},
 		{
 			"name": "Ether Spear",
@@ -5709,7 +5718,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table C|tgs1"
+			]
 		},
 		{
 			"name": "Killskull Longbow of Dread",
@@ -7023,7 +7035,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				"TGS Magic Item Table B|tgs1",
+				"TGS Magic Item Table C|tgs1"
 			]
 		},
 		{
@@ -7340,7 +7353,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table C|tgs1"
+			]
 		},
 		{
 			"name": "Potion of Dragon's Breath (very rare)",
@@ -7385,7 +7401,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table C|tgs1"
+			]
 		},
 		{
 			"name": "Prismatic Javelin",
@@ -7621,7 +7640,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table C|tgs1"
+			]
 		},
 		{
 			"name": "Puzzle Ring of Vitality, Life, and Power",
@@ -8822,7 +8844,10 @@
 						}
 					}
 				]
-			}
+			},
+			"lootTables": [
+				"TGS Magic Item Table C|tgs1"
+			]
 		},
 		{
 			"name": "Shadow Drinker",
@@ -9568,7 +9593,8 @@
 				]
 			},
 			"lootTables": [
-				"TGS Magic Item Table B|tgs1"
+				"TGS Magic Item Table B|tgs1",
+				"TGS Magic Item Table C|tgs1"
 			]
 		},
 		{
@@ -17508,6 +17534,132 @@
 					"{@item Snugglebeast (Dragon)|tgs1}"
 				]
 			]
+		},
+		{
+			"name": "TGS Magic Item Table C",
+			"source": "tgs1",
+			"page": 20,
+			"colLabels": [
+				"{@dice d100}",
+				"Magic Item"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 1,
+							"max": 13,
+							"pad": true
+						}
+					},
+					"{@item Essence of Rage|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 14,
+							"max": 26
+						}
+					},
+					"{@item Potion of Dragon's Breath (rare)|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 27,
+							"max": 39
+						}
+					},
+					"{@item Potion of Spell Recovery|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 40,
+							"max": 52
+						}
+					},
+					"{@item Blizzard Sphere|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 53,
+							"max": 65
+						}
+					},
+					"{@item Peppermince Sugarbomb|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 66,
+							"max": 78
+						}
+					},
+					"{@item Runic Ammunition|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 79,
+							"max": 82
+						}
+					},
+					"{@item Eldritch Scarf|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 83,
+							"max": 86
+						}
+					},
+					"{@item Jotun's Jodhpurs|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 87,
+							"max": 90
+						}
+					},
+					"{@item Purse Piglet|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 91,
+							"max": 94
+						}
+					},
+					"{@item Set of Secret Scribe Candles|tgs1}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 95,
+							"max": 100
+						}
+					},
+					"{@item Snugglebeast (Dragon)|tgs1}"
+				]
+			]
 		}
 	],
 	"variant": [
@@ -18255,7 +18407,10 @@
 							}
 						}
 					]
-				}
+				},
+				"lootTables": [
+					"TGS Magic Item Table C|tgs1"
+				]
 			}
 		},
 		{
