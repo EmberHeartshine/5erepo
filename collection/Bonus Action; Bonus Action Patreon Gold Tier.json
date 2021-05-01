@@ -2,10 +2,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "bag",
-				"abbreviation": "BAg",
-				"full": "Bonus Action (Patreon Gold Tier)",
-				"color": "#d99e0b",
+				"json": "bad100",
+				"abbreviation": "BAd100",
+				"full": "Bonus Action d100 Tables",
+				"color": "#005f69",
 				"authors": [
 					"Tim"
 				],
@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1589115470,
-		"dateLastModified": 1593090461
+		"dateLastModified": 1619873720
 	},
 	"disease": [
 		{
@@ -27,7 +27,7 @@
 				"{@b Effects:} Disadvantage on Strength and Constitution saving throws. After 2 weeks of infection the creature loses {@dice 1d10} of their hit point maximum. This repeats every two weeks until the disease is cured or the creature dies.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of similar level or higher. A Medicine check (DC 12) reveals that burning the warts off with hot metal and resting for 2 days will also heal the disease's effects. After hit point loss occurs, only {@spell greater restoration} will restore them."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Acute Petrifying Syndrome",
@@ -37,7 +37,7 @@
 				"{@b Effects:} When a creature becomes rightened they start to petrify. At the end of their next turn, they will become fully petrified unless they are no longer frightened.",
 				"{@b Cure:} The ailment can be cured by a {@spell remove curse} or {@spell greater restoration} spell. The petrification itself can be cured by any means which would normally restore a creature."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Affliction of Crystalline Growth",
@@ -47,7 +47,7 @@
 				"{@b Effects:} Whenever the creature has to make a Dexterity saving throw or an Acrobatics check they automatically suffer {@dice 1d6} piercing damage as the crystals pierce their flesh. After each month that passes without a cure, the damage increases by an additional {@dice 1d6}.",
 				"{@b Cure:} {@spell Lesser restoration}. A Medicine check (DC 12) reveals that any cure that would restore petrification also heals this disease. Dwarves and other creatures that live underground have advantage on this check."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Aggressive Fatigue Disorder",
@@ -57,7 +57,7 @@
 				"{@b Effects:} When combat ends the diseased receives one point of exhaustion, regardless of their physical participation. They only gain one point of exhaustion in this manner every hour",
 				"{@b Cure:} Taking a prolonged rest by spending at least 7 consecutive days without fighting or physical exertion in any way. Magic such as {@spell greater restoration} may remove the exaustion, but will not cure this disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Arcane Blisters",
@@ -67,7 +67,7 @@
 				"{@b Effects:} Whenever the creature casts a spell that would deal fire damage, they suffer {@dice 1d4} fire damage as well.",
 				"{@b Cure:} An Intelligence (nature) or Intelligence (arcana) skill check (DC 15) allows a character to recall the ingredients for an ointment which soothes and heals the skin. The ointment is made by mixing any healing potion with lard and ash. The ointment has to be applied daily for 3 consecutive days to fully heal the disease. Any type of spell that would cure disease (such as {@spell lesser restoration} fails, and the caster must make their own Constitution saving throw to avoid catching the disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Arcane Disconnection",
@@ -77,7 +77,7 @@
 				"{@b Effects:} Whenever the creature would restore spell slots, they roll {@dice 1d8}. They do not recover any spell slots of that level or higher. For example: if they roll a 2 they only recover their 1st-level spell slots.",
 				"{@b Cure:} Depending on the source of the creature's magic they may pray, commune with nature or travel to the plane where the source of their magic lies. Usually spending about 24 hours in such ways restores the creature's connection to their magic fully. {@spell Greater restoration} can also restore the creature's connection, but a spellcaster cannot cure themselves in this manner."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Ash Cough",
@@ -87,7 +87,7 @@
 				"{@b Effects:} Creatures suffering from ash cough cannot receive any benefits from a short rest and their hit point maximum is reduced by 1. Every day they remain sick their hit point maximum is reduced by an additional 1 hit point to a minimum of 1.",
 				"{@b Cure:} {@spell Lesser restoration}. A Medicine check (DC 5) reveals that bathing twice per day, drinking plenty of clean water and resting for at least a week cures the disease as well."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Astral Scarring",
@@ -97,7 +97,7 @@
 				"{@b Effects:} The creature becomes vulnerable to force, lightning and thunder damage.",
 				"{@b Cure:}  Casting {@spell lesser restoration} or {@spell remove curse} once per day for 3 consecutive days dissolves the scars. The first casting cures force vulnerability, the second casting cures lightning vulnerability, and the final casting cures thunder vulnerability."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Autumn Blight",
@@ -107,7 +107,7 @@
 				"{@b Effects:} Disadvantage on Athletics and Acrobatics checks. The creature's movement speed is reduced by 10 feet.} ",
 				"{@b Cure:} A simple {@item potion of healing|phb} or {@spell lesser restoration}. Any spell or item that removes poison can also cure this illness."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Avian Delusion",
@@ -117,7 +117,7 @@
 				"{@b Effects:} The creature is unable to cast any spells that require concentration.",
 				"{@b Cure:} {@spell Greater restoration}, {@spell remove curse} or a tonic of special herbs. The herbs needed can be recalled with a successful Nature check (DC 16) and can be found in forests near lakes and rivers."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Bloodrot",
@@ -127,7 +127,7 @@
 				"{@b Effects:}  The creature's hit point maximum is lowered by {@dice 2d8} to a minimum of 1. They also have disadvantage on Intimidation and Persuasion checks as their slugishness makes it hard for others to take them seriously.",
 				"{@b Cure:} {@spell Greater restoration} will cure the disease and restore lost maximum hit points. A Nature check (DC 10) reveals that a mushroom soup can also be brewed to heal bloodrot, but will not restore the lost hit points. This soup is made from the mushrooms that grow in the caves where the disease can be contracted."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Boar Warts",
@@ -137,7 +137,7 @@
 				"{@b Effects:} Disadvantage on all Charisma-based skill checks.",
 				"{@b Cure:} A Medicine check (DC 10) reveals that the warts can be surgically removed with a small blade. On a successful Dexterity check (DC 16) the warts are removed without any damage or scarring. On a failure the afflicted receives {@dice 1d6} slashing damage, and while the warts are removed they regrow fully in {@dice 1d4} days."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Brainslumber",
@@ -147,7 +147,7 @@
 				"{@b Effects:} After finishing a long rest an afflicted creature's Intelligence score is reduced by {@dice 1d4}. Additionally, they must roll {@dice 1d20}. On a 1 they forget a name of an entity or place in the world of the DM's choosing.",
 				"{@b Cure:} A magic practitioner can use {@spell modify memory} once per day for 3 subsequent days to restore the creature's ability to retain memories and halt the Intelligence loss. It is also believed that confronting the creature with reminders about their past can also jump-start recollection. Intelligence loss may only be restored using {@spell greater restoration}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Brittle Bones",
@@ -157,7 +157,7 @@
 				"{@b Effects:}  The creature is vulnerable to bludgeoning damage. When receiving damage from falling they receive {@dice 1d8} per 10 feet fallen (to a maximum of {@dice 20d8}) instead of the usual damage.",
 				"{@b Cure:} Spells and traditional {@item potion of healing|dmg|potions of healing} cannot cure brittle bones, as magical healing is the cause. A curative elixir can be made using basilisk bone dust and a selection of herbs found growing near waterfalls in temperate climates. A successful Nature check (DC 15) reveals these ingredients. Alternatively, a calcium-rich diet for a prolonged period alongside extended rest usually alleviates brittle bones."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Butterfly Fever",
@@ -167,7 +167,7 @@
 				"{@b Effects:} An afflicted creature's Wisdom score is reduced by 3. Additionally, they make Perception checks and Constitution saving throws with disadvantage.",
 				"{@b Cure:} {@spell Lesser restoration} is usually enough to cure butterfly fever. Once a creature has been healed of butterfly fever it is uncommon for them to contract it again within a year or so. (The DC to avoid reinfection within 1 year lowers to 12.)"
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Buzzthroat",
@@ -177,7 +177,7 @@
 				"{@b Effects:} The creature has disadvantage on Persuasion, Intimidation and Deception checks.",
 				"{@b Cure:} {@spell Lesser restoration} instantly cures a buzzthroat infection. A long rest usually heals the creature as well."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Canyon Legs",
@@ -187,7 +187,7 @@
 				"{@b Effects:} The creature's movement speed is halved and they have disadvantage on Dexterity saving throws.",
 				"{@b Cure:} {@spell Greater restoration} can instantly cure canyon legs. Soaking the legs in water from the elemental plane of water for at least 2 hours also cures the creature."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Capacity Reversal Disorder",
@@ -197,7 +197,7 @@
 				"{@b Effects:} The creature loses proficiency in one random skill determined by the DM. They then gain proficiency one random skill determined by the DM. Depending on the severity of the disease, this may happen again over time.",
 				"{@b Cure:} A long rest has an 85% chance to cure CRD and restore the creature's original proficiencies. {@spell Lesser restoration} will cure the creature as well."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Cave Nails",
@@ -207,7 +207,7 @@
 				"{@b Effects:} Disadvantage on Sleight of Hand checks and attack rolls with Finesse weapons.",
 				"{@b Cure:} {@spell Lesser restoration}. A Medicine check (DC 8) reveals that filing the infected nails and applying a thin layer of lard for a week also cures the disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Cave Tremble",
@@ -217,7 +217,7 @@
 				"{@b Effects:} Whenever the creature takes a short or long rest, they roll a Wisdom saving throw (DC 10). On a failed save they gain no benefits from the rest. While affected by cave tremble the creature also has disadvantage on saving throws against becoming {@condition frightened}.",
 				"{@b Cure:} {@spell Calm emotions} or {@spell lesser restoration}. A Medicine or Nature check (DC 10) reveals that spending 2 days aboveground also cures this disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Chromatic Allergy",
@@ -227,7 +227,7 @@
 				"{@b Effects:} While touching or wearing the color of their allergy, creatures have disadvantage on all attack rolls and ability checks.",
 				"{@b Cure:} : A Nature check (DC 12) reveals that a simple cure can be brewed into a tea made of {@i C. chrysanthemum} leaves. An immunity to chromatic allergy may be built up if the tea is sweetened with honey made from the plant."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Confused Liver",
@@ -237,7 +237,7 @@
 				"{@b Effects:}  For the next {@dice 2d4} hours, when the creature drinks anything (including non-alcoholic drinks and potions), they must make a Constitution saving throw (DC 12). On a failed save they vomit what they tried to drink and are {@condition stunned} for 30 seconds.",
 				"{@b Cure:} {@spell lesser restoration|phb|Lesser} or {@spell greater restoration} are the only known cures besides abstinence."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Copper Stress",
@@ -247,7 +247,7 @@
 				"{@b Effects:} The creature takes 1 poison damage immediately. If they remain in contact with copper for more than 1 minute they become {@condition poisoned}.",
 				"{@b Cure:} A definitive, accessible cure for copper stress has not been found. A Medicine check (DC 7) reveals that it is best to avoid skin contact with copper (for example, {@item copper (cp)|phb|copper coins}) as much as possible to avoid further complications. The only creatures who have been cured {@spell wish|phb|wished} the disease away. {@spell Lesser restoration} or a short rest removes the poisoned condition."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Cranial Corrosion",
@@ -257,7 +257,7 @@
 				"{@b Effects:} The creature immediately loses 1 point of Intelligence. If 10 days pass without receiving a cure, their Intelligence score is reduced by another point.",
 				"{@b Cure:} {@spell Greater restoration} or a cure of a similar level can halt the progression of the disease, then a second restoration may be performed to cure the creature and regain their lost Intelligence score."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Dark Itch",
@@ -267,7 +267,7 @@
 				"{@b Effects:} Disadvantage on all concentration checks and a \u22123 penalty to all ranged weapon and spell attack rolls.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Decarian Flu",
@@ -277,7 +277,7 @@
 				"{@b Effects:} The afflicted creature's Constitution score is reduced by 2 and disadvantage on Constitution checks and saving throws.",
 				"{@b Cure:} {@spell Lesser restoration} has a 50% chance to instantly cure the flu; if the spell fails it may appear to have worked but will return in another {@dice 1d4} days. 3 days of rest is the most common and fool-proof cure for the Decarian flu."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Desert Pestilence",
@@ -287,7 +287,7 @@
 				"{@b Effects:} The afflicted creature's Constitution score is reduced by 2, and their hit point maximum is also reduced by {@dice 1d10} (to a minimum of 1).",
 				"{@b Cure:} {@spell Greater restoration} or a cure of similar level. A History or Nature check (DC 15) reveals there are certain lotions known to have been buried with mummies that can cure {@i desert pestilence} if applied daily for 3 subsequent days."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Desolation Panic",
@@ -297,7 +297,7 @@
 				"{@b Effects:} A \u22125 penalty to all Perception and Charisma-based skills as well as a \u22124 penalty to Dexterity saving throws. The creature also has a 15% chance of becoming {@condition frightened} for {@dice 1d4} minute(s) upon failure.",
 				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 12) reveals that a tonic brewed from the poison that caused the disease can also cure desolation panic."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Devil's Paranoia",
@@ -307,7 +307,7 @@
 				"{@b Effects:} When entering combat with a fiend, the afflicted instantly becomes frightened by it. They can overcome this fear by using an action to make a Wisdom saving throw (DC 18) at the start of each of their turns.",
 				"{@b Cure:} Delivering the killing blow to 5 fiends may restore the confidence in a creature suffering from this disease. Being the target of {@spell calm emotions} once per day for 3 subsequent days also cures this ailment."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Dormant Vampirism",
@@ -317,7 +317,7 @@
 				"{@b Effects:} Drinking blood for the first time heals the creature for {@dice 2d10 + 15} hit points and turns them into a vampire.",
 				"{@b Cure:} Nothing short of powerful magic such as {@spell wish} or {@spell power word heal} can remove the disease from the afflicted."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Dragon's Pox",
@@ -327,7 +327,7 @@
 				"{@b Effects:} When the creature is the target of a successful attack which deals piercing damage, there is a 50% chance the attack also pops a boil, causing {@dice 1d6} poison damage.",
 				"{@b Cure:} Medicine check (DC 15) reveals the boils can be surgically removed with a sharp blade and a steady hand. The surgery can be performed by simultaneous successful Medicine (DC 12) and Dexterity (DC 13) checks. Alternatively, the boils can be healed by {@spell greater restoration} or similarly-powerful magic."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Dysvaric Inflammation",
@@ -337,7 +337,7 @@
 				"{@b Effects:} Disadvantage on all Charisma-based ability and skill checks and a \u22125 penalty to all attack rolls.",
 				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 10) reveals that a tea made from vanilla ivy (a plant that often grows close to Dysvarian bonnets) cures the inflammation as well."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Elemental Inversion",
@@ -347,7 +347,7 @@
 				"{@b Effects:} All spells that would deal fire damage now deal cold damage instead. All spells that would deal cold damage now deal fire damage instead.",
 				"{@b Cure:} {@spell Greater restoration} or {@spell remove curse} are the only known cures. Recovering from the hypothermia restores the original appearance of the spellcaster, but does not correct their magic."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Emotional Blindness",
@@ -357,7 +357,7 @@
 				"{@b Effects:} Disadvantage on all Insight checks and a \u22123 penalty to Persuasion and Intimidation checks.",
 				"{@b Cure:} The condition heals naturally after {@dice 1d6} days, and can be instantly cured using {@spell lesser restoration}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Epidermal Petrification",
@@ -367,7 +367,7 @@
 				"{@b Effects:} The afflicted creature's Dexterity score is reduced by 2 and their movement speed is reduced by 5 feet.",
 				"{@b Cure:} Any cure that would heal petrification. {@spell Lesser restoration} can also cure this lesser condition."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Ermalian Flu",
@@ -377,7 +377,7 @@
 				"{@b Effects:} The infected creature's Constitution score is reduced by 1 and they suffer disadvanatge on all Perception checks.",
 				"{@b Cure:} {@spell Lesser restoration} or 2 long rests without physical exertion between."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Explosive Sneezing",
@@ -387,7 +387,7 @@
 				"{@b Effects:} They spend the next {@dice 1d6} rounds sneezing. The sneezing is audible from up to 300 feet away. The sneezer is considered {@condition incapacitated}, they take {@dice 1d4 - 1} (minimum 1) thunder damage at the beginning of each turn they spend sneezing, and all creatures within 20 feet of the sneezer must roll a Constitution saving throw (DC 10) at the end of their turn or become {@condition deafened} until the end of their next turn.",
 				"{@b Cure:} Explosive sneezing can be prevented by covering one's mouth and nose when venturing in a goblin mine. Due to the short-lived nature of the affliction, no one has found a way to stop an explosive sneezing fit, and everyone who experiences it is immune to another fit for 24 hours."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Fenrot",
@@ -397,7 +397,7 @@
 				"{@b Effects:} Vulnerability to all slashing and piercing damage.",
 				"{@b Cure:} {@spell Lesser restoration} or similar magic is the only known treatment."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Ficklefern Fever",
@@ -407,7 +407,7 @@
 				"{@b Effects:} The afflicted receives a \u22121 penalty to all Constitution checks and saving throws. Whenever the creature would gain a point of {@condition exhaustion} they gain 2 points instead",
 				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 12) reveals that brewing a tea made from ficklefern leaves also cures the disease and makes a creature immune to their effects for 6 hours."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Flameblight",
@@ -417,7 +417,7 @@
 				"{@b Effects:} The afflicted suffers vulnerability to fire damage. Additionally, whenever they are struck by fire, they must succed on a DC 12 Dexterity saving throw (to pat out the fire) or burst into flames.",
 				"{@b Cure:} {@spell Lesser restoration} or sitting in an ice bath for at least three hours."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Fluctuating Activity Disorder",
@@ -456,7 +456,7 @@
 					]
 				}
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Four-Sense Disorder",
@@ -503,7 +503,7 @@
 					]
 				}
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Frost Rash",
@@ -513,7 +513,7 @@
 				"{@b Effects:} An afflicted creature's Constitution score is reduced by 2 and  they suffer disadvantage on Acrobatics and Athletics checks.",
 				"{@b Cure:} A warm bath can cure frost rash rather quickly. {@spell Lesser restoration} also cures this disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Frunkis",
@@ -523,7 +523,7 @@
 				"{@b Effects:} Disadvantage on all Acrobatics checks and Constitution saving throws.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level treats frunkis. A Medicine check (DC 15) reveals that drinking a healthy amount of clean water and eating only vegetables and fruits for at least 3 days also cures this disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Ghoulish Ocular Affliction",
@@ -533,7 +533,7 @@
 				"{@b Effects:} Loss of darkvision (if any) and can only see clearly in bright light up to 30 feet.",
 				"{@b Cure:} {@spell Lesser restoration} removes this disease. A less conventinal treatment involves taking at least 1 point of radiant damage, which instantly cures the afflicted."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Goblin Fever",
@@ -543,7 +543,7 @@
 				"{@b Effects:} The afflicted suffers a \u22123 penalty to all Constitution saving throws and disadvantage on all Persuasion checks against non-goblinoids. They may, however, have advantage on all Charisma-based skill checks against goblinoids as the disgusting smell is actually the result of pheremones.",
 				"{@b Cure:} The disease resolves itself after 4 long rests, or 2 hot baths a day for 2 consecutive days."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Grexialis",
@@ -553,7 +553,7 @@
 				"{@b Effects:} Disadvantage on all Wisdom- and Intelligence-based saving throws, skill checks, and ability checks. All Perception checks are made at disadvantage.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. While it does not cure the disease, Nature or Medicine check (DC 13) reveals a poultice composed of crushed wasps and algae may be spread over the forehead to alleviate the hallucinatory effects."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Heaven's Brand",
@@ -563,7 +563,7 @@
 				"{@b Effects:} The afflicted suffers 1 point of radiant damage whenever they take the attack action and gains resistance to necrotic damage.",
 				"{@b Cure:} Healing at least 1 hit point through any magical means (spell, item or potion) removes the brand. Healing thrugh natural means, such as a short or long rest, does not cure the disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Hell Collar",
@@ -573,7 +573,7 @@
 				"{@b Effects:} Disadvantage on Strength saving throws, Athletics checks and all Charisma-based ability and skill checks. Whenever the afflicted is attacked by a fiendish being, they must succeed on a Wisdom saving throw (DC 14) or immediately become {@condition frightened}.",
 				"{@b Cure:} The disease cannot be cured while the restraint is still in place. When it is removed it can be fully healed by {@spell greater restoration} or a cure of a similar level. A Nature check (DC 12) reveals that applying a poultice made from ash and river mud before taking a long rest also heals Hell collar, though it leaves a nasty scar. This scar cannot be removed by any means."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Hunter's Rabies",
@@ -583,7 +583,7 @@
 				"{@b Effects:} A \u22125 penalty to all ranged attack rolls. Disadvantage on all Strength-based checks and saving throws.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. Alternatively, 2 consecutive long rests without any physical activity between will cure this disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Imp's Sting",
@@ -593,7 +593,7 @@
 				"{@b Effects:} The afflicted's maximum health points are reduced by {@dice 1d6 + 1} (to a minimum of 1).",
 				"{@b Cure:} {@spell Lesser restoration} or any healing spell that heals at least an amount equal to twice the number of lost hit points."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Ironfoot",
@@ -603,7 +603,7 @@
 				"{@b Effects:} The afflicted's movement speed is reduced to 10 feet, and they suffer disadvantage on all Dexterity-based checks and saving throws.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level removes the infection."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Jungle Ulcers",
@@ -613,7 +613,7 @@
 				"{@b Effects:} The infected creature's Strength score is reduced by 1 for each day the infection remains untreated (to a minimum of 1). Potions and other magical ingested tonics are effective only 80% of the time.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level cures the infection, but does not heal the ulcers. A Medicine check (DC 10) reveals that eating 2 spoonfulls of salt and drinking 1 pint of fresh water also treats the infection. Strength lost to this disease is regained at a rate of 1 per day of light activity, or 2 per day of no physical activity. {@spell Greater restoration} restores the lost Strength immediately."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Kidney Shadow Sores",
@@ -623,7 +623,7 @@
 				"{@b Effects:} An afflicted creature's Constitution score is reduced by 2 and they suffer disadvantage on Dexterity saving throws and Perception checks.",
 				"{@b Cure:} {@spell Lesser restoration} or remaining in complete darkness for at least 7 consecutive days will cure the disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "King's Cramps",
@@ -633,7 +633,7 @@
 				"{@b Effects:} A \u22123 penalty to all Constitution saving throws, Acrobatics checks, and Athletics checks.",
 				"{@b Cure:} {S@spell Lesser restoration}. A Medicine check (DC 7) reveals that taking a short or long rest without eating also treats the condition."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Kraken Lash Inflammation",
@@ -643,7 +643,7 @@
 				"{@b Effects:} The afflicted suffers {@dice 1d4} poison damage after finishing a long rest (after hit points are restored). Every 3 days that the condition goes untreated, the damage increases by {@dice 1d4}. Once the damage reaches {@dice 4d4}, the creature becomes permanently {@condition poisoned}.",
 				"{@b Cure:} {@spell Lesser restoration} or {@spell protection from poison} can treat the disease. A Nature or Medicine check (DC 10) reveals that a poultice of seaweed that is applied daily for 3 days on the infected area also cures the inflammation."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Lateral Displacement",
@@ -698,7 +698,7 @@
 				}
 				
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Limb Morphia",
@@ -708,7 +708,7 @@
 				"{@b Effects:} If left untreated the fingers grow together over the course of 1 week. The creature then suffers disadvantage on all weapon attacks. After another 2 weeks the creature's arm(s) morph into a bone hook. They cannot hold any weapons or objects. Unarmed strikes with a hook arm deal {@dice 2d6} + the creature's Strength modifier piercing damage. The creature may train with their new appendages and become proficient in their use, making them no longer unarmed strikes but a melee weapon attack with a 10-foot reach.",
 				"{@b Cure:} {@spell Greater restoration} can reverse the effects of limb morphia within the first three weeks. Once the hook arms have formed, they may be amputated and a {@spell regenerate} spell will restore the original limbs."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Magister's Neck",
@@ -718,7 +718,7 @@
 				"{@b Effects:} The afflicted suffers disadvantage on all Intelligence-based ability and skill checks, and is unable to concentrate on a spell or other magical effect.",
 				"{@b Cure:} A Medicine check (DC 8) reveals that 1 hour of light exercise followed by a long rest or receiving a neck massage releases the tension from the neck. {@spell Lesser restoration} or other magical means cannot solve magister's neck"
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Marsh Hands",
@@ -728,7 +728,7 @@
 				"{@b Effects:} All weapon attack rolls and are made without proficiency bonus. Spell attack rolls for spells that require a somatic component are also made without adding the creature's proficiency bonus.",
 				"{@b Cure:} {@spell Lesser restoration}. A Nature check (DC 10) reveals that rubbing the flowers of Sylvan's touch (a common marsh plant) on the back of the hands cures the disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Medusoid Migraine",
@@ -738,7 +738,7 @@
 				"{@b Effects:} When taking a short rest, the creature has a 5% chance of suffering from extreme migraines and receiving no benefits from the short rest.",
 				"{@b Cure:} Any potion that cures petrification can also be used to treat medusoid migraines by applying it to the temples, soothing the cracked skin. {@spell Remove curse} or a casting of {@spell calm emotions} will also resolve the disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Moon Pox",
@@ -748,7 +748,7 @@
 				"{@b Effects:} Disadvantage on persuasion checks and all Strength-based ability and skill checks.",
 				"{@b Cure:} {@spell Greater restoration}. A Nature check (DC 10) reveals that spending a night without clothing in the light of a full moon also cures this disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Muscular Fluttering",
@@ -758,7 +758,7 @@
 				"{@b Effects:} When making an attack roll, natural 20 rolls do not trigger a critical hit. The critical miss threshold is increased from 1 to 1\u20132.",
 				"{@b Cure:} The only known cure is {@spell lesser restoration} cast while the afflicted is being held completely still."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Night Eyes",
@@ -768,7 +768,7 @@
 				"{@b Effects:} The creature gains darkvision out to a range of 60 feet if it doesn't have it already. However, it also suffers from sunlight sensitivity, causing disadvantage on attack rolls and perception checks that rely on sight when the creature or their target is in brighter than dim light.",
 				"{@b Cure:} {@spell Greater restoration} or {@spell regenerate} will cure the disease instantly. Reverting back to a normal day-night cycle for at least 2 months will also successfully treat night eyes, though their irises will not return to their original color without magical intervention."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Nightmask Plague",
@@ -781,7 +781,7 @@
 				"{@b Effects:} Disadvantage on Constitution, Strength and Dexterity saving throws during stage 1. Disadvantage on all Constitution-, Strength-, and Dexterity-based ability checks skill checks, and saving throws during stage 2. Paralysis sets in at the beginning of stage 3, and the creature will die if not cured. A creature infected by nightmask plague that gets revived will be brought back to life with stage 1 nightmask plague.",
 				"{@b Cure:} There is currently no known cure, magical or nonmagical, for second or third stage nightmask plague. In the first stage of the disease it can be cured by receiving a {@spell lesser restoration} once per day for 3 consecutive days or a single casting of {@spell greater restoration}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Ordriscius Intenis",
@@ -791,7 +791,7 @@
 				"{@b Effects:} The afflicted creature suffers disadvantage on Perception checks that depend on sight and regain 1 fewer hit die upon finishing a long rest.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level will cure the disease and expunge all spores. A Nature check (DC 12) reveals that eating a stew brewed from the mushrooms will treat Ordriscius intenis as well. They can be safely plucked and cooked as long as a piece of cloth or other filtering material is worn over the mouth and nose."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Pale Breath",
@@ -801,7 +801,7 @@
 				"{@b Effects:} The afflicted creature suffers disadvantage on Persuasion checks and vulnerability to fire and radiant damage.",
 				"{@b Cure:} {@spell Lesser restoration} or {@spell remove curse}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Parasitis Arcanium",
@@ -811,7 +811,7 @@
 				"{@b Effects:} Upon completion of a rest that restores spell slots, roll {@dice 1d10}. The owner of the item loses one spell slot equal to the number rolled (or the closest available spell slot) the first time they use the infected item. On a 10 they lose their highest-level available spell slot and a second spell slot determined by a second {@dice d10} roll.",
 				"{@b Cure:} Casting {@spell dispel magic} targeting the parasite or entering any type of {@spell antimagic field} will remove the parasite from the infected item and cure the afflicted creature. Casting {@spell remove curse} targeting the afflicted creature will lift the parasite's influence on them and make them immune to its effects, but will not remove the parasite from the infected item."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Pig Twitch",
@@ -821,7 +821,7 @@
 				"{@b Effects:} An infected creature suffers a \u22122 penalty to all weapon attack rolls, disadvantage on Perception checks, and disadvantage on all Dexterity-based ability and skill checks involving the use of fine motor skills.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Pixiedust Acne",
@@ -831,7 +831,7 @@
 				"{@b Effects:} An afflicted creature suffers disadvantage on all Stealth checks.",
 				"{@b Cure:} {@spell Lesser restoration} cures the disease instantly, as does a steam bath lasting at least 1 full hour."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Planeshifter's Infection",
@@ -841,7 +841,7 @@
 				"{@b Effects:} All attack rolls are made with disadvantage. When the creature rolls a natural 1 on an attack roll they are {@condition stunned} for 1 round as their vision abruptly shifts to a random plane of existence.",
 				"{@b Cure:} {@spell Lesser restoration} or taking a long rest is enough to restore a plane traveller's equilibrium."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Purple Scurvy",
@@ -851,7 +851,7 @@
 				"{@b Effects:} Disadvantage on all Stealth, Deception, Persuasion, Intimidation and Performance checks.",
 				"{@b Cure:} The disease resolves on its own in {@dice 1d4} days but can instantly be cured by {@spell lesser restoration}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Queen's Skin",
@@ -861,7 +861,7 @@
 				"{@b Effects:} An afflicted creature has vulnerability to piercing and slashing damage.",
 				"{@b Cure:} {@i Queen's skin} can only be cured by {@spell greater restoration} or similarly-powerful healing magic."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Red Rose Virus",
@@ -871,7 +871,7 @@
 				"{@b Effects:} The afflicted creature suffers vulnerability to necrotic damage, and all healing spells the creature casts only heal for half the amount. Healing magic functions on the creature as usual.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Red Shock",
@@ -881,7 +881,7 @@
 				"{@b Effects:} The creature enters a frenzied state for {@dice 1d6} rounds, attacking the nearest creature to it with reckless abandon. Each melee weapon attack roll they make has advantage, but all attacks against them also have advantage. After the frenzy wears off they become paralyzed and gain 1 point of {@condition exhaustion}.",
 				"{@b Cure:} {@spell Lesser restoration} can cause the frenzied state to end early. The paralysis and exhaustion are not prevented."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Regenerative Combustion Disorder",
@@ -891,7 +891,7 @@
 				"{@b Effects:} A wave of sparks blows outward from the creature in a 15-foot radius. All creatures in this radius (except for the afflicted creature) must make a Dexterity saving throw (DC 15) or take {@dice 1d8} + an amount equal to overhealed hit points fire damage.",
 				"{@b Cure:} Most cases of {@i regenerative combustion disorder} that have been cured {@spell wish|phb|wished} it away. An Arcana check (DC 18) also reveals that casting {@spell greater restoration} while drinking a {@item potion of fire resistance} can treat this disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Roseheart",
@@ -901,7 +901,7 @@
 				"{@b Effects:} Whenever a creature takes a short rest, roll {@dice 1d6}. The result determines the maximum number of hit dice they may spend to heal during that short rest.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level will cure the condition. A Nature check (DC 15) reveals that inhaling powdered rose leaves through the nose negates the effects of the disease for one short rest, but is extremely painful."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Sage's Fever",
@@ -911,7 +911,7 @@
 				"{@b Effects:} Disadvantage on all Wisdom saving throws and Wisdom-based ability and skill checks.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level will cure the disease. Seperating the causative plants is advised to prevent recurrent infection."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Seasonal Ulcer",
@@ -955,7 +955,7 @@
 					]
 				}
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Sheepy Head",
@@ -965,7 +965,7 @@
 				"{@b Effects:} Whenever the creature encounters a sheep they must make a Wisdom saving throw (DC 6). For each sheep present the DC increases by 1. On a failed save they instantly fall {@condition unconscious}.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level can kill the parasites and end the effects."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Silver Stroke",
@@ -975,7 +975,7 @@
 				"{@b Effects:} The creature experiences a \u22122 penalty to their Constitution, Strength and Dexterity scores (to a minimum of 1), but gain a +2 bonus to their Wisdom score (to a maximum of 22).",
 				"{@b Cure:} {@spell Regenerate} and {@spell remove curse} will remove the disease (preventing the need for future saving throws) but not cure its effects. {@spell greater restoration} or similarly powerful restorative magic can reverse the effects once they have manifested."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Smolder Crown",
@@ -985,7 +985,7 @@
 				"{@b Effects:} The afflicted has diadvantage on Survival and Nature checks, and gains vulnerability to fire damage.",
 				"{@b Cure:} {@spell Lesser restoration} or a {@item potion of fire resistance} will end the effects. A Medicine check (DC 10) reveals that spending 2 days in the shade with wet rags worn over the head will also cure {@i smolder crown}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Snow Allergy",
@@ -995,7 +995,7 @@
 				"{@b Effects:} The creature suffers disadvantage on Acrobatics and Athletics checks.",
 				"{@b Cure:} Any item, potion or spell which provides resistance to cold damage (such as a {@item potion of cold resistance} counteracts {@i snow allergy}. If the creature spends at least 1 year in arctic climates will cause them to acclimitize to cold conditions and cures the disease permanently."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Solar Allergy",
@@ -1005,7 +1005,7 @@
 				"{@b Effects:} The creature is vulnerable to fire and radiant damage when outside during the day (regardless of weather circumstances) until they take a long rest outside any sunlight.",
 				"{@b Cure:} An Arcana check (DC 9) reveals that drinking a {@item potion of fire resistance} each day for 3 consecutive days will suppress the allergy for 1 year. Alternatively, {@spell greater restoration} cures a {@i solar allergy} permanently."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Spider Mouth",
@@ -1015,7 +1015,7 @@
 				"{@b Effects:} Disadvantage on all Charisma-based skill and ability checks, as well as Charisma saving throws. Any spell cast using verbal components suffer a \u22122 penalty to the spell attack modifier or save DC.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Spinal Dissolving",
@@ -1025,7 +1025,7 @@
 				"{@b Effects:} Disadvantage on all Athletics, Acrobatics and Intimidation checks. Weapon attack rolls to not have the creature's proficiency bonus added to it.",
 				"{@b Cure:} {@spell Greater restoration} or a cure of a similar level. A Medicine or Nature check (DC 15) reveals that consuming a tonic made from milk, calcium and a powdered dragon scale (of any color) daily for 5 consecutive days also cures {@i spinal disolving}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Stone Lungs",
@@ -1035,7 +1035,7 @@
 				"{@b Effects:} While infected, a creature suffers a \u22122 penalty to their Constutition score, as well as disadvantage on all Strength-based skill and ability checks.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. An Arcana or Medicine check (DC 12) reveals that breathing the pure air from the elemental plane of Air for at least 1 hour will also cure the disease."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Summer Eyes",
@@ -1045,7 +1045,7 @@
 				"{@b Effects:} The afflicted creature suffers disadvantage to all Perception checks and Constitution saving throws.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. Alternatively, a Nature or Medicine check (DC 12) reveals that the symptoms will resolve on their own after {@dice 1d6}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Swamp Pneumonia",
@@ -1055,17 +1055,17 @@
 				"{@b Effects:} The afflicted creature suffers a \u22122 penalty to their Constitution score, vulnerability to poison and cold damage, and disadvantage on all Stealth checks.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level is able to cure {@i swamp pneumonia}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Swine Stomach",
 			"entries": [
-				"{@b Source:} {@i Swine stomach} is a variation of {@disease pig twitch|bag} that is specific to pigs and boars that live in the wild. When eating the spoiled meat of such an animal the creature must make a Constitution saving throw (DC 17). On a failed save they experience the following:",
+				"{@b Source:} {@i Swine stomach} is a variation of {@disease pig twitch|bad100} that is specific to pigs and boars that live in the wild. When eating the spoiled meat of such an animal the creature must make a Constitution saving throw (DC 17). On a failed save they experience the following:",
 				"{@b Symptoms:} An infected creature experiences severe nausea, vomiting, fatigue.",
 				"{@b Effects:} The afflicted suffers a \u22122 penalty to their Constitution score.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "The Niffs",
@@ -1075,7 +1075,7 @@
 				"{@b Effects:} The afflicted suffers \u22125 to all smell-based Perception checks, a \u22122 penalty to all Persuasion checks and Constitution saving throws, and disadvantage on all Stealth checks.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level. A Medicine check (DC 5) reveals that symptoms will resolve on their own after 2 long rests with minimal activity in between."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Thief's Bane",
@@ -1085,7 +1085,7 @@
 				"{@b Effects:} An infected creature suffers \u22124 to all Sleight of Hand, Stealth, and Deception checks.",
 				"{@b Cure:} {@spell Calm emotions} or {@spell lesser restoration} will cure {@i thief's bane}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Twelve-Day Decay",
@@ -1156,7 +1156,7 @@
 					]
 				}
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Unending Thirst",
@@ -1166,7 +1166,7 @@
 				"{@b Effects:} Effects may differ depending on the type of drink, including intoxication or other harmful effects. Consuming any liquid will always conclude in the creature becoming {@condition poisoned} for {@dice 1d6 hours} in addition to any other effects of overconsumption.",
 				"{@b Cure:} {@spell Calm emotions} or a successful Persuation check (contested by the afflicted creature's Wisdom saving throw) may stop the frenzied drinking, but does not treat the underlying condition. {@spell Greater restoration} or extended therapy are the only known cures."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Verdant Veins",
@@ -1176,7 +1176,7 @@
 				"{@b Effects:} An infected creature gains 1 level of {@condition exhaustion} for every 12 consecutive hours they go without a long rest (instead of 24 hours), and when they would gain 1 level of exhaustion through other effects (such as extreme weather), they instead gain 2 levels. In addition, the creaure requires 2 more hours of sleep (or 1 more hour of meditation, if the creature does not sleep) in order to experience the effects of a long rest.",
 				"{@b Cure:} {@spell Greater restoration} may be used to cure the disease if the afflicted creature does not already have any levels of exhaustion. A creature's exhaustion must be addressed before their {@i verdant veins} can be cured."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Vocal Fatigue",
@@ -1186,7 +1186,7 @@
 				"{@b Effects:} The afflicted creature suffers disadvantage on all Charisma-based skill and ability checks for {@dice 1d4} days.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of a similar level will restore the creature's voice. A Nature or Medicine check (DC 10) reveals that drinking tea prepared with honey may soothe the effects of {@i vocal fatigue} and reduce the recovery time by 1 day."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Warped Tongue",
@@ -1196,7 +1196,7 @@
 				"{@b Effects:} The creature suffers disadvantage on all Charisma-based ability and skill checks. Additionally, if the creature attempts to cast a spell with a verbal component, there is a 5% chance the spell goes wild. To determine the random effect, roll on the {@table wild magic surge|phb} table.",
 				"{@b Cure:} {@spell Lesser restoration} can cure this condition immediately. A Medicine check (DC 9) reveals that a {@i warped tongue} resolves itself after a long rest."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Witch's Delirium",
@@ -1206,7 +1206,7 @@
 				"{@b Effects:} The afflicted suffers a \u22122 penalty to their Intelligence and Wisdom scores. Additionally, they are unable to maintain concentration on any spell or effect requiring concentration.",
 				"{@b Cure:} {@spell Lesser Restoration} or any healing spell of 3rd level or higher cast by a fey creature will cure {@i witch's delerium}."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Wobble Bowels",
@@ -1216,7 +1216,7 @@
 				"{@b Effects:} For the next {@dice 1d6} hours, the afflicted suffers disadvantage on all attack rolls. If an attack roll or Athletics or Acrobatic check is a critical miss during this time, they soil themselves. The stench causes disadvantage on all Charisma-based ability and skill checks until it is cleaned. After the symptoms resolve, the creature suffers 1 level of {@condition exhaustion}.",
 				"{@b Cure:} {@spell Lesser restoration} may cure this disease. The effects also wear off after {@dice 1d6} hours, as mentioned above. A Medicine check (DC 5) reveals that drinking a sufficient quantity of water prior to being cured or the effects resolving will prevent the exhaustion."
 			],
-			"source": "bag"
+			"source": "bad100"
 		},
 		{
 			"name": "Wraithskin",
@@ -1226,13 +1226,13 @@
 				"{@b Effects:} An afflicted creature suffers disadvantage on all saving throws against being {@condition frightened} as well as vulnerability to piercing damage.",
 				"{@b Cure:} {@spell Lesser restoration} or a cure of similar level. A Nature check (DC 10) will reveal that spending a short rest in a comfortable warm environment (such as near a campfire) will also cause symptoms to resolve."
 			],
-			"source": "bag"
+			"source": "bad100"
 		}
 	],
 	"table": [
 		{
 			"name": "d100 Diseases",
-			"source": "bag",
+			"source": "bad100",
 			"caption": "Diseases",
 			"colLabels": [
 				"{@dice d100}",
@@ -1245,409 +1245,409 @@
 			"rows": [
 				[
 					"1",
-					"{@disease Abyssal Warts|bag}"
+					"{@disease Abyssal Warts|bad100}"
 				],
 				[
 					"2",
-					"{@disease Acute Petrifying Syndrome|bag}"
+					"{@disease Acute Petrifying Syndrome|bad100}"
 				],
 				[
 					"3",
-					"{@disease Affliction of Crystalline Growth|bag}"
+					"{@disease Affliction of Crystalline Growth|bad100}"
 				],
 				[
 					"4",
-					"{@disease Aggressive Fatigue Disorder|bag}"
+					"{@disease Aggressive Fatigue Disorder|bad100}"
 				],
 				[
 					"5",
-					"{@disease Arcane Blisters|bag}"
+					"{@disease Arcane Blisters|bad100}"
 				],
 				[
 					"6",
-					"{@disease Arcane Disconnection|bag}"
+					"{@disease Arcane Disconnection|bad100}"
 				],
 				[
 					"7",
-					"{@disease Ash Cough|bag}"
+					"{@disease Ash Cough|bad100}"
 				],
 				[
 					"8",
-					"{@disease Astral Scarring|bag}"
+					"{@disease Astral Scarring|bad100}"
 				],
 				[
 					"9",
-					"{@disease Autumn Blight|bag}"
+					"{@disease Autumn Blight|bad100}"
 				],
 				[
 					"10",
-					"{@disease Avian Delusion|bag}"
+					"{@disease Avian Delusion|bad100}"
 				],
 				[
 					"11",
-					"{@disease Bloodrot|bag}"
+					"{@disease Bloodrot|bad100}"
 				],
 				[
 					"12",
-					"{@disease Boar Warts|bag}"
+					"{@disease Boar Warts|bad100}"
 				],
 				[
 					"13",
-					"{@disease Brainslumber|bag}"
+					"{@disease Brainslumber|bad100}"
 				],
 				[
 					"14",
-					"{@disease Brittle Bones|bag}"
+					"{@disease Brittle Bones|bad100}"
 				],
 				[
 					"15",
-					"{@disease Butterfly Fever|bag}"
+					"{@disease Butterfly Fever|bad100}"
 				],
 				[
 					"16",
-					"{@disease Buzzthroat|bag}"
+					"{@disease Buzzthroat|bad100}"
 				],
 				[
 					"17",
-					"{@disease Canyon Legs|bag}"
+					"{@disease Canyon Legs|bad100}"
 				],
 				[
 					"18",
-					"{@disease Capacity Reversal Disorder|bag}"
+					"{@disease Capacity Reversal Disorder|bad100}"
 				],
 				[
 					"19",
-					"{@disease Cave Nails|bag}"
+					"{@disease Cave Nails|bad100}"
 				],
 				[
 					"20",
-					"{@disease Cave Tremble|bag}"
+					"{@disease Cave Tremble|bad100}"
 				],
 				[
 					"21",
-					"{@disease Chromatic Allergy|bag}"
+					"{@disease Chromatic Allergy|bad100}"
 				],
 				[
 					"22",
-					"{@disease Confused Liver|bag}"
+					"{@disease Confused Liver|bad100}"
 				],
 				[
 					"23",
-					"{@disease Copper Stress|bag}"
+					"{@disease Copper Stress|bad100}"
 				],
 				[
 					"24",
-					"{@disease Cranial Corrosion|bag}"
+					"{@disease Cranial Corrosion|bad100}"
 				],
 				[
 					"25",
-					"{@disease Dark Itch|bag}"
+					"{@disease Dark Itch|bad100}"
 				],
 				[
 					"26",
-					"{@disease Decarian Flu|bag}"
+					"{@disease Decarian Flu|bad100}"
 				],
 				[
 					"27",
-					"{@disease Desert Pestilence|bag}"
+					"{@disease Desert Pestilence|bad100}"
 				],
 				[
 					"28",
-					"{@disease Desolation Panic|bag}"
+					"{@disease Desolation Panic|bad100}"
 				],
 				[
 					"29",
-					"{@disease Devil's Paranoia|bag}"
+					"{@disease Devil's Paranoia|bad100}"
 				],
 				[
 					"30",
-					"{@disease Dormant Vampirism|bag}"
+					"{@disease Dormant Vampirism|bad100}"
 				],
 				[
 					"31",
-					"{@disease Dragon's Pox|bag}"
+					"{@disease Dragon's Pox|bad100}"
 				],
 				[
 					"32",
-					"{@disease Dysvaric Inflammation|bag}"
+					"{@disease Dysvaric Inflammation|bad100}"
 				],
 				[
 					"33",
-					"{@disease Elemental Inversion|bag}"
+					"{@disease Elemental Inversion|bad100}"
 				],
 				[
 					"34",
-					"{@disease Emotional Blindness|bag}"
+					"{@disease Emotional Blindness|bad100}"
 				],
 				[
 					"35",
-					"{@disease Epidermal Petrification|bag}"
+					"{@disease Epidermal Petrification|bad100}"
 				],
 				[
 					"36",
-					"{@disease Ermalian flu|bag}"
+					"{@disease Ermalian flu|bad100}"
 				],
 				[
 					"37",
-					"{@disease Explosive Sneezing|bag}"
+					"{@disease Explosive Sneezing|bad100}"
 				],
 				[
 					"38",
-					"{@disease Fenrot|bag}"
+					"{@disease Fenrot|bad100}"
 				],
 				[
 					"39",
-					"{@disease Ficklefern Fever|bag}"
+					"{@disease Ficklefern Fever|bad100}"
 				],
 				[
 					"40",
-					"{@disease Flameblight|bag}"
+					"{@disease Flameblight|bad100}"
 				],
 				[
 					"41",
-					"{@disease Fluctuating Activity Disorder|bag}"
+					"{@disease Fluctuating Activity Disorder|bad100}"
 				],
 				[
 					"42",
-					"{@disease Four-Sense Disorder|bag}"
+					"{@disease Four-Sense Disorder|bad100}"
 				],
 				[
 					"43",
-					"{@disease Frost Rash|bag}"
+					"{@disease Frost Rash|bad100}"
 				],
 				[
 					"44",
-					"{@disease Frunkis|bag}"
+					"{@disease Frunkis|bad100}"
 				],
 				[
 					"45",
-					"{@disease Ghoulish Ocular Affliction|bag}"
+					"{@disease Ghoulish Ocular Affliction|bad100}"
 				],
 				[
 					"46",
-					"{@disease Goblin Fever|bag}"
+					"{@disease Goblin Fever|bad100}"
 				],
 				[
 					"47",
-					"{@disease Grexialis|bag}"
+					"{@disease Grexialis|bad100}"
 				],
 				[
 					"48",
-					"{@disease Heaven's Brand|bag}"
+					"{@disease Heaven's Brand|bad100}"
 				],
 				[
 					"49",
-					"{@disease Hell Collar|bag}"
+					"{@disease Hell Collar|bad100}"
 				],
 				[
 					"50",
-					"{@disease Hunter's Rabies|bag}"
+					"{@disease Hunter's Rabies|bad100}"
 				],
 				[
 					"51",
-					"{@disease Imp's Sting|bag}"
+					"{@disease Imp's Sting|bad100}"
 				],
 				[
 					"52",
-					"{@disease Ironfoot|bag}"
+					"{@disease Ironfoot|bad100}"
 				],
 				[
 					"53",
-					"{@disease Jungle Ulcers|bag}"
+					"{@disease Jungle Ulcers|bad100}"
 				],
 				[
 					"54",
-					"{@disease Kidney Shadow Sores|bag}"
+					"{@disease Kidney Shadow Sores|bad100}"
 				],
 				[
 					"55",
-					"{@disease King's Cramps|bag}"
+					"{@disease King's Cramps|bad100}"
 				],
 				[
 					"56",
-					"{@disease Kraken Lash Inflammation|bag}"
+					"{@disease Kraken Lash Inflammation|bad100}"
 				],
 				[
 					"57",
-					"{@disease Lateral Displacement|bag}"
+					"{@disease Lateral Displacement|bad100}"
 				],
 				[
 					"58",
-					"{@disease Limb Morphia|bag}"
+					"{@disease Limb Morphia|bad100}"
 				],
 				[
 					"59",
-					"{@disease Magister's Neck|bag}"
+					"{@disease Magister's Neck|bad100}"
 				],
 				[
 					"60",
-					"{@disease Marsh Hands|bag}"
+					"{@disease Marsh Hands|bad100}"
 				],
 				[
 					"61",
-					"{@disease Medusoid Migraine|bag}"
+					"{@disease Medusoid Migraine|bad100}"
 				],
 				[
 					"62",
-					"{@disease Moon Pox|bag}"
+					"{@disease Moon Pox|bad100}"
 				],
 				[
 					"63",
-					"{@disease Muscular Fluttering|bag}"
+					"{@disease Muscular Fluttering|bad100}"
 				],
 				[
 					"64",
-					"{@disease Night Eyes|bag}"
+					"{@disease Night Eyes|bad100}"
 				],
 				[
 					"65",
-					"{@disease Nightmask Plague|bag}"
+					"{@disease Nightmask Plague|bad100}"
 				],
 				[
 					"66",
-					"{@disease Ordriscius Intenis|bag}"
+					"{@disease Ordriscius Intenis|bad100}"
 				],
 				[
 					"67",
-					"{@disease Pale Breath|bag}"
+					"{@disease Pale Breath|bad100}"
 				],
 				[
 					"68",
-					"{@disease Parasitis Arcanium|bag}"
+					"{@disease Parasitis Arcanium|bad100}"
 				],
 				[
 					"69",
-					"{@disease Pig Twitch|bag}"
+					"{@disease Pig Twitch|bad100}"
 				],
 				[
 					"70",
-					"{@disease Pixiedust Acne|bag}"
+					"{@disease Pixiedust Acne|bad100}"
 				],
 				[
 					"71",
-					"{@disease Planeshifter's Infection|bag}"
+					"{@disease Planeshifter's Infection|bad100}"
 				],
 				[
 					"72",
-					"{@disease Purple Scurvy|bag}"
+					"{@disease Purple Scurvy|bad100}"
 				],
 				[
 					"73",
-					"{@disease Queen's Skin|bag}"
+					"{@disease Queen's Skin|bad100}"
 				],
 				[
 					"74",
-					"{@disease Red Rose Virus|bag}"
+					"{@disease Red Rose Virus|bad100}"
 				],
 				[
 					"75",
-					"{@disease Red Shock|bag}"
+					"{@disease Red Shock|bad100}"
 				],
 				[
 					"76",
-					"{@disease Regenerative Combustion Disorder|bag}"
+					"{@disease Regenerative Combustion Disorder|bad100}"
 				],
 				[
 					"77",
-					"{@disease Roseheart|bag}"
+					"{@disease Roseheart|bad100}"
 				],
 				[
 					"78",
-					"{@disease Sage's Fever|bag}"
+					"{@disease Sage's Fever|bad100}"
 				],
 				[
 					"79",
-					"{@disease Seasonal Ulcer|bag}"
+					"{@disease Seasonal Ulcer|bad100}"
 				],
 				[
 					"80",
-					"{@disease Sheepy Head|bag}"
+					"{@disease Sheepy Head|bad100}"
 				],
 				[
 					"81",
-					"{@disease Silver Stroke|bag}"
+					"{@disease Silver Stroke|bad100}"
 				],
 				[
 					"82",
-					"{@disease Smolder Crown|bag}"
+					"{@disease Smolder Crown|bad100}"
 				],
 				[
 					"83",
-					"{@disease Snow Allergy|bag}"
+					"{@disease Snow Allergy|bad100}"
 				],
 				[
 					"84",
-					"{@disease Solar Allergy|bag}"
+					"{@disease Solar Allergy|bad100}"
 				],
 				[
 					"85",
-					"{@disease Spider Mouth|bag}"
+					"{@disease Spider Mouth|bad100}"
 				],
 				[
 					"86",
-					"{@disease Spinal Dissolving|bag}"
+					"{@disease Spinal Dissolving|bad100}"
 				],
 				[
 					"87",
-					"{@disease Stone Lungs|bag}"
+					"{@disease Stone Lungs|bad100}"
 				],
 				[
 					"88",
-					"{@disease Summer Eyes|bag}"
+					"{@disease Summer Eyes|bad100}"
 				],
 				[
 					"89",
-					"{@disease Swamp Pneumonia|bag}"
+					"{@disease Swamp Pneumonia|bad100}"
 				],
 				[
 					"90",
-					"{@disease Swine Stomach|bag}"
+					"{@disease Swine Stomach|bad100}"
 				],
 				[
 					"91",
-					"{@disease The Niffs|bag}"
+					"{@disease The Niffs|bad100}"
 				],
 				[
 					"92",
-					"{@disease Thief's Bane|bag}"
+					"{@disease Thief's Bane|bad100}"
 				],
 				[
 					"93",
-					"{@disease Twelve-Day Decay|bag}"
+					"{@disease Twelve-Day Decay|bad100}"
 				],
 				[
 					"94",
-					"{@disease Unending Thirst|bag}"
+					"{@disease Unending Thirst|bad100}"
 				],
 				[
 					"95",
-					"{@disease Verdant Veins|bag}"
+					"{@disease Verdant Veins|bad100}"
 				],
 				[
 					"96",
-					"{@disease Vocal Fatigue|bag}"
+					"{@disease Vocal Fatigue|bad100}"
 				],
 				[
 					"97",
-					"{@disease Warped Tongue|bag}"
+					"{@disease Warped Tongue|bad100}"
 				],
 				[
 					"98",
-					"{@disease Witch's Delirium|bag}"
+					"{@disease Witch's Delirium|bad100}"
 				],
 				[
 					"99",
-					"{@disease Wobble Bowels|bag}"
+					"{@disease Wobble Bowels|bad100}"
 				],
 				[
 					"100",
-					"{@disease Wraithskin|bag}"
+					"{@disease Wraithskin|bad100}"
 				]
 			]
 		},
 		{
 			"name": "d100 Tavern Names",
-			"source": "bag",
+			"source": "bad100",
 			"caption": "Taverns",
 			"colLabels": [
 				"{@dice d100}",
@@ -2062,7 +2062,7 @@
 		},
 		{
 			"name": "d100 Character Secrets",
-			"source": "bag",
+			"source": "bad100",
 			"caption": "Character Secrets",
 			"colLabels": [
 				"{@dice d100}",
