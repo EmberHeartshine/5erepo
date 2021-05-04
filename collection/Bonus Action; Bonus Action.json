@@ -7,7 +7,86 @@
 				"full": "Bonus Action",
 				"color": "#005f69",
 				"authors": [
-					"Tim"
+					"Tim",
+					"Ember Heartshine"
+				],
+				"version": "1.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine"
+			},
+			{
+				"json": "RotR1",
+				"abbreviation": "RotR1",
+				"full": "Relics of the Realm Volume 1",
+				"color": "#005f69",
+				"authors": [
+					"Tim",
+					"Ember Heartshine"
+				],
+				"version": "1.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine"
+			},
+			{
+				"json": "RotR1",
+				"abbreviation": "RotR1",
+				"full": "Relics of the Realm Volume 2",
+				"color": "#005f69",
+				"authors": [
+					"Tim",
+					"Ember Heartshine"
+				],
+				"version": "1.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine"
+			},
+			{
+				"json": "RotR1",
+				"abbreviation": "RotR1",
+				"full": "Relics of the Realm Volume 3",
+				"color": "#005f69",
+				"authors": [
+					"Tim",
+					"Ember Heartshine"
+				],
+				"version": "1.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine"
+			},
+			{
+				"json": "RotR1",
+				"abbreviation": "RotR1",
+				"full": "Relics of the Realm Volume 4",
+				"color": "#005f69",
+				"authors": [
+					"Tim",
+					"Ember Heartshine"
+				],
+				"version": "1.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine"
+			},
+			{
+				"json": "RotR1",
+				"abbreviation": "RotR1",
+				"full": "Relics of the Realm Volume 5",
+				"color": "#005f69",
+				"authors": [
+					"Tim",
+					"Ember Heartshine"
+				],
+				"version": "1.0",
+				"url": "https://www.patreon.com/bonusaction",
+				"convertedBy": "Ember Heartshine"
+			},
+			{
+				"json": "RotR1",
+				"abbreviation": "RotR1",
+				"full": "Relics of the Realm Volume 6",
+				"color": "#005f69",
+				"authors": [
+					"Tim",
+					"Ember Heartshine"
 				],
 				"version": "1.0",
 				"url": "https://www.patreon.com/bonusaction",
@@ -1228,7 +1307,7 @@
 			"source": "ba"
 		}
 	],
-		"item": [
+			"item": [
 		{
 			"name": "Aerkian Salt Solution",
 			"source": "ba",
@@ -1240,7 +1319,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Ocean Poison.} One hour after a creature is subjected to Aerkian Salt Solution they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 3d8} psychic damage and are {@condition paralyzed} for {@dice 1d4} hours. On a succesful save they take half damage and are {@condition stunned} until the end of their next turn."
+				{
+					"type": "entries",
+					"name": "Ocean Poison",
+					"entries": [
+						"One hour after a creature is subjected to Aerkian Salt Solution they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 3d8} psychic damage and are {@condition paralyzed} for {@dice 1d4} hours. On a succesful save they take half damage and are {@condition stunned} until the end of their next turn."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1248,7 +1333,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Aerkian-Salt-Solution.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Aerkian-Salt-Solution.png"
 						}
 					}
 				]
@@ -1268,7 +1353,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Cloud Nine Toxin.} When a creature is subjected to Angel's Blade they must make a Constitution saving throw ({@dc 15}). On a failed save they fall asleep and become {@condition unconscious} for 1 hour or until someone uses an action to shake or slap the sleeper awake. If the creature remains sleeping for the full hour they take {@damage 5d10} radiant damage before waking."
+				{
+					"type": "entries",
+					"name": "Cloud Nine Toxin",
+					"entries": [
+						"When a creature is subjected to Angel's Blade they must make a Constitution saving throw ({@dc 15}). On a failed save they fall asleep and become {@condition unconscious} for 1 hour or until someone uses an action to shake or slap the sleeper awake. If the creature remains sleeping for the full hour they take {@damage 5d10} radiant damage before waking."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1276,7 +1367,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Angels-Blade.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Angels-Blade.png"
 						}
 					}
 				]
@@ -1296,7 +1387,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Basic Concoction.} When a creature is subjected to Ardhanine they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 1d8} poison damage and are {@condition poisoned} until the end of their next turn."
+				{
+					"type": "entries",
+					"name": "Basic Concoction",
+					"entries": [
+						"When a creature is subjected to Ardhanine they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 1d8} poison damage and are {@condition poisoned} until the end of their next turn."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1304,7 +1401,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Ardhanine.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Ardhanine.png"
 						}
 					}
 				]
@@ -1324,7 +1421,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Invisible Killer.} When a creature is subjected to Assassin's Miasma they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 2d6} poison damage at the end of their turn for the next 1 minute, repeating the saving throw at the start of each of their turns. Each time a creature succeeds on the save they take no damage from Assassin's Miasma that turn."
+				{
+					"type": "entries",
+					"name": "Invisible Killer",
+					"entries": [
+						"When a creature is subjected to Assassin's Miasma they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 2d6} poison damage at the end of their turn for the next 1 minute, repeating the saving throw at the start of each of their turns. Each time a creature succeeds on the save they take no damage from Assassin's Miasma that turn."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1332,7 +1435,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Assassins-Miasma.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Assassins-Miasma.png"
 						}
 					}
 				]
@@ -1352,7 +1455,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Tonguetwister.} When a creature is subjected to Bard's Bane they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 4d4} poison damage and are {@condition deafened} for 1 hour. All spell attack rolls the creature makes during that time which require a verbal component are made with disadvantage."
+				{
+					"type": "entries",
+					"name": "Tonguetwister",
+					"entries": [
+						"When a creature is subjected to Bard's Bane they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 4d4} poison damage and are {@condition deafened} for 1 hour. All spell attack rolls the creature makes during that time which require a verbal component are made with disadvantage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1360,7 +1469,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Bards-Bane.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Bards-Bane.png"
 						}
 					}
 				]
@@ -1380,7 +1489,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Cold Blooded.} When a creature is subjected to Bastard's Remorse they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d4} cold damage and {@damage 1d4} poison damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Cold Blooded",
+					"entries": [
+						"When a creature is subjected to Bastard's Remorse they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d4} cold damage and {@damage 1d4} poison damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1388,7 +1503,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Bastards-Remorse.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Bastards-Remorse.png"
 						}
 					}
 				]
@@ -1408,7 +1523,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Roadside Tincture.} When a creature is subjected to Beggarweed Poison they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 2d4} poison damage and {@damage 1d4} necrotic damage. After the creature takes this damage, they are knocked {@condition prone}. Whenever a creature tries to stand or walk within the next hour they must make a Strength saving throw ({@dc 10}). If they fail this save, they are knocked prone again."
+				{
+					"type": "entries",
+					"name": "Roadside Tincture",
+					"entries": [
+						"When a creature is subjected to Beggarweed Poison they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 2d4} poison damage and {@damage 1d4} necrotic damage. After the creature takes this damage, they are knocked {@condition prone}. Whenever a creature tries to stand or walk within the next hour they must make a Strength saving throw ({@dc 10}). If they fail this save, they are knocked prone again."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1416,7 +1537,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Beggarweed-Poison.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Beggarweed-Poison.png"
 						}
 					}
 				]
@@ -1436,7 +1557,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Slow Descent into Madness.} When a creature is subjected to Biolzepathine they must make a Wisdom saving throw ({@dc 15}) at the end of their next long rest. On a failed save the creature takes {@damage 1d6} psychic damage and the poison takes hold. An affected creature must repeat this saving throw after every subsequent long rest, increasing the damage by {@damage 1d6} each time a save is failed. A successful save ends this effect."
+				{
+					"type": "entries",
+					"name": "Slow Descent into Madness",
+					"entries": [
+						"When a creature is subjected to Biolzepathine they must make a Wisdom saving throw ({@dc 15}) at the end of their next long rest. On a failed save the creature takes {@damage 1d6} psychic damage and the poison takes hold. An affected creature must repeat this saving throw after every subsequent long rest, increasing the damage by {@damage 1d6} each time a save is failed. A successful save ends this effect."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1444,7 +1571,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Biolzepathine.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Biolzepathine.png"
 						}
 					}
 				]
@@ -1464,7 +1591,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Flower Scented Death.} When a creature is subjected to Black Lilac they must make a Constitution saving throw ({@dc 18}). On a failed save they take {@damage 4d8} poison damage. The next time the creature drops to 0 hit points, they immediately fail one death saving throw and have disadvantage on the next death save they roll. On a successful Constitution save they take half damage and do not suffer any other effect."
+				{
+					"type": "entries",
+					"name": "Flower Scented Death",
+					"entries": [
+						"When a creature is subjected to Black Lilac they must make a Constitution saving throw ({@dc 18}). On a failed save they take {@damage 4d8} poison damage. The next time the creature drops to 0 hit points, they immediately fail one death saving throw and have disadvantage on the next death save they roll. On a successful Constitution save they take half damage and do not suffer any other effect."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1472,7 +1605,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Black-Lilac.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Black-Lilac.png"
 						}
 					}
 				]
@@ -1492,7 +1625,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Rotting Poison.} When a creature is subjected to Blightbringer they must make a Constitution saving throw ({@dc 16}). On a failed save they are {@condition poisoned} for 1 minute and take {@damage 2d6} necrotic damage at the end of each of their turns as long as they are poisoned by Blightbringer."
+				{
+					"type": "entries",
+					"name": "Rotting Poison",
+					"entries": [
+						"When a creature is subjected to Blightbringer they must make a Constitution saving throw ({@dc 16}). On a failed save they are {@condition poisoned} for 1 minute and take {@damage 2d6} necrotic damage at the end of each of their turns as long as they are poisoned by Blightbringer."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1500,7 +1639,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Blightbringer.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Blightbringer.png"
 						}
 					}
 				]
@@ -1520,7 +1659,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Abyssal Dread.} When a creature is subjected to Blood of the Demon they must make a Wisdom saving throw ({@dc 13}). On a failed save they take {@damage 2d12} psychic damage and become {@condition frightened} of the first creature they see until the end of their next turn, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Abyssal Dread",
+					"entries": [
+						"When a creature is subjected to Blood of the Demon they must make a Wisdom saving throw ({@dc 13}). On a failed save they take {@damage 2d12} psychic damage and become {@condition frightened} of the first creature they see until the end of their next turn, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1528,7 +1673,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Blood-of-the-Demon.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Blood-of-the-Demon.png"
 						}
 					}
 				]
@@ -1548,8 +1693,14 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Salt Filled Lungs.} When a creature is subjected to Breath of the Deep they must make a Constitution saving throw ({@dc 13}). On a failed save the creature takes {@damage 1d6} poison damage and begins {@book suffocating|PHB|8|suffocating} as their lungs begin to fill with seawater. The creature can repeat this saving throw at the start of its turn to cough up the water and regain the ability to breathe.",
-				"A creature's hit points are reduced to 0 after they fail this saving throw 5 times in a row. A creature reduced to 0 hit points affected by Breath of the Deep automatically fails death saving throws until they die or are cured."
+				{
+					"type": "entries",
+					"name": "Salt Filled Lungs",
+					"entries": [
+						"When a creature is subjected to Breath of the Deep they must make a Constitution saving throw ({@dc 13}). On a failed save the creature takes {@damage 1d6} poison damage and begins {@book suffocating|PHB|8|suffocating} as their lungs begin to fill with seawater. The creature can repeat this saving throw at the start of its turn to cough up the water and regain the ability to breathe.",
+						"A creature's hit points are reduced to 0 after they fail this saving throw 5 times in a row. A creature reduced to 0 hit points affected by Breath of the Deep automatically fails death saving throws until they die or are cured."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1557,7 +1708,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Breath-of-the-Deep.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Breath-of-the-Deep.png"
 						}
 					}
 				]
@@ -1577,7 +1728,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Purple Skies.} When a creature is subjected to Breeze of Twilight they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 1d8} necrotic and {@damage 1d8} radiant damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Purple Skies",
+					"entries": [
+						"When a creature is subjected to Breeze of Twilight they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 1d8} necrotic and {@damage 1d8} radiant damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1585,7 +1742,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Breeze-of-Twilight.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Breeze-of-Twilight.png"
 						}
 					}
 				]
@@ -1605,7 +1762,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Deadly Romance.} When a creature is subjected to Brightpetal Rose Extract they must make a Wisdom saving throw ({@dc 13}). On a failed save they are {@condition poisoned}; whilst poisoned in this way the creature suffers a \u22125 penalty to their Wisdom and Intelligence for the next hour (to a minimum of 1)."
+				{
+					"type": "entries",
+					"name": "Deadly Romance",
+					"entries": [
+						"When a creature is subjected to Brightpetal Rose Extract they must make a Wisdom saving throw ({@dc 13}). On a failed save they are {@condition poisoned}; whilst poisoned in this way the creature suffers a \u22125 penalty to their Wisdom and Intelligence for the next hour (to a minimum of 1)."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1613,7 +1776,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Brightpetal-Rose-Extract.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Brightpetal-Rose-Extract.png"
 						}
 					}
 				]
@@ -1633,7 +1796,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Chemical Exhaustion.} When a creature is subjected to Bruldoryl they must make a Constitution saving throw ({@dc 13}). On a failed save they instantly gain 1 point of {@condition exhaustion}."
+				{
+					"type": "entries",
+					"name": "Chemical Exhaustion",
+					"entries": [
+						"When a creature is subjected to Bruldoryl they must make a Constitution saving throw ({@dc 13}). On a failed save they instantly gain 1 point of {@condition exhaustion}."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1641,7 +1810,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Bruldoryl.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Bruldoryl.png"
 						}
 					}
 				]
@@ -1661,7 +1830,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Wildfire Burns.} When a creature is subjected to Burnout Compound they must make a Constitution saving throw ({@dc 10}), taking {@damage 3d4} fire damage on a failed save or half damage on a success."
+				{
+					"type": "entries",
+					"name": "Wildfire Burns",
+					"entries": [
+						"When a creature is subjected to Burnout Compound they must make a Constitution saving throw ({@dc 10}), taking {@damage 3d4} fire damage on a failed save or half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1669,7 +1844,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Burnout-Compound.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Burnout-Compound.png"
 						}
 					}
 				]
@@ -1689,7 +1864,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Look into the Void.} When a creature is subjected to Caress of the Oblivion they must make a Constitution saving throw ({@dc 20}). On a failed save they take {@damage 4d4} psychic damage and are {@condition paralyzed} until the end of their next turn."
+				{
+					"type": "entries",
+					"name": "Look into the Void",
+					"entries": [
+						"When a creature is subjected to Caress of the Oblivion they must make a Constitution saving throw ({@dc 20}). On a failed save they take {@damage 4d4} psychic damage and are {@condition paralyzed} until the end of their next turn."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1697,7 +1878,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Caress-of-the-Oblivion.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Caress-of-the-Oblivion.png"
 						}
 					}
 				]
@@ -1717,7 +1898,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Grabbed by the Throat.} 8 hours after a creature is subjected to Chokehold they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 3d6} poison damage and are {@condition poisoned} for the next 24 hours."
+				{
+					"type": "entries",
+					"name": "Grabbed by the Throat",
+					"entries": [
+						"8 hours after a creature is subjected to Chokehold they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 3d6} poison damage and are {@condition poisoned} for the next 24 hours."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1725,7 +1912,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Chokehold.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Chokehold.png"
 						}
 					}
 				]
@@ -1745,7 +1932,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Flower of Flames.} When a creature is subjected to Cinderthorn they must make a Constitution saving throw ({@dc 17}). On a failed save they take {@damage 1d4 + 2} fire damage for {@dice 1d6} turns at the start of each of their turns."
+				{
+					"type": "entries",
+					"name": "Flower of Flames",
+					"entries": [
+						"When a creature is subjected to Cinderthorn they must make a Constitution saving throw ({@dc 17}). On a failed save they take {@damage 1d4 + 2} fire damage for {@dice 1d6} turns at the start of each of their turns."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1753,7 +1946,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Cinderthorn.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Cinderthorn.png"
 						}
 					}
 				]
@@ -1773,7 +1966,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Blackened Wounds.} When a creature is subjected to Coalscar Poison they must make a Consitution saving throw ({@dc 12}). On a failed save they take {@damage 3d6} necrotic damage and their maximum health is permanently reduced by the amount of necrotic damage taken."
+				{
+					"type": "entries",
+					"name": "Blackened Wounds",
+					"entries": [
+						"When a creature is subjected to Coalscar Poison they must make a Consitution saving throw ({@dc 12}). On a failed save they take {@damage 3d6} necrotic damage and their maximum health is permanently reduced by the amount of necrotic damage taken."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1781,7 +1980,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Coalscar-Poison.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Coalscar-Poison.png"
 						}
 					}
 				]
@@ -1801,7 +2000,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Exterminator's Tool.} 1 minute after a creature is subjected to Common Rat Poison they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 2d6} poison damage and are {@condition poisoned} for 24 hours, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Exterminator's Tool",
+					"entries": [
+						"1 minute after a creature is subjected to Common Rat Poison they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 2d6} poison damage and are {@condition poisoned} for 24 hours, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1809,7 +2014,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Common-Rat-Poison.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Common-Rat-Poison.png"
 						}
 					}
 				]
@@ -1829,7 +2034,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Blessed Element.} When a creature is subjected to Concentrated Evarium they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 4d6} radiant damage and have disadvantage on Constitution saving throws for the next hour. On a successful save they take half damage and do not have disadvantage."
+				{
+					"type": "entries",
+					"name": "Blessed Element",
+					"entries": [
+						"When a creature is subjected to Concentrated Evarium they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 4d6} radiant damage and have disadvantage on Constitution saving throws for the next hour. On a successful save they take half damage and do not have disadvantage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1837,7 +2048,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Concentrated-Evarium.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Concentrated-Evarium.png"
 						}
 					}
 				]
@@ -1857,7 +2068,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Boiled Down Ooze.} When a creature is subjected to Concentrated Ochre Jelly they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 2d6} acid damage and have disadvantage on their next attack roll within the next minute. On a successful save, they take half damage and do not have disadvantage."
+				{
+					"type": "entries",
+					"name": "Boiled Down Ooze",
+					"entries": [
+						"When a creature is subjected to Concentrated Ochre Jelly they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 2d6} acid damage and have disadvantage on their next attack roll within the next minute. On a successful save, they take half damage and do not have disadvantage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1865,7 +2082,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Concentrated-Ochre-Jelly.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Concentrated-Ochre-Jelly.png"
 						}
 					}
 				]
@@ -1885,7 +2102,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Gravedigger's Blight.} When a creature is subjected to Corpsedew they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d10} necrotic damage and are {@condition poisoned} for the next hour, taking only half damage on a success. The creature cannot be affected by Corpsedew again for the next 24 hours."
+				{
+					"type": "entries",
+					"name": "Gravedigger's Blight",
+					"entries": [
+						"When a creature is subjected to Corpsedew they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d10} necrotic damage and are {@condition poisoned} for the next hour, taking only half damage on a success. The creature cannot be affected by Corpsedew again for the next 24 hours."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1893,7 +2116,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Corpsedew.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Corpsedew.png"
 						}
 					}
 				]
@@ -1913,7 +2136,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Werebeast's Demise.} When a creature is subjected to Crescent Moon Extract they must make a Constitution saving throw ({@dc 14}). On a failed they take {@damage 4d6} poison damage, taking only half damage on a success. A lycanthrope makes this saving throw with disadvantage, taking 24 points of poison damage on a failure and {@damage 4d6} poison damage (minimum of 12) on a success."
+				{
+					"type": "entries",
+					"name": "Werebeast's Demise",
+					"entries": [
+						"When a creature is subjected to Crescent Moon Extract they must make a Constitution saving throw ({@dc 14}). On a failed they take {@damage 4d6} poison damage, taking only half damage on a success. A lycanthrope makes this saving throw with disadvantage, taking 24 points of poison damage on a failure and {@damage 4d6} poison damage (minimum of 12) on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1921,7 +2150,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Crescent-Moon-Extract.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Crescent-Moon-Extract.png"
 						}
 					}
 				]
@@ -1941,7 +2170,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Bloody Smile.} When a creature is subjected to Crimson Smirk they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d6} poison damage and they are forced to smile for the next 24 hours. If the creature tries to speak during this time, their mouth begins to bleed and they take {@damage 1d6} necrotic damage. Spells with verbal components have a {@chance 10} chance to fail."
+				{
+					"type": "entries",
+					"name": "Bloody Smile",
+					"entries": [
+						"When a creature is subjected to Crimson Smirk they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d6} poison damage and they are forced to smile for the next 24 hours. If the creature tries to speak during this time, their mouth begins to bleed and they take {@damage 1d6} necrotic damage. Spells with verbal components have a {@chance 10} chance to fail."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1949,7 +2184,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Crimson-Smirk.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Crimson-Smirk.png"
 						}
 					}
 				]
@@ -1969,7 +2204,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Last Performance.} 1 minute after a creature has been subjected to Curtain Call they must make a Constitution saving throw ({@dc 15}). On a failed save they are {@condition blinded}, {@condition deafened} and cannot speak for the next hour."
+				{
+					"type": "entries",
+					"name": "Last Performance",
+					"entries": [
+						"1 minute after a creature has been subjected to Curtain Call they must make a Constitution saving throw ({@dc 15}). On a failed save they are {@condition blinded}, {@condition deafened} and cannot speak for the next hour."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -1977,7 +2218,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Curtain-Call.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Curtain-Call.png"
 						}
 					}
 				]
@@ -1997,7 +2238,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Grasp of the Afterlife.} When a creature is subjected to Death's Touch they must make a Constitution saving throw ({@dc 15}). The DC of this saving throw is increased by 2 if the creature has been reduced to 0 hit points anytime in the last 24 hours. The creature takes {@damage 5d6} necrotic damage on a failed save or half as much on a successful save. A creature that fails the saving throw becomes {@condition paralyzed} for 1 minute. Whilst {@condition paralyzed} by Death's Touch they take {@damage 1d6} necrotic damage at the start of each of their turns. The creature can repeat the saving throw at the end of each of its turns to end the paralysis."
+				{
+					"type": "entries",
+					"name": "Grasp of the Afterlife",
+					"entries": [
+						"When a creature is subjected to Death's Touch they must make a Constitution saving throw ({@dc 15}). The DC of this saving throw is increased by 2 if the creature has been reduced to 0 hit points anytime in the last 24 hours. The creature takes {@damage 5d6} necrotic damage on a failed save or half as much on a successful save. A creature that fails the saving throw becomes {@condition paralyzed} for 1 minute. Whilst {@condition paralyzed} by Death's Touch they take {@damage 1d6} necrotic damage at the start of each of their turns. The creature can repeat the saving throw at the end of each of its turns to end the paralysis."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2005,7 +2252,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Deaths-Touch.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Deaths-Touch.png"
 						}
 					}
 				]
@@ -2025,7 +2272,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Poisoned Organs.} When a creature is subjected to Decimation they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 3d4} poison damage and are {@condition poisoned} for the next hour. Their Constitution score is reduced by 2 and their maximum hit points are reduced by 10 for 24 hours. On a success, they take half damage."
+				{
+					"type": "entries",
+					"name": "Poisoned Organs",
+					"entries": [
+						"When a creature is subjected to Decimation they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 3d4} poison damage and are {@condition poisoned} for the next hour. Their Constitution score is reduced by 2 and their maximum hit points are reduced by 10 for 24 hours. On a success, they take half damage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2033,7 +2286,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Decimation.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Decimation.png"
 						}
 					}
 				]
@@ -2053,7 +2306,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Toxic Charmer.} When a creature is subjected to Desire they must make a Wisdom saving throw ({@dc 15}). A creature that is {@condition charmed} in any way has disadvantage on this saving throw. On a failed save they have disadvantage on all Insight checks for the next 12 hours. After the 12 hours have passed they take {@damage 3d4} psychic damage."
+				{
+					"type": "entries",
+					"name": "Toxic Charmer",
+					"entries": [
+						"When a creature is subjected to Desire they must make a Wisdom saving throw ({@dc 15}). A creature that is {@condition charmed} in any way has disadvantage on this saving throw. On a failed save they have disadvantage on all Insight checks for the next 12 hours. After the 12 hours have passed they take {@damage 3d4} psychic damage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2061,7 +2320,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Desire.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Desire.png"
 						}
 					}
 				]
@@ -2081,7 +2340,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Bottled Phobia.} When a creature is subjected to Despair they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 3d8} psychic damage, taking only half damage on a success. When a creature fails their saving throw they become {@condition frightened} of the weapon or object that administered the poison to them. A creature can make a Wisdom saving throw ({@dc 16}) at the end of each of its turns to end this effect."
+				{
+					"type": "entries",
+					"name": "Bottled Phobia",
+					"entries": [
+						"When a creature is subjected to Despair they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 3d8} psychic damage, taking only half damage on a success. When a creature fails their saving throw they become {@condition frightened} of the weapon or object that administered the poison to them. A creature can make a Wisdom saving throw ({@dc 16}) at the end of each of its turns to end this effect."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2089,7 +2354,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Despair.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Despair.png"
 						}
 					}
 				]
@@ -2109,7 +2374,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Fiendish Whisper.} When a creature is subjected to Devil's Tongue they must make a Constitution saving throw ({@dc 17}) On a failed save they take {@damage 2d8} fire damage and {@damage 2d8} poison damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Fiendish Whisper",
+					"entries": [
+						"When a creature is subjected to Devil's Tongue they must make a Constitution saving throw ({@dc 17}) On a failed save they take {@damage 2d8} fire damage and {@damage 2d8} poison damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2117,7 +2388,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Devils-Tongue.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Devils-Tongue.png"
 						}
 					}
 				]
@@ -2137,7 +2408,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Sweet Dreams.} When a creature is subjected to Dream Vapors they must make a Constitution saving throw (DC 14). The DC of this saving throw increases by 2 for each point of {@condition exhaustion} the creature has. On a failed save the creature falls asleep. The creature is {@condition unconscious} for 8 hours, until the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. When they wake they take {@damage 1d6} psychic damage and receive 1 point of {@condition exhaustion}. On a successful save they cannot be affected by Dream Vapors again for the next minute."
+				{
+					"type": "entries",
+					"name": "Sweet Dreams",
+					"entries": [
+						"When a creature is subjected to Dream Vapors they must make a Constitution saving throw (DC 14). The DC of this saving throw increases by 2 for each point of {@condition exhaustion} the creature has. On a failed save the creature falls asleep. The creature is {@condition unconscious} for 8 hours, until the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. When they wake they take {@damage 1d6} psychic damage and receive 1 point of {@condition exhaustion}. On a successful save they cannot be affected by Dream Vapors again for the next minute."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2145,7 +2422,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Dream-Vapors.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Dream-Vapors.png"
 						}
 					}
 				]
@@ -2165,7 +2442,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b acidic Air.} When a creature is subjected to Dromnovyl they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 1d4} acid damage and {@damage 1d4} poison damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "acidic Air",
+					"entries": [
+						"When a creature is subjected to Dromnovyl they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 1d4} acid damage and {@damage 1d4} poison damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2173,7 +2456,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Dromnovyl.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Dromnovyl.png"
 						}
 					}
 				]
@@ -2193,7 +2476,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Bloodshot.} When a creature is subjected to Eau d'Alice they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 2d4} poison damage and {@damage 1d6} necrotic damage and are {@condition stunned} until the end of their next turn, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Bloodshot",
+					"entries": [
+						"When a creature is subjected to Eau d'Alice they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 2d4} poison damage and {@damage 1d6} necrotic damage and are {@condition stunned} until the end of their next turn, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2201,7 +2490,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Eau-dAlice.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Eau-dAlice.png"
 						}
 					}
 				]
@@ -2221,7 +2510,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Poison of Darkness.} When a creature is subjected to Eclipse they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 3d4 + 3} necrotic damage and are {@condition blinded} until the end of their next turn, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Poison of Darkness",
+					"entries": [
+						"When a creature is subjected to Eclipse they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 3d4 + 3} necrotic damage and are {@condition blinded} until the end of their next turn, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2229,7 +2524,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Eclipse.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Eclipse.png"
 						}
 					}
 				]
@@ -2249,7 +2544,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Cruel Lover.} When a creature is subjected to Embrace of the Beloved they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 1d10} radiant damage. For the next minute, if the creature is Grappled they take {@damage 1d10} radiant damage at the start of the grapple and at the start of each of their turns."
+				{
+					"type": "entries",
+					"name": "Cruel Lover",
+					"entries": [
+						"When a creature is subjected to Embrace of the Beloved they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 1d10} radiant damage. For the next minute, if the creature is Grappled they take {@damage 1d10} radiant damage at the start of the grapple and at the start of each of their turns."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2257,7 +2558,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Embrace-of-the-Beloved.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Embrace-of-the-Beloved.png"
 						}
 					}
 				]
@@ -2277,7 +2578,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Glittering Miasma.} When a creature is subjected to Emerald Smog they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 2d12} radiant damage and are unable to cast any spells until the end of their next turn, taking only half damage on a success. If the creature is concentrating on a spell or other effect requiring concentration, this saving throw is made at disadvantage."
+				{
+					"type": "entries",
+					"name": "Glittering Miasma",
+					"entries": [
+						"When a creature is subjected to Emerald Smog they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 2d12} radiant damage and are unable to cast any spells until the end of their next turn, taking only half damage on a success. If the creature is concentrating on a spell or other effect requiring concentration, this saving throw is made at disadvantage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2285,7 +2592,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Emerald-Smog.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Emerald-Smog.png"
 						}
 					}
 				]
@@ -2305,7 +2612,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Mind Number.} When a creature is subjected to Envoy's Perfume they must make a Constitution saving throw ({@dc 16}). On a failed save they have disadvantage on Wisdom and Intelligence saving throws as well as all Wisdom- and Intelligence-based skill checks for 24 hours."
+				{
+					"type": "entries",
+					"name": "Mind Number",
+					"entries": [
+						"When a creature is subjected to Envoy's Perfume they must make a Constitution saving throw ({@dc 16}). On a failed save they have disadvantage on Wisdom and Intelligence saving throws as well as all Wisdom- and Intelligence-based skill checks for 24 hours."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2313,7 +2626,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Envoys-Perfume.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Envoys-Perfume.png"
 						}
 					}
 				]
@@ -2333,7 +2646,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Toxic Root.} Erhadian Toxin is harvested from the root of the Erhadia plant. When a creature is subjected to Erhadian Toxin they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 2d4 + 1} poison damage and are {@condition poisoned} for 1 minute."
+				{
+					"type": "entries",
+					"name": "Toxic Root",
+					"entries": [
+						"Erhadian Toxin is harvested from the root of the Erhadia plant. When a creature is subjected to Erhadian Toxin they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 2d4 + 1} poison damage and are {@condition poisoned} for 1 minute."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2341,7 +2660,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Erhadian-Toxin.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Erhadian-Toxin.png"
 						}
 					}
 				]
@@ -2361,8 +2680,14 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Otherworldly Justice.} When a creature is subjected to Essence of the Fey Court, they must make a Constitution saving throw ({@dc 12}), taking {@damage 2d6} poison damage on a failure.",
-				"Regardless of the save, whenever the creature speaks a deliberate lie within the next 10 minutes they take {@damage 3d6} poison damage. An affected creature is aware of the poison and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth."
+				{
+					"type": "entries",
+					"name": "Otherworldly Justice",
+					"entries": [
+						"When a creature is subjected to Essence of the Fey Court, they must make a Constitution saving throw ({@dc 12}), taking {@damage 2d6} poison damage on a failure.",
+						"Regardless of the save, whenever the creature speaks a deliberate lie within the next 10 minutes they take {@damage 3d6} poison damage. An affected creature is aware of the poison and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2370,7 +2695,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Essence-of-the-Fey-Court.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Essence-of-the-Fey-Court.png"
 						}
 					}
 				]
@@ -2390,7 +2715,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Verdant Fire.} When a creature is subjected to Felfire Claw they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 1d6} poison damage, {@damage 1d6} fire damage and {@damage 1d6} necrotic damage and have disadvantage on Dexterity saving throws for the next minute, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Verdant Fire",
+					"entries": [
+						"When a creature is subjected to Felfire Claw they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 1d6} poison damage, {@damage 1d6} fire damage and {@damage 1d6} necrotic damage and have disadvantage on Dexterity saving throws for the next minute, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2398,7 +2729,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Felfire-Claw.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Felfire-Claw.png"
 						}
 					}
 				]
@@ -2418,7 +2749,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Rogue's Bane, Hunter's Friend.} When a creature is subjected to Firestalk Extract they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 3d8} fire damage and have disadvantage on Stealth checks for the next 10 minutes, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Rogue's Bane, Hunter's Friend",
+					"entries": [
+						"When a creature is subjected to Firestalk Extract they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 3d8} fire damage and have disadvantage on Stealth checks for the next 10 minutes, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2426,7 +2763,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Firestalk-Extract.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Firestalk-Extract.png"
 						}
 					}
 				]
@@ -2446,7 +2783,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Howl of the Hound.} When a creature is subjected to Gatekeeper's Hound they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d8} poison damage and are {@condition deafened} for 1 minute, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Howl of the Hound",
+					"entries": [
+						"When a creature is subjected to Gatekeeper's Hound they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d8} poison damage and are {@condition deafened} for 1 minute, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2454,7 +2797,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Gatekeepers-Hound.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Gatekeepers-Hound.png"
 						}
 					}
 				]
@@ -2474,7 +2817,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Bite of the Centipede.} This poison is harvested from a dead or {@condition incapacitated} {@creature giant centipede}. When a creature is subjected to Giant Centipede's Blood they must make a Constitution saving throw ({@dc 11}). On a failed save they take {@damage 3d6} poison damage. If the Poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points. Whilst {@condition poisoned} in this way they are also {@condition paralyzed}"
+				{
+					"type": "entries",
+					"name": "Bite of the Centipede",
+					"entries": [
+						"This poison is harvested from a dead or {@condition incapacitated} {@creature giant centipede}. When a creature is subjected to Giant Centipede's Blood they must make a Constitution saving throw ({@dc 11}). On a failed save they take {@damage 3d6} poison damage. If the Poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points. Whilst {@condition poisoned} in this way they are also {@condition paralyzed}"
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2482,7 +2831,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Giant-Centipedes-Blood.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Giant-Centipedes-Blood.png"
 						}
 					}
 				]
@@ -2502,7 +2851,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Sting of the Scorpion.} This poison is harvested from a dead or {@condition incapacitated} {@creature giant scorpion}. When a creature is subjected to Giant Scorpion Venom they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 4d10} poison damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Sting of the Scorpion",
+					"entries": [
+						"This poison is harvested from a dead or {@condition incapacitated} {@creature giant scorpion}. When a creature is subjected to Giant Scorpion Venom they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 4d10} poison damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2510,7 +2865,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Giant-Scorpion-Venom.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Giant-Scorpion-Venom.png"
 						}
 					}
 				]
@@ -2530,7 +2885,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Slow Killer.} 24 hours after a creature has been subjected to Gloomcrystal Tincture they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 3d4} poison damage and their Wisdom score is reduced by 2 (to a minimum of 5). Every 24 hours the creature must repeat the saving throw, suffering the effects again on a failure. Each time a creature fails on this saving throw, the DC increases by 1. When a creature succeeds on their saving throw or is cured, any penalties to their Wisdom score caused by this poison are removed."
+				{
+					"type": "entries",
+					"name": "Slow Killer",
+					"entries": [
+						"24 hours after a creature has been subjected to Gloomcrystal Tincture they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 3d4} poison damage and their Wisdom score is reduced by 2 (to a minimum of 5). Every 24 hours the creature must repeat the saving throw, suffering the effects again on a failure. Each time a creature fails on this saving throw, the DC increases by 1. When a creature succeeds on their saving throw or is cured, any penalties to their Wisdom score caused by this poison are removed."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2538,7 +2899,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Gloomcrystal-Tincture.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Gloomcrystal-Tincture.png"
 						}
 					}
 				]
@@ -2558,7 +2919,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Deadly Flowers.} When a creature is subjected to Graveblossom Extract they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d6} poison damage and {@damage 2d6} necrotic damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Deadly Flowers",
+					"entries": [
+						"When a creature is subjected to Graveblossom Extract they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d6} poison damage and {@damage 2d6} necrotic damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2566,7 +2933,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Graveblossom-Extract.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Graveblossom-Extract.png"
 						}
 					}
 				]
@@ -2586,7 +2953,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Dragon's Wrath.} This poison must be harvested from a dead or {@condition incapacitated} {@creature adult green dragon||adult} or {@creature ancient green dragon} and then distilled into a poison. When a creature is subjected to Green Dragon's Breath they must make a Constitution saving throw ({@dc 18}). On a failed save they take {@damage 16d6} poison damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Dragon's Wrath",
+					"entries": [
+						"This poison must be harvested from a dead or {@condition incapacitated} {@creature adult green dragon||adult} or {@creature ancient green dragon} and then distilled into a poison. When a creature is subjected to Green Dragon's Breath they must make a Constitution saving throw ({@dc 18}). On a failed save they take {@damage 16d6} poison damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2594,7 +2967,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Green-Dragons-Breath.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Green-Dragons-Breath.png"
 						}
 					}
 				]
@@ -2614,7 +2987,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Cauldron Fumes.} When a creature is subjected to Hag's Spite they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 4d4} poison damage and are {@condition poisoned} for 1 hour, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Cauldron Fumes",
+					"entries": [
+						"When a creature is subjected to Hag's Spite they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 4d4} poison damage and are {@condition poisoned} for 1 hour, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2622,7 +3001,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Hags-Spite.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Hags-Spite.png"
 						}
 					}
 				]
@@ -2642,7 +3021,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Royal Decree.} When a creature is subjected to Hand of the King they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 2d12} poison damage and become {@condition poisoned}. Whilst poisoned in this way they are vulnerable to magical and non-magical bludgeoning, piercing and slashing damage for 1 minute."
+				{
+					"type": "entries",
+					"name": "Royal Decree",
+					"entries": [
+						"When a creature is subjected to Hand of the King they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 2d12} poison damage and become {@condition poisoned}. Whilst poisoned in this way they are vulnerable to magical and non-magical bludgeoning, piercing and slashing damage for 1 minute."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2650,7 +3035,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Hand-of-the-King.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Hand-of-the-King.png"
 						}
 					}
 				]
@@ -2670,7 +3055,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Heartstrangler Venom.} When a creature is subjected to Hartuzedol they must make a Constitution saving throw. On a failed save they take {@damage 4d12} poison damage and their maximum hit points are reduced by the amount of damage taken for 24 hours, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Heartstrangler Venom",
+					"entries": [
+						"When a creature is subjected to Hartuzedol they must make a Constitution saving throw. On a failed save they take {@damage 4d12} poison damage and their maximum hit points are reduced by the amount of damage taken for 24 hours, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2678,7 +3069,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Hartuzedol.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Hartuzedol.png"
 						}
 					}
 				]
@@ -2698,7 +3089,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Brain Blocker Toxin.} When a creature is subjected to Headlock they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d8} poison damage and {@damage 1d8} psychic damage. Additionally, they have disadvantage on Wisdom ({@skill Perception}) checks for the next hour. On a successful save, they take half the damage and do not have disadvantage."
+				{
+					"type": "entries",
+					"name": "Brain Blocker Toxin",
+					"entries": [
+						"When a creature is subjected to Headlock they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d8} poison damage and {@damage 1d8} psychic damage. Additionally, they have disadvantage on Wisdom ({@skill Perception}) checks for the next hour. On a successful save, they take half the damage and do not have disadvantage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2706,7 +3103,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Headlock.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Headlock.png"
 						}
 					}
 				]
@@ -2726,7 +3123,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Last Words.} 1 minute after a creature is subjected to Headsman's Axe they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 4d6} poison damage, taking only half damage on a success. A creature must repeat the saving throw at the end of each of their turns for the next minute regardless of success or failure. A creature reduced to 0 hit points when this poison is still active in their system makes death saving throws with disadvantage."
+				{
+					"type": "entries",
+					"name": "Last Words",
+					"entries": [
+						"1 minute after a creature is subjected to Headsman's Axe they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 4d6} poison damage, taking only half damage on a success. A creature must repeat the saving throw at the end of each of their turns for the next minute regardless of success or failure. A creature reduced to 0 hit points when this poison is still active in their system makes death saving throws with disadvantage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2734,7 +3137,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Headsmans-Axe.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Headsmans-Axe.png"
 						}
 					}
 				]
@@ -2754,7 +3157,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Broken Heart.} 1 hour after a creature is subjected to Heartache's End they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 5d8} poison damage and are {@condition paralyzed} for the next 8 hours, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Broken Heart",
+					"entries": [
+						"1 hour after a creature is subjected to Heartache's End they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 5d8} poison damage and are {@condition paralyzed} for the next 8 hours, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2762,7 +3171,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Heartaches-End.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Heartaches-End.png"
 						}
 					}
 				]
@@ -2782,7 +3191,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Dark Leaves.} This poison is harvested from the leaves of the Iron Ivy plant. When a creature is subjected to Iron Ivy Poison they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d10} poison damage and their Strength score is reduced by 3 for 1 hour, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Dark Leaves",
+					"entries": [
+						"This poison is harvested from the leaves of the Iron Ivy plant. When a creature is subjected to Iron Ivy Poison they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d10} poison damage and their Strength score is reduced by 3 for 1 hour, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2790,7 +3205,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Iron-Ivy-Poison.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Iron-Ivy-Poison.png"
 						}
 					}
 				]
@@ -2810,7 +3225,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Hilarious and Poisonous.} When a creature is subjected to Jester Gas they must make a Constitution saving throw ({@dc 12}). On a failed save they begin laughing and giggling uncontrollably. The creature falls {@condition prone} and becomes {@condition incapacitated} for the next minute. While suffering these effects, at the start of each turn they take {@damage 1d6} psychic damage. A creature may repeat the saving throw at the end of each of its turns. On a successful save the effect ends and they cannot be affected by the gas for the next 10 minutes."
+				{
+					"type": "entries",
+					"name": "Hilarious and Poisonous",
+					"entries": [
+						"When a creature is subjected to Jester Gas they must make a Constitution saving throw ({@dc 12}). On a failed save they begin laughing and giggling uncontrollably. The creature falls {@condition prone} and becomes {@condition incapacitated} for the next minute. While suffering these effects, at the start of each turn they take {@damage 1d6} psychic damage. A creature may repeat the saving throw at the end of each of its turns. On a successful save the effect ends and they cannot be affected by the gas for the next 10 minutes."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2818,7 +3239,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Jester-Gas.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Jester-Gas.png"
 						}
 					}
 				]
@@ -2838,7 +3259,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Tropical Toxin.} When a creature is subjected to Jungle Fang Venom they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 3d8} poison damage and become {@condition poisoned} until the end of their next turn, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Tropical Toxin",
+					"entries": [
+						"When a creature is subjected to Jungle Fang Venom they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 3d8} poison damage and become {@condition poisoned} until the end of their next turn, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2846,7 +3273,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Jungle-Fang-Venom.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Jungle-Fang-Venom.png"
 						}
 					}
 				]
@@ -2866,7 +3293,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b The Black Banquet.} 3 hours after a creature is subjected to Kingkiller Poison they must make a Constitution saving throw ({@dc 19}). On a failed save they take {@damage 15d6} poison damage, taking only half damage on a success. If the creature is reduced to 0 hit points by this poison, they die."
+				{
+					"type": "entries",
+					"name": "The Black Banquet",
+					"entries": [
+						"3 hours after a creature is subjected to Kingkiller Poison they must make a Constitution saving throw ({@dc 19}). On a failed save they take {@damage 15d6} poison damage, taking only half damage on a success. If the creature is reduced to 0 hit points by this poison, they die."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2874,7 +3307,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Kingkiller-Poison.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Kingkiller-Poison.png"
 						}
 					}
 				]
@@ -2894,7 +3327,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Royal Toxin.} This poison is harvested from the Kingsweed plant. When a creature is subjected to Kingsweed Tincture they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 4d4} poison damage and their movement speed is reduced by 20 feet, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Royal Toxin",
+					"entries": [
+						"This poison is harvested from the Kingsweed plant. When a creature is subjected to Kingsweed Tincture they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 4d4} poison damage and their movement speed is reduced by 20 feet, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2902,7 +3341,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Kingsweed-Tincture.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Kingsweed-Tincture.png"
 						}
 					}
 				]
@@ -2922,7 +3361,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Seduction Poison.} When a creature is subjected to Kiss of the Paramour they must make a Constitution saving throw ({@dc 15}). On a failed save they drop any items they are holding in their hands and are {@condition stunned} until the end of their next turn."
+				{
+					"type": "entries",
+					"name": "Seduction Poison",
+					"entries": [
+						"When a creature is subjected to Kiss of the Paramour they must make a Constitution saving throw ({@dc 15}). On a failed save they drop any items they are holding in their hands and are {@condition stunned} until the end of their next turn."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2930,7 +3375,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Kiss-of-the-Paramour.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Kiss-of-the-Paramour.png"
 						}
 					}
 				]
@@ -2950,7 +3395,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Darkness and Pain.} When a creature is subjected to Lightquencher they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 3d4} necrotic damage, {@damage 3d4} poison damage and they are {@condition blinded} until the end of their next turn, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Darkness and Pain",
+					"entries": [
+						"When a creature is subjected to Lightquencher they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 3d4} necrotic damage, {@damage 3d4} poison damage and they are {@condition blinded} until the end of their next turn, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2958,7 +3409,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Lightquencher.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Lightquencher.png"
 						}
 					}
 				]
@@ -2978,7 +3429,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Thief's Rival.} When a creature is subjected to Locksmith's Compound they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 3d10} poison damage and begin to tremble uncontrollably. They have disadvantage on all Dexterity ({@skill Stealth}) and Dexterity ({@skill Sleight of Hand}) checks for the next 10 minutes. On a successful save they only take half damage."
+				{
+					"type": "entries",
+					"name": "Thief's Rival",
+					"entries": [
+						"When a creature is subjected to Locksmith's Compound they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 3d10} poison damage and begin to tremble uncontrollably. They have disadvantage on all Dexterity ({@skill Stealth}) and Dexterity ({@skill Sleight of Hand}) checks for the next 10 minutes. On a successful save they only take half damage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -2986,7 +3443,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Locksmiths-Compound.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Locksmiths-Compound.png"
 						}
 					}
 				]
@@ -3006,7 +3463,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Heart of Ice.} When a creature is subjected to Lover's Malice they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 3d8} cold damage and {@damage 3d8} poison damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Heart of Ice",
+					"entries": [
+						"When a creature is subjected to Lover's Malice they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 3d8} cold damage and {@damage 3d8} poison damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3014,7 +3477,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Lovers-Malice.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Lovers-Malice.png"
 						}
 					}
 				]
@@ -3034,7 +3497,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Gasping for Air.} When a creature is subjected to Lung-Crusher Toxin they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d6} poison damage and they are {@condition poisoned} for 24 hours. While {@condition poisoned} in this way their Constitution, Dexterity and Strength scores are reduced by 2. On a successful save, they take half damage and do not suffer reductions to their Constitution, Dexterity or Strength scores as a result of this poison."
+				{
+					"type": "entries",
+					"name": "Gasping for Air",
+					"entries": [
+						"When a creature is subjected to Lung-Crusher Toxin they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d6} poison damage and they are {@condition poisoned} for 24 hours. While {@condition poisoned} in this way their Constitution, Dexterity and Strength scores are reduced by 2. On a successful save, they take half damage and do not suffer reductions to their Constitution, Dexterity or Strength scores as a result of this poison."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3042,7 +3511,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Lung-Crusher-Toxin.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Lung-Crusher-Toxin.png"
 						}
 					}
 				]
@@ -3062,7 +3531,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Weakening Poison.} When a creature is subjected to Malaisehyde they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 4d6} poison damage and have disadvantage on all Strength- and Dexterity-based attack rolls and ability checks for the next 10 minutes per dose."
+				{
+					"type": "entries",
+					"name": "Weakening Poison",
+					"entries": [
+						"When a creature is subjected to Malaisehyde they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 4d6} poison damage and have disadvantage on all Strength- and Dexterity-based attack rolls and ability checks for the next 10 minutes per dose."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3070,7 +3545,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Malaisehyde.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Malaisehyde.png"
 						}
 					}
 				]
@@ -3090,7 +3565,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Petrifying Poison.} When a creature is subjected to Medusa's Grasp they must make a Constitution saving throw ({@dc 14}). If the saving throw fails by 5 or more the creature becomes {@condition petrified}. Otherwise, on a failed save the creature begins to turn to stone and is {@condition restrained}. A creature restrained in this way must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success."
+				{
+					"type": "entries",
+					"name": "Petrifying Poison",
+					"entries": [
+						"When a creature is subjected to Medusa's Grasp they must make a Constitution saving throw ({@dc 14}). If the saving throw fails by 5 or more the creature becomes {@condition petrified}. Otherwise, on a failed save the creature begins to turn to stone and is {@condition restrained}. A creature restrained in this way must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3098,7 +3579,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Medusas-Grasp.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Medusas-Grasp.png"
 						}
 					}
 				]
@@ -3118,7 +3599,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Infernal Poison.} When a creature is subjected to Mephistaline they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 3d6} poison damage and {@damage 2d6} fire damage. After they have taken this damage they become vulnerable to fire damage for 1 minute, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Infernal Poison",
+					"entries": [
+						"When a creature is subjected to Mephistaline they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 3d6} poison damage and {@damage 2d6} fire damage. After they have taken this damage they become vulnerable to fire damage for 1 minute, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3126,7 +3613,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Mephistaline.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Mephistaline.png"
 						}
 					}
 				]
@@ -3146,7 +3633,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Fume of Rot.} When a creature is subjected to Miasma Necrotis they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 6d6} necrotic damage and are {@condition poisoned} for 24 hours, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Fume of Rot",
+					"entries": [
+						"When a creature is subjected to Miasma Necrotis they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 6d6} necrotic damage and are {@condition poisoned} for 24 hours, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3154,7 +3647,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Miasma-Necrotis.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Miasma-Necrotis.png"
 						}
 					}
 				]
@@ -3174,7 +3667,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Dark Thoughts.} When a creature is subjected to Mindshift Venom they must make a Wisdom saving throw ({@dc 14}). On a failed save they take {@damage 2d6} psychic damage. On their next turn they will attack a random target that is within their range, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Dark Thoughts",
+					"entries": [
+						"When a creature is subjected to Mindshift Venom they must make a Wisdom saving throw ({@dc 14}). On a failed save they take {@damage 2d6} psychic damage. On their next turn they will attack a random target that is within their range, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3182,7 +3681,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Mindshift-Venom.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Mindshift-Venom.png"
 						}
 					}
 				]
@@ -3202,7 +3701,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Chemist's Poison.} When a creature is subjected to Nheraltezon they must make a Constitution saving throw ({@dc 11}). On a failed save they take {@damage 4d8} poison damage and have disadvantage on all saving throws until the end of their next turn, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Chemist's Poison",
+					"entries": [
+						"When a creature is subjected to Nheraltezon they must make a Constitution saving throw ({@dc 11}). On a failed save they take {@damage 4d8} poison damage and have disadvantage on all saving throws until the end of their next turn, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3210,7 +3715,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Nheraltezon.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Nheraltezon.png"
 						}
 					}
 				]
@@ -3230,7 +3735,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Poisoned Vision.} When a creature is subjected to Nightfall they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 8d6} poison damage. For the next minute the creature can only see 10 feet in front of them ({@condition blinded||blind} beyond that radius) as darkness clouds their vision. On a successful save, the creature takes half damage and their vision is not impaired."
+				{
+					"type": "entries",
+					"name": "Poisoned Vision",
+					"entries": [
+						"When a creature is subjected to Nightfall they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 8d6} poison damage. For the next minute the creature can only see 10 feet in front of them ({@condition blinded||blind} beyond that radius) as darkness clouds their vision. On a successful save, the creature takes half damage and their vision is not impaired."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3238,7 +3749,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Nightfall.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Nightfall.png"
 						}
 					}
 				]
@@ -3258,7 +3769,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Troubled Sleep.} The first time after a creature tries to take a long rest after being subjected to Nightmare they must make a Constitution saving throw. ({@dc 14}) On a failed save they take {@damage 1d6} poison damage and do not receive any benefits from taking the long rest. The poison lasts for 7 days, every time the creature attempts to take a long rest they must make the saving throw or suffer the same effects. On a successful save they do not suffer any effects for that long rest but still have to repeat the saving throw for the remaining duration of the 7 days."
+				{
+					"type": "entries",
+					"name": "Troubled Sleep",
+					"entries": [
+						"The first time after a creature tries to take a long rest after being subjected to Nightmare they must make a Constitution saving throw. ({@dc 14}) On a failed save they take {@damage 1d6} poison damage and do not receive any benefits from taking the long rest. The poison lasts for 7 days, every time the creature attempts to take a long rest they must make the saving throw or suffer the same effects. On a successful save they do not suffer any effects for that long rest but still have to repeat the saving throw for the remaining duration of the 7 days."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3266,7 +3783,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Nightmare.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Nightmare.png"
 						}
 					}
 				]
@@ -3286,7 +3803,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Hangman's Tree.} When a creature is subjected to Noose Compound they must make a Constitution saving throw ({@dc 15}). On a failed save they become vulnerable to necrotic damage and have disadvantage on death saving throws for the next 12 hours"
+				{
+					"type": "entries",
+					"name": "Hangman's Tree",
+					"entries": [
+						"When a creature is subjected to Noose Compound they must make a Constitution saving throw ({@dc 15}). On a failed save they become vulnerable to necrotic damage and have disadvantage on death saving throws for the next 12 hours"
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3294,7 +3817,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Noose-Compound.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Noose-Compound.png"
 						}
 					}
 				]
@@ -3314,7 +3837,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Potent Poison.} When a creature is subjected to Purified Sorrow they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 6d4} poison damage."
+				{
+					"type": "entries",
+					"name": "Potent Poison",
+					"entries": [
+						"When a creature is subjected to Purified Sorrow they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 6d4} poison damage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3322,7 +3851,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Purified-Sorrow.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Purified-Sorrow.png"
 						}
 					}
 				]
@@ -3342,7 +3871,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Fungal Tincture.} This poison is harvested from the Purple Ikrus mushroom. When a creature is subjected to Purple Ikrus Poison they must make a Constitution saving throw. On a failed save they take {@damage 6d10} poison damage and have disadvantage on concentration checks for the next minute, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Fungal Tincture",
+					"entries": [
+						"This poison is harvested from the Purple Ikrus mushroom. When a creature is subjected to Purple Ikrus Poison they must make a Constitution saving throw. On a failed save they take {@damage 6d10} poison damage and have disadvantage on concentration checks for the next minute, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3350,7 +3885,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Purple-Ikrus-Poison.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Purple-Ikrus-Poison.png"
 						}
 					}
 				]
@@ -3370,7 +3905,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Crimson Wrath.} When a creature is subjected to Queen's Tears they must make a Constitution saving throw ({@dc 17}). On a failed save they take {@damage 4d6} necrotic and {@damage 4d6} poison damage. The creature becomes {@condition poisoned} for the next 6 hours. While poisoned by Queen's Tears a creature has disadvantage on saving throws against spells and spell effects. On a successful save, the creature takes half damage and is not poisoned."
+				{
+					"type": "entries",
+					"name": "Crimson Wrath",
+					"entries": [
+						"When a creature is subjected to Queen's Tears they must make a Constitution saving throw ({@dc 17}). On a failed save they take {@damage 4d6} necrotic and {@damage 4d6} poison damage. The creature becomes {@condition poisoned} for the next 6 hours. While poisoned by Queen's Tears a creature has disadvantage on saving throws against spells and spell effects. On a successful save, the creature takes half damage and is not poisoned."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3378,7 +3919,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Queens-Tears.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Queens-Tears.png"
 						}
 					}
 				]
@@ -3398,7 +3939,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Distilled to Perfection.} When a creature is subjected to Quelzolar they must make a Constitution saving throw. ({@dc 17}). On a failed save they take {@damage 4d12} poison damage and become {@condition poisoned} for 1 minute, taking only half damage on a success. While poisoned by Quelzolar they take another {@damage 1d10} poison damage at the start of each of their turns. A creature can repeat the saving throw at the end of each of their turns, ending the effects on a successful save."
+				{
+					"type": "entries",
+					"name": "Distilled to Perfection",
+					"entries": [
+						"When a creature is subjected to Quelzolar they must make a Constitution saving throw. ({@dc 17}). On a failed save they take {@damage 4d12} poison damage and become {@condition poisoned} for 1 minute, taking only half damage on a success. While poisoned by Quelzolar they take another {@damage 1d10} poison damage at the start of each of their turns. A creature can repeat the saving throw at the end of each of their turns, ending the effects on a successful save."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3406,7 +3953,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Quelzolar.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Quelzolar.png"
 						}
 					}
 				]
@@ -3426,7 +3973,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Heaven's Poison.} When a creature is subjected to Rapture they must make a Constitution saving throw ({@dc 19}). On a failed save they take {@damage 4d12} radiant damage and {@damage 4d12} poison damage, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Heaven's Poison",
+					"entries": [
+						"When a creature is subjected to Rapture they must make a Constitution saving throw ({@dc 19}). On a failed save they take {@damage 4d12} radiant damage and {@damage 4d12} poison damage, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3434,7 +3987,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Rapture.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Rapture.png"
 						}
 					}
 				]
@@ -3454,7 +4007,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Downfall Poison.} When a creature is subjected to Ravage and Ruin Toxin they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 3d8} poison damage and their proficiency bonus is reduced by 2 for 10 minutes, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Downfall Poison",
+					"entries": [
+						"When a creature is subjected to Ravage and Ruin Toxin they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 3d8} poison damage and their proficiency bonus is reduced by 2 for 10 minutes, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3462,7 +4021,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Ravage-and-Ruin-Toxin.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Ravage-and-Ruin-Toxin.png"
 						}
 					}
 				]
@@ -3482,7 +4041,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Nevaria's Nail.} When a creature is subjected to Raven Scratch they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 3d12} poison damage and {@damage 2d12} necrotic damage."
+				{
+					"type": "entries",
+					"name": "Nevaria's Nail",
+					"entries": [
+						"When a creature is subjected to Raven Scratch they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 3d12} poison damage and {@damage 2d12} necrotic damage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3490,7 +4055,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Raven-Scratch.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Raven-Scratch.png"
 						}
 					}
 				]
@@ -3510,7 +4075,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Toxin of the Afterlife.} When a creature is subjected to Reaper's Friend they must make a Constitution saving throw ({@dc 15}) each time they finish a long rest for the next 15 days. On a failed save they take {@damage 2d6} necrotic damage and {@damage 2d6} poison damage and their maximum hit points are reduced by {@damage 3d4} for 24 hours. On a successful save they do not suffer any effects but still have to repeat the saving throw after the next long rest for the remainder of the 15 days. The effect ends after a total of 3 successful saves are made."
+				{
+					"type": "entries",
+					"name": "Toxin of the Afterlife",
+					"entries": [
+						"When a creature is subjected to Reaper's Friend they must make a Constitution saving throw ({@dc 15}) each time they finish a long rest for the next 15 days. On a failed save they take {@damage 2d6} necrotic damage and {@damage 2d6} poison damage and their maximum hit points are reduced by {@damage 3d4} for 24 hours. On a successful save they do not suffer any effects but still have to repeat the saving throw after the next long rest for the remainder of the 15 days. The effect ends after a total of 3 successful saves are made."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3518,7 +4089,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Reapers-Friend.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Reapers-Friend.png"
 						}
 					}
 				]
@@ -3538,7 +4109,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b arctic Fire.} This poison is harvested from a dead or {@condition incapacitated} {@creature remorhaz}. When a creature is subjected to Remorhaz Bile they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d6} acid damage and {@damage 2d6} fire damage, taking half damage on a success."
+				{
+					"type": "entries",
+					"name": "arctic Fire",
+					"entries": [
+						"This poison is harvested from a dead or {@condition incapacitated} {@creature remorhaz}. When a creature is subjected to Remorhaz Bile they must make a Constitution saving throw ({@dc 14}). On a failed save they take {@damage 2d6} acid damage and {@damage 2d6} fire damage, taking half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3546,7 +4123,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Remorhaz-Bile.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Remorhaz-Bile.png"
 						}
 					}
 				]
@@ -3566,7 +4143,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Fumes from Beyond.} When a creature is subjected to Revenant's Last Act they must make a Constitution saving throw (DC 12). On a failed save they take {@damage 2d10} poison damage and are {@condition paralyzed} until the end of their next turn, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Fumes from Beyond",
+					"entries": [
+						"When a creature is subjected to Revenant's Last Act they must make a Constitution saving throw (DC 12). On a failed save they take {@damage 2d10} poison damage and are {@condition paralyzed} until the end of their next turn, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3574,7 +4157,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Revenants-Last-Act.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Revenants-Last-Act.png"
 						}
 					}
 				]
@@ -3594,7 +4177,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Glittering Poison.} When a creature is subjected to Ruby Castle they must make a Constitution saving throw ({@dc 7}). On a failed save they take {@damage 10d6} poison damage, taking half damage on a success."
+				{
+					"type": "entries",
+					"name": "Glittering Poison",
+					"entries": [
+						"When a creature is subjected to Ruby Castle they must make a Constitution saving throw ({@dc 7}). On a failed save they take {@damage 10d6} poison damage, taking half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3602,7 +4191,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Ruby-Castle.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Ruby-Castle.png"
 						}
 					}
 				]
@@ -3622,7 +4211,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Twilight Poison.} When a creature is subjected to Shade Fog they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 6d6} poison damage. If they fail the saving throw by more than 5 they take an additional {@damage 2d6} poison damage and are also {@condition poisoned} for the next hour. On a success, the creature takes half damage."
+				{
+					"type": "entries",
+					"name": "Twilight Poison",
+					"entries": [
+						"When a creature is subjected to Shade Fog they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 6d6} poison damage. If they fail the saving throw by more than 5 they take an additional {@damage 2d6} poison damage and are also {@condition poisoned} for the next hour. On a success, the creature takes half damage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3630,7 +4225,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Shade-Fog.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Shade-Fog.png"
 						}
 					}
 				]
@@ -3650,7 +4245,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Demon's Toxin.} When a creature is subjected to Shard of the Void they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d6} psychic damage and {@damage 2d6} poison damage. The creature then has to make an additional Wisdom saving throw ({@dc 14}). On a failed save they are {@condition stunned} until the start of their next turn."
+				{
+					"type": "entries",
+					"name": "Demon's Toxin",
+					"entries": [
+						"When a creature is subjected to Shard of the Void they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d6} psychic damage and {@damage 2d6} poison damage. The creature then has to make an additional Wisdom saving throw ({@dc 14}). On a failed save they are {@condition stunned} until the start of their next turn."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3658,7 +4259,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Shard-of-the-Void.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Shard-of-the-Void.png"
 						}
 					}
 				]
@@ -3678,7 +4279,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Lich's Last Breath.} When a creature is subjected to Sigh of the Undying they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 4d8} necrotic damage and have disadvantage on Intelligence, Wisdom and Charisma saving throws for 1 minute. On a successful save, they take half damage and do not suffer disadvantage."
+				{
+					"type": "entries",
+					"name": "Lich's Last Breath",
+					"entries": [
+						"When a creature is subjected to Sigh of the Undying they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 4d8} necrotic damage and have disadvantage on Intelligence, Wisdom and Charisma saving throws for 1 minute. On a successful save, they take half damage and do not suffer disadvantage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3686,7 +4293,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Sigh-of-the-Undying.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Sigh-of-the-Undying.png"
 						}
 					}
 				]
@@ -3706,7 +4313,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Volcanic Fumes.} When a creature is subjected to Smoke of Trel'dor they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 3d10} poison damage and their maximum hit points are reduced by {@damage 2d8} for 1 minute, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Volcanic Fumes",
+					"entries": [
+						"When a creature is subjected to Smoke of Trel'dor they must make a Constitution saving throw ({@dc 10}). On a failed save they take {@damage 3d10} poison damage and their maximum hit points are reduced by {@damage 2d8} for 1 minute, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3714,7 +4327,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Smoke-of-Treldor.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Smoke-of-Treldor.png"
 						}
 					}
 				]
@@ -3734,7 +4347,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Starblessed Poison.} When a creature is subjected to Starsting they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 1d6} poison damage and {@damage 1d6} radiant damage, taking half damage on a success."
+				{
+					"type": "entries",
+					"name": "Starblessed Poison",
+					"entries": [
+						"When a creature is subjected to Starsting they must make a Constitution saving throw ({@dc 9}). On a failed save they take {@damage 1d6} poison damage and {@damage 1d6} radiant damage, taking half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3742,7 +4361,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Starsting.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Starsting.png"
 						}
 					}
 				]
@@ -3762,7 +4381,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Gobsmacked and Flabbergasted.} When a creature is subjected to Stuncloud Poison they must make a Constitution saving throw ({@dc 10}). On a failed save they are {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of their turns, ending the effect on a successful save."
+				{
+					"type": "entries",
+					"name": "Gobsmacked and Flabbergasted",
+					"entries": [
+						"When a creature is subjected to Stuncloud Poison they must make a Constitution saving throw ({@dc 10}). On a failed save they are {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of their turns, ending the effect on a successful save."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3770,7 +4395,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Stuncloud-Poison.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Stuncloud-Poison.png"
 						}
 					}
 				]
@@ -3790,7 +4415,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Liquid Remorse.} 12 hours after a creature is subjected to Tears of the Widow they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 10d10} poison damage and are {@condition poisoned} for the next hour, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Liquid Remorse",
+					"entries": [
+						"12 hours after a creature is subjected to Tears of the Widow they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 10d10} poison damage and are {@condition poisoned} for the next hour, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3798,7 +4429,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Tears-of-the-Widow.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Tears-of-the-Widow.png"
 						}
 					}
 				]
@@ -3818,7 +4449,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Brewed to Break.} When a creature is subjected to Tharezonine they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 2d8} poison damage and their Strength score is reduced by 2 for 1 hour, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Brewed to Break",
+					"entries": [
+						"When a creature is subjected to Tharezonine they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 2d8} poison damage and their Strength score is reduced by 2 for 1 hour, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3826,7 +4463,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Tharezonine.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Tharezonine.png"
 						}
 					}
 				]
@@ -3846,7 +4483,13 @@
 				"injury"
 			],
 			"entries": [
-				"{@b Blood Boiler.} When a creature is subjected to Thelabryline they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 1d6} poison damage and {@damage 1d6} necrotic damage. A creature with a Constitution score of more than 10 takes an additional {@damage 1d6} poison damage for each point above 10. On a successful save the creature only takes half damage."
+				{
+					"type": "entries",
+					"name": "Blood Boiler",
+					"entries": [
+						"When a creature is subjected to Thelabryline they must make a Constitution saving throw ({@dc 15}). On a failed save they take {@damage 1d6} poison damage and {@damage 1d6} necrotic damage. A creature with a Constitution score of more than 10 takes an additional {@damage 1d6} poison damage for each point above 10. On a successful save the creature only takes half damage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3854,7 +4497,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Thelabryline.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Thelabryline.png"
 						}
 					}
 				]
@@ -3874,7 +4517,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Prince's Poison.} When a creature is subjected to Touch of the Abyss they must make a Constitution saving throw ({@dc 16}). The DC is reduced by 2 for a creature of chaotic evil alignment and reduced by 1 for a creature of chaotic neutral alignment. On a failed save they take {@damage 4d12} poison damage, taking half damage on a success."
+				{
+					"type": "entries",
+					"name": "Prince's Poison",
+					"entries": [
+						"When a creature is subjected to Touch of the Abyss they must make a Constitution saving throw ({@dc 16}). The DC is reduced by 2 for a creature of chaotic evil alignment and reduced by 1 for a creature of chaotic neutral alignment. On a failed save they take {@damage 4d12} poison damage, taking half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3882,7 +4531,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Touch-of-the-Abyss.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Touch-of-the-Abyss.png"
 						}
 					}
 				]
@@ -3902,7 +4551,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Last Resort.} When a creature is subjected to Traitor's Ally they must make a Constitution saving throw ({@dc 18}). On a failed save they take {@damage 8d8} poison damage and are {@condition poisoned} for 1 hour, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Last Resort",
+					"entries": [
+						"When a creature is subjected to Traitor's Ally they must make a Constitution saving throw ({@dc 18}). On a failed save they take {@damage 8d8} poison damage and are {@condition poisoned} for 1 hour, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3910,7 +4565,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Traitors-Ally.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Traitors-Ally.png"
 						}
 					}
 				]
@@ -3930,7 +4585,13 @@
 				"inhaled"
 			],
 			"entries": [
-				"{@b Revenge of the Heir.} When a creature is subjected to Vindication they must make a Constitution saving throw ({@dc 20}). On a failed save they take {@damage 7d10} poison damage. If they fail the saving throw by 5 or more they take an additional 10 poison damage. On a successful save, they take half damage."
+				{
+					"type": "entries",
+					"name": "Revenge of the Heir",
+					"entries": [
+						"When a creature is subjected to Vindication they must make a Constitution saving throw ({@dc 20}). On a failed save they take {@damage 7d10} poison damage. If they fail the saving throw by 5 or more they take an additional 10 poison damage. On a successful save, they take half damage."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3938,7 +4599,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Vindication.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Vindication.png"
 						}
 					}
 				]
@@ -3958,7 +4619,13 @@
 				"contact"
 			],
 			"entries": [
-				"{@b Verdant Toxin.} When a creature is subjected to Warden's Demise they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 5d6} poison damage and are unable to cast spells until the end of their next turn. A creature automatically loses concentration on any spells or effects they are concentrating on. On a success, the creature takes half damage and does not suffer any other effect of this poison."
+				{
+					"type": "entries",
+					"name": "Verdant Toxin",
+					"entries": [
+						"When a creature is subjected to Warden's Demise they must make a Constitution saving throw ({@dc 13}). On a failed save they take {@damage 5d6} poison damage and are unable to cast spells until the end of their next turn. A creature automatically loses concentration on any spells or effects they are concentrating on. On a success, the creature takes half damage and does not suffer any other effect of this poison."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3966,7 +4633,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Wardens-Demise.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Wardens-Demise.png"
 						}
 					}
 				]
@@ -3986,7 +4653,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Turner of Fate.} When a creature is subjected to Weaver's Vengeance they must make a Constitution Saving throw ({@dc 14}). On a failed save they take {@damage 3d12 + 6} poison damage and are {@condition paralyzed} for 1 hour, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Turner of Fate",
+					"entries": [
+						"When a creature is subjected to Weaver's Vengeance they must make a Constitution Saving throw ({@dc 14}). On a failed save they take {@damage 3d12 + 6} poison damage and are {@condition paralyzed} for 1 hour, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -3994,7 +4667,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Weavers-Vengeance.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Weavers-Vengeance.png"
 						}
 					}
 				]
@@ -4014,7 +4687,13 @@
 				"ingested"
 			],
 			"entries": [
-				"{@b Frostbite Poison.} When a creature is subjected to Winter Water they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 5d8} cold damage and their movement speed is halved until the end of their next turn, taking only half damage on a success."
+				{
+					"type": "entries",
+					"name": "Frostbite Poison",
+					"entries": [
+						"When a creature is subjected to Winter Water they must make a Constitution saving throw ({@dc 16}). On a failed save they take {@damage 5d8} cold damage and their movement speed is halved until the end of their next turn, taking only half damage on a success."
+					]
+				}
 			],
 			"fluff": {
 				"images": [
@@ -4022,7 +4701,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/Winter-Water.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/d100%20Poisons/Winter-Water.png"
 						}
 					}
 				]
