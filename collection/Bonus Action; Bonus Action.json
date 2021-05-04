@@ -5888,7 +5888,7 @@
 			}
 		},
 		{
-			"name": "Hood of the Deciever",
+			"name": "Hood of the Deceiver",
 			"source": "RotR1",
 			"page": 6,
 			"tier": "major",
@@ -5917,7 +5917,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR1/Hood-of-the-Deciever.png"
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR1/Hood-of-the-Deceiver.png"
 						}
 					}
 				]
