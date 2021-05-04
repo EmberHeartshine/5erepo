@@ -2412,7 +2412,7 @@
 					"type": "entries",
 					"name": "Sweet Dreams",
 					"entries": [
-						"When a creature is subjected to Dream Vapors they must make a Constitution saving throw (DC 14). The DC of this saving throw increases by 2 for each point of {@condition exhaustion} the creature has. On a failed save the creature falls asleep. The creature is {@condition unconscious} for 8 hours, until the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. When they wake they take {@damage 1d6} psychic damage and receive 1 point of {@condition exhaustion}. On a successful save they cannot be affected by Dream Vapors again for the next minute."
+						"When a creature is subjected to Dream Vapors they must make a Constitution saving throw ({@dc 14}). The DC of this saving throw increases by 2 for each point of {@condition exhaustion} the creature has. On a failed save the creature falls asleep. The creature is {@condition unconscious} for 8 hours, until the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. When they wake they take {@damage 1d6} psychic damage and receive 1 point of {@condition exhaustion}. On a successful save they cannot be affected by Dream Vapors again for the next minute."
 					]
 				}
 			],
@@ -4147,7 +4147,7 @@
 					"type": "entries",
 					"name": "Fumes from Beyond",
 					"entries": [
-						"When a creature is subjected to Revenant's Last Act they must make a Constitution saving throw (DC 12). On a failed save they take {@damage 2d10} poison damage and are {@condition paralyzed} until the end of their next turn, taking only half damage on a success."
+						"When a creature is subjected to Revenant's Last Act they must make a Constitution saving throw ({@dc 12}). On a failed save they take {@damage 2d10} poison damage and are {@condition paralyzed} until the end of their next turn, taking only half damage on a success."
 					]
 				}
 			],
@@ -5006,8 +5006,8 @@
 					"type": "entries",
 					"name": "A Touch of Cold",
 					"entries": [
-						"As an action once per day, you can immerse the sword into a body of water to create a layer of ice 1 foot thick in a 15-foot radius. All creatures in this area must make a Strength saving throw (DC 12) or become {@condition restrained} in the ice. On the success of any one creature, the ice layer breaks completely and quickly melts away.",
-						"The ice is strong enough to hold the weight of approximately 4 small creatures, 2 medium creatures or 1 large creature. When a creature steps on the ice they must make a Dexterity saving throw (DC 8) or slip and fall {@condition prone}. The ice is considered rough terrain."
+						"As an action once per day, you can immerse the sword into a body of water to create a layer of ice 1 foot thick in a 15-foot radius. All creatures in this area must make a Strength saving throw ({@dc 12}) or become {@condition restrained} in the ice. On the success of any one creature, the ice layer breaks completely and quickly melts away.",
+						"The ice is strong enough to hold the weight of approximately 4 small creatures, 2 medium creatures or 1 large creature. When a creature steps on the ice they must make a Dexterity saving throw ({@dc 8}) or slip and fall {@condition prone}. The ice is considered rough terrain."
 					]
 				}
 			],
@@ -5078,7 +5078,7 @@
 					"type": "entries",
 					"name": "Trip",
 					"entries": [
-						"Bolas are mainly used to trip foes from a distance. A Large or smaller bipedal creature hit with bolas must make a Dexterity saving throw (DC 15) or be {@condition restrained}. A restrained creature may attempt to break free with a successful Strength ({@skill Athletics}) check (DC 15). A creature can also try to untangle the bolas using a Dexterity ({@skill Sleight of Hand}) check (DC 12)."
+						"Bolas are mainly used to trip foes from a distance. A Large or smaller bipedal creature hit with bolas must make a Dexterity saving throw ({@dc 15}) or be {@condition restrained}. A restrained creature may attempt to break free with a successful Strength ({@skill Athletics}) check ({@dc 15}). A creature can also try to untangle the bolas using a Dexterity ({@skill Sleight of Hand}) check ({@dc 12})."
 					]
 				} 
 			],
@@ -5118,7 +5118,7 @@
 					"type": "entries",
 					"name": "Arcane Blast",
 					"entries": [
-						"When you make a successful attack with this weapon you can choose to activate a blast of arcane energy centered on your target. Each creature in a 10-foot radius must make a Dexterity saving throw (DC 15). On a failed save the target takes {@damage 2d6} force and {@damage 2d4} fire damage, or half damage on a successful save. You can use this feature up to two times per long rest."
+						"When you make a successful attack with this weapon you can choose to activate a blast of arcane energy centered on your target. Each creature in a 10-foot radius must make a Dexterity saving throw ({@dc 15}). On a failed save the target takes {@damage 2d6} force and {@damage 2d4} fire damage, or half damage on a successful save. You can use this feature up to two times per long rest."
 					]
 				}
 			],
@@ -5371,7 +5371,7 @@
 					"type": "entries",
 					"name": "Essence of Fire",
 					"entries": [
-						"You have a +2 bonus to attack and damage rolls made with this magic weapon. Once per day, you can use this dagger to cast {@spell flame strike} at 5th level (DC 18)."
+						"You have a +2 bonus to attack and damage rolls made with this magic weapon. Once per day, you can use this dagger to cast {@spell flame strike} at 5th level ({@dc 18})."
 					]
 				},
 				{
@@ -5484,7 +5484,7 @@
 					"name": "Death's Call (Curse)",
 					"entries": [
 						"This helm is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the helm, keeping it within reach at all times.",
-						"Each day you wear this helmet you must make a Wisdom saving throw (DC 12). The DC increases by 2 every for every subsequent day you wear this helmet. On a failed save, you take {@damage 2d8} psychic damage and lose all Constitution bonuses from this item. Each time you fail the save, the damage increases by another {@damage 2d8}."
+						"Each day you wear this helmet you must make a Wisdom saving throw ({@dc 12}). The DC increases by 2 every for every subsequent day you wear this helmet. On a failed save, you take {@damage 2d8} psychic damage and lose all Constitution bonuses from this item. Each time you fail the save, the damage increases by another {@damage 2d8}."
 					]
 				}
 			],
@@ -5562,7 +5562,7 @@
 					"name": "Big Red Button",
 					"type": "entries",
 					"entries": [
-						"This arrow deals bludgeoning (rather than piercing) damage to its target upon impact regardless of what bow it is shot from. All creatures in a 10-foot radius from the point of impact must make a Dexterity saving throw (DC 18) or take {@damage 2d8} thunder and {@damage 2d8} fire damage and be knocked {@condition prone}, taking half damage and remaining standing on a success."
+						"This arrow deals bludgeoning (rather than piercing) damage to its target upon impact regardless of what bow it is shot from. All creatures in a 10-foot radius from the point of impact must make a Dexterity saving throw ({@dc 18}) or take {@damage 2d8} thunder and {@damage 2d8} fire damage and be knocked {@condition prone}, taking half damage and remaining standing on a success."
 					]
 				},
 				{
@@ -5759,7 +5759,7 @@
 					"name": "Hooked",
 					"type": "entries",
 					"entries": [
-						"This arrow deals an extra {@damage 1d4} piercing damage on a successful hit as the hooks lodge into its target. Removing the arrow requires a Strength save (DC 12), upon which the target takes an additional {@damage 1d4} points of slashing damage."
+						"This arrow deals an extra {@damage 1d4} piercing damage on a successful hit as the hooks lodge into its target. Removing the arrow requires a Strength save ({@dc 12}), upon which the target takes an additional {@damage 1d4} points of slashing damage."
 					]
 				},
 				{
@@ -5822,7 +5822,7 @@
 					"name": "Buried Alive",
 					"type": "entries",
 					"entries": [
-						"As an action, you may expend 6 charges to dissolve a 5 foot wide, 10 foot long, and 6 foot deep section of dirt, sand, or loose stone, causing it to reappear 20 feet above its original location. Creatures standing above the space must succeed on a Dexterity saving throw (DC 15) or drop 6 feet into the grave. The earth then collapses upon them, burying them and dealing {@damage 6d10} bludgeoning damage. A buried creature is {@condition blinded}, {@condition restrained}, and has total cover.",
+						"As an action, you may expend 6 charges to dissolve a 5 foot wide, 10 foot long, and 6 foot deep section of dirt, sand, or loose stone, causing it to reappear 20 feet above its original location. Creatures standing above the space must succeed on a Dexterity saving throw ({@dc 15}) or drop 6 feet into the grave. The earth then collapses upon them, burying them and dealing {@damage 6d10} bludgeoning damage. A buried creature is {@condition blinded}, {@condition restrained}, and has total cover.",
 						"Any creature buried by this effect can escape through magical means, excavation by an ally (1 minute of digging), or succeeding on a DC 20 Strength check to dig themselves out. While buried, the creature has air for 1 + their Constitution modifier minutes, after which they fall {@condition unconscious} and begin to suffocate."
 					]
 				},
@@ -5831,7 +5831,7 @@
 					"type": "entries",
 					"entries": [
 						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times.",
-						"Whenever you deal a killing blow while attuned to this weapon, you must make a Wisdom saving throw (DC 15). On a failure the spirit of the gravedigger compels you to bury the creature you have killed if it is not yet buried. Ignoring this will cause {@damage 1d8} psychic damage each hour the creature remains unburied."
+						"Whenever you deal a killing blow while attuned to this weapon, you must make a Wisdom saving throw ({@dc 15}). On a failure the spirit of the gravedigger compels you to bury the creature you have killed if it is not yet buried. Ignoring this will cause {@damage 1d8} psychic damage each hour the creature remains unburied."
 					]
 				}
 			],
@@ -6019,8 +6019,8 @@
 					"type": "entries",
 					"name": "Shards of Glass",
 					"entries": [
-						"If exposed to more than 30 points of force or thunder damage, the blade vibrates violently and shatters into hundreds of pieces. If the blade is stuck into a creature at the time, it takes {@damage 6d10} points of piercing damage. If it is not, the holder must succeed on a Dexterity saving throw (DC 12) or take the damage instead. The blade of the sword is destroyed beyond repair in this process.",
-						"A skilled {@class bard} may also be able to shatter the sword by singing a resonant note with a successful Charisma ({@skill Performance}) check (DC 25)."
+						"If exposed to more than 30 points of force or thunder damage, the blade vibrates violently and shatters into hundreds of pieces. If the blade is stuck into a creature at the time, it takes {@damage 6d10} points of piercing damage. If it is not, the holder must succeed on a Dexterity saving throw ({@dc 12}) or take the damage instead. The blade of the sword is destroyed beyond repair in this process.",
+						"A skilled {@class bard} may also be able to shatter the sword by singing a resonant note with a successful Charisma ({@skill Performance}) check ({@dc 25})."
 					]
 				}
 			],
@@ -6542,7 +6542,7 @@
 					"type": "entries",
 					"name": "Sounds of the Forest",
 					"entries": [
-						"While attuned to this item, you are proficient with {@item pan flute|phb|pan flutes} if you aren't already. With a successful Charisma ({@skill Performance}) check (DC 15) when playing a pan flute, you can attract {@dice 1d8} birds from your surroundings, if there are any. Most types of songbirds will happily tweet along to your music."
+						"While attuned to this item, you are proficient with {@item pan flute|phb|pan flutes} if you aren't already. With a successful Charisma ({@skill Performance}) check ({@dc 15}) when playing a pan flute, you can attract {@dice 1d8} birds from your surroundings, if there are any. Most types of songbirds will happily tweet along to your music."
 					]
 				}
 			],
@@ -6584,7 +6584,7 @@
 					"type": "entries",
 					"name": "Arctic Storm",
 					"entries": [
-						"As an action, you can summon a swirling storm of glittering ice encompassing a 20-foot tall, 50-foot radius cylinder centered on a point you can see within 120 feet. When a creature enters or ends its turn inside the storm, it must make a Constitution saving throw (DC 18) or take {@damage 3d6} frost damage, or half that on a success. The effect lasts for 1 minute and requires concentration. This feature may be used once per day."
+						"As an action, you can summon a swirling storm of glittering ice encompassing a 20-foot tall, 50-foot radius cylinder centered on a point you can see within 120 feet. When a creature enters or ends its turn inside the storm, it must make a Constitution saving throw ({@dc 18}) or take {@damage 3d6} frost damage, or half that on a success. The effect lasts for 1 minute and requires concentration. This feature may be used once per day."
 					]
 				},
 				{
@@ -6882,7 +6882,7 @@
 					"name": "Shriek of the Afterlife",
 					"entries": [
 						"As an action, you can play a succession of notes on this instrument that will cause a black mist to erupt from the F-holes. The mist coalesces into the form of a face, and shrieks with a terrifying scream.",
-						"Each creature of your choice within 30 feet must succeed on a Wisdom saving throw (DC 15) or become {@condition frightened} of you. The creature can repeat the saving throw at the beginning of its turn if it cannot see you. You can use this feature once every three days."
+						"Each creature of your choice within 30 feet must succeed on a Wisdom saving throw ({@dc 15}) or become {@condition frightened} of you. The creature can repeat the saving throw at the beginning of its turn if it cannot see you. You can use this feature once every three days."
 					]
 				}
 			],
@@ -7046,6 +7046,2814 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Ardent Enforcer",
+			"source": "RotR2",
+			"page": 1,
+			"baseItem": "warhammer|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"bonusWeapon": "+3",
+			"weapon": true,
+			"entries": [
+				"The head of this heavy iron {@item warhammer|phb} glows red-hot.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"name": "Infernal Metal",
+					"type": "entries",
+					"entries": [
+						"This weapon deals an additional {@damage 1d4 + 1} fire damage on each hit."
+					]
+				},
+				{
+					"name": "Mark of the Fallen",
+					"type": "entries",
+					"entries": [
+						"When you make a successful attack against a creature, you can use your bonus action to mark it with an infernal rune. The creature must make a Wisdom saving throw ({@dc 15}) or become marked. While marked, the creature is vulnerable to fire and necrotic damage for 1 minute. If the creature was immune to these types of damage, they become resistant instead. If the creature was resistant, they are no longer resistant. You may use this feature twice per long rest."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Ardent-Enforcer.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Arm of the Fire Genasi Veteran",
+			"source": "RotR2",
+			"page": 1,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This prosthetic arm flows faintly with a red aura. Runes are inscribed along each joint, keeping the arm together.",
+				{
+					"type": "entries",
+					"name": "Renewed Strength",
+					"entries": [
+						"While attuned to this prosthetic your Strength score increases by 2 and can exceed 20, but not 30. Additionally, any unarmed strikes you make with this arm recieve a +2 bonus to the damage dealt."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fireproof",
+					"entries": [
+						"You are immune to fire damage whenever you touch or hold something with this arm that would otherwise deal fire or cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blistering Grip",
+					"entries": [
+						"Once per day you can cast {@spell heat metal} on the hand of this arm. This requires no concentration and does not deal any damage to you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prosthetic Bond",
+					"entries": [
+						"To attune to this arm, you must hold the base against the amputated end of one of your arms (amputated at the elbow or upper arm) for the duration of a short rest. The arm will not function or attune if your arms are whole."
+					]
+				}
+			],
+			"ability": {
+				"str": 2
+			},
+			"attachedSpells": [
+				"heat metal"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Arm-of-the-Fire-Genasi-Veteran.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bifocals of the Basilisk",
+			"source": "RotR2",
+			"page": 1,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"These jade-lensed goggles are difficult to see through from the outside, but when worn provide the wearer with clear vision.",
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"These goggles grant you {@sense darkvision} up to 90 feet. In darkness, instead of seeing in shades of gray you see in shades of green."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stone Cold",
+					"entries": [
+						"While wearing these goggles you are immune to the petrifying effects of creatures such as {@creature basilisk|mm|basilisks} or {@creature medusa|mm|medusas} that take hold through eye contact."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Petrifying Gaze",
+					"entries": [
+						"As an action you can gaze at one creature you can see (and that can see you) and cast {@spell flesh to stone} eschewing all components ({@dc 12}). You can use this feature once every three days."
+					]
+				}
+			],
+			"attachedSpells": [
+				"flesh to stone"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Bifocals-of-the-Basilisk.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Black Market Exchange Chest",
+			"source": "RotR2",
+			"page": 1,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"weight": 10,
+			"entries": [
+				"This otherwise unremarkable chest has a thick blue ribbon encircling it, with a heavy metal clasp holding it in place.",
+				{
+					"type": "entries",
+					"name": "Unknown Buyer",
+					"entries": [
+						"After placing items in this chest, before you close the lid you may speak a command word and state an amount of gold that you expect in return. If you close the box without stating an amount it is considered to be 0. The lid slams down and the clasped ribbon magically seals it for 24 hours. If the contents have been purchased you will find the exact amount of gold that you requested upon opening. If the price has not been paid you find your items inside, untouched. You do not know who buys these items or why."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pocket Dimension",
+					"entries": [
+						"The opening of this chest is 2 feet by 3 feet, and the chest stands roughly 2 feet high. However, the interior of the chest expands to fit objects placed inside, up to a 10-foot cube. The chest cannot close if any living creature is inside. All spells cast inside the chest have no effect.",
+						"Placing a black market exchange chest inside an extradimensional space created by a {@item Heward's handy haversack}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+					]
+				}
+			],
+			"containerCapacity": {
+				"weight": [
+					1000
+				],
+				"weightless": true
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Black-Market-Exchange-Chest.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Chop",
+			"source": "RotR2",
+			"page": 2,
+			"baseItem": "handaxe|phb",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This simple {@item handaxe|phb} has faint runes etched into the poll.",
+				{
+					"name": "Fine Steel",
+					"type": "entries",
+					"entries": [
+						"You gain a +1 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"name": "Lumberjack's Best Friend",
+					"type": "entries",
+					"entries": [
+						"This weapon deals an extra {@damage 1d6} slashing damage to plant creatures and objects or items made from wood."
+					]
+				}
+			],
+			"axe": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Chop.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Circlet of the Phoenix",
+			"source": "RotR2",
+			"page": 2,
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": "by a wizard, sorcerer, druid, or warlock",
+			"wondrous": true,
+			"entries": [
+				"This fine rose gold circlet is warm to the touch, gentle heat radiating from the fire topaz embedded in its crest.",
+				{
+					"type": "entries",
+					"name": "Heart of the Fire Plane",
+					"entries": [
+						"While attuned to this circlet, you are resistant to fire damage and gain a +2 bonus to spell attack rolls that deal fire damage. Spells you cast requiring a saving throw gain +2 to their save DC if the spell deals fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feather of the Phoenix",
+					"entries": [
+						"You can cast {@spell feather fall} at will, using this circlet as a spellcasting focus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "From the Ashes (Hidden Feature)",
+					"entries": [
+						"When a creature attuned to this item dies, their body erupts in a burst of flames. Creatures in a 10-foot radius must make a Dexterity saving throw ({@dc 15}) or receive 2d10 Fire damage, or half on a success. The creature that was wearing the circlet and all the non-magical equipment they were carrying crumble to ash. After {@dice 1d4} hours, they appear awake with full hit points on the elemental plane of fire, wearing only the {@item luminous vestments of the phoenix|RotR2}. This feature is not revealed by {@spell identify} or attuning to this item."
+					]
+				}
+			],
+			"attachedSpells": [
+				"feather fall"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Circlet-of-the-Phoenix.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Curse Jar",
+			"source": "RotR2",
+			"page": 2,
+			"rarity": "rare",
+			"wondrous": true,
+			"sentient": true,
+			"weight": 5,
+			"entries": [
+				"This clay jar features a grotesque, fanged mouth and two glowing emerald eyes. As you approach, you hear a voice in your mind hurling a stream of insults at you.",
+				{
+					"type": "entries",
+					"name": "Gold Eater",
+					"entries": [
+						"Whenever you insult someone or utter a curse word, the jar speaks to you and commands you to put 1 gp into its mouth. The gold is instantly consumed by the jar and lost forever. The jar always knows how much gold it has been fed. You may resist doing so by succeeding on a Wisdom saving throw ({@dc 10})."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Foul-Mouthed",
+					"entries": [
+						"Twice per day, you can pull the lid off the jar and use it cast a spell for a certain amount of gp that has been fed to it according to the table below. The jar does not require any spell components to cast a spell. When you cast a spell using this feature, the associated gold cost is deducted from the total amount. The spell save DC for spells cast using this feature is 15.",
+						"If there is not enough gold in the jar to cast the selected spell, the jar will scream insults at you for {@dice 1d4} rounds or until you feed it 1 gp in apology.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Cost",
+								"Spell"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"50 gp",
+									"{@spell Cause fear|xge} (2nd level)"
+								],
+								[
+									"100 gp",
+									"{@spell Bestow curse} (3rd level)"
+								],
+								[
+									"200 gp",
+									"{@spell Blight} (4th level)"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"A curse jar is a sentient chaotic neutral item with an Intelligence of 12, a Wisdom of 14, and a Charisma of 18. The jar communicates by transmitting words and emotions to the creature carrying or in posession of it, and it has hearing and normal vision out to a range of 60 feet. It can understand and speak every language its owner can. Its voice is tinny and raspy, and it cackles with delight whenever it is fed.",
+						"The jar craves strife, and while it is not evil {@i per se}, it is greedy and vindictive. It is under no obligation to be truthful about how much gold it has consumed, and if it doesn't like its owner, it may attempt to trick them into feeding it more gold. If the owner of a curse jar does not feed it at least 1 gp every day, the most expensive spell available is cast on the owner per its {@i Foul-Mouthed} ability."
+					]
+				}
+			],
+			"attachedSpells": [
+				"cause fear",
+				"bestow curse",
+				"blight"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Curse-Jar.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Delilah",
+			"source": "RotR2",
+			"page": 2,
+			"baseItem": "light crossbow|phb",
+			"type": "R",
+			"rarity": "very rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"LD",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"This simple {@item light crossbow|phb} feels lighter than it should be.",
+				{
+					"type": "entries",
+					"name": "My Dearest Delilah",
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heartseeker",
+					"entries": [
+						"As part of your attack, you may whisper a command word to imbue the next bolt you fire with magic. Your next attack with this crossbow is made with advantage, and the bolt is capable of ignoring all cover. Once this property is used, it can't be used again until the next dawn."
+					]
+				}
+			],
+			"ammoType": "crossbow bolt|phb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Delilah.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragon Satchel",
+			"source": "RotR2",
+			"page": 2,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"weight": 5,
+			"entries": [
+				"This leather shoulder bag is emblazoned with a golden dragon's head.",
+				{
+					"type": "entries",
+					"name": "Essence of the Elements",
+					"entries": [
+						"You can place up to two handfuls of one of the materials listed below in this satchel. Over the course of the next 24 hours, the material turns into a fine crystalline powder. As an action, you can throw one handful of powder. The powder erupts in a 10-foot cone of the element listed below. Creatures within the cone must make a Dexterity saving throw ({@dc 15}) or take {@damage 3d4} damage. They take half damage on a successful save. Doing this twice empties the satchel, after which you can fill it with new material.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Material",
+								"Powder Color",
+								"Damage Type"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Ash",
+									"Red",
+									"Fire"
+								],
+								[
+									"Grass",
+									"Green",
+									"Acid"
+								],
+								[
+									"Leaves",
+									"Purple",
+									"Lightning"
+								],
+								[
+									"Snow",
+									"Blue",
+									"Cold"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Dragon-Satchel.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Duality Blade",
+			"source": "RotR2",
+			"page": 3,
+			"baseItem": "shortsword|phb",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d4 + 1 necrotic + 1d4 + 1",
+			"dmgType": "R",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Like a shadow in your hand, this {@item shortsword|phb} feels almost unreal. A long hole is driven along the center of the blade.",
+				{
+					"type": "entries",
+					"name": "Streamers of Light",
+					"entries": [
+						"As a bonus action, you can speak a command word to shroud the blade in flowing streams of light. The sword sheds bright light in a 15-foot radius and dim light in a 30-foot radius while in this state. Additionally, attacks with this sword deal {@damage 1d4} necrotic + {@damage 1d4 + 2} radiant damage instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blade of Darkness",
+					"entries": [
+						"The blade of this sword does not reflect any light and is difficult to discern in dim light and darkness. While you are in dim light or darkness, attacks with this weapon have a +3 bonus to hit and deal {@damage 1d4 + 2} necrotic + {@damage 1d4} radiant instead. Activating the {@i Streamers of Light} feature negates this effect."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Duality-Blade.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Earring of Whispering",
+			"source": "RotR2",
+			"page": 3,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This golden earring has a small chain clasp that fits onto the upper portion of the ear.",
+				{
+					"type": "entries",
+					"name": "Jenga",
+					"entries": [
+						"As an action, this earring allows you to cast {@spell message} to another connected earring within 500 feet. The earring will always passively recieve messages. If the reciever is out of range they will hear nothing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pairing",
+					"entries": [
+						"Two or more earrings may be connected by holding them together for 10 minutes. If an earring is more than 5 miles away from another connected earring for at least 1 week, the connection will be broken and the earrings must be re-paired."
+					]
+				}
+			],
+			"attachedSpells": [
+				"message"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Earring-of-Whispering.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Frost Reaper",
+			"source": "RotR2",
+			"page": 3,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This heavy iron scythe features a jagged icy blade.",
+				{
+					"name": "Cold-Hearted",
+					"type": "entries",
+					"entries": [
+						"You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon also deals an additional {@damage 1d6} cold damage with each hit."
+					]
+				},
+				{
+					"name": "Ice Harvest",
+					"type": "entries",
+					"entries": [
+						"As an action, you can speak a command word to freeze {@dice 1d8} shards of ice from the moisture in the air around you. Choose any number of targets you can see within 60 feet (up to the number of shards formed) and roll a ranged weapon attack for each shard. Each hit deals {@damage 1d4 + 1} cold damage. You may use this feature twice per day."
+					]
+				}
+			],
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Frost-Reaper.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Gapcloser 2000",
+			"source": "RotR2",
+			"page": 3,
+			"rarity": "none",
+			"weight": 2,
+			"value": 20000,
+			"wondrous": true,
+			"entries": [
+				"This gnomish invention features two crossbow bolt-like rods extending out from either side. Despite its complex operation, the Gapcloser 2000 is a feat of mundane engineering.",
+				{
+					"type": "entries",
+					"name": "Zipline",
+					"entries": [
+						"As an action, you lift the Gapcloser 2000 into the air and activate its line launcher, which shoots both bolts in opposite directions, each attached to 50 feet of steel wire. Make a ranged weapon attack for each bolt. On two successful hits the wire tightens and you can use your movement to travel up to 50 feet between the two anchor points. You can cause the Gapcloser 2000 to detach and reel in the bolts as a bonus action. Refer to the table below for the ACs of various materials.",
+						"If one of the bolts strikes a creature, it deals {@damage 1d4 - 1} (minimum of 1) points of piercing damage and becomes lodged in their body. The creature can release itself by taking an action to make a Strength check ({@dc 10}).",
+						{
+							"type": "table",
+							"colLabels": [
+								"Material",
+								"AC"
+							],
+							"colStyles": [
+								"col-4",
+								"col-8"
+							],
+							"rows": [
+								[
+									"Crystal, Ice",
+									"11"
+								],
+								[
+									"Wood, Bone",
+									"13"
+								],
+								[
+									"Stone",
+									"15"
+								],
+								[
+									"Iron, Steel",
+									"17"
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Gapcloser-2000.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Goodberry Sapling",
+			"source": "RotR2",
+			"page": 3,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Most goodberries are created through magic such as {@spell goodberry}. In some rare cases, goodberries can be planted  to grow godberry bushes.",
+				{
+					"type": "entries",
+					"name": "Seed of the Feywild",
+					"entries": [
+						"You can plant this sapling in any fertile ground. Over the course of {@dice 1d6} days a roughly 5-foot tall bush grows."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healthy Harvest",
+					"entries": [
+						"Once the bush has grown, {@dice 1d4} berries grow on the bush every day to a maximum of 20 berries. These berries have the same properties as those conjured by {@spell goodberry}, and last for the same duration.",
+						"If all berries are plucked from the bush, roll a {@dice d20}. On a 1, the bush will no longer grow any berries until it has been watered with water from the feywild."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Goodberry-Sapling.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "L'Arcana #23",
+			"source": "RotR2",
+			"page": 4,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple lipstick shimmers purple with an almost otherworldly appearance.",
+				{
+					"type": "entries",
+					"name": "Because Thou Art Worth It",
+					"entries": [
+						"It takes about 30 seconds to apply L'Arcana #23, after which the effects last 8 hours or until it is removed. A full container of L'Arcana #23 comes with 15 uses; most found will have {@dice 1d6 - 1} uses missing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "#23",
+					"entries": [
+						"While wearing this lipstick you gain a +1 bonus to every spell attack when casting a spell with a verbal component. In addition, your spell save DC for {@spell charm person} and {@spell charm monster|xge} increase by 2."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/LArcana-23.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "La Guillotina",
+			"source": "RotR2",
+			"page": 4,
+			"baseItem": "greataxe|phb",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 7,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				"This massive {@item greataxe|phb} appears to be little more than a guillotine blade affixed to a reinforced handle.",
+				{
+					"type": "entries",
+					"name": "Repurposed Adamantine Blade",
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Purge the Wicked",
+					"entries": [
+						"Attacks made with this axe against good-aligned creatures are made at disadvantage and deal half damage on hit. It also cannot deal killing blows to good or neutral creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Voice of the Judge",
+					"entries": [
+						"Twice per long rest, you can cast {@spell command} at 1st level ({@dc 14})."
+					]
+				}
+			],
+			"attachedSpells": [
+				"command"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/La-Guillotina.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Lash of the Hydra",
+			"source": "RotR2",
+			"page": 4,
+			"baseItem": "whip|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"weapon": true,
+			"curse": true,
+			"entries": [
+				"This wicked-looking {@item whip|phb} has a dark blade embedded in its tip. The handle seems too broad for just one cord…",
+				{
+					"type": "entries",
+					"name": "Essence of the Monster",
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hydra's Frenzy",
+					"entries": [
+						"Whenever you attack a creature that is hostile toward you and roll a 19 or 20 on the {@dice d20}, an extra cord grows from the handle of the whip. Your attacks with this whip deal an additional {@damage 1d4} damage for each extra cord. The whip can have a total of 5 cords. Extra cords disappear 12 hours after the last cord has grown, after which only 1 cord remains."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hydra's Curse",
+					"entries": [
+						"Whenever you roll a natural 1 on an attack roll with this weapon, 1 cord disappears from the handle. However, if there is only 1 cord left, roll a {@dice d100}. On a 15 or lower the last cord disappears, making the whip useless and unable to grow any cords ever again. If you roll higher than 15 the last cord remains attached."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Lash-of-the-Hydra.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Luminous Vestments of the Phoenix",
+			"source": "RotR2",
+			"page": 4,
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": "by a wizard, sorcerer, druid, or warlock",
+			"wondrous": true,
+			"entries": [
+				"These brilliant robes radiate eternal heat, threatening to burn those around it.",
+				{
+					"type": "entries",
+					"name": "Soul of the Fire Plane",
+					"entries": [
+						"While attuned to this robe you are immune to fire damage and have resistance to cold damage. You also gain a +4 bonus to your spell attack and your spell save DC increases by 2."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight of the Phoenix",
+					"entries": [
+						"Twice per long rest, you can use these robes to cast {@spell fly} at 6th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ashes to Ashes",
+					"entries": [
+						"Once per long rest, you can use these robes to cast {@spell fire storm}."
+					]
+				}
+			],
+			"attachedSpells": [
+				"fly",
+				"fire storm"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Luminous-Vestments-of-the-Phoenix.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mantle of Vitalis",
+			"source": "RotR2",
+			"page": 5,
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": "by a bard, cleric, or druid",
+			"recharge": "dawn",
+			"charges": 3,
+			"wondrous": true,
+			"entries": [
+				"These vestments seem to wave gently in the wind, even in still air.",
+				{
+					"type": "entries",
+					"name": "Legacy of the Healer",
+					"entries": [
+						"This mantle has 3 charges that empower your healing spells. Whenever you cast a spell that heals hit points, you can spend 1 charge to heal one of the targets for an additional {@dice 3d8} + your spellcasting modifier. You can spend any number of charges at once, but each charge only affects one target and you cannot use multiple charges on the same target. All 3 charges are regained at dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dreamwalker",
+					"entries": [
+						"Once per long rest, you can use an action to cast {@spell dream}. Additionally, you are immune to all spells that would make you fall asleep while wearing this mantle (including your own)."
+					]
+				}
+			],
+			"attachedSpells": [
+				"dream"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Mantle-of-Vitalis.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Map Beacon",
+			"source": "RotR2",
+			"page": 5,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"These small metallic cubes light gently with different colors as you touch them.",
+				{
+					"type": "entries",
+					"name": "Binding the Beacon",
+					"entries": [
+						"To bind to a beacon, a creature must hold one in their hand and speak a command word. Binding to the beacon does not count as attunement."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Split the Party",
+					"entries": [
+						"When a map beacon is placed onto a map and its command word is spoken, these tiny beacons will light up and hover over the location on the map of the creature they are bound to. If there are multiple bound creatures in one location, the beacons will hover over each other. If they are not anywhere on the map, the beacon lies still and dark.",
+						"Map beacons work best with detailed maps, but can also function to give general position on crudely-drawn maps. If yu draw a map for this purpose, it must have at least three points of reference and be enclosed by a rectangular edge."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Map-Beacon.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mask of the Raven's Disciple",
+			"source": "RotR2",
+			"page": 5,
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a cleric, paladin, or warlock",
+			"wondrous": true,
+			"bonusSavingThrow": "+2",
+			"entries": [
+				"This metallic masquerade mask features a long, beak-like extension from the nose and a purple topaz embedded in the forehead.",
+				{
+					"type": "entries",
+					"name": "Wisdom from Beyond",
+					"entries": [
+						"While attuned to this mask you recieve a +2 bonus to all Wisdom saving throws and Wisdom-based skill checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "My Queen",
+					"entries": [
+						"The Strength score of a {@class cleric} or {@class paladin} attuned to this item increases by 1. The Charisma bonus of a {@class warlock} attuned to this item increases by 1. In you are multiclassed into both warlock and cleric or paladin, choose one bonus to apply when you attune."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Queen's Forgiveness",
+					"entries": [
+						"Once per day, you can use this mask to cast {@spell spare the dying}, targeting a creature within 30 feet that you can see. When you do, the gemstone flares brightly for the duration of the casting. If you know the cantrip {@i spare the dying}, the gemstone shines dimly when you cast it normally."
+					]
+				}
+			],
+			"attachedSpells": [
+				"spare the dying"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Mask-of-the-Ravens-Disciple.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mountainguard's Greataxe",
+			"source": "RotR2",
+			"page": 5,
+			"baseItem": "greataxe|phb",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 7,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				"This beautifully-crafted {@item greataxe|phb} features delicate etchings along the body of the blades.",
+				{
+					"type": "entries",
+					"name": "Dwarven-Forged",
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Last Line of Defense",
+					"entries": [
+						"As an action, you can slam the pommel of this axe on the ground to cause a ripple of gold energy to burst in a 30-foot radius. All creatures of your choice within this range become immune to being {@condition frightened} for the next minute. During this time, they also gain 10 temporary hit points at the start of each of their turns. You can use this feature once per day."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Mountainguards-Greataxe.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Nightliner",
+			"source": "RotR2",
+			"page": 6,
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"What appears to be an ordinary inkwell is emblazoned with the image of an eye.",
+				{
+					"type": "entries",
+					"name": "Enchanted Eyes",
+					"entries": [
+						"It takes 1 minute to apply this eyeliner to both eyes. While applied, you have {@sense darkvision} for a range of 60 feet. Additionally, you have advantage on all Wisdom ({@skill Perception}) checks that depend on sight. These features last for 24 hours or until the makeup is removed. This eyeliner is not waterproof, and a full bottle contains enough eyeliner for 20 uses."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Nightliner.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Orb of the Dryad",
+			"source": "RotR2",
+			"page": 6,
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a druid or monk",
+			"wondrous": true,
+			"entries": [
+				"This sparkling wooden orb hums gently when you listen closely.",
+				{
+					"type": "entries",
+					"name": "Nature's Light",
+					"entries": [
+						"As an action, you can speak a command word to cause the orb to hover in front of you and shed light. This provides bright light in a 20-foot radius and dim light for an additinal 20 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healing Flight",
+					"entries": [
+						"Once per day, you can use an action to speak a command word and direct the orb to float in a straight line toward a creature within 100 feet. The orb moves at a speed of 50 feet per round on your turn. While in motion, the orb becomes ethereal and heals each creature it passes through for {@dice 1d4 + 1} hit points. Upon arriving at the target, the orb hovers adjacent to them for 3 rounds, healing {@dice 1d4 + 1} hit points at the beginning of your turn, then returns to you along the same line. The orb does not heal during its return to you.",
+						"While ethereal, the orb can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Orb-of-the-Dryad.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Permafrost Axe",
+			"source": "RotR2",
+			"page": 6,
+			"baseItem": "handaxe|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This {@item handaxe|phb} appears to have a head made of permanently frozen ice, and is extremely cold to the touch.",
+				{
+					"name": "Freezing Edge",
+					"type": "entries",
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon. This weapon also deals an additional 2 cold damage with each hit."
+					]
+				},
+				{
+					"name": "Arctic Circle",
+					"type": "entries",
+					"entries": [
+						"As a bonus action while holding this weapon, you can summon a small blizzard in a 15-foot radius around the axe that lasts for 30 seconds. This area is considered rough terrain. You do not need to hold this weapon for the entire duration of this feature, and the blizzard remains fixed centered on the axe. Each time a creature ends its turn in the blizzard, it must succeed on a Constitution saving throw ({@dc 15}) or take {@damage 2d4} cold damage. You can use this feature twice per long rest."
+					]
+				}
+			],
+			"axe": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Permafrost-Axe.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Plate of the Sun and Stars",
+			"source": "RotR2",
+			"page": 6,
+			"baseItem": "plate armor|phb",
+			"type": "HA",
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 65,
+			"ac": 18,
+			"strength": "15",
+			"bonusAc": "+2",
+			"stealth": true,
+			"recharge": "midnight",
+			"charges": 8,
+			"entries": [
+				"This blackened suit of {@item plate armor|phb} has a faintly-glowing image of the sun surrounded by stars etched into the chest.",
+				{
+					"name": "Light of the Sun",
+					"type": "entries",
+					"entries": [
+						"You can use this armor to cast {@spell sunbeam} at 6th level ({@dc 17}) once every 7 days."
+					]
+				},
+				{
+					"name": "Blessing of the Stars",
+					"type": "entries",
+					"entries": [
+						"This armor has 8 charges, and regains {@dice 1d8} spent charges at midnight. You can use a bonus action to spend 1 charge to bless a creature you can see within 50 feet. While blessed, the creature can choose to add {@dice 1d6} to a single attack roll they make within the next minute. You can spend up to 4 charges in one bonus action, but the effects of this feature do not stack."
+					]
+				},
+				{
+					"name": "Heavenly Light",
+					"type": "entries",
+					"entries": [
+						"Your melee weapon attacks deal an extra 2 radiant damage as long as you have at least 1 charge remaining for {@i Blessing of the Stars} or have not used {@i Light of the Sun} within the last 7 days."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Plate-of-the-Sun-and-Stars.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Pocket Portal",
+			"source": "RotR2",
+			"page": 6,
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"The inside of this deliate glass orb contains a viscous purple fluid matching the ribbon wrapped around it.",
+				{
+					"type": "entries",
+					"name": "Homebrewed",
+					"entries": [
+						"During the creation of this item, the liquid inside was brewed at the center of a permanent teleportation circle. As an action, you can smash the glass orb on the ground to cast {@spell teleportation circle}, creating a portal to the circle the liquid was brewed in.",
+						"Each pocket portal is good for only one use."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Pocket-Portal.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Repurposed Eyestalk",
+			"source": "RotR2",
+			"page": 7,
+			"type": "WD",
+			"rarity": "very rare",
+			"reqAttune": "by a sorcerer, warlock, or wizard",
+			"weight": 1,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This sturdy wand features a large preserved eye attached to the end. The eye follows your gaze disconcertingly.",
+				{
+					"type": "entries",
+					"name": "Intellect of the Beholder",
+					"entries": [
+						"While attuned to this wand, your Intelligence score increases by 2 (to a maximum of 22). You also recieve a +1 bonus to all Wisdom {@skill Perception}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Lens",
+					"entries": [
+						"This wand holds 3 charges, which replenish each day at dawn. As an action you can point the wand at a target you can see within 120 feet and release a charge at random. Roll a {@dice 4} to determine the effect. All save DCs are your spell save DC or 16, whichever is higher. None of the ray effects requie concentration.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Effect"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Fear Ray.} The target must succeed on a Wisdom saving throw or become {@condition frightened} of you per the {@spell cause fear|xge} spell."
+								],
+								[
+									"2",
+									"{@b Necrotic Ray.} The target must succeed on a Constitution saving throw or take {@damage 3d6 + 2} necrotic damage."
+								],
+								[
+									"3",
+									"{@b Sleep Ray.} The target must succeed on a Wisdom saving throw or fall asleep per the {@spell sleep} spell."
+								],
+								[
+									"4",
+									"{@b Ray of Mastery.} You cast a spell of your choice from your list of prepared spells that deals damage. This spell must be 3rd level or lower. You do not expend a spell slot to cast this spell."
+								]
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": [
+				"cause fear",
+				"sleep"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Repurposed-Eyestalk.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ring of the Fey",
+			"source": "RotR2",
+			"page": 7,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"This bone-white ring has a skull-like imprint on the face, and a sunstone gem adorning the top.",
+				{
+					"type": "entries",
+					"name": "Mind of the Fey",
+					"entries": [
+						"While attuned to this ring your Intelligence score increases by 1. Additionally, you gain a +2 bonus to all Intelligence ({@skill Arcana}) and Intelligence ({@skill Nature}) skill checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"While attuned to this ring you have advantage on all saving throws made to resist being charmed, and magic can't put you to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light of the Feywild",
+					"entries": [
+						"Onc per day you can use this ring to cast a special type of {@spell faerie fire}. {@i Faerie fire} cast in this manner does not require concentration and tints the affected area orange and red. While you are in the feywild the range and cube size increase by 10 feet."
+					]
+				}
+			],
+			"attachedSpells": [
+				"faerie fire"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Ring-of-the-Fey.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Alabaster White)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"When drawn around a creature that is {@condition unconscious} and at 0 hit points, this will immediately stabilize them. This shape has no effect on constructs or the undead."
+						],
+						[
+							"Circle",
+							"While standing inside the circle you are granted a {@dice 1d4} bonus on a single ability check of your choice."
+						],
+						[
+							"Triangle",
+							"Creates a sacred glypn that encompasses a 5-foot square. Any undead creature walking over the glyph must succeed on a Dexterity saving throw ({@dc 15}) or take {@damage 1d8 + 2} radiant damage."
+						],
+						[
+							"Cross",
+							"Completely and irreversibly erases all information from a piece of paper or parchment."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Alabaster-White.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Bright Yellow)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"Fills one container placed within the square with 1 pint of your favorite wine or ale."
+						],
+						[
+							"Circle",
+							"Casts {@spell light} on the object the circle is drawn on."
+						],
+						[
+							"Triangle",
+							"Fills a container placed within the triangle with 1 pint of {@item oil (flask)|phb|oil}."
+						],
+						[
+							"Cross",
+							"Wards a 5-foot square such that {@spell grease} ({@dc 12}) is cast on that space when a creature walks over it. A maximum of 3 bright yellow crosses may be active at a time."
+						]
+					]
+				}
+			],
+			"attachedSpells": [
+				"light",
+				"grease"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Bright-Yellow.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Charming Pink)",
+			"source": "RotR2",
+			"page": 7,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"Tunes and repairs an instrument it is drawn on (per {@spell mending})."
+						],
+						[
+							"Circle",
+							"While standing inside the circle, any music you play or vocalizations you make sound three times as loud."
+						],
+						[
+							"Triangle",
+							"Dramatic lighting fills a 10-foot cube centered around the triangle, causing Charisma ({@skill Performance}) checks made within the cube to gain a +3 bonus."
+						],
+						[
+							"Cross",
+							"Causes a small display of {@spell prestidigitation}-based fireworks when stepped on by a creature."
+						]
+					]
+				}
+			],
+			"attachedSpells": [
+				"mending",
+				"prestidigitation"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Charming-Pink.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Cloudy Gray)",
+			"source": "RotR2",
+			"page": 8,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"Anything drawn or written with this chalk and then enclosed within a square will appear in the sky per the {@spell skywrite|xge} spell. Using this feature takes two uses."
+						],
+						[
+							"Circle",
+							"{@spell Fog cloud} is cast at 1st level, centered on the circle. Only one circle may be active at a time."
+						],
+						[
+							"Triangle",
+							"A translucent surface the triangle is drawn on becomes opaque for 1 hour."
+						],
+						[
+							"Cross",
+							"Clouds begin to gather in the sky above the cross, threatening a thunderstorm."
+						]
+					]
+				}
+			],
+			"attachedSpells": [
+				"skywrite",
+				"fog cloud"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Cloudy-Gray.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Flame Red)",
+			"source": "RotR2",
+			"page": 8,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"The first creature that walks over this square must make a Dexterity saving thow ({@dc 10}) or take {@dice 1d6} fire damage. This shape only lasts for up to 24 hours."
+						],
+						[
+							"Circle",
+							"A mundane campfire is conjured, with enough fuel to burn for 8 hours."
+						],
+						[
+							"Triangle",
+							"All food inside the triangle when it is completed is cooked to perfection."
+						],
+						[
+							"Cross",
+							"Casts {@spell heat metal} ({@dc 12}) if drawn on a metal object."
+						]
+					]
+				}
+			],
+			"attachedSpells": [
+				"heat metal"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Flame-Red.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Midnight Black)",
+			"source": "RotR2",
+			"page": 8,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"When drawn around a lock, the next Dexterity ({@skill Sleight of Hand}) check made to unlock it is made with advantage."
+						],
+						[
+							"Circle",
+							"While standing inside the circle you have advantage on Wisdom ({@skill Perception}) checks made to spot traps."
+						],
+						[
+							"Triangle",
+							"{@item caltrop|phb|Caltrops} are conjured that cover a 5-foot square around the triangle."
+						],
+						[
+							"Cross",
+							"When drawn on a piece of footwear, those wearing them gain a +3 bonus to Dexterity ({@skill Stealth}) checks for 1 hour. This effect does not stack."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Midnight-Black.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Navy Blue)",
+			"source": "RotR2",
+			"page": 8,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"While standing inside the circle, you may cast {@spell shape water|xge} for the next hour. Only on creature may be under the influence of this shape at once."
+						],
+						[
+							"Circle",
+							"Fills a container placed within the circle with up to 1 gallon of freshwater."
+						],
+						[
+							"Triangle",
+							"Creates an arcane umbrella 10 feet above this symbol shielding a 10-foot radius from rain."
+						],
+						[
+							"Cross",
+							"Destroys up to 1 gallon of water inside a container placed on the cross."
+						]
+					]
+				}
+			],
+			"attachedSpells": [
+				"shape water"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Navy-Blue.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Royal Purple)",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"When drawn on a shield, grants a +1 bonus to AC for 1 hour. Only one shape may be active at a time."
+						],
+						[
+							"Circle",
+							"When drawn on armor, grants resistance to bludgeoning damage for 1 hour. Only one shape may be active at a time."
+						],
+						[
+							"Triangle",
+							"When drawn on armor, grants resistance to piercing damage for 1 hour. Only one shape may be active at a time."
+						],
+						[
+							"Cross",
+							"When drawn on armor, grants resistance to slashing damage for 1 hour. Only one shape may be active at a time."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Royal-Purple.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Sky Blue)",
+			"source": "RotR2",
+			"page": 8,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"Casts {@spell alarm} on the edges of the square, up to a 20-foot cube."
+						],
+						[
+							"Circle",
+							"Casts {@spell purify food and drink} on any container inside the circle."
+						],
+						[
+							"Triangle",
+							"Casts {@spell mending} on any object you draw it on."
+						],
+						[
+							"Cross",
+							"Instantly locks a mechanical lock on a chest or door."
+						]
+					]
+				}
+			],
+			"attachedSpells": [
+				"alarm",
+				"purify food and drink",
+				"mending"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Sky-Blue.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Swamp Green)",
+			"source": "RotR2",
+			"page": 8,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"A 5-foot square centered on this square becomes coated in a thick, gluelike substance. Any creature stepping through this space must make a Strength ({@skill Athletics}) check ({@dc 9}) to avoid becoming {@condition restrained}. If a creature becomes restrained, they may use an action to repeat the save. Only 1 square may be active at a time. The effects of this shape fade after 24 hours."
+						],
+						[
+							"Circle",
+							"Coats a weapon or one piece of ammunition the shape is drawn on with acid, which deals an extra {@damage 1d4} acid damage on the next hit it makes."
+						],
+						[
+							"Triangle",
+							"Conjures one empty {@item vial|phb} within the triangle."
+						],
+						[
+							"Cross",
+							"Grants acid resistance to the wearer of a shield or piece of armor the cross is drawn on."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Swamp-Green.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Vine Green)",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"Conjures {@dice 1d4} {@spell goodberry|phb|goodberries} within the square."
+						],
+						[
+							"Circle",
+							"When drawn around a plant, reveals basic information about the plant and any potential alchemical or magical uses."
+						],
+						[
+							"Triangle",
+							"Any alchemy- or herbology-based skill checks made within the triangle are made with advantage."
+						],
+						[
+							"Cross",
+							"When drawn on an item or creature, reveals whether the target is poisonous or venemous to the person who drew the symbol."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Vine-Green.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Runechalk (Warm Orange)",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces.",
+				{
+					"type": "entries",
+					"name": "Chalk One Up",
+					"entries": [
+						"As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have an Intelligence of 10 or higher to draw these symbols. Only one symbol can be active at a time. You can draw up to 20 symbols with this chalk before it is used up."
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Shape",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Square",
+							"Transmutes up to 1 cubic foot of material into soft wood."
+						],
+						[
+							"Circle",
+							"Transmutes up to 1 cubic foot of material to solid rock."
+						],
+						[
+							"Triangle",
+							"Transmutes up to 1 cubic foot of material to solid iron."
+						],
+						[
+							"Cross",
+							"Transmutes up to 1 cubic foot of material to loose earth."
+						]
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Runechalk-Warm-Orange.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sanctified Gilded Skull",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This gold-trimmed skull has three sapphire gems embedded into it: one in each eye, and one in the center of the forehead.",
+				{
+					"type": "entries",
+					"name": "Ward of the Afterlife",
+					"entries": [
+						"If you are dealt necrotic damage while attuned to this item, roll {@dice 1d6} and subtract the rolled number from the amount of damage you receive. Additionally, undead creatures cannot be created or summoned within 100 feet of this item. (Existing undead can enter this range.)"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necromantic Aversion",
+					"entries": [
+						"If you are targeted with a necromanic spell of 1st through 3rd level, you may choose to negate the effects of the spell. If you choose to use this feature, roll {@dice 1d20}. On a 5 or higher, the effect is negated. On a 1, the skull shatters and is destroyed. You may use this feature once per long rest."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Sanctified-Gilded-Skull.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sapphire Claws",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a barbarian, druid, fighter, or monk",
+			"wondrous": true,
+			"entries": [
+				"These dark bracers and gloves have sapphires embedded into the back of the hand, along the first row of knuckles, and as sharp nails projecting from the fingertips.",
+				{
+					"type": "entries",
+					"name": "Cat's Slash",
+					"entries": [
+						"Your unarmed strikes are considered magical for the purposes of overcoming damage resistance/immunity, and you are considered armed (dealing slashing damage instead of bludgeoning). You have a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cave Climber",
+					"entries": [
+						"You gain a climbing speed equal to half your movement speed, and any Strength ({@skill Athletics}) check made to grapple a creature has a +1 bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crystal Shaper",
+					"entries": [
+						"You gain the ability to cast {@spell mold earth|xge} and {@spell light}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Sapphire-Claws.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sapphire Claws (Cursed)",
+			"source": "RotR2",
+			"page": 9,
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": "by a barbarian, druid, fighter, or monk",
+			"curse": true,
+			"wondrous": true,
+			"entries": [
+				"These dark bracers and gloves have sapphires embedded into the back of the hand, along the first row of knuckles, and as sharp nails projecting from the fingertips.",
+				{
+					"type": "entries",
+					"name": "Cat's Slash",
+					"entries": [
+						"Your unarmed strikes are considered magical for the purposes of overcoming damage resistance/immunity, and you are considered armed (dealing slashing damage instead of bludgeoning). You have a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cave Climber",
+					"entries": [
+						"You gain a climbing speed equal to half your movement speed, and any Strength ({@skill Athletics}) check made to grapple a creature has a +1 bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crystal Shaper",
+					"entries": [
+						"You gain the ability to cast {@spell mold earth|xge} and {@spell light}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sapphire Parasitism (Curse)",
+					"entries": [
+						"This item is cursed, and attuning to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic (or by amputating the arm it is worn on), this item clasps painfully around your arms and is unable to be removed or unattuned. Despite this, you are unwilling to part with this item until the curse is broken.",
+						"If the curse is not broken in 1 week, you feel your fingertips turn cold and harden as they begin to fuse with the item over the course of {@dice 1d4} days. Once fused, nothing short of a {@spell wish} or amputating the arm it is worn on will break the curse."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Sapphire-Claws.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Scout's Arrow",
+			"source": "RotR2",
+			"page": 10,
+			"type": "A",
+			"rarity": "rare",
+			"entries": [
+				"This sleek arrow features runes etched into the tip.",
+				{
+					"name": "Farshot",
+					"type": "entries",
+					"entries": [
+						"When you make a ranged attack with this arrow, the normal range for the bow is extended by 50 feet and the long range is extended by 100 feet."
+					]
+				},
+				{
+					"name": "Sharp Eye",
+					"type": "entries",
+					"entries": [
+						"On subsequent turns after shooting this arrow, you can spend an action to see the arrow's surroundings. This effect can last up to 1 minute and requires concentration. During this time, you are {@condition blinded|phb|blind} and {@condition deafened|phb|deaf} with respect to your own senses, seeing and hearing instead from the arrow.",
+						"While this effect is active, you have {@sense truesight} for a 60-foot radius centered on the arrow."
+					]
+				},
+				{
+					"name": "Single Use",
+					"type": "entries",
+					"entries": [
+						"Activating the {@i Sharp Eye} feature expends the magic enchanting it, causing it to become a mundane {@item arrow|phb}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Scouts-Arrow.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shadowborn's Second Skin",
+			"source": "RotR2",
+			"page": 10,
+			"baseItem": "leather armor|phb",
+			"type": "LA",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 10,
+			"ac": 12,
+			"entries": [
+				"This otherwise unremarkable {@item leather armor|phb} features a small, crescent-shaped band of metal affixed to the chest.",
+				{
+					"type": "entries",
+					"name": "Shadow Stalker",
+					"entries": [
+						"You gain a +2 bonus to all Dexterity ({@skill Stealth}) checks. While you are in dim light or darkness, this bonus rises to +4."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swift as Nightfall",
+					"entries": [
+						"Once per day, you can use a bonus action to cast {@spell misty step}."
+					]
+				}
+			],
+			"attachedSpells": [
+				"misty step"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Shadowborns-Second-Skin.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shadowglass Dagger",
+			"source": "RotR2",
+			"page": 10,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This {@item dagger|phb} was cut, rather than forged, from the purest of obsidian found in the Barrier Peaks.",
+				{
+					"type": "entries",
+					"name": "Unseen",
+					"entries": [
+						"You have a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadow Recall",
+					"entries": [
+						"Once per round as part of an attack, you can cause this blade to reappear in your hand from up to 200 feet away. It disappears into a void of darkness and appears in a free hand. Alternatively, you can use a bonus action to recall the blade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Twist the Knife",
+					"entries": [
+						"Twice per day following a successful attack with this weapon, you can let go of it (if the attack was a melee attack) and use a bonus action to speak a command word. Doing so causes the blade to twist in the wound, dealing an additional {@dice 2d4 + 2} damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slippery Surface",
+					"entries": [
+						"This dagger cannot be coated in any type of poison, nor can it suffer any metal-based decay such as rust."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Shadowglass-Dagger.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shield of the Roc",
+			"source": "RotR2",
+			"page": 10,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This feather-shaped shield feels lighter than it should be for its size.",
+				{
+					"type": "entries",
+					"name": "Light as a Feather",
+					"entries": [
+						"Twice per long rest, you can use your reaction to cast {@spell feather fall} on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elemental Origin",
+					"entries": [
+						"Once per day, if you are on the elemental plane of air with this shield, you can spend an action to gain a flying speed equal to your normal movement speed for 1 hour. If this shield has been present on the elemental plane of air for 24 consecutive hours, this feature can be used on any plane, and its rarity increases to rare. (See {@item Shield of the Roc (Rare)|RotR2}.)"
+					]
+				}
+			],
+			"attachedSpells": [
+				"feather fall"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Shield-of-the-Roc.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shield of the Roc (Rare)",
+			"source": "RotR2",
+			"page": 10,
+			"baseItem": "shield|phb",
+			"type": "S",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This feather-shaped shield feels lighter than it should be for its size.",
+				{
+					"type": "entries",
+					"name": "Light as a Feather",
+					"entries": [
+						"Twice per long rest, you can use your reaction to cast {@spell feather fall} on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elemental Origin",
+					"entries": [
+						"Once per day, you can spend an action to gain a flying speed equal to your normal movement speed for 1 hour."
+					]
+				}
+			],
+			"attachedSpells": [
+				"feather fall"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Shield-of-the-Roc.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Staff of Amplification",
+			"source": "RotR2",
+			"page": 11,
+			"baseItem": "quarterstaff|phb",
+			"rarity": "rare",
+			"reqAttune": true,
+			"focus": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"This metallic staff features a curious holed box at the top.",
+				{
+					"type": "entries",
+					"name": "Arcane Voice",
+					"entries": [
+						"Whenever you cast a spell with a verbal component that requires the target to make a saving throw, your spell save DC has a +2 bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reverberating Performance",
+					"entries": [
+						"If you are capable of granting {@classFeature bardic inspiration|bard||1||bardic inspiration}, you may grant any creature that uses your bardic inspiration die (including yourself) a bonus to the inspiration die roll equal to your Charisma modifier. You may declare granting this bonus before the inspiration die is rolled. You may use this feature twice per long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stage Presence",
+					"entries": [
+						"You can cause your voice to boom up to three times as loud as normal for up to 1 minute per the {@spell thaumaturgy} cantrip."
+					]
+				}
+			],
+			"attachedSpells": [
+				"thaumaturgy"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Staff-of-Amplification.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Tiny Duck Crown",
+			"source": "RotR2",
+			"page": 11,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This bracelet appears to have a duck's foot imprinted on one side.",
+				{
+					"type": "entries",
+					"name": "Karl's Legacy",
+					"entries": [
+						"While attuned to this bracelet, you gain a +1 bonus to your Wisdom score.",
+						"Each day at dawn, roll a {@dice d20}. If the result is 10 or higher, all ducks in a 1-mile radius flock to you over the next hour and follow you around until dusk. Roll on the table below to determine how many ducks follow you.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Habitat",
+								"Number of Ducks"
+							],
+							"colStyles": [
+								"col-6",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"Natural (e.g. forest, hill)",
+									"{@dice 4d8}"
+								],
+								[
+									"Unlikely (e.g. mointain)",
+									"{@dice 2d8}"
+								],
+								[
+									"Very unlikely (e.g. Avernus)",
+									"{@dice 1d8}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "King of Ducks",
+					"entries": [
+						"By speaking a command word ('Quack'), up to 5 ducks will perform the {@action help} action (minimum of 3 ducks). The ducks cannot attack, and will not perform any other action. Each duck has 1 hit point and an AC of 5. The ducks that assist you leave once the task has been completed. This feature cannot be used if there are fewer than 3 ducks remaining, but the remaining ducks will still follow you until dusk."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Tiny-Duck-Crown.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Warmage's Longsword",
+			"source": "RotR2",
+			"page": 11,
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"recharge": "dawn",
+			"charges": 5,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"The blade and pommel of this {@item longsword|phb} feature several shimmering jaspers.",
+				{
+					"type": "entries",
+					"name": "Battleworn",
+					"entries": [
+						"You have a +2 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Knowledge of the Warmage",
+					"entries": [
+						"While attuned to this sword you gain a +2 bonus to Intelligence ({@skill Arcana}) and Intelligence ({@skill History}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Barrage",
+					"entries": [
+						"This sword has 5 charges, one in each gemstone on the blade. As an action you may expend charges to release {@spell magic missile} darts. You may expend any number of charges at once, releasing 1 dart for every charge spent. All spent charges are regained at dawn."
+					]
+				}
+			],
+			"attachedSpells": [
+				"magic missile"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Warmages-Longsword.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wayfinder",
+			"source": "RotR2",
+			"page": 11,
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Faint arcane runes run along the length of this {@item longsword|phb}, which seems to drift in a certain direction when not being attended to.",
+				{
+					"type": "entries",
+					"name": "Etched and Honed",
+					"entries": [
+						"You have a +1 bonus to attack and damage rolls made with this magic weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wanderer of the Wilds",
+					"entries": [
+						"While attuned to this sword you gain a +2 bonus to Intelligence ({@skill Nature}) and Wisdom ({@skill Survival}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Compass",
+					"entries": [
+						"While on the material plane, you can place this sword on the ground and speak a command word, causing the sword to slowly rotate until the point faces northward. If you are not on the material plane, the sword will point toward the nearest portal back to the material plane (if there is one)."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Wayfinder.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Wrath of the Tempest",
+			"source": "RotR2",
+			"page": 11,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": "by a cleric, druid, sorcerer, or wizard",
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"This simple silver ring features a deep blue gemstone swirling with stormclouds within.",
+				{
+					"type": "entries",
+					"name": "Stormcloud",
+					"entries": [
+						"Once per day, you can use an action to cast {@spell call lightning} at 4th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "At Home in the Storm",
+					"entries": [
+						"While attuned to this ring, you recieve a +1 bonus to your Constitution score. You gain an additional bonus to your Charisma, Intelligence, or Charisma skill if you are one of the following subclasses:",
+						{
+							"type": "table",
+							"colLabels": [
+								"Skill Bonus",
+								"Subclass"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"rows": [
+								[
+									"+1 Charisma",
+									"{@class sorcerer|phb|Storm sorcerer|Storm|xge}"
+								],
+								[
+									"+1 Intelligence",
+									"{@class wizard|phb|Evocation wizard|Evocation}"
+								],
+								[
+									"+1 Wisdom",
+									"{@class cleric|phb|Tempest Domain cleric|Tempest}, {@class druid|phb|Circle of the Land druid|Land}"
+								]
+							]
+						},
+						"If you are multiclassed into two or more of the above subclasses, the bonus applies to the class you have more levels in. If these levels are the same, choose one of the ability scores to recieve the bonus when you attune."
+					]
+				}
+			],
+			"attachedSpells": [
+				"call lightning"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/EmberHeartshine/5erepo/master/_img/BA/item/RotR2/Wrath-of-the-Tempest.png"
+						}
+					}
+				]
+			}
+		}
+	],
+	"itemGroup": [
+		{
+			"name": "Runechalk",
+			"source": "RotR2",
+			"page": 7,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This simple piece of chalk has been imbued with arcane power that can be released by drawing different shapes on surfaces."
+			],
+			"items": [
+				"Runechalk (Alabaster White)|RotR2",
+				"Runechalk (Bright Yellow)|RotR2",
+				"Runechalk (Charming Pink)|RotR2",
+				"Runechalk (Gloudy Gray)|RotR2",
+				"Runechalk (Flame Red)|RotR2",
+				"Runechalk (Midnight Black)|RotR2",
+				"Runechalk (Navy Blue)|RotR2",
+				"Runechalk (Royal Purple)|RotR2",
+				"Runechalk (Sky Blue)|RotR2",
+				"Runechalk (Swamp Green)|RotR2",
+				"Runechalk (Vine Green)|RotR2",
+				"Runechalk (Warm Orange)|RotR2"
+			]
 		}
 	],
 	"table": [
