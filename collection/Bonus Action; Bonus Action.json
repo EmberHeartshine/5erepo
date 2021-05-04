@@ -6062,7 +6062,7 @@
 					"type": "entries",
 					"name": "Blood Magic",
 					"entries": [
-						"As an action you may regain the spell slot of the last spell you have cast by wounding yourself with this dagger. You deal yourself {@ damage 1d4 + 2} piercing damage and an additional {@damage 1d6} necrotic damage per spell slot level recovered. You may regain a spell slot of up to 6th level in this manner. If the last spell you cast was of 7th or higher you regain a 6th level spell slot instead. You can use this feature only once per long rest and can only use it on yourself."
+						"As an action you may regain the spell slot of the last spell you have cast by wounding yourself with this dagger. You deal yourself {@damage 1d4 + 2} piercing damage and an additional {@damage 1d6} necrotic damage per spell slot level recovered. You may regain a spell slot of up to 6th level in this manner. If the last spell you cast was of 7th or higher you regain a 6th level spell slot instead. You can use this feature only once per long rest and can only use it on yourself."
 					]
 				}
 			],
