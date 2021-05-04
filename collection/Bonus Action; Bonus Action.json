@@ -11820,6 +11820,1454 @@
 					"1750 gp"
 				]
 			]
+		},
+				{
+			"name": "d100 Alcoholic Drinks",
+			"source": "ba",
+			"caption": "Alcoholic Drinks",
+			"colLabels": [
+				"{@dice d100}",
+				"Name",
+				"Description"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-3",
+				"col-8"
+			],
+			"rows": [
+				[
+					"1",
+					"Red Dwarf Stout",
+					"A strong dark red stout, earthy and bitter flavor."
+				],
+				[
+					"2",
+					"Whiteleaf Bitter",
+					"A light colored brew,with sweet undertones that remind you of summer."
+				],
+				[
+					"3",
+					"Seven Spice Ale",
+					"A complex beer with a flavor that is enhanced with seven secret spices."
+				],
+				[
+					"4",
+					"Dragonslash",
+					"A strong and very fizzy brew with notes of roasted hazelnut."
+				],
+				[
+					"5",
+					"Slingshot",
+					"A translucent fizzy drink which tastes refreshing at first, but then hits very hard."
+				],
+				[
+					"6",
+					"Oaksurge",
+					"A dark orange brew with heavy notes of oak."
+				],
+				[
+					"7",
+					"Sunset Pale Ale",
+					"A beer with a deep golden color, hints of tropical fruits."
+				],
+				[
+					"8",
+					"Winterfrost Wine",
+					"A refreshing white wine that is usually served ice-cold in the midst of summer."
+				],
+				[
+					"9",
+					"Cherry Rosé",
+					"A dark rosé wine with a strong flavor of cherry."
+				],
+				[
+					"10",
+					"Bhusker Brown Ale",
+					"A thick dwarven ale with a strong bitter taste."
+				],
+				[
+					"11",
+					"Twelve Hop Liquor",
+					"A brew made from many imported and local hops with a unique balanced flavor."
+				],
+				[
+					"12",
+					"Queen's Grace",
+					"An expensive, heavy and sweet red wine. Only hundred bottles made each year."
+				],
+				[
+					"13",
+					"Treebrew",
+					"A gnomish drink, ripened in hollowmaple trees with a distinct sweet flavor."
+				],
+				[
+					"14",
+					"Sour Apple Cider",
+					"A light tinted cider made from fresh green apples."
+				],
+				[
+					"15",
+					"Meridian Malt",
+					"A dry and light beer that refreshes and rehydrates when you drink it."
+				],
+				[
+					"16",
+					"Wheelbarrow Dark",
+					"An drink that is popular with the working class, a sweet and bitter taste."
+				],
+				[
+					"17",
+					"Red Fruit Sangria",
+					"A sweet red wine, served with from a pitcher with berries and slices of apple in it."
+				],
+				[
+					"18",
+					"Nordic Special Reserve",
+					"A strong and heavy beer with notes of herbs from the north."
+				],
+				[
+					"19",
+					"Sylvanic Bitter",
+					"A dark and still beer, stored in mahogany which permeates the taste."
+				],
+				[
+					"20",
+					"Golden Stout",
+					"A heavy ale that despite its full taste has a pleasant golden color."
+				],
+				[
+					"21",
+					"Honey Mead",
+					"A mead with strong notes of floral honey."
+				],
+				[
+					"22",
+					"Altenport Ale",
+					"A pleasant brew with hints of oats. It is aged for a year before consuming."
+				],
+				[
+					"23",
+					"Essian Light Ale",
+					"A pale ale with light notes of chamomile."
+				],
+				[
+					"24",
+					"Hazel Twister",
+					"A light brown fizzy beer with a slightly bitter taste."
+				],
+				[
+					"25",
+					"Athorean Mint Mead",
+					"A clear light-green drink with a refreshing sweet minty taste"
+				],
+				[
+					"26",
+					"Sparkling Pear Cider",
+					"A pale yellow fizzy cider with a strong taste of pear."
+				],
+				[
+					"27",
+					"Whisper Ale",
+					"A regular ale brewed by an order of silent monks."
+				],
+				[
+					"28",
+					"Herzloch Brew",
+					"A complex beer brewed with water from a large mountain lake in the north."
+				],
+				[
+					"29",
+					"Derstan Special",
+					"A regional beer with a faint flavor of juniper berries."
+				],
+				[
+					"30",
+					"Morish Sparkle",
+					"A sweet sparkling white wine, often served with a single grape in the glass."
+				],
+				[
+					"31",
+					"D'Entarian White",
+					"A simple dry elvish white wine with hints of elderflower. Aged for at least 5 years."
+				],
+				[
+					"32",
+					"Finc Red",
+					"A fruity red wine with hints of raspberry."
+				],
+				[
+					"33",
+					"Desert Stout",
+					"A complex beer which uses water from desert cacti as a base."
+				],
+				[
+					"34",
+					"River Nectar Mead",
+					"A golden hued mead. The sweet flavor is enhanced with the nectar of a river lily."
+				],
+				[
+					"35",
+					"Thunderblast Beer",
+					"A strong dark beer that impacts the senses like a hammer to the head."
+				],
+				[
+					"36",
+					"The Enigma",
+					"A gnomish produced beer that tastes completely different for each race."
+				],
+				[
+					"37",
+					"Black Wing Beer",
+					"An opaque black beer with an extremely bitter taste."
+				],
+				[
+					"38",
+					"Pure Spring Ale",
+					"A bubbly pale ale with a pleasantly light taste."
+				],
+				[
+					"39",
+					"Strawberry Wine",
+					"A light red wine with a strong taste of strawberries throughout."
+				],
+				[
+					"40",
+					"Half Man Brew",
+					"A golden beer with twice as much alcohol as a regular beer."
+				],
+				[
+					"41",
+					"Rats Tail Ale",
+					"A dark brown ale with a sour taste which only a few people like."
+				],
+				[
+					"42",
+					"Fang Brew",
+					"An opaque dark brown beer with a sharp bitter taste."
+				],
+				[
+					"43",
+					"Lucky Penny",
+					"A dark gold halfling wine-like drink with hints of red apple."
+				],
+				[
+					"44",
+					"Morning Light Ale",
+					"A pale ale with hints of fruit throughout the flavor."
+				],
+				[
+					"45",
+					"Mulled Wolf Wine",
+					"A classic spiced red wine, usually served hot."
+				],
+				[
+					"46",
+					"Cave Grog",
+					"A crudely brewed drink with a bitter taste that lingers for a long time."
+				],
+				[
+					"47",
+					"Bull's Hoof Beer",
+					"A common beer with an earthy aftertaste."
+				],
+				[
+					"48",
+					"Hunter's Relief",
+					"A dark red wine with strong notes of fragrant herbs."
+				],
+				[
+					"49",
+					"Blue Bunny Brew",
+					"A light fizzy beer enjoyed by gnomes and halflings."
+				],
+				[
+					"50",
+					"Silver Crown Beer",
+					"A pale gold beer that has a glistening white foam when served."
+				],
+				[
+					"51",
+					"Vanilla Riddle",
+					"A dark brown beer with strong notes of vanilla."
+				],
+				[
+					"52",
+					"Barley Oat Ale",
+					"A heavy dark ale with a taste of toasted oats."
+				],
+				[
+					"53",
+					"Snaketongue",
+					"A spiced red wine, people always joke it makes a liar out of you."
+				],
+				[
+					"54",
+					"Pine Mountain Beer",
+					"A strong dwarven ale that is aged in pine barrels."
+				],
+				[
+					"55",
+					"Cinnamon Wine",
+					"A red wine infused with sticks of cinnamon."
+				],
+				[
+					"56",
+					"Storm Brewery Ale",
+					"A strong ale with a surprising fizziness."
+				],
+				[
+					"57",
+					"Boreal Ale",
+					"A dark brew made by northerners, it has a slight salty aftertaste."
+				],
+				[
+					"58",
+					"Kordaasi Strongwater",
+					"A crude beer with an intense bitter taste, favored amongst orcs."
+				],
+				[
+					"59",
+					"Bitterwing",
+					"Served in relatively small glasses, an opaque black ale with a strong herb taste."
+				],
+				[
+					"60",
+					"Autumn Blend Shiraz",
+					"A wine infused with various autumn spices and fruits. Sometimes served warm."
+				],
+				[
+					"61",
+					"Blackberry Wine",
+					"A sparkling dark purple wine made from blackberries."
+				],
+				[
+					"62",
+					"Blackvald Red",
+					"A common half-dry red wine with an intense dark coloration."
+				],
+				[
+					"63",
+					"Deep Brew",
+					"An ale made with fermented mushrooms, has a surprising sweet and nutty taste."
+				],
+				[
+					"64",
+					"Blood of the North",
+					"A red wine brewed by a religious group, only their leader knows the recipe."
+				],
+				[
+					"65",
+					"Sternish Merlot",
+					"A sparkling red wine. The cork is sealed with silver wax."
+				],
+				[
+					"66",
+					"Tundra Blanc",
+					"A simple and sober white wine."
+				],
+				[
+					"67",
+					"Summer Stout",
+					"A bright orange stout with a hint of citrus."
+				],
+				[
+					"68",
+					"Lion's Pride Reserve",
+					"A special brew from the brewery that serves the royal family."
+				],
+				[
+					"69",
+					"Mountain Tears",
+					"A light ale made using the fresh water from a mountain creek."
+				],
+				[
+					"70",
+					"Talvald Gold",
+					"A fruity white wine with a deep golden hue to it."
+				],
+				[
+					"71",
+					"Nightfall Ale",
+					"A light ale with a dark coloration, the taste is sometimes bitter, sometimes sweet."
+				],
+				[
+					"72",
+					"Eagle Ale",
+					"A common beer served with a thick layer of white foam."
+				],
+				[
+					"73",
+					"River's Luck",
+					"A deep golden beer with a pleasant aftertaste."
+				],
+				[
+					"74",
+					"Black Honey Stout",
+					"A dark bittersweet stout."
+				],
+				[
+					"75",
+					"Glacial Stout",
+					"A relatively pale, light fizzy beer served icecold."
+				],
+				[
+					"76",
+					"Citrus Cider",
+					"A green applecider infused with lemon and lime."
+				],
+				[
+					"77",
+					"Duskwine",
+					"An extremely dark red wine infused with herbs that relax the senses."
+				],
+				[
+					"78",
+					"Minted White",
+					"A refreshing sparkly white wine infused with mint."
+				],
+				[
+					"79",
+					"Pink Acres Rosé",
+					"A light rosé with a slight taste of peaches."
+				],
+				[
+					"80",
+					"Red Horse Label Ale",
+					"A rare ale reserved for special occasions, complex and pleasantly bitter."
+				],
+				[
+					"81",
+					"Gift of the Lake",
+					"A blend of apple and pear cider."
+				],
+				[
+					"82",
+					"Verdant Valley Beer",
+					"A beer with a strong and sturdy hop taste that is appreciated by most humans."
+				],
+				[
+					"83",
+					"Stardust Sauvignon",
+					"A dry white wine that is traditionally served in silver cups."
+				],
+				[
+					"84",
+					"Lemon Wine",
+					"A fruity white wine infused with lemon."
+				],
+				[
+					"85",
+					"Chopping Block",
+					"A strong thick dark ale, it is said that it 'will knock your head clean off'."
+				],
+				[
+					"86",
+					"Maiden's Kiss",
+					"A light red wine with notes of rosewater."
+				],
+				[
+					"87",
+					"Silver Archer",
+					"A sparkling white wine with a bit of a bitter aftertaste."
+				],
+				[
+					"88",
+					"Lavender Blanc",
+					"A sweet purple hued wine infused with lavender."
+				],
+				[
+					"89",
+					"Wine of the Eldervine",
+					"A deep and full red wine that is aged for a decade in oaken barrels."
+				],
+				[
+					"90",
+					"Secret Garden Reserve",
+					"A fizzy beer with a slight floral aftertaste."
+				],
+				[
+					"91",
+					"Shifted Acres Red",
+					"A red wine with a strong fruity aroma."
+				],
+				[
+					"92",
+					"Spring Lagoon Brew",
+					"A fizzy regular tasting beer which is sometimes mixed with lemonade."
+				],
+				[
+					"93",
+					"Cannonball Stout",
+					"A beverage drunk mostly by sailors, a shot of rum mixed into any type of stout."
+				],
+				[
+					"94",
+					"Ruby of the Sea",
+					"A dry red wine with a pleasant taste"
+				],
+				[
+					"95",
+					"Luxurian Rosé",
+					"A sweet rosé, it makes some people blush."
+				],
+				[
+					"96",
+					"Windswept Plains Brew",
+					"A dull bitter tasting beer which leaves you thirsty for more."
+				],
+				[
+					"97",
+					"Basquet Vino",
+					"A simple dry red wine with a pleasant taste."
+				],
+				[
+					"98",
+					"Tiger's Eye Reserve",
+					"A deep golden brown brew with a pleasant light bitter taste."
+				],
+				[
+					"99",
+					"Crystal Pale Ale",
+					"An almost translucent pale beer with a light sweet aftertaste."
+				],
+				[
+					"100",
+					"Midnight Pale Ale",
+					"An extremely bitter beer which is hard to swallow for some people."
+				]
+			]
+		},
+		{
+			"name": "d100 Anatomical Potion Ingredients",
+			"source": "ba",
+			"caption": "Ingredients\u2014Anatomical",
+			"colLabels": [
+				"{@dice d100}",
+				"Name"
+			],
+			"colStyles": [
+				"col-1 text-center"
+			],
+			"rows": [
+				[
+					"1",
+					"{@creature Aboleth} Mucus"
+				],
+				[
+					"2",
+					"{@creature Androsphinx} Hair"
+				],
+				[
+					"3",
+					"{@creature Ankheg} Chitin"
+				],
+				[
+					"4",
+					"{@creature Awakened Tree} Sap"
+				],
+				[
+					"5",
+					"{@creature Balor} Horn"
+				],
+				[
+					"6",
+					"{@creature Basilisk} Salive"
+				],
+				[
+					"7",
+					"{@creature Bearded Devil} Eye"
+				],
+				[
+					"8",
+					"{@creature Behir} lightning gland"
+				],
+				[
+					"9",
+					"{@creature Adult Black Dragon} Blood"
+				],
+				[
+					"10",
+					"{@creature Blink Dog} Eye"
+				],
+				[
+					"11",
+					"{@creature Blue Dragon Wyrmling} Scale"
+				],
+				[
+					"12",
+					"{@creature Bone Devil} Marrow"
+				],
+				[
+					"13",
+					"{@creature Young Brass Dragon} Blood"
+				],
+				[
+					"14",
+					"{@creature Bugbear} Fur"
+				],
+				[
+					"15",
+					"{@creature Bulette} Brain"
+				],
+				[
+					"16",
+					"{@creature Barbed Devil} Spine"
+				],
+				[
+					"17",
+					"{@creature Empyrean} Blood"
+				],
+				[
+					"18",
+					"{@creature Centaur} Hoof"
+				],
+				[
+					"19",
+					"{@creature Chimera} Heart"
+				],
+				[
+					"20",
+					"{@creature Chuul} Eye"
+				],
+				[
+					"21",
+					"{@creature Cloaker} barb"
+				],
+				[
+					"22",
+					"{@creature Cockatrice} Spine"
+				],
+				[
+					"23",
+					"{@creature Adult Copper Dragon} Blood"
+				],
+				[
+					"24",
+					"{@creature Couatl} Tongue"
+				],
+				[
+					"25",
+					"{@creature Deva} Tears"
+				],
+				[
+					"26",
+					"{@creature Doppelganger} Brain"
+				],
+				[
+					"27",
+					"{@creature Dragon Turtle} Blood"
+				],
+				[
+					"28",
+					"{@creature Dryad} Hair"
+				],
+				[
+					"29",
+					"{@creature Efreeti} Ash"
+				],
+				[
+					"30",
+					"{@creature Ettercap} Web"
+				],
+				[
+					"31",
+					"{@creature Ettin} Eye"
+				],
+				[
+					"32",
+					"{@creature Fire Giant} Blood"
+				],
+				[
+					"33",
+					"{@creature Frost Giant} Beard Hair"
+				],
+				[
+					"34",
+					"{@creature Gelatinous Cube} Gel"
+				],
+				[
+					"35",
+					"{@creature Ghast} Tongue"
+				],
+				[
+					"36",
+					"{@creature Ghost} Ectoplasm"
+				],
+				[
+					"37",
+					"{@creature Ghoul} Claws"
+				],
+				[
+					"38",
+					"{@creature Giant Frog} Saliva"
+				],
+				[
+					"39",
+					"{@creature Gnoll} Bile"
+				],
+				[
+					"40",
+					"{@creature Goblin} Nail"
+				],
+				[
+					"41",
+					"{@creature Ancient Gold Dragon} Scale"
+				],
+				[
+					"42",
+					"{@creature Gorgon} Hoof"
+				],
+				[
+					"43",
+					"{@creature Adult Green Dragon} Scale"
+				],
+				[
+					"44",
+					"{@creature Grick} Saliva"
+				],
+				[
+					"45",
+					"{@creature Griffon} Feather"
+				],
+				[
+					"46",
+					"{@creature Gynosphinx} Feather"
+				],
+				[
+					"47",
+					"{@creature Green Hag} Thumb"
+				],
+				[
+					"48",
+					"{@creature Harpy} Feather"
+				],
+				[
+					"49",
+					"{@creature Hell Hound} Tooth"
+				],
+				[
+					"50",
+					"{@creature Hill Giant} Toenail"
+				],
+				[
+					"51",
+					"{@creature Hobgoblin} Nose Hair"
+				],
+				[
+					"52",
+					"{@creature Hydra} Teeth"
+				],
+				[
+					"53",
+					"{@creature Imp} Horns"
+				],
+				[
+					"54",
+					"{@creature Kobold} Tooth"
+				],
+				[
+					"55",
+					"{@creature Kraken} Blood"
+				],
+				[
+					"56",
+					"{@creature Lamia} Blood"
+				],
+				[
+					"57",
+					"{@creature Lich} Tongue"
+				],
+				[
+					"58",
+					"{@creature Manticore} Poison Gland"
+				],
+				[
+					"59",
+					"{@creature Medusa} Nail"
+				],
+				[
+					"60",
+					"{@creature Dust Mephit} Dust"
+				],
+				[
+					"61",
+					"{@creature Merfolk} Scale"
+				],
+				[
+					"62",
+					"{@creature Mimic} Tongue"
+				],
+				[
+					"63",
+					"{@creature Minotaur} Horn"
+				],
+				[
+					"64",
+					"{@creature Mummy} Bone"
+				],
+				[
+					"65",
+					"{@creature Sahuagin} Scale"
+				],
+				[
+					"66",
+					"{@creature Spirit Naga} Bone"
+				],
+				[
+					"67",
+					"{@creature Nothic} Eye"
+				],
+				[
+					"68",
+					"{@creature Ochre Jelly} Pseudopod"
+				],
+				[
+					"69",
+					"{@creature Ogre} Mucus"
+				],
+				[
+					"70",
+					"{@creature Oni} Eye"
+				],
+				[
+					"71",
+					"{@creature Zombie} Skin"
+				],
+				[
+					"72",
+					"{@creature Otyugh} Tongue"
+				],
+				[
+					"73",
+					"{@creature Owlbear} Beak"
+				],
+				[
+					"74",
+					"{@creature Pegasus} Mane Hair"
+				],
+				[
+					"75",
+					"{@creature Phoenix|mtf} Ashes"
+				],
+				[
+					"76",
+					"{@creature Pit Fiend} Blood"
+				],
+				[
+					"77",
+					"{@creature Pixie} Dust"
+				],
+				[
+					"78",
+					"{@creature Pseudodragon} Wing"
+				],
+				[
+					"79",
+					"{@creature Purple Worm} Blood"
+				],
+				[
+					"80",
+					"{@creature Rakshasa} Claw"
+				],
+				[
+					"81",
+					"{@creature Ancient Red Dragon} Scale"
+				],
+				[
+					"82",
+					"{@creature Remorhaz} Blood"
+				],
+				[
+					"83",
+					"{@creature Rust Monster} Saliva"
+				],
+				[
+					"84",
+					"{@creature Satyr} Horn"
+				],
+				[
+					"85",
+					"{@creature Sea Hag} Eyelashes"
+				],
+				[
+					"86",
+					"{@creature Shambling Mound} Core"
+				],
+				[
+					"87",
+					"{@creature Silver Dragon Wyrmling} Tooth"
+				],
+				[
+					"88",
+					"{@creature Stirge} Wing"
+				],
+				[
+					"89",
+					"{@creature Tarrasque} Bile"
+				],
+				[
+					"90",
+					"{@creature Treant} Bark"
+				],
+				[
+					"91",
+					"{@creature Troll} Toe"
+				],
+				[
+					"92",
+					"{@creature Unicorn} Horn"
+				],
+				[
+					"93",
+					"{@creature Vampire} Tooth"
+				],
+				[
+					"94",
+					"{@creature Water Elemental} Water"
+				],
+				[
+					"95",
+					"{@creature Wereboar} Tusk"
+				],
+				[
+					"96",
+					"{@creature Wererat} Whiskers"
+				],
+				[
+					"97",
+					"{@creature Werewolf} Hair"
+				],
+				[
+					"98",
+					"{@creature Young White Dragon} Scale"
+				],
+				[
+					"99",
+					"{@creature Wyvern} Stinger"
+				],
+				[
+					"100",
+					"{@creature Xorn} Nail"
+				]
+			]
+		},
+		{
+			"name": "d100 Books",
+			"source": "ba",
+			"caption": "Books",
+			"colLabels": [
+				"{@dice d100}",
+				"Title",
+				"Author"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-7",
+				"col-4"
+			],
+			"rows": [
+				[
+					"1",
+					"The Balance of Nature",
+					"Aemaris Frostward"
+				],
+				[
+					"2",
+					"Black Tides",
+					"Jeronimus Alvarez"
+				],
+				[
+					"3",
+					"The Tales of Brave Sir Eobald Sofia Riverwalker",
+					"Sofia Riverwalker"
+				],
+				[
+					"4",
+					"Habits of Wolves",
+					"Marius Scandia"
+				],
+				[
+					"5",
+					"Stones of Wonder",
+					"Master Bernhard Blane of Astora"
+				],
+				[
+					"6",
+					"A Peculiar Visit",
+					"Zaspira of Rornach"
+				],
+				[
+					"7",
+					"Gnomes, Cultural Studies and Research",
+					"Professor S. Dornelia"
+				],
+				[
+					"8",
+					"A Kingdom through the Ages",
+					"Ezra Newlake"
+				],
+				[
+					"9",
+					"8 Lies and a Truth",
+					"Armando Del Atorius"
+				],
+				[
+					"10",
+					"Tactics of Magic in War",
+					"Magister Kristina Cortenia"
+				],
+				[
+					"11",
+					"Tusked Talker: A Guide to Orcish",
+					"Ogorth of the Redrocks"
+				],
+				[
+					"12",
+					"Into the Abyss",
+					"Patricia Delver"
+				],
+				[
+					"13",
+					"The Scared Squirrels of Blackpine Forest",
+					"Tony Packard"
+				],
+				[
+					"14",
+					"Rituals of Crimson: Historical Accounts",
+					"Ashley Marden"
+				],
+				[
+					"15",
+					"The Jade Eye: Legend or Living?",
+					"Damien Oldfern"
+				],
+				[
+					"16",
+					"Field-Guide for Natural Remedies",
+					"Lucasior del Tauri"
+				],
+				[
+					"17",
+					"Regents and Rulers",
+					"Esmeralda Hartius"
+				],
+				[
+					"18",
+					"The Deity within Yourself",
+					"Tibor Ruthner"
+				],
+				[
+					"19",
+					"Purple Skies",
+					"Jamila Khardoni"
+				],
+				[
+					"20",
+					"Everyday Signs and Omens",
+					"Abigayle Freywen"
+				],
+				[
+					"21",
+					"Of Blades and Ballads",
+					"Uman Herzen"
+				],
+				[
+					"22",
+					"The Frozen Temple of the Moon Mother",
+					"Stulnov Beulnir"
+				],
+				[
+					"23",
+					"Gold Coins, Red Wings",
+					"Professor Elinore Markanis"
+				],
+				[
+					"24",
+					"A Question of Fate",
+					"Mohammad Loreaux"
+				],
+				[
+					"25",
+					"Three Princes",
+					"Kira Whitesand"
+				],
+				[
+					"26",
+					"Tragedies of the Crown",
+					"Professor Oswald Townes"
+				],
+				[
+					"27",
+					"A Year of Rain",
+					"Matilda Alexa d'Avifleur"
+				],
+				[
+					"28",
+					"Memoires of Captain Silverhand",
+					"Hadrian Silverhand"
+				],
+				[
+					"29",
+					"A Kobold's Tale",
+					"Doku Goldtooth"
+				],
+				[
+					"30",
+					"the Mystery of Ironfoot Hill",
+					"Viktor Lancelin"
+				],
+				[
+					"31",
+					"Theories of Automation",
+					"Professor Ipheria Deepread"
+				],
+				[
+					"32",
+					"Anatomy of Aquatic Humanoids, Volume 1",
+					"Dr. Astrid Boladeris"
+				],
+				[
+					"33",
+					"2 Appleseeds and a Wheel of Cheese",
+					"Cameron H. Lamorius"
+				],
+				[
+					"34",
+					"Dangers of the Deserts",
+					"Ud'vun Jaran"
+				],
+				[
+					"35",
+					"Delicacies of the Realm",
+					"Chef Rorey Gamsdon"
+				],
+				[
+					"36",
+					"Pavina: The Wingless Pixy",
+					"Myniani Carrotish"
+				],
+				[
+					"37",
+					"Pavina and the Wand of Dragons",
+					"Myniani Carrotish"
+				],
+				[
+					"38",
+					"Pavina and the Skyrunes",
+					"Myniani Carrotish"
+				],
+				[
+					"39",
+					"Monuments of Mankind Constantinus",
+					"Sebastian Greenway the 3rd"
+				],
+				[
+					"40",
+					"Basic Enchantment Patterns",
+					"Magister Erhard Endorius"
+				],
+				[
+					"41",
+					"The Knave of the Navy Banner",
+					"Mimi Ranbares"
+				],
+				[
+					"42",
+					"The Road Without Travelers",
+					"Stulnov Beulnir"
+				],
+				[
+					"43",
+					"An Arcanists' Guide to Spell Components",
+					"Zelmir of Athorea"
+				],
+				[
+					"44",
+					"When Words Become Weapons",
+					"Magister Morgan Olaris"
+				],
+				[
+					"45",
+					"Conjured Creatures: A Study of Sentience",
+					"Grandmaster Elianor Tempius"
+				],
+				[
+					"46",
+					"Dinkbrik's Adventures",
+					"Dinkbrik Springwhistle"
+				],
+				[
+					"47",
+					"The Jeweler's Son",
+					"Ser Ernesto of the Blackvald"
+				],
+				[
+					"48",
+					"Andrew and the Hydra",
+					"Winona Slupper"
+				],
+				[
+					"49",
+					"Like Moths to a Flame",
+					"Salemon the Blessed"
+				],
+				[
+					"50",
+					"The Burden of the Broken",
+					"Rowan Layman"
+				],
+				[
+					"51",
+					"The Golden Wings of Mercy",
+					"Thimoneus Blueshield"
+				],
+				[
+					"52",
+					"Thorns and Petals",
+					"Kathryn von Arkelstein"
+				],
+				[
+					"53",
+					"The Eye That Haunts my Dreams",
+					"Vernon Brandy"
+				],
+				[
+					"54",
+					"Truth Exposed: Doppelganger Royals",
+					"Johnathan Doeman"
+				],
+				[
+					"55",
+					"Modern Poetry and Stories of the Realm",
+					"Leonaris Ov'alec"
+				],
+				[
+					"56",
+					"The Ultimate Guide to Pottery",
+					"Archibald Umner"
+				],
+				[
+					"57",
+					"The Draconomicon",
+					"Ravalynn Doranel"
+				],
+				[
+					"58",
+					"Dwarvish for Beginners",
+					"Adrador Maulforger"
+				],
+				[
+					"59",
+					"The War of Art",
+					"Sai'ku Lee-Yan"
+				],
+				[
+					"60",
+					"The Summer of Strife",
+					"Yralissa Arajyre"
+				],
+				[
+					"61",
+					"A Vacant Room: A Guide to Renting Out Property",
+					"Gilbert Evolin"
+				],
+				[
+					"62",
+					"Grotto's and Golems - Players Handbook",
+					"Barry Blade-Axe"
+				],
+				[
+					"63",
+					"Grotto's And Golems - Grotto Master's Guide",
+					"Barry Blade-Axe"
+				],
+				[
+					"64",
+					"Fur, Feathers and Scales",
+					"Trabar Booplenose"
+				],
+				[
+					"65",
+					"The Masked Men of the Mountain",
+					"Olav Berglam"
+				],
+				[
+					"66",
+					"Eco-Gnomics: Forest Gnome Crafts",
+					"Driphina Teenywise"
+				],
+				[
+					"67",
+					"Elvish Teachings Volume 1: Entry-Level Poetry",
+					"Oteria Sylmaier"
+				],
+				[
+					"68",
+					"Calculus in War: Battle Tactics and Strategies",
+					"Mayor Rosalee Envordius"
+				],
+				[
+					"69",
+					"5 Years of Vines",
+					"Stulnov Beulnir"
+				],
+				[
+					"70",
+					"The Frostbitten War",
+					"Fardek Deephill"
+				],
+				[
+					"71",
+					"Mathmatics for Arcane Practicioners",
+					"Magister Hilda Ashfall"
+				],
+				[
+					"72",
+					"The Rogue and the Rabbit",
+					"Werner Hecklenolz"
+				],
+				[
+					"73",
+					"Descendants of Legends",
+					"Cecilia Whitner"
+				],
+				[
+					"74",
+					"The Belltowers of Morhan",
+					"Noa d'Avortez"
+				],
+				[
+					"75",
+					"As I Stood in the Light and Wondered",
+					"Bhalazar Khardhalon"
+				],
+				[
+					"76",
+					"Goliath Customs and Culture",
+					"Kavad Inkmaster Thelvonik"
+				],
+				[
+					"77",
+					"A Goblin's Quest for Love",
+					"Grimmug"
+				],
+				[
+					"78",
+					"A Matter of Chance",
+					"Tivialix Ravaphius"
+				],
+				[
+					"79",
+					"When the Heavens Break",
+					"Brendon Westwind"
+				],
+				[
+					"80",
+					"Blazes of Undying Flames",
+					"Brendon Westwind"
+				],
+				[
+					"81",
+					"Dragonborn: Chromatic Differentiation Studies",
+					"Rhavokul Chexoralesh"
+				],
+				[
+					"82",
+					"The Fool and the Devil",
+					"Marissa Falconfeather"
+				],
+				[
+					"83",
+					"The Violet Dancer's Last Act",
+					"Elphira Merniadis"
+				],
+				[
+					"84",
+					"A Beggar's Travels",
+					"Magnus Erd"
+				],
+				[
+					"85",
+					"A Silvered Key",
+					"Jules l'Acintreau"
+				],
+				[
+					"86",
+					"Innate Magic: A Study of Magical Creatures",
+					"Professor Sahadir Alcaerishur"
+				],
+				[
+					"87",
+					"The Cloud From Which We Fell",
+					"Lioja Evrionicia"
+				],
+				[
+					"88",
+					"Spices and Herbs: The Definitive Chef's Guide",
+					"Oliver Jameson"
+				],
+				[
+					"89",
+					"In the Face of Anger",
+					"Ercalia Darkheart Gholaeran"
+				],
+				[
+					"90",
+					"Torturer's Handbook to Humanoid Anatomy",
+					"Seth Bhelladorix"
+				],
+				[
+					"91",
+					"Frozen Beards: The Bytrheim Chronicles",
+					"Thorkal Snowsteel"
+				],
+				[
+					"92",
+					"Gwendolyn's Adventures: A Golden Arrow",
+					"Nathaneal Culvares"
+				],
+				[
+					"93",
+					"Gwendolyn's Adventures: Grasp of Fangs",
+					"Nathaneal Culvares"
+				],
+				[
+					"94",
+					"Gwendolyn's Adventures: Escape from the Spire",
+					"Nathaneal Culvares"
+				],
+				[
+					"95",
+					"The Coins of Corruption",
+					"Dario el Chartego"
+				],
+				[
+					"96",
+					"Eternal Rays",
+					"Camillia Rogatus"
+				],
+				[
+					"97",
+					"Knee-Deep in the Flood",
+					"Lauren Danila"
+				],
+				[
+					"98",
+					"Dead Man's Gold",
+					"Adamius Crassus"
+				],
+				[
+					"99",
+					"Sixty Seconds of Smoke",
+					"Thelmund Magdar"
+				],
+				[
+					"100",
+					"The Worst of Luck",
+					"Baersoria Steelfoot"
+				]
+			]
 		}
 	]
 }
